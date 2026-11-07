@@ -5,5 +5,5 @@
   "minimumGuideCharacters": 80,
   "minimumIndexableCollectionGames": 6,
   "hosting": "cloudflare-pages-free",
-  "deploymentReady": false
+  "deploymentReady": true
 }
