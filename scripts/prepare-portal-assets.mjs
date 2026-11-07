@@ -9,7 +9,7 @@ const xml=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').re
 const routes=allRoutes();
 const indexable=routes.filter(isIndexable);
 for(const asset of Object.values(assets))write(asset.path,asset.content);
-write('favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#142126"/><path d="m32 10 6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" fill="#d4ee91"/></svg>');
+write('favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#0c1220"/><path d="m32 10 6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" fill="#d4ee91"/></svg>');
 for(const locale of localeIds){
   const search=localeGames.get(locale).map(game=>({id:game.id,title:titleFor(game,locale),originalTitle:game.title,path:gamePath(locale,game),thumbnail:game.thumbnail,genres:game.genreIds}));
   write(`assets/catalog/${locale}.json`,JSON.stringify(search));

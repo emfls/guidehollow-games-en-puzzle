@@ -3,6 +3,8 @@ name: Verify unified multilingual game portal
 on:
   push:
     branches: [work/unified-game-portal, main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       include_static_archive:
