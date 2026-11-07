@@ -2,7 +2,7 @@
 
 **`games.guidehollow.com` 하나에서 Playgama 제휴 게임 전체를 언어와 주요 장르별로 제공하는 Astro 정적 사이트입니다.** 기존 언어·장르별 저장소와 서브도메인을 늘리던 계획을 중단하고, 기존 puzzle 저장소의 `work/unified-game-portal` 브랜치에서 통합했습니다.
 
-Cloudflare Pages Free의 `guidehollow-games`에 배포했으며 **`https://games.guidehollow.com/`의 HTTPS, 운영 robots·canonical·사이트맵, 한국어 검색과 실제 Sudoku 게임 로딩을 확인했습니다.** `deploymentReady: false`를 유지하고 있으며 main 병합·운영 브랜치 전환, Google 사이트맵 제출과 Naver 실전 통지는 남아 있습니다. 기존 4개 사이트와 저장소는 유지합니다. 실제 설정과 완료 상태는 [배포 문서](docs/PORTAL_DEPLOYMENT.md), 검증 결과는 [검증 기록](docs/PORTAL_VERIFICATION.md)에 있습니다.
+Cloudflare Pages Free의 `guidehollow-games`에 배포했으며 **`https://games.guidehollow.com/`의 HTTPS, 운영 robots·canonical·사이트맵, 한국어 검색과 실제 Sudoku 게임 로딩을 확인했습니다.** main 병합과 Cloudflare 운영 브랜치 전환을 완료했고 `deploymentReady: true`를 반영했습니다. Naver IndexNow에 변경 URL 562개를 통지해 HTTP 200 응답을 확인했습니다. Google Search Console 사이트맵 제출은 해당 서비스 접근의 명시적 승인 대기입니다. 기존 4개 사이트와 저장소는 유지합니다. 실제 설정과 완료 상태는 [배포 문서](docs/PORTAL_DEPLOYMENT.md), 검증 결과는 [검증 기록](docs/PORTAL_VERIFICATION.md)에 있습니다.
 
 ## 구현 범위
 
@@ -66,7 +66,7 @@ npm run preview
 
 썸네일 지연 로딩, 24개씩 페이지네이션, 즐겨찾기·최근 게임, 검색 재시도, 키보드 닫기·포커스 복원, 모바일 스타일과 아랍어 RTL을 제공합니다. 추가 광고 네트워크·분석기는 없으며, 제공업체 광고·제휴 동작을 변조하지 않습니다.
 
-GitHub Actions에는 일일 전체 동기화와 시간별 IndexNow 점검을 준비했습니다. **기본 브랜치 반영 전에는 예약 작업이 활성화되지 않습니다.** 두 워크플로가 기본 브랜치를 체크아웃하므로, 공개 검증 후 main 병합과 Cloudflare 운영 브랜치 전환을 먼저 완료합니다. 현재 `deploymentReady: false`로 실제 Naver 통지를 차단합니다. 이후 `true` 변경·재배포를 거쳐 공개 키와 새 배포 fingerprint가 소스와 일치해야 전송하며, HTTP 200 수신을 실제 색인으로 간주하지 않습니다.
+GitHub Actions의 일일 전체 동기화와 시간별 IndexNow 점검을 기본 브랜치 main에 반영했으며, Cloudflare의 운영 브랜치도 main입니다. 두 워크플로는 기본 브랜치를 체크아웃합니다. `deploymentReady: true` 상태에서도 공개 키와 배포 fingerprint가 소스와 일치해야 전송하며, HTTP 200 수신을 실제 색인·검색 순위·수익 발생의 검증으로 간주하지 않습니다.
 
 ## 이전 작업과 배포
 

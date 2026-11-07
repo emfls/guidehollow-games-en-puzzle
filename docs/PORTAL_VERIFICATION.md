@@ -115,12 +115,28 @@ JSDOM 31이 실제 빌드 HTML을 읽고 실제 `portal/site.js`를 실행했다
 | 사이트맵 | 공개 인덱스가 열리며 전역 1개·언어 22개, 총 23개 하위 사이트맵 연결 확인 |
 | 공개 키 파일 | `.txt` 내용이 설정된 키와 정확히 일치하며 열람 후 URL 변경 없음 |
 
-공개 `/build-info.json`에서 확인한 build ID는 `2af6cd28ad470a6d8a8b44dbdf25bda8646935c112ba0cc203faa66da7cb9643`으로 위 정적 검증 기록과 일치한다. `PORTAL_PREVIEW`는 fingerprint 입력이 아니므로 `preview:false`도 별도로 확인했다.
+위 공개 배포 확인 당시 `/build-info.json`의 build ID는 `2af6cd28ad470a6d8a8b44dbdf25bda8646935c112ba0cc203faa66da7cb9643`으로 정적 검증 기록과 일치했다. `PORTAL_PREVIEW`는 fingerprint 입력이 아니므로 `preview:false`도 별도로 확인했다.
 
-## 남은 확인과 운영 전환
+## main 운영 전환과 검색 통지 — 2026-11-08 KST
 
-`deploymentReady: false`를 유지한다. main 병합과 Cloudflare 운영 브랜치 전환, main 공개 배포 확인, `deploymentReady: true` 변경 후 재배포·새 fingerprint 검증이 남아 있다. 두 자동화 워크플로가 기본 브랜치를 체크아웃하므로 main 전환을 IndexNow 실행보다 먼저 완료한다. 스케줄은 아직 기본 브랜치에 반영되지 않았고, 새 GSC 사이트맵 제출과 Naver 실제 POST도 하지 않았다. 기존 4개 사이트는 유지한다.
+| 항목 | 확인 결과 |
+| --- | --- |
+| 최종 브랜치 CI | [실행 42416811438](https://github.com/emfls/guidehollow-games-en-puzzle/actions/runs/42416811438), 모든 단계 성공 |
+| main 병합 | PR #1, 병합 커밋 `39894a35cecc84d203b3b3ff3a2caa0d5013089d` |
+| Cloudflare 운영 브랜치 | main 저장 완료 |
+| 첫 main 운영 배포 | `a88c0e88-b7ab-4054-8a6a-6adcbcf1fc1f`, 2026-11-08 06:42 KST 성공; 실제 호스트의 `preview:false`와 기존 `2af6cd28…` build ID 일치 확인 |
+| readiness 활성화 | main 커밋 `c99fc3092e5f3043d8b37b4e7de09f6f3bb49031`에서 `deploymentReady: true` 반영 |
+| readiness 커밋 CI | [실행 42417248645](https://github.com/emfls/guidehollow-games-en-puzzle/actions/runs/42417248645), 성공 |
+| readiness 반영 후 운영 배포 | 운영 배포 `3acaf7a7-e447-473d-8238-067e49fa5a20` 성공 후 실제 `games.guidehollow.com`에서 새 fingerprint와 `preview:false`를 확인했다. |
+| 최종 공개 build ID | `fe9d13198bfe270b5daf8ffedd48e199b40cef555fdc6f7247f00f723c36f205` |
+| Naver IndexNow | [실행 42417421382](https://github.com/emfls/guidehollow-games-en-puzzle/actions/runs/42417421382), `submitted`, HTTP 200; 전송 562개(변경 562·제거 0·적격 562), 공개 키·build 검증 통과 |
+| 확정 영수증 | `data/portal/indexnow-receipt.json`: 562페이지, `updatedAt=2026-11-07T21:46:20.120Z`(2026-11-08 06:46:20 KST), `lastConfirmedBuildId`가 위 최종 공개 build ID와 일치 |
+| Google Search Console | 사이트맵 제출 미실행, 비공개 속성·검색 데이터 접근의 명시적 승인 대기 |
+
+일일 카탈로그 동기화(05:17 KST)와 시간별 IndexNow(매시 43분) 워크플로를 기본 브랜치 main에 반영했으며, 두 워크플로 모두 main 소스를 사용한다. 일일 동기화는 이번 작업에서 수동 실행하지 않았다. IndexNow HTTP 200 수신은 실제 색인·검색 순위·수익 발생의 검증이 아니다. 기존 4개 사이트는 유지한다.
+
+## 남은 확인
 
 외부 게임 확인은 Sudoku 표본이며 실제 수익 발생·정산, 전체 게임·언어의 실행, 전체화면 API와 쿠키 동작은 검증하지 않았다. 관찰한 프리롤과 보드 로딩을 수익 검증으로 기록하지 않는다.
 
-IndexNow dry-run은 로컬 형식과 URL 범위만 확인했다. `deploymentReady: true` 변경 후 공개 키·새 build ID 재검증과 실제 Naver 응답, Google 사이트맵 수신 결과를 별도로 기록해야 한다. 수신 성공을 색인 또는 상위 노출 보장으로 기록하지 않는다. 남은 작업은 [배포 순서](PORTAL_DEPLOYMENT.md)에 있다.
+위 정적 검증의 IndexNow dry-run은 로컬 형식과 URL 범위만 확인한 기록이며, 실제 통지 결과는 별도 표에 기록했다. Google Search Console 사이트맵 제출과 수신 결과는 명시적 접근 승인 이후 확인해야 한다. 남은 작업은 [배포 순서](PORTAL_DEPLOYMENT.md)에 있다.

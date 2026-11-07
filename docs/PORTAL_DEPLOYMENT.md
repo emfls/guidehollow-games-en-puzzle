@@ -14,7 +14,9 @@ Cloudflare Pages Free 프로젝트 `guidehollow-games`에 기존 GitHub 저장�
 
 Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이다. 공개 `/build-info.json`의 origin·`preview:false`·build ID와 robots·한국어 canonical·사이트맵·공개 키 파일을 확인했다. 모바일·PC 화면, 한국어 검색, 공식 iframe의 프리롤과 실제 Sudoku 보드 로딩도 확인했다. 세부 관측과 확인 범위는 [공개 배포 검증](PORTAL_VERIFICATION.md#공개-배포-검증--2026-11-08-kst)에 기록했다.
 
-`portal/config.json`의 `deploymentReady`는 `false`다. main 병합과 Cloudflare 운영 브랜치 전환, `deploymentReady: true` 변경 후 재배포·fingerprint 재검증, 새 호스트 Google Search Console 사이트맵 제출과 Naver IndexNow 실제 POST는 아직 남아 있다. 기존 4개 사이트는 유지한다.
+[최종 브랜치 CI](https://github.com/emfls/guidehollow-games-en-puzzle/actions/runs/42416811438)의 모든 단계 통과 후 PR #1을 main에 병합했다(`39894a35cecc84d203b3b3ff3a2caa0d5013089d`). Cloudflare Production branch도 main으로 전환했고 main 운영 배포 `a88c0e88-b7ab-4054-8a6a-6adcbcf1fc1f`가 2026-11-08 06:42 KST에 성공했다.
+
+`portal/config.json`의 `deploymentReady: true`를 main의 `c99fc3092e5f3043d8b37b4e7de09f6f3bb49031`에 반영했다. 운영 배포 `3acaf7a7-e447-473d-8238-067e49fa5a20` 성공 후 실제 `games.guidehollow.com`에서 새 fingerprint와 `preview:false`를 확인했다. Naver IndexNow에 변경 URL 562개를 통지해 HTTP 200 응답을 확인했다. 이 응답은 실제 색인·검색 순위·수익 발생의 검증이 아니다. Google Search Console 사이트맵 제출은 비공개 속성·검색 데이터 접근의 명시적 승인 대기로 남아 있다. 기존 4개 사이트는 유지한다.
 
 ## 무료 호스팅 결정
 
@@ -30,7 +32,7 @@ Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이
 | --- | --- |
 | Git 저장소 | `emfls/guidehollow-games-en-puzzle` |
 | 초기 검증 브랜치 | `work/unified-game-portal` |
-| 이관 후 운영 브랜치 | `main` |
+| 현재 운영 브랜치 | `main` |
 | 프레임워크 / 프로젝트 루트 | Astro 정적 / 저장소 루트 |
 | Node | `NODE_VERSION=24` (`.node-version` 포함) |
 | 빌드 명령 / 출력 | `npm run build` / `dist-portal` |
@@ -50,7 +52,7 @@ Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이
 5. HTTPS가 준비되면 생산 환경의 preview를 해제하고 재배포한다. 최종 호스트의 robots·canonical·lang·사이트맵·키·fingerprint를 확인한다.
 6. `deploymentReady: false`를 유지한 채 검증된 PR을 main에 병합하고 Cloudflare 운영 브랜치도 main으로 변경한다. main의 운영 배포 완료와 실제 호스트의 build 정보를 확인한다. 두 자동화 워크플로는 기본 브랜치를 체크아웃하므로 이 단계를 IndexNow보다 먼저 완료한다.
 7. main의 공개 배포를 확인한 뒤 `deploymentReady: true` 변경을 커밋하고 재배포한다. 이 설정 파일 변경은 fingerprint를 바꾸므로 새 공개 build ID가 소스와 일치하고 `preview:false`이며 공개 키가 맞는지 확인한 후 IndexNow를 실행한다. 플래그 변경만으로 제출하지 않는다.
-8. Google Search Console의 확인된 Domain 속성 또는 URL-prefix 속성에 `https://games.guidehollow.com/sitemap.xml`을 제출한다. 과거 4개 호스트 제출을 새 호스트 성공으로 간주하지 않는다.
+8. Google Search Console 접근의 명시적 승인을 받은 뒤, 확인된 Domain 속성 또는 URL-prefix 속성에 `https://games.guidehollow.com/sitemap.xml`을 제출한다. 현재는 승인 대기이며, 과거 4개 호스트 제출을 새 호스트 성공으로 간주하지 않는다.
 9. 아래 기존 배포 정리 절차를 수행한다. 새 호스트 공개 확인 전에 기존 4개 사이트를 중지하지 않는다.
 
 ## 가비아 DNS: 최종 게임용 레코드 1개
@@ -69,12 +71,12 @@ Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이
 
 | 저장소 / 옛 호스트 | 현재 상태 | 통합 검증 후 |
 | --- | --- | --- |
-| puzzle / `en-puzzle` | main·Pages 유지, 통합 브랜치 작업 | 통합 소스 저장소로 보존, 옛 콘텐츠 자동 배포 중지 |
+| puzzle / `en-puzzle` | 통합 main·Cloudflare 운영, 옛 Pages 보존 | 통합 소스 저장소 보존, 옛 Pages는 수동 rollback 전용 |
 | racing / `en-racing` | 변경 없음 | 원본 보존, 불필요한 자동 배포 중지 |
 | sports / `en-sports` | 변경 없음 | 원본 보존, 불필요한 자동 배포 중지 |
 | arcade / `en-arcade` | 변경 없음 | 원본 보존, 불필요한 자동 배포 중지 |
 
-통합 브랜치의 legacy Pages 워크플로는 수동 rollback 전용이다. main 병합 전에는 기존 main 배포에 영향을 주지 않는다. 다른 세 저장소 워크플로도 아직 중지하지 않았다.
+main에 반영한 legacy Pages 워크플로는 수동 rollback 전용이다. 옛 Pages 배포와 DNS는 유지하며, 다른 세 저장소 워크플로도 아직 중지하지 않았다.
 
 옛 게임 URL은 새 `/en/play/<slug>/`, 장르 홈은 새 `/en/<genre>/`로 대응한다. 가능하면 URL별 서버 리디렉션을 적용하고 응답을 확인한다. GitHub Pages에 `_redirects`를 넣는 것만으로 서버 301이 된다고 가정하지 않는다. 모든 옛 게임을 새 홈페이지 하나로 보내지 않는다.
 
@@ -82,7 +84,7 @@ Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이
 
 - 전체 카탈로그: 매일 **05:17 KST** (`20:17 UTC`), 수집·빌드·전수 정적·DOM 검사를 모두 통과한 데이터만 커밋.
 - Naver: 매시간 **43분**, 공개 배포와 일치하는 변경·제거 URL만 통지.
-- 두 예약 작업은 기본 브랜치 반영 전에는 실행되지 않으며 현재는 준비 상태.
+- 두 예약 워크플로를 기본 브랜치 main에 반영했다. 실행 소스는 모두 기본 브랜치이며, Cloudflare 운영 브랜치도 main이다. 일일 카탈로그 동기화는 이번 작업에서 수동 실행하지 않았다.
 - Cloudflare Git integration은 설정한 운영 브랜치를 배포. Build watch paths에서 `data/portal/indexnow-receipt.json`과 문서·보고서만 바뀐 커밋을 제외해 불필요한 빌드를 줄임. 카탈로그·UI·원고·설정·의존성 변경은 빌드 대상으로 유지.
 - GitHub 검증 보고서는 7일 보관. 대형 정적 아카이브는 기본 업로드하지 않고 수동 입력으로만 1일 보관.
 
