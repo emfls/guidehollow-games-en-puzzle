@@ -1,6 +1,6 @@
 # 통합 포털 검증 기록
 
-검증 일시: **2026-11-08 01:06 KST**. 대상은 통합 브랜치의 로컬 정적 빌드와 클라이언트 동작이다. 공개 서비스의 HTTP·DNS·TLS·게임 실행·검색 제출을 대신하는 결과가 아니다. GitHub에서 커밋 후 실행되는 CI 결과는 해당 커밋의 Actions 실행에서 별도로 확인한다.
+정적·DOM 검증 일시: **2026-11-08 01:06 KST**. 아래 정적 결과의 대상은 통합 브랜치의 로컬 빌드와 클라이언트 동작이다. 같은 날 수행한 공개 서비스 확인은 문서 끝의 공개 배포 검증에 별도로 기록했다. GitHub에서 커밋 후 실행되는 CI 결과는 해당 커밋의 Actions 실행에서 확인한다.
 
 ## 결과
 
@@ -97,10 +97,30 @@ JSDOM 31이 실제 빌드 HTML을 읽고 실제 `portal/site.js`를 실행했다
 
 10,403파일·최대 828,957바이트는 확인한 Cloudflare Pages Free 한도(20,000파일, 단일 25MiB) 이내다. [공식 제한](https://developers.cloudflare.com/pages/platform/limits/). 미래 카탈로그 증가를 무제한 무료 보장으로 해석하지 않는다. 생성 HTML·raw API 피드·대형 중간 파일은 git에 넣지 않는다.
 
-## 검증하지 못한 부분과 배포 상태
+## 공개 배포 검증 — 2026-11-08 KST
 
-**새 통합 호스트는 아직 미배포다.** Cloudflare 프로젝트와 실제 pages.dev 대상은 생성하지 않았고, games DNS 연결·새 GSC 제출·새 Naver POST는 하지 않았다. 기존 4개 사이트는 유지한다. 스케줄은 기본 브랜치 반영 전이라 아직 비활성이다.
+아래 공개 확인의 대상 소스는 `7a80870bdf44378eb3d11049167a2c0299573c79`이며, Cloudflare Pages Free 프로젝트는 `guidehollow-games`, 기본 호스트는 `guidehollow-games.pages.dev`다. 최초 검증 배포 `ae918eba` 성공 후 운영 전환 배포 `70d5fa12-5d9c-4c9c-abab-5b39a374b0ee`도 성공했다. Production 환경은 `PORTAL_PREVIEW=0`, Preview 환경은 `PORTAL_PREVIEW=1`이다.
 
-브라우저 플러그인의 originating context 연결 오류가 남아 있다. 로컬 Playwright도 사용 가능한 Chromium이 없고 공식 headless-shell 설치가 실패해 실제 화면 검증을 수행하지 못했다. 따라서 새 포털의 모바일·PC 시각 품질, 실제 게임 로딩, 광고 제공·수익 발생, 전체화면 API, 쿠키 동작, 공개 HTTPS 응답은 완료로 표시하지 않는다. Play 버튼과 CLID 구성 검증은 실제 게임 실행·수익 정산 검증과 다르다.
+| 항목 | 공개 서비스 관측 |
+| --- | --- |
+| 가비아 DNS | `games` CNAME → `guidehollow-games.pages.dev`, TTL 600, 2026-11-08 06:29:14 KST 저장 |
+| 기존 DNS·네임서버 | 기존 13개 레코드를 유지해 총 14개, `ns.gabia.co.kr` 변경 없음 |
+| 도메인·HTTPS | Cloudflare Custom domain 활성·SSL 사용, `https://games.guidehollow.com/`와 `/ko/` 접속 확인 |
+| 모바일·PC | 화면 너비 375px와 1443px에서 페이지 가로 넘침 없음 |
+| 한국어 검색 | `스도쿠` 검색 결과 1개 확인 |
+| 실제 게임 | publisher CLID가 포함된 공식 iframe에서 프리롤 1회 표시·닫기 후 실제 Sudoku 보드 로딩 확인 |
+| 공개 build 정보 | origin `https://games.guidehollow.com`, `preview:false`, 게임 2,846개, 언어 22개, 경로 10,349개, 색인 적격 562개 |
+| robots | `Allow: /`와 `https://games.guidehollow.com/sitemap.xml` 확인 |
+| 한국어 canonical | `/ko/`의 canonical이 `https://games.guidehollow.com/ko/`이며 `noindex` 메타 없음 |
+| 사이트맵 | 공개 인덱스가 열리며 전역 1개·언어 22개, 총 23개 하위 사이트맵 연결 확인 |
+| 공개 키 파일 | `.txt` 내용이 설정된 키와 정확히 일치하며 열람 후 URL 변경 없음 |
 
-IndexNow dry-run은 로컬 형식과 URL 범위만 확인했다. 배포 이후 공개 키·build ID 확인과 실제 Naver 응답, Google 사이트맵 수신 결과를 별도로 기록해야 한다. 수신 성공을 색인 또는 상위 노출 보장으로 기록하지 않는다. 남은 작업은 [배포 순서](PORTAL_DEPLOYMENT.md)에 있다.
+공개 `/build-info.json`에서 확인한 build ID는 `2af6cd28ad470a6d8a8b44dbdf25bda8646935c112ba0cc203faa66da7cb9643`으로 위 정적 검증 기록과 일치한다. `PORTAL_PREVIEW`는 fingerprint 입력이 아니므로 `preview:false`도 별도로 확인했다.
+
+## 남은 확인과 운영 전환
+
+`deploymentReady: false`를 유지한다. main 병합과 Cloudflare 운영 브랜치 전환, main 공개 배포 확인, `deploymentReady: true` 변경 후 재배포·새 fingerprint 검증이 남아 있다. 두 자동화 워크플로가 기본 브랜치를 체크아웃하므로 main 전환을 IndexNow 실행보다 먼저 완료한다. 스케줄은 아직 기본 브랜치에 반영되지 않았고, 새 GSC 사이트맵 제출과 Naver 실제 POST도 하지 않았다. 기존 4개 사이트는 유지한다.
+
+외부 게임 확인은 Sudoku 표본이며 실제 수익 발생·정산, 전체 게임·언어의 실행, 전체화면 API와 쿠키 동작은 검증하지 않았다. 관찰한 프리롤과 보드 로딩을 수익 검증으로 기록하지 않는다.
+
+IndexNow dry-run은 로컬 형식과 URL 범위만 확인했다. `deploymentReady: true` 변경 후 공개 키·새 build ID 재검증과 실제 Naver 응답, Google 사이트맵 수신 결과를 별도로 기록해야 한다. 수신 성공을 색인 또는 상위 노출 보장으로 기록하지 않는다. 남은 작업은 [배포 순서](PORTAL_DEPLOYMENT.md)에 있다.

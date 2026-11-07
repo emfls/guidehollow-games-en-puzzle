@@ -2,7 +2,7 @@
 
 **`games.guidehollow.com` 하나에서 Playgama 제휴 게임 전체를 언어와 주요 장르별로 제공하는 Astro 정적 사이트입니다.** 기존 언어·장르별 저장소와 서브도메인을 늘리던 계획을 중단하고, 기존 puzzle 저장소의 `work/unified-game-portal` 브랜치에서 통합했습니다.
 
-현재 소스 구현과 로컬 검증은 완료했습니다. **새 도메인의 외부 배포·DNS 연결·Google 제출·Naver 실전 통지는 아직 완료되지 않았습니다.** 기존 4개 사이트와 저장소는 유지합니다. 실제 설정과 차단 요인은 [배포 문서](docs/PORTAL_DEPLOYMENT.md), 재현 가능한 결과는 [검증 기록](docs/PORTAL_VERIFICATION.md)에 있습니다.
+Cloudflare Pages Free의 `guidehollow-games`에 배포했으며 **`https://games.guidehollow.com/`의 HTTPS, 운영 robots·canonical·사이트맵, 한국어 검색과 실제 Sudoku 게임 로딩을 확인했습니다.** `deploymentReady: false`를 유지하고 있으며 main 병합·운영 브랜치 전환, Google 사이트맵 제출과 Naver 실전 통지는 남아 있습니다. 기존 4개 사이트와 저장소는 유지합니다. 실제 설정과 완료 상태는 [배포 문서](docs/PORTAL_DEPLOYMENT.md), 검증 결과는 [검증 기록](docs/PORTAL_VERIFICATION.md)에 있습니다.
 
 ## 구현 범위
 
@@ -15,7 +15,7 @@
 | 기존 원고 | 160개 고유 게임 및 기존 한국어·일본어 원고 보존 |
 | 색인 허용 게임 가이드 | 194개: 영어 160, 한국어 15, 일본어 19 |
 | 실행 방식 | 공식 iframe; 사용자가 Play를 누른 뒤 생성 |
-| 운영 후보 | Cloudflare Pages Free, GitHub 소스·검증 유지 |
+| 호스팅 | Cloudflare Pages Free (`guidehollow-games`), GitHub 소스·검증 유지 |
 
 전체 카탈로그와 색인 허용 원고 수는 다릅니다. 충분한 해당 언어 안내문이 없는 게임도 지원 언어에서 탐색·실행할 수 있지만, 상세 페이지는 `noindex,follow`이고 사이트맵에서 제외됩니다. 제공업체 원문을 번역된 본문으로 가장하지 않습니다. 게임 수를 100개나 500개로 제한하지 않습니다.
 
@@ -66,7 +66,7 @@ npm run preview
 
 썸네일 지연 로딩, 24개씩 페이지네이션, 즐겨찾기·최근 게임, 검색 재시도, 키보드 닫기·포커스 복원, 모바일 스타일과 아랍어 RTL을 제공합니다. 추가 광고 네트워크·분석기는 없으며, 제공업체 광고·제휴 동작을 변조하지 않습니다.
 
-GitHub Actions에는 일일 전체 동기화와 시간별 IndexNow 점검을 준비했습니다. **기본 브랜치 반영 전에는 예약 작업이 활성화되지 않습니다.** 현재 `deploymentReady: false`로 실제 Naver 통지를 차단합니다. 활성화 후에도 공개 키와 배포 fingerprint가 소스와 일치해야 전송하며, HTTP 200 수신을 실제 색인으로 간주하지 않습니다.
+GitHub Actions에는 일일 전체 동기화와 시간별 IndexNow 점검을 준비했습니다. **기본 브랜치 반영 전에는 예약 작업이 활성화되지 않습니다.** 두 워크플로가 기본 브랜치를 체크아웃하므로, 공개 검증 후 main 병합과 Cloudflare 운영 브랜치 전환을 먼저 완료합니다. 현재 `deploymentReady: false`로 실제 Naver 통지를 차단합니다. 이후 `true` 변경·재배포를 거쳐 공개 키와 새 배포 fingerprint가 소스와 일치해야 전송하며, HTTP 200 수신을 실제 색인으로 간주하지 않습니다.
 
 ## 이전 작업과 배포
 
