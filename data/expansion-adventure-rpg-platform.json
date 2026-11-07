@@ -1,0 +1,1026 @@
+{
+  "games": [
+    {
+      "id": "hidden-object-clues-and-mysteries",
+      "title": "Hidden Object: Clues and Mysteries",
+      "embedUrl": "https://playgama.com/export/game/hidden-object-clues-and-mysteries?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hidden-object-clues-and-mysteries?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hidden-object-clues-and-mysteries/big-preview/918efb60143240eb99d962fecc6cdaf8?width=448",
+      "description": "Hidden Object: Clues and Mysteries follows an experienced detective through rooms filled with small details and concealed items. Living rooms, cafés, kitchens, and private studies give each search a different setting. The detective's spoken guidance and gentle music support a relaxed investigation, while the object hunts reward careful observation. This is an adventure for players who enjoy examining a scene closely and gradually making sense of what they find.",
+      "instructions": "Search each location for its hidden objects, moving the view left and right to inspect the full scene. Zoom in when an item's shape blends into the furnishings or background. A useful approach is to scan one section at a time, then revisit the edges before moving on. Follow the detective's guidance as you work through the mysteries. Both desktop and mobile versions support exploring the locations, so use the view controls to bring smaller details into focus.",
+      "categories": [
+        "hidden-object",
+        "adventure",
+        "point-and-click",
+        "mobile"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "hidden-object-street-of-secrets",
+      "title": "Hidden Object: Street Of Secrets",
+      "embedUrl": "https://playgama.com/export/game/hidden-object-street-of-secrets?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hidden-object-street-of-secrets?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hidden-object-street-of-secrets/big_preview/b4e56a265daf458f9027f9fa24f4f10d?width=448",
+      "description": "Hidden Object: Street Of Secrets casts you as a lead detective with an assistant to help identify important details. Your investigation moves between evening streets, cafés, and mysterious rooms, with a fresh collection of concealed objects in each scene. Finding the complete list advances the case. Coins and trophies also provide a reason to return, since they can be spent on outfits for the main character. The leisurely pace keeps attention on observation and the unfolding detective story.",
+      "instructions": "Pan left and right to examine the entire location, then zoom in on crowded or dimly detailed areas. Find every object on the current list before progressing. Work through recognizable shapes first and use your assistant's hints when a remaining item is difficult to distinguish. Scanning in an orderly direction can help you avoid repeatedly checking the same objects. The game supports desktop and mobile play, with the same scene exploration and item-searching objective.",
+      "categories": [
+        "hidden-object",
+        "adventure",
+        "story",
+        "intelligence"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "hidden-object-my-hotel",
+      "title": "Hidden Object: My Hotel",
+      "embedUrl": "https://playgama.com/export/game/hidden-object-my-hotel?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hidden-object-my-hotel?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hidden-object-my-hotel/big-preview/94eab6bba922419d904b5872c8a1fb52?width=448",
+      "description": "Hidden Object: My Hotel turns a renovation story into a series of detailed searches. The heroine has bought an old hotel and needs help restoring its charm, starting with the clutter that fills its rooms. Your role is to identify carefully concealed objects among the furnishings and scattered belongings. Colorful interiors and a practical cleanup theme give the searches a clear purpose: help bring an overlooked building back into shape, one room at a time.",
+      "instructions": "Explore each messy room and locate the hidden items needed for the cleanup. Move the scene left or right to see areas outside the initial view, and zoom in to separate small objects from the surrounding clutter. Start with a systematic sweep of the room, checking furniture surfaces and the spaces around them. If an item still escapes you, use a hint to narrow the search. The same exploration tools are available for desktop and mobile play.",
+      "categories": [
+        "hidden-object",
+        "adventure",
+        "mouse",
+        "popular",
+        "logic"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "hidden-objects-island",
+      "title": "Hidden Objects: Island",
+      "embedUrl": "https://playgama.com/export/game/hidden-objects-island?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hidden-objects-island?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hidden-objects-island/big_preview/f23b7b464ab64392a1a16f5b1d8b0b0b?width=448",
+      "description": "Hidden Objects: Island builds its adventure around a varied collection of illustrated destinations. Beaches, Japanese gardens, fishing villages, and even flying houses provide settings for concealed objects and small discoveries. Searching the scenes is part of a wider journey through puzzles, secrets, and rare treasures. The appeal comes from examining each location's details and noticing how ordinary objects can disappear into a busy picture. It suits players who prefer observation and exploration to fast reactions.",
+      "instructions": "Click an object on desktop, or tap it on a supported mobile device, when you identify it in the picture. Look across the whole scene before concentrating on smaller details so that you have a sense of its layout. Check outlines and partially obscured shapes when a target is difficult to recognize. Hints can reveal items that are taking longer to find. Continue searching, solving the available puzzles, and collecting treasures as the island's locations open up.",
+      "categories": [
+        "hidden-object",
+        "adventure"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "wild-love",
+      "title": "Wild Love",
+      "embedUrl": "https://playgama.com/export/game/wild-love?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/wild-love?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/wild-love/big-preview/96d2f507a5c24c41a59e22748becd1fe?width=448",
+      "description": "Wild Love is an interactive story set on a mysterious island, where the heroine must decide whom to trust as danger surrounds her. You can choose her appearance before following the adventure and shaping her responses at key moments. The central activity is reading, considering the people she meets, and selecting what she says or does. Its island mystery gives those conversations a clear purpose: work out who may be a friend, who may be an enemy, and what lies behind the danger.",
+      "instructions": "Advance through the novel and read the dialogue and scene descriptions before making a choice. When decision buttons appear, select the response or action you want the heroine to take. Pay attention to what characters have already said, since that context can help you judge the next conversation. Use the appearance options to give the heroine a look you prefer, then continue the story and its investigation through the choices presented on screen.",
+      "categories": [
+        "story",
+        "girls",
+        "mobile",
+        "adventure",
+        "love",
+        "point-and-click"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "my-castle-merge--story",
+      "title": "My Castle. Merge & Story",
+      "embedUrl": "https://playgama.com/export/game/my-castle-merge--story?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/my-castle-merge--story?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/59f7279718684c11a1d6b99b0d3e1f53?width=448",
+      "description": "My Castle. Merge & Story follows a young princess who leaves her father's court for an abandoned castle once owned by her grandfather. Restoring and decorating that building forms the backdrop to a story about beginning again and uncovering the reasons for her departure. Its puzzles use a merge-two system: identical objects become improved tools or resources. Medieval items, hidden upgrade chains, and new crafting possibilities connect the board's small discoveries with the castle's gradual renewal.",
+      "instructions": "Combine two matching items to produce the next object in their chain. Use the resulting tools and resources as you progress with restoration and decoration. Before merging, look over the available items so you can recognize pairs and follow a promising chain deliberately. Discovering rarer objects expands your crafting options as the castle develops. The game does not place a timer on these merge tasks, so take time to understand how each new item fits into your progress.",
+      "categories": [
+        "match-3",
+        "merge",
+        "story",
+        "adventure"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "blackriver-mystery-hidden-objects",
+      "title": "Blackriver Mystery. Hidden Objects",
+      "embedUrl": "https://playgama.com/export/game/blackriver-mystery-hidden-objects?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/blackriver-mystery-hidden-objects?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/blackriver-mystery-hidden-objects/big-preview/7fd15bd991f24416bedfb78a3408ce87?width=448",
+      "description": "Blackriver Mystery. Hidden Objects gives a mystical detective a town to rebuild and a mystery to investigate. Hidden-object scenes are connected by quests, collections, and a story involving monsters and strange anomalies. The search is only part of the work: match-three puzzles and other mini-games add different tasks as you help restore the ruined town. Its combination of investigation and reconstruction provides a longer sense of purpose beyond finding the final item in a single picture.",
+      "instructions": "Use the left mouse button on desktop or touch controls on a supported mobile device to interact with the game. Follow the current quest, search the indicated locations, and collect the objects needed to continue. When a mini-game appears, switch attention to its objective; match-three sections also offer boosters. Read the task before spending effort on a scene, and examine crowded areas methodically. Progress comes from completing the connected quests and puzzles while following the town's story.",
+      "categories": [
+        "hidden-object",
+        "puzzle",
+        "story",
+        "adventure",
+        "point-and-click",
+        "logic",
+        "brain"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "the-escape-series-playgama",
+      "title": "The Escape Series",
+      "embedUrl": "https://playgama.com/export/game/the-escape-series-playgama?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/the-escape-series-playgama?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/the-escape-series-playgama/big-preview/29528ec6375f47ccbefdb10b9d5b3640?width=448",
+      "description": "The Escape Series is a room-escape adventure built around observation, codes, and the useful objects hidden in an environment. Each space presents its own puzzles and riddles, so progress depends on understanding what the room is telling you. A small detail can be a clue, while an apparently ordinary object may help with another obstacle. The objective is clear throughout: investigate the surroundings, connect the information you discover, and find a way out.",
+      "instructions": "Use the mouse to select objects and interact with the room. Inspect the visible details, gather useful clues, and apply what you learn to the codes and puzzles blocking your escape. A practical approach is to examine the whole room before trying a difficult mechanism, then revisit it with the new information. Compare symbols, arrangements, or other clues that the game actually shows you. Solve each space's distinct challenges to uncover its exit and continue the escape.",
+      "categories": [
+        "escape",
+        "adventure",
+        "brain",
+        "puzzle"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "detective-max-mystery-the-disappearance-of-mr-winters",
+      "title": "Detective Max Mystery: The Disappearance of Mr. Winters",
+      "embedUrl": "https://playgama.com/export/game/detective-max-mystery-the-disappearance-of-mr-winters?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/detective-max-mystery-the-disappearance-of-mr-winters?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/detective-max-mystery-the-disappearance-of-mr-winters/big-preview/f21d60d399f84a2e90112f3317c47b0f?width=448",
+      "description": "Detective Max Mystery: The Disappearance of Mr. Winters begins with an unusual postcard from Max's neighbor, Benedict Winters. He says he left in a hurry, will not return, and wants a small missing box found. That request leads into an apartment investigation combining detective work with escape-room puzzles. You search for evidence, inspect the surroundings, and use collected objects to understand the disappearance. The personal message gives the case a specific question to follow rather than a room to search without context.",
+      "instructions": "Point and click on areas you want to investigate. Examine the apartment for evidence and the mysterious box, then use items stored in your inventory where they may be relevant. Some puzzles require clicking and dragging objects instead of simply selecting them. Revisit an unresolved detail after finding a new item or clue, since the additional context may make its purpose clearer. If the investigation stalls, use the available hint to help identify a next step.",
+      "categories": [
+        "adventure",
+        "point-and-click",
+        "hidden-object",
+        "story",
+        "escape",
+        "logic"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "desolate-isle-survival",
+      "title": "Desolate Isle: Survival",
+      "embedUrl": "https://playgama.com/export/game/desolate-isle-survival?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/desolate-isle-survival?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/desolate-isle-survival/big-preview/0205f13ab3024085a405d48daec4ad37?width=448",
+      "description": "Desolate Isle: Survival puts you on a mysterious island with the longer-term aim of surviving and finding an escape. Gathering materials, crafting tools, and building a base create the foundation for exploration. Quests unlock new territories, and those areas introduce additional resources and challenges. The adventure therefore develops through practical preparation as much as discovery: improve what you can make, establish your foothold, and use that progress to investigate more of the island.",
+      "instructions": "Move with WASD or the arrow keys on desktop. On mobile, use the joystick to move and turn. Most interactions happen automatically when you approach an object closely enough, although some objects display a button that you must press. Gather available materials and follow quests to guide your next construction or exploration goal. Check the current requirements before setting out for resources, and watch for interaction prompts so that a required button press does not leave a task unfinished.",
+      "categories": [
+        "battle-royale",
+        "adventure",
+        "survival",
+        "crafting"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "primal-druid--kingdom-of-animals",
+      "title": "Primal Druid - Kingdom of Animals",
+      "embedUrl": "https://playgama.com/export/game/primal-druid--kingdom-of-animals?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/primal-druid--kingdom-of-animals?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/primal-druid--kingdom-of-animals/big-preview/be73a3a0dbf84c2d8808c05a9b65cee4?width=448",
+      "description": "Primal Druid - Kingdom of Animals makes creature recruitment the center of its wilderness adventure. You battle wild animals and beasts to turn them into allies, then develop a squad that can face stronger threats. Resource gathering and artifact crafting support that growth, while quests provide rewards and reasons to explore. The open world includes varied creatures and dangers, so building your army involves both finding new companions and improving the abilities of those already following you.",
+      "instructions": "Use WASD to move on desktop, or tap and drag on the screen on mobile. Explore the wilderness, engage creatures to tame them, and follow quests for further objectives. Collect materials for artifacts and upgrades that strengthen your squad. A useful approach is to develop the allies you have while preparing for the next challenge, rather than focusing only on recruitment. Pay attention to available resources during exploration, since collecting and crafting are part of the army's progression.",
+      "categories": [
+        "rpg",
+        "crafting",
+        "survival",
+        "strategy",
+        "adventure",
+        "animals"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "pocket-zone",
+      "title": "Pocket ZONE",
+      "embedUrl": "https://playgama.com/export/game/pocket-zone?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/pocket-zone?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/pocket-zone/big-preview/8e5a2fb7b7f24655a25a7dbd5cffc968?width=448",
+      "description": "Pocket ZONE is a survival role-playing adventure centered on an anomalous and hostile landscape. Exploring, gathering resources, and choosing equipment are joined by random text events whose outcomes depend on your decisions and external circumstances. Weapons, armor, helmets, and backpacks offer different ways to prepare for the journey. The game's tension comes from making choices with survival in mind, then adapting to what the next encounter reveals about the Zone and the conditions around you.",
+      "instructions": "Click game elements with the left mouse button on desktop and use the mouse wheel to scroll through lists. On mobile, tap the interface to interact. Read event descriptions before selecting a response, and review the equipment and resources available to you as the journey develops. The choices are contextual, so a previous result does not guarantee that a later event will unfold identically. Keep preparation and exploration connected: examine your options before committing to the next situation.",
+      "categories": [
+        "adventure",
+        "strategy",
+        "story",
+        "mobile",
+        "survival",
+        "rpg",
+        "difficult"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "minimight-fantasy-rpg",
+      "title": "MiniMight: Fantasy RPG",
+      "embedUrl": "https://playgama.com/export/game/minimight-fantasy-rpg?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/minimight-fantasy-rpg?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/minimight-fantasy-rpg/big-preview/b21a4ff26ab345bdb75aba7c9df34bae?width=448",
+      "description": "MiniMight: Fantasy RPG follows a small party of adventurers through floors occupied by monsters and powerful bosses. Warriors, archers, mages, and other fighters give you options when assembling the group. Battles supply gold and equipment, which feed back into stronger heroes, new skills, and further recruitment. Defeating a boss opens access to another floor, creating a clear cycle of party preparation, combat, and improvement as the expedition pushes deeper.",
+      "instructions": "Choose your party members before entering the adventure. During a fight, select a character and use that hero's attacks or skills against the enemies. Collect the gold and items earned afterward, then review equipment upgrades, new skills, and stronger recruits before continuing. Consider how each party member contributes when deciding where to spend rewards. A difficult boss is a useful point to reassess the team's abilities and gear, since overcoming it unlocks the next stage of the journey.",
+      "categories": [
+        "strategy",
+        "rpg",
+        "adventure"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "runic-curse",
+      "title": "Runic Curse",
+      "embedUrl": "https://playgama.com/export/game/runic-curse?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/runic-curse?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/runic-curse/big-preview/bdd024ebc8f149fc833e810c7040dc91?width=448",
+      "description": "Runic Curse follows Adrian after a shipwreck leaves him on a mysterious island. His search for the missing crew leads through ruins, enemies, and the secrets of the Rune Curse. Combat combines melee weapons, magic runes, and an endurance system, while character growth offers equipment, improved attributes, and abilities that open previously inaccessible areas. Crafting and upgrading runes adds another way to shape your approach as exploration and battles become more demanding.",
+      "instructions": "Move with WASD or the arrow keys, jump with Space, and fight or select with the left mouse button. Shift performs a roll, while 1, 2, and 3 activate abilities. Open the menu with Tab and the map with M. Watch endurance during combat and use the roll's brief protection deliberately. Compare weapons and rune combinations as you progress, and revisit blocked routes when a newly acquired ability may let you reach them.",
+      "categories": [
+        "adventure",
+        "rpg",
+        "magic",
+        "action",
+        "story"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "heroes-of-the-dungeons-match3-rpg",
+      "title": "Heroes of the Dungeons: Match-3 RPG",
+      "embedUrl": "https://playgama.com/export/game/heroes-of-the-dungeons-match3-rpg?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/heroes-of-the-dungeons-match3-rpg?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/heroes-of-the-dungeons-match3-rpg/big-preview/fb9854740c2a408a90d5d4b3cfa63595?width=448",
+      "description": "Heroes of the Dungeons: Match-3 RPG places puzzle battles inside a campaign to rebuild a fallen kingdom. A mysterious gate has released monsters across the realm, and your role as Master of Hunters is to assemble heroes and fight back. Matching tiles powers attacks and skills, while successful battles provide treasures and materials. Castle shops turn those rewards into income and stronger heroes, linking progress on the puzzle board with the kingdom's recovery.",
+      "instructions": "Swap adjacent tiles to make matches of three or more. Matches attack enemies and charge your team's skills, while combinations can create special blocks. Check the board for follow-up matches before settling on an obvious move, and use ready hero abilities with enemy weaknesses in mind. After a victory, collect the loot and spend suitable rewards on castle-shop upgrades. Return to later stages with the improvements those upgrades provide, balancing immediate battle decisions with the team's ongoing development.",
+      "categories": [
+        "rpg",
+        "strategy",
+        "adventure",
+        "matching",
+        "boys",
+        "match-3",
+        "pve"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "arcuz-treasure-hunters",
+      "title": "Arcuz Treasure Hunters",
+      "embedUrl": "https://playgama.com/export/game/arcuz-treasure-hunters?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/arcuz-treasure-hunters?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/arcuz-treasure-hunters/big-preview/f02d394dc4c84eef830bfaa9130a9661?width=448",
+      "description": "Arcuz Treasure Hunters is a fantasy role-playing adventure about exploring underground caves and assembling a capable treasure-hunting team. Companions bring different abilities, while the dungeons combine powerful enemies with traps, puzzles, and hidden passages. Story locations contain fixed scenes and treasures, and randomly generated dungeons add variety to later exploration. Progress depends on examining the environment as well as strengthening the party, since simply moving forward can leave useful routes and discoveries unexplored.",
+      "instructions": "Follow the game's interface to explore each area and manage your companions. Inspect the surroundings for puzzle elements, traps, and possible hidden passages, then coordinate the team's abilities as you investigate. When a route is unclear, examine the nearby scene components before assuming that every obstacle requires a fight. Hire companions with varied capabilities and keep the party's options in mind during exploration. Search both the story dungeons and the generated areas for treasures that reward a more thorough visit.",
+      "categories": [
+        "adventure",
+        "rpg",
+        "retro",
+        "story",
+        "pve"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "knight-legend",
+      "title": "Knight Legend",
+      "embedUrl": "https://playgama.com/export/game/knight-legend?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/knight-legend?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/knight-legend/big-preview/acaf0e22161344b4b924d90ef0f6c5c9?width=448",
+      "description": "Knight Legend sends a developing hero through monster-filled stages, with better gear and new areas marking your progress. Defeating enemies earns money that can be spent on armor and pets, giving the adventure two linked forms of improvement: stronger protection for the knight and companions that help in battle. Its structure is straightforward, with fighting, collecting gold, and reviewing upgrades preparing you for the next set of encounters and newly unlocked levels.",
+      "instructions": "Move with the arrow keys, WASD, or ZQSD on desktop. Enter confirms a selection, while Escape pauses the game or closes a menu. On mobile, drag the on-screen joystick to move and tap the confirmation button when needed. Work through the available encounters, collect gold, and check the armor and pet options as you advance. Consider both the knight's equipment and companion support when preparing for a harder level, rather than overlooking the purchases available between stretches of combat.",
+      "categories": [
+        "adventure",
+        "rpg",
+        "pve",
+        "story",
+        "farm",
+        "fighting",
+        "action"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "duohex",
+      "title": "Duohex",
+      "embedUrl": "https://playgama.com/export/game/duohex?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/duohex?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/duohex/big_preview/b260a720fb644ed8b8ee8cc9b9582a50?width=448",
+      "description": "Duohex is a spellbook auto-battler where preparation determines what your mage brings to an automatic duel. You purchase and combine spells, then arrange them across a two-page grimoire. Neighboring spells on the same page link together, making placement part of the strategy. Solo play pits you against AI mages, while Duo adds an AI teammate in eight-entry tournaments. The goal is to collect ten trophies before your remaining lives run out.",
+      "instructions": "Drag spells from the shop onto the spellbook using a mouse or touch. Buy another copy to merge a spell, reroll the shop for one gold, lock useful offers, or sell spells you no longer want. Check adjacency on each individual page before starting the next automatic fight. Review the result to decide whether a different arrangement or purchase could improve the build. In Duo, your partner shops and battles alongside you under AI control.",
+      "categories": [
+        "strategy",
+        "pve",
+        "magic",
+        "rpg"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "wander-wild",
+      "title": "Wander Wild",
+      "embedUrl": "https://playgama.com/export/game/wander-wild?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/wander-wild?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/wander-wild/big_preview/4bde24ce231046cfa2dbaf1d08f961ed?width=448",
+      "description": "Wander Wild combines turn-based card battles with a camp that develops across a fantasy adventure. Attack, defense, and ability cards provide tactical choices, while status effects and charged super attacks add ways to shape a fight. Victories bring rewards for relics and camp improvements, linking individual encounters to longer-term character growth. Each chapter contains fifteen battles, so choosing useful combinations matters both for the next enemy and for the challenges still ahead.",
+      "instructions": "Choose cards each turn to attack, protect yourself, or apply effects such as poison, bleeding, burning, stun, and weakening. Build energy for a super attack and use it when its impact fits the situation. Equip up to four relics, considering how their effects complement your cards or improve the super attack. Between battles, spend earned resources on camp upgrades that strengthen your hero. Reassess your combination after new rewards instead of treating every encounter as the same tactical problem.",
+      "categories": [
+        "cards",
+        "rpg",
+        "adventure",
+        "pve"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "battlecross",
+      "title": "Battlecross",
+      "embedUrl": "https://playgama.com/export/game/battlecross?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/battlecross?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/battlecross/big_preview/9645870437804fc8a04502bfeddf4ba5?width=448",
+      "description": "Battlecross lets a hero combine abilities learned from different teachers rather than follow a single class throughout the adventure. Equipment, attributes, active skills, and passive skills shape how you face groups of enemies and their leaders. Towns provide shops, healing services, and trainers, but story decisions can change who remains available and how the world develops. Some choices are irreversible, giving the campaign's conversations consequences alongside its combat and character building.",
+      "instructions": "Approach an enemy to attack automatically, then use skills and health potions as needed. Clear every enemy group and the area's leader to complete a zone; experience and loot remain even after defeat. Each level grants three attribute points. In towns, buy gear, expand your potion belt, and learn abilities for eight active and four passive slots from sixteen classes. Read major end-of-zone decisions carefully, since they can alter towns, shops, trainers, and the ending.",
+      "categories": [
+        "action",
+        "adventure",
+        "rpg",
+        "strategy"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ar-EG",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "mushroom-runners",
+      "title": "Mushroom Runners",
+      "embedUrl": "https://playgama.com/export/game/mushroom-runners?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/mushroom-runners?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/mushroom-runners/big-preview/56bd2e87db054f0395c4e3da9dadcb4a?width=448",
+      "description": "Mushroom Runners combines an endless run with jumping, stomping, and size-changing mushrooms. Your route is filled with obstacles and enemies, while collected mushrooms can make the character grow enormous. A flying cloud adds another feature to the journey. The main challenge is reading what lies ahead and choosing an appropriate response before the scenery catches up with you. Its platforming actions give the run more variety than simply moving around each obstacle.",
+      "instructions": "On desktop, press the Up arrow to jump and the Down arrow to stomp the ground. On mobile, touch the screen to jump and swipe downward to stomp. Watch the next stretch of the route so you can distinguish a jump from a useful stomp. Collect mushrooms while managing nearby hazards, and pay attention when the character's size changes. Practicing the two actions separately can make it easier to choose the right one during a busier stretch of the run.",
+      "categories": [
+        "platform",
+        "arcade",
+        "running",
+        "mobile",
+        "popular",
+        "runner"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "bottle-flip",
+      "title": "Bottle Flip",
+      "embedUrl": "https://playgama.com/export/game/bottle-flip?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/bottle-flip?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/bottle-flip/big-preview/a67b7cc0ce854712b4760d18a3854126?width=448",
+      "description": "Bottle Flip is a precision platform challenge in which you control a hand and throw a bottle toward a target. Successful landings earn points, and later levels introduce new obstacles and smaller places to land. The bottle may need to settle on its bottom, its neck, or a particular platform, making the throw's trajectory more important than a dramatic spin. Reaching the zone marked Win completes the level and opens the next challenge.",
+      "instructions": "Use the arrow keys to move the hand on desktop. Hold Space to grab the bottle, then release Space to throw it. On a smartphone, use the arrow buttons for hand movement and hold the hand button to grab; releasing that button throws the bottle. Adjust the hand's position and release timing to change the throw. Compare each landing with the target before trying again, and aim for a controlled trajectory toward the marked winning zone.",
+      "categories": [
+        "physics",
+        "platform",
+        "skill",
+        "arcade"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "leap-and-avoid-2",
+      "title": "Leap and Avoid 2",
+      "embedUrl": "https://playgama.com/export/game/leap-and-avoid-2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/leap-and-avoid-2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/leap-and-avoid-2/big-preview/11f01d5ba3134cb2a36d99c4f1183709?width=448",
+      "description": "Leap and Avoid 2 guides a white ball through caves and laboratory levels built around contrasting safe and dangerous surfaces. White platforms support your route, while black platforms must be avoided. Hidden passages contain coins, so reaching the exit is only part of the exploration. Collected coins can provide acceleration and a shield against one hazard contact, and they also contribute to your leaderboard position. Finding a side route therefore offers a concrete reward for looking beyond the obvious path.",
+      "instructions": "Move left or right with the arrow keys or A and D. Press R to restart and Escape to pause; use the left mouse button for menu controls. On mobile, tap the left or right half of the screen to steer. Follow white platforms and avoid black ones, occasionally backtracking to reach an exit or hidden passage. Treat the shield as protection for a single mistake, and inspect alternate routes when searching for additional coins.",
+      "categories": [
+        "arcade",
+        "platform",
+        "popular"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "sketchy-levels",
+      "title": "Sketchy Levels",
+      "embedUrl": "https://playgama.com/export/game/sketchy-levels?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/sketchy-levels?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/fbb41feeda8f4936ae5e01392d436aef?width=448",
+      "description": "Sketchy Levels is a trap platformer drawn like pages in a notebook. Floors can collapse, flags can move, and spikes can appear where the level initially seems safe. Its two hundred stages across ten worlds include bosses, while a level editor, daily trap, hidden erasers, and unlockable outfits add more to explore. The central rhythm is learning what caused a failed attempt and using that knowledge on the next run toward the flag or curled page corner.",
+      "instructions": "Move with the arrow keys or A and D, jump with Space, W, or Up, and pause with P. On mobile, use the separate movement and jump buttons. Observe the trigger and position of each surprise instead of immediately repeating the same approach. Adjust your timing or route on the next attempt, then continue toward the page's finish. If a particular trap keeps blocking progress, the game offers options to reveal traps or skip the level.",
+      "categories": [
+        "arcade",
+        "puzzle",
+        "platform",
+        "funny",
+        "difficult",
+        "logic"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "froggy-hop",
+      "title": "Froggy Hop",
+      "embedUrl": "https://playgama.com/export/game/froggy-hop?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/froggy-hop?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/froggy-hop/big-preview/8e772856ba2d4586a87ee6f2cfdef6f1?width=448",
+      "description": "Froggy Hop turns a frog's journey into a sequence of launches and carefully timed bounces. Lily pads, springs, turtles, and whales provide surfaces along the route, with traps complicating the next landing. Coins and gems add things to collect as you travel. Progress also brings upgrades for jumping higher or bouncing farther, alongside new skins, so developing the frog is connected to improving your timing and extending the distance of each attempt.",
+      "instructions": "Click the left mouse button to launch the frog on desktop, or tap the screen on a supported mobile device. Time the action to bounce across the available surfaces and clear obstacles. Look toward the next landing point before concentrating on collectibles, since a useful bounce keeps the journey going. As upgrades become available, review changes to height and distance and adjust your expectations for the next attempt. Keep practicing the timing needed for different surfaces and gaps.",
+      "categories": [
+        "arcade",
+        "platform",
+        "skill",
+        "animals",
+        "mobile"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "portal-hop",
+      "title": "Portal Hop",
+      "embedUrl": "https://playgama.com/export/game/portal-hop?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/portal-hop?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/portal-hop/big-preview/5513f469e8654dfb9048cd67116513f4?width=448",
+      "description": "Portal Hop builds its platform puzzles around a portal carried above the character's head. Warping upward gives access to higher platforms, while plus and minus pickups alter the portal's height. The challenge is therefore to prepare the right vertical position as well as choose a route across the level. A pickup that helps with one step can change what is possible next, making each path a small planning problem rather than a sequence of ordinary jumps.",
+      "instructions": "Move with A and D or the Left and Right arrow keys. Press W or Up to warp upward, and use R to reset the current level. Look at the next platform and the available height-changing pickups before committing to a route. Consider how a plus or minus adjustment will affect the following warp, especially when several platforms must be reached in sequence. If the current arrangement leaves no useful next step, reset and try a different order.",
+      "categories": [
+        "platform",
+        "puzzle",
+        "classic"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "planet-404-episode-1",
+      "title": "Planet 404. Episode 1",
+      "embedUrl": "https://playgama.com/export/game/planet-404-episode-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/planet-404-episode-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/planet-404-episode-1/big_preview/65a271f6081b414cb805a1ec84e93003?width=448",
+      "description": "Planet 404. Episode 1 follows Alice, an explorer stranded on a mysterious world. Its platforming obstacles sit alongside puzzles that reveal more of the planet and continue her story. Colorful landscapes and an atmosphere of discovery give the journey its identity, while each solved problem provides a reason to press farther into the unfamiliar surroundings. Players who enjoy moving through a level while examining how its obstacles fit together will find that combination central to the adventure.",
+      "instructions": "On desktop, use A and D or the Left and Right arrows to run, and Space or Up to jump. On a phone or tablet, use the directional arrows and jump button on screen. A fire button becomes available at a later level on the mobile interface. Study the next obstacle before jumping, and examine the nearby environment when a route depends on solving a puzzle. Completing those challenges advances both the journey and Alice's unfolding story.",
+      "categories": [
+        "adventure",
+        "platform",
+        "space",
+        "story",
+        "puzzle",
+        "arcade"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "music-note",
+      "title": "Music Note",
+      "embedUrl": "https://playgama.com/export/game/music-note?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/music-note?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/music-note/big-preview/50b37e24576f49adb94873db8227a3ab?width=448",
+      "description": "Music Note is a platform game about guiding a small musical note through a world that begins in black and white. Every bounce spreads color, so the environment changes as the note travels across the platforms. The goal is to reach the piano at the end of the course. Its visual transformation provides a simple connection between movement and progress: each successful part of the journey helps bring the scene to life.",
+      "instructions": "Click the screen or press Space to jump. Use the position of the next platform to judge when to begin the jump, and keep the piano destination in mind as you move through the course. Press R if you need to restart an attempt. When a jump misses its landing, compare the starting position and timing before trying again instead of repeating the same input immediately. Concentrate on one landing at a time while working toward the final piano.",
+      "categories": [
+        "platform",
+        "music",
+        "arcade"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "cubegate",
+      "title": "CubeGate",
+      "embedUrl": "https://playgama.com/export/game/cubegate?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/cubegate?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/b7ad807295c9477f9859a81017576ce9?width=448",
+      "description": "CubeGate combines platforming with the logic of a science-fiction test chamber. Glowing cubes activate pressure plates that supply power to doors, bridges, and elevators. Some rooms require several cubes or a particular sequence, while others depend on reaching a position before changing the power. Cables, floor markings, and energy lines help explain how the room connects. Solving a chamber means coordinating those relationships with the jumps needed to reach its exit.",
+      "instructions": "Move with WASD or the arrow keys. Press E or the left mouse button to pick up or put down a cube, Space or the right mouse button to jump, and Shift to sprint. Escape opens the menu, including restart. Follow the floor markings and cables to identify useful cube positions. Plan the route before carrying a cube, and consider whether activating one mechanism changes access to another. For a distant platform, build speed and jump from the edge.",
+      "categories": [
+        "puzzle",
+        "platform",
+        "logic",
+        "brain"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "swing-hero",
+      "title": "Swing Hero",
+      "embedUrl": "https://playgama.com/export/game/swing-hero?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/swing-hero?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/swing-hero/big_preview/5b704348e79e4ebfb7ad33a819ffeda2?width=448",
+      "description": "Swing Hero sends a bright pink cube through a purple, minimalist course by swinging from point to point. Momentum and timing determine whether the character clears an obstacle and continues toward the finish line. The direct visual style keeps attention on the movement itself: a small change in how long you swing can alter the next approach. It is a platform challenge for players who enjoy learning a movement rhythm through short, focused attempts.",
+      "instructions": "On desktop, click the mouse to begin swinging and keep it held to control the swing's duration. On mobile, touch the screen and hold instead. Watch the character's arc and the next obstacle before deciding how long to maintain the input. Adjust the duration deliberately from one attempt to the next so you can see how it affects the route. Keep the finish line as the objective and use each completed stretch to understand the momentum needed for what follows.",
+      "categories": [
+        "arcade",
+        "adventure",
+        "skill",
+        "platform"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "translations": {}
+    }
+  ],
+  "selections": {
+    "adventure": [
+      "hidden-object-clues-and-mysteries",
+      "hidden-object-street-of-secrets",
+      "hidden-object-my-hotel",
+      "hidden-objects-island",
+      "wild-love",
+      "my-castle-merge--story",
+      "blackriver-mystery-hidden-objects",
+      "the-escape-series-playgama",
+      "detective-max-mystery-the-disappearance-of-mr-winters",
+      "desolate-isle-survival"
+    ],
+    "rpg": [
+      "primal-druid--kingdom-of-animals",
+      "pocket-zone",
+      "minimight-fantasy-rpg",
+      "runic-curse",
+      "heroes-of-the-dungeons-match3-rpg",
+      "arcuz-treasure-hunters",
+      "knight-legend",
+      "duohex",
+      "wander-wild",
+      "battlecross"
+    ],
+    "platform": [
+      "mushroom-runners",
+      "bottle-flip",
+      "leap-and-avoid-2",
+      "sketchy-levels",
+      "froggy-hop",
+      "portal-hop",
+      "planet-404-episode-1",
+      "music-note",
+      "cubegate",
+      "swing-hero"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "adventure"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-adventure-page-0.json",
+      "retrievedAt": "2026-11-07T14:33:05.249039+00:00",
+      "returnedGames": 100,
+      "totalCount": 296,
+      "selectedIds": [
+        "hidden-object-clues-and-mysteries",
+        "hidden-object-street-of-secrets",
+        "hidden-object-my-hotel",
+        "hidden-objects-island",
+        "wild-love",
+        "my-castle-merge--story",
+        "blackriver-mystery-hidden-objects",
+        "the-escape-series-playgama",
+        "detective-max-mystery-the-disappearance-of-mr-winters",
+        "desolate-isle-survival"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "rpg"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-rpg-page-0.json",
+      "retrievedAt": "2026-11-07T14:33:05.183411+00:00",
+      "returnedGames": 78,
+      "totalCount": 78,
+      "selectedIds": [
+        "primal-druid--kingdom-of-animals",
+        "pocket-zone",
+        "minimight-fantasy-rpg",
+        "runic-curse",
+        "heroes-of-the-dungeons-match3-rpg",
+        "arcuz-treasure-hunters",
+        "knight-legend",
+        "duohex",
+        "wander-wild",
+        "battlecross"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "platform"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-platform-page-0.json",
+      "retrievedAt": "2026-11-07T14:33:05.292733+00:00",
+      "returnedGames": 100,
+      "totalCount": 138,
+      "selectedIds": [
+        "mushroom-runners",
+        "bottle-flip",
+        "leap-and-avoid-2",
+        "sketchy-levels",
+        "froggy-hop",
+        "portal-hop",
+        "planet-404-episode-1",
+        "music-note",
+        "cubegate",
+        "swing-hero"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    }
+  ]
+}

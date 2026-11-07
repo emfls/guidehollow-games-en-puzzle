@@ -1,0 +1,5548 @@
+{
+  "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+  "verifiedAt": "2026-11-07T15:09:38.027Z",
+  "gameCount": 160,
+  "games": [
+    {
+      "id": "sudoku-online",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Sudoku Online",
+      "gameURL": "https://playgama.com/export/game/sudoku-online",
+      "playgamaGameUrl": "https://playgama.com/game/sudoku-online",
+      "genres": [
+        "puzzle",
+        "sudoku"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/sudoku-online/big_preview/56523d77bec94f82819eba10f20713d0?width=448",
+        "https://static.playgama.com/p-img/pg/sudoku-online/icon/5547746082b44275b6cda2191f2e65f3?width=448"
+      ]
+    },
+    {
+      "id": "favorite-puzzles",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Favorite Puzzles",
+      "gameURL": "https://playgama.com/export/game/favorite-puzzles",
+      "playgamaGameUrl": "https://playgama.com/game/favorite-puzzles",
+      "genres": [
+        "puzzle",
+        "brain",
+        "logic"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/favorite-puzzles/big_preview/400025cc8973444fac031e1cb75faf61?width=448",
+        "https://static.playgama.com/p-img/pg/favorite-puzzles/icon/5f1b33d03f3e41d580e18058ea428e49?width=448"
+      ]
+    },
+    {
+      "id": "arrow-cube-3d",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Arrow Cube 3D",
+      "gameURL": "https://playgama.com/export/game/arrow-cube-3d",
+      "playgamaGameUrl": "https://playgama.com/game/arrow-cube-3d",
+      "genres": [
+        "matching",
+        "puzzle",
+        "logic",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/arrow-cube-3d/big-preview/af0fa0bfc76845b78b793da75e2a609b?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-122869/icon/4a21c71cd493cac38f5a3ceb13ef03b8f290f256d195cc1b4fd569221700a9c0?width=448"
+      ]
+    },
+    {
+      "id": "screw-match",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Screw Match",
+      "gameURL": "https://playgama.com/export/game/screw-match",
+      "playgamaGameUrl": "https://playgama.com/game/screw-match",
+      "genres": [
+        "puzzle",
+        "matching",
+        "color"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "ru-RU",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/screw-match/big-preview/c2daba0c41ae4d0bb57250451827f957?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-111955/icon/770d0da388eb5e5e3348ec239459ee4c9a6a6db87e6b92affc438dab0b863000?width=448"
+      ]
+    },
+    {
+      "id": "math-crosswords",
+      "retrievedAt": "2026-11-07T13:34:16.264Z",
+      "sourceFile": "playgama-public-puzzle-page-0.json",
+      "title": "Math Crosswords",
+      "gameURL": "https://playgama.com/export/game/math-crosswords",
+      "playgamaGameUrl": "https://playgama.com/game/math-crosswords",
+      "genres": [
+        "sudoku",
+        "math",
+        "puzzle",
+        "brain",
+        "logic",
+        "educational",
+        "number"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-BR",
+        "th-TH",
+        "tr-TR",
+        "zh-CN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/math-crosswords/big_preview/2f7e45eeee5c45ffbf3a3606f3cb0d0a?width=448",
+        "https://static.playgama.com/p-img/pg/math-crosswords/icon/c0561a51ac8a4a15bb50662f9616cf71?width=448"
+      ]
+    },
+    {
+      "id": "slime-loop",
+      "retrievedAt": "2026-11-07T13:34:16.264Z",
+      "sourceFile": "playgama-public-puzzle-page-0.json",
+      "title": "Slime Loop",
+      "gameURL": "https://playgama.com/export/game/slime-loop",
+      "playgamaGameUrl": "https://playgama.com/game/slime-loop",
+      "genres": [
+        "puzzle",
+        "slime",
+        "logic",
+        "matching"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/b685971873674ce4a807fbf4af982b1b?width=448",
+        "https://static.playgama.com/p-img/pg/icon/8134b81ef8ca49fb894f0eb2ff3b4715?width=448"
+      ]
+    },
+    {
+      "id": "mahjong-lines",
+      "retrievedAt": "2026-11-07T14:48:24.434Z",
+      "sourceFile": "expansion-card-creative-mahjong-20261107.json",
+      "title": "Mahjong Lines",
+      "gameURL": "https://playgama.com/export/game/mahjong-lines",
+      "playgamaGameUrl": "https://playgama.com/game/mahjong-lines",
+      "genres": [
+        "mahjong",
+        "puzzle",
+        "brain",
+        "logic",
+        "easy",
+        "matching",
+        "board"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/mahjong-lines/big_preview/96269817997541b48d15ed462ff66d47?width=448",
+        "https://static.playgama.com/p-img/pg/mahjong-lines/icon/c414c10941374924b807e56c0676f190?width=448"
+      ]
+    },
+    {
+      "id": "good-sort-master",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Good Sort Master: Triple Match",
+      "gameURL": "https://playgama.com/export/game/good-sort-master",
+      "playgamaGameUrl": "https://playgama.com/game/good-sort-master",
+      "genres": [
+        "puzzle",
+        "matching"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/good-sort-master/big-preview/87153c5702e14ce994b208df2c0a5f61?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-46/icon/c0a46a5e5ca0f818973da4fe340b68b9ab6d9cce73ea4babad9e167ef9393bd0?width=448"
+      ]
+    },
+    {
+      "id": "nuts-puzzle-sort-by-color",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Nuts Puzzle: Sort By Color",
+      "gameURL": "https://playgama.com/export/game/nuts-puzzle-sort-by-color",
+      "playgamaGameUrl": "https://playgama.com/game/nuts-puzzle-sort-by-color",
+      "genres": [
+        "puzzle",
+        "color",
+        "matching"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/nuts-puzzle-sort-by-color/big_preview/faab3ed519024179b5a31afb72cdf675?width=448",
+        "https://static.playgama.com/p-img/pg/nuts-puzzle-sort-by-color/icon/e5ff5a52e7d94ef188546cedbac10676?width=448"
+      ]
+    },
+    {
+      "id": "nonogram",
+      "retrievedAt": "2026-11-07T13:34:16.264Z",
+      "sourceFile": "playgama-public-puzzle-page-0.json",
+      "title": "Nonogram",
+      "gameURL": "https://playgama.com/export/game/nonogram",
+      "playgamaGameUrl": "https://playgama.com/game/nonogram",
+      "genres": [
+        "puzzle",
+        "logic",
+        "brain",
+        "number",
+        "sudoku"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/nonogram/big_preview/a32f54a5bcea4b2b8e1bfd5107bf6e2f?width=448",
+        "https://static.playgama.com/p-img/pg/nonogram/icon/29c9e28c859d444b969d3840f1055768?width=448"
+      ]
+    },
+    {
+      "id": "deadly-descent",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Deadly Descent",
+      "gameURL": "https://deadlydescent.net/export",
+      "playgamaGameUrl": "https://playgama.com/game/deadly-descent",
+      "genres": [
+        "racing",
+        "car",
+        "driving",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "es-ES",
+        "de-DE",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/deadly-descent/big-preview/cd3969f230d54e6abe01716483d55c8a?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-44/icon/46bc7f6a80a55b33244d81f0f6a660a619efa33ebdaec06e2299a0e2d40785e4?width=448"
+      ]
+    },
+    {
+      "id": "moto-x3m",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Moto X3M",
+      "gameURL": "https://playgama.com/export/game/moto-x3m",
+      "playgamaGameUrl": "https://playgama.com/game/moto-x3m",
+      "genres": [
+        "racing",
+        "motorbike",
+        "dirt-bike",
+        "skill",
+        "action",
+        "mobile",
+        "popular",
+        "unblocked",
+        "bike",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/moto-x3m/big_preview/6863e1c77f624087bae1d217cdf4c240?width=448",
+        "https://static.playgama.com/p-img/pg/moto-x3m/icon/c65bb58f726d4e538f3202f12675cc71?width=448"
+      ]
+    },
+    {
+      "id": "mr-racer-car-racing",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "MR RACER - Car Racing",
+      "gameURL": "https://mrracer.online/export",
+      "playgamaGameUrl": "https://playgama.com/game/mr-racer-car-racing",
+      "genres": [
+        "driving",
+        "racing",
+        "car",
+        "drifting",
+        "car-racing",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/mr-racer-car-racing/big-preview/45ff957c535b47b7b3c3bc1a365201f6?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-90490/icon/1e73c6b9b06c3586f6c0199519bfdbf7c8a5b8c2da8fbb4a225a9d4d287f6cc2?width=448"
+      ]
+    },
+    {
+      "id": "driver-club-highway-racing",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Driver Club: Highway Racing",
+      "gameURL": "https://playgama.com/export/game/driver-club-highway-racing",
+      "playgamaGameUrl": "https://playgama.com/game/driver-club-highway-racing",
+      "genres": [
+        "racing",
+        "car",
+        "driving",
+        "action",
+        "simulation",
+        "car-racing",
+        "boys",
+        "unity"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/driver-club-highway-racing/big-preview/037ce11afe4f4d58a0f93a6339db96b5?width=448",
+        "https://static.playgama.com/p-img/pg/icon/fe43abdfe00844b2a289de940b3732f2?width=448"
+      ]
+    },
+    {
+      "id": "car-destruction-king",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": " Car Destruction King",
+      "gameURL": "https://playgama.com/export/game/car-destruction-king",
+      "playgamaGameUrl": "https://playgama.com/game/car-destruction-king",
+      "genres": [
+        "car",
+        "driving",
+        "racing",
+        "simulation",
+        "3d",
+        "action",
+        "physics",
+        "unity",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/car-destruction-king/big_preview/0ca8f4094cfd4826b9888ea1d094bdd7?width=448",
+        "https://static.playgama.com/p-img/pg/car-destruction-king/icon/7c3dafed564a4a4b866d1eba937d92e0?width=448"
+      ]
+    },
+    {
+      "id": "city-chase-escape-police",
+      "retrievedAt": "2026-11-07T13:34:16.048Z",
+      "sourceFile": "playgama-public-racing-page-0.json",
+      "title": "City Chase: Escape Police",
+      "gameURL": "https://playgama.com/export/game/city-chase-escape-police",
+      "playgamaGameUrl": "https://playgama.com/game/city-chase-escape-police",
+      "genres": [
+        "car",
+        "racing",
+        "driving",
+        "police"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "tr-TR",
+        "uk-UA"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/city-chase-escape-police/big_preview/3298d05682104c4e84df5edceede99f1?width=448",
+        "https://static.playgama.com/p-img/pg/city-chase-escape-police/icon/20b9d117ae584398a975780d73ac49ed?width=448"
+      ]
+    },
+    {
+      "id": "car-stunt-racing-game-3d--car-games",
+      "retrievedAt": "2026-11-07T13:34:16.048Z",
+      "sourceFile": "playgama-public-racing-page-0.json",
+      "title": "Car Stunt Racing Game 3D : Car Games ",
+      "gameURL": "https://playgama.com/export/game/car-stunt-racing-game-3d--car-games",
+      "playgamaGameUrl": "https://playgama.com/game/car-stunt-racing-game-3d--car-games",
+      "genres": [
+        "racing",
+        "car-racing",
+        "car",
+        "driving",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/car-stunt-racing-game-3d--car-games/big-preview/4c6921fa272f4ae5886cec254ff0f53f?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-122719/icon/e1cfed1e2dbafab8f2b97dae98242f83321ac2cfac687f5aab5d862a34aa87ab?width=448"
+      ]
+    },
+    {
+      "id": "canyon-drifter",
+      "retrievedAt": "2026-11-07T13:34:16.048Z",
+      "sourceFile": "playgama-public-racing-page-0.json",
+      "title": "Canyon Drifter",
+      "gameURL": "https://playgama.com/export/game/canyon-drifter",
+      "playgamaGameUrl": "https://playgama.com/game/canyon-drifter",
+      "genres": [
+        "bicycle",
+        "bike",
+        "dirt-bike",
+        "arcade",
+        "motorbike",
+        "racing",
+        "skill"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/canyon-drifter/big_preview/96a7cef6a55d4e89b737b584794aa116?width=448",
+        "https://static.playgama.com/p-img/pg/canyon-drifter/icon/ca42aef2293046b6ab0fe290e6ac09e9?width=448"
+      ]
+    },
+    {
+      "id": "moto-flow",
+      "retrievedAt": "2026-11-07T13:34:16.048Z",
+      "sourceFile": "playgama-public-racing-page-0.json",
+      "title": "Moto Flow",
+      "gameURL": "https://playgama.com/export/game/moto-flow",
+      "playgamaGameUrl": "https://playgama.com/game/moto-flow",
+      "genres": [
+        "bike",
+        "arcade",
+        "racing",
+        "physics",
+        "motorbike",
+        "runner"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ja-JP"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/68046f692b95414e9ef17478b82d65f1?width=448",
+        "https://static.playgama.com/p-img/pg/icon/3a9414f970bb4b74bef53c85f1860a96?width=448"
+      ]
+    },
+    {
+      "id": "buggy-simulator-sandbox-3d",
+      "retrievedAt": "2026-11-07T13:34:16.048Z",
+      "sourceFile": "playgama-public-racing-page-0.json",
+      "title": " Buggy Simulator Sandbox 3D",
+      "gameURL": "https://playgama.com/export/game/buggy-simulator-sandbox-3d",
+      "playgamaGameUrl": "https://playgama.com/game/buggy-simulator-sandbox-3d",
+      "genres": [
+        "simulation",
+        "racing",
+        "3d",
+        "car",
+        "car-racing",
+        "driving",
+        "physics",
+        "unity"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/buggy-simulator-sandbox-3d/big-preview/8c7f1f8909ac4e27a65d7a7529d14c01?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-111288/icon/543f48015b7f6c002a2a34136e6346e358457e4ffd762c7e7fd0752c7006ff7f?width=448"
+      ]
+    },
+    {
+      "id": "soccerlat-3d-football-online",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "SoccerLat: 3D Football Online",
+      "gameURL": "https://playgama.com/export/game/soccerlat-3d-football-online",
+      "playgamaGameUrl": "https://playgama.com/game/soccerlat-3d-football-online",
+      "genres": [
+        "sports",
+        "soccer",
+        "multiplayer",
+        "3d",
+        "1v1",
+        "pvp",
+        "action",
+        "skill",
+        "simulation",
+        "pve",
+        "physics"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/8efc792e178c4ecf9c3fe562fcf1a6fc?width=448",
+        "https://static.playgama.com/p-img/pg/icon/506000d03c8a451e9445c65d93d3fe45?width=448"
+      ]
+    },
+    {
+      "id": "football-free-kick",
+      "retrievedAt": "2026-11-07T13:34:16.552Z",
+      "sourceFile": "playgama-public-arcade-page-0.json",
+      "title": "Football Free Kick",
+      "gameURL": "https://playgama.com/export/game/football-free-kick",
+      "playgamaGameUrl": "https://playgama.com/game/football-free-kick",
+      "genres": [
+        "soccer",
+        "ball",
+        "arcade",
+        "sports",
+        "3d",
+        "skill",
+        "physics"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "pt-BR",
+        "fr-FR",
+        "de-DE",
+        "it-IT",
+        "tr-TR",
+        "id-ID",
+        "ar-EG",
+        "ru-RU",
+        "ja-JP",
+        "hi-IN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/football-free-kick/big_preview/852597d4ddb54575bb32bfa3a2f1a7d8?width=448",
+        "https://static.playgama.com/p-img/pg/football-free-kick/icon/7f94bb48b35449f6a09ecbe12d46201c?width=448"
+      ]
+    },
+    {
+      "id": "pickle-rally",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Pickle Rally",
+      "gameURL": "https://playgama.com/export/game/pickle-rally",
+      "playgamaGameUrl": "https://playgama.com/game/pickle-rally",
+      "genres": [
+        "arcade",
+        "sports",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/4bff1fd0876e44c0b479183c24208584?width=448",
+        "https://static.playgama.com/p-img/pg/icon/a78c6203184a4d929b456c38a01a890f?width=448"
+      ]
+    },
+    {
+      "id": "putt-party",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Putt Party",
+      "gameURL": "https://playgama.com/export/game/putt-party",
+      "playgamaGameUrl": "https://playgama.com/game/putt-party",
+      "genres": [
+        "mini-golf",
+        "sports",
+        "golf"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/d4a56b5cb87a4671935262f702bc11d5?width=448",
+        "https://static.playgama.com/p-img/pg/icon/00fe35432820446ea7b629cdcbe8775a?width=448"
+      ]
+    },
+    {
+      "id": "soccer-random",
+      "retrievedAt": "2026-11-07T14:29:58.667Z",
+      "sourceFile": "playgama-public-all-page-0.json",
+      "title": "Soccer Random",
+      "gameURL": "https://playgama.com/export/game/soccer-random",
+      "playgamaGameUrl": "https://playgama.com/game/soccer-random",
+      "genres": [
+        "soccer",
+        "arcade",
+        "sports",
+        "physics",
+        "funny",
+        "two-player",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/soccer-random/big-preview/6f59ef235c1e42198225c02473d66943?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-122769/icon/a1d3e6a8f7c0fa60a4416c509a65334ca1cd8802c4401684c1bca13de6464c3a?width=448"
+      ]
+    },
+    {
+      "id": "school-of-basketball",
+      "retrievedAt": "2026-11-07T13:34:16.552Z",
+      "sourceFile": "playgama-public-arcade-page-0.json",
+      "title": "School Of Basketball",
+      "gameURL": "https://playgama.com/export/game/school-of-basketball",
+      "playgamaGameUrl": "https://playgama.com/game/school-of-basketball",
+      "genres": [
+        "arcade",
+        "sports",
+        "basketball",
+        "ball",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/school-of-basketball/big-preview/2210f40128f3439ca99a98e6144376ba?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-109069/icon/1ece3cd99ad23d1c542a0e29fb459abfda104f21a47fc490f256a2b63da8e347?width=448"
+      ]
+    },
+    {
+      "id": "bowling-stars",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Bowling Stars",
+      "gameURL": "https://playgama.com/export/game/bowling-stars",
+      "playgamaGameUrl": "https://playgama.com/game/bowling-stars",
+      "genres": [
+        "ball",
+        "bowling",
+        "sports"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bowling-stars/big-preview/cbb5a9163f4b49e6beed884d7b01207c?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-120340/icon/1f1b4a5087aeaa5885821fc98fe65321bc0b8879958027d86569490856922184?width=448"
+      ]
+    },
+    {
+      "id": "cricket-mania",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Cricket Mania",
+      "gameURL": "https://playgama.com/export/game/cricket-mania",
+      "playgamaGameUrl": "https://playgama.com/game/cricket-mania",
+      "genres": [
+        "cricket",
+        "skill",
+        "sports"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/cricket-mania/big-preview/6a5975652f57400ab139bdc3808c0b4c?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-122419/icon/bcda9060a46df60fb9c4d3307bf676a29a682470279cbf978e1635a4ab6f0ea3?width=448"
+      ]
+    },
+    {
+      "id": "ultimate-billiard-3d-game",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Ultimate Billiard 3D Game",
+      "gameURL": "https://playgama.com/export/game/ultimate-billiard-3d-game",
+      "playgamaGameUrl": "https://playgama.com/game/ultimate-billiard-3d-game",
+      "genres": [
+        "sports",
+        "ball",
+        "skill",
+        "pool",
+        "physics",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ultimate-billiard-3d-game/big_preview/37fcee89a23c4347abbda4501007b9d8?width=448",
+        "https://static.playgama.com/p-img/pg/ultimate-billiard-3d-game/icon/727c4e73914645bfb58ca644d02a244e?width=448"
+      ]
+    },
+    {
+      "id": "boxing-stars",
+      "retrievedAt": "2026-11-07T13:34:16.016Z",
+      "sourceFile": "playgama-public-sports-page-0.json",
+      "title": "Boxing Stars",
+      "gameURL": "https://playgama.com/export/game/boxing-stars",
+      "playgamaGameUrl": "https://playgama.com/game/boxing-stars",
+      "genres": [
+        "sports",
+        "boxing",
+        "fighting",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/boxing-stars/big_preview/e924e27fd059432aaceb25596fa1695a?width=448",
+        "https://static.playgama.com/p-img/pg/boxing-stars/icon/632ec2c995ee4f5b99c1e7f571efd56d?width=448"
+      ]
+    },
+    {
+      "id": "slowmo-sniper",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "SlowMo Sniper",
+      "gameURL": "https://playgama.com/export/game/slowmo-sniper",
+      "playgamaGameUrl": "https://playgama.com/game/slowmo-sniper",
+      "genres": [
+        "3d",
+        "action",
+        "shooting",
+        "sniper",
+        "skill",
+        "arcade",
+        "mouse",
+        "stickman"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/slowmo-sniper/big_preview/f51485f140b3499bb6fd236b380fe75a?width=448",
+        "https://static.playgama.com/p-img/pg/slowmo-sniper/icon/43119a7145be4b988d3b9ea038795b77?width=448"
+      ]
+    },
+    {
+      "id": "loot-hole",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Loot Hole",
+      "gameURL": "https://playgama.com/export/game/loot-hole",
+      "playgamaGameUrl": "https://playgama.com/game/loot-hole",
+      "genres": [
+        "arcade",
+        "simulation",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/8aace64c96fe42e092927ee9ae1312a1?width=448",
+        "https://static.playgama.com/p-img/pg/icon/3ff5eab6d3554bbd94a8aa0ff1390b56?width=448"
+      ]
+    },
+    {
+      "id": "the-biggest-number",
+      "retrievedAt": "2026-11-07T13:34:16.552Z",
+      "sourceFile": "playgama-public-arcade-page-0.json",
+      "title": "The Biggest Number",
+      "gameURL": "https://playgama.com/export/game/the-biggest-number",
+      "playgamaGameUrl": "https://playgama.com/game/the-biggest-number",
+      "genres": [
+        "arcade",
+        "number",
+        "math",
+        "3d",
+        "runner"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/the-biggest-number/big_preview/1a139e67a19d4897891bac7a0ab8966b?width=448",
+        "https://static.playgama.com/p-img/pg/the-biggest-number/icon/869b55d6e2a84986b154d3b068885ffe?width=448"
+      ]
+    },
+    {
+      "id": "rooftop-run",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Rooftop Run",
+      "gameURL": "https://rooftoprun.net/export",
+      "playgamaGameUrl": "https://playgama.com/game/rooftop-run",
+      "genres": [
+        "skill",
+        "running",
+        "platform",
+        "parkour",
+        "mobile",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/rooftop-run/big_preview/b8acf2eca33a4526ac82101c511a6e19?width=448",
+        "https://static.playgama.com/p-img/pg/rooftop-run/icon/a2a0c57c3ca048b281ac5dde96516ddb?width=448"
+      ]
+    },
+    {
+      "id": "deep-drill-run",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Deep Drill Run",
+      "gameURL": "https://playgama.com/export/game/deep-drill-run",
+      "playgamaGameUrl": "https://playgama.com/game/deep-drill-run",
+      "genres": [
+        "arcade",
+        "action",
+        "adventure",
+        "3d",
+        "skill"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/deep-drill-run/big_preview/821f0a0b14794dc788a0d087b0a65e62?width=448",
+        "https://static.playgama.com/p-img/pg/deep-drill-run/icon/e3843dce0a9a4885aa663c5256f7149d?width=448"
+      ]
+    },
+    {
+      "id": "jiffy",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Jiffy",
+      "gameURL": "https://playgama.com/export/game/jiffy",
+      "playgamaGameUrl": "https://playgama.com/game/jiffy",
+      "genres": [
+        "arcade",
+        "platform",
+        "retro",
+        "skill"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/jiffy/big-preview/a0abbe9d757c406ab1054526504e0537?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-97905/icon/97581ac7dd35da2e0171a4dcad9d4cb6d841f17dbda221ffdd7ad35c5be535c9?width=448"
+      ]
+    },
+    {
+      "id": "chroma-trek",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Chroma Trek",
+      "gameURL": "https://playgama.com/export/game/chroma-trek",
+      "playgamaGameUrl": "https://playgama.com/game/chroma-trek",
+      "genres": [
+        "platform",
+        "arcade",
+        "skill",
+        "running",
+        "color",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/chroma-trek/big-preview/76e61f4ef6ec42269a314d7646a7aaec?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-106376/icon/89b6db9f2a1fa1b796a0f4f7e1861c31e8fe6861b0e3b79b0ffae805315756e4?width=448"
+      ]
+    },
+    {
+      "id": "night-lake",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Night Lake",
+      "gameURL": "https://playgama.com/export/game/night-lake",
+      "playgamaGameUrl": "https://playgama.com/game/night-lake",
+      "genres": [
+        "fishing",
+        "arcade",
+        "skill",
+        "simulation",
+        "adventure",
+        "monster",
+        "cozy"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/d42bdaa0158c41098f62212e3fafa111?width=448",
+        "https://static.playgama.com/p-img/pg/icon/9b36d50878234e32986c0dbd82876469?width=448"
+      ]
+    },
+    {
+      "id": "cut-it-3d",
+      "retrievedAt": "2026-11-07T13:34:16.552Z",
+      "sourceFile": "playgama-public-arcade-page-0.json",
+      "title": "Cut It 3D",
+      "gameURL": "https://playgama.com/export/game/cut-it-3d",
+      "playgamaGameUrl": "https://playgama.com/game/cut-it-3d",
+      "genres": [
+        "3d",
+        "skill",
+        "mobile",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/cut-it-3d/big-preview/caf91230fd514e638d5d1f6fd1b67d20?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-108901/icon/4d316ed8badd71463660c7730ff7b52d562fce976cc6ebd29fcfc32530487c7b?width=448"
+      ]
+    },
+    {
+      "id": "jelly-gobble",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Jelly Gobble",
+      "gameURL": "https://playgama.com/export/game/jelly-gobble",
+      "playgamaGameUrl": "https://playgama.com/game/jelly-gobble",
+      "genres": [
+        "io",
+        "arcade",
+        "3d",
+        "action",
+        "mouse"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "fr-FR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/jelly-gobble/big_preview/fcf784fc9fd4402cba134caa322634f0?width=448",
+        "https://static.playgama.com/p-img/pg/jelly-gobble/icon/cb3ce04753c34eb1a111a8e8cf4a2839?width=448"
+      ]
+    },
+    {
+      "id": "the-tall-man",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "The Tall Man",
+      "gameURL": "https://playgama.com/export/game/the-tall-man",
+      "playgamaGameUrl": "https://playgama.com/game/the-tall-man",
+      "genres": [
+        "horror",
+        "survival",
+        "3d",
+        "adventure"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/the-tall-man/big_preview/cad21af835d348db83f9aace4ccca043?width=448",
+        "https://static.playgama.com/p-img/pg/the-tall-man/icon/2273553b6282464ca5d9ed962482fa96?width=448"
+      ]
+    },
+    {
+      "id": "animal-clinic-anomaly",
+      "retrievedAt": "2026-11-07T14:26:33.248Z",
+      "sourceFile": "playgama-public-horror-page-0.json",
+      "title": "Animal Clinic (Anomaly)",
+      "gameURL": "https://playgama.com/export/game/animal-clinic-anomaly",
+      "playgamaGameUrl": "https://playgama.com/game/animal-clinic-anomaly",
+      "genres": [
+        "doctor",
+        "hospital",
+        "animals",
+        "horror"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/animal-clinic-anomaly/big_preview/f5bac694614c4afa9300229625ac851a?width=448",
+        "https://static.playgama.com/p-img/pg/animal-clinic-anomaly/icon/694830a6e60a4e66b688768e8aa899ae?width=448"
+      ]
+    },
+    {
+      "id": "abandoned-mansion",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Abandoned Mansion",
+      "gameURL": "https://playgama.com/export/game/abandoned-mansion",
+      "playgamaGameUrl": "https://playgama.com/game/abandoned-mansion",
+      "genres": [
+        "horror",
+        "adventure",
+        "3d",
+        "survival",
+        "scary",
+        "ghost",
+        "escape"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "kk-KZ",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uz-UZ"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/abandoned-mansion/big-preview/8467785cb4b841fca94e740451c367ea?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-90501/icon/a54b5be6f15280d0475e0f597cfaaa4ab8fe687025863f6035c154339992f88d?width=448"
+      ]
+    },
+    {
+      "id": "backrooms-exit-protocol-0",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Backrooms: Exit Protocol 0",
+      "gameURL": "https://playgama.com/export/game/backrooms-exit-protocol-0",
+      "playgamaGameUrl": "https://playgama.com/game/backrooms-exit-protocol-0",
+      "genres": [
+        "horror",
+        "adventure",
+        "running",
+        "survival",
+        "puzzle",
+        "monster",
+        "escape",
+        "scary"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/89c731c985b64f68aa280815ebb98f77?width=448",
+        "https://static.playgama.com/p-img/pg/icon/13ee2e87eb33456bb01abe4a32b81bfa?width=448"
+      ]
+    },
+    {
+      "id": "last-night",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "LAST NIGHT!",
+      "gameURL": "https://playgama.com/export/game/last-night",
+      "playgamaGameUrl": "https://playgama.com/game/last-night",
+      "genres": [
+        "scary",
+        "horror",
+        "story",
+        "keyboard",
+        "adventure"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/last-night/big-preview/ecab9c788b4a4c678edaccc4bc9e46ea?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-118428/icon/f924aff8ac3ce3dc672704dc2dc21346f94db0c8e8e334185ef5b1823e03a2fa?width=448"
+      ]
+    },
+    {
+      "id": "room-45",
+      "retrievedAt": "2026-11-07T14:26:33.248Z",
+      "sourceFile": "playgama-public-horror-page-0.json",
+      "title": "Room 45",
+      "gameURL": "https://playgama.com/export/game/room-45",
+      "playgamaGameUrl": "https://playgama.com/game/room-45",
+      "genres": [
+        "brain",
+        "escape",
+        "hidden-object",
+        "horror"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/room-45/big-preview/8a694b0540be439ba50c8429c2204d22?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-97475/icon/33910f35a78f79c4d68469cc6637ac41e0a3e49b290c88ab4332eb0fa9f4914c?width=448"
+      ]
+    },
+    {
+      "id": "unfamiliar-object",
+      "retrievedAt": "2026-11-07T14:26:33.248Z",
+      "sourceFile": "playgama-public-horror-page-0.json",
+      "title": "Unfamiliar Object",
+      "gameURL": "https://playgama.com/export/game/unfamiliar-object",
+      "playgamaGameUrl": "https://playgama.com/game/unfamiliar-object",
+      "genres": [
+        "hidden-object",
+        "horror",
+        "3d",
+        "adventure",
+        "scary"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/unfamiliar-object/big_preview/388ffcd429c64f14aa2411b628d3abb6?width=448",
+        "https://static.playgama.com/p-img/pg/unfamiliar-object/icon/332e1a4529224bcbaa74205fb29aa905?width=448"
+      ]
+    },
+    {
+      "id": "pulse-of-fear",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Pulse Of Fear",
+      "gameURL": "https://playgama.com/export/game/pulse-of-fear",
+      "playgamaGameUrl": "https://playgama.com/game/pulse-of-fear",
+      "genres": [
+        "horror",
+        "adventure",
+        "survival",
+        "scary",
+        "ghost",
+        "3d",
+        "rpg"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/pulse-of-fear/big-preview/50384e4be78243a7be92d4d7830e422d?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112498/icon/94bce55c77a618ba79489652136006620273d93e864da055fe5c2e76e732be73?width=448"
+      ]
+    },
+    {
+      "id": "tall-grass",
+      "retrievedAt": "2026-11-07T14:26:33.248Z",
+      "sourceFile": "playgama-public-horror-page-0.json",
+      "title": "Tall Grass",
+      "gameURL": "https://playgama.com/export/game/tall-grass",
+      "playgamaGameUrl": "https://playgama.com/game/tall-grass",
+      "genres": [
+        "horror"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/tall-grass/big_preview/4e8b2da1c3d14636b6cd47257c71c913?width=448",
+        "https://static.playgama.com/p-img/pg/tall-grass/icon/1cdd904ae7554f90b673bc0072858a96?width=448"
+      ]
+    },
+    {
+      "id": "escape-from-the-crypt",
+      "retrievedAt": "2026-11-07T14:26:33.248Z",
+      "sourceFile": "playgama-public-horror-page-0.json",
+      "title": "Escape From The Crypt",
+      "gameURL": "https://playgama.com/export/game/escape-from-the-crypt",
+      "playgamaGameUrl": "https://playgama.com/game/escape-from-the-crypt",
+      "genres": [
+        "adventure",
+        "escape",
+        "maze",
+        "mobile",
+        "horror"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/escape-from-the-crypt/big-preview/53d97379ec814d80967266ea810d22e7?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112130/icon/7ffa72f1f9164947f9ab91d6d2b77871a0007f8f5fb6fc6975b6a482f1b1cebe?width=448"
+      ]
+    },
+    {
+      "id": "my-arcade-center",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "My Arcade Center",
+      "gameURL": "https://playgama.com/export/game/my-arcade-center",
+      "playgamaGameUrl": "https://playgama.com/game/my-arcade-center",
+      "genres": [
+        "management",
+        "idle",
+        "tycoon",
+        "arcade",
+        "simulation"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/my-arcade-center/big_preview/b20cdd7c5494467f9a54fccccd2a61ba?width=448",
+        "https://static.playgama.com/p-img/pg/my-arcade-center/icon/6f81c96e7aed4b4289d682391e3699ab?width=448"
+      ]
+    },
+    {
+      "id": "idle-game-dev-simulator",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Game Dev Simulator",
+      "gameURL": "https://playgama.com/export/game/idle-game-dev-simulator",
+      "playgamaGameUrl": "https://playgama.com/game/idle-game-dev-simulator",
+      "genres": [
+        "simulation",
+        "idle",
+        "management",
+        "clicker",
+        "tycoon"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "id-ID",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-game-dev-simulator/big-preview/40ce900d1075451dad0bb74f5eeafc3e?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112943/icon/fcbf55398b6a7a0f60fdf6c0c0cfb61000f312cc5889f84d61efd9650cc772c3?width=448"
+      ]
+    },
+    {
+      "id": "idle-zoo-tycoon",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Zoo Tycoon",
+      "gameURL": "https://playgama.com/export/game/idle-zoo-tycoon",
+      "playgamaGameUrl": "https://playgama.com/game/idle-zoo-tycoon",
+      "genres": [
+        "idle",
+        "tycoon",
+        "management",
+        "simulation",
+        "animals"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-zoo-tycoon/big-preview/2d7dc8e347e848b3b1ff547927357a25?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-120390/icon/3c954bcc4e8fc26c77f4d4f3a0bbfa14ea8ec5b3631dfeeac543d0b66abd35e9?width=448"
+      ]
+    },
+    {
+      "id": "idle-supermarket-tycoon",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Supermarket Tycoon",
+      "gameURL": "https://playgama.com/export/game/idle-supermarket-tycoon",
+      "playgamaGameUrl": "https://playgama.com/game/idle-supermarket-tycoon",
+      "genres": [
+        "simulation",
+        "tycoon",
+        "idle",
+        "shopping",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "de-DE",
+        "id-ID",
+        "tr-TR",
+        "it-IT"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-supermarket-tycoon/big-preview/c341d0a8566f49a89546970826943d3d?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-90503/icon/14fe1e38a5af409b85627a50e0a47f9768bc86acfaa43a7b9513447ea65d013f?width=448"
+      ]
+    },
+    {
+      "id": "ant-colony-idle",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Ant Colony Idle",
+      "gameURL": "https://playgama.com/export/game/ant-colony-idle",
+      "playgamaGameUrl": "https://playgama.com/game/ant-colony-idle",
+      "genres": [
+        "idle",
+        "clicker",
+        "simulation"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ant-colony-idle/big-preview/80d9f7c8df804f8ba6dc4181b5366578?width=448",
+        "https://static.playgama.com/p-img/pg/icon/93b261f1d69b4e68989db4921af9190b?width=448"
+      ]
+    },
+    {
+      "id": "idle-train-empire",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Train Empire Tycoon",
+      "gameURL": "https://playgama.com/export/game/idle-train-empire",
+      "playgamaGameUrl": "https://playgama.com/game/idle-train-empire",
+      "genres": [
+        "tycoon",
+        "idle",
+        "simulation",
+        "management",
+        "train",
+        "clicker"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "de-DE",
+        "es-ES",
+        "pt-PT",
+        "it-IT",
+        "fr-FR",
+        "id-ID",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-train-empire/big-preview/e3802898026944ec8bd00e4beea2ca24?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-21/icon/8523d36954b2e460bfe830bee76aa829f89daf7ad25815817177bd4056fe43c7?width=448"
+      ]
+    },
+    {
+      "id": "idle-airport-tycoon",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Airport Tycoon",
+      "gameURL": "https://playgama.com/export/game/idle-airport-tycoon",
+      "playgamaGameUrl": "https://playgama.com/game/idle-airport-tycoon",
+      "genres": [
+        "simulation",
+        "idle",
+        "tycoon",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-airport-tycoon/big-preview/cf42eed8120a4f3f9fa4d25809bc4ab1?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-114895/icon/97d2c234d6f4b59034760f0ade06a844607b545a0ad5bfd5b79bcfc67028f7a7?width=448"
+      ]
+    },
+    {
+      "id": "event-horizon-black-hole-idle",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Event Horizon: Black Hole Idle",
+      "gameURL": "https://playgama.com/export/game/event-horizon-black-hole-idle",
+      "playgamaGameUrl": "https://playgama.com/game/event-horizon-black-hole-idle",
+      "genres": [
+        "idle",
+        "clicker",
+        "3d",
+        "space",
+        "simulation",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/event-horizon-black-hole-idle/big_preview/2eb8d56db47c44aea43b43cc8bb14399?width=448",
+        "https://static.playgama.com/p-img/pg/event-horizon-black-hole-idle/icon/174a7668a44a43d58410c215efa3ebba?width=448"
+      ]
+    },
+    {
+      "id": "chicken-farm",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Chicken Farm",
+      "gameURL": "https://playgama.com/export/game/chicken-farm",
+      "playgamaGameUrl": "https://playgama.com/game/chicken-farm",
+      "genres": [
+        "tycoon",
+        "idle",
+        "merge",
+        "farm",
+        "3d",
+        "clicker",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/chicken-farm/big_preview/6c26c41595cd4edcabdfc576ec25cf20?width=448",
+        "https://static.playgama.com/p-img/pg/chicken-farm/icon/794cecedbee34d0986737a09a0024c0b?width=448"
+      ]
+    },
+    {
+      "id": "idle-hotel-empire-tycoon",
+      "retrievedAt": "2026-11-07T14:26:33.031Z",
+      "sourceFile": "playgama-public-idle-page-0.json",
+      "title": "Idle Hotel Empire Tycoon",
+      "gameURL": "https://playgama.com/export/game/idle-hotel-empire-tycoon",
+      "playgamaGameUrl": "https://playgama.com/game/idle-hotel-empire-tycoon",
+      "genres": [
+        "idle",
+        "tycoon",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "id-ID",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idle-hotel-empire-tycoon/big-preview/4cfda7cb5fb3446f91e64d248d9e74d2?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-120651/icon/974c927a2bb43a08c95df728394d0abcffd786c05550beae11de0f00719aef29?width=448"
+      ]
+    },
+    {
+      "id": "hazmob-fps-online-shooter",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Hazmob FPS: Online Shooter",
+      "gameURL": "https://playgama.com/export/game/hazmob-fps-online-shooter",
+      "playgamaGameUrl": "https://playgama.com/game/hazmob-fps-online-shooter",
+      "genres": [
+        "action",
+        "multiplayer",
+        "shooting",
+        "first-person-shooter",
+        "gun",
+        "3d",
+        "popular",
+        "sniper",
+        "cool-games",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hazmob-fps-online-shooter/big_preview/df01c609f8c44052b837b336d0e63617?width=448",
+        "https://static.playgama.com/p-img/pg/hazmob-fps-online-shooter/icon/ee2ef33081624f1eab03827b6f212bb6?width=448"
+      ]
+    },
+    {
+      "id": "sniper-attack2",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Sniper Attack2",
+      "gameURL": "https://playgama.com/export/game/sniper-attack2",
+      "playgamaGameUrl": "https://playgama.com/game/sniper-attack2",
+      "genres": [
+        "sniper",
+        "shooting",
+        "gun",
+        "first-person-shooter",
+        "army",
+        "action",
+        "skill",
+        "3d",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/sniper-attack2/big-preview/4b6699b7ebfb43ec967ffdbf271a0f38?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-116923/icon/6c0e96ee9a1b34a11527fbb92890dc2d0b87367bbd83e04bb638975998f9753a?width=448"
+      ]
+    },
+    {
+      "id": "road-chase-shooter-realistic-guns",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Road Chase: Shooter Realistic Guns",
+      "gameURL": "https://playgama.com/export/game/road-chase-shooter-realistic-guns",
+      "playgamaGameUrl": "https://playgama.com/game/road-chase-shooter-realistic-guns",
+      "genres": [
+        "gun",
+        "shooting",
+        "action",
+        "car",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/road-chase-shooter-realistic-guns/big-preview/6e87b1320c124a7f8ddd5034b7ea1d38?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-117430/icon/f816def5bb3d427d4368a48c17150457ef3ef22c3750d3e38ad6b888a8f34fcf?width=448"
+      ]
+    },
+    {
+      "id": "bomb-the-castle",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Bomb the Castle",
+      "gameURL": "https://playgama.com/export/game/bomb-the-castle",
+      "playgamaGameUrl": "https://playgama.com/game/bomb-the-castle",
+      "genres": [
+        "shooting",
+        "arcade",
+        "action",
+        "strategy",
+        "physics",
+        "funny"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bomb-the-castle/big_preview/776d7534d6c5435782342ac164c7a13f?width=448",
+        "https://static.playgama.com/p-img/pg/bomb-the-castle/icon/580fd7a4c9e7451caa59e1bf1ea1a318?width=448"
+      ]
+    },
+    {
+      "id": "iron-defense",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Iron Defense",
+      "gameURL": "https://playgama.com/export/game/iron-defense",
+      "playgamaGameUrl": "https://playgama.com/game/iron-defense",
+      "genres": [
+        "strategy",
+        "arcade",
+        "tower-defense",
+        "shooting",
+        "action",
+        "boys",
+        "mouse"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-BR",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/iron-defense/big_preview/ad20eb4a35d24dbc8624c43fdc37e705?width=448",
+        "https://static.playgama.com/p-img/pg/iron-defense/icon/0cea9b8149f44e18845480fe1af79b75?width=448"
+      ]
+    },
+    {
+      "id": "deorbit--space-survivors",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Deorbit - Space Survivors",
+      "gameURL": "https://playgama.com/export/game/deorbit--space-survivors",
+      "playgamaGameUrl": "https://playgama.com/game/deorbit--space-survivors",
+      "genres": [
+        "shooting",
+        "space",
+        "survival",
+        "action"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/9214045511834227a400de0be0240c75?width=448",
+        "https://static.playgama.com/p-img/pg/icon/2db49c207ae74950a2fe235ce7dd3c46?width=448"
+      ]
+    },
+    {
+      "id": "dogfight",
+      "retrievedAt": "2026-11-07T14:26:28.667Z",
+      "sourceFile": "playgama-public-shooting-page-0.json",
+      "title": "Dogfight",
+      "gameURL": "https://playgama.com/export/game/dogfight",
+      "playgamaGameUrl": "https://playgama.com/game/dogfight",
+      "genres": [
+        "airplane",
+        "action",
+        "shooting",
+        "flying"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/dogfight/big-preview/14b7761ace934abe968676b15de6faae?width=448",
+        "https://static.playgama.com/p-img/pg/icon/1a540b9264ea4da8ae129afda999ca49?width=448"
+      ]
+    },
+    {
+      "id": "archery-ragdoll",
+      "retrievedAt": "2026-11-07T14:26:28.667Z",
+      "sourceFile": "playgama-public-shooting-page-0.json",
+      "title": "Archer Ragdoll",
+      "gameURL": "https://playgama.com/export/game/archery-ragdoll",
+      "playgamaGameUrl": "https://playgama.com/game/archery-ragdoll",
+      "genres": [
+        "ragdoll",
+        "archery",
+        "funny",
+        "stickman",
+        "shooting"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/archery-ragdoll/big-preview/77ca7ee51b4e4cf1ada781b3d8795a1e?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-64059/icon/fe30046dbdd492fdd6c8794840b56299b99a69803fa418d8e27312d7196edc7c?width=448"
+      ]
+    },
+    {
+      "id": "naval-base",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Naval Base",
+      "gameURL": "https://playgama.com/export/game/naval-base",
+      "playgamaGameUrl": "https://playgama.com/game/naval-base",
+      "genres": [
+        "action",
+        "tower-defense",
+        "shooting",
+        "arcade",
+        "war",
+        "strategy"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/c89e767a7fe84c238c2f1195df25f993?width=448",
+        "https://static.playgama.com/p-img/pg/icon/02b3fe66b4124a4397c325bd8cf7392a?width=448"
+      ]
+    },
+    {
+      "id": "flip-gun-3d-ragdoll-shooter",
+      "retrievedAt": "2026-11-07T14:26:28.667Z",
+      "sourceFile": "playgama-public-shooting-page-0.json",
+      "title": "Flip Gun 3D Ragdoll Shooter",
+      "gameURL": "https://playgama.com/export/game/flip-gun-3d-ragdoll-shooter",
+      "playgamaGameUrl": "https://playgama.com/game/flip-gun-3d-ragdoll-shooter",
+      "genres": [
+        "shooting",
+        "3d",
+        "ragdoll",
+        "physics",
+        "gun"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/flip-gun-3d-ragdoll-shooter/big-preview/4834f6fc6f9a40f69961ae2942338fdd?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99604/icon/14636aa408ad87b64d2e8008cdc9efe7e7ae167e4b5a79f877cc1310bf3ea91c?width=448"
+      ]
+    },
+    {
+      "id": "bridge-builder",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Bridge Builder",
+      "gameURL": "https://playgama.com/export/game/bridge-builder",
+      "playgamaGameUrl": "https://playgama.com/game/bridge-builder",
+      "genres": [
+        "puzzle",
+        "simulation",
+        "skill",
+        "construction",
+        "physics",
+        "3d",
+        "brain",
+        "mobile",
+        "logic",
+        "intelligence"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bridge-builder/big-preview/4f12f6a379db4666a4b3141c7aa23441?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-111940/icon/362388407f19c1b8f2c9a5cfa395f5552299a1d8599285d775ec49d55279d16a?width=448"
+      ]
+    },
+    {
+      "id": "pocket-mart",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Pocket Mart",
+      "gameURL": "https://playgama.com/export/game/pocket-mart",
+      "playgamaGameUrl": "https://playgama.com/game/pocket-mart",
+      "genres": [
+        "arcade",
+        "adventure",
+        "simulation",
+        "tycoon",
+        "management",
+        "3d",
+        "car",
+        "driving"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/pocket-mart/big_preview/88d84fe3ee5948d2b014798172e18aea?width=448",
+        "https://static.playgama.com/p-img/pg/pocket-mart/icon/9b9994d916694a95b752c367efa63ac4?width=448"
+      ]
+    },
+    {
+      "id": "city-bus-simulator-driving-games",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "City Bus Simulator Driving Games",
+      "gameURL": "https://playgama.com/export/game/city-bus-simulator-driving-games",
+      "playgamaGameUrl": "https://playgama.com/game/city-bus-simulator-driving-games",
+      "genres": [
+        "driving",
+        "car",
+        "bus",
+        "simulation",
+        "3d",
+        "parking"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/big_preview/3dc328398fd44f93a76ae33906e189e6?width=448",
+        "https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/icon/ddfeac1f3d1149df816cf95f46f276b9?width=448"
+      ]
+    },
+    {
+      "id": "field-master",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Field Master",
+      "gameURL": "https://playgama.com/export/game/field-master",
+      "playgamaGameUrl": "https://playgama.com/game/field-master",
+      "genres": [
+        "tractor",
+        "farm",
+        "simulation",
+        "management",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/b86a14eb6ee941ecabfe11898f2de66c?width=448",
+        "https://static.playgama.com/p-img/pg/icon/e636da1e134e4f1cb5c7b5968622ce44?width=448"
+      ]
+    },
+    {
+      "id": "flufflings-pocket-pets",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Flufflings: Pocket Pets",
+      "gameURL": "https://playgama.com/export/game/flufflings-pocket-pets",
+      "playgamaGameUrl": "https://playgama.com/game/flufflings-pocket-pets",
+      "genres": [
+        "animals",
+        "cats",
+        "cozy",
+        "simulation",
+        "girls"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/flufflings-pocket-pets/big_preview/38936ed0a3154468bf699b268dacb04e?width=448",
+        "https://static.playgama.com/p-img/pg/flufflings-pocket-pets/icon/d82310aab5634fa38727426bd1ed7a93?width=448"
+      ]
+    },
+    {
+      "id": "airplane-flight-manager-game",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Airplane Flight Manager Game",
+      "gameURL": "https://playgama.com/export/game/airplane-flight-manager-game",
+      "playgamaGameUrl": "https://playgama.com/game/airplane-flight-manager-game",
+      "genres": [
+        "simulation",
+        "airplane",
+        "flying",
+        "3d",
+        "bus"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/airplane-flight-manager-game/big_preview/044be1c7abce4532a83411fb760e5ad5?width=448",
+        "https://static.playgama.com/p-img/pg/airplane-flight-manager-game/icon/90d762b8e9b548159917433068ca9e07?width=448"
+      ]
+    },
+    {
+      "id": "dream-home",
+      "retrievedAt": "2026-11-07T14:48:29.858Z",
+      "sourceFile": "expansion-card-creative-decoration-20261107.json",
+      "title": "Dream Home",
+      "gameURL": "https://playgama.com/export/game/dream-home",
+      "playgamaGameUrl": "https://playgama.com/game/dream-home",
+      "genres": [
+        "decoration",
+        "3d",
+        "cozy",
+        "simulation",
+        "girls"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/dream-home/big_preview/8c190b3dd4ba4eb6a5a32387687c2393?width=448",
+        "https://static.playgama.com/p-img/pg/dream-home/icon/8aa427a5402c434baf3abc04217fa099?width=448"
+      ]
+    },
+    {
+      "id": "burger-restaurant-simulator-3d",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Burger Restaurant Simulator 3D",
+      "gameURL": "https://playgama.com/export/game/burger-restaurant-simulator-3d",
+      "playgamaGameUrl": "https://playgama.com/game/burger-restaurant-simulator-3d",
+      "genres": [
+        "simulation",
+        "3d",
+        "management",
+        "cooking",
+        "restaurant",
+        "food",
+        "tycoon"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/burger-restaurant-simulator-3d/big_preview/b4cbcd2693594ae1a4e6aa672025365c?width=448",
+        "https://static.playgama.com/p-img/pg/burger-restaurant-simulator-3d/icon/f38b63c74f224a768073ff42fd424ffa?width=448"
+      ]
+    },
+    {
+      "id": "launch-the-dummy",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Launch the Dummy! ",
+      "gameURL": "https://playgama.com/export/game/launch-the-dummy",
+      "playgamaGameUrl": "https://playgama.com/game/launch-the-dummy",
+      "genres": [
+        "arcade",
+        "simulation",
+        "ragdoll",
+        "action",
+        "3d",
+        "funny",
+        "physics"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/launch-the-dummy/big_preview/51780d0d47ee4af792341ec0dcc266bf?width=448",
+        "https://static.playgama.com/p-img/pg/launch-the-dummy/icon/b40d99fbad1c499e9b26aad8e5df04f6?width=448"
+      ]
+    },
+    {
+      "id": "fun-fishing",
+      "retrievedAt": "2026-11-07T14:26:28.672Z",
+      "sourceFile": "playgama-public-simulation-page-0.json",
+      "title": "Fun fishing",
+      "gameURL": "https://fishitgame.io/export",
+      "playgamaGameUrl": "https://playgama.com/game/fun-fishing",
+      "genres": [
+        "fishing",
+        "clicker",
+        "simulation"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/fun-fishing/big-preview/fe74b009786b46f99392365ef040eb53?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-118341/icon/2c4ccc662abc20f8f7f126b5522b2f42a3a7618fa499a172dfeaad62bbf987a7?width=448"
+      ]
+    },
+    {
+      "id": "stickman-kombat-2d",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Stickman Kombat 2D",
+      "gameURL": "https://stickmankombat.io/export",
+      "playgamaGameUrl": "https://playgama.com/game/stickman-kombat-2d",
+      "genres": [
+        "fighting",
+        "stickman",
+        "boys",
+        "skill",
+        "action"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/stickman-kombat-2d/big_preview/4b027b6071e2495aad3ac02403e35a1a?width=448",
+        "https://static.playgama.com/p-img/pg/stickman-kombat-2d/icon/5524d8055e054f909166c935c620afb3?width=448"
+      ]
+    },
+    {
+      "id": "epic-sword-battle-fight-in-the-ragdoll-arena",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Epic Sword Battle! Fight in the Ragdoll Arena!",
+      "gameURL": "https://playgama.com/export/game/epic-sword-battle-fight-in-the-ragdoll-arena",
+      "playgamaGameUrl": "https://playgama.com/game/epic-sword-battle-fight-in-the-ragdoll-arena",
+      "genres": [
+        "action",
+        "fighting",
+        "ragdoll",
+        "mobile",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/epic-sword-battle-fight-in-the-ragdoll-arena/big_preview/cd9b92eab74043d293dfbbba8d4bcfd2?width=448",
+        "https://static.playgama.com/p-img/pg/epic-sword-battle-fight-in-the-ragdoll-arena/icon/48222c3db2244f9d841dab314c649212?width=448"
+      ]
+    },
+    {
+      "id": "dogs-vs-aliens",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Dogs vs Aliens",
+      "gameURL": "https://playgama.com/export/game/dogs-vs-aliens",
+      "playgamaGameUrl": "https://playgama.com/game/dogs-vs-aliens",
+      "genres": [
+        "dog",
+        "pve",
+        "action"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/dogs-vs-aliens/big_preview/6e7a1abac45742368121424df5194b45?width=448",
+        "https://static.playgama.com/p-img/pg/dogs-vs-aliens/icon/75a027b17b3e4193bb3ae730ff7b5e5b?width=448"
+      ]
+    },
+    {
+      "id": "draw-action",
+      "retrievedAt": "2026-11-07T14:48:30.302Z",
+      "sourceFile": "expansion-card-creative-drawing-20261107.json",
+      "title": "Draw Action",
+      "gameURL": "https://playgama.com/export/game/draw-action",
+      "playgamaGameUrl": "https://playgama.com/game/draw-action",
+      "genres": [
+        "drawing",
+        "action",
+        "fighting",
+        "stickman"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/draw-action/big_preview/05dfa73eb3404a70a03403ff7951aebf?width=448",
+        "https://static.playgama.com/p-img/pg/draw-action/icon/1b6c45a252204c6eb4d3ac6471e5e891?width=448"
+      ]
+    },
+    {
+      "id": "ragdoll-battle-royale-throw-down-the-enemy",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Ragdoll Battle Royale! Throw Down the Enemy!",
+      "gameURL": "https://playgama.com/export/game/ragdoll-battle-royale-throw-down-the-enemy",
+      "playgamaGameUrl": "https://playgama.com/game/ragdoll-battle-royale-throw-down-the-enemy",
+      "genres": [
+        "ragdoll",
+        "battle-royale",
+        "action",
+        "3d"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ragdoll-battle-royale-throw-down-the-enemy/big-preview/6ee238ff735d40bba88e5e40c87478e8?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-120145/icon/429019629e6e76e8d30716c5b992042e26b689de43f32dee839d295391081e87?width=448"
+      ]
+    },
+    {
+      "id": "crumple-rumble",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Crumple Rumble",
+      "gameURL": "https://playgama.com/export/game/crumple-rumble",
+      "playgamaGameUrl": "https://playgama.com/game/crumple-rumble",
+      "genres": [
+        "arcade",
+        "action",
+        "fighting",
+        "stickman",
+        "two-player",
+        "funny",
+        "1v1"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/crumple-rumble/big_preview/7b40578322f7400dbb7e7b6c238df837?width=448",
+        "https://static.playgama.com/p-img/pg/crumple-rumble/icon/7645507a67cc4628ba729622208dfe8f?width=448"
+      ]
+    },
+    {
+      "id": "attack--dash",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Attack & Dash",
+      "gameURL": "https://playgama.com/export/game/attack--dash",
+      "playgamaGameUrl": "https://playgama.com/game/attack--dash",
+      "genres": [
+        "action",
+        "stickman",
+        "ninja",
+        "ragdoll",
+        "physics"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/attack-dash/big_preview/9406a69ea8914c008130aa61229b0f7d?width=448",
+        "https://static.playgama.com/p-img/pg/attack-dash/icon/74ba7f46e96148f8b08cb97b18a10f20?width=448"
+      ]
+    },
+    {
+      "id": "frogtress",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Frogtress",
+      "gameURL": "https://playgama.com/export/game/frogtress",
+      "playgamaGameUrl": "https://playgama.com/game/frogtress",
+      "genres": [
+        "action",
+        "survival",
+        "skill",
+        "arcade",
+        "monster",
+        "mouse"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/7b265e9aa7fa4613b5ad3eb64ced100d?width=448",
+        "https://static.playgama.com/p-img/pg/icon/3c9586b2b2d749f6b532c1013715ed79?width=448"
+      ]
+    },
+    {
+      "id": "food-run-and-battle",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Food: Run and Battle",
+      "gameURL": "https://playgama.com/export/game/food-run-and-battle",
+      "playgamaGameUrl": "https://playgama.com/game/food-run-and-battle",
+      "genres": [
+        "arcade",
+        "action",
+        "running",
+        "3d",
+        "runner"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/food-run-and-battle/big_preview/014c3c6f6a404070bca35231acd9ef81?width=448",
+        "https://static.playgama.com/p-img/pg/food-run-and-battle/icon/7eeba0c94b534c2b82cbeda48e530922?width=448"
+      ]
+    },
+    {
+      "id": "tumble-tower-survival",
+      "retrievedAt": "2026-11-07T14:32:47.096Z",
+      "sourceFile": "playgama-public-action-page-0.json",
+      "title": "Tumble Tower Survival",
+      "gameURL": "https://playgama.com/export/game/tumble-tower-survival",
+      "playgamaGameUrl": "https://playgama.com/game/tumble-tower-survival",
+      "genres": [
+        "obby",
+        "arcade",
+        "action",
+        "3d",
+        "funny",
+        "battle-royale",
+        "physics",
+        "survival"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/tumble-tower-survival/big_preview/f8d21da4527e42ce97090916c5dfd3df?width=448",
+        "https://static.playgama.com/p-img/pg/tumble-tower-survival/icon/153f45ac86b34c38a9794e2ef043b46f?width=448"
+      ]
+    },
+    {
+      "id": "aod--art-of-defense",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "AOD - Art Of Defense",
+      "gameURL": "https://playgama.com/export/game/aod--art-of-defense",
+      "playgamaGameUrl": "https://playgama.com/game/aod--art-of-defense",
+      "genres": [
+        "cool-games",
+        "tower-defense",
+        "strategy",
+        "mobile",
+        "popular",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "ja-JP",
+        "it-IT",
+        "fr-FR",
+        "pt-PT",
+        "ar-EG",
+        "id-ID",
+        "de-DE",
+        "ru-RU",
+        "zh-CN",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/aod--art-of-defense/big_preview/748d6b91ce3c4a309fd6df323115b434?width=448",
+        "https://static.playgama.com/p-img/pg/aod--art-of-defense/icon/01ed7544e47a43fc9daffd45b0d23c26?width=448"
+      ]
+    },
+    {
+      "id": "merge-elementals-castle-defense",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Merge Elementals: Castle Defense",
+      "gameURL": "https://playgama.com/export/game/merge-elementals-castle-defense",
+      "playgamaGameUrl": "https://playgama.com/game/merge-elementals-castle-defense",
+      "genres": [
+        "merge",
+        "strategy",
+        "tower-defense",
+        "magic"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/merge-elementals-castle-defense/big_preview/caf4fb608c6448c19877176155051879?width=448",
+        "https://static.playgama.com/p-img/pg/merge-elementals-castle-defense/icon/2fde403bc598436ea89579c6eb02b56a?width=448"
+      ]
+    },
+    {
+      "id": "kingdom-defender-tower-defense",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Kingdom Defender - Tower Defense",
+      "gameURL": "https://playgama.com/export/game/kingdom-defender-tower-defense",
+      "playgamaGameUrl": "https://playgama.com/game/kingdom-defender-tower-defense",
+      "genres": [
+        "tower-defense",
+        "strategy",
+        "pve"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/kingdom-defender-tower-defense/big-preview/b4378ab74fc045d28e8a084bcf58890d?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99706/icon/e7a642262716d1f7166bb8cf798e44d89e36dfbe3106e876e6fac9e0721c6f6b?width=448"
+      ]
+    },
+    {
+      "id": "fleet-merge",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Fleet Merge",
+      "gameURL": "https://playgama.com/export/game/fleet-merge",
+      "playgamaGameUrl": "https://playgama.com/game/fleet-merge",
+      "genres": [
+        "merge",
+        "strategy",
+        "battleship",
+        "pve",
+        "space"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "ja-JP",
+        "ko-KR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/fleet-merge/big_preview/d03ad32471d24f678223a3b24ed4294c?width=448",
+        "https://static.playgama.com/p-img/pg/fleet-merge/icon/4665a4da98064de3befbf426dde5eb26?width=448"
+      ]
+    },
+    {
+      "id": "epic-battle-simulator-2",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Epic Battle Simulator 2",
+      "gameURL": "https://playgama.com/export/game/epic-battle-simulator-2",
+      "playgamaGameUrl": "https://playgama.com/game/epic-battle-simulator-2",
+      "genres": [
+        "strategy",
+        "army",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/epic-battle-simulator-2/big-preview/5c1998558eb34c5aa9d63d8843542aa5?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99597/icon/359acaf517e724f1e177153acb2980ada7a4cdf3cffa68142f6ae6336e3ee952?width=448"
+      ]
+    },
+    {
+      "id": "hex-hamlet",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Hex Hamlet",
+      "gameURL": "https://playgama.com/export/game/hex-hamlet",
+      "playgamaGameUrl": "https://playgama.com/game/hex-hamlet",
+      "genres": [
+        "3d",
+        "strategy",
+        "simulation",
+        "cozy",
+        "management"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "es-ES",
+        "pt-BR",
+        "fr-FR",
+        "de-DE",
+        "it-IT",
+        "pl-PL",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/f76c710f96bd44648eb6b06f81d02819?width=448",
+        "https://static.playgama.com/p-img/pg/icon/d3220197c5d7406b80abdaa9e423870e?width=448"
+      ]
+    },
+    {
+      "id": "musketeers-gunpowder-vs-steel",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Musketeers Gunpowder vs Steel",
+      "gameURL": "https://playgama.com/export/game/musketeers-gunpowder-vs-steel",
+      "playgamaGameUrl": "https://playgama.com/game/musketeers-gunpowder-vs-steel",
+      "genres": [
+        "strategy",
+        "war",
+        "army",
+        "pve",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/musketeers-gunpowder-vs-steel/big-preview/78dd34b4280e4fa291e3e558c24d23a4?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-86376/icon/6f35e3ef978a4c06c7e5886b5787e5bf4e6a4f50231017cce9900d16f5a16a16?width=448"
+      ]
+    },
+    {
+      "id": "line-control",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Line Control",
+      "gameURL": "https://playgama.com/export/game/line-control",
+      "playgamaGameUrl": "https://playgama.com/game/line-control",
+      "genres": [
+        "difficult",
+        "strategy",
+        "skill",
+        "tower-defense"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/line-control/big-preview/7fdf723a366c44739bc32033d47bce16?width=448",
+        "https://static.playgama.com/p-img/pg/icon/6269e0b001394f30b8c44723a8623e51?width=448"
+      ]
+    },
+    {
+      "id": "epic-empire-tower-defense",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Epic Empire: Tower Defense",
+      "gameURL": "https://playgama.com/export/game/epic-empire-tower-defense",
+      "playgamaGameUrl": "https://playgama.com/game/epic-empire-tower-defense",
+      "genres": [
+        "tower-defense",
+        "strategy",
+        "pve",
+        "monster",
+        "boys"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/epic-empire-tower-defense/big-preview/e36d9a6a44964f5f8add3f0947fa390d?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-121001/icon/8c2323d06e11c1f8e0c1891f691f895322136b8293eaa158858a6363142e43ce?width=448"
+      ]
+    },
+    {
+      "id": "animals-battle",
+      "retrievedAt": "2026-11-07T14:32:47.100Z",
+      "sourceFile": "playgama-public-strategy-page-0.json",
+      "title": "Animals Battle",
+      "gameURL": "https://playgama.com/export/game/animals-battle",
+      "playgamaGameUrl": "https://playgama.com/game/animals-battle",
+      "genres": [
+        "army",
+        "strategy",
+        "animals"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/animals-battle/big_preview/a9dcbe74c72746e0845dd3597087991e?width=448",
+        "https://static.playgama.com/p-img/pg/animals-battle/icon/1b0468b3c3b049479e5dd311b151baf7?width=448"
+      ]
+    },
+    {
+      "id": "traffic-rush-online",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "TRAFFIC Rush Online",
+      "gameURL": "https://playgama.com/export/game/traffic-rush-online",
+      "playgamaGameUrl": "https://playgama.com/game/traffic-rush-online",
+      "genres": [
+        "3d",
+        "car",
+        "driving",
+        "racing",
+        "multiplayer",
+        "simulation"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/traffic-rush-online/big_preview/8b5c9711e59d49f2a3bde681805443f4?width=448",
+        "https://static.playgama.com/p-img/pg/traffic-rush-online/icon/f83b2c9d897d444e8f3b47b2a2a01fa7?width=448"
+      ]
+    },
+    {
+      "id": "ragdoll-soccer",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Ragdoll Soccer",
+      "gameURL": "https://playgama.com/export/game/ragdoll-soccer",
+      "playgamaGameUrl": "https://playgama.com/game/ragdoll-soccer",
+      "genres": [
+        "stickman",
+        "two-player",
+        "sports",
+        "penalty",
+        "unity",
+        "boys",
+        "funny",
+        "multiplayer",
+        "ragdoll",
+        "soccer"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ragdoll-soccer/big_preview/89eea6260df6439e81dac76423b04309?width=448",
+        "https://static.playgama.com/p-img/pg/ragdoll-soccer/icon/b3c338f47f094d108dfd189f0ec87d9a?width=448"
+      ]
+    },
+    {
+      "id": "2-player-games-mini-games",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "2 Player Games Mini Games",
+      "gameURL": "https://playgama.com/export/game/2-player-games-mini-games",
+      "playgamaGameUrl": "https://playgama.com/game/2-player-games-mini-games",
+      "genres": [
+        "two-player",
+        "multiplayer",
+        "mini",
+        "funny",
+        "boys",
+        "sports"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/2-player-games-mini-games/big-preview/16ab24eb2e6a46c8948462fc9d3ace66?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-114658/icon/103e7d8373b655774969cd17e4382dd7b5fcdc6f820502df2efa8b80d2faf2d7?width=448"
+      ]
+    },
+    {
+      "id": "toy-soccer-cup",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Toy Soccer Cup",
+      "gameURL": "https://playgama.com/export/game/toy-soccer-cup",
+      "playgamaGameUrl": "https://playgama.com/game/toy-soccer-cup",
+      "genres": [
+        "sports",
+        "soccer",
+        "1v1",
+        "two-player",
+        "multiplayer"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/e7985ecfafd14afa8b415b587ad5900b?width=448",
+        "https://static.playgama.com/p-img/pg/icon/40bfbfcfede74fac94fc1b34c22669a5?width=448"
+      ]
+    },
+    {
+      "id": "bomb-pong-online",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "BOMB PONG: ONLINE",
+      "gameURL": "https://playgama.com/export/game/bomb-pong-online",
+      "playgamaGameUrl": "https://playgama.com/game/bomb-pong-online",
+      "genres": [
+        "fighting",
+        "arcade",
+        "multiplayer",
+        "two-player",
+        "skill",
+        "1v1"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bomb-pong-online/big_preview/465e58893c7047f49c40f9d31274e13f?width=448",
+        "https://static.playgama.com/p-img/pg/bomb-pong-online/icon/77910100d2da481f8ed5f112e98d2d99?width=448"
+      ]
+    },
+    {
+      "id": "bomb-royale-online",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Bomb Royale Online",
+      "gameURL": "https://playgama.com/export/game/bomb-royale-online",
+      "playgamaGameUrl": "https://playgama.com/game/bomb-royale-online",
+      "genres": [
+        "action",
+        "multiplayer",
+        "pvp"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bomb-royale-online/big-preview/0464e9bcfca7458daa4293a27bdfc285?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-119996/icon/d63eac3c7ccaf26a7e7959efd7d22ddc52bc15c8bbb21198851dbb7a198f5c77?width=448"
+      ]
+    },
+    {
+      "id": "snakewar-io",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "SnakeWar.io",
+      "gameURL": "https://playgama.com/export/game/snakewar-io",
+      "playgamaGameUrl": "https://playgama.com/game/snakewar-io",
+      "genres": [
+        "io",
+        "snake",
+        "multiplayer"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/snakewar-io/big-preview/ed287e2fbe844646b62c042f9722b520?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-122625/icon/252b0f1d9f4de0772f5e04863ae4ae0bf6c45374dcf1f9ac4dde87e349f69dd1?width=448"
+      ]
+    },
+    {
+      "id": "red--blue-online-build-destroy-fight",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Red & Blue: Online. Build! Destroy! Fight!",
+      "gameURL": "https://playgama.com/export/game/red--blue-online-build-destroy-fight",
+      "playgamaGameUrl": "https://playgama.com/game/red--blue-online-build-destroy-fight",
+      "genres": [
+        "multiplayer",
+        "shooting",
+        "action",
+        "survival",
+        "pvp",
+        "first-person-shooter",
+        "two-player"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "it-IT",
+        "ja-JP",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/red--blue-online-build-destroy-fight/big-preview/6d9411125eff4a58b64f11f724fb0159?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-121501/icon/9c70ce7f9062763c8501453a189777cbb2e5f1a6ae46c027f2bcc00d81b21b72?width=448"
+      ]
+    },
+    {
+      "id": "robostrike-3d",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "RoboStrike 3D",
+      "gameURL": "https://playgama.com/export/game/robostrike-3d",
+      "playgamaGameUrl": "https://playgama.com/game/robostrike-3d",
+      "genres": [
+        "action",
+        "3d",
+        "shooting",
+        "multiplayer",
+        "pve",
+        "pvp",
+        "first-person-shooter"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/cbbd34c0b4494d3cac22e45b9291d321?width=448",
+        "https://static.playgama.com/p-img/pg/icon/c187427ecfe1499d8dad3e6ef7b325bd?width=448"
+      ]
+    },
+    {
+      "id": "ragdoll-football-online",
+      "retrievedAt": "2026-11-07T14:32:47.106Z",
+      "sourceFile": "playgama-public-multiplayer-page-0.json",
+      "title": "Ragdoll Football Online",
+      "gameURL": "https://playgama.com/export/game/ragdoll-football-online",
+      "playgamaGameUrl": "https://playgama.com/game/ragdoll-football-online",
+      "genres": [
+        "sports",
+        "soccer",
+        "ragdoll",
+        "multiplayer",
+        "1v1",
+        "funny"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ragdoll-football-online/big_preview/8eaf09672de04074a7b97df254d541be?width=448",
+        "https://static.playgama.com/p-img/pg/ragdoll-football-online/icon/8b5cbfbf2b3b4d89b0add4be6f8fb77e?width=448"
+      ]
+    },
+    {
+      "id": "hidden-object-clues-and-mysteries",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Hidden Object: Clues and Mysteries",
+      "gameURL": "https://playgama.com/export/game/hidden-object-clues-and-mysteries",
+      "playgamaGameUrl": "https://playgama.com/game/hidden-object-clues-and-mysteries",
+      "genres": [
+        "hidden-object",
+        "adventure",
+        "point-and-click",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hidden-object-clues-and-mysteries/big-preview/918efb60143240eb99d962fecc6cdaf8?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99671/icon/bdfd60d3d7f79219244f36d82f5cdbe343dc93ae36c5c6c14acc53741390637a?width=448"
+      ]
+    },
+    {
+      "id": "hidden-object-street-of-secrets",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Hidden Object: Street Of Secrets",
+      "gameURL": "https://playgama.com/export/game/hidden-object-street-of-secrets",
+      "playgamaGameUrl": "https://playgama.com/game/hidden-object-street-of-secrets",
+      "genres": [
+        "hidden-object",
+        "adventure",
+        "story",
+        "intelligence"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hidden-object-street-of-secrets/big_preview/b4e56a265daf458f9027f9fa24f4f10d?width=448",
+        "https://static.playgama.com/p-img/pg/hidden-object-street-of-secrets/icon/2a108879f486489894de1c7ecbbdbdda?width=448"
+      ]
+    },
+    {
+      "id": "hidden-object-my-hotel",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Hidden Object: My Hotel",
+      "gameURL": "https://playgama.com/export/game/hidden-object-my-hotel",
+      "playgamaGameUrl": "https://playgama.com/game/hidden-object-my-hotel",
+      "genres": [
+        "hidden-object",
+        "adventure",
+        "mouse",
+        "popular",
+        "logic"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hidden-object-my-hotel/big-preview/94eab6bba922419d904b5872c8a1fb52?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-109352/icon/a6b9915886a795de6a12ea045ae44350672228c3efe5081d717873e61255c837?width=448"
+      ]
+    },
+    {
+      "id": "hidden-objects-island",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Hidden Objects: Island",
+      "gameURL": "https://playgama.com/export/game/hidden-objects-island",
+      "playgamaGameUrl": "https://playgama.com/game/hidden-objects-island",
+      "genres": [
+        "hidden-object",
+        "adventure"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hidden-objects-island/big_preview/f23b7b464ab64392a1a16f5b1d8b0b0b?width=448",
+        "https://static.playgama.com/p-img/pg/hidden-objects-island/icon/c0fb39a37f7440e4a4e745b6e8d877c5?width=448"
+      ]
+    },
+    {
+      "id": "wild-love",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Wild Love",
+      "gameURL": "https://playgama.com/export/game/wild-love",
+      "playgamaGameUrl": "https://playgama.com/game/wild-love",
+      "genres": [
+        "story",
+        "girls",
+        "mobile",
+        "adventure",
+        "love",
+        "point-and-click"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/wild-love/big-preview/96d2f507a5c24c41a59e22748becd1fe?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-115951/icon/4c0523ba2c56b1c2879767cb37eadc78dfa1fcd4b56e3fe55085cf0ee84c60d0?width=448"
+      ]
+    },
+    {
+      "id": "my-castle-merge--story",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "My Castle. Merge & Story",
+      "gameURL": "https://playgama.com/export/game/my-castle-merge--story",
+      "playgamaGameUrl": "https://playgama.com/game/my-castle-merge--story",
+      "genres": [
+        "match-3",
+        "merge",
+        "story",
+        "adventure"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/59f7279718684c11a1d6b99b0d3e1f53?width=448",
+        "https://static.playgama.com/p-img/pg/icon/a46d46310acd4172b631538f83fd2d42?width=448"
+      ]
+    },
+    {
+      "id": "blackriver-mystery-hidden-objects",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Blackriver Mystery. Hidden Objects",
+      "gameURL": "https://playgama.com/export/game/blackriver-mystery-hidden-objects",
+      "playgamaGameUrl": "https://playgama.com/game/blackriver-mystery-hidden-objects",
+      "genres": [
+        "hidden-object",
+        "puzzle",
+        "story",
+        "adventure",
+        "point-and-click",
+        "logic",
+        "brain"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/blackriver-mystery-hidden-objects/big-preview/7fd15bd991f24416bedfb78a3408ce87?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-115955/icon/a5e51d9ec76955ae8c3144cc56189ee39e82c217315061dfc3240660b042ce78?width=448"
+      ]
+    },
+    {
+      "id": "the-escape-series-playgama",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "The Escape Series",
+      "gameURL": "https://playgama.com/export/game/the-escape-series-playgama",
+      "playgamaGameUrl": "https://playgama.com/game/the-escape-series-playgama",
+      "genres": [
+        "escape",
+        "adventure",
+        "brain",
+        "puzzle"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/the-escape-series-playgama/big-preview/29528ec6375f47ccbefdb10b9d5b3640?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-6237/icon/ec2562a082d8b6fbf5b9515e617c40f0eea86c855eeef173a745530e31f70ce5?width=448"
+      ]
+    },
+    {
+      "id": "detective-max-mystery-the-disappearance-of-mr-winters",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Detective Max Mystery: The Disappearance of Mr. Winters",
+      "gameURL": "https://playgama.com/export/game/detective-max-mystery-the-disappearance-of-mr-winters",
+      "playgamaGameUrl": "https://playgama.com/game/detective-max-mystery-the-disappearance-of-mr-winters",
+      "genres": [
+        "adventure",
+        "point-and-click",
+        "hidden-object",
+        "story",
+        "escape",
+        "logic"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/detective-max-mystery-the-disappearance-of-mr-winters/big-preview/f21d60d399f84a2e90112f3317c47b0f?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-106390/icon/4ac7e83a6aae17a94463d50b290db31c98b4395af4ddc0ffc8ba278240f58402?width=448"
+      ]
+    },
+    {
+      "id": "desolate-isle-survival",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Desolate Isle: Survival",
+      "gameURL": "https://playgama.com/export/game/desolate-isle-survival",
+      "playgamaGameUrl": "https://playgama.com/game/desolate-isle-survival",
+      "genres": [
+        "battle-royale",
+        "adventure",
+        "survival",
+        "crafting"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/desolate-isle-survival/big-preview/0205f13ab3024085a405d48daec4ad37?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99581/icon/ab14e170b3a8c3173f4f937e202d0f38e6d8e823f801048001156847276420c2?width=448"
+      ]
+    },
+    {
+      "id": "primal-druid--kingdom-of-animals",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Primal Druid - Kingdom of Animals",
+      "gameURL": "https://playgama.com/export/game/primal-druid--kingdom-of-animals",
+      "playgamaGameUrl": "https://playgama.com/game/primal-druid--kingdom-of-animals",
+      "genres": [
+        "rpg",
+        "crafting",
+        "survival",
+        "strategy",
+        "adventure",
+        "animals"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/primal-druid--kingdom-of-animals/big-preview/be73a3a0dbf84c2d8808c05a9b65cee4?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-98058/icon/b32cf23c2aefdde6bd317482576154928a24350e759b60ea894c9cb92d9e2de9?width=448"
+      ]
+    },
+    {
+      "id": "pocket-zone",
+      "retrievedAt": "2026-11-07T14:33:05.249Z",
+      "sourceFile": "playgama-public-adventure-page-0.json",
+      "title": "Pocket ZONE",
+      "gameURL": "https://playgama.com/export/game/pocket-zone",
+      "playgamaGameUrl": "https://playgama.com/game/pocket-zone",
+      "genres": [
+        "adventure",
+        "strategy",
+        "story",
+        "mobile",
+        "survival",
+        "rpg",
+        "difficult"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/pocket-zone/big-preview/8e5a2fb7b7f24655a25a7dbd5cffc968?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112171/icon/0b7e06667a617cf5f670fead33639e4acab05d13636a4a6201d29f7631e0547d?width=448"
+      ]
+    },
+    {
+      "id": "minimight-fantasy-rpg",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "MiniMight: Fantasy RPG",
+      "gameURL": "https://playgama.com/export/game/minimight-fantasy-rpg",
+      "playgamaGameUrl": "https://playgama.com/game/minimight-fantasy-rpg",
+      "genres": [
+        "strategy",
+        "rpg",
+        "adventure"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/minimight-fantasy-rpg/big-preview/b21a4ff26ab345bdb75aba7c9df34bae?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-123137/icon/a3287e706c7e5107b50fa8c658605dcd5a8b4f6159fc1458668f595db5f9b062?width=448"
+      ]
+    },
+    {
+      "id": "runic-curse",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Runic Curse",
+      "gameURL": "https://playgama.com/export/game/runic-curse",
+      "playgamaGameUrl": "https://playgama.com/game/runic-curse",
+      "genres": [
+        "adventure",
+        "rpg",
+        "magic",
+        "action",
+        "story"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/runic-curse/big-preview/bdd024ebc8f149fc833e810c7040dc91?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-113986/icon/5e8c8e6b0e074ac12713c14cf0e1f5b5a48c330c0ad9bd5c483bf728405781e0?width=448"
+      ]
+    },
+    {
+      "id": "heroes-of-the-dungeons-match3-rpg",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Heroes of the Dungeons: Match-3 RPG",
+      "gameURL": "https://playgama.com/export/game/heroes-of-the-dungeons-match3-rpg",
+      "playgamaGameUrl": "https://playgama.com/game/heroes-of-the-dungeons-match3-rpg",
+      "genres": [
+        "rpg",
+        "strategy",
+        "adventure",
+        "matching",
+        "boys",
+        "match-3",
+        "pve"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/heroes-of-the-dungeons-match3-rpg/big-preview/fb9854740c2a408a90d5d4b3cfa63595?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-117433/icon/f184008b8353e203f530e5deb80c2792031d046d0e3fe2eee1006348e0d24ae4?width=448"
+      ]
+    },
+    {
+      "id": "arcuz-treasure-hunters",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Arcuz Treasure Hunters",
+      "gameURL": "https://playgama.com/export/game/arcuz-treasure-hunters",
+      "playgamaGameUrl": "https://playgama.com/game/arcuz-treasure-hunters",
+      "genres": [
+        "adventure",
+        "rpg",
+        "retro",
+        "story",
+        "pve"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/arcuz-treasure-hunters/big-preview/f02d394dc4c84eef830bfaa9130a9661?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-118472/icon/244035b21b9ae9285ac829033c5ebea8b2a6efc10e130008793e67fe71c414ce?width=448"
+      ]
+    },
+    {
+      "id": "knight-legend",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Knight Legend",
+      "gameURL": "https://playgama.com/export/game/knight-legend",
+      "playgamaGameUrl": "https://playgama.com/game/knight-legend",
+      "genres": [
+        "adventure",
+        "rpg",
+        "pve",
+        "story",
+        "farm",
+        "fighting",
+        "action"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/knight-legend/big-preview/acaf0e22161344b4b924d90ef0f6c5c9?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-113957/icon/94b677fe5a80e043fa7b1bf014d6c2ccb76ed601ca08a0ddec32dca8c7e21600?width=448"
+      ]
+    },
+    {
+      "id": "duohex",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Duohex",
+      "gameURL": "https://playgama.com/export/game/duohex",
+      "playgamaGameUrl": "https://playgama.com/game/duohex",
+      "genres": [
+        "strategy",
+        "pve",
+        "magic",
+        "rpg"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/duohex/big_preview/b260a720fb644ed8b8ee8cc9b9582a50?width=448",
+        "https://static.playgama.com/p-img/pg/duohex/icon/b3cf9257af9d455d8ec03977b9f54366?width=448"
+      ]
+    },
+    {
+      "id": "wander-wild",
+      "retrievedAt": "2026-11-07T14:48:23.934Z",
+      "sourceFile": "expansion-card-creative-cards-20261107.json",
+      "title": "Wander Wild",
+      "gameURL": "https://playgama.com/export/game/wander-wild",
+      "playgamaGameUrl": "https://playgama.com/game/wander-wild",
+      "genres": [
+        "cards",
+        "rpg",
+        "adventure",
+        "pve"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/wander-wild/big_preview/4bde24ce231046cfa2dbaf1d08f961ed?width=448",
+        "https://static.playgama.com/p-img/pg/wander-wild/icon/768962d8f4794f40835550d6e2a34237?width=448"
+      ]
+    },
+    {
+      "id": "battlecross",
+      "retrievedAt": "2026-11-07T14:33:05.183Z",
+      "sourceFile": "playgama-public-rpg-page-0.json",
+      "title": "Battlecross",
+      "gameURL": "https://playgama.com/export/game/battlecross",
+      "playgamaGameUrl": "https://playgama.com/game/battlecross",
+      "genres": [
+        "action",
+        "adventure",
+        "rpg",
+        "strategy"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/battlecross/big_preview/9645870437804fc8a04502bfeddf4ba5?width=448",
+        "https://static.playgama.com/p-img/pg/battlecross/icon/215b074072424999823107cac5c00663?width=448"
+      ]
+    },
+    {
+      "id": "mushroom-runners",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Mushroom Runners",
+      "gameURL": "https://playgama.com/export/game/mushroom-runners",
+      "playgamaGameUrl": "https://playgama.com/game/mushroom-runners",
+      "genres": [
+        "platform",
+        "arcade",
+        "running",
+        "mobile",
+        "popular",
+        "runner"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/mushroom-runners/big-preview/56bd2e87db054f0395c4e3da9dadcb4a?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99655/icon/67c9ec587525c18148174e1a74467507efc78da8a9edce05a427141b52605828?width=448"
+      ]
+    },
+    {
+      "id": "bottle-flip",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Bottle Flip",
+      "gameURL": "https://playgama.com/export/game/bottle-flip",
+      "playgamaGameUrl": "https://playgama.com/game/bottle-flip",
+      "genres": [
+        "physics",
+        "platform",
+        "skill",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/bottle-flip/big-preview/a67b7cc0ce854712b4760d18a3854126?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-118229/icon/0a183daad9b6c95ed895544a699181c866a113d68737479c706e57aa6a974a55?width=448"
+      ]
+    },
+    {
+      "id": "leap-and-avoid-2",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Leap and Avoid 2",
+      "gameURL": "https://playgama.com/export/game/leap-and-avoid-2",
+      "playgamaGameUrl": "https://playgama.com/game/leap-and-avoid-2",
+      "genres": [
+        "arcade",
+        "platform",
+        "popular"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/leap-and-avoid-2/big-preview/11f01d5ba3134cb2a36d99c4f1183709?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-97664/icon/61bbc46d10b6b2a572442b8823e2ef0edb7b8b7f8d2eb63b92c754e43e9463f3?width=448"
+      ]
+    },
+    {
+      "id": "sketchy-levels",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Sketchy Levels",
+      "gameURL": "https://playgama.com/export/game/sketchy-levels",
+      "playgamaGameUrl": "https://playgama.com/game/sketchy-levels",
+      "genres": [
+        "arcade",
+        "puzzle",
+        "platform",
+        "funny",
+        "difficult",
+        "logic"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/fbb41feeda8f4936ae5e01392d436aef?width=448",
+        "https://static.playgama.com/p-img/pg/icon/4aa125e665ea461a9a3ef7ecb13fada8?width=448"
+      ]
+    },
+    {
+      "id": "froggy-hop",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Froggy Hop",
+      "gameURL": "https://playgama.com/export/game/froggy-hop",
+      "playgamaGameUrl": "https://playgama.com/game/froggy-hop",
+      "genres": [
+        "arcade",
+        "platform",
+        "skill",
+        "animals",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/froggy-hop/big-preview/8e772856ba2d4586a87ee6f2cfdef6f1?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-113454/icon/cf101cdd2e4c7aade07ab0a3a7fe13c46bf7701a08248878457fabb0ff39d983?width=448"
+      ]
+    },
+    {
+      "id": "portal-hop",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Portal Hop",
+      "gameURL": "https://playgama.com/export/game/portal-hop",
+      "playgamaGameUrl": "https://playgama.com/game/portal-hop",
+      "genres": [
+        "platform",
+        "puzzle",
+        "classic"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/portal-hop/big-preview/5513f469e8654dfb9048cd67116513f4?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-121779/icon/00a2bb9cdb1dc8ee8844b7a997b1201e7d89db002b525f2eb332c6a9c091f6cb?width=448"
+      ]
+    },
+    {
+      "id": "planet-404-episode-1",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Planet 404. Episode 1",
+      "gameURL": "https://playgama.com/export/game/planet-404-episode-1",
+      "playgamaGameUrl": "https://playgama.com/game/planet-404-episode-1",
+      "genres": [
+        "adventure",
+        "platform",
+        "space",
+        "story",
+        "puzzle",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/planet-404-episode-1/big_preview/65a271f6081b414cb805a1ec84e93003?width=448",
+        "https://static.playgama.com/p-img/pg/planet-404-episode-1/icon/4e79689ec37b46b7ba49c7825eb0bf5f?width=448"
+      ]
+    },
+    {
+      "id": "music-note",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Music Note",
+      "gameURL": "https://playgama.com/export/game/music-note",
+      "playgamaGameUrl": "https://playgama.com/game/music-note",
+      "genres": [
+        "platform",
+        "music",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/music-note/big-preview/50b37e24576f49adb94873db8227a3ab?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112299/icon/939abd451a9a317430517e821bc723c8bfed623073b82c97be7a130a62f17805?width=448"
+      ]
+    },
+    {
+      "id": "cubegate",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "CubeGate",
+      "gameURL": "https://playgama.com/export/game/cubegate",
+      "playgamaGameUrl": "https://playgama.com/game/cubegate",
+      "genres": [
+        "puzzle",
+        "platform",
+        "logic",
+        "brain"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "az-AZ",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "kk-KZ",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uk-UA",
+        "uz-UZ",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/b7ad807295c9477f9859a81017576ce9?width=448",
+        "https://static.playgama.com/p-img/pg/icon/25b3f04108fc4b91b056e400e3625077?width=448"
+      ]
+    },
+    {
+      "id": "swing-hero",
+      "retrievedAt": "2026-11-07T14:33:05.293Z",
+      "sourceFile": "playgama-public-platform-page-0.json",
+      "title": "Swing Hero",
+      "gameURL": "https://playgama.com/export/game/swing-hero",
+      "playgamaGameUrl": "https://playgama.com/game/swing-hero",
+      "genres": [
+        "arcade",
+        "adventure",
+        "skill",
+        "platform"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/swing-hero/big_preview/5b704348e79e4ebfb7ad33a819ffeda2?width=448",
+        "https://static.playgama.com/p-img/pg/swing-hero/icon/99f390d01a4e46018f1daa37d8bf5a5c?width=448"
+      ]
+    },
+    {
+      "id": "chess-online-multiplayer",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Chess Online Multiplayer",
+      "gameURL": "https://playgama.com/export/game/chess-online-multiplayer",
+      "playgamaGameUrl": "https://playgama.com/game/chess-online-multiplayer",
+      "genres": [
+        "multiplayer",
+        "chess",
+        "classic",
+        "board",
+        "two-player"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/chess-online-multiplayer/big_preview/94a907a44037494c955d803fb45ec5fd?width=448",
+        "https://static.playgama.com/p-img/pg/chess-online-multiplayer/icon/2fafa5b0feea478499c09f64bc9f95d8?width=448"
+      ]
+    },
+    {
+      "id": "master-checkers-25e9-1",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Master Checkers",
+      "gameURL": "https://playgama.com/export/game/master-checkers-25e9-1",
+      "playgamaGameUrl": "https://playgama.com/game/master-checkers-25e9-1",
+      "genres": [
+        "checkers",
+        "board",
+        "two-player",
+        "classic",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/master-checkers-25e9-1/big-preview/108576c73c014dc4ad19952b2e66065e?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99729/icon/cb2fe69fc215bc77d5b61282dc12f8a670d13d20dbe9e819d00c2cded5fff8c6?width=448"
+      ]
+    },
+    {
+      "id": "backgammon-multiplayer",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Backgammon",
+      "gameURL": "https://playgama.com/export/game/backgammon-multiplayer",
+      "playgamaGameUrl": "https://playgama.com/game/backgammon-multiplayer",
+      "genres": [
+        "board",
+        "classic",
+        "backgammon",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/backgammon-multiplayer/big-preview/763a51507ab541d6a86327001536b609?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-98051/icon/bfcccc85758ed6ed656badde0a711b8cc345c2e938cc0bee50dc7199d0e5dfbb?width=448"
+      ]
+    },
+    {
+      "id": "domino-battle",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Domino Battle",
+      "gameURL": "https://playgama.com/export/game/domino-battle",
+      "playgamaGameUrl": "https://playgama.com/game/domino-battle",
+      "genres": [
+        "board",
+        "popular"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/domino-battle/big-preview/f11c8d363d2c4b8da486e62c70a42c69?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112274/icon/a1617d492e58c4531a67a5d1ba43a96e173dc45bc898043ed7e81fcff5685165?width=448"
+      ]
+    },
+    {
+      "id": "reversi-classic",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Reversi Classic",
+      "gameURL": "https://playgama.com/export/game/reversi-classic",
+      "playgamaGameUrl": "https://playgama.com/game/reversi-classic",
+      "genres": [
+        "board",
+        "strategy",
+        "3d",
+        "two-player",
+        "logic",
+        "classic",
+        "multiplayer"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uk-UA"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/reversi-classic/big_preview/375bde9a8e174bd1a1f23002befdf062?width=448",
+        "https://static.playgama.com/p-img/pg/reversi-classic/icon/363faa66091a48658177b22dff93cf45?width=448"
+      ]
+    },
+    {
+      "id": "ludo-legend",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Ludo Legend",
+      "gameURL": "https://playgama.com/export/game/ludo-legend",
+      "playgamaGameUrl": "https://playgama.com/game/ludo-legend",
+      "genres": [
+        "board",
+        "mobile",
+        "two-player"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/ludo-legend/big-preview/d8674d416ee148109d7fd4f23d889f44?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-112424/icon/23d1d6d23e704d6dc27528a5e3907f8b32c872321d0054fa1f975d1d91f111d3?width=448"
+      ]
+    },
+    {
+      "id": "yatzy-82db-1",
+      "retrievedAt": "2026-11-07T14:48:23.870Z",
+      "sourceFile": "expansion-card-creative-board-20261107.json",
+      "title": "Yatzy",
+      "gameURL": "https://playgama.com/export/game/yatzy-82db-1",
+      "playgamaGameUrl": "https://playgama.com/game/yatzy-82db-1",
+      "genres": [
+        "board"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/yatzy-82db-1/big-preview/66ca28c43882498f8da88a05872364eb?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-99642/icon/6631a6d736845e3455156bb5bc29a3318bb5eb92345f55e8c6429f7a83825370?width=448"
+      ]
+    },
+    {
+      "id": "mahjong-classic",
+      "retrievedAt": "2026-11-07T14:48:24.434Z",
+      "sourceFile": "expansion-card-creative-mahjong-20261107.json",
+      "title": "Mahjong Classic",
+      "gameURL": "https://playgama.com/export/game/mahjong-classic",
+      "playgamaGameUrl": "https://playgama.com/game/mahjong-classic",
+      "genres": [
+        "mahjong",
+        "matching"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/mahjong-classic/big-preview/730f65084d864a9baffefa86e110b106?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-121631/icon/d9cc661f648e2ba097c3bcf8433389c2033d164a01beb9d2ac4e4bd4ccfb8080?width=448"
+      ]
+    },
+    {
+      "id": "solitaire-8-collection",
+      "retrievedAt": "2026-11-07T14:48:23.934Z",
+      "sourceFile": "expansion-card-creative-cards-20261107.json",
+      "title": "Solitaire 8 Collection",
+      "gameURL": "https://playgama.com/export/game/solitaire-8-collection",
+      "playgamaGameUrl": "https://playgama.com/game/solitaire-8-collection",
+      "genres": [
+        "cards",
+        "solitaire"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/solitaire-8-collection/big_preview/88bb5146249e479182cd1c6ad8576f79?width=448",
+        "https://static.playgama.com/p-img/pg/solitaire-8-collection/icon/536b8fe58f7e42ce93ade5fde84e2229?width=448"
+      ]
+    },
+    {
+      "id": "4-colors",
+      "retrievedAt": "2026-11-07T14:48:23.934Z",
+      "sourceFile": "expansion-card-creative-cards-20261107.json",
+      "title": "4 Colors",
+      "gameURL": "https://playgama.com/export/game/4-colors",
+      "playgamaGameUrl": "https://playgama.com/game/4-colors",
+      "genres": [
+        "cards",
+        "multiplayer",
+        "color"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/4-colors/big-preview/f47945bab8724f42a0911e6909328a08?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-92819/icon/c97d0d7d18d2adcd12ee5a75e0bd130fb7d37f952d9c20b1a6aad6db1f531c11?width=448"
+      ]
+    },
+    {
+      "id": "make-a-dress",
+      "retrievedAt": "2026-11-07T14:48:29.866Z",
+      "sourceFile": "expansion-card-creative-fashion-20261107.json",
+      "title": "Make A Dress",
+      "gameURL": "https://playgama.com/export/game/make-a-dress",
+      "playgamaGameUrl": "https://playgama.com/game/make-a-dress",
+      "genres": [
+        "girls",
+        "simulation",
+        "fashion",
+        "dress-up",
+        "decoration",
+        "anime",
+        "mouse"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/make-a-dress/big_preview/cc2a653b554e4fad9ef248983be3ef1d?width=448",
+        "https://static.playgama.com/p-img/pg/make-a-dress/icon/77dd2475362e4a9cb7227e24a24fd047?width=448"
+      ]
+    },
+    {
+      "id": "idol-livestream-doll-dress-up",
+      "retrievedAt": "2026-11-07T14:48:35.986Z",
+      "sourceFile": "expansion-card-creative-hair-20261107.json",
+      "title": "Idol Livestream: Doll Dress Up",
+      "gameURL": "https://playgama.com/export/game/idol-livestream-doll-dress-up",
+      "playgamaGameUrl": "https://playgama.com/game/idol-livestream-doll-dress-up",
+      "genres": [
+        "fashion",
+        "make-up",
+        "girls",
+        "hair",
+        "decoration",
+        "easy",
+        "dress-up"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/idol-livestream-doll-dress-up/big_preview/6d0fa2792f7e4f3a995b2c5a2f1bec7a?width=448",
+        "https://static.playgama.com/p-img/pg/idol-livestream-doll-dress-up/icon/2dc6c0c72413419ea9862d37646077f8?width=448"
+      ]
+    },
+    {
+      "id": "fashion-week-2025",
+      "retrievedAt": "2026-11-07T14:48:35.986Z",
+      "sourceFile": "expansion-card-creative-hair-20261107.json",
+      "title": "Fashion Week 2025",
+      "gameURL": "https://playgama.com/export/game/fashion-week-2025",
+      "playgamaGameUrl": "https://playgama.com/game/fashion-week-2025",
+      "genres": [
+        "dress-up",
+        "girls",
+        "fashion",
+        "mobile",
+        "hair",
+        "make-up"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/fashion-week-2025/big-preview/fc02e252aeab419c9df5ee786dc257d9?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-110478/icon/08f8537d38ccc896944029f1eb907e7e296eacc4708d965977f4578df7e505c2?width=448"
+      ]
+    },
+    {
+      "id": "nail-salon",
+      "retrievedAt": "2026-11-07T14:48:29.866Z",
+      "sourceFile": "expansion-card-creative-fashion-20261107.json",
+      "title": "Nail Salon",
+      "gameURL": "https://playgama.com/export/game/nail-salon",
+      "playgamaGameUrl": "https://playgama.com/game/nail-salon",
+      "genres": [
+        "make-up",
+        "decoration",
+        "girls",
+        "fashion"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/nail-salon/big-preview/184e2fe869b744f39a8f6d661053aeb4?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-121455/icon/bbaae4549b47f198c8ef600c0c4d6552652738dc9637f1de4484aa67b939e9ac?width=448"
+      ]
+    },
+    {
+      "id": "hair-salon-3d",
+      "retrievedAt": "2026-11-07T14:48:35.986Z",
+      "sourceFile": "expansion-card-creative-hair-20261107.json",
+      "title": "Hair Salon 3D",
+      "gameURL": "https://playgama.com/export/game/hair-salon-3d",
+      "playgamaGameUrl": "https://playgama.com/game/hair-salon-3d",
+      "genres": [
+        "hair",
+        "3d",
+        "girls"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": false
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/hair-salon-3d/big-preview/2258bdc78a5e436da80892adf9fabf30?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-120625/icon/e51eb23a6542985c22427f1871f0f11602280293904ef1132c7e295caede74c6?width=448"
+      ]
+    },
+    {
+      "id": "diamond-painting-by-number",
+      "retrievedAt": "2026-11-07T14:48:30.302Z",
+      "sourceFile": "expansion-card-creative-drawing-20261107.json",
+      "title": "Diamond Painting by Number",
+      "gameURL": "https://playgama.com/export/game/diamond-painting-by-number",
+      "playgamaGameUrl": "https://playgama.com/game/diamond-painting-by-number",
+      "genres": [
+        "decoration",
+        "drawing",
+        "color",
+        "mobile"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/diamond-painting-by-number/big-preview/e7c9651fd6e34820b8807762d7aba213?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-116006/icon/1e9f1ab4e8cfd9f4c1d81c33835feb27b2cd90d604cffeb408702f55026697e8?width=448"
+      ]
+    },
+    {
+      "id": "pixel-color-quest",
+      "retrievedAt": "2026-11-07T14:48:30.302Z",
+      "sourceFile": "expansion-card-creative-drawing-20261107.json",
+      "title": "Pixel Color Quest",
+      "gameURL": "https://playgama.com/export/game/pixel-color-quest",
+      "playgamaGameUrl": "https://playgama.com/game/pixel-color-quest",
+      "genres": [
+        "color",
+        "drawing"
+      ],
+      "supportedLanguages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/preview/29b2a15bb454415ba1ff1efad68ef938?width=448",
+        "https://static.playgama.com/p-img/pg/icon/2ed97d133fc04304b0a45efa0538a154?width=448"
+      ]
+    },
+    {
+      "id": "diy-phone-case-maker",
+      "retrievedAt": "2026-11-07T14:48:29.858Z",
+      "sourceFile": "expansion-card-creative-decoration-20261107.json",
+      "title": "DIY Phone Case Maker",
+      "gameURL": "https://playgama.com/export/game/diy-phone-case-maker",
+      "playgamaGameUrl": "https://playgama.com/game/diy-phone-case-maker",
+      "genres": [
+        "decoration",
+        "color",
+        "easy"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/diy-phone-case-maker/big-preview/041992ee7d4b4937b7758c8d1ab8c438?width=448",
+        "https://static.playgama.com/p-img/pg/backfill/game-117063/icon/6d35dd98fef04ed5b0f08a85aa5b82368d656592f6903322324a7cdc6d246289?width=448"
+      ]
+    },
+    {
+      "id": "kiki-world-kawaii-doll-decor",
+      "retrievedAt": "2026-11-07T14:48:29.866Z",
+      "sourceFile": "expansion-card-creative-fashion-20261107.json",
+      "title": "Kiki World: Kawaii Doll Decor",
+      "gameURL": "https://playgama.com/export/game/kiki-world-kawaii-doll-decor",
+      "playgamaGameUrl": "https://playgama.com/game/kiki-world-kawaii-doll-decor",
+      "genres": [
+        "decoration",
+        "girls",
+        "fashion",
+        "cozy"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": true,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/kiki-world-kawaii-doll-decor/big_preview/3b8526f121f748fcb5e1a7ed4930b79c?width=448",
+        "https://static.playgama.com/p-img/pg/kiki-world-kawaii-doll-decor/icon/999a7f8b42884392b20f394a35bc0dbb?width=448"
+      ]
+    },
+    {
+      "id": "the-ink-shop--tattoo-art-asmr",
+      "retrievedAt": "2026-11-07T14:48:35.909Z",
+      "sourceFile": "expansion-card-creative-tattoo-20261107.json",
+      "title": "The Ink Shop - Tattoo Art ASMR",
+      "gameURL": "https://playgama.com/export/game/the-ink-shop--tattoo-art-asmr",
+      "playgamaGameUrl": "https://playgama.com/game/the-ink-shop--tattoo-art-asmr",
+      "genres": [
+        "simulation",
+        "tattoo",
+        "3d",
+        "management",
+        "drawing",
+        "arcade"
+      ],
+      "supportedLanguages": [
+        "en-US"
+      ],
+      "mobileReady": [
+        "For Android",
+        "For IOS",
+        "For Desktop"
+      ],
+      "screenOrientation": {
+        "horizontal": false,
+        "vertical": true
+      },
+      "images": [
+        "https://static.playgama.com/p-img/pg/the-ink-shop-tattoo-art-asmr/big_preview/5792eed3f64344398f8e35e118ff728b?width=448",
+        "https://static.playgama.com/p-img/pg/the-ink-shop-tattoo-art-asmr/icon/51cba30fdfe04443854932e3610b8e2e?width=448"
+      ]
+    }
+  ]
+}

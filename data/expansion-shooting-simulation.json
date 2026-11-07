@@ -1,0 +1,654 @@
+{
+  "games": [
+    {
+      "id": "hazmob-fps-online-shooter",
+      "title": "Hazmob FPS: Online Shooter",
+      "embedUrl": "https://playgama.com/export/game/hazmob-fps-online-shooter?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hazmob-fps-online-shooter?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hazmob-fps-online-shooter/big_preview/df01c609f8c44052b837b336d0e63617?width=448",
+      "description": "Hazmob FPS: Online Shooter puts multiplayer firefights inside compact 3D maps, where movement and quick target acquisition matter. Its selection of modes includes Team Deathmatch, Search and Destroy, Capture the Flag, Domination, Free for All, Elimination and Gun Race. Choosing a mode changes the purpose of each encounter, so check the objective before treating every match as a straight score chase. The close-quarters layouts keep attention on the next engagement.",
+      "instructions": "Move with WASD, jump with Space and run with Shift. Left click to shoot; use right click or V to aim. C crouches, G picks up a weapon, and keys 1–3 switch weapons. Keys 4–6 select skills, with E and Q assigned to alternative skills. Open P for the scoreboard, pause and settings. Practise moving and aiming together, then use the current mode's objective to decide where your next move should take you.",
+      "categories": [
+        "action",
+        "multiplayer",
+        "shooting",
+        "first-person-shooter",
+        "gun",
+        "3d",
+        "popular",
+        "sniper",
+        "cool-games",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "sniper-attack2",
+      "title": "Sniper Attack2",
+      "embedUrl": "https://playgama.com/export/game/sniper-attack2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/sniper-attack2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/sniper-attack2/big-preview/4b6699b7ebfb43ec967ffdbf271a0f38?width=448",
+      "description": "Sniper Attack2 concentrates on precise shots across missions set in city streets, ports and desert environments. Each assignment asks you to find the enemy in the scene and line up a controlled shot. Its mouse-driven aiming links camera movement and weapon direction, making small corrections useful when a target is difficult to centre. The changing locations give each mission a different scene to read before firing.",
+      "instructions": "Press and hold the left mouse button to begin aiming. While keeping it held, drag the mouse to move the camera and bring the enemy into your line of sight. Release the button to fire. Because releasing is the firing action, keep the button held while making your final adjustment. Start with a broad movement to locate the target, then reduce the size of your movements as the aim settles. Recheck the scene after a shot and continue with the mission's remaining enemies.",
+      "categories": [
+        "sniper",
+        "shooting",
+        "gun",
+        "first-person-shooter",
+        "army",
+        "action",
+        "skill",
+        "3d",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "road-chase-shooter-realistic-guns",
+      "title": "Road Chase: Shooter Realistic Guns",
+      "embedUrl": "https://playgama.com/export/game/road-chase-shooter-realistic-guns?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/road-chase-shooter-realistic-guns?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/road-chase-shooter-realistic-guns/big-preview/6e87b1320c124a7f8ddd5034b7ea1d38?width=448",
+      "description": "Road Chase: Shooter Realistic Guns makes escaping a pursuit a shooting challenge. Your car faces attackers arriving in motorcycles, off-road vehicles, drones and helicopters, and each level ends when the pursuers have been destroyed. A growing arsenal includes firearms and a crossbow, with further weapons and locations unlocked through progress. Different vehicles and bosses give you reasons to reconsider your weapon choice as the chase continues.",
+      "instructions": "Move the mouse to aim and press the left button to shoot. Switch between available weapons with keys 1–4 and reload with R. On mobile, use the touchscreen shooting controls. Look at the approaching vehicle before firing: the game lets you target wheels, vehicle parts and mounted weapons as well as the attackers themselves. Keep track of your ammunition and switch weapons when another option better suits the target. Clear the full pursuit to finish the level and continue unlocking the campaign's locations.",
+      "categories": [
+        "gun",
+        "shooting",
+        "action",
+        "car",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "bomb-the-castle",
+      "title": "Bomb the Castle",
+      "embedUrl": "https://playgama.com/export/game/bomb-the-castle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/bomb-the-castle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/bomb-the-castle/big_preview/776d7534d6c5435782342ac164c7a13f?width=448",
+      "description": "Bomb the Castle stages artillery duels between moving, destructible fortresses. Break through the opposing structure to reach its crew, or bring down the castle itself to win. Arena features such as swinging gates, power strips and floating bonus crates affect how you position and aim. Between battles, train crew members, strengthen walls and wheels, and expand your own castle as you progress through a league of computer-controlled rivals.",
+      "instructions": "Drag backwards on the battlefield with a mouse or finger, then release to fire. Return to the drag's starting point to cancel, and select a crew card to change weapons. With a keyboard, A/D or the horizontal arrows move the castle, W/S or the vertical arrows adjust aim, and Q/E changes power. Space or Enter fires. Watch moving obstacles before releasing a shot, and use the damage from each hit to plan the next angle. Crew training and structural upgrades are available between duels.",
+      "categories": [
+        "shooting",
+        "arcade",
+        "action",
+        "strategy",
+        "physics",
+        "funny"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "iron-defense",
+      "title": "Iron Defense",
+      "embedUrl": "https://playgama.com/export/game/iron-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/iron-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/iron-defense/big_preview/ad20eb4a35d24dbc8624c43fdc37e705?width=448",
+      "description": "Iron Defense places a turret on a scrap wall while waves of junk robots approach from the right. You control the firing and add fire, ice or lightning abilities to protect the position. Salvaged gold and crystals improve the turret, wall, electrified floor and supporting gun pylons between stages. The campaign leads through escalating waves and bosses, with Endless mode available after its final stage.",
+      "instructions": "Hold the mouse button or a finger on the battlefield to fire at incoming robots. To use an ability, drag its button onto the field and release; releasing over a button cancels the cast. Abilities consume energy that replenishes over time, so decide when a wave needs extra help. The plus button spends crystals to refill energy. Defeat every wave before the wall collapses, then visit UPGRADES to strengthen the parts of the defense that struggled. Clearing stage 100 opens the Endless challenge.",
+      "categories": [
+        "strategy",
+        "arcade",
+        "tower-defense",
+        "shooting",
+        "action",
+        "boys",
+        "mouse"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-BR",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "deorbit--space-survivors",
+      "title": "Deorbit - Space Survivors",
+      "embedUrl": "https://playgama.com/export/game/deorbit--space-survivors?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/deorbit--space-survivors?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/9214045511834227a400de0be0240c75?width=448",
+      "description": "Deorbit - Space Survivors combines spaceship movement with automatically firing weapons. Your attention goes to navigating enemy swarms, collecting experience and shaping a new build during each run. Level-up choices, drones and passive upgrades change what your ship can handle, while minibosses lead towards a sector boss. Gold carried out of a run funds permanent improvements, giving future attempts a stronger starting point.",
+      "instructions": "Move with WASD, the arrow keys or the touch joystick. Nearby enemies are attacked automatically, so steer around incoming threats while collecting the experience orbs they drop. Use Dash to escape a dangerous position, and choose one of three upgrade cards when you level up. Chests require Iridium and provide additional items. Survive the waves and defeat the sector boss to open the next area. Between runs, spend retained gold on permanent upgrades and compare your available ships before choosing the next attempt.",
+      "categories": [
+        "shooting",
+        "space",
+        "survival",
+        "action"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "dogfight",
+      "title": "Dogfight",
+      "embedUrl": "https://playgama.com/export/game/dogfight?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/dogfight?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/dogfight/big-preview/14b7761ace934abe968676b15de6faae?width=448",
+      "description": "Dogfight puts you in control of a combat aircraft that can turn, loop and roll through aerial engagements. Managing speed and attitude is part of lining up a shot, rather than simply following a target with a stationary sight. A primary gun and a secondary weapon provide different attack options. The control layout supports both keyboard flight and a mobile joystick with separate action buttons.",
+      "instructions": "On desktop, W increases speed and S slows the aircraft. A/D turns left or right, while Q/E makes sharper turns. Press Space to pull up and Shift to roll. J fires the main weapon, K uses the sub-weapon, and R reloads. On mobile, steer with the on-screen joystick and use the fire, pitch and roll buttons. Learn the difference between an ordinary turn and a sharp turn before combining several maneuvers. Adjust the aircraft's position, line up the target, and leave room to change direction after firing.",
+      "categories": [
+        "airplane",
+        "action",
+        "shooting",
+        "flying"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "archery-ragdoll",
+      "title": "Archer Ragdoll",
+      "embedUrl": "https://playgama.com/export/game/archery-ragdoll?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/archery-ragdoll?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/archery-ragdoll/big-preview/77ca7ee51b4e4cf1ada781b3d8795a1e?width=448",
+      "description": "Archer Ragdoll builds bow combat around flexible characters, bouncing arrows and protective armor. A shot's impact can change with where it lands, so watching the result is part of preparing the next attempt. Different arrow types and character upgrades provide further options as opponents and bosses become more demanding. The ragdoll reactions make each exchange a physical interaction between the archer, projectile and target.",
+      "instructions": "Use the mouse or touch the highlighted area on the left side of the screen. Hold behind the archer's back to draw the bow; a separate horizontal pulling motion is not required. Keep holding while you adjust the aim, then release to send the arrow. Watch whether it hits, rebounds or catches armor before choosing the next line. Small changes to the aim can help you compare results without changing everything at once. Experiment with the available arrows and use hero upgrades as you progress through the encounters.",
+      "categories": [
+        "ragdoll",
+        "archery",
+        "funny",
+        "stickman",
+        "shooting"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "naval-base",
+      "title": "Naval Base",
+      "embedUrl": "https://playgama.com/export/game/naval-base?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/naval-base?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/c89e767a7fe84c238c2f1195df25f993?width=448",
+      "description": "Naval Base mixes a coastal gun with a fleet that fights automatically once deployed. Your objective is to destroy the opposing base before the operation's timer expires. Ships, aircraft and submarines form a counter system, making the composition of both fleets important. Defenses can be upgraded, and different operations introduce different bosses, so choosing units is as central as directing the coastal weapon.",
+      "instructions": "Buy units from the bottom bar and let them enter combat. Ships counter aircraft, aircraft hunt submarines, and submarines threaten ships; look at the enemy formation before spending on the next unit. On desktop, A/D or the screen edges move the camera, W/S or Up/Down adjusts the coastal gun's aim, and number keys purchase units. Touch players drag the battle view and use the displayed controls. Keep the timer in view and balance reinforcing your fleet with pressure on the enemy base.",
+      "categories": [
+        "action",
+        "tower-defense",
+        "shooting",
+        "arcade",
+        "war",
+        "strategy"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "flip-gun-3d-ragdoll-shooter",
+      "title": "Flip Gun 3D Ragdoll Shooter",
+      "embedUrl": "https://playgama.com/export/game/flip-gun-3d-ragdoll-shooter?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/flip-gun-3d-ragdoll-shooter?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/flip-gun-3d-ragdoll-shooter/big-preview/4834f6fc6f9a40f69961ae2942338fdd?width=448",
+      "description": "Flip Gun 3D Ragdoll Shooter turns the gun's own movement into part of aiming. Each tap fires and flips the weapon, while ragdoll targets react to successful hits. Obstacles and target arrangements create different challenges, and additional weapons give you other combinations of flipping and shooting behavior to explore. Completing a level requires knocking down every target within the available shot allowance.",
+      "instructions": "Tap to shoot, then watch the gun's rotation before choosing the next moment to fire. Aim to connect with the ragdoll targets and use shots that break obstructing objects when needed. Since shots are limited, inspect what is still standing before committing to another tap. Learn how the current weapon moves between shots, then try a different unlocked weapon to compare its behavior. Focus first on landing a controlled hit, and use the resulting target movement to plan how you will clear the rest of the level.",
+      "categories": [
+        "shooting",
+        "3d",
+        "ragdoll",
+        "physics",
+        "gun"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "bridge-builder",
+      "title": "Bridge Builder",
+      "embedUrl": "https://playgama.com/export/game/bridge-builder?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/bridge-builder?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/bridge-builder/big-preview/4f12f6a379db4666a4b3141c7aa23441?width=448",
+      "description": "Bridge Builder puts the strength of your designs on trial. Each puzzle asks you to assemble a bridge that can support a vehicle, choosing from different construction materials and adapting the structure to the crossing. The levels span four locations, so a successful idea still needs to suit the next task. Physics determines whether your design holds up when the simulation starts. This gives every adjustment a clear purpose: build a usable crossing, test the result, and rethink the sections that cannot carry the load. A built-in hint system offers help when a structure leaves you stuck.",
+      "instructions": "On a computer, drag with the left mouse button to build and press Space to start the simulation. Use Z to undo a change, or double-click a bridge part with the left button to remove it. On mobile, use the touchscreen and the on-screen controls. Test your construction after making changes and use the hints when you need another way into a puzzle.",
+      "categories": [
+        "puzzle",
+        "simulation",
+        "skill",
+        "construction",
+        "physics",
+        "3d",
+        "brain",
+        "mobile",
+        "logic",
+        "intelligence"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "pocket-mart",
+      "title": "Pocket Mart",
+      "embedUrl": "https://playgama.com/export/game/pocket-mart?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/pocket-mart?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/pocket-mart/big_preview/88d84fe3ee5948d2b014798172e18aea?width=448",
+      "description": "Pocket Mart starts with a tomato shelf and a small corner shop, then lets you grow into a three-room market with ten products. Carry supplies from the warehouse, refill shelves, serve customers at the register, and put earnings toward more stock, upgrades, and employees. Cashiers, stockers, and cleaners can help with the workload as the shop expands. Restocking also takes you beyond the counter: order by phone or drive to the farm market and mall for cheaper boxes. Customers react to empty shelves and slow queues, making the balance between supply and service part of running the business.",
+      "instructions": "Move with WASD or the arrow keys, or drag on a phone. Stand in marked circles to collect goods, stock shelves, operate the register, and pick up cash. Use the buttons at pads and desks to purchase improvements. Tap Order for supplies, or press Drive at your car and unload purchases in the delivery bay.",
+      "categories": [
+        "arcade",
+        "adventure",
+        "simulation",
+        "tycoon",
+        "management",
+        "3d",
+        "car",
+        "driving"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "city-bus-simulator-driving-games",
+      "title": "City Bus Simulator Driving Games",
+      "embedUrl": "https://playgama.com/export/game/city-bus-simulator-driving-games?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/city-bus-simulator-driving-games?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/big_preview/3dc328398fd44f93a76ae33906e189e6?width=448",
+      "description": "City Bus Simulator Driving Games combines passenger routes with the challenge of handling and parking a large vehicle. Pick people up around the city, follow the map to their destinations, and complete driving missions as the levels become harder. City Mode focuses on passenger transport through busy streets. Winter Mode moves the driving challenge onto snowy, slippery roads, where careful control matters. Free Mode gives you room to explore without mission restrictions. Different buses can be unlocked along the way, while routes and parking areas provide separate reasons to think about how you approach each destination.",
+      "instructions": "On desktop, use W, A, S, and D to move the bus and Space to brake. Press C to change the camera angle, P to pause, or Ctrl to open settings. On mobile, steer with the left and right buttons and use the acceleration and brake controls. Consult the in-game map for routes, then position the bus carefully for passenger stops and parking tasks.",
+      "categories": [
+        "driving",
+        "car",
+        "bus",
+        "simulation",
+        "3d",
+        "parking"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "field-master",
+      "title": "Field Master",
+      "embedUrl": "https://playgama.com/export/game/field-master?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/field-master?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/b86a14eb6ee941ecabfe11898f2de66c?width=448",
+      "description": "Field Master follows the work of a farm through its growing cycle, with you operating the machines needed at each stage. Start by preparing fields with a tractor, move on to sowing seeds with seeders, and nurture the crops as they grow. Harvesting then puts you in control of combines to gather the crop. The focus is on moving through these agricultural jobs yourself, from working the soil to bringing in the harvest. Switching between machines makes the equipment part of the process, giving the farming cycle a practical sequence to follow as you work across the fields.",
+      "instructions": "On desktop, use WASD or the arrow keys to move: W or Up goes upward, S or Down downward, and A or D moves left or right. Press Q to switch vehicles and E to load or unload. Mobile players use the directional buttons. Match your machine to the current farming task and work through soil preparation, sowing, crop care, and harvesting.",
+      "categories": [
+        "tractor",
+        "farm",
+        "simulation",
+        "management",
+        "3d"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "flufflings-pocket-pets",
+      "title": "Flufflings: Pocket Pets",
+      "embedUrl": "https://playgama.com/export/game/flufflings-pocket-pets?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/flufflings-pocket-pets?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/flufflings-pocket-pets/big_preview/38936ed0a3154468bf699b268dacb04e?width=448",
+      "description": "Flufflings: Pocket Pets turns a home and yard into a welcoming place for stray kittens. Food attracts visitors, while extra toys and decorations help make the space appealing. Looking after the cats also supports your progress: happier visitors leave more coins when they depart. You can use those rewards to keep improving the space and bringing in more fluffy guests. A favorite visitor can become a permanent companion when you give it a collar. Alongside decorating, the game gives you small care activities such as filling bowls, playing with a ball, and checking a cat’s characteristics.",
+      "instructions": "Leave food outside to attract cats. Drop food or water into a bowl to fill it, and drag and release the ball to play with your visitors. Hold a cat to view its information. Put a collar on a kitten you want to adopt so it stays permanently. Click the gate when you want to stop new cats from entering the yard.",
+      "categories": [
+        "animals",
+        "cats",
+        "cozy",
+        "simulation",
+        "girls"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "airplane-flight-manager-game",
+      "title": "Airplane Flight Manager Game",
+      "embedUrl": "https://playgama.com/export/game/airplane-flight-manager-game?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/airplane-flight-manager-game?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/airplane-flight-manager-game/big_preview/044be1c7abce4532a83411fb760e5ad5?width=448",
+      "description": "Airplane Flight Manager Game puts you in the pilot’s seat for journeys between airports. Take off, guide the aircraft through the sky, and work toward a safe landing at the destination. Missions give each flight a place to reach, while the open setting and clouds provide the surroundings for the trip. Its central activity is controlling an airplane through the journey from departure to arrival. That makes the destination a useful reference as you explore the skies and work through your flight missions. The game presents this flying experience with simple directional controls and a three-dimensional environment.",
+      "instructions": "Use W or the Up arrow to move forward and S or the Down arrow to move backward. A or the Left arrow moves left; D or the Right arrow moves right. Use the mouse to click buttons. Follow the current mission’s destination, guide the airplane from its starting airport, and bring the flight to a safe landing at the next one.",
+      "categories": [
+        "simulation",
+        "airplane",
+        "flying",
+        "3d",
+        "bus"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "dream-home",
+      "title": "Dream Home",
+      "embedUrl": "https://playgama.com/export/game/dream-home?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/dream-home?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/dream-home/big_preview/8c190b3dd4ba4eb6a5a32387687c2393?width=448",
+      "description": "Dream Home lets you build a house from the ground up and then walk through the result. Raise walls and floors, choose paint or wallpaper, lay flooring, and furnish the rooms. The yard is another space to design, with decorations ranging from flower beds to a pool or fountain. First-person walk mode lets you inspect the house, climb its stairs, and see it by day or night. Client orders add a brief to build around: completed work is graded and earns experience toward new levels and plots. There is also a daily challenge order for another building task.",
+      "instructions": "On a computer, use the mouse to build, right-click to rotate the camera, and scroll to zoom. WASD or the arrow keys move the camera; R rotates an item and Delete sells it. Press Esc to leave walk mode. On a phone, tap to build or select, use two fingers to rotate and zoom, and use the joystick when walking.",
+      "categories": [
+        "decoration",
+        "3d",
+        "cozy",
+        "simulation",
+        "girls"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "burger-restaurant-simulator-3d",
+      "title": "Burger Restaurant Simulator 3D",
+      "embedUrl": "https://playgama.com/export/game/burger-restaurant-simulator-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/burger-restaurant-simulator-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/burger-restaurant-simulator-3d/big_preview/b4cbcd2693594ae1a4e6aa672025365c?width=448",
+      "description": "Burger Restaurant Simulator 3D combines cooking with the decisions needed to expand a food business. Take orders and prepare burgers, fries, nuggets, drinks, and coffee, then develop the menu with more dishes. Earnings can go into better kitchen equipment, employees, or an interior that gives the restaurant its own look. Staff can be trained as the operation grows, and satisfied customers contribute tips and reputation. Expansion reaches beyond the original restaurant through new branches, a cafe, or a food truck. The daily work moves between serving customers and deciding which part of the business to improve next.",
+      "instructions": "Use WASD to move and the mouse to turn the camera. Press E to interact, M to open the shop, and Tab to show or hide the cursor. J opens daily tasks, H opens the daily reward, and P pauses the game. Take customer orders, cook the requested food, and use your profits to improve the kitchen and hire or train staff.",
+      "categories": [
+        "simulation",
+        "3d",
+        "management",
+        "cooking",
+        "restaurant",
+        "food",
+        "tycoon"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "launch-the-dummy",
+      "title": "Launch the Dummy! ",
+      "embedUrl": "https://playgama.com/export/game/launch-the-dummy?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/launch-the-dummy?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/launch-the-dummy/big_preview/51780d0d47ee4af792341ec0dcc266bf?width=448",
+      "description": "Launch the Dummy! is a physics playground built around one spectacular trip down a hill. Push a crash test dummy into motion, launch from the ramp, and send it bouncing through bowling pins, dominoes, crates, and balloons. Both distance and damage earn cash, turning each attempt into a chance to improve the next launch. Upgrades cover the hill, ride, rockets, eject spring, and wingsuit, with rides ranging from a shopping cart to a rocket sled. Boost rings and object-smashing combos add things to aim for during the flight. The larger target is the lake at 1,500 metres.",
+      "instructions": "Tap or click to push off and jump in. Tap or click again at the ramp to launch the dummy. Hold the screen or mouse button to glide with the wingsuit. Pass through boost rings and hit objects to chain combos, then spend the cash from distance and damage on upgrades that help you work toward the lake.",
+      "categories": [
+        "arcade",
+        "simulation",
+        "ragdoll",
+        "action",
+        "3d",
+        "funny",
+        "physics"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "fun-fishing",
+      "title": "Fun fishing",
+      "embedUrl": "https://fishitgame.io/export?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/fun-fishing?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/fun-fishing/big-preview/fe74b009786b46f99392365ef040eb53?width=448",
+      "description": "Fun fishing builds its progression around catching fish, selling the haul, and improving your equipment. The fish range from common catches to rarer finds, giving you different things to look for as you explore. Money from sales goes toward better fishing rods and other gear, while boats and additional areas provide more places to visit. The loop connects each fishing trip to the next: bring in a catch, turn it into money, and decide how to develop your equipment before heading out again. Its focus on fishing, movement, and exploration makes the locations part of the activity alongside the catch itself.",
+      "instructions": "On a computer, move with WASD and press Space to jump. Use the left mouse button to interact, or E to interact with objects. On mobile, the joystick on the left side of the screen moves your character, while the right side turns the camera. Catch and sell fish, then put your earnings toward gear upgrades and exploring further locations.",
+      "categories": [
+        "fishing",
+        "clicker",
+        "simulation"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    }
+  ],
+  "selections": {
+    "shooting": [
+      "hazmob-fps-online-shooter",
+      "sniper-attack2",
+      "road-chase-shooter-realistic-guns",
+      "bomb-the-castle",
+      "iron-defense",
+      "deorbit--space-survivors",
+      "dogfight",
+      "archery-ragdoll",
+      "naval-base",
+      "flip-gun-3d-ragdoll-shooter"
+    ],
+    "simulation": [
+      "bridge-builder",
+      "pocket-mart",
+      "city-bus-simulator-driving-games",
+      "field-master",
+      "flufflings-pocket-pets",
+      "airplane-flight-manager-game",
+      "dream-home",
+      "burger-restaurant-simulator-3d",
+      "launch-the-dummy",
+      "fun-fishing"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "requestBody": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "shooting"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-shooting-page-0.json",
+      "fetchedAt": "2026-11-07T14:26:28.673189+00:00",
+      "returnedCount": 100,
+      "totalCount": 236
+    },
+    {
+      "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "requestBody": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "simulation"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-simulation-page-0.json",
+      "fetchedAt": "2026-11-07T14:26:28.673189+00:00",
+      "returnedCount": 100,
+      "totalCount": 385
+    }
+  ]
+}

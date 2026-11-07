@@ -1,0 +1,1196 @@
+{
+  "games": [
+    {
+      "id": "chess-online-multiplayer",
+      "title": "Chess Online Multiplayer",
+      "embedUrl": "https://playgama.com/export/game/chess-online-multiplayer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/chess-online-multiplayer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/chess-online-multiplayer/big_preview/94a907a44037494c955d803fb45ec5fd?width=448",
+      "description": "Chess Online Multiplayer gives the familiar contest of protecting your king several ways to play. Face a computer, challenge another player online, arrange a game with a friend, or share one screen. Computer difficulty spans 21 levels, while time controls range from unlimited play to faster formats such as Bullet and Blitz. Legal-move highlights, interactive hints, and move analysis provide useful ways to study a position. Choose a comfortable pace and concentrate on how each move changes the safety of both kings.",
+      "instructions": "Select a game type and set the available difficulty or time options. Players alternate moves, with each piece following its own movement rules. Your objective is checkmate: attack the opposing king so that it has no legal escape. Watch the highlighted legal moves, protect pieces that an opponent can capture, and consider their reply before committing. Review the move history or postgame analysis to identify decisions you could improve.",
+      "categories": [
+        "multiplayer",
+        "chess",
+        "classic",
+        "board",
+        "two-player"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "master-checkers-25e9-1",
+      "title": "Master Checkers",
+      "embedUrl": "https://playgama.com/export/game/master-checkers-25e9-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/master-checkers-25e9-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/master-checkers-25e9-1/big-preview/108576c73c014dc4ad19952b2e66065e?width=448",
+      "description": "Master Checkers presents Italian checkers as a compact contest of diagonal movement and compulsory captures. You can challenge the computer, play against someone locally, or meet an online opponent. Ordinary pieces advance toward the far side of the board, where reaching the final row crowns a king. Kings can move backward as well as forward, changing which parts of the board they can threaten. Success depends on reading the capture opportunities a move creates for both players, especially when several jumps can follow one another.",
+      "instructions": "Use the dark squares and move ordinary pieces diagonally forward. To capture, jump over an opposing piece into the empty diagonal square beyond it. Captures are mandatory, and a move can contain multiple jumps. Look through the whole available sequence before choosing a route. Advance pieces toward promotion while checking what your opponent can capture next. Once crowned, use a king's ability to move in either direction to improve your position.",
+      "categories": [
+        "checkers",
+        "board",
+        "two-player",
+        "classic",
+        "mobile"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "backgammon-multiplayer",
+      "title": "Backgammon",
+      "embedUrl": "https://playgama.com/export/game/backgammon-multiplayer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/backgammon-multiplayer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/backgammon-multiplayer/big-preview/763a51507ab541d6a86327001536b609?width=448",
+      "description": "Backgammon turns a race to remove pieces into a series of decisions shaped by dice. The objective is to get all of your pieces off the board before your opponent does. A roll determines the movement available, but you still need to consider which piece should benefit from it. The provider emphasizes the importance of strategy over a long run of games. Approach each turn as part of that larger race, balancing immediate movement with the progress of the pieces that remain on the board.",
+      "instructions": "Roll the dice, inspect the available moves, and choose a piece to advance. Keep track of both players' remaining pieces as the race develops. Before making a move, compare the alternatives and consider how each helps your overall progress. Continue moving and removing your pieces until none remain. Finishing that task before the other player wins the game.",
+      "categories": [
+        "board",
+        "classic",
+        "backgammon",
+        "mobile"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "domino-battle",
+      "title": "Domino Battle",
+      "embedUrl": "https://playgama.com/export/game/domino-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/domino-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/domino-battle/big-preview/f11c8d363d2c4b8da486e62c70a42c69?width=448",
+      "description": "Domino Battle offers Draw and Block modes within a match made up of several rounds. Each player begins with seven tiles, and the player with the higher starting tile opens play. The immediate aim is to empty your hand, while the larger match continues until a player reaches 100 points. That structure gives individual rounds a clear place in the overall contest. Choosing a mode lets you explore two approaches to the same familiar tile game, with attention on the hand you hold and the opportunities each turn presents.",
+      "instructions": "Choose Draw or Block before starting. Examine your seven tiles and follow the game's available placements as play alternates. Work toward playing every tile in your hand, checking your remaining options after each turn. At the end of a round, note the updated match score. Keep playing subsequent rounds with the 100-point target in mind, adapting your decisions to the new hand you receive.",
+      "categories": [
+        "board",
+        "popular"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "reversi-classic",
+      "title": "Reversi Classic",
+      "embedUrl": "https://playgama.com/export/game/reversi-classic?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/reversi-classic?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/reversi-classic/big_preview/375bde9a8e174bd1a1f23002befdf062?width=448",
+      "description": "Reversi Classic is a 3D version of the disc-flipping board game, with five computer levels, online ranked play, and ways to challenge friends by room code or on the same screen. A daily puzzle offers another kind of position to consider. Every placement must trap opposing discs between the new disc and one of your existing discs, turning the captured line to your color. The winner has the most discs when play ends. Corners are particularly valuable because a disc placed there cannot be flipped back.",
+      "instructions": "Click or tap a marked legal cell to place a disc. Look for straight or diagonal lines that sandwich opposing discs, and inspect how the board will change. In training, hover or hold to preview a move. If a player has no legal placement, that turn is passed; when neither player can move, the game ends. Use Esc to open the menu.",
+      "categories": [
+        "board",
+        "strategy",
+        "3d",
+        "two-player",
+        "logic",
+        "classic",
+        "multiplayer"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uk-UA"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "ludo-legend",
+      "title": "Ludo Legend",
+      "embedUrl": "https://playgama.com/export/game/ludo-legend?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/ludo-legend?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/ludo-legend/big-preview/d8674d416ee148109d7fd4f23d889f44?width=448",
+      "description": "Ludo Legend brings the familiar dice-and-token race to a board you can play alone or share with friends on one device. Your goal is to guide every token from its starting area to the safe house at the finish. A roll of six releases a token, while later rolls help move it around the board. An opponent landing on your token sends it back to the start, so choosing which token to advance matters throughout the race. A promising lead can change quickly when tokens meet.",
+      "instructions": "Roll the die and choose an eligible token to move. Use a six to bring a token into play, then continue advancing your pieces toward their destination. Check the positions of opposing tokens before choosing between your own pieces. In a shared game, pass the device when the turn changes. Keep moving all of your tokens toward the safe house; the first player to finish the entire set wins.",
+      "categories": [
+        "board",
+        "mobile",
+        "two-player"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "yatzy-82db-1",
+      "title": "Yatzy",
+      "embedUrl": "https://playgama.com/export/game/yatzy-82db-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/yatzy-82db-1?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/yatzy-82db-1/big-preview/66ca28c43882498f8da88a05872364eb?width=448",
+      "description": "Yatzy combines five dice with a score sheet that rewards different combinations. Across 13 rounds, you try to build the highest total by assigning each result to one unused category. Upper-section categories cover individual die values from ones through sixes; other spaces reward patterns such as a Full House, a Straight, or five matching dice for Yatzy. The choice of where to record a roll is as important as deciding what to reroll. A useful combination today may compete with a category you hoped to save for later.",
+      "instructions": "Roll the five dice, keep any dice you want to preserve, and reroll the others. You can roll up to three times during a round. Compare the final result with the categories still available and record it in one of them. Each category can be used only once. Repeat for all 13 rounds, checking the remaining score-sheet spaces before deciding which combinations to pursue.",
+      "categories": [
+        "board"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "mahjong-classic",
+      "title": "Mahjong Classic",
+      "embedUrl": "https://playgama.com/export/game/mahjong-classic?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/mahjong-classic?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/mahjong-classic/big-preview/730f65084d864a9baffefa86e110b106?width=448",
+      "description": "Mahjong Classic is a tile-pairing solitaire game with layouts including Turtle, Fort, Crab, Spider, Cat, and Dragon. Your task is to clear the field by removing matching tiles that are currently unblocked. Most pairs need identical symbols, while flower tiles can pair with other flowers and season tiles with other seasons. The board changes with every removal, so a useful match can also expose future possibilities. Undo, Hint, and Spotlight provide different forms of assistance when a crowded arrangement becomes difficult to read.",
+      "instructions": "Choose a layout and look for two available tiles that form a valid pair. Select them to remove them, then inspect the newly opened areas. Prioritize matches that make more tiles accessible when you have several choices. Undo restores the last removed pair, Hint reveals a matching pair, and Spotlight identifies available tiles. Clear the whole field to finish; if no matching pair remains available, the attempt is lost.",
+      "categories": [
+        "mahjong",
+        "matching"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "solitaire-8-collection",
+      "title": "Solitaire 8 Collection",
+      "embedUrl": "https://playgama.com/export/game/solitaire-8-collection?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/solitaire-8-collection?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/solitaire-8-collection/big_preview/88bb5146249e479182cd1c6ad8576f79?width=448",
+      "description": "Solitaire 8 Collection gathers Klondike, Spider, FreeCell, TriPeaks, Pyramid, Golf, Yukon, and Scorpion into one card-game collection. Each variant creates a different arrangement to solve, with unlimited undo and explanatory hints available as you learn. Statistics, deal history, and daily or weekly challenges give you ways to revisit your play. The rules vary across the collection: TriPeaks and Golf use cards one rank higher or lower, while Pyramid centers on pairs totaling thirteen. Choose the version whose pace and decisions appeal to you.",
+      "instructions": "Select a solitaire variant and follow its displayed rules. Click a card for an automatic move or drag it to a valid destination; click the stock when that variant allows another deal. Touch controls follow the same actions. Keyboard players can navigate with the arrows and use Enter or Space to handle cards. Press Z to undo or P for a hint, then reconsider how the move affects your remaining options.",
+      "categories": [
+        "cards",
+        "solitaire"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "pt-PT"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "4-colors",
+      "title": "4 Colors",
+      "embedUrl": "https://playgama.com/export/game/4-colors?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/4-colors?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/4-colors/big-preview/f47945bab8724f42a0911e6909328a08?width=448",
+      "description": "4 Colors is a hand-clearing card game against up to three computer opponents. Play cards that match the current color or number and use action cards as opportunities arise. The goal is to be the first player with no cards left. Because the playable color or number can change with each turn, a card that looks useful now may serve a different purpose later. Pay special attention as your hand becomes small: the game's Uno button is part of finishing correctly, with a penalty for forgetting it.",
+      "instructions": "Click or tap a card that matches the color or number in play. If you cannot make a matching play, select the deck to draw. Read the action cards and consider their effect before choosing among your available cards. When only one card remains in your hand, click Uno. Missing that declaration adds two cards as a penalty. Continue matching and playing until you empty your hand.",
+      "categories": [
+        "cards",
+        "multiplayer",
+        "color"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "make-a-dress",
+      "title": "Make A Dress",
+      "embedUrl": "https://playgama.com/export/game/make-a-dress?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/make-a-dress?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/make-a-dress/big_preview/cc2a653b554e4fad9ef248983be3ef1d?width=448",
+      "description": "Make A Dress follows a client's outfit from the first measurements to the final decoration. The sewing sequence includes choosing a silhouette and fabric, ironing the material, preparing patterns, cutting, and sewing. Bows, flowers, and gems provide finishing details, so the completed dress reflects choices made throughout the process. Delivering a creation earns stars and gifts. The appeal lies in working through a recognizable craft sequence while deciding how the fabric, shape, and decorative touches should fit together for the client's request.",
+      "instructions": "Use the mouse or touch controls to work through each sewing step. Click or tap to choose a silhouette and fabric, then drag materials or decorations into place as directed. Move the measuring tape, iron, and scissors during their respective stages, and guide the fabric beneath the needle for sewing. Complete the dress before adding its finishing decorations. Review the overall look and deliver it to the client.",
+      "categories": [
+        "girls",
+        "simulation",
+        "fashion",
+        "dress-up",
+        "decoration",
+        "anime",
+        "mouse"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idol-livestream-doll-dress-up",
+      "title": "Idol Livestream: Doll Dress Up",
+      "embedUrl": "https://playgama.com/export/game/idol-livestream-doll-dress-up?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idol-livestream-doll-dress-up?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idol-livestream-doll-dress-up/big_preview/6d0fa2792f7e4f3a995b2c5a2f1bec7a?width=448",
+      "description": "Idol Livestream: Doll Dress Up focuses on putting together a doll's complete fashion look. Clothes, accessories, makeup, and hairstyles let you coordinate several parts of an outfit before presenting it. The finished character can enter a fashion competition or appear in an in-game livestream with onscreen audience reactions. This gives each styling session a small presentation stage after the wardrobe choices. Try building a look around one central item, then use the other selections to support its colors and overall style.",
+      "instructions": "Begin with the doll's clothing choices and select the pieces you want to combine. Add accessories, choose a hairstyle, and explore the makeup options to complete the appearance. Look at the full outfit before moving on so that the individual choices work together. When the styling is ready, choose the fashion competition or in-game livestream presentation. Watch the game's reactions, then experiment with another combination for a different result.",
+      "categories": [
+        "fashion",
+        "make-up",
+        "girls",
+        "hair",
+        "decoration",
+        "easy",
+        "dress-up"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "fashion-week-2025",
+      "title": "Fashion Week 2025",
+      "embedUrl": "https://playgama.com/export/game/fashion-week-2025?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/fashion-week-2025?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/fashion-week-2025/big-preview/fc02e252aeab419c9df5ee786dc257d9?width=448",
+      "description": "Fashion Week 2025 puts five models and five fashion themes at the center of its styling challenge. The selection ranges from Chanel-inspired elegance to punk-rock looks, with dresses, accessories, and hairstyles available to shape each appearance. Instead of applying one outfit idea to everyone, consider how each theme changes the choices that make sense for a model. A polished dress and a bold accessory can suggest very different directions, making coordination across the whole look the main creative task.",
+      "instructions": "Use the mouse on a desktop or tap the options on a mobile device. Select the clothing, accessories, and hairstyle for the model you are styling, keeping the current theme in mind. Compare the complete look as you make choices, paying attention to how the pieces relate to one another. Work through the five models and themes, trying a fresh combination when the fashion direction changes.",
+      "categories": [
+        "dress-up",
+        "girls",
+        "fashion",
+        "mobile",
+        "hair",
+        "make-up"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "nail-salon",
+      "title": "Nail Salon",
+      "embedUrl": "https://playgama.com/export/game/nail-salon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/nail-salon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/nail-salon/big-preview/184e2fe869b744f39a8f6d661053aeb4?width=448",
+      "description": "Nail Salon turns a client's manicure into a sequence of color, shape, and finishing details. Begin by painting through a stencil, then file the nails and add an adhesive jewel to complete the design. Progress introduces additional stencils and marble designs, giving you more visual combinations to explore. The creative decisions are concentrated on a small surface, where the relationship between color, pattern, and decoration has a noticeable effect. Consider how those elements will work together before committing to the final embellishment.",
+      "instructions": "Follow the salon's sequence for the client's nails. Apply color using the available stencil, then use the filing tool to shape the nails. Once the painting and shaping stages are complete, choose an adhesive jewel as the finishing touch. Inspect the resulting manicure and continue to the next design. As new stencils and marble options become available, try changing one part of the design to see how it affects the finished look.",
+      "categories": [
+        "make-up",
+        "decoration",
+        "girls",
+        "fashion"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "hair-salon-3d",
+      "title": "Hair Salon 3D",
+      "embedUrl": "https://playgama.com/export/game/hair-salon-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hair-salon-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/hair-salon-3d/big-preview/2258bdc78a5e436da80892adf9fabf30?width=448",
+      "description": "Hair Salon 3D asks you to interpret a client's requested haircut and recreate it with salon tools. Styles include bobs, mohawks, undercuts, and long layers, while scissors, clippers, a razor, and color tools serve different parts of the job. Matching the request earns stars and tips, and in-game earnings can buy tools or dyes. More complex cuts and additional clients become available as you progress. The 3D preview helps you study the requested shape before deciding where to trim and which details need attention.",
+      "instructions": "Tap the request card on the right to inspect its preview. Choose scissors for precise cutting, clippers for an even trim, or the razor for detail work. Swipe across the head to cut, and use two fingers to rotate or adjust the camera. Select a brush and color when dye is needed. Compare the result with the request, then tap Done to receive the client's rating.",
+      "categories": [
+        "hair",
+        "3d",
+        "girls"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ar-EG",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "diamond-painting-by-number",
+      "title": "Diamond Painting by Number",
+      "embedUrl": "https://playgama.com/export/game/diamond-painting-by-number?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/diamond-painting-by-number?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/diamond-painting-by-number/big-preview/e7c9651fd6e34820b8807762d7aba213?width=448",
+      "description": "Diamond Painting by Number uses numbered coloring as the basis for building decorative diamond pictures. The available artwork gives you an outline to complete, with the numbers guiding the colors that belong in each part. The interest comes from watching separate colored areas become a recognizable image as you work. Choose a drawing that appeals to you and treat each small section as part of the larger composition. Careful attention to the number guide helps keep the finished picture consistent with its intended design.",
+      "instructions": "On a desktop, use the left mouse button to interact with the coloring elements. On a mobile device, touch those elements instead. Choose the artwork you want to work on, follow its numbered color guidance, and fill the corresponding areas. Inspect the picture as it develops and continue through the remaining sections. Keep matching the numbers until the selected diamond drawing is complete.",
+      "categories": [
+        "decoration",
+        "drawing",
+        "color",
+        "mobile"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "pixel-color-quest",
+      "title": "Pixel Color Quest",
+      "embedUrl": "https://playgama.com/export/game/pixel-color-quest?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/pixel-color-quest?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/29b2a15bb454415ba1ff1efad68ef938?width=448",
+      "description": "Pixel Color Quest turns a field of numbered cells into colorful pixel artwork. You choose a picture, select colors, and fill the cells according to their numbers until the image is complete. The available pictures range from simple designs to larger, more detailed compositions, with different themes and difficulty levels. The process is presented as calm coloring without a rush, so you can focus on the pattern gradually taking shape. Picking a smaller design first is a practical way to learn the color-and-number routine.",
+      "instructions": "Click with the left mouse button to select a picture, choose a color, and fill a cell. On mobile, tap the same picture, color, and cell elements. Match the selected color to the numbered cells that require it, then move on to another color. Check for unfinished cells as the image develops. Your goal is to fill every cell correctly and reveal the complete pixel picture.",
+      "categories": [
+        "color",
+        "drawing"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "diy-phone-case-maker",
+      "title": "DIY Phone Case Maker",
+      "embedUrl": "https://playgama.com/export/game/diy-phone-case-maker?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/diy-phone-case-maker?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/diy-phone-case-maker/big-preview/041992ee7d4b4937b7758c8d1ab8c438?width=448",
+      "description": "DIY Phone Case Maker gives you a virtual case to decorate with paint, stickers, and finishing accessories. Its palette includes soft pastels and bright neons, while acrylic-art options let you explore swirled, mixed, and poured effects. Stickers add quotes or character designs, and pop-it decorations and keychains introduce further details. The creative task is to combine these elements into a design with a clear personality. A simple base color can support a busy collection of stickers, while an expressive paint pattern can become the main feature.",
+      "instructions": "Explore the available painting choices and decide on a color direction for your case. Apply the paint or acrylic effect you want, then choose stickers that suit the design. Consider where additional decorations will fit before adding pop-it elements or a keychain. Review the whole case as you work, checking whether its colors, pattern, and accessories support the style you intended.",
+      "categories": [
+        "decoration",
+        "color",
+        "easy"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "kiki-world-kawaii-doll-decor",
+      "title": "Kiki World: Kawaii Doll Decor",
+      "embedUrl": "https://playgama.com/export/game/kiki-world-kawaii-doll-decor?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/kiki-world-kawaii-doll-decor?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/kiki-world-kawaii-doll-decor/big_preview/3b8526f121f748fcb5e1a7ed4930b79c?width=448",
+      "description": "Kiki World: Kawaii Doll Decor focuses on transforming cluttered rooms into thoughtfully arranged interiors. Clean up the space, remove old items, and choose furniture, colors, and patterns that give the room a new character. The decorating work serves clients and neighbors, with rewards providing access to more furniture. Each room offers a chance to connect practical arrangement with a personal visual style. Think about the overall combination of furnishings and decoration so that the finished space feels coordinated rather than assembled one item at a time.",
+      "instructions": "Use the left mouse button to interact with the room and its decorating options. Start by cleaning and removing the old items, then arrange the furniture you want to use. Mix and match colors and patterns while considering how each choice affects the whole room. Complete the interior for the client or neighbor, collect the available rewards, and use newly available furniture in later decorating projects.",
+      "categories": [
+        "decoration",
+        "girls",
+        "fashion",
+        "cozy"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "the-ink-shop--tattoo-art-asmr",
+      "title": "The Ink Shop - Tattoo Art ASMR",
+      "embedUrl": "https://playgama.com/export/game/the-ink-shop--tattoo-art-asmr?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/the-ink-shop--tattoo-art-asmr?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/the-ink-shop-tattoo-art-asmr/big_preview/5792eed3f64344398f8e35e118ff728b?width=448",
+      "description": "The Ink Shop - Tattoo Art ASMR places you in a virtual tattoo studio, where each customer brings a design request. The process moves through preparation, sizing, outlining, and final inking, accompanied by ASMR-style sounds. You can also work on correcting or removing flawed tattoos. Completing jobs earns in-game money for studio upgrades, equipment, and additional designs. The main challenge is to interpret the request and carry the selected image through its stages carefully, keeping the final result in mind as you work.",
+      "instructions": "Welcome a customer and review the requested tattoo. Follow the game's preparation steps, including shaving and disinfecting the virtual skin. Choose the design, adjust its size, and work through the outline and inking stages with the onscreen tools. For a correction job, follow the relevant repair or removal sequence. Finish the customer's request, then use your in-game earnings to develop the studio and expand the available design choices.",
+      "categories": [
+        "simulation",
+        "tattoo",
+        "3d",
+        "management",
+        "drawing",
+        "arcade"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    }
+  ],
+  "selections": {
+    "card-board": [
+      "chess-online-multiplayer",
+      "master-checkers-25e9-1",
+      "backgammon-multiplayer",
+      "domino-battle",
+      "reversi-classic",
+      "ludo-legend",
+      "yatzy-82db-1",
+      "mahjong-classic",
+      "solitaire-8-collection",
+      "4-colors"
+    ],
+    "creative": [
+      "make-a-dress",
+      "idol-livestream-doll-dress-up",
+      "fashion-week-2025",
+      "nail-salon",
+      "hair-salon-3d",
+      "diamond-painting-by-number",
+      "pixel-color-quest",
+      "diy-phone-case-maker",
+      "kiki-world-kawaii-doll-decor",
+      "the-ink-shop--tattoo-art-asmr"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "backgammon"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-backgammon-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:23.847628+00:00",
+      "returnedGames": 1,
+      "totalCount": 1,
+      "selectedIds": [
+        "backgammon-multiplayer"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "board"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-board-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:23.870117+00:00",
+      "returnedGames": 39,
+      "totalCount": 39,
+      "selectedIds": [
+        "chess-online-multiplayer",
+        "backgammon-multiplayer",
+        "domino-battle",
+        "ludo-legend",
+        "master-checkers-25e9-1",
+        "reversi-classic",
+        "yatzy-82db-1"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "cards"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-cards-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:23.934117+00:00",
+      "returnedGames": 50,
+      "totalCount": 50,
+      "selectedIds": [
+        "4-colors",
+        "solitaire-8-collection"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "checkers"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-checkers-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:23.834117+00:00",
+      "returnedGames": 4,
+      "totalCount": 4,
+      "selectedIds": [
+        "master-checkers-25e9-1"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "chess"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-chess-20261107.json",
+      "retrievedAt": "2026-11-07T14:45:02.301655+00:00",
+      "returnedGames": 11,
+      "totalCount": 11,
+      "selectedIds": [
+        "chess-online-multiplayer"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "decoration"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-decoration-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:29.858131+00:00",
+      "returnedGames": 56,
+      "totalCount": 56,
+      "selectedIds": [
+        "idol-livestream-doll-dress-up",
+        "kiki-world-kawaii-doll-decor",
+        "make-a-dress",
+        "nail-salon",
+        "diy-phone-case-maker",
+        "diamond-painting-by-number"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "drawing"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-drawing-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:30.302132+00:00",
+      "returnedGames": 85,
+      "totalCount": 85,
+      "selectedIds": [
+        "pixel-color-quest",
+        "diamond-painting-by-number",
+        "the-ink-shop--tattoo-art-asmr"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "dress-up"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-dress-up-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:29.866131+00:00",
+      "returnedGames": 48,
+      "totalCount": 48,
+      "selectedIds": [
+        "idol-livestream-doll-dress-up",
+        "make-a-dress",
+        "fashion-week-2025"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "fashion"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-fashion-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:29.866131+00:00",
+      "returnedGames": 57,
+      "totalCount": 57,
+      "selectedIds": [
+        "idol-livestream-doll-dress-up",
+        "kiki-world-kawaii-doll-decor",
+        "make-a-dress",
+        "nail-salon",
+        "fashion-week-2025"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "hair"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-hair-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:35.986145+00:00",
+      "returnedGames": 18,
+      "totalCount": 18,
+      "selectedIds": [
+        "idol-livestream-doll-dress-up",
+        "fashion-week-2025",
+        "hair-salon-3d"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "mahjong"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-mahjong-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:24.434119+00:00",
+      "returnedGames": 32,
+      "totalCount": 32,
+      "selectedIds": [
+        "mahjong-classic"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "make-over"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-make-over-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:29.821663+00:00",
+      "returnedGames": 28,
+      "totalCount": 28,
+      "selectedIds": [],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "make-up"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-make-up-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:29.791751+00:00",
+      "returnedGames": 31,
+      "totalCount": 31,
+      "selectedIds": [
+        "idol-livestream-doll-dress-up",
+        "nail-salon",
+        "fashion-week-2025"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "solitaire"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-solitaire-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:23.886117+00:00",
+      "returnedGames": 23,
+      "totalCount": 23,
+      "selectedIds": [
+        "solitaire-8-collection"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "tattoo"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/expansion-card-creative-tattoo-20261107.json",
+      "retrievedAt": "2026-11-07T14:48:35.908860+00:00",
+      "returnedGames": 2,
+      "totalCount": 2,
+      "selectedIds": [
+        "the-ink-shop--tattoo-art-asmr"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    }
+  ]
+}

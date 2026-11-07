@@ -1,6 +1,6 @@
 # GuideHollow game collections
 
-An Astro static site for a language-and-genre-specific Playgama collection. The initial release uses the four existing English puzzle, racing, sports and arcade repositories. The source also supports Korean and Japanese configurations for later activation. Each repository deploys one combination to its own subdomain through GitHub Actions and GitHub Pages.
+An Astro static site for a language-and-genre-specific Playgama collection. The initial release uses the four existing English puzzle, racing, sports and arcade repositories. The next release groups the catalog into 16 broad English genres, with detailed provider types kept as in-site filters. Each repository deploys one combination to its own subdomain through GitHub Actions and GitHub Pages. See [the broad-genre rollout](docs/MAJOR_GENRES.md) for actual published versus prepared status.
 
 ## Build and preview
 
@@ -31,33 +31,37 @@ Set `deployment.json` at the root of each repository:
 }
 ```
 
-The supported genres are `puzzle`, `racing`, `sports`, and `arcade`. The supported locales are `en`, `ko`, and `ja`. The local default, when no deployment file exists, is English puzzle.
+The 16 broad genres are `puzzle`, `racing`, `sports`, `arcade`, `action`, `adventure`, `strategy`, `simulation`, `horror`, `shooting`, `rpg`, `platform`, `idle`, `card-board`, `multiplayer`, and `creative`. The expansion is English only. Previously prepared Korean and Japanese configurations remain inactive. The local default, when no deployment file exists, is English puzzle.
 
 Environment variables can override that selection for a local build:
 
 ```sh
-SITE_GENRE=racing SITE_LOCALE=ko OUTPUT_DIR=dist-ko-racing npm run build
+SITE_GENRE=horror SITE_LOCALE=en SITE_STAGE=preview OUTPUT_DIR=dist-preview/en-horror npm run build
 ```
 
-Run different site builds sequentially in one checkout because their generated public assets use the same temporary directory. The deployed output contains only the selected site's pages. Sites marked `active: false` are excluded from build selection, navigation and `hreflang` links. Activate a future configuration only when its public site is ready. A game's language counterpart is linked only when that site actually includes the game.
+Run different site builds sequentially in one checkout because their generated public assets use the same temporary directory. The deployed output contains only the selected site's pages. Sites marked `active: false` are excluded from production builds, navigation and `hreflang` links. `SITE_STAGE=preview` permits an inactive site's local build, marks every page `noindex`, blocks crawling and prevents IndexNow submission. Activate a future configuration only when its public site is ready. A game's language counterpart is linked only when that site actually includes the game.
 
-| Language | Puzzle | Racing | Sports | Arcade |
-|---|---|---|---|---|
-| English | `en-puzzle.guidehollow.com` | `en-racing.guidehollow.com` | `en-sports.guidehollow.com` | `en-arcade.guidehollow.com` |
-| Korean | `ko-puzzle.guidehollow.com` | `ko-racing.guidehollow.com` | `ko-sports.guidehollow.com` | `ko-arcade.guidehollow.com` |
-| Japanese | `ja-puzzle.guidehollow.com` | `ja-racing.guidehollow.com` | `ja-sports.guidehollow.com` | `ja-arcade.guidehollow.com` |
+The initial four published hosts are `en-puzzle`, `en-racing`, `en-sports` and `en-arcade` under `guidehollow.com`. The remaining 12 broad English genre hosts and their real publication status are listed in [the rollout](docs/MAJOR_GENRES.md). DNS, HTTPS availability and search-engine submission status are separate from a successful local or CI build.
 
-The English row contains the initial release targets; the Korean and Japanese rows are inactive future configurations. DNS, HTTPS availability and search-engine submission status are separate from a successful local build.
+To build and verify all 16 broad genre previews in sequence:
+
+```sh
+npm run build:genres
+```
+
+See [the verification record](docs/VERIFICATION.md) for the completed local checks and the distinction between the four live sites and twelve prepared sites.
 
 ## Content and page generation
 
 - `data/sites.json` defines the sites, activation flags, canonical addresses, selected game IDs, introductory text and public IndexNow keys.
-- `data/catalog.json` contains game metadata and the English, Korean and Japanese editorial descriptions and instructions.
+- `data/catalog.json` contains game metadata and English editorial descriptions and instructions. Earlier Korean and Japanese drafts are retained for the initial games only; no new language sites are being activated.
+- `data/genre-groups.json` defines the 16 broad genres and their provider source categories.
+- `data/deployment-queue.json` records the 12 new sites without treating preparation as publication.
 - `shared/` contains the localized interface, HTML renderer, browser behavior and genre styling.
 - `src/pages/` provides Astro's static routes and the custom error page.
 - `scripts/` selects the deployment, prepares assets and sitemaps, and validates the output.
 
-The game catalog is curated. To add a game, use its actual Playgama catalog metadata, add useful instructions and translated editorial text, then include its ID in the intended site selections. Do not invent game features, ratings, review counts, supported languages or device compatibility. A selected game must list native support for that site's language; the build rejects mismatches. Translated editorial text alone does not qualify a game for a different language's collection.
+The game catalog is curated. To add a game, use its actual Playgama catalog metadata, add useful instructions and editorial text in the site's language, then include its ID in the intended site selections. Do not invent game features, ratings, review counts, supported languages or device compatibility. A selected game must list native support for that site's language; the build rejects mismatches. Translated editorial text alone does not qualify a game for a different language's collection.
 
 Preserve each provider's exact `gameURL`. Some games use provider-specific export domains. Both the embed URL and the fallback Playgama URL must retain the publisher's public `clid` query parameter. Do not replace a provider URL with a guessed path derived from its slug.
 

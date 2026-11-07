@@ -9,5 +9,6 @@ export function renderRoute(entry, data) {
     page: entry.type,
     game: entry.game,
     verification: data.verification,
+    preview: data.preview,
   });
 }

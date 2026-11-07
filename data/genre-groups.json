@@ -1,0 +1,206 @@
+{
+  "language": "en",
+  "scope": "16 broad game genres; detailed provider types remain in-site filters",
+  "source": "https://playgama.com/all/categories",
+  "reviewedAt": "2026-11-07",
+  "groups": [
+    {
+      "id": "puzzle",
+      "label": "Puzzles",
+      "sources": [
+        "puzzle",
+        "logic",
+        "brain",
+        "match-3",
+        "bubble-shooter",
+        "words",
+        "number",
+        "math",
+        "sudoku",
+        "maze"
+      ]
+    },
+    {
+      "id": "racing",
+      "label": "Racing",
+      "sources": [
+        "racing",
+        "car-racing",
+        "car",
+        "drifting",
+        "motorbike",
+        "dirt-bike",
+        "bike"
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "sources": [
+        "sports",
+        "soccer",
+        "american-football",
+        "basketball",
+        "tennis",
+        "golf",
+        "bowling",
+        "cricket",
+        "boxing",
+        "hockey",
+        "baseball"
+      ]
+    },
+    {
+      "id": "arcade",
+      "label": "Arcade",
+      "sources": [
+        "arcade",
+        "skill",
+        "snake",
+        "running",
+        "runner",
+        "ball",
+        "retro",
+        "flappy-bird"
+      ]
+    },
+    {
+      "id": "action",
+      "label": "Action",
+      "sources": [
+        "action",
+        "fighting",
+        "war",
+        "ninja",
+        "superhero"
+      ]
+    },
+    {
+      "id": "adventure",
+      "label": "Adventure",
+      "sources": [
+        "adventure",
+        "escape",
+        "story",
+        "survival",
+        "crafting",
+        "hidden-object",
+        "pirates",
+        "minecraft"
+      ]
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy",
+      "sources": [
+        "strategy",
+        "tower-defense",
+        "management",
+        "army",
+        "battleship"
+      ]
+    },
+    {
+      "id": "simulation",
+      "label": "Simulation",
+      "sources": [
+        "simulation",
+        "driving",
+        "farm",
+        "cooking",
+        "restaurant",
+        "hospital",
+        "construction",
+        "doctor",
+        "train",
+        "airplane"
+      ]
+    },
+    {
+      "id": "horror",
+      "label": "Horror",
+      "sources": [
+        "horror",
+        "scary",
+        "ghost",
+        "zombie"
+      ]
+    },
+    {
+      "id": "shooting",
+      "label": "Shooting",
+      "sources": [
+        "shooting",
+        "gun",
+        "first-person-shooter",
+        "sniper",
+        "archery",
+        "battle-royale"
+      ]
+    },
+    {
+      "id": "rpg",
+      "label": "RPG",
+      "sources": [
+        "rpg"
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platformers",
+      "sources": [
+        "platform",
+        "obby",
+        "parkour"
+      ]
+    },
+    {
+      "id": "idle",
+      "label": "Idle & Clicker",
+      "sources": [
+        "idle",
+        "clicker",
+        "tycoon"
+      ]
+    },
+    {
+      "id": "card-board",
+      "label": "Card & Board",
+      "sources": [
+        "cards",
+        "board",
+        "solitaire",
+        "chess",
+        "checkers",
+        "backgammon",
+        "mahjong"
+      ]
+    },
+    {
+      "id": "multiplayer",
+      "label": "Multiplayer",
+      "sources": [
+        "multiplayer",
+        "two-player",
+        "co-op",
+        "io",
+        "1v1",
+        "pvp"
+      ]
+    },
+    {
+      "id": "creative",
+      "label": "Dress Up & Creative",
+      "sources": [
+        "dress-up",
+        "make-over",
+        "make-up",
+        "fashion",
+        "drawing",
+        "decoration",
+        "hair",
+        "tattoo"
+      ]
+    }
+  ]
+}

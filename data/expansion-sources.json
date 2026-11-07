@@ -1,0 +1,959 @@
+[
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "horror"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-horror-page-0.json",
+    "retrievedAt": "2026-11-07T14:26:33.248423+00:00",
+    "returnedGames": 66,
+    "totalCount": 66,
+    "selectedIds": [
+      "the-tall-man",
+      "animal-clinic-anomaly",
+      "abandoned-mansion",
+      "backrooms-exit-protocol-0",
+      "last-night",
+      "room-45",
+      "unfamiliar-object",
+      "pulse-of-fear",
+      "tall-grass",
+      "escape-from-the-crypt"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "idle"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-idle-page-0.json",
+    "retrievedAt": "2026-11-07T14:26:33.031152+00:00",
+    "returnedGames": 100,
+    "totalCount": 212,
+    "selectedIds": [
+      "my-arcade-center",
+      "idle-game-dev-simulator",
+      "idle-zoo-tycoon",
+      "idle-supermarket-tycoon",
+      "ant-colony-idle",
+      "idle-train-empire",
+      "idle-airport-tycoon",
+      "event-horizon-black-hole-idle",
+      "chicken-farm",
+      "idle-hotel-empire-tycoon"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "requestBody": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "shooting"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-shooting-page-0.json",
+    "fetchedAt": "2026-11-07T14:26:28.673189+00:00",
+    "returnedCount": 100,
+    "totalCount": 236
+  },
+  {
+    "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "requestBody": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "simulation"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-simulation-page-0.json",
+    "fetchedAt": "2026-11-07T14:26:28.673189+00:00",
+    "returnedCount": 100,
+    "totalCount": 385
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "adventure"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-adventure-page-0.json",
+    "retrievedAt": "2026-11-07T14:33:05.249039+00:00",
+    "returnedGames": 100,
+    "totalCount": 296,
+    "selectedIds": [
+      "hidden-object-clues-and-mysteries",
+      "hidden-object-street-of-secrets",
+      "hidden-object-my-hotel",
+      "hidden-objects-island",
+      "wild-love",
+      "my-castle-merge--story",
+      "blackriver-mystery-hidden-objects",
+      "the-escape-series-playgama",
+      "detective-max-mystery-the-disappearance-of-mr-winters",
+      "desolate-isle-survival"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "rpg"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-rpg-page-0.json",
+    "retrievedAt": "2026-11-07T14:33:05.183411+00:00",
+    "returnedGames": 78,
+    "totalCount": 78,
+    "selectedIds": [
+      "primal-druid--kingdom-of-animals",
+      "pocket-zone",
+      "minimight-fantasy-rpg",
+      "runic-curse",
+      "heroes-of-the-dungeons-match3-rpg",
+      "arcuz-treasure-hunters",
+      "knight-legend",
+      "duohex",
+      "wander-wild",
+      "battlecross"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "platform"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-platform-page-0.json",
+    "retrievedAt": "2026-11-07T14:33:05.292733+00:00",
+    "returnedGames": 100,
+    "totalCount": 138,
+    "selectedIds": [
+      "mushroom-runners",
+      "bottle-flip",
+      "leap-and-avoid-2",
+      "sketchy-levels",
+      "froggy-hop",
+      "portal-hop",
+      "planet-404-episode-1",
+      "music-note",
+      "cubegate",
+      "swing-hero"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "requestBody": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "action"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-action-page-0.json",
+    "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+    "returnedCount": 100,
+    "totalCount": 488
+  },
+  {
+    "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "requestBody": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "strategy"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-strategy-page-0.json",
+    "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+    "returnedCount": 100,
+    "totalCount": 218
+  },
+  {
+    "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "requestBody": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "multiplayer"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/playgama-public-multiplayer-page-0.json",
+    "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+    "returnedCount": 100,
+    "totalCount": 143
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "backgammon"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-backgammon-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:23.847628+00:00",
+    "returnedGames": 1,
+    "totalCount": 1,
+    "selectedIds": [
+      "backgammon-multiplayer"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "board"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-board-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:23.870117+00:00",
+    "returnedGames": 39,
+    "totalCount": 39,
+    "selectedIds": [
+      "chess-online-multiplayer",
+      "backgammon-multiplayer",
+      "domino-battle",
+      "ludo-legend",
+      "master-checkers-25e9-1",
+      "reversi-classic",
+      "yatzy-82db-1"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "cards"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-cards-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:23.934117+00:00",
+    "returnedGames": 50,
+    "totalCount": 50,
+    "selectedIds": [
+      "4-colors",
+      "solitaire-8-collection"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "checkers"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-checkers-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:23.834117+00:00",
+    "returnedGames": 4,
+    "totalCount": 4,
+    "selectedIds": [
+      "master-checkers-25e9-1"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "chess"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-chess-20261107.json",
+    "retrievedAt": "2026-11-07T14:45:02.301655+00:00",
+    "returnedGames": 11,
+    "totalCount": 11,
+    "selectedIds": [
+      "chess-online-multiplayer"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "decoration"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-decoration-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:29.858131+00:00",
+    "returnedGames": 56,
+    "totalCount": 56,
+    "selectedIds": [
+      "idol-livestream-doll-dress-up",
+      "kiki-world-kawaii-doll-decor",
+      "make-a-dress",
+      "nail-salon",
+      "diy-phone-case-maker",
+      "diamond-painting-by-number"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "drawing"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-drawing-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:30.302132+00:00",
+    "returnedGames": 85,
+    "totalCount": 85,
+    "selectedIds": [
+      "pixel-color-quest",
+      "diamond-painting-by-number",
+      "the-ink-shop--tattoo-art-asmr"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "dress-up"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-dress-up-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:29.866131+00:00",
+    "returnedGames": 48,
+    "totalCount": 48,
+    "selectedIds": [
+      "idol-livestream-doll-dress-up",
+      "make-a-dress",
+      "fashion-week-2025"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "fashion"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-fashion-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:29.866131+00:00",
+    "returnedGames": 57,
+    "totalCount": 57,
+    "selectedIds": [
+      "idol-livestream-doll-dress-up",
+      "kiki-world-kawaii-doll-decor",
+      "make-a-dress",
+      "nail-salon",
+      "fashion-week-2025"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "hair"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-hair-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:35.986145+00:00",
+    "returnedGames": 18,
+    "totalCount": 18,
+    "selectedIds": [
+      "idol-livestream-doll-dress-up",
+      "fashion-week-2025",
+      "hair-salon-3d"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "mahjong"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-mahjong-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:24.434119+00:00",
+    "returnedGames": 32,
+    "totalCount": 32,
+    "selectedIds": [
+      "mahjong-classic"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "make-over"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-make-over-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:29.821663+00:00",
+    "returnedGames": 28,
+    "totalCount": 28,
+    "selectedIds": [],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "make-up"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-make-up-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:29.791751+00:00",
+    "returnedGames": 31,
+    "totalCount": 31,
+    "selectedIds": [
+      "idol-livestream-doll-dress-up",
+      "nail-salon",
+      "fashion-week-2025"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "solitaire"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-solitaire-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:23.886117+00:00",
+    "returnedGames": 23,
+    "totalCount": 23,
+    "selectedIds": [
+      "solitaire-8-collection"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  },
+  {
+    "provider": "Playgama public partner catalog",
+    "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+    "method": "POST",
+    "request": {
+      "pagination": {
+        "limit": 100,
+        "offset": 0
+      },
+      "filters": {
+        "interests": [
+          "tattoo"
+        ]
+      },
+      "sort": {
+        "type": "ranking_default"
+      }
+    },
+    "rawFile": "data/raw/expansion-card-creative-tattoo-20261107.json",
+    "retrievedAt": "2026-11-07T14:48:35.908860+00:00",
+    "returnedGames": 2,
+    "totalCount": 2,
+    "selectedIds": [
+      "the-ink-shop--tattoo-art-asmr"
+    ],
+    "evidenceFields": [
+      "slug",
+      "title",
+      "description",
+      "howToPlayText",
+      "gameURL",
+      "playgamaGameUrl",
+      "images",
+      "genres",
+      "mobileReady",
+      "screenOrientation",
+      "supportedLanguages"
+    ]
+  }
+]

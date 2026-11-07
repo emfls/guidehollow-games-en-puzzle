@@ -38,7 +38,7 @@ function sitemap(selectedEntries) {
 }
 
 await writeFile(resolve(publicDir, 'sitemap.xml'), sitemap(entries));
-await writeFile(resolve(publicDir, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${data.origin}/sitemap.xml\n`);
+await writeFile(resolve(publicDir, 'robots.txt'), data.preview ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n\nSitemap: ${data.origin}/sitemap.xml\n`);
 await writeFile(resolve(publicDir, '.nojekyll'), '');
 await writeFile(resolve(publicDir, 'CNAME'), `${new URL(data.origin).hostname}\n`);
 console.log(`Prepared ${data.locale}-${data.genre} assets and a sitemap for ${entries.length} pages.`);
