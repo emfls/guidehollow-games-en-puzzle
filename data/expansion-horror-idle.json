@@ -1,0 +1,713 @@
+{
+  "games": [
+    {
+      "id": "the-tall-man",
+      "title": "The Tall Man",
+      "embedUrl": "https://playgama.com/export/game/the-tall-man?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/the-tall-man?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/the-tall-man/big_preview/cad21af835d348db83f9aace4ccca043?width=448",
+      "description": "The Tall Man sends you into a dark forest to find nine scattered pages while a supernatural presence closes in. A flashlight reveals trees, deserted structures and abandoned vehicles, but its battery is limited. Your page counter, battery indicator, map and countdown give you different pieces of information to manage at once. Exploration becomes more tense as you gather the remaining pages and narrow the search to places you have not checked.",
+      "instructions": "On a keyboard, move with W, A, S and D, look around with the mouse and hold Shift to run. Use the available light to inspect promising landmarks instead of wandering without a route. Watch the page count to keep track of progress and check your battery before investigating another dark area. Use the map and recognizable structures to distinguish new ground from places already searched, while staying alert for the approaching threat.",
+      "categories": [
+        "horror",
+        "survival",
+        "3d",
+        "adventure"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "animal-clinic-anomaly",
+      "title": "Animal Clinic (Anomaly)",
+      "embedUrl": "https://playgama.com/export/game/animal-clinic-anomaly?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/animal-clinic-anomaly?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/animal-clinic-anomaly/big_preview/f5bac694614c4afa9300229625ac851a?width=448",
+      "description": "Animal Clinic (Anomaly) mixes a veterinary shift with an inspection horror game. Patients arrive needing paperwork, photographs, registration and treatment, while apparently ordinary animals may conceal something wrong. Completing the clinic's work quota requires attention to both the routine and the anomalies interrupting it. Security cameras offer another way to inspect the building, and protecting your character's sanity is part of surviving the shift.",
+      "instructions": "Move with WASD, hold the right mouse button to look around, use E to interact and select inventory items with 1–9. Left-click to use an item or break free during an anomaly attack. Process each patient through the desk, forms, photo, computer and badge before escorting them to a room for tests and treatment. In camera view, Q/E changes cameras and Space or Escape exits. Mobile players use the joystick, look area and labeled action buttons. Check suspicious details before continuing the paperwork.",
+      "categories": [
+        "doctor",
+        "hospital",
+        "animals",
+        "horror"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "abandoned-mansion",
+      "title": "Abandoned Mansion",
+      "embedUrl": "https://playgama.com/export/game/abandoned-mansion?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/abandoned-mansion?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/abandoned-mansion/big-preview/8467785cb4b841fca94e740451c367ea?width=448",
+      "description": "Abandoned Mansion begins with a distress call that draws you into an empty-looking building. Inside, exploration leads to hidden rooms, useful objects, puzzles and hostile creatures. The first-person perspective keeps your attention on what is immediately around each doorway, while multiple levels and enemy types change the challenges ahead. Progress requires finding a route through the mansion and making sense of its objects as you deal with the creatures occupying it.",
+      "instructions": "Use WASD to move, E to interact, C to crouch and Space to jump. Tab opens the inventory, the left mouse button attacks or fires, and R reloads. Examine rooms for items and puzzle clues before leaving a useful area behind. Check what you are carrying when an obstacle needs an object, and keep the attack and reload controls familiar before a confrontation. Revisit suspicious spaces when newly found information gives them a different meaning.",
+      "categories": [
+        "horror",
+        "adventure",
+        "3d",
+        "survival",
+        "scary",
+        "ghost",
+        "escape"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "kk-KZ",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR",
+        "uz-UZ"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "backrooms-exit-protocol-0",
+      "title": "Backrooms: Exit Protocol 0",
+      "embedUrl": "https://playgama.com/export/game/backrooms-exit-protocol-0?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/backrooms-exit-protocol-0?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/89c731c985b64f68aa280815ebb98f77?width=448",
+      "description": "Backrooms: Exit Protocol 0 is an escape-focused horror game set in the maze-like Level 0. Your objective is to locate a keycard, solve the puzzles blocking progress and find an exit while avoiding a monster. Navigation and item use share your attention: a promising corridor may lead toward the next clue, but you still need to remember where to return with anything useful you find.",
+      "instructions": "On desktop, move with WASD or the arrow keys, press Space to jump, Shift to run and C to crouch. E interacts with objects, R drops a carried item, Tab opens the menu and the right mouse button zooms the camera. Mobile controls include a joystick, camera touch area and labeled action buttons. Search methodically for the keycard, note unresolved puzzles and keep a route back to familiar ground. Choose your next move with the monster's presence in mind.",
+      "categories": [
+        "horror",
+        "adventure",
+        "running",
+        "survival",
+        "puzzle",
+        "monster",
+        "escape",
+        "scary"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "last-night",
+      "title": "LAST NIGHT!",
+      "embedUrl": "https://playgama.com/export/game/last-night?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/last-night?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/last-night/big-preview/ecab9c788b4a4c678edaccc4bc9e46ea?width=448",
+      "description": "LAST NIGHT! follows a video creator working toward a Gold Play Button when strange events begin around the computer. An unexpected survey becomes part of a story-driven horror experience with three possible endings. The game presents a directed sequence of events, keeping the focus on the creator's immediate surroundings and what happens next at the PC. Its unsettling premise grows out of an ordinary online ambition being interrupted by something that does not belong.",
+      "instructions": "This catalog version is for desktop play. Use WASD to move and E to interact, then follow the in-game tutorial and the objective presented by the story. Read the instructions that appear during each scene before activating the next object or prompt. Pay attention to changes around the computer and the information the survey presents. Follow the sequence through to an ending; later attempts can be used to explore the other outcomes without assuming the same conclusion is inevitable.",
+      "categories": [
+        "scary",
+        "horror",
+        "story",
+        "keyboard",
+        "adventure"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "room-45",
+      "title": "Room 45",
+      "embedUrl": "https://playgama.com/export/game/room-45?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/room-45?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/room-45/big-preview/8a694b0540be439ba50c8429c2204d22?width=448",
+      "description": "Room 45 places you behind a locked door with a room full of possible clues and no guiding tutorial. Its horror comes from examining a confined space while trying to understand what happened there. Objects may matter to the puzzles, but identifying a clue is only the first step: you still need to connect it with the other information in the room. The escape goal gives your investigation a clear direction as the pressure increases.",
+      "instructions": "Press E or use the left mouse button to interact. X closes an interaction and C crouches. Work through the room carefully, looking at objects from the views available to you and noting details that might relate to the locked exit. Compare new clues with what you have already inspected before repeating an action. When a detail remains unexplained, return to it after finding more information. The publisher lists this version for desktop devices.",
+      "categories": [
+        "brain",
+        "escape",
+        "hidden-object",
+        "horror"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "unfamiliar-object",
+      "title": "Unfamiliar Object",
+      "embedUrl": "https://playgama.com/export/game/unfamiliar-object?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/unfamiliar-object?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/unfamiliar-object/big_preview/388ffcd429c64f14aa2411b628d3abb6?width=448",
+      "description": "Unfamiliar Object turns a quiet office corridor into a first-person anomaly inspection. Each shift asks you to identify something that does not belong, photograph the evidence and deliver it by fax before the procedure becomes dangerous. The rules change between shifts, so familiarity with the office is useful only when combined with careful reading. A convincing-looking object can still be the wrong report, and entering the wrong room after taking a photograph has consequences.",
+      "instructions": "Click to enter mouse look, move with WASD or the arrow keys and use the mouse to inspect the corridor. Space raises or lowers the camera. With the camera raised, aim at an outlined object and left-click to photograph it. Take the evidence to the correct highlighted fax machine and left-click to submit it before time runs out. Follow the current rules, avoid reporting the wrong object and do not re-enter a photographed room.",
+      "categories": [
+        "hidden-object",
+        "horror",
+        "3d",
+        "adventure",
+        "scary"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "pulse-of-fear",
+      "title": "Pulse Of Fear",
+      "embedUrl": "https://playgama.com/export/game/pulse-of-fear?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/pulse-of-fear?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/pulse-of-fear/big-preview/50384e4be78243a7be92d4d7830e422d?width=448",
+      "description": "Pulse Of Fear is an escape horror game built around restoring power in an abandoned location. You search for batteries, fuses, keys and healing items while trying to bring generators and other systems back into service. The eventual goal involves starting an elevator and finding a way out. Light helps you inspect the building, but surviving also means recognizing when to stop investigating and hide from the creatures inside.",
+      "instructions": "Move with WASD, look with the mouse, run with Shift and interact with E. F operates the flashlight, Q drops an item, 1–5 selects inventory slots and Tab pauses. On mobile, use the joystick, look area and corresponding action buttons. Match useful supplies with the systems that need them, including fuse panels and generators. Keep track of flashlight batteries and nearby hiding places; beds and lockers can shelter you when a monster interrupts the search.",
+      "categories": [
+        "horror",
+        "adventure",
+        "survival",
+        "scary",
+        "ghost",
+        "3d",
+        "rpg"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "tall-grass",
+      "title": "Tall Grass",
+      "embedUrl": "https://playgama.com/export/game/tall-grass?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/tall-grass?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/tall-grass/big_preview/4e8b2da1c3d14636b6cd47257c71c913?width=448",
+      "description": "Tall Grass is a turn-based horror exploration game in which each patch of vegetation can conceal a reward or a monster. Cleared tiles show how many hidden monsters occupy the eight surrounding spaces, turning the field into a deduction puzzle. A gate can open before everything has been searched, leaving you to decide whether to leave safely or continue gathering shards and upgrades before the Pumpking awakens. Changing weather adds another condition to read each day.",
+      "instructions": "Move with WASD or the arrow keys; on mobile, tap a direction or swipe. Enter grass to cut it and step into an awakened monster to attack. Compare nearby numbers before choosing an uncertain tile, and weigh further exploration against taking the open gate. Nothing advances until you move. Choose a boon with 1/2 or left/right, pause with P, mute with M and start or restart with Enter or Space.",
+      "categories": [
+        "horror"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "escape-from-the-crypt",
+      "title": "Escape From The Crypt",
+      "embedUrl": "https://playgama.com/export/game/escape-from-the-crypt?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/escape-from-the-crypt?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/escape-from-the-crypt/big-preview/53d97379ec814d80967266ea810d22e7?width=448",
+      "description": "Escape From The Crypt is a room-by-room escape puzzle with necromancers pursuing your character. The enemies move faster than you, making the placement of obstacles central to survival. Their weakness is that they do not avoid those obstacles intelligently. A successful route uses the layout to lead a pursuer into a dead end while preserving a path toward the next room. The challenge is therefore to read both your own route and the route you are encouraging the enemy to take.",
+      "instructions": "On desktop, move with the arrow keys. Backspace undoes a move and H requests a hint; mobile players use the on-screen directional pad and action buttons. Inspect the room's blocked spaces before committing to a route. Look for positions that draw a necromancer toward an obstruction, then plan how to continue past it. Use undo to reconsider a poor move and a hint when the useful route remains unclear.",
+      "categories": [
+        "adventure",
+        "escape",
+        "maze",
+        "mobile",
+        "horror"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "nl-NL",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "id-ID",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "th-TH",
+        "tr-TR",
+        "uk-UA",
+        "vi-VN"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "my-arcade-center",
+      "title": "My Arcade Center",
+      "embedUrl": "https://playgama.com/export/game/my-arcade-center?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/my-arcade-center?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/my-arcade-center/big_preview/b20cdd7c5494467f9a54fccccd2a61ba?width=448",
+      "description": "My Arcade Center combines an idle business progression with hands-on arcade management. Begin with a small game room, place machines and expand into additional areas as the business grows. A day-and-night cycle separates earning from upgrades, while staff and coin bots help with the growing workload. Layout choices, machine improvements and customer behavior all contribute to the rhythm of running the arcade. Freeloaders, vandals and other troublesome visitors give you things to handle beyond simply adding more machines.",
+      "instructions": "Move around with WASD or the arrow keys, or drag with the left mouse button. On a touchscreen, hold and drag your finger to move. Collect the arcade's earnings, attend to customers and keep the premises in order. Reinvest in equipment, additional floor space and useful help as those options become available. Review how the layout supports your current machines before expanding, and use the upgrade phase to prepare the business for its next earning period.",
+      "categories": [
+        "management",
+        "idle",
+        "tycoon",
+        "arcade",
+        "simulation"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-game-dev-simulator",
+      "title": "Idle Game Dev Simulator",
+      "embedUrl": "https://playgama.com/export/game/idle-game-dev-simulator?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-game-dev-simulator?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-game-dev-simulator/big-preview/40ce900d1075451dad0bb74f5eeafc3e?width=448",
+      "description": "Idle Game Dev Simulator puts you in charge of a game studio that starts in a garage. New releases combine a genre, theme and platform, while reviews and ratings provide feedback on what you create. Growing the studio brings hiring, research, improved offices and production upgrades into the same progression. Automation becomes part of developing the business, so the decisions expand from choosing a single game's concept to improving the studio that makes it.",
+      "instructions": "Select the center of the room to open the action menu and begin a development project. Try different genre, theme and platform combinations, then examine the response to each release before planning another. Use the Research tab to unlock additional content and the panel on the right to buy efficiency or production upgrades. Expand the team and workspace as the available options grow, keeping the next release and the studio's longer-term development in view.",
+      "categories": [
+        "simulation",
+        "idle",
+        "management",
+        "clicker",
+        "tycoon"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "id-ID",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-zoo-tycoon",
+      "title": "Idle Zoo Tycoon",
+      "embedUrl": "https://playgama.com/export/game/idle-zoo-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-zoo-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-zoo-tycoon/big-preview/2d7dc8e347e848b3b1ff547927357a25?width=448",
+      "description": "Idle Zoo Tycoon starts with a small wildlife park and builds toward a larger collection of animals and exhibitions. New species attract more visitors, while improved enclosures and additional facilities support the park's growth. The game combines active tapping with automatic income, including earnings while you are away. That leaves you deciding how to use the next collection of coins: improve an existing habitat, introduce another animal or expand the space available for future exhibits.",
+      "instructions": "Tap the zoo to generate income and accelerate your early progress. Spend the in-game money on animals, exhibitions and enclosure upgrades, then watch how the expanded collection supports further income. As the park grows, consider staff and other improvements alongside new species. Review the options you can currently afford before committing your coins, and use later earnings to develop the next part of the park. Continue expanding the zoo and improving the exhibits already open to visitors.",
+      "categories": [
+        "idle",
+        "tycoon",
+        "management",
+        "simulation",
+        "animals"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-supermarket-tycoon",
+      "title": "Idle Supermarket Tycoon",
+      "embedUrl": "https://playgama.com/export/game/idle-supermarket-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-supermarket-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-supermarket-tycoon/big-preview/c341d0a8566f49a89546970826943d3d?width=448",
+      "description": "Idle Supermarket Tycoon places a shopping mall under your management. Growth comes from opening shops, furnishing them and improving the building, while serving visitors earns both money and reputation. Delivery vehicles add another source of income, and customer priorities give you another way to organize the mall. The business also needs attention between expansions: corridor facilities such as vending machines and trash cans can become clogged and require checking.",
+      "instructions": "Use the left mouse button to operate the interface and the plus or minus keys to adjust the camera size. Open and improve shops, assign priority customers and distribute reputation points among visitors. Reinvest earnings in the mall or delivery vehicles according to the options available. Check the corridors as you expand, and consult the mission list when you need a concrete next objective. Completing missions provides rewards that can help finance another stage of development.",
+      "categories": [
+        "simulation",
+        "tycoon",
+        "idle",
+        "shopping",
+        "management"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU",
+        "es-ES",
+        "fr-FR",
+        "pt-PT",
+        "de-DE",
+        "id-ID",
+        "tr-TR",
+        "it-IT"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "ant-colony-idle",
+      "title": "Ant Colony Idle",
+      "embedUrl": "https://playgama.com/export/game/ant-colony-idle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/ant-colony-idle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/ant-colony-idle/big-preview/80d9f7c8df804f8ba6dc4181b5366578?width=448",
+      "description": "Ant Colony Idle turns a small underground nest into an incremental resource-management game. Food gathered through tapping and worker activity funds new ants, food slots and important chambers. Improvements to storage, the nursery and the queen's chamber give the colony more ways to grow. Achievements, cosmetic skins and a prestige system sit alongside that basic loop, letting you decide when to keep expanding the current nest and when to restart with lasting bonuses.",
+      "instructions": "Click or tap the soil to discover food, then use upgrade cards to spend it on workers and nest improvements. Open the relevant tabs for upgrades, prestige, skins, achievements or settings. On desktop, scroll the menus with the mouse wheel or click and drag; on mobile, swipe through the sidebar. Check which chamber or worker improvement supports your next step, and read the prestige option before choosing a reset. Workers can continue gathering while you manage the colony.",
+      "categories": [
+        "idle",
+        "clicker",
+        "simulation"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-train-empire",
+      "title": "Idle Train Empire Tycoon",
+      "embedUrl": "https://playgama.com/export/game/idle-train-empire?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-train-empire?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-train-empire/big-preview/e3802898026944ec8bd00e4beea2ca24?width=448",
+      "description": "Idle Train Empire Tycoon is a railway-station management game built around passengers, trains and the spaces connecting them. Buy and upgrade trains, configure their routes and open more platforms as the station develops. Waiting halls and other facilities are part of the business, while technology points let you improve both the station and its vehicles. New destinations broaden the decisions beyond a single departure, giving you more routes to consider as your train collection grows.",
+      "instructions": "Use the left mouse button to interact with the interface and the plus or minus keys to adjust the camera size. Reinvest ticket income in trains, facilities or access to additional platforms. Review routes as new destinations open, and allocate technology points to the improvements you need next. Daily and regular tasks offer specific objectives and rewards. Use those objectives to guide expansion while continuing to improve the areas already serving visitors.",
+      "categories": [
+        "tycoon",
+        "idle",
+        "simulation",
+        "management",
+        "train",
+        "clicker"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU",
+        "de-DE",
+        "es-ES",
+        "pt-PT",
+        "it-IT",
+        "fr-FR",
+        "id-ID",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-airport-tycoon",
+      "title": "Idle Airport Tycoon",
+      "embedUrl": "https://playgama.com/export/game/idle-airport-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-airport-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-airport-tycoon/big-preview/cf42eed8120a4f3f9fa4d25809bc4ab1?width=448",
+      "description": "Idle Airport Tycoon begins with a modest airstrip and gives you an airport to develop over time. Planes, terminals and new sources of income form the main expansion choices. The appeal is in turning the available improvements into a larger travel hub, deciding which part of the airport to develop as the next options appear. It is a management game centered on building up the operation through repeated upgrades and additions.",
+      "instructions": "Use the left mouse button to interact with the game's interface. The plus and minus keys change the camera size so you can inspect the airport at a more useful scale. Review the plane and terminal improvements currently offered, select an available upgrade and return to the overview to assess your next step. As new revenue opportunities unlock, compare them with improving the facilities you already have. Keep developing the airport through the options shown in its management interface.",
+      "categories": [
+        "simulation",
+        "idle",
+        "tycoon",
+        "management"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "id-ID",
+        "it-IT",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "event-horizon-black-hole-idle",
+      "title": "Event Horizon: Black Hole Idle",
+      "embedUrl": "https://playgama.com/export/game/event-horizon-black-hole-idle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/event-horizon-black-hole-idle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/event-horizon-black-hole-idle/big_preview/2eb8d56db47c44aea43b43cc8bb14399?width=448",
+      "description": "Event Horizon: Black Hole Idle casts you as a growing black hole moving through successive cosmic scales. Absorbed matter supplies mass and energy, which can be spent on an evolution tree covering gravity, the accretion disk, satellites and jets. Larger celestial bodies appear on a timer and break into debris as you approach. A Big Bang reset exchanges the current run for permanent bonuses, while energy can continue accumulating during time away from the game.",
+      "instructions": "Drag or swipe to move the black hole, or use WASD or the arrow keys on desktop. Approach matter to pull it in, and collect the fragments left when larger bodies break apart. Open Evolution to improve pull radius, income and movement speed. The round button fires jets, while scrolling or pinching changes the zoom. Before choosing Big Bang, compare the permanent benefit with continuing your current growth so the reset supports your next run.",
+      "categories": [
+        "idle",
+        "clicker",
+        "3d",
+        "space",
+        "simulation",
+        "arcade"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "chicken-farm",
+      "title": "Chicken Farm",
+      "embedUrl": "https://playgama.com/export/game/chicken-farm?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/chicken-farm?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/chicken-farm/big_preview/6c26c41595cd4edcabdfc576ec25cf20?width=448",
+      "description": "Chicken Farm combines automatic egg production with a merge-based collection of chickens. Buy birds, place them on the farm and gather the eggs they lay to earn in-game money. Matching chickens can be merged into rarer, more valuable breeds, giving you a second way to develop production besides buying more birds. Coop improvements and farm expansion add further progression, and the chickens continue laying while you are offline.",
+      "instructions": "On desktop, use WASD to move and the mouse to control the camera. Buy chickens through the game's interface and place them on the farm, then collect their eggs and exchange them for money. Reinvest the proceeds in more chickens or the upgrades currently available. Look for identical birds that can be merged and consider whether a better breed or additional production fits your next goal. Keep upgrading the farm as new features unlock, checking both the flock and the space supporting it.",
+      "categories": [
+        "tycoon",
+        "idle",
+        "merge",
+        "farm",
+        "3d",
+        "clicker",
+        "management"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "idle-hotel-empire-tycoon",
+      "title": "Idle Hotel Empire Tycoon",
+      "embedUrl": "https://playgama.com/export/game/idle-hotel-empire-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/idle-hotel-empire-tycoon?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/idle-hotel-empire-tycoon/big-preview/4cfda7cb5fb3446f91e64d248d9e74d2?width=448",
+      "description": "Idle Hotel Empire Tycoon gives you a small hotel to expand through rooms, food service and leisure facilities. Open restaurants, cafes, halls or other available areas, improve the building and hire staff to look after rooms. Parking and presentation also form part of the hotel's development. Income from visitors can be reinvested in the operation, while active tapping offers a way to shorten service times when you want to take a more hands-on role.",
+      "instructions": "Use the left mouse button to operate the management interface; the main screen provides access to the core mechanics. Open an available room or facility, improve existing areas and hire staff as the hotel grows. Tap the progress bars above reception and cashier desks to speed their service. Check the next available expansion alongside improvements to the facilities already running, then direct your in-game earnings toward the option that supports your current development goal.",
+      "categories": [
+        "idle",
+        "tycoon",
+        "management"
+      ],
+      "platforms": [
+        "Desktop",
+        "Android",
+        "iOS"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "id-ID",
+        "pt-PT",
+        "ru-RU"
+      ],
+      "translations": {}
+    }
+  ],
+  "selections": {
+    "horror": [
+      "the-tall-man",
+      "animal-clinic-anomaly",
+      "abandoned-mansion",
+      "backrooms-exit-protocol-0",
+      "last-night",
+      "room-45",
+      "unfamiliar-object",
+      "pulse-of-fear",
+      "tall-grass",
+      "escape-from-the-crypt"
+    ],
+    "idle": [
+      "my-arcade-center",
+      "idle-game-dev-simulator",
+      "idle-zoo-tycoon",
+      "idle-supermarket-tycoon",
+      "ant-colony-idle",
+      "idle-train-empire",
+      "idle-airport-tycoon",
+      "event-horizon-black-hole-idle",
+      "chicken-farm",
+      "idle-hotel-empire-tycoon"
+    ]
+  },
+  "sources": [
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "horror"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-horror-page-0.json",
+      "retrievedAt": "2026-11-07T14:26:33.248423+00:00",
+      "returnedGames": 66,
+      "totalCount": 66,
+      "selectedIds": [
+        "the-tall-man",
+        "animal-clinic-anomaly",
+        "abandoned-mansion",
+        "backrooms-exit-protocol-0",
+        "last-night",
+        "room-45",
+        "unfamiliar-object",
+        "pulse-of-fear",
+        "tall-grass",
+        "escape-from-the-crypt"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    },
+    {
+      "provider": "Playgama public partner catalog",
+      "endpoint": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "request": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "idle"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-idle-page-0.json",
+      "retrievedAt": "2026-11-07T14:26:33.031152+00:00",
+      "returnedGames": 100,
+      "totalCount": 212,
+      "selectedIds": [
+        "my-arcade-center",
+        "idle-game-dev-simulator",
+        "idle-zoo-tycoon",
+        "idle-supermarket-tycoon",
+        "ant-colony-idle",
+        "idle-train-empire",
+        "idle-airport-tycoon",
+        "event-horizon-black-hole-idle",
+        "chicken-farm",
+        "idle-hotel-empire-tycoon"
+      ],
+      "evidenceFields": [
+        "slug",
+        "title",
+        "description",
+        "howToPlayText",
+        "gameURL",
+        "playgamaGameUrl",
+        "images",
+        "genres",
+        "mobileReady",
+        "screenOrientation",
+        "supportedLanguages"
+      ]
+    }
+  ]
+}

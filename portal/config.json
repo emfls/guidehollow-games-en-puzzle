@@ -1,0 +1,9 @@
+{
+  "origin": "https://games.guidehollow.com",
+  "pageSize": 24,
+  "indexNowKey": "62d5a61df14c4cc4a3544c9714e60863",
+  "minimumGuideCharacters": 80,
+  "minimumIndexableCollectionGames": 6,
+  "hosting": "cloudflare-pages-free",
+  "deploymentReady": false
+}

@@ -23,6 +23,9 @@ for (const entry of entries) {
   }
   if (!/<title>[^<]+<\/title>/.test(html)) failures.push(`Missing title: ${entry.file}`);
   if (!/<meta\b[^>]*name=["']description["'][^>]*>/.test(html)) failures.push(`Missing description: ${entry.file}`);
+  const robotsTag = [...html.matchAll(/<meta\b[^>]*>/g)].find(([tag]) => /name=["']robots["']/.test(tag))?.[0] || '';
+  if (data.preview && !robotsTag.includes('noindex')) failures.push(`Preview page is not marked noindex: ${entry.file}`);
+  if (!data.preview && robotsTag.includes('noindex')) failures.push(`Production page is unexpectedly noindex: ${entry.file}`);
   if (/<iframe\b/i.test(html)) failures.push(`Game iframe loads before the Play action: ${entry.file}`);
   if (entry.type === 'game') {
     for (const key of ['embedUrl', 'affiliateUrl']) {
@@ -37,6 +40,9 @@ for (const file of ['sitemap.xml', 'robots.txt', '404.html', 'assets/site.css', 
   catch { failures.push(`Missing deployment file: ${file}`); }
 }
 const sitemap = await readFile(resolve(data.outDir, 'sitemap.xml'), 'utf8').catch(() => '');
+const robots = await readFile(resolve(data.outDir, 'robots.txt'), 'utf8').catch(() => '');
+if (data.preview && !/^Disallow: \/$/m.test(robots)) failures.push('Preview robots.txt must disallow crawling.');
+if (!data.preview && /^Disallow: \/$/m.test(robots)) failures.push('Production robots.txt blocks the whole site.');
 const count = [...sitemap.matchAll(/<loc>/g)].length;
 if (count !== entries.length) failures.push(`Sitemap has ${count} URLs; expected ${entries.length}.`);
 for (const site of data.sites) {

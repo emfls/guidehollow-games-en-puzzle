@@ -1,8 +1,7 @@
-name: Deploy Astro site to GitHub Pages
+# The unified branch uses Cloudflare Pages. Merge only after the new host is verified.
+name: Legacy genre Pages — manual rollback only
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -33,7 +32,7 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
       - name: Build and verify static Astro pages
-        run: npm run build
+        run: npm run build:legacy
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
@@ -58,4 +57,4 @@ jobs:
       - name: Notify Naver through IndexNow
         id: indexnow
         continue-on-error: true
-        run: npm run indexnow
+        run: npm run indexnow:legacy

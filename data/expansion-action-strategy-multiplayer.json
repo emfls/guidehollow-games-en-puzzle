@@ -1,0 +1,968 @@
+{
+  "games": [
+    {
+      "id": "stickman-kombat-2d",
+      "title": "Stickman Kombat 2D",
+      "embedUrl": "https://stickmankombat.io/export?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/stickman-kombat-2d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/stickman-kombat-2d/big_preview/4b027b6071e2495aad3ac02403e35a1a?width=448",
+      "description": "Stickman Kombat 2D turns a simple stick figure into a fighter with regular attacks, specials, blocks and aerial strikes. Its battles reward learning how those moves connect: a timed follow-up can extend a combo, while stamina limits how freely you keep attacking. Earn coins from victories to unlock additional fighters, or share the controls with a second player for local matches. Breaking out of an opponent's combination and finding a safe opening are both part of the fight.",
+      "instructions": "In solo play, use WASD to move, J for an attack and K for a special. Press S and J together for an uppercut, hold S to block, or combine a backward direction with K for another special. Try jumping behind your opponent before striking. Watch stamina and practice a short combo before adding more hits. Local two-player mode uses separate keyboard layouts, so check each player's controls before starting.",
+      "categories": [
+        "fighting",
+        "stickman",
+        "boys",
+        "skill",
+        "action"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "epic-sword-battle-fight-in-the-ragdoll-arena",
+      "title": "Epic Sword Battle! Fight in the Ragdoll Arena!",
+      "embedUrl": "https://playgama.com/export/game/epic-sword-battle-fight-in-the-ragdoll-arena?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/epic-sword-battle-fight-in-the-ragdoll-arena?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/epic-sword-battle-fight-in-the-ragdoll-arena/big_preview/cd9b92eab74043d293dfbbba8d4bcfd2?width=448",
+      "description": "Epic Sword Battle: Fight in the Ragdoll Arena puts sword-wielding fighters into physical duels where movement shapes each attack. Knights and gladiators face different opponents across a succession of arenas, and the ragdoll reactions give exchanges an unpredictable appearance. The objective stays direct: win the duel while dealing with the other fighter's swings. Progress brings more battles and swords to try, with a leaderboard providing a way to compare results beyond an individual encounter.",
+      "instructions": "On a computer, hold the left mouse button and move the pointer to guide your fighter and swing the weapon. On a phone or tablet, slide a finger across the screen to move and strike. Start with controlled movements to see how the sword follows your input. Keep watching the opponent's position as you attack, and adjust your motion when their weapon comes toward you. Winning the current duel is the route to the next opponent.",
+      "categories": [
+        "action",
+        "fighting",
+        "ragdoll",
+        "mobile",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "dogs-vs-aliens",
+      "title": "Dogs vs Aliens",
+      "embedUrl": "https://playgama.com/export/game/dogs-vs-aliens?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/dogs-vs-aliens?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/dogs-vs-aliens/big_preview/6e7a1abac45742368121424df5194b45?width=448",
+      "description": "Dogs vs Aliens follows a rescue campaign after extraterrestrial invaders kidnap the pets. Lead a growing group of dogs through locations such as a beach, park, city square and forest, gathering resources and freeing the animals along the way. New breeds, upgrades and evolutions develop your canine team as quests lead to further territories and boss encounters. Combat happens automatically at close range, so moving your dogs into position is central to the action.",
+      "instructions": "Use WASD or the mouse to move on desktop; on a touchscreen, guide the dogs with a finger. Approach an enemy to start attacking, then bring defeated enemies back to the base as instructed. Collect the resources needed for upgrades and continue the rescue objectives to open more of the map. Since attacks trigger near opponents, pay attention to where you are leading the group. Follow the quests toward the remaining captive pets and the alien bosses.",
+      "categories": [
+        "dog",
+        "pve",
+        "action"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "draw-action",
+      "title": "Draw Action",
+      "embedUrl": "https://playgama.com/export/game/draw-action?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/draw-action?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/draw-action/big_preview/05dfa73eb3404a70a03403ff7951aebf?width=448",
+      "description": "Draw Action makes the path of your gesture part of the fighting system. Instead of choosing from a row of fixed attack buttons, you draw a movement for the blue fighter's arm or leg and watch the resulting strike. The goal is to defeat every opponent, either by exhausting their health or by sending them off the platform into the water. Later encounters introduce more demanding opposition, while stat upgrades and different attack patterns give you ways to change your approach.",
+      "instructions": "Tap an arm or leg on the blue character, then draw the pattern you want that limb to follow. Try different shapes to learn which movements produce useful strikes against the enemy in front of you. Watch both the opponent's health and their distance from the edge. A knockback can finish a fight even when health remains. Upgrade your fighter's stats as you progress and build combinations that suit the next group of enemies.",
+      "categories": [
+        "drawing",
+        "action",
+        "fighting",
+        "stickman"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "ragdoll-battle-royale-throw-down-the-enemy",
+      "title": "Ragdoll Battle Royale! Throw Down the Enemy!",
+      "embedUrl": "https://playgama.com/export/game/ragdoll-battle-royale-throw-down-the-enemy?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/ragdoll-battle-royale-throw-down-the-enemy?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/ragdoll-battle-royale-throw-down-the-enemy/big-preview/6ee238ff735d40bba88e5e40c87478e8?width=448",
+      "description": "Ragdoll Battle Royale: Throw Down the Enemy is a compact arena contest built around pushing opponents off a raised platform. Flexible bodies and physical collisions turn a direct shove into a struggle for position. Your task is to remain on the arena after the other fighters have fallen, so moving safely matters as much as making contact. Short levels keep the focus on each encounter, and a leaderboard records results for players who want another target to pursue.",
+      "instructions": "On desktop, hold the left mouse button and move the mouse to control your character. On mobile, use the virtual joystick with your finger. Move toward an opponent to engage them and try to send them over the boundary without following them off it. Keep checking the nearest edge whenever a collision changes your position. Watch the surrounding fighters before committing to a push, then reposition and continue until you are the last one standing.",
+      "categories": [
+        "ragdoll",
+        "battle-royale",
+        "action",
+        "3d"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "crumple-rumble",
+      "title": "Crumple Rumble",
+      "embedUrl": "https://playgama.com/export/game/crumple-rumble?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/crumple-rumble?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/crumple-rumble/big_preview/7b40578322f7400dbb7e7b6c238df837?width=448",
+      "description": "Crumple Rumble stages stickman fights on notebook paper, with doodled fighters, improvised weapons and finishing animations that fold or flatten a defeated rival. Choose from five characters and work through an arcade ladder, try the daily challenge, or keep fighting in survival mode. A local two-player option lets two people share the match. Pencils, staffs and pipes add variety to the exchanges, while a power bar builds toward a special move.",
+      "instructions": "For the standard desktop layout, move with A/D or the arrow keys, jump with W, Up or Space, and jump again in the air for a double jump. J or Z punches, K or X kicks, and L or S blocks. Press Shift to dash and I when the power bar is full to use the special. Touch controls provide movement and attack buttons. Learn the separate layouts before local play, and use blocks between your combinations.",
+      "categories": [
+        "arcade",
+        "action",
+        "fighting",
+        "stickman",
+        "two-player",
+        "funny",
+        "1v1"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "attack--dash",
+      "title": "Attack & Dash",
+      "embedUrl": "https://playgama.com/export/game/attack--dash?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/attack--dash?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/attack-dash/big_preview/9406a69ea8914c008130aa61229b0f7d?width=448",
+      "description": "Attack & Dash follows a stickman ninja through compact arenas of enemies and obstacles. Each dash combines movement with a sword attack, so choosing a direction determines both what you hit and where you finish. Clear the opponents and reach the end of the arena while avoiding the hazards placed along the route. The short stages make it easy to focus on one sequence of moves at a time, with positioning becoming more demanding as the layouts develop.",
+      "instructions": "On desktop, hold the left mouse button, point in the direction you want to travel, and release to dash. On a touchscreen, swipe in the desired direction. Look along the entire route before releasing your move: you need a useful attack path and a safe destination. Aim to connect your dashes through the remaining enemies without steering into an obstacle. If a direction leaves the ninja exposed, reassess the next line before making another attack.",
+      "categories": [
+        "action",
+        "stickman",
+        "ninja",
+        "ragdoll",
+        "physics"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "frogtress",
+      "title": "Frogtress",
+      "embedUrl": "https://playgama.com/export/game/frogtress?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/frogtress?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/7b265e9aa7fa4613b5ad3eb64ced100d?width=448",
+      "description": "Frogtress turns a frog's pond into a survival arena filled with incoming bugs. Automatic attacks keep the frog fighting, while your taps and croaks add direct control during each wave. Between waves, choose mutations that change the build; particular groups of four unlock fusions. The campaign moves through different ponds and boss encounters, with a rebirth skill tree offering another layer of progression. Clearing the boss at wave 30 purifies a pond before the run pushes deeper.",
+      "instructions": "Click or tap a bug for an immediate lick. When the frog's belly fills, use the CROAK button or press Space to release the blast. After a wave, choose one of three mutations with the mouse or keys 1–3. Read how each option fits the upgrades already selected, especially when working toward a fusion. Keep an eye on the belly meter so the croak is ready when needed, and press P if you need to pause.",
+      "categories": [
+        "action",
+        "survival",
+        "skill",
+        "arcade",
+        "monster",
+        "mouse"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "food-run-and-battle",
+      "title": "Food: Run and Battle",
+      "embedUrl": "https://playgama.com/export/game/food-run-and-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/food-run-and-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/food-run-and-battle/big_preview/014c3c6f6a404070bca35231acd9ef81?width=448",
+      "description": "Food Run and Battle combines a lane-based collecting run with a confrontation at the finish. Guide your group along the course, gather food to increase its strength, and avoid the traps that threaten your progress. The reserve you bring to the final clash matters, giving the collection phase a clear purpose beyond reaching the end. Each course asks you to balance the food available along the route against the obstacles between your team and the finish line.",
+      "instructions": "Move with WASD or the arrow keys on a computer, or hold the left mouse button and move the pointer. On mobile, swipe left and right to change position. Steer toward food while watching the next trap before committing to a lane. Aim to arrive at the final battle with as much collected food as you can preserve. Treat the run and the closing fight as connected stages: the route you choose prepares your team for the enemies ahead.",
+      "categories": [
+        "arcade",
+        "action",
+        "running",
+        "3d",
+        "runner"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "tumble-tower-survival",
+      "title": "Tumble Tower Survival",
+      "embedUrl": "https://playgama.com/export/game/tumble-tower-survival?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/tumble-tower-survival?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/tumble-tower-survival/big_preview/f8d21da4527e42ce97090916c5dfd3df?width=448",
+      "description": "Tumble Tower Survival asks you to stay on a giant stack of wooden blocks while disasters shift and topple the structure. The tower keeps changing beneath the characters, so a route that looked safe can suddenly become unstable. Falling into the water eliminates a contestant; the goal is to be the last one still on the tower. Power-ups offer help during the chaos, while earned points lead to levels, hats and color options for your character.",
+      "instructions": "Use WASD or the arrow keys to move and Space to jump or climb. Click into the game to control the camera with the mouse, then use the wheel to adjust the zoom. On mobile, drag the left side to move, drag the right side to look, pinch to zoom and use the jump button. Watch for moving blocks and open gaps before jumping. P or Escape opens the pause controls on desktop.",
+      "categories": [
+        "obby",
+        "arcade",
+        "action",
+        "3d",
+        "funny",
+        "battle-royale",
+        "physics",
+        "survival"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "aod--art-of-defense",
+      "title": "AOD - Art Of Defense",
+      "embedUrl": "https://playgama.com/export/game/aod--art-of-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/aod--art-of-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/aod--art-of-defense/big_preview/748d6b91ce3c4a309fd6df323115b434?width=448",
+      "description": "AOD - Art Of Defense puts you in charge of a defensive squad in a post-apocalyptic campaign. Build a network of towers to stop an enemy force pursuing the lost Project Inola, with battles moving from small settlements to larger cities. Tanks, miniguns and anti-aircraft weapons sit alongside heroes and heavy support attacks. Tower cards and upgrades shape your defenses, while escape, fog and survival modes change the conditions under which you must protect the base.",
+      "instructions": "Use the left mouse button to place a tower. Adjust the view with the scroll wheel or a pinch gesture when using a touchpad. Build your defenses around the approaching threat, upgrade the towers you rely on and bring heroes into the fight. Powerful attacks such as ballistic barrages and satellite strikes provide further options against difficult enemies. As the campaign introduces stronger forces and bosses, review both your tower upgrades and the abilities available to support them.",
+      "categories": [
+        "cool-games",
+        "tower-defense",
+        "strategy",
+        "mobile",
+        "popular",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "es-ES",
+        "ja-JP",
+        "it-IT",
+        "fr-FR",
+        "pt-PT",
+        "ar-EG",
+        "id-ID",
+        "de-DE",
+        "ru-RU",
+        "zh-CN",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "merge-elementals-castle-defense",
+      "title": "Merge Elementals: Castle Defense",
+      "embedUrl": "https://playgama.com/export/game/merge-elementals-castle-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/merge-elementals-castle-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/merge-elementals-castle-defense/big_preview/caf4fb608c6448c19877176155051879?width=448",
+      "description": "Merge Elementals: Castle Defense alternates between arranging a magical army and holding off a horde. Matching fighters combine into stronger tiers, with twelve elements offering different attacks, slows and area effects. Each world contains ten waves ending in a boss, and your army and gold continue into the next biome. A limited grid makes every purchase and merge matter. Between encounters, upgrade your magic and choose three spells to take into battle.",
+      "instructions": "Drag two elementals of the same type and tier together to merge them. Gold buys first-tier fighters; higher tiers come from combining them. Rearrange the lineup before pressing Start Wave, because merging is locked during combat. The fighters attack automatically, leaving you to time your spells and protect the wall. Defeated enemies drop gold for the next preparation phase. Use the break between waves to review the space available, improve the army and prepare for the world's boss.",
+      "categories": [
+        "merge",
+        "strategy",
+        "tower-defense",
+        "magic"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "kingdom-defender-tower-defense",
+      "title": "Kingdom Defender - Tower Defense",
+      "embedUrl": "https://playgama.com/export/game/kingdom-defender-tower-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/kingdom-defender-tower-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/kingdom-defender-tower-defense/big-preview/b4378ab74fc045d28e8a084bcf58890d?width=448",
+      "description": "Kingdom Defender - Tower Defense places your towers between a kingdom and invading fantasy creatures. Orcs, trolls, goblins and undead bring different threats to battles set in forests, mountains and deserts. Special tower upgrades and abilities give you ways to adapt, including fire, freezing effects and reinforcements. Boss encounters and additional difficulty settings extend the defensive challenge. The built-in encyclopedia explains towers and abilities, providing a useful reference when you want to understand an unfamiliar option.",
+      "instructions": "Place towers to stop the incoming enemies and use special abilities while the battle is underway. Your objective is to prevent the attackers from breaking through to the kingdom. Review the available upgrades as the enemy mix changes, and consult the encyclopedia when deciding how a tower or power fits the situation. Keep an eye on the advancing groups before activating a limited opportunity to freeze, burn or reinforce. Boss waves require you to bring those defensive choices together.",
+      "categories": [
+        "tower-defense",
+        "strategy",
+        "pve"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "fleet-merge",
+      "title": "Fleet Merge",
+      "embedUrl": "https://playgama.com/export/game/fleet-merge?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/fleet-merge?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/fleet-merge/big_preview/d03ad32471d24f678223a3b24ed4294c?width=448",
+      "description": "Fleet Merge is a space auto-battler in which your dock also serves as the battle formation. Buy squadrons, combine matching ships and arrange the fleet before it deploys. Line ships, Artillery and Lancers form a counter system, so a stronger formation needs the right matchups as well as higher tiers. The Star Map includes sectors, bosses and giant Arks, while heroes and additional modes introduce defensive battles, convoy raids and challenges against other commanders' fleets.",
+      "instructions": "Tap a ship type to buy it, then drag together two ships of the same type and tier to merge them. Arrange the dock with the front line at the top. Line ships beat Lancers, Lancers beat Artillery, and Artillery beats Line ships. Keep Artillery toward the rear and seek side or rear positions for Lancers. Read the enemy radar before pressing FIGHT; combat then runs automatically. Use credits and cores to upgrade the fleet between encounters.",
+      "categories": [
+        "merge",
+        "strategy",
+        "battleship",
+        "pve",
+        "space"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "ja-JP",
+        "ko-KR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "epic-battle-simulator-2",
+      "title": "Epic Battle Simulator 2",
+      "embedUrl": "https://playgama.com/export/game/epic-battle-simulator-2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/epic-battle-simulator-2?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/epic-battle-simulator-2/big-preview/5c1998558eb34c5aa9d63d8843542aa5?width=448",
+      "description": "Epic Battle Simulator 2 focuses on choosing an army and arranging it before the fighting begins. Work through campaign levels or use custom mode to set up your own battle scenarios. Troop placement and the mix of units form the main strategic decisions, while the resulting encounters use physical collisions and ragdoll effects. Army upgrades provide three levels of development with improved equipment and statistics, giving you another way to change the outcome of a difficult matchup.",
+      "instructions": "Choose your troops and place them on the battlefield with the opposing army in mind. Move the camera with WASD or the arrow keys on desktop; on mobile, touch the lower-left part of the screen and drag. Use the view to inspect the layout before committing to a formation. After a battle, reconsider the units or positions that failed to hold up, then try a revised setup. Custom battles offer room to compare different arrangements outside the campaign sequence.",
+      "categories": [
+        "strategy",
+        "army",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "hex-hamlet",
+      "title": "Hex Hamlet",
+      "embedUrl": "https://playgama.com/export/game/hex-hamlet?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/hex-hamlet?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/f76c710f96bd44648eb6b06f81d02819?width=448",
+      "description": "Hex Hamlet is a village-building strategy game set on wooded hexagonal islands. Turn a settlers' camp into a larger settlement by gathering resources, hiring villagers and placing buildings beside compatible neighbors. Merchant orders, hidden relics and a ship-building goal give each island more to do than simply clearing trees. Different islands introduce conditions such as winter, storms or volcanic activity. Complete the island's three objectives for stars, with Expert variants and a shared Island of the Week offering further challenges.",
+      "instructions": "Move the pointer over the forest edge to chop trees without clicking, or tap a tree on mobile. Hire workers at the town hall and spend wood, food, stone and gold through the building cards. Check neighboring buildings for placement bonuses and click a structure to upgrade it. Drag to move the camera, right-drag or press Q/E to turn, and zoom with the wheel or two fingers. Clear the trees, finish the beach ship and sail onward.",
+      "categories": [
+        "3d",
+        "strategy",
+        "simulation",
+        "cozy",
+        "management"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "es-ES",
+        "pt-BR",
+        "fr-FR",
+        "de-DE",
+        "it-IT",
+        "pl-PL",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "musketeers-gunpowder-vs-steel",
+      "title": "Musketeers Gunpowder vs Steel",
+      "embedUrl": "https://playgama.com/export/game/musketeers-gunpowder-vs-steel?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/musketeers-gunpowder-vs-steel?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/musketeers-gunpowder-vs-steel/big-preview/78dd34b4280e4fa291e3e558c24d23a4?width=448",
+      "description": "Musketeers Gunpowder vs Steel puts you in command of a group of soldiers in a seventeenth-century setting. The battles revolve around issuing movement and targeting orders while controlling the commander directly. You can turn the squad, advance it, halt it or bring it back toward you, so the action gives you more to manage than your own position. A pistol, a horse and a changeable camera view add further tools for directing the fight.",
+      "instructions": "Control the commander's movement with the left mouse button or the joystick. On the keyboard, Q and E turn the squad, W advances it and X moves it backward. Press A to make the troops follow, S to stop them and D to indicate a target. F fires the pistol, V mounts the horse and Space changes the camera view. Practice the movement and stop commands first, then combine them with targeting orders so the unit stays where you intend during an engagement.",
+      "categories": [
+        "strategy",
+        "war",
+        "army",
+        "pve",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "line-control",
+      "title": "Line Control",
+      "embedUrl": "https://playgama.com/export/game/line-control?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/line-control?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/line-control/big-preview/7fdf723a366c44739bc32033d47bce16?width=448",
+      "description": "Line Control turns a map of bases into a contest over routes and reinforcements. Draw connections to send squads into neutral or enemy positions, then use the points you capture to extend your control. Each level changes the balance between quick expansion and protecting the bases you already hold. Numbers displayed at the positions show their fighting strength, making the map a readable tactical problem where the timing and direction of one route can shift the outcome.",
+      "instructions": "Draw a line from one of your bases to another point to dispatch a squad. Your goal is to take every enemy position while keeping your own network secure. Read the numbers before attacking, and capture available neutral points when they offer a useful foothold. Avoid committing all your squads at once if it leaves an important base exposed. Strengthen key positions, then choose the next route according to the remaining opposition and the places that need defending.",
+      "categories": [
+        "difficult",
+        "strategy",
+        "skill",
+        "tower-defense"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "portrait",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "epic-empire-tower-defense",
+      "title": "Epic Empire: Tower Defense",
+      "embedUrl": "https://playgama.com/export/game/epic-empire-tower-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/epic-empire-tower-defense?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/epic-empire-tower-defense/big-preview/e36d9a6a44964f5f8add3f0947fa390d?width=448",
+      "description": "Epic Empire: Tower Defense combines defensive towers with three heroes you can control during the battle. Goblins, ogres and larger bosses advance through locations ranging from icy kingdoms to underground tunnels. Runes and pets support your defenders, while hero development unlocks additional abilities. The game includes campaign levels, challenge content and tournaments; replaying stages at a higher difficulty offers stronger rewards. Gold is used within battles, while rubies contribute to longer-term character upgrades.",
+      "instructions": "Use the left mouse button or tap the screen to interact with the interface. Place towers to hold the route and direct your heroes against the incoming waves, keeping the kingdom protected through the boss encounters. Review how the current heroes, towers, runes and pets work together before increasing the difficulty. If a stage becomes difficult, replay earlier levels to develop the heroes and unlock more abilities. Plan your gold spending for the active battle and your ruby spending for character development.",
+      "categories": [
+        "tower-defense",
+        "strategy",
+        "pve",
+        "monster",
+        "boys"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "animals-battle",
+      "title": "Animals Battle",
+      "embedUrl": "https://playgama.com/export/game/animals-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/animals-battle?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/animals-battle/big_preview/a9dcbe74c72746e0845dd3597087991e?width=448",
+      "description": "Animals Battle puts an army of animal warriors at the center of an island-conquering strategy game. New territories introduce different biomes and increasingly strong opposition, while recruited fighters and upgrades expand the army available to you. Battles depend on an automatically generated food supply that pays for units. Between encounters, coins improve your base and unlock additional creatures, and collected artifact cards provide lasting bonuses across future fights. The campaign links those economic decisions to the next island's defenses.",
+      "instructions": "Use the food produced during combat to summon animal units, then send the growing army against the opposing base. Destroying that base completes the level. Watch the available food before adding more troops so your deployment matches the resources being generated. After a victory, spend earned coins on new units or improved base statistics. Review the artifact cards you collect, since their bonuses continue to apply in later battles. Strengthen the army as each conquered island leads to tougher enemies.",
+      "categories": [
+        "army",
+        "strategy",
+        "animals"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "any",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "traffic-rush-online",
+      "title": "TRAFFIC Rush Online",
+      "embedUrl": "https://playgama.com/export/game/traffic-rush-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/traffic-rush-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/traffic-rush-online/big_preview/8b5c9711e59d49f2a3bde681805443f4?width=448",
+      "description": "TRAFFIC Rush Online combines city driving with a choice of online play, unrestricted Free Ride and a traffic-dodging mode. Invite friends or meet other drivers online, then switch to the other modes when you want to explore or chase a distance record. Driving farther earns money for vehicle improvements and new cars. As you develop the garage, colors, wheels and exterior parts provide customization choices alongside the practical challenge of getting through busy roads without a collision.",
+      "instructions": "Use WASD or the arrow keys to drive on desktop, C to change the camera and Space for the handbrake. Mobile players can use on-screen buttons or a steering wheel, with the control style selected in settings. In Traffic mode, look for a clear lane and control your speed before passing another car. Avoid crashes while extending the distance of your run. Spend earned money on upgrades or another vehicle, and choose online mode when you want to drive with others.",
+      "categories": [
+        "3d",
+        "car",
+        "driving",
+        "racing",
+        "multiplayer",
+        "simulation"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "ragdoll-soccer",
+      "title": "Ragdoll Soccer",
+      "embedUrl": "https://playgama.com/export/game/ragdoll-soccer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/ragdoll-soccer?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/ragdoll-soccer/big_preview/89eea6260df6439e81dac76423b04309?width=448",
+      "description": "Ragdoll Soccer puts a flexible stickman footballer between the ball and the goal. Play alone or challenge a friend in local two-player matches, with the character's loose movements making each attempt to strike the ball part of the challenge. Championship and penalty-shootout modes offer different ways to compete, while boosters and abilities add options during play. The central aim is familiar football scoring, but moving the player like a doll gives the sport a different rhythm.",
+      "instructions": "Control the stickman and make contact with the ball to send it into the opponent's goal. On a computer, the game supports a keyboard layout using WASD and Q/E, as well as mouse or gamepad input. On a phone, use touch controls. Start with a solo match to learn how the player responds before sharing a local game with a friend. Track the ball's position, recover after a mistimed movement and use the available abilities when they suit the situation.",
+      "categories": [
+        "stickman",
+        "two-player",
+        "sports",
+        "penalty",
+        "unity",
+        "boys",
+        "funny",
+        "multiplayer",
+        "ragdoll",
+        "soccer"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "2-player-games-mini-games",
+      "title": "2 Player Games Mini Games",
+      "embedUrl": "https://playgama.com/export/game/2-player-games-mini-games?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/2-player-games-mini-games?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/2-player-games-mini-games/big-preview/16ab24eb2e6a46c8948462fc9d3ace66?width=448",
+      "description": "2 Player Games Mini Games collects small competitive activities for two people sharing a single device. The menu includes tennis, air hockey, curling, billiards and tic-tac-toe, so switching games also changes the skill being tested. Matches use short rounds and score-based rules, while an AI opponent provides a solo option when another player is unavailable. This is local multiplayer on one screen, making the shared controls and each activity's rules the important things to check before a match.",
+      "instructions": "Choose a mini-game from the menu and read the controls shown for both players. Press start, then follow that mode's objective: return the ball, guide the puck or place your marks as appropriate. Aim for the highest score in the round. Use the solo opponent to learn an unfamiliar activity before playing together. When changing games, check the new control instructions again, since the same collection covers several different styles of competition.",
+      "categories": [
+        "two-player",
+        "multiplayer",
+        "mini",
+        "funny",
+        "boys",
+        "sports"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "toy-soccer-cup",
+      "title": "Toy Soccer Cup",
+      "embedUrl": "https://playgama.com/export/game/toy-soccer-cup?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/toy-soccer-cup?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/e7985ecfafd14afa8b415b587ad5900b?width=448",
+      "description": "Toy Soccer Cup plays football with flickable miniature figures on a tabletop pitch. Aim a player toward the ball, release the flick and try to send the shot into the goal before the timer expires. Tournaments and world leagues give you a progression route, while real-time online duels put two players into a direct match. Wins earn coins for new teams and equipment, with kits, balls and pitches available to change the look of the game.",
+      "instructions": "Click and drag one of your toy players on desktop, or touch and drag on mobile. Aim the movement, then release to flick the figure into the ball; no keyboard input is needed. Score more goals than your rival before time runs out. Think about where the ball will go after contact, then adjust the next flick to the new position. Use match rewards to unlock teams and gear, and enter online 1v1 play when you want a direct opponent.",
+      "categories": [
+        "sports",
+        "soccer",
+        "1v1",
+        "two-player",
+        "multiplayer"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "bomb-pong-online",
+      "title": "BOMB PONG: ONLINE",
+      "embedUrl": "https://playgama.com/export/game/bomb-pong-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/bomb-pong-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/bomb-pong-online/big_preview/465e58893c7047f49c40f9d31274e13f?width=448",
+      "description": "BOMB PONG: ONLINE is a timing duel in which the object passed between opponents is a bomb. Return it at the right moment and keep up as the exchanges become more intense. You can practice against bots, face a friend on the same device, create a private online room or enter ranked multiplayer. Those options make it possible to learn the timing alone and then use the same central action in local or online competition, with ranked results contributing to a global leaderboard.",
+      "instructions": "On desktop, press A or click the left mouse button to hit the bomb. In local two-player mode, the first player uses A and the second uses L. On mobile, tap the screen while holding the device in landscape orientation. Watch the bomb approach and time the return instead of pressing continuously. Use bot matches to get comfortable with the rhythm, then choose the room or multiplayer mode that matches how you want to play.",
+      "categories": [
+        "fighting",
+        "arcade",
+        "multiplayer",
+        "two-player",
+        "skill",
+        "1v1"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "bomb-royale-online",
+      "title": "Bomb Royale Online",
+      "embedUrl": "https://playgama.com/export/game/bomb-royale-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/bomb-royale-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/bomb-royale-online/big-preview/0464e9bcfca7458daa4293a27bdfc285?width=448",
+      "description": "Bomb Royale Online sends bear characters into maze-like arenas for explosive player-versus-player survival. Bombs destroy obstacles and threaten nearby opponents, while traps and chain reactions can quickly change which routes are safe. The aim is to outlast the other contestants and become the final survivor. Opening a passage can create an opportunity to attack, but it also changes the space available to everyone else, making the arena layout part of each decision.",
+      "instructions": "Move through the maze and place bombs to break blocks or threaten an opponent's position. Plan an escape route before committing to an explosion, and watch for other bombs that could trigger a chain reaction along it. Use newly cleared paths to reposition, or try to limit an enemy's exits with careful placement. Do not remain beside your own blast area while watching the result. Keep surviving as opponents are eliminated, then use the changing layout to reach the end of the match.",
+      "categories": [
+        "action",
+        "multiplayer",
+        "pvp"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "de-DE",
+        "es-ES",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "snakewar-io",
+      "title": "SnakeWar.io",
+      "embedUrl": "https://playgama.com/export/game/snakewar-io?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/snakewar-io?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/snakewar-io/big-preview/ed287e2fbe844646b62c042f9722b520?width=448",
+      "description": "SnakeWar.io is an online snake arena where collecting fruit increases your length and your score. Other players create both danger and opportunity: a rival that hits your body is eliminated and leaves a large fruit drop behind. Speed boosts help with escapes or attempts to cut off another snake, but they consume length. The match therefore balances steady growth with the risk of close encounters, while a leaderboard tracks the largest competitors and skins change your snake's appearance.",
+      "instructions": "Move the mouse to guide the snake and hold the left mouse button to boost. Eat fruit along your route and collect the drops left by defeated rivals when it is safe to approach. Try to make an opponent's head touch your body while protecting your own path. Use acceleration briefly, since sustained boosting makes your snake smaller. Give larger snakes room until you have space to maneuver, and avoid chasing a tempting fruit pile into a trap.",
+      "categories": [
+        "io",
+        "snake",
+        "multiplayer"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "red--blue-online-build-destroy-fight",
+      "title": "Red & Blue: Online. Build! Destroy! Fight!",
+      "embedUrl": "https://playgama.com/export/game/red--blue-online-build-destroy-fight?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/red--blue-online-build-destroy-fight?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/red--blue-online-build-destroy-fight/big-preview/6d9411125eff4a58b64f11f724fb0159?width=448",
+      "description": "Red & Blue: Online. Build! Destroy! Fight! combines team shooting with a destructible block world. Buildings can collapse when their blocks lose support, letting construction and demolition reshape the battle. Capture the Flag focuses on bringing the enemy flag back to base, Team Deathmatch rewards eliminations, and Sandbox opens up building experiments. Online matchmaking and custom rooms provide ways to enter a session, with fortifications and newly cut passages giving teams more to consider than direct fire.",
+      "instructions": "Use WASD to move, Space to jump and C to crouch. The left mouse button shoots or builds, while the right button aims or digs depending on the selected item. Choose items with 1–5 and reload with R. Press M for the map, J to change the minimap size or Tab for the pause menu. Learn the current mode's objective before fighting, and watch structural supports when digging: removing them can bring disconnected blocks down around the battlefield.",
+      "categories": [
+        "multiplayer",
+        "shooting",
+        "action",
+        "survival",
+        "pvp",
+        "first-person-shooter",
+        "two-player"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "zh-CN",
+        "de-DE",
+        "es-ES",
+        "fr-FR",
+        "hi-IN",
+        "it-IT",
+        "ja-JP",
+        "pl-PL",
+        "pt-PT",
+        "ru-RU",
+        "tr-TR"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "robostrike-3d",
+      "title": "RoboStrike 3D",
+      "embedUrl": "https://playgama.com/export/game/robostrike-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/robostrike-3d?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/preview/cbbd34c0b4494d3cac22e45b9291d321?width=448",
+      "description": "RoboStrike 3D scales everyday places into combat arenas for small robots. Fight through a kitchen, attic, greenhouse or scrapyard in online matches, or practice against bots. Deathmatch asks for the most eliminations, while Batteries and Mega Robot add team objectives: power a cannon to destroy an opposing tower, or charge a giant robot to attack the enemy core. Weapon choices, movement options and garage customization give you ways to prepare your robot for those different roles.",
+      "instructions": "Move with WASD and look with the mouse. Left-click to shoot, right-click to aim, press Space to jump and Shift to sprint. Press C during a sprint to slide, R to reload and 1–3 to switch weapons. E interacts with objects. In Batteries, collect and deliver batteries to your team's base; in Mega Robot, help charge the team's robot. Follow the selected mode's objective, since eliminations alone do not complete every type of match.",
+      "categories": [
+        "action",
+        "3d",
+        "shooting",
+        "multiplayer",
+        "pve",
+        "pvp",
+        "first-person-shooter"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    },
+    {
+      "id": "ragdoll-football-online",
+      "title": "Ragdoll Football Online",
+      "embedUrl": "https://playgama.com/export/game/ragdoll-football-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "affiliateUrl": "https://playgama.com/game/ragdoll-football-online?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92",
+      "thumbnail": "https://static.playgama.com/p-img/pg/ragdoll-football-online/big_preview/8eaf09672de04074a7b97df254d541be?width=448",
+      "description": "Ragdoll Football Online makes each footballer's movement a deliberate push followed by a loose tumble. Practice alone, play one-versus-one or two-versus-two games against bots, or search for an online opponent. The aim remains to score more goals than the other team, but positioning a floppy player requires attention to the strength and direction of every movement. Replays let you revisit the resulting plays, and collectible cards provide changes to the player's kit as you continue.",
+      "instructions": "Select the mode you want, then press on the pitch and drag toward the direction of movement. Release to push the player; a longer drag creates a stronger push. With a keyboard, hold a WASD or arrow key in the desired direction and release it to move. Start with shorter pushes to understand the response before committing to a larger movement. Follow the ball after each tumble, adjust your next direction and create another chance to score.",
+      "categories": [
+        "sports",
+        "soccer",
+        "ragdoll",
+        "multiplayer",
+        "1v1",
+        "funny"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Desktop"
+      ],
+      "orientation": "landscape",
+      "languages": [
+        "en-US",
+        "ru-RU"
+      ],
+      "translations": {}
+    }
+  ],
+  "selections": {
+    "action": [
+      "stickman-kombat-2d",
+      "epic-sword-battle-fight-in-the-ragdoll-arena",
+      "dogs-vs-aliens",
+      "draw-action",
+      "ragdoll-battle-royale-throw-down-the-enemy",
+      "crumple-rumble",
+      "attack--dash",
+      "frogtress",
+      "food-run-and-battle",
+      "tumble-tower-survival"
+    ],
+    "strategy": [
+      "aod--art-of-defense",
+      "merge-elementals-castle-defense",
+      "kingdom-defender-tower-defense",
+      "fleet-merge",
+      "epic-battle-simulator-2",
+      "hex-hamlet",
+      "musketeers-gunpowder-vs-steel",
+      "line-control",
+      "epic-empire-tower-defense",
+      "animals-battle"
+    ],
+    "multiplayer": [
+      "traffic-rush-online",
+      "ragdoll-soccer",
+      "2-player-games-mini-games",
+      "toy-soccer-cup",
+      "bomb-pong-online",
+      "bomb-royale-online",
+      "snakewar-io",
+      "red--blue-online-build-destroy-fight",
+      "robostrike-3d",
+      "ragdoll-football-online"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "requestBody": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "action"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-action-page-0.json",
+      "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+      "returnedCount": 100,
+      "totalCount": 488
+    },
+    {
+      "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "requestBody": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "strategy"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-strategy-page-0.json",
+      "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+      "returnedCount": 100,
+      "totalCount": 218
+    },
+    {
+      "url": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
+      "method": "POST",
+      "requestBody": {
+        "pagination": {
+          "limit": 100,
+          "offset": 0
+        },
+        "filters": {
+          "interests": [
+            "multiplayer"
+          ]
+        },
+        "sort": {
+          "type": "ranking_default"
+        }
+      },
+      "rawFile": "data/raw/playgama-public-multiplayer-page-0.json",
+      "fetchedAt": "2026-11-07T14:32:47.106291+00:00",
+      "returnedCount": 100,
+      "totalCount": 143
+    }
+  ]
+}

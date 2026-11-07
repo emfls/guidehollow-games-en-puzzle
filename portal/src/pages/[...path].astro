@@ -1,0 +1,9 @@
+---
+import { allRoutes } from '../../catalog.mjs';
+import { renderPortal } from '../../render.mjs';
+export function getStaticPaths() {
+  return allRoutes().map(entry => ({ params: { path: entry.path === '/' ? undefined : entry.path.slice(1,-1) }, props: { entry } }));
+}
+const html = renderPortal(Astro.props.entry);
+---
+<Fragment set:html={html} />

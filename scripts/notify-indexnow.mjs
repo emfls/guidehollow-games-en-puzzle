@@ -32,6 +32,7 @@ async function request(url, options = {}) {
 
 async function main() {
   const data = loadBuildData();
+  if (data.preview) throw new Error('Preview builds cannot send IndexNow notifications.');
   const site = data.sites[0];
   const host = new URL(site.baseUrl).hostname;
   const key = site.indexNowKey;

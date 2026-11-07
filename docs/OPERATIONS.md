@@ -1,8 +1,10 @@
+> Historical per-genre rollout record. The current architecture is the single multilingual portal in [PORTAL_DEPLOYMENT.md](PORTAL_DEPLOYMENT.md). No additional genre repositories or DNS records will be created.
+
 # GuideHollow game sites
 
 ## Published scope
 
-The initial release uses the four existing English repositories. No additional repositories or language sites are required for this release.
+The initial release uses the four existing English repositories. The approved expansion is 16 broad English genres in total, not 197 provider category sites. Twelve additional sites are prepared in a separate rollout; see `docs/MAJOR_GENRES.md` and `data/deployment-queue.json`. Their source readiness must not be confused with completed repository, DNS or search registration.
 
 | Genre | Repository | Production address |
 | --- | --- | --- |

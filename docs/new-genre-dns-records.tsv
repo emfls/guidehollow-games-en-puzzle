@@ -1,0 +1,14 @@
+# CANCELLED — historical plan only. Do not apply these twelve records. The unified portal uses one games CNAME.
+Type	Host	Value	TTL
+CNAME	en-horror	emfls.github.io.	600
+CNAME	en-shooting	emfls.github.io.	600
+CNAME	en-simulation	emfls.github.io.	600
+CNAME	en-idle	emfls.github.io.	600
+CNAME	en-action	emfls.github.io.	600
+CNAME	en-adventure	emfls.github.io.	600
+CNAME	en-strategy	emfls.github.io.	600
+CNAME	en-rpg	emfls.github.io.	600
+CNAME	en-platform	emfls.github.io.	600
+CNAME	en-card-board	emfls.github.io.	600
+CNAME	en-multiplayer	emfls.github.io.	600
+CNAME	en-creative	emfls.github.io.	600

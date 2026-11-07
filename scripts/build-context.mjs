@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 // npm and Astro run with the project root as their working directory. Keeping
 // this independent of import.meta.url also works in Astro's bundled renderer.
 export const rootDir = process.cwd();
-export const supportedGenres = ['puzzle', 'racing', 'sports', 'arcade'];
+export const supportedGenres = ['puzzle', 'racing', 'sports', 'arcade', 'action', 'adventure', 'strategy', 'simulation', 'horror', 'shooting', 'rpg', 'platform', 'idle', 'card-board', 'multiplayer', 'creative'];
 export const supportedLocales = ['en', 'ko', 'ja'];
 export const publisherClid = 'p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92';
 
@@ -17,6 +17,8 @@ export function getDeployment() {
   const saved = existsSync(file) ? readJson('deployment.json') : {};
   const genre = process.env.SITE_GENRE || saved.genre || 'puzzle';
   const locale = process.env.SITE_LOCALE || saved.locale || 'en';
+  const stage = process.env.SITE_STAGE || 'production';
+  if (!['production', 'preview'].includes(stage)) throw new Error(`Unsupported SITE_STAGE: ${stage}.`);
   if (!supportedGenres.includes(genre)) {
     throw new Error(`Unsupported SITE_GENRE: ${genre}. Choose ${supportedGenres.join(', ')}.`);
   }
@@ -26,6 +28,7 @@ export function getDeployment() {
   return {
     genre,
     locale,
+    preview: stage === 'preview',
     origin: `https://${locale}-${genre}.guidehollow.com`,
     outDir: resolve(rootDir, process.env.OUTPUT_DIR || 'dist'),
   };
@@ -43,7 +46,7 @@ export function loadBuildData() {
   }
   // Only published/active sites participate in navigation and hreflang links.
   const allSites = configuredSites.filter(site => site.active !== false);
-  const sites = allSites.filter(site => site.genre === deployment.genre && site.locale === deployment.locale);
+  const sites = (deployment.preview ? configuredSites : allSites).filter(site => site.genre === deployment.genre && site.locale === deployment.locale);
   if (sites.length !== 1) {
     throw new Error(`Expected one ${deployment.genre}/${deployment.locale} site in data/sites.json.`);
   }
@@ -67,6 +70,10 @@ export function loadBuildData() {
       if (!gamesById.has(id)) throw new Error(`${site.id} references unknown game ${id}.`);
       if (!/^[a-z0-9-]+$/.test(id)) throw new Error(`Invalid game route slug: ${id}.`);
       const game = gamesById.get(id);
+      const sources = site.sourceGenres?.length ? site.sourceGenres : [site.genre];
+      if (!(game.categories || []).some(category => sources.includes(category))) {
+        throw new Error(`${site.id} includes ${id}, which has none of the site's source genres.`);
+      }
       const nativeLanguages = (game.languages || []).map(language => String(language).replaceAll('_', '-').split('-')[0].toLowerCase());
       if (!nativeLanguages.includes(site.locale)) {
         throw new Error(`${site.id} includes ${id}, which does not list native ${site.locale} support.`);
