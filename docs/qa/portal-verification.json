@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-07T16:06:14.150Z",
+  "outputDirectory": "dist-portal",
+  "status": "passed",
+  "counts": {
+    "games": 2846,
+    "locales": 22,
+    "genres": 16,
+    "routes": 10349,
+    "htmlPagesIncluding404": 10350,
+    "gameRoutes": 8896,
+    "indexablePages": 562,
+    "sourceGames": 2846,
+    "sitemapUrls": 562,
+    "sitemapShards": 23,
+    "checkedHtmlPages": 10350
+  },
+  "localeCounts": {
+    "ar": 135,
+    "az": 34,
+    "de": 586,
+    "en": 2843,
+    "es": 655,
+    "fr": 496,
+    "hi": 106,
+    "id": 220,
+    "it": 367,
+    "ja": 233,
+    "kk": 37,
+    "ko": 165,
+    "nl": 89,
+    "pl": 182,
+    "pt": 477,
+    "ru": 1186,
+    "th": 88,
+    "tr": 542,
+    "uk": 87,
+    "uz": 38,
+    "vi": 130,
+    "zh": 200
+  },
+  "pageCounts": {
+    "total": 10350,
+    "byType": {
+      "404": 1,
+      "selector": 1,
+      "language": 381,
+      "genre": 1005,
+      "about": 22,
+      "privacy": 22,
+      "search": 22,
+      "game": 8896
+    },
+    "byLocale": {
+      "en": 3227,
+      "ar": 165,
+      "az": 54,
+      "de": 676,
+      "es": 754,
+      "fr": 574,
+      "hi": 134,
+      "id": 262,
+      "it": 428,
+      "ja": 273,
+      "kk": 57,
+      "ko": 199,
+      "nl": 114,
+      "pl": 219,
+      "pt": 551,
+      "ru": 1359,
+      "th": 113,
+      "tr": 624,
+      "uk": 112,
+      "uz": 58,
+      "vi": 160,
+      "zh": 237
+    }
+  },
+  "indexableGameCounts": {
+    "total": 194,
+    "byLocale": {
+      "ar": 0,
+      "az": 0,
+      "de": 0,
+      "en": 160,
+      "es": 0,
+      "fr": 0,
+      "hi": 0,
+      "id": 0,
+      "it": 0,
+      "ja": 19,
+      "kk": 0,
+      "ko": 15,
+      "nl": 0,
+      "pl": 0,
+      "pt": 0,
+      "ru": 0,
+      "th": 0,
+      "tr": 0,
+      "uk": 0,
+      "uz": 0,
+      "vi": 0,
+      "zh": 0
+    }
+  },
+  "fileCount": 10403,
+  "bytes": 314746434,
+  "maxFile": {
+    "path": "assets/catalog/en.json",
+    "bytes": 828957
+  },
+  "assets": {
+    "css": [
+      {
+        "path": "assets/static/site-b52d4d3f0d21.css",
+        "bytes": 40192,
+        "sha256": "b52d4d3f0d21e65ab7d6274184018a44b10f6e8b4ca0f62917d0c52235d7559d"
+      }
+    ],
+    "js": [
+      {
+        "path": "assets/static/portal-64e58f7023d5.js",
+        "bytes": 9624,
+        "sha256": "64e58f7023d5549db552272eb7e582972d1ec1bff68cc355f54f720e3f85665c"
+      }
+    ]
+  },
+  "cssBytes": 40192,
+  "jsBytes": 9624,
+  "limits": {
+    "fileCountExclusive": 20000,
+    "singleFileBytes": 26214400
+  },
+  "errors": [],
+  "errorCount": 0,
+  "verificationScope": "Local generated files; no network requests or deployment mutations.",
+  "notVerified": [
+    "Public HTTP status codes, DNS and TLS",
+    "Browser layout and game execution",
+    "Search-engine indexing or submission"
+  ],
+  "preview": false,
+  "origin": "https://games.guidehollow.com",
+  "sourceSnapshot": "2ba4b81eb1e8e6c3515c157a33501c417735f9b7e9e09d757670c44cddedcd4f",
+  "buildId": "2af6cd28ad470a6d8a8b44dbdf25bda8646935c112ba0cc203faa66da7cb9643",
+  "durationMs": 12924,
+  "omittedErrorDetails": 0
+}

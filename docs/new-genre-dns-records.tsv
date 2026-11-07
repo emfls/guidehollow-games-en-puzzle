@@ -1,3 +1,4 @@
+# CANCELLED — historical plan only. Do not apply these twelve records. The unified portal uses one games CNAME.
 Type	Host	Value	TTL
 CNAME	en-horror	emfls.github.io.	600
 CNAME	en-shooting	emfls.github.io.	600

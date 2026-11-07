@@ -1,3 +1,5 @@
+> Historical per-genre rollout record. The current architecture is the single multilingual portal in [PORTAL_DEPLOYMENT.md](PORTAL_DEPLOYMENT.md). No additional genre repositories or DNS records will be created.
+
 # Broad English genre expansion
 
 The approved grouping is **16 broad English game sites**, including the four already published sites. The provider's 197 category links are not 197 deployment targets. Detailed types such as zombies, cars, mahjong, cooking and dress-up stay inside the relevant broad collections.

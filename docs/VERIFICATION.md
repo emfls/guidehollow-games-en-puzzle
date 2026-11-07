@@ -1,3 +1,5 @@
+> Historical per-genre rollout record. The current architecture is the single multilingual portal in [PORTAL_DEPLOYMENT.md](PORTAL_DEPLOYMENT.md). No additional genre repositories or DNS records will be created.
+
 # Verification record — broad English genres
 
 Verified locally on **2026-11-07T15:09:57.341Z**. This record distinguishes source/build verification from public deployment.

@@ -1,0 +1,11 @@
+{
+  "reviewedAt": "2026-11-08",
+  "basis": "Provider descriptions and controls, where category tags omit a broad genre",
+  "games": {
+    "my-town-home-family-playhouse": {"genres": ["simulation", "creative"], "reason": "The provider describes an interactive family dollhouse, role play, gardening, cooking and changing outfits."},
+    "funny-rescue-pet": {"genres": ["simulation", "creative"], "reason": "The provider describes rescuing and caring for pets followed by a makeover."},
+    "dragon-block-blast": {"genres": ["puzzle"], "reason": "The provider explicitly describes placing blocks on an 8 by 8 grid and clearing rows and columns."},
+    "funny-rescue-zookeeper": {"genres": ["simulation"], "reason": "The provider describes treating an injured zookeeper through tool interactions."},
+    "easter-rabbit-style-30ab-1": {"genres": ["creative"], "reason": "The provider describes choosing spring outfits and accessories, with an Easter egg search."}
+  }
+}

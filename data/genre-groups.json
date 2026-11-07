@@ -17,7 +17,14 @@
         "number",
         "math",
         "sudoku",
-        "maze"
+        "maze",
+        "matching",
+        "merge",
+        "quiz",
+        "trivia",
+        "educational",
+        "blocks",
+        "unblock-puzzles"
       ]
     },
     {
@@ -61,7 +68,11 @@
         "runner",
         "ball",
         "retro",
-        "flappy-bird"
+        "flappy-bird",
+        "physics",
+        "ragdoll",
+        "music",
+        "rhythm"
       ]
     },
     {

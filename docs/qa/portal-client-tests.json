@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-07T16:06:48.294Z",
+  "status": "passed",
+  "runtime": {
+    "node": "v24.22.1",
+    "jsdom": "31.0.0"
+  },
+  "method": "Built HTML parsed by JSDOM outside-only; actual portal/site.js evaluated with window.eval; DOM events exercise behavior.",
+  "inputs": {
+    "outputDirectory": "dist-portal",
+    "html": [
+      {
+        "path": "en/play/moto-x3m/index.html",
+        "sha256": "ca6a1a339aad475cb2e5129d3ae7e83258e813f8ede9956942ecb0a0be1e0a24"
+      },
+      {
+        "path": "en/search/index.html",
+        "sha256": "155e7b1ad6d12e203964af497410ffa739f5892b1804c349f2abd2203e0bda9e"
+      },
+      {
+        "path": "en/play/fun-fishing/index.html",
+        "sha256": "65f0776669c0c50c7a40bef7895d6e4fa101f4956343e789ca1b3e58735c16c3"
+      },
+      {
+        "path": "en/privacy/index.html",
+        "sha256": "2385abdd373740a055db763cbdadab32da4196d80d60b39fe246f2dd5ae8f641"
+      },
+      {
+        "path": "en/play/school-escape-obby/index.html",
+        "sha256": "981109ce58e539c88a72cba0a88ea08fc0c75ff7dc5cde2af3047e4e1a90008b"
+      },
+      {
+        "path": "ar/index.html",
+        "sha256": "2f1a2586155ee256bb34dd8c2c429caf45ccc98149335155079bf327886edcb4"
+      },
+      {
+        "path": "ko/search/index.html",
+        "sha256": "e6c74d2cc1f2dd7c36058e25e51b7a1d38474b3b4ad2ce7071dbc7cd44466714"
+      }
+    ],
+    "catalogs": {
+      "en": {
+        "path": "assets/catalog/en.json",
+        "count": 2843,
+        "sha256": "0104cf64e56c267f8d7c53948dae3d93d687a8d81c095cb0791cbc54525e0b8e"
+      },
+      "ko": {
+        "path": "assets/catalog/ko.json",
+        "count": 165,
+        "sha256": "5dba928ef9ce574ed3596d63707b60d5daf1778185a34cedd51d3c6d4e3ff4b8"
+      }
+    },
+    "client": {
+      "path": "portal/site.js",
+      "sha256": "64e58f7023d5549db552272eb7e582972d1ec1bff68cc355f54f720e3f85665c"
+    },
+    "runtimeCatalog": {
+      "path": "data/portal/catalog.json",
+      "sha256": "ef907440f730cf25656b69f6595b6ae063b4e6048e49031fd1a2c71a0418efad",
+      "count": 2846
+    },
+    "buildInfo": {
+      "origin": "https://games.guidehollow.com",
+      "buildId": "2af6cd28ad470a6d8a8b44dbdf25bda8646935c112ba0cc203faa66da7cb9643",
+      "preview": false,
+      "gameCount": 2846,
+      "localeCount": 22,
+      "routeCount": 10349,
+      "indexableCount": 562,
+      "catalogFetchedAt": "2026-11-07T15:33:08.103Z"
+    },
+    "clientMatchesBuiltAssets": true
+  },
+  "network": {
+    "automaticSubresourceLoading": false,
+    "externalRequestsMade": 0,
+    "policy": "JSDOM subresources disabled; fetch serves only local /assets/catalog/<supported-locale>.json GET requests. Other client network APIs throw.",
+    "mockedFetches": [
+      {
+        "test": "player: explicit launch, duplicate prevention, close, Escape and recent persistence",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "favorites: delegated click, state, localStorage and saved-view removal",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "en search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "injected-rejection"
+      },
+      {
+        "test": "en search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "ko search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "injected-rejection"
+      },
+      {
+        "test": "ko search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "English search: full catalog, 24-result pagination, input debounce and query reset",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "Korean search: own catalog, native-only results, final pagination and deep search",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "Korean saved view: excludes unsupported saved games and updates after removal",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "Korean recent view: preserves played order while excluding unsupported games",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "cross-tab saved storage: StorageEvent replaces, adds and removes visible cards",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "method": "GET",
+        "source": "assets/catalog/en.json",
+        "count": 2843,
+        "outcome": "fulfilled"
+      },
+      {
+        "test": "cross-tab recent storage: StorageEvent refreshes order and native-language filtering",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "method": "GET",
+        "source": "assets/catalog/ko.json",
+        "count": 165,
+        "outcome": "fulfilled"
+      }
+    ],
+    "injectedCatalogFailures": [
+      {
+        "test": "en search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/en.json",
+        "reason": "Intentional local fetch rejection for retry regression"
+      },
+      {
+        "test": "ko search retry: rejected first fetch recovers on user input",
+        "url": "https://games.guidehollow.com/assets/catalog/ko.json",
+        "reason": "Intentional local fetch rejection for retry regression"
+      }
+    ],
+    "prohibitedAttempts": []
+  },
+  "limitations": [
+    "JSDOM is a DOM emulator, not a real browser or visual/layout test.",
+    "External iframe content, advertisements, gameplay, provider uptime, TLS, cookies, and real game load events are not tested.",
+    "Fullscreen is tested only in its unsupported fallback; clipboard is an in-memory mock.",
+    "Navigation between documents is simulated with a new JSDOM document and copied localStorage where persistence is under test.",
+    "Language support is checked against recorded provider metadata; in-game translations are not independently observed."
+  ],
+  "cases": [
+    {
+      "name": "player: explicit launch, duplicate prevention, close, Escape and recent persistence",
+      "status": "passed",
+      "assertions": 28,
+      "details": {
+        "gameId": "moto-x3m",
+        "embedHost": "playgama.com",
+        "recentOrder": [
+          "moto-x3m",
+          "click-click-clicker-playgama"
+        ]
+      },
+      "durationMs": 225
+    },
+    {
+      "name": "player: fun-fishing external provider URL and attribution are preserved",
+      "status": "passed",
+      "assertions": 13,
+      "details": {
+        "gameId": "fun-fishing",
+        "embedHost": "fishitgame.io",
+        "embedUrl": "https://fishitgame.io/export?clid=p_d84f9dc3-740c-40ae-bc98-c1fbd7c2de92"
+      },
+      "durationMs": 52
+    },
+    {
+      "name": "favorites: delegated click, state, localStorage and saved-view removal",
+      "status": "passed",
+      "assertions": 27,
+      "details": {},
+      "durationMs": 72
+    },
+    {
+      "name": "privacy: clear saved and recent history without clearing unrelated storage",
+      "status": "passed",
+      "assertions": 9,
+      "details": {},
+      "durationMs": 17
+    },
+    {
+      "name": "language menu: real summary click, Escape focus, outside close and player priority",
+      "status": "passed",
+      "assertions": 10,
+      "details": {},
+      "durationMs": 33
+    },
+    {
+      "name": "language menu: every locale remains reachable with unsupported-game home fallback",
+      "status": "passed",
+      "assertions": 33,
+      "details": {
+        "gameId": "school-escape-obby",
+        "menuLanguageCount": 22,
+        "fallbackLocale": "ar",
+        "fallbackPath": "/ar/"
+      },
+      "durationMs": 57
+    },
+    {
+      "name": "en search retry: rejected first fetch recovers on user input",
+      "status": "passed",
+      "assertions": 11,
+      "details": {
+        "locale": "en",
+        "intentionalMockFailures": 1,
+        "recoveredGameId": "4-color-card-game",
+        "catalogFetchAttempts": 2
+      },
+      "durationMs": 219
+    },
+    {
+      "name": "ko search retry: rejected first fetch recovers on user input",
+      "status": "passed",
+      "assertions": 11,
+      "details": {
+        "locale": "ko",
+        "intentionalMockFailures": 1,
+        "recoveredGameId": "makeup-fruits",
+        "catalogFetchAttempts": 2
+      },
+      "durationMs": 211
+    },
+    {
+      "name": "English search: full catalog, 24-result pagination, input debounce and query reset",
+      "status": "passed",
+      "assertions": 15,
+      "details": {
+        "totalCatalogGames": 2843,
+        "deepSearchGameId": "4-color-card-game",
+        "deepSearchIndex": 2841
+      },
+      "durationMs": 227
+    },
+    {
+      "name": "Korean search: own catalog, native-only results, final pagination and deep search",
+      "status": "passed",
+      "assertions": 15,
+      "details": {
+        "totalCatalogGames": 165,
+        "moreClicks": 6,
+        "deepSearchGameId": "makeup-fruits"
+      },
+      "durationMs": 260
+    },
+    {
+      "name": "Korean saved view: excludes unsupported saved games and updates after removal",
+      "status": "passed",
+      "assertions": 8,
+      "details": {
+        "excludedGameId": "click-click-clicker-playgama",
+        "displayedNativeGames": [
+          "car-destruction-king",
+          "makeup-fruits"
+        ]
+      },
+      "durationMs": 41
+    },
+    {
+      "name": "Korean recent view: preserves played order while excluding unsupported games",
+      "status": "passed",
+      "assertions": 6,
+      "details": {},
+      "durationMs": 25
+    },
+    {
+      "name": "cross-tab saved storage: StorageEvent replaces, adds and removes visible cards",
+      "status": "passed",
+      "assertions": 11,
+      "details": {},
+      "durationMs": 62
+    },
+    {
+      "name": "cross-tab recent storage: StorageEvent refreshes order and native-language filtering",
+      "status": "passed",
+      "assertions": 7,
+      "details": {},
+      "durationMs": 55
+    },
+    {
+      "name": "fullscreen fallback and clipboard sharing",
+      "status": "passed",
+      "assertions": 6,
+      "details": {
+        "copiedCanonical": "https://games.guidehollow.com/en/play/moto-x3m/",
+        "fullscreenMode": "unsupported fallback"
+      },
+      "durationMs": 37
+    }
+  ],
+  "warnings": [],
+  "totals": {
+    "passed": 15,
+    "failed": 0,
+    "assertions": 210,
+    "documents": 18
+  },
+  "durationMs": 1634
+}

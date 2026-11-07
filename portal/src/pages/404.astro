@@ -1,0 +1,5 @@
+---
+import { renderPortal } from '../../render.mjs';
+const html = renderPortal({type:'404',locale:'en',path:'/404.html'});
+---
+<Fragment set:html={html} />

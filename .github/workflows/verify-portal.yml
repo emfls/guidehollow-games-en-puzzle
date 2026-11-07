@@ -1,0 +1,53 @@
+name: Verify unified multilingual game portal
+
+on:
+  push:
+    branches: [work/unified-game-portal, main]
+  workflow_dispatch:
+    inputs:
+      include_static_archive:
+        type: boolean
+        default: false
+        description: Save the full static build for one day
+
+permissions:
+  contents: read
+
+concurrency:
+  group: unified-portal-verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Build and verify every language and game
+        run: npm run build
+      - name: Test actual client DOM interactions without external requests
+        run: npm run test:client
+      - name: Validate IndexNow plan without submitting URLs
+        run: npm run indexnow -- --dry-run
+      - name: Preserve verification reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified-portal-verification
+          path: release-manifests/portal-*.json
+          retention-days: 7
+      - name: Preserve the complete static deployment for inspection
+        if: github.event_name == 'workflow_dispatch' && inputs.include_static_archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: unified-portal-static
+          path: dist-portal/
+          retention-days: 1
+          compression-level: 9

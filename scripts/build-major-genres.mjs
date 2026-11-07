@@ -8,7 +8,7 @@ for (const group of groups) {
   const site = sites.find(site => site.id === `en-${group.id}`);
   if (!site || site.gameIds.length !== 10) throw new Error(`${group.id} does not yet have ten selected games.`);
   // Shared generated assets make these builds intentionally sequential.
-  const result = spawnSync('npm', ['run', 'build'], {
+  const result = spawnSync('npm', ['run', 'build:legacy'], {
     env: { ...process.env, SITE_GENRE: group.id, SITE_LOCALE: 'en', SITE_STAGE: 'preview', OUTPUT_DIR: `dist-preview/${site.id}` },
     stdio: 'inherit',
   });

@@ -7,3 +7,6 @@ qa/
 data/raw/
 release-manifests/
 *.log
+
+# Complete raw import candidate; compact runtime and source ID evidence are committed.
+data/portal-provider-catalog.json
