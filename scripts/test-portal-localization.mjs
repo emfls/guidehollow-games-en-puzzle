@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { games, localeIds, localeGames, titleFor, summaryFor, gamePath } from '../portal/catalog.mjs';
+import { games, localeIds, localeGames, titleFor, summaryFor, gamePath, editorial, isIndexable } from '../portal/catalog.mjs';
 
 const file=path=>readFileSync(path,'utf8');
 const byId=new Map(games.map(game=>[game.id,game]));
@@ -100,6 +100,52 @@ for (const id of reviewedIds) {
   const entry=translatedCatalog.find(item=>item.id===id);
   assert.equal(entry?.title,metadata.titles.ja[id],'Japanese search catalog title mismatch: '+id);
   assert.equal(entry?.summary,metadata.summaries.ja[id],'Japanese search catalog summary mismatch: '+id);
+}
+
+
+// Live website QA: authored guides must render as complete instructions, not provider-original placeholders.
+const reviewedGuides=JSON.parse(file('portal/locales/reviewed-guides.json'));
+const expectedKo=['escape-from-the-crypt','doodle-halloween-momo-cat--sea-magic','madness-online','crush-hour','1-zombie-survival'];
+const expectedEn=['madness-ward-number-6','dark-city-multiplayer','schoolboy-runaway-room-escape','check-wednesday-phone','fruitsland-escape-from-the-amusement-park','the-road-home-granny-escape','zombie-monster-survivors'];
+assert.deepEqual(Object.keys(reviewedGuides.ko).sort(),expectedKo.sort(),'Korean horror guide scope changed unexpectedly');
+assert.deepEqual(Object.keys(reviewedGuides.en).sort(),expectedEn.sort(),'English horror guide scope changed unexpectedly');
+for(const locale of ['ko','en']) for(const [id,guide] of Object.entries(reviewedGuides[locale])) {
+  const game=byId.get(id);
+  assert.ok(game?.locales.includes(locale),'Reviewed game not supported in '+locale+': '+id);
+  const rendered=editorial(game,locale);
+  assert.equal(rendered?.description,guide.description,'Missing reviewed description: '+locale+'/'+id);
+  assert.equal(rendered?.instructions,guide.instructions,'Missing reviewed instructions: '+locale+'/'+id);
+  assert.ok(rendered.description.length>=180 && rendered.instructions.length>=150,'Insufficient authored guide: '+locale+'/'+id);
+  assert.ok(isIndexable({type:'game',locale,id,page:1}),'Reviewed game should be index-eligible: '+locale+'/'+id);
+  const html=file('dist-portal/'+locale+'/play/'+game.slug+'/index.html');
+  assert.doesNotMatch(html,/content="noindex,follow"/,'Complete guide is still blocked: '+locale+'/'+id);
+  assert.match(html,/class="launch-languages"><summary>/,'Native languages should be a compact expandable list');
+  assert.doesNotMatch(html,/provider-description/,'Reviewed guide should not fall back to unlocalized provider block');
+  assert.ok(html.includes(guide.description.split('\n')[0].slice(0,55)),'Guide overview missing from built detail: '+locale+'/'+id);
+}
+assert.ok(isIndexable({type:'genre',locale:'ko',genre:'horror',page:1}), 'Five authored Korean horror guides should make collection eligible');
+const koreanHorrorAfter=file('dist-portal/ko/horror/index.html');
+assert.doesNotMatch(koreanHorrorAfter,/content="noindex,follow"/,'Reviewed Korean horror collection should not be noindex');
+assert.match(koreanHorrorAfter,/class="horror-choice-grid"/,'The guided Korean horror comparison is missing');
+assert.match(koreanHorrorAfter,/어떤 공포 게임부터 해볼까/,'The comparison must explain how to choose');
+const cryptCard=koreanHorrorAfter.split('data-card="escape-from-the-crypt"')[1]?.split('</article>')[0];
+assert.ok(cryptCard?.includes('<span class="eyebrow">공포</span>'),'Horror-category card has the wrong genre context');
+const englishHorrorAfter=file('dist-portal/en/horror/index.html');
+const expectedEnglishHorror=localeGames.get('en').filter(game=>game.genreIds.includes('horror'));
+const visibleEnglishHorror=[...englishHorrorAfter.matchAll(/data-card="([^"]+)"/g)].map(match=>match[1]);
+assert.deepEqual(visibleEnglishHorror,expectedEnglishHorror.slice(0,24).map(game=>game.id),
+  'English horror first page repeats cards across recommendation shelves');
+assert.doesNotMatch(englishHorrorAfter,/class="featured-shelf|class="portal-section popular-section|class="portal-section new-section/,
+  'Large horror collections should show a focused, non-duplicated catalogue');
+for(const [id,fragment] of Object.entries({
+  'madness-ward-number-6':'battle other psychiatric-ward patients',
+  'dark-city-multiplayer':'police and bandit factions',
+  'check-wednesday-phone':'cryptic student messages',
+  'zombie-monster-survivors':'randomly generated maps'
+})) {
+  const game=byId.get(id),guide=editorial(game,'en');
+  assert.ok(guide?.description.includes(fragment),'Gameplay detail missing: '+id);
+  assert.equal(summaryFor(game,'en'),guide.description.split('.')[0]+'.','Card should use the useful first sentence: '+id);
 }
 
 console.log(JSON.stringify({status:'passed',supportedLanguages:localeIds.length,coverage},null,2));
