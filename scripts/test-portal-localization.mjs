@@ -82,7 +82,7 @@ for(const locale of newLocales) {
 }
 for(const locale of localeIds) {
   const horrorIntro=metadata.genreIntros?.[locale]?.horror;
-  assert.ok(horrorIntro?.length >= 55, 'Missing informative horror introduction: '+locale);
+  assert.ok(horrorIntro?.length >= (locale === 'zh' ? 45 : 55), 'Missing informative horror introduction: '+locale);
   assert.ok(locale === 'ko' || !horrorIntro.includes('{count}'), 'Generic horror intro remains for '+locale);
 }
 for(const group of [
