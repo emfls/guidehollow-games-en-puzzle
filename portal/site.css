@@ -2510,3 +2510,50 @@ body.portal {
     transform: none;
   }
 }
+
+/* Short descriptions: useful before opening a game and consistent in search results. */
+.portal .card-summary,
+.portal .pick-summary,
+.portal .spotlight-summary {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-block: 8px 0;
+  color: #b8c4d7;
+  font-size: 12px;
+  line-height: 1.58;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.portal .card-copy h3 {
+  min-height: 0;
+}
+.portal .card-copy .card-summary {
+  min-height: 3.16em;
+}
+.portal .card-copy .card-action {
+  margin-block-start: auto;
+  padding-block-start: 13px;
+}
+.portal .spotlight-summary {
+  max-width: 56ch;
+  margin-block: -5px 18px;
+  color: #edf0f7;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.portal .pick-summary {
+  font-size: 11px;
+  line-height: 1.55;
+  -webkit-line-clamp: 2;
+}
+.portal .pick-copy .card-action {
+  margin-block-start: auto;
+  padding-block-start: 12px;
+}
+@media (max-width: 560px) {
+  .portal .card-summary {font-size: 11px;}
+  .portal .card-copy .card-summary {min-height: 3.1em;}
+  .portal .spotlight-summary {font-size: 12px; margin-block: -6px 15px;}
+  .portal .pick-summary {font-size: 10px;}
+}
