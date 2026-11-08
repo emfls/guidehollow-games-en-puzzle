@@ -1011,6 +1011,8 @@ body.portal {
 }
 
 .portal .player-preview {
+  width: 100%;
+  min-width: 0;
   aspect-ratio: 16 / 8.5;
   min-height: 360px;
   max-height: 620px;
