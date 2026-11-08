@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "games": {
+    "head-jump": {
+      "sourceHash": "9f34b69bae4452a520898f25bd5952e84ab6d8b0be02d20068df9ddbd62504df",
+      "reason": "source-game-identity-conflict",
+      "reviewedAt": "2026-11-08"
+    },
+    "brain-coloring-puzzle": {
+      "sourceHash": "abd54cb7ce4c1b3046939cad633943a258534e5358b7d067fb7986603db8d17e",
+      "reason": "source-rule-conflict",
+      "reviewedAt": "2026-11-08"
+    },
+    "cup-quest": {
+      "sourceHash": "1a86289409b1a97c5db34314fb17bc117f7f2df8b6ae5b7f328c4767db0dff13",
+      "reason": "source-direction-conflict",
+      "reviewedAt": "2026-11-08"
+    },
+    "Soccer-training": {
+      "sourceHash": "02e7ad8ebb1710d2d6a66d1a649d450717b4c7b35b388afaf337970ec26fdd25",
+      "reason": "source-inputs-unavailable",
+      "reviewedAt": "2026-11-08"
+    }
+  }
+}

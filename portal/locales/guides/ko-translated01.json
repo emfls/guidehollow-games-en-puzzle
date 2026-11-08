@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "locale": "ko",
+  "games": {
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "온라인 체스 대전",
+      "description": "온라인 체스 대전은 상대 킹을 체크메이트하는 것을 목표로 하는 체스 게임입니다. 컴퓨터와 대결하거나 온라인 상대에게 도전하고, 친구와 한 화면을 함께 사용하는 방식도 선택할 수 있습니다. 컴퓨터 난도는 초보자부터 세계 챔피언까지 21단계로 나뉩니다.\n\n시간 제한 없이 생각하는 방식부터 불릿, 블리츠, 래피드, 클래식까지 진행 속도를 고를 수 있습니다. 이동 가능한 칸 표시와 대화형 힌트를 활용하고, 경기가 끝난 뒤 기보와 분석을 보며 실수를 돌아볼 수 있습니다. 말과 체스판의 모양도 바꿀 수 있어, 원하는 설정으로 경기를 시작하고 상대의 다음 수를 예상하며 플레이합니다.",
+      "instructions": "대전 방식과 난도 또는 시간 설정을 선택합니다. 두 사람이 차례로 말을 움직이며, 폰은 앞으로 이동하고 대각선으로 상대 말을 잡고 나이트는 L자 모양으로 이동합니다. 상대 킹이 공격받는 상태에서 합법적으로 벗어날 수 없게 만들면 체크메이트로 승리합니다. 가능한 이동 표시와 힌트를 확인하고, 경기 후 기보와 분석을 검토하세요.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Chess Multiplayer is the",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a position where it is under threat"
+      },
+      "reviewedTextHash": "b6cf73a7bc33dca18db4a298a2c88acef55cb7abda3f65d903dcf6d617345736"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "title": "기사의 전설",
+      "description": "기사의 전설은 몬스터와 싸우며 장비를 강화하고 새로운 레벨을 여는 모험 게임입니다. 진행 중 골드를 얻어 갑옷과 반려동물을 구매할 수 있습니다. 갑옷은 기사의 장비가 되고, 반려동물은 곁에서 함께 싸우는 동료가 되어 이후 전투를 준비하는 수단이 됩니다.\n\n새로운 구간에 도전하는 과정에서 전투와 골드 수집, 장비 구매가 이어집니다. 컴퓨터에서는 방향키 외에 WASD와 ZQSD도 이동 입력으로 사용할 수 있고, 모바일에서는 화면 조이스틱을 끌어 움직입니다. 직접 기사를 이동시키면서 몬스터를 상대하고, 획득한 골드로 장비와 동료를 갖추어 모험을 계속하는 흐름입니다.",
+      "instructions": "컴퓨터에서는 방향키, WASD 또는 ZQSD로 기사를 이동합니다. Enter는 선택 확인·제출, Esc는 일시정지 또는 메뉴 닫기입니다. 모바일에서는 화면 조이스틱을 끌어 이동하고 확인·제출 버튼을 탭합니다. 몬스터와 싸워 골드를 모으고 갑옷과 함께 싸우는 반려동물을 구매하며 새 레벨에 도전하세요.",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels. As you progress, youll",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, upgrade your gear, and unlock"
+      },
+      "reviewedTextHash": "055775d631894fc86779bf32d50dd795a807d55ce7ddd7d033fbec8d7079c756"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "큐브 게이트",
+      "description": "큐브 게이트는 공상과학 실험실에서 큐브와 장치를 연결하며 출구를 찾는 퍼즐 플랫폼 게임입니다. 빛나는 큐브를 압력판에 올리면 문과 다리, 엘리베이터에 전력이 공급됩니다. 방에 따라 큐브가 여러 개 필요하거나 작동 순서가 중요하고, 먼저 점프해 위치를 확보한 뒤 문에 전력을 넣어야 하기도 합니다.\n\n바닥 표시와 케이블, 에너지 선을 살펴 장치의 연결 관계를 파악합니다. 큐브를 어디에 놓는지뿐 아니라 어떤 순서로 운반하고 뛰어넘는지가 해법의 일부입니다. 막히면 메뉴에서 레벨을 다시 시작해 다른 순서를 시도할 수 있습니다. 정확한 점프와 큐브 배치를 조합해 다음 구역으로 향하는 문을 여는 것이 목표입니다.",
+      "instructions": "W·A·S·D·Q·Z 또는 방향키로 이동합니다. E 또는 마우스 왼쪽 버튼은 큐브 들기·내려놓기, 스페이스바 또는 마우스 오른쪽 버튼은 점프, Shift는 달리기입니다. Esc로 메뉴를 열어 재시작이나 소리를 설정합니다. 표시된 압력판에 큐브를 놓아 문을 여세요. 먼 발판에는 먼저 달린 뒤 가장자리에서 점프합니다.",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and place them on pressure",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precise jumping matter. W, A, S, D,"
+      },
+      "reviewedTextHash": "806ec48d62bef19e749eabffcf5a842d3d2eebc6561c70ba28cc4851385079c4"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "고양이 매치",
+      "description": "고양이 매치는 보호소의 고양이를 데려오는 테마의 3매치 퍼즐입니다. 이웃한 고양이의 자리를 바꾸어 같은 종류 3마리를 맞추고, 주어진 이동 횟수가 끝나기 전에 레벨 목표를 달성합니다. 60개 레벨에서는 특정 종류를 모으거나 상자와 얼음을 깨고, 폭발로만 부술 수 있는 돌을 처리하는 과제가 등장합니다.\n\n4마리를 맞추면 로켓, 꺾인 모양으로 5마리를 맞추면 폭탄, 일렬로 5마리를 맞추면 같은 색을 모으는 발바닥 특수 고양이가 생깁니다. 일렬 6마리는 더 넓게 제거하고 점수를 두 배로 주는 빛나는 발바닥을 만듭니다. 레벨 시작 전에는 우유병을 사용해 부스터를 준비할 수 있으며, 일일 과제와 도전 과제, 순위표도 제공됩니다.",
+      "instructions": "컴퓨터에서는 고양이를 클릭한 뒤 이웃 고양이를 클릭하거나, 고양이를 이웃에게 드래그해 교환합니다. 모바일에서는 두 고양이를 차례로 탭하거나 스와이프합니다. 특수 고양이는 클릭·탭해 제자리에서 발동합니다. 4마리는 로켓, 꺾인 5마리는 폭탄, 일렬 5마리는 발바닥, 일렬 6마리는 빛나는 발바닥입니다. 시작 전 안내 화면에서 부스터를 고르고 이동 횟수 안에 목표를 마치세요.",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of kittens hoping to be",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and they're yours to keep — clear"
+      },
+      "reviewedTextHash": "1fbaae554a3119569965fbaf5028cebd1c007ba27752bf02a903bd5caddc5d1f"
+    },
+    "cyberpunk-block-puzzle": {
+      "sourceHash": "164100f70a1fc79e9386f51f9e815f0ce01a4e801a31165b3c726f26aed0d162",
+      "title": "사이버펑크 블록 퍼즐",
+      "description": "사이버펑크 블록 퍼즐은 빛나는 블록을 같은 색 연결 단자까지 옮기는 슬라이딩 퍼즐입니다. 각 블록은 정해진 하나의 축을 따라 움직이며, 다른 블록의 길을 막을 수 있습니다. 보드 가장자리의 단자에 모든 블록을 보내 보드를 비우면 레벨이 완료됩니다.\n\n70개 이상의 레벨이 있고, 5×5부터 8×9 크기의 격자에 벽과 얼음 블록, 잠금장치가 등장합니다. 레벨을 완료해 칩을 모으며 초보자부터 해킹 고수까지 등급을 올리고 일일 퍼즐에도 도전할 수 있습니다. 막힌 상태로 몇 초 기다리면 내장 힌트가 다음 수를 표시하므로, 블록을 옮겼을 때 다른 경로가 열리는지 함께 살펴 진행합니다.",
+      "instructions": "컴퓨터에서는 블록을 마우스로 클릭한 채 자기 축을 따라 드래그하고, 버튼을 놓아 위치를 정합니다. 모바일에서는 블록을 터치해 가로 또는 세로로 끌고 손가락을 뗍니다. 모든 블록을 가장자리의 같은 색 단자에 보내세요. 다른 블록의 길을 막지 않게 순서를 정하고, 막혔다면 몇 초 기다려 표시되는 힌트를 확인합니다.",
+      "referenceHash": "a3ddc678dc6fb880fc5bb7ea981983ed19887ae9d4b3f71f2bdf01eef276e150",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Cyberpunk Block Puzzle is a stylish logic game set on a neon circuit board. Slide glowing blocks across the grid to deliver them to matching",
+        "instructionsQuote": "Slide your way through the neon grid! Your goal is to move all glowing blocks into their matching colored connectors on the edges of the board. Plan each move carefully"
+      },
+      "reviewedTextHash": "c36f4d9ae3701ff1402e92120eec3b0d4e24f9dd37827ef0bcb21ddf525a69fe"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "3D 헤어 살롱",
+      "description": "3D 헤어 살롱은 손님이 원하는 머리 모양을 확인하고 자르기와 염색으로 재현하는 미용실 시뮬레이션입니다. 단발, 모히칸, 언더컷, 긴 레이어 등 23가지 헤어스타일이 소개됩니다. 오른쪽 요청 카드에서 3D 미리보기를 열어 완성할 모양을 살펴볼 수 있습니다.\n\n가위는 정밀한 자르기, 이발기는 고르게 다듬기, 면도칼은 세부 작업에 사용합니다. 염색이 필요하면 브러시와 색을 고릅니다. 요청에 가까운 결과일수록 별과 팁을 더 얻으며, 게임 재화로 새 도구와 염색약을 구매합니다. 진행하면서 복잡한 머리 모양과 VIP 손님을 만나고 일일 도전에도 참여할 수 있습니다.",
+      "instructions": "오른쪽 요청 카드를 탭해 3D 미리보기를 확인합니다. 가위·이발기·면도칼 중 작업에 맞는 도구를 고르고 머리 위를 스와이프해 자릅니다. 두 손가락으로 화면을 오므리거나 벌리고 회전해 카메라를 조절합니다. 필요하면 브러시와 색을 선택해 염색하고, 완성 후 Done을 탭해 평가를 받습니다. 모은 재화로 도구와 염색약을 구매하세요.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, undercuts, long layers,",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clippers for even trimming, a"
+      },
+      "reviewedTextHash": "f9002b5a80b61f834a7cbb77f34ee729d1b858c33fd013735ed8e30b15cb05f1"
+    },
+    "mahjong-chef": {
+      "sourceHash": "bc3d7be75776b7e4bf0dd3a2d0d884c9cce29606ddc04c624d2ba9d7aaf1bee6",
+      "title": "마작 셰프",
+      "description": "마작 셰프는 중국풍 주방에서 같은 그림의 마작패 두 장을 찾아 없애는 마작 솔리테어 퍼즐입니다. 위에 다른 패가 쌓이지 않고 왼쪽 또는 오른쪽이 열린 패를 선택할 수 있습니다. 모든 패를 없애면 스테이지를 완료하고 코인과 요리 재료를 얻습니다.\n\n1,500개 스테이지에 10레벨마다 보스 구간이 있으며, 뒤집힌 패와 주변 패를 맞춰 부수는 바위가 등장합니다. 재료를 모아 다섯 요리 분야의 중국 요리 50가지를 완성하고, 요리책을 채워 특별판과 연회판을 해금합니다. 되돌리기·힌트·섞기·자석 아이템과 주간 셰프 리그가 준비되어 있어 패 맞추기와 요리 수집을 이어 가는 구성입니다.",
+      "instructions": "위가 가려지지 않고 왼쪽이나 오른쪽이 열린 패를 탭한 뒤 같은 종류의 패를 탭해 한 쌍을 제거합니다. 뒤집힌 패는 먼저 탭해 공개합니다. 바위는 직접 선택할 수 없고 인접한 패를 맞추면 부서집니다. 코인으로 되돌리기, 짝 표시 힌트, 남은 패 섞기, 한 쌍을 자동 제거하는 자석을 구매할 수 있습니다. 모든 패를 없애 스테이지를 마치세요.",
+      "referenceHash": "b1b096aa53557a0858809510af53aa47cf0dd477a7657a57850f127b1d30cc1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Mahjong Chef is a relaxing tile-matching puzzle inspired by Mahjong Solitaire, set in a cozy Chinese kitchen. Tap two matching free tiles to",
+        "instructionsQuote": "How to play: - Tap a tile to select it. Tap another tile of the same type to make a match. - A tile is \"free\" when its left or right side is not blocked by another tile."
+      },
+      "reviewedTextHash": "7412d11ff8c8915c9a20df35a72d9a722b829512dfca09ea77262a4111c0b1c5"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "방치형 스포츠 제국",
+      "description": "방치형 스포츠 제국은 작은 농구팀에서 시작해 여러 종목을 운영하는 구단으로 성장하는 스포츠 경영 게임입니다. 농구, 하키, 축구, 럭비, 배구, 야구를 해금하고 선수 영입과 장비 장착, 훈련 계획 강화로 팀 전력을 높입니다. 경기는 자동으로 시뮬레이션되므로 직접 선수를 조종하기보다 구단의 성장 요소를 관리합니다.\n\n승리 확률과 수입, 리그 진행을 개선하며 새로운 종목으로 사업을 확장하는 것이 목표입니다. 방치 수입과 오프라인 보상, 스킬, 특별 이벤트, 시즌 진행이 성장에 연결됩니다. Sports 버튼에서 운영 종목을 확인하거나 전환하고, 보유 재화를 어느 선수와 장비, 훈련에 쓸지 선택해 구단을 키워 갑니다.",
+      "instructions": "컴퓨터에서는 마우스 왼쪽 버튼으로 업그레이드, 종목 해금, 장비, 선수 영입, 스킬과 보상 버튼을 클릭합니다. Sports 버튼으로 종목을 전환하고 리그 진행을 확인합니다. 모바일에서는 해당 버튼과 이벤트 카드를 탭하고 패널을 스크롤합니다. 자동 경기를 진행하는 동안 팀을 강화하고 오프라인 보상을 수령하며 수입과 전력을 높이세요.",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketball, hockey, soccer,",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using skills, and claiming special"
+      },
+      "reviewedTextHash": "a68557de50b4e1936007da94b32b25f9f159d3d79c55247c22629f3c74cbd016"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "오비 크래프트: 비행기 만들기",
+      "description": "오비 크래프트: 비행기 만들기는 부품을 조립해 비행기를 만들고 직접 날려 보는 게임입니다. 각 블록이 비행에 영향을 주며, 수십 가지 부품을 사용해 기체를 구성합니다. 제작 공간에서 조립한 비행기를 발사하고 공중의 코인을 모으며 장애물 코스에 도전합니다.\n\n모은 코인은 새 부품과 발사 장치인 새총을 강화하는 데 사용합니다. 새총을 강화할수록 더 높고 빠르게 출발할 수 있습니다. 부품과 스킨 상점, 보상을 받는 룰렛이 있으며, 제작한 기체는 최대 4개 슬롯에 저장할 수 있습니다. 기체 제작과 시험 비행, 코인 수집, 부품 구매를 반복해 구성을 바꾸며 장애물을 피하는 흐름입니다.",
+      "instructions": "비행기 옆 제작 공간으로 가서 아래 인벤토리의 부품을 선택한 뒤 클릭해 설치합니다. 부족한 부품은 상점에서 구매합니다. 코인으로 새총을 강화한 후 비행기를 발사하고, 비행 중 지도에 놓인 코인을 모으며 장애물을 피합니다. 새 부품 구매와 룰렛 보상도 이용할 수 있습니다. 원본은 공중 조종을 안내하지만 구체적인 비행 키는 명시하지 않습니다.",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assemble an airplane from parts",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next to it) Select a part in the"
+      },
+      "reviewedTextHash": "31182af4cc97e2e14d6393cec24f2fb8336fd62ef9b12267fa0f0b27e425ad6a"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "쥬라기 병합: 공룡 진화",
+      "description": "쥬라기 병합: 공룡 진화는 같은 공룡을 합쳐 더 강한 개체를 만들고 군대를 구성하는 병합 전략 게임입니다. 전장에 공룡을 배치한 뒤 적 군대와 자동 전투를 진행합니다. 플레이어는 공룡을 직접 끌어 옮기면서 병합과 배치를 정하고, 그 결과로 이루어지는 전투를 지켜봅니다.\n\n승리하면 크리스털과 골드를 얻어 새 캐릭터를 해금하거나 기존 공룡을 강화할 수 있습니다. 전투 보상을 다시 군대 성장에 투자하고, 더 강한 적을 이겨 다음 구간으로 진행합니다. 같은 개체를 합치는 일과 전장에 배치하는 일이 모두 전략 요소이므로, 공룡의 강화와 군대 구성을 함께 다루는 것이 기본 흐름입니다.",
+      "instructions": "컴퓨터에서는 마우스 왼쪽 버튼을 누른 채 캐릭터를 드래그하고, 모바일에서는 스와이프로 옮깁니다. 같은 공룡을 합쳐 더 강한 개체를 만들고 전장에 군대를 배치합니다. 공룡들을 자동 전투에 보내 승리 보상인 크리스털과 골드를 얻으세요. 보상으로 새 캐릭터를 열거나 기존 공룡을 강화해 더 강한 적에게 도전합니다.",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach their maximum power!",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. 🛡️ Arrange your army on the"
+      },
+      "reviewedTextHash": "943a1dd8d0d93260b2bf0ebec5507cb99fdc9d6c3972de55411805d2a4b5463a"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "도그파이트: 공중전",
+      "description": "도그파이트는 전투기를 조종해 공중전을 벌이는 비행 액션 게임입니다. 선회와 급선회, 기수 올리기, 롤 기동을 이용해 비행기의 자세와 진행 방향을 바꿉니다. 컴퓨터에서는 가속과 감속을 별도로 조절하면서 사격과 보조 무기를 사용할 수 있습니다.\n\n일반 선회와 급선회가 다른 키에 배정되어 있고, 기수 올리기와 롤도 독립된 조작입니다. 여러 기동을 조합해 적을 향한 사격 위치를 잡는 것이 플레이의 중심입니다. 모바일에서는 화면 조이스틱으로 이동하고 사격·기수 올리기·롤 버튼을 사용합니다.",
+      "instructions": "컴퓨터에서는 W로 가속, S로 감속합니다. A·D는 좌우 선회, Q·E는 좌우 급선회, 스페이스바는 기수 올리기, Shift는 롤입니다. J로 사격하고 K로 보조 무기를 사용하며 R로 재장전합니다. 모바일에서는 조이스틱을 끌어 이동하고 사격, 기수 올리기, 롤 버튼을 탭합니다. 비행 방향과 속도를 조절하며 공중전을 진행하세요.",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers like looping, rolling, and",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon Space = pull up Shift = roll R"
+      },
+      "reviewedTextHash": "97853bd217135b1b19d04ba7cb0d276992ce7323e27465f0c379e40e315978ef"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "3D 체스: 아케인 에디션",
+      "description": "3D 체스: 아케인 에디션은 마법 정원을 배경으로 구리빛과 금빛 입체 체스말을 사용하는 체스 게임입니다. 상대 킹을 체크메이트하는 것이 승리 목표이며, 컴퓨터 상대의 난도는 쉬움·보통·어려움 세 단계로 선택할 수 있습니다. 입체 보드를 회전하고 확대하며 말의 위치를 살펴봅니다.\n\n말을 선택하면 합법적으로 이동할 수 있는 칸이 빛나는 점으로 표시됩니다. 설정에서 난도와 이동 힌트, 소리를 바꿀 수 있고, 친구 대전에서는 비공개 방을 만들어 코드를 공유합니다. 원본은 방을 임시 공간으로 설명하며 모두 나가면 경기와 기록이 사라진다고 안내합니다. 따라서 친구와 한 판을 진행할 때는 같은 방의 코드를 이용해 참여합니다.",
+      "instructions": "말을 탭하거나 클릭한 뒤 표시된 칸을 선택해 이동합니다. 상대 말이 있는 칸으로 이동하면 그 말을 잡으며, 상대 킹을 체크메이트하면 승리합니다. 드래그로 카메라를 회전하고 두 손가락 핀치 또는 스크롤로 확대·축소합니다. 톱니바퀴 설정에서 난도와 이동 힌트, 소리를 바꿉니다. 친구와 하려면 시작 화면의 Play a Friend에서 방을 만들고 코드를 공유합니다.",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic strategy game to life with",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto their square. Put the"
+      },
+      "reviewedTextHash": "4504e8c065ab7fa2209b614581fae94c1e52ea011702ec412c2ff66c279ed31d"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "블록 슈터: 블록 부수기",
+      "description": "블록 슈터: 블록 부수기는 집과 숲, 탑으로 이루어진 섬을 블록 단위로 파괴하는 3D 슈팅 게임입니다. 모든 블록을 없애면 장소를 완료하고 다음으로 진행합니다. 다이너마이트와 번개 블록을 맞히면 연쇄 파괴를 일으킬 수 있어, 한 발이 다른 블록에 미치는 효과를 이용합니다.\n\n탄약은 제한되어 있지만 한 번 파괴한 블록은 탄약이 떨어진 뒤에도 사라진 상태로 남습니다. 상점에서 코인으로 무기와 강화, 유물을 구매한 뒤 돌아와 남은 부분을 마무리할 수 있습니다. 총의 레벨을 10까지 올리면 자동 사격을 시작합니다. 카메라를 회전하거나 기울여 남은 블록을 확인하고, 파괴 진행을 유지하며 섬 전체를 비우는 흐름입니다.",
+      "instructions": "마우스 왼쪽 버튼을 누르고 있으면 사격합니다. A·D는 카메라 회전, W·S는 기울이기, +·−는 확대·축소, F는 카메라 초기화입니다. 1~9, Q·E 또는 마우스 휠로 무기를 바꾸며 Esc는 일시정지입니다. 모바일에서는 블록을 길게 눌러 발사하고 두 손가락으로 회전·확대하거나 오른쪽 아래 카메라 버튼을 사용합니다. 모든 블록을 파괴해 장소를 완료하세요.",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, and towers, one block at",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and try again Out of ammo?"
+      },
+      "reviewedTextHash": "503e53ded454f6dcb4f28052e884ca24605a6d4f5514cf98f1fc243358b4317d"
+    },
+    "fantasy-soccer-manager": {
+      "sourceHash": "4e160cfeafd1cd51f9b198c77be6ebc05693c90abb577c7cd28fba2aa503f5b1",
+      "title": "판타지 축구 감독",
+      "description": "판타지 축구 감독은 인간·오크·엘프·언데드가 참가하는 7인제 축구 경영 게임입니다. 네 디비전 중 구단을 골라 13~20명의 선수단을 구성하고, 3·5·10시즌 중 선택한 기간 동안 승격과 리그·컵 우승에 도전합니다. 선수는 직접 조종하지 않으며 경기는 하이라이트로 진행됩니다.\n\n코너킥이나 프리킥, 득점으로 경기가 멈추면 공격 방향과 전개 방식, 포메이션, 선수 교체를 결정합니다. 경기 사이에는 체력과 부상, 출전 정지, 재정, 경기장 시설을 관리하고 시즌당 네 차례의 이적 기간을 활용합니다. 선수의 성장과 은퇴에 맞춰 팀을 꾸리고, 매 리그 경기 뒤 기록되는 커리어 점수로 감독 순위에 도전하는 흐름입니다.",
+      "instructions": "마우스나 터치로 버튼을 선택하고 목록은 드래그해 스크롤합니다. 기간과 구단을 고른 뒤 상대 보고서를 확인하고 선발 7명과 최대 두 개의 선수 지시를 설정합니다. 경기 중단 시 왼쪽·중앙·오른쪽 공격 방향과 전개 방식을 선택하며, 선수 교체는 경기당 3회입니다. 경기 사이 피로와 부상을 관리하고, 새 선수를 영입하려면 먼저 한 명을 내보냅니다. 리그 화면에서 저장하세요.",
+      "referenceHash": "a580ade53a4b9eb588209f357a027db444f812d5a0c2c8f888134d9be5540162",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Fantasy Soccer Manager is a lightweight 7-a-side football management game set in a night league where four peoples — Humans, Orcs, Elves and the",
+        "instructionsQuote": "GOAL — Finish the campaign you chose (3, 5 or 10 seasons) with the best record you can: promotions, league titles and cup wins. Your career points go to the global"
+      },
+      "reviewedTextHash": "5245e530a04ae34db314b6c1b5db6aac8a55abaf0a2cfcf430aee8e1641a5bac"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "title": "라이브 라운드",
+      "description": "라이브 라운드는 경기장을 둘러싼 여덟 도시가 중앙 코어에서 날아오는 유성을 막는 8인 아케이드 게임입니다. 자신의 도시로 향하는 유성의 궤도를 바꾸어 다른 곳으로 보내고 마지막까지 살아남는 것이 목표입니다. 반사판을 움직이거나 모드에 따라 발사체를 쏘면서 유성이 도시를 타격하지 않게 합니다.\n\n라운드 사이에는 플레이 방식을 바꾸는 업그레이드를 고릅니다. 도시가 파괴되어 탈락해도 남은 플레이어를 방해하는 행동에 참여할 수 있습니다. 온라인 대전, 봇 상대, 비공개 방을 지원하며 Defence, Paddle, Vault, Invaders, Belt 다섯 모드가 소개됩니다. 반사판과 사격 가능 여부는 모드마다 달라집니다.",
+      "instructions": "반사판이 있는 모드에서는 마우스를 움직여 반사판을 이동합니다. 사격을 허용하는 모드에서는 클릭으로 미사일을 발사하며 탄약을 확인합니다. 도시로 들어오는 유성을 다른 방향으로 보내 생존하세요. 탈락한 뒤에는 방해 수단을 선택하고 마우스로 배치할 위치를 지정합니다. 라운드 사이에는 제공되는 업그레이드를 고릅니다.",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple: make sure they hit",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. (Watch your ammo!) When"
+      },
+      "reviewedTextHash": "3e5322a13f5dae6ec583a30cdbe051045de1cc8d479f5b6927b2184085e7a29d"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "턴라인: 편안한 선 연결 퍼즐",
+      "description": "턴라인은 타일을 회전해 선으로 이루어진 연결망을 완성하는 미니멀 퍼즐입니다. 각 조각의 방향을 바꾸며 이웃 타일의 선과 맞추고, 필요한 모든 경로를 연결하면 레벨이 끝납니다. 올바르게 연결된 길은 진행 중 강조 표시되어 어느 부분이 이어졌는지 확인할 수 있습니다.\n\n처음에는 간단한 구성이 규칙을 소개하고, 이후 갈림길과 여러 경로가 포함된 더 큰 퍼즐로 발전합니다. 수천 개 레벨이 안내되어 있으며 시간 제한 없이 자신의 속도로 생각할 수 있습니다. 어려운 구간에서는 힌트를 사용하고 진행 상황을 저장해 계속할 수 있어, 선의 연결 관계를 차분히 살피며 해결하는 구성이 중심입니다.",
+      "instructions": "컴퓨터에서는 마우스로 타일을 선택하고, 휴대폰이나 태블릿에서는 타일을 탭해 회전합니다. 이웃한 타일의 선이 어떻게 이어지는지 확인하며 방향을 바꾸세요. 올바른 경로는 강조 표시됩니다. 필요한 모든 구간을 연결해 전체 연결망을 완성하면 레벨이 끝나며, 막혔을 때는 힌트를 사용할 수 있습니다.",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the correct position for",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines connect to nearby tiles. Keep"
+      },
+      "reviewedTextHash": "99a9b0b30958a5b376e1a379f6332fd4af46ab40fbcb8a90981be3506bd42b91"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "심연의 재",
+      "description": "심연의 재는 연락이 끊긴 식민지 소로우 IV로 내려가 각 레벨의 출구를 찾고 보스를 상대하는 공상과학 슈팅 게임입니다. 바위가 무너지고 모래와 물이 흐르며, 마그마가 식어 돌이 되고 가스가 불꽃에 폭발하는 물리 환경이 특징입니다. 100개 레벨과 6장 구성의 이야기, 두 가지 결말이 소개됩니다.\n\n플라스마 절단기로 바위를 잘라 직접 길을 만들 수 있지만, 적에게 주는 피해는 매우 적습니다. 화면 가장자리 화살표가 목표 방향을 알려 주며 오른쪽 위에서 레벨 목표를 확인합니다. 모은 골드는 무기고에서 장비와 강화에 사용합니다. 침수 광산과 얼어붙은 저수조 등 일곱 환경을 지나면서 지형 변화와 이동, 전투를 함께 다룹니다.",
+      "instructions": "컴퓨터에서는 A·D 이동, W 점프, 스페이스바 제트팩, 마우스 조준·사격입니다. 마우스 오른쪽 버튼은 수류탄, 1~4는 무기, F는 절단기, Esc는 일시정지입니다. 휴대폰에서는 왼쪽 스틱으로 이동·점프, 오른쪽 스틱으로 조준·사격하며 자동 조준이 기본으로 켜집니다. 오른쪽 버튼으로 수류탄·절단기·무기 교환을 사용합니다. 목표 화살표를 따라 출구로 가고 무기고에서 골드로 강화하세요.",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something ancient and hungry has",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim and fire (auto-aim is on by"
+      },
+      "reviewedTextHash": "3be99ed60c776d3adc013514a323d448c6a7ff4f2367b801a32c767fac3cbf10"
+    },
+    "fleet-merge": {
+      "sourceHash": "263388e9cf1685e3ab6bd3cf40e833191f5930214fa5de23c1090ac05823a5be",
+      "title": "함대 병합 전투",
+      "description": "함대 병합 전투는 우주선을 구매하고 같은 함선을 합쳐 전열을 구성하는 자동 전투 게임입니다. 선착장의 배치가 실제 전투 대형이 되며 맨 위 줄이 전방입니다. 라인 함선, 포병 함선, 랜서 사이에 상성이 있어 등급을 높이는 것과 상대에 맞춰 배치하는 것이 모두 중요합니다.\n\n라인은 랜서를, 랜서는 포병을, 포병은 라인을 이깁니다. 포병을 뒤에 두고 랜서는 측면과 후방 공격 보너스를 활용할 수 있습니다. 적 함대를 레이더로 확인한 뒤 전투를 시작하고, 별 지도의 구역과 보스, 거대 아크에 도전합니다. 크레딧과 코어로 강화하며 영웅 배치와 방어·수송대 습격 등의 모드를 이어 가는 흐름입니다.",
+      "instructions": "함선 종류를 탭해 편대를 구매합니다. 같은 종류이면서 같은 등급인 함선끼리 드래그해 합치고, 선착장에 대형을 배치합니다. 맨 위가 전방이며 라인→랜서→포병→라인 순으로 우위입니다. 포병은 후방에 두고, 랜서는 측면 1.25배·후방 1.5배 공격을 활용합니다. FIGHT를 누르면 자동 전투가 시작되며 탭으로 속도를 바꿀 수 있습니다. 크레딧과 코어로 함대를 강화하세요.",
+      "referenceHash": "df193f8cf0434718299ddb7b7bb9bed09e91797cf81f60d3c2052708bb2b2acd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Command a fleet of starships in this merge auto-battler. Buy Line ships, Artillery and Lancers, then merge identical ships to build stronger",
+        "instructionsQuote": "Tap a ship type to buy a squadron. It flies into your dock. Drag a ship onto an identical ship (same type, same tier) to merge it into a higher tier. Drag ships to"
+      },
+      "reviewedTextHash": "2a46e9495a8f566e3f56ee898722b5606e90a444c16717585e15970db189a6ee"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "루픽스: 혜성 고리",
+      "description": "루픽스는 혜성이 남기는 빛나는 궤적으로 생물을 둘러싸 포획하는 아케이드 게임입니다. 생물 무리 주변을 돌아 고리를 닫으면 안쪽의 대상을 잡고 성장합니다. 고리가 클수록 콤보도 커지며, 다른 혜성을 고리 안에 가두면 그 점수를 가져올 수 있습니다.\n\n다른 혜성의 궤적에 닿으면 탈락하므로, 상대의 움직임을 피해 자신의 고리를 완성해야 합니다. 부스트는 도망치거나 고리를 급히 닫는 데 사용하지만 크기를 조금 소모합니다. 각 세계의 수호자 보스를 이긴 뒤 블랙홀을 통해 다음 세계로 이동합니다. 보너스를 주는 동료를 부화시키고 스킨과 모자, 영구 강화를 해금하는 성장 요소도 있습니다.",
+      "instructions": "컴퓨터에서는 마우스 또는 방향키·A·D로 혜성을 조종합니다. 마우스 왼쪽 버튼이나 스페이스바를 누르고 있으면 크기를 조금 소모해 부스트합니다. 모바일에서는 손가락을 끌어 이동하고 두 번 탭한 뒤 누르고 있으면 부스트합니다. 생물을 궤적으로 둘러싸 고리를 닫고, 다른 혜성의 궤적에 닿지 않게 하세요. 수호자를 이기면 블랙홀로 다음 세계에 갑니다.",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade game. Steer your comet,",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jump to the next world through"
+      },
+      "reviewedTextHash": "2165c3273beae4e192cec2e3a5c85f0ded2d1c9f99877adb551726e88c3dce5a"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "시티 팝 드라이브",
+      "description": "시티 팝 드라이브는 파스텔 색의 1980년대 시티 팝 풍경을 달리는 자동 가속 드라이빙 게임입니다. 제한 시간이 끝나기 전에 각 체크포인트에 도착하고, 갈림길에서는 경치 좋은 길과 고속 경로 중 방향을 선택합니다. 경로에 따라 음악이 달라지는 것이 특징입니다.\n\n다른 차량 가까이를 스치듯 지나가면 시간이 추가되고 브리즈 게이지가 찹니다. 게이지가 가득 차면 차량을 밀어내는 부스트가 시작됩니다. 해변과 한밤의 고속도로, 도심 교차로, 단풍 고개, 눈 덮인 리조트 등 다섯 지도가 있으며 목표 지점에 도달해 레코드 커버 25종을 수집합니다. 마일을 사용해 강화와 차량, 새 지도를 구매합니다.",
+      "instructions": "탭해 시작한 뒤 좌우로 드래그해 방향을 조절합니다. 컴퓨터에서는 마우스 드래그, 방향키 또는 A·D를 사용하며 P는 일시정지입니다. 자동차는 자동으로 가속합니다. 차량 가까이를 지나 시간과 브리즈 게이지를 얻고, 게이지가 가득 차면 부스트합니다. 시간 안에 체크포인트를 통과하고 갈림길의 방향을 선택하세요. 목표 도착으로 커버를 모으고 마일로 차량과 지도를 해금합니다.",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze meter and boost, reach",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass close to traffic for near"
+      },
+      "reviewedTextHash": "78bedea3b1dbb09d5a20b3eab27df9ed58df8c55300723afe01a94357ef448f8"
+    },
+    "hatch-or-steal-online": {
+      "sourceHash": "23295ab666a3c44da6090a0aa0dbab965fedcde6d38eb180aca7921ca72643c7",
+      "title": "부화하거나 훔치거나: 온라인",
+      "description": "부화하거나 훔치거나: 온라인은 알을 구매해 반려동물을 부화시키거나 다른 플레이어와 NPC의 동물을 훔쳐 농장을 키우는 게임입니다. 최대 6명이 함께하거나 링크로 친구를 비공개 방에 초대할 수 있습니다. 8단계 희귀도의 알에서 40종 이상의 동물을 발견하며, 자리를 비운 동안에도 게임 안의 수입이 쌓입니다.\n\n농장을 잠가 동물을 지키고 몽둥이로 도둑을 쫓는 활동도 있습니다. 포털을 통해 용의 둥지에 들어가 장애물을 넘어 희귀 알을 가져올 수 있습니다. 농장과 이동 속도를 강화하고 환생으로 영구 보너스를 얻으며, 의상과 날개, 이동 궤적으로 외형을 꾸밉니다. 진행은 자동 저장되어 농장 성장을 이어 갈 수 있습니다.",
+      "instructions": "WASD·방향키로 이동, 스페이스바로 점프합니다. E는 알 구매·집기·놓기·훔치기, G는 들고 있는 것 내려놓기입니다. 1로 몽둥이를 꺼내 왼쪽 클릭으로 칩니다. 오른쪽 버튼을 누른 채 카메라를 돌리고 휠로 확대합니다. Tab은 커서 고정·표시 전환, M은 의상, B는 감정표현, Enter는 채팅, Esc는 창 닫기, H는 조작 안내 표시입니다. 모바일은 왼쪽 조이스틱, 오른쪽 스와이프·핀치와 화면 행동 버튼을 사용하며 아래 몽둥이 슬롯을 탭합니다.",
+      "referenceHash": "97f072dc9386dab38ea38ffeaed6be6e9b256f9d186efface97e21e2420d7b72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Buy eggs, hatch or steal cute pets and build the richest farm in Hatch or Steal: Online! Play with up to 6 players or invite friends to a",
+        "instructionsQuote": "Keyboard and mouse: - TAB - lock or on coursor - WASD / Arrow keys - move - Space - jump - E - action: buy an egg, pick up, place, steal - G - drop what you carry - 1 -"
+      },
+      "reviewedTextHash": "c0a64fa2e8cb87065a3a34846b72e54d724483e79e59795033e6fa34ac286540"
+    },
+    "chameleon-sniper": {
+      "sourceHash": "13ee18b8d7cce08d96517851364c549d5b02ea7bdfd5a16ac203db93a156f2da",
+      "title": "카멜레온 저격수",
+      "description": "카멜레온 저격수는 바다 위 작은 섬을 돌려 보며 배경에 위장한 적을 찾는 3D 저격 게임입니다. 적이 벽과 지붕, 바위와 같은 색이어서 색보다 튀어나온 머리나 팔 같은 형태를 살펴야 합니다. 어떤 부위든 맞히면 적을 처치하며, 탄약이나 시간이 떨어지면 레벨에 실패합니다.\n\n거대한 큐브와 트로피, 버섯, 화산, 달 등 다른 형태의 섬이 등장합니다. 헤드샷과 남은 탄약은 추가 코인을 주며, 탄약 수와 적의 크기를 강화해 다음 도전을 준비할 수 있습니다. 적 표시·위치 광선·색 변경·야간투시 네 보너스를 활용하고 별을 모아 조준경과 소총 보상을 받습니다. 일일 임무와 특수 작전, 보너스 레벨도 소개됩니다.",
+      "instructions": "마우스로 시선을 움직이고 A·D 또는 방향키로 섬을 회전합니다. 오른쪽 버튼이나 스페이스바로 확대하고 마우스로 조준한 뒤 왼쪽 클릭으로 발사합니다. 터치에서는 화면 드래그로 둘러보고 화살표를 누른 채 섬을 돌립니다. AIM을 누르고 조준 방향으로 밀다가 손을 떼면 발사합니다. 모든 적을 찾되 시간과 탄약을 확인하세요. 빗맞힌 횟수가 1회 이하면 별 3개를 얻습니다.",
+      "referenceHash": "15287ba811fe2e365c2447360c2fef227cbc724bd21d42d08cadc28748c28ee2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Chameleon Sniper is a 3D sniper game where you turn a tiny island floating in the ocean and take down enemies hiding in plain sight. Every enemy",
+        "instructionsQuote": "Somewhere on the island, enemies are hiding, painted to match the surface they're stuck to. Turn the island, scan every wall, roof and rock, zoom in with your scope and"
+      },
+      "reviewedTextHash": "6a5a027a1a018074b467f3fe35c3336853082abacb51a7594e0eba2e809bdd6b"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "title": "수상한 반려동물 가게",
+      "description": "수상한 반려동물 가게는 배달된 동물을 안내서와 비교해 이상 징후를 찾고 손님과 가격을 흥정하는 상점 게임입니다. 눈이 하나 더 있거나 그림자가 없고, 귀가 셋이거나 배에 입이 있는 동물을 구별합니다. 햄스터부터 용과 불사조까지 24종, 행동이나 스캐너로 알아채는 것을 포함해 15가지 이상 징후가 소개됩니다.\n\n정상 동물은 쓰다듬어 관리하면 판매 가격이 올라갑니다. 채팅에서 손님의 제안을 받아들이거나 가격을 유지하고 더 요구할 수 있지만, 지나친 요구에는 손님이 떠납니다. 이상을 놓치면 밤에 우리에서 움직임이 나타날 수 있어 야간에도 감시해야 합니다. 근무 뒤 결과를 확인하고 코인으로 가게를 강화하며 수집과 판매를 이어 갑니다.",
+      "instructions": "컴퓨터는 마우스, 모바일은 터치로 조작합니다. Start shift에서 배달 상자를 열고 시간 안에 안내서와 동물을 비교합니다. 정상이면 Looks normal, 이상이 있으면 Anomaly!를 고른 뒤 수상한 부위를 선택합니다. 정상 동물을 마우스나 손가락으로 문질러 돌보고 손님과 가격을 협상하세요. 밤에는 움직이는 우리를 늦기 전에 선택하고, 근무 후 코인으로 강화합니다.",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each animal against the Guide",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks normal\". If something is wrong,"
+      },
+      "reviewedTextHash": "7b202971d780372f9aff988f96cbe348020d107af19c0b806366c185a3a73158"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "배틀크로스",
+      "description": "배틀크로스는 한 직업에만 고정되지 않고 여러 스승에게 배운 능력을 조합하는 모험 게임입니다. 기사의 방패와 화염술사의 불, 근위병 소환이나 시간 정지 등 서로 다른 기술을 사용할 수 있습니다. 고블린과 나무 괴물, 악마 무리와 구역의 우두머리를 물리치며 장비와 경험치를 얻습니다.\n\n레벨마다 능력치 포인트 3점을 받고, 16개 직업에서 배운 기술을 액티브 8칸과 패시브 4칸에 구성합니다. 마을에서는 장비를 사고 치유사에게 물약 허리띠를 확장하며 새 기술을 배웁니다. 일부 구역 마지막의 선택은 되돌릴 수 없고 마을과 상점, 교관, 결말을 바꿉니다. 전투 성장뿐 아니라 이야기 속 결정도 이후 진행에 영향을 줍니다.",
+      "instructions": "적에게 다가가면 영웅이 자동으로 공격합니다. 필요할 때 기술과 체력 물약을 사용하고 모든 적 무리와 마지막 우두머리를 이기면 구역을 완료합니다. 쓰러져도 경험치와 전리품은 유지됩니다. 레벨마다 받은 3점을 능력치에 배분하고 마을에서 장비·물약 허리띠·기술을 정비하세요. 구역 끝의 중요한 결정은 되돌릴 수 없으므로 선택 내용을 신중히 확인합니다.",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summon royal guards, stop",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every enemy group and the leader at"
+      },
+      "reviewedTextHash": "7dd7a0d5950f08318e4a9ee18a96d3c100b0033912eb688962f9851801f3cc62"
+    },
+    "explainable-minesweeper": {
+      "sourceHash": "37d1ee18a0b617d862593fa1747511e5fc88a017283c1617e316134f24254fee",
+      "title": "풀이를 설명하는 지뢰찾기",
+      "description": "풀이를 설명하는 지뢰찾기는 숨은 고슴도치의 위치를 숫자로 추론하는 퍼즐입니다. 숫자는 주변 8칸에 있는 고슴도치 수를 나타내며, 고슴도치가 없는 칸을 모두 열면 보드를 완료합니다. 고슴도치 칸을 열거나 잘못된 깃발을 놓으면 하트를 잃고 보드마다 하트는 3개입니다.\n\n힌트를 누르면 미어캣 핍이 안전한 칸과 판단 근거가 되는 숫자를 설명합니다. 제공업체는 추측 없이 논리로 풀 수 있는 보드라고 안내하며, 두 숫자의 공통 영역을 비교하는 추론도 보여 줍니다. 5×5부터 20×20까지 16개 크기에 각각 200개씩 총 3,200개 보드가 있고, 일일 필드와 저장 기능, 캠프 성장과 테마 해금도 제공합니다.",
+      "instructions": "컴퓨터는 왼쪽 클릭으로 칸을 열고 오른쪽 클릭으로 깃발을 놓습니다. 모바일은 탭으로 열며 고슴도치를 표시할 때 깃발 모드로 전환합니다. 주변 고슴도치에 깃발을 모두 놓은 숫자를 탭하거나 오른쪽 클릭하면 나머지 인접 칸을 한꺼번에 엽니다. 잘못 열거나 표시하면 하트를 잃습니다. 막히면 Hint로 근거를 확인하고, 핀치나 마우스 휠로 큰 보드를 확대합니다.",
+      "referenceHash": "db6294e0ae0c8f086a2dde3139659fbe317d166c54a75abf12ab84475ac52e53",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Explainable Minesweeper is a minesweeper you can always solve with logic. No guessing, ever. Hedgehogs are sleeping hidden in the field. Read",
+        "instructionsQuote": "• Each number shows how many hedgehogs are in the 8 cells around it. • Open every cell that has no hedgehog to clear the board. • Mobile: tap a cell to open it. Switch"
+      },
+      "reviewedTextHash": "61443151b572fefe368620d55bb6424cad349f049a81500a4b612eb371d77948"
+    }
+  }
+}

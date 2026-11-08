@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "games": {
+    "click-click-clicker-playgama": {
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Click Click Clicker",
+      "description": "Click Click Clicker builds its progression around a single button: pressing it generates in-game cash, and that cash buys upgrades that change how quickly the next purchases become available. The upgrade choices include more cash per click, improved passive earnings, and additional cursors. Active clicking and waiting for idle earnings are both part of the loop, so the useful question before an upgrade is which part of your current income you want to improve.\n\nThe unlocks also change the appearance and sound of the experience. New buttons, cursor designs, backgrounds, and music give you visible milestones beyond the cash counter. Start with the basic button, establish an income source, and then work toward the customization you want. The provider describes both manual and passive earnings, but gives no exact upgrade prices or offline-income rules; use the values shown in the game when deciding what to unlock next.",
+      "instructions": "Press the main button to earn your first cash, then open the available upgrade controls. Compare the upgrades for cash per click, passive earnings, and cursors before choosing an affordable improvement. Continue clicking to fund the next purchase, or let the described idle earnings accumulate. Once a new background, music choice, cursor, or button becomes available, use the customization options to select it.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click "
+      },
+      "reviewedTextHash": "94b49b9ba16ca2ef6f0981abc044f073f8f72b4835c6786772611cab3e25125e"
+    },
+    "build-and-run-playgama": {
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Build And Run",
+      "description": "Build And Run combines running through a level with constructing the pieces of route that are missing. Your available building actions are a platform, a ramp, and a slope, each assigned its own desktop key. Rather than treating every gap as the same problem, look at the shape of the unfinished section and select the construction that continues the route. The game also includes enemies and weapons, giving you a separate action to use when an opponent interrupts your progress.\n\nThe main distinction is the need to alternate between repairing the course and dealing with its hazards. A weapon does not replace the building tools, and the three building commands are separate from one another. Learn their positions before a busy section so that recognizing a missing part can lead directly to the correct input. The provider also mentions character gear and two modes, but does not explain different rules for those modes; the construction and weapon commands are the concrete starting point for either interface.",
+      "instructions": "On a computer, press Q to build a platform, W to build a ramp, and E to build a slope. Inspect the missing part of the route, choose the matching construction, and continue through the level. Press R to use a weapon when confronting a foe. On a phone, use the on-screen buttons for the actions. The supplied controls do not specify a separate running or steering key, so follow the game's displayed movement prompts.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use wea"
+      },
+      "reviewedTextHash": "f29222d0fdf45217c64933a0212d2e8dd2b2917d0b216b2b9487184664a57a7b"
+    },
+    "samurai-survivor": {
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Samurai Survivor",
+      "description": "Samurai Survivor places a warrior against the creatures emerging from a mysterious portal in ancient Japan. The immediate play objective is to survive large groups of enemies while gaining levels and improving skills. The story frames the samurai as defenders of their homeland, but the actionable progression described by the provider is the repeated cycle of survival, leveling, and skill upgrades rather than a documented sequence of portal-closing objectives.\n\nMovement is the control the source explains in detail. You can steer with the arrow keys, drag with the left mouse button held down, or move by touching the screen on mobile. That makes learning to reposition your warrior the first useful task before thinking about a particular upgrade path. As levels become available, read the offered skill choices and use them to develop your current run. The source says the warriors have different abilities, but does not establish a specific attack button or a fixed best build.",
+      "instructions": "Use the up, down, left, and right arrow keys to move in those directions. Alternatively, hold the left mouse button and drag to move around; on mobile, touch the screen to control movement. Keep moving as you face the enemy groups, and use the level-up opportunities to upgrade your skills. Read each offered upgrade before choosing it. No separate attack input is supplied in the provider's instructions.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move"
+      },
+      "reviewedTextHash": "e57e664379cfd23f6a2f5c916e2c6e0d67568a7239ce4928fe566e142ac6bf86"
+    },
+    "pow-2889-1": {
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow",
+      "description": "Pow is a virtual-pet care game in which feeding, cleaning, and playing contribute to looking after a growing creature. Each room presents needs through vertical bars at the top of the screen. Those meters give the care routine a clear starting point: inspect the current needs, use the relevant room's objects, and check whether your attention is filling the bars. Growth and leveling provide a longer-term reason to return to the pet's daily activities.\n\nThe games room connects care with an in-game coin loop. Playing its activities earns coins that can be used for food and room decorations, so playtime also supports feeding and customization. Decorations change the room, while food serves a care need; consider which of those you are trying to address before spending the coins you have collected. The provider's instructions emphasize following the prompts in each room rather than using a complicated keyboard layout.",
+      "instructions": "Use the mouse, or touch the screen, to interact with Pow and the objects around it. First inspect the vertical needs bars at the top of the current room, then follow the on-screen instructions to attend to those needs. Visit the games room to collect coins through its activities. Use the available food to feed Pow and the decoration options to customize the room, checking the needs bars as you move between care tasks.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can s"
+      },
+      "reviewedTextHash": "8956e72c4e94d23a34b20d824be679611f1f80e460a956b219abccd64ba5abb8"
+    },
+    "slides-and-climbs": {
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Slides And Climbs",
+      "description": "Slides And Climbs is a board-game race in which rolling a die advances your colored piece toward the finish. The board includes snakes, so the route to the end can be interrupted by an unfavorable landing rather than progressing as a simple straight race. Its appeal comes from following the changing position of the pieces and the next roll, with the goal remaining the same throughout: reach the finish line.\n\nAt setup, choose the colors for the participants and the available opponent arrangement. The source describes a table of up to six participants and an option to face AI opponents. One specific turn rule is worth remembering: rolling a six grants another roll. Complete that extra roll when it is offered before treating the turn as finished. The supplied rules do not spell out every board interaction or a special finishing-roll requirement, so follow the board's displayed result after each move.",
+      "instructions": "Choose the participant colors and the available opponent setup. Roll the die to advance your piece, then watch where it lands on the board and apply the movement shown by the game. If you roll a six, take the additional roll that the rules grant. Keep following the route toward the finish while watching for snake landings. The source does not specify a keyboard shortcut for rolling; use the game's roll control.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to "
+      },
+      "reviewedTextHash": "d73ac54b1c057879f89aac94cdfcbbb69925aa56629d27e11f1644699d2a0ecd"
+    },
+    "pathfinder": {
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "PathFinder",
+      "description": "PathFinder is a digging puzzle built around sending colored balls into pipes below the surface. You create tunnels rather than steering a character, so the important relationship is between a ball's starting position, the open route you dig, and the pipe it needs to reach. The provider describes 30 levels with increasingly complicated layouts, making a survey of the full board useful before you begin removing material.\n\nMetal blocks and thorns are among the obstacles named in the source. Account for their positions while planning the tunnel instead of drawing a direct line without checking what lies in the way. A practical approach is to locate the receiving pipes first, trace a route back toward the relevant balls, and only then begin digging. This keeps the destination in view while you work through the intervening space. The source identifies the ball colors but does not describe extra tools or a scoring system.",
+      "instructions": "On a computer, click to dig a path; on a phone or tablet, touch the surface to dig. Before making the tunnel, locate the colored balls, the receiving pipes, and obstacles such as metal blocks and thorns. Plan a route around those obstacles, then dig the connection that guides the balls toward the pipes. Examine each new layout before repeating the process, because the 30-level sequence introduces more complex puzzles.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—"
+      },
+      "reviewedTextHash": "2fd90954cf4158f6c75f3e8cdd78032cebf3566a306f0cba03ce9573d7e642c0"
+    },
+    "attack-super-hole": {
+      "sourceHash": "1b33a3fe72d6ef43d337db51f9054aef662e2b166f92ac3484c23b80c835f880",
+      "title": "Attack super hole",
+      "description": "Attack super hole puts you in control of a hole moving across the ground. Your collection objective is to consume as many soldiers as possible before the timer expires, with monsters providing the battle that follows this gathering task. The source describes the monsters as becoming more dangerous, so the timed collection and the combat are both central to the premise.\n\nThe controls distinguish movement from attacking. On desktop, movement uses the keyboard and an attack uses the left mouse button; on mobile, movement uses joysticks and attacking has its own on-screen button. Learn which control moves the hole before starting the attack action. The provider does not identify the desktop movement keys or explain how a collected soldier changes combat strength.",
+      "instructions": "Move the hole around the ground and consume soldiers while time remains. On a computer, use the keyboard for movement and the left mouse button to attack. On mobile, use the joysticks to move and the corresponding attack button to strike. When the monster battle is active, use the attack control. Check the game's own prompts for the exact desktop movement keys, which are not named in the source.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play as a hole on the ground and consume as many soldiers as you can before the time runs out to battle the increasingly",
+        "instructionsQuote": "Moving around on the computer using the keyboard, attacking by pressing the left mouse button. Move around on mobile dev"
+      },
+      "reviewedTextHash": "2f4277f4093715d6755d1ca2d4138e1a0394ec5703270e184c7c31a73a1f05f1"
+    },
+    "durak": {
+      "sourceHash": "36ebcc7a9150db947a8a106ac2b39219c8e942914cb7f53b6fd32e1a30ee0dc2",
+      "title": "Durak",
+      "description": "Durak is a shedding card game: the goal is to empty your hand, and the final participant still holding cards loses. The provider describes a 36-card deck containing six through ace in each suit, with six cards dealt to each participant. A face-up card identifies the trump suit. Recognizing that suit matters because a trump card can beat a card of any rank from the other three suits.\n\nPlay is organized around an attacker and the next defender in clockwise order. The holder of the lowest trump card makes the first attack by placing a card face up, and the defender answers with a defending card. The outcome determines who attacks next: after a successful attack, the defender misses the turn and the attack moves left; after an unsuccessful attack, the defender takes the attacking role. Track the current role and the trump suit before selecting a card, rather than treating the game as a race to click through your hand.",
+      "instructions": "At the start, identify the face-up trump suit and inspect your six-card hand. The lowest trump holder attacks first; the next participant clockwise defends. When attacking, play a face-up attacking card. When defending, answer the attack with a defending card, remembering that trump beats cards of the other suits. Follow the turn outcome to see who attacks next and work toward emptying your hand. Use the game's card controls; the source gives no keyboard mapping.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Durak is essentially a shedding card game where each player will try to get rid of the cards in their hand first. Durak ",
+        "instructionsQuote": "Durak is played by 2 to 4 players. Total cards used are 36 cards - Only 6 7 8 9 10 J Q K A of all suits are used. The de"
+      },
+      "reviewedTextHash": "c94b20147c23a316660d3f70680f308001d121c28da71401b64fe9f666a5c29e"
+    },
+    "about-a-frog": {
+      "sourceHash": "cb683cf809631c39d633209ce7749c108a46b28f9ed87014256dd60c4ede7442",
+      "title": "About a Frog",
+      "description": "About a Frog is an obstacle puzzle with a specific travel objective: get through the barriers so you can activate the sail on a small raft and move farther. The frog's movement is the tool for working through the current arrangement, while the raft's sail gives the scene a destination. Look for that objective before deciding how to cross the intervening obstacles.\n\nThe desktop layout provides both arrow-key and WASD movement, plus separate restart, menu, and mute keys. Those utility controls are useful to distinguish from movement: restarting returns you to another attempt, whereas the menu takes you out of the current scene. The source does not explain individual obstacle types or a jump action.",
+      "instructions": "Move with the arrow keys or WASD: up/W, down/S, left/A, and right/D. Work through the obstacles toward the small raft and activate its sail to advance. If you need another attempt, press R to restart; Q opens the menu and M toggles mute. On mobile, use the on-screen buttons. Gamepad support is listed, but no controller button mapping is supplied.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A puzzle game about a frog in which you need to pass various obstacles to activate the sail on a small raft to advance f",
+        "instructionsQuote": "Desktop Controls: ↑ (Up Arrow) / W: Move upward. ↓ (Down Arrow) / S: Move downward. ← (Left Arrow) / A: Move left. → (Ri"
+      },
+      "reviewedTextHash": "97b78c79ee3323f38046195531052e2ad76d7e7fb2fb0ff9278b2751be745fb2"
+    },
+    "brainrot-mixup": {
+      "sourceHash": "893fda048d8e5532291fa03afcf38970c75651eb49f5bb1a4dc17c988c8d0cee",
+      "title": "Brainrot Mixup",
+      "description": "Brainrot Mixup turns unusual animal-and-object combinations into a tile-arrangement puzzle. The source describes a grid of ingredient images, including bananas, monkeys, cars, and teapots. Your task is to arrange those ingredients in the correct order so they form the intended fused creatures. The comic imagery is the theme, but recognizing and placing the individual parts is the action that solves the board.\n\nThe interaction is direct dragging rather than a keyboard sequence. Examine the ingredient tiles before moving one, decide how it belongs in the current arrangement, and drag it into position. Then inspect the result and continue with the remaining pieces. The provider uses the word merge for forming the creatures, but the supplied controls specifically describe sorting image tiles; they do not establish a separate merge button, combat system, or upgrade loop.",
+      "instructions": "Look over the ingredient images on the grid and identify the parts you need to arrange. On a computer, click and drag an image tile; on a touchscreen, touch and drag it. Place the tiles in the correct order to form the puzzle's combined creature. Review the arrangement after each placement and continue sorting the remaining tiles until the puzzle is solved.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Brainrot Puzzle takes the viral brainrot animal aesthetic and turns it into an actually playable, satisfying, and replay",
+        "instructionsQuote": "In Brainrot Puzzle, your goal is to merge absurd animal ingredients into fully fused brainrot creatures. The game starts"
+      },
+      "reviewedTextHash": "bd653c09aadc5ebea072856af4a7ab11671d5d4296df01a908232c112e032bda"
+    },
+    "drone-dash--time-challenges": {
+      "sourceHash": "14efd59ac269fe47fa6f84b90291cddbdaca72f82c0d6e3bec769d165cf7d8a5",
+      "title": "Drone Dash - Time Challenges!",
+      "description": "Drone Dash - Time Challenges! is a timed movement puzzle in which a drone glides and ricochets between walls and platforms. It does not use a conventional jumping-and-falling platformer movement model. Instead, a click or tap sends the drone bouncing in the chosen direction, making the shape of the surrounding surfaces important to every move through the tight spaces.\n\nEach level asks you to collect bullets before the timer expires. Reaching the minimum collection requirement causes a crystal to appear back at the starting point, and returning to that crystal completes the level. Extra collection can improve the result up to three stars, but the return journey still has to fit within the time available. A trap collision or an expired timer sends you back to the start, so plan both the collection route and the exit route instead of concentrating only on the next pickup.",
+      "instructions": "Click on a computer or tap on mobile to bounce the drone in your chosen direction. Use the walls and platforms to navigate toward bullets while avoiding traps. Collect the required minimum, then look for the crystal that appears at your original starting point. Return to it before time expires to finish. If you pursue more bullets for a higher star result, leave enough time for that return; hitting a trap or running out of time restarts the attempt.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and preci",
+        "instructionsQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and preci"
+      },
+      "reviewedTextHash": "282b566239b07761c843cf0f41a4ce3d4eca5661e5b6886f6d8e5720f7f7a6ac"
+    },
+    "happy-coloring-book-1c70-1": {
+      "sourceHash": "152889f2961a2ebd63e4c93ce9de28c013a26be51f78d70815535e41a5695df6",
+      "title": "Happy Coloring Book",
+      "description": "Happy Coloring Book is a drawing activity built around selecting a picture and adding color with virtual crayons. You choose from the available drawings, then decide how to fill the artwork using the colors and techniques offered by the game. The source presents it as an open creative activity rather than describing a timed challenge, a target score, or a required color solution.\n\nBegin with a drawing you want to work on, choose a crayon color, and build the picture up in sections. You can experiment with a different palette as you go instead of having to reproduce a documented reference image. When the picture is finished, the provider lists save and share options; use the available completion controls if you want to keep the result.",
+      "instructions": "Select a drawing from the coloring book, then choose one of the virtual crayons and apply color to the picture. Continue selecting colors and coloring the drawing until you are satisfied with the result. Experiment with the available colors and techniques as you work. When finished, use the game's save option if you want to keep your creation; sharing is also described in the source.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Color your world with our interactive web coloring book game! Choose from a variety of fun drawings to bring your imagin",
+        "instructionsQuote": "Select a drawing from our coloring book and use the virtual crayons to color it in. Experiment with different colors and"
+      },
+      "reviewedTextHash": "7930a6202f385a730405c49d549117886eaa994bb11ed2f85cf766b770a64ea0"
+    },
+    "nekos-adventure-d640-1": {
+      "sourceHash": "6b1514d1feef5045ea0fb735059cf1835f1acdb65ce6cf596b6125b3870bc62d",
+      "title": "Neko's Adventure",
+      "description": "Neko's Adventure is a cat-led platform game with a rescue goal: Neko is trying to reach his girlfriend through a sequence of 20 levels. Traversing the route and dealing with the enemies are the concrete challenges described by the provider. Desktop movement uses the left and right arrows, with the up arrow reserved for jumping, so direction and jumping are separate inputs to learn at the start.\n\nThe adventure also introduces the Power Beam, an unlock that lets Neko shoot fire. Spacebar is the fire command, but the description ties that ability to unlocking the beam rather than promising it at the beginning of every level. Treat the movement controls as your starting toolkit and add the fire action when the game makes it available. On mobile, the same interaction is handled through touchscreen buttons instead of a keyboard.",
+      "instructions": "Use the left and right arrow keys to move Neko and the up arrow to jump. Work through the platforming route and watch for the enemies along it. When the Power Beam has been unlocked and is available, press Spacebar to shoot fire. Continue through the levels toward the rescue objective. On mobile, use the touchscreen buttons for movement, jumping, and the available actions.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Neko’s Adventure is a vibrant platformer starring Neko, a playful cat trying to rescue his girlfriend. Explore 20 challe",
+        "instructionsQuote": "Desktop Left\\Right keys - move Up key - jump Spacebar - shoots fire Mobile - Touch screen buttons"
+      },
+      "reviewedTextHash": "2ffe4df650351b350c3c691bb8331d56803556b2d680c8aef57fef68fd761cf2"
+    },
+    "Shopping-simulator": {
+      "sourceHash": "50b7dcd9240e8b8a0e82ea14c94170c71b6937a29316ceca602b9b190a62e7b2",
+      "title": "Shopping Simulator",
+      "description": "Shopping Simulator links a store collection to an in-game earning and leveling loop. Tapping a hamster and completing puzzles are ways to earn the game currency used for shopping and progression. The source describes a catalog of more than 500 items and a customer progression of 200 levels, giving the activity two connected targets: develop the customer's level and collect things from the shelves.\n\nThe shelves span themes such as food, pets, household goods, anime, and horror. Those themes describe the variety of items rather than different control schemes. Start with an earning activity, check what your current level makes available, and then decide which store items to pursue. Mini-games provide another part of the earning loop, so the hamster is a named starting action rather than the only activity mentioned. Exact rewards, item prices, and level thresholds are not supplied by the provider.",
+      "instructions": "Tap the hamster to earn in-game money, and complete the available puzzles or other mini-games to earn more. Use those earnings through the game's progression controls to raise the customer's level. Check the store shelves for items available at your current stage, then choose what to collect. Return to the earning activities when you need more game currency for further progression or purchases.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Earn game money by tapping the hamster, raise the customer's level and buy everything from the store shelves. Anime, hor",
+        "instructionsQuote": "Earn game money in different mini-games to upgrade your level! Tap the hamster and complete the puzzles to get as many a"
+      },
+      "reviewedTextHash": "d5773728edc9e507a541e4c7dbde84aa182f1b3836fdd56e694e932f1a47bdea"
+    },
+    "school-escape-obby": {
+      "sourceHash": "72fe6c468e62e1d90b0d85d3b5a695d2073196bdccaeac836ef04d67c3e2d75d",
+      "title": "School Escape Obby",
+      "description": "School Escape Obby is an obstacle-course escape with a timed objective. Its locations range from school corridors to dungeon-like areas, and its challenges call for movement, jumping, dodging, and puzzle-solving. The important goal for a first attempt is to find a route out of the school while learning how the environment responds to your movement and interaction commands.\n\nThe desktop inputs separate navigation from object interaction: WASD moves, Space jumps, and E interacts with objects. Clicking an object is another supported way to interact. There is also a command to push an enemy, so an encountered obstacle may require a different action from simply jumping past it. Use the pause and cursor controls when you need to inspect the interface. The source mentions character skins, but selecting an appearance is separate from the escape route and does not establish a gameplay advantage.",
+      "instructions": "On a computer, move with WASD and jump with Space. Explore the route, dodge obstacles, and use E or a mouse click to interact with objects relevant to the escape. Press F to push an enemy when that action is needed. Shift shows the cursor, and Tab pauses the game. On a phone, use the on-screen controls. Follow the escape objective while keeping the time challenge in mind.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dive into the thrilling world of School Escape Obby — a vibrant online game in roblox style with stunning graphics and d",
+        "instructionsQuote": "Escape from school, play for time Controls on PC: Shift - show cursor WASD - move. Space - jump. TAB - pause. F - push e"
+      },
+      "reviewedTextHash": "a09bbf9e390554fd8f668eb29ee4847be8a008692f170f4b4934b080306d7074"
+    },
+    "cup-quest": {
+      "sourceHash": "1a86289409b1a97c5db34314fb17bc117f7f2df8b6ae5b7f328c4767db0dff13",
+      "title": "Cup Quest",
+      "description": "Cup Quest combines a cat-hero adventure with a balls-and-cups puzzle. The aim described by the provider is to guide a ball through the environment and land it in a cup, with timing and positioning affected by the level's obstacles. Spinning platforms, explosives, enemies, and traps are among the features named in the description, so inspect the space around the cup before committing to an attempt.\n\nThe source lists more than 200 levels and a progression that unlocks feline heroes. For the immediate puzzle, however, the documented input is the mouse: it guides balls dropping from the cup and operates interface buttons and power-ups. Learn how the current level responds to that input before assuming a particular launch gesture. The description discusses bounces and aiming, but does not specify a click-and-drag power meter or a separate keyboard command.",
+      "instructions": "Use the mouse to guide the balls dropping from the cup, watching how the current arrangement affects their route. Inspect the target cup, platforms, and hazards, then adjust your mouse-guided attempt to reach the cup. The mouse also operates the interface buttons and available power-ups. Continue with the next puzzle when the game allows it. No keyboard mapping or specific drag-to-launch gesture is given in the source.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Cup Quest – Hero’s Journey: A Feline Hero’s Adventure Begins! Join a brave cat on an epic quest in Cup Quest – Hero’s Jo",
+        "instructionsQuote": "Use the mouse to guide the balls dropping from the cup, and mouse is also used for interacting with UI elements (buttons"
+      },
+      "reviewedTextHash": "7f88281c8e2d22d5f93ca646f554d69b43fdff22767f68adf51baa6d4337cdff"
+    },
+    "outside": {
+      "sourceHash": "c81f1c2b9d622ea2108512b3abcb20483f007048c2b5dee4fa2ab0992915a79a",
+      "title": "OUTSIDE",
+      "description": "OUTSIDE is a grid puzzle about moving a one-eyed character to a key and then to the door it unlocks. Its defining rule is continuous sliding: after you choose a direction, the character keeps moving until a wall stops it. A tile that lies along a route is therefore different from a place where you can stop and make another decision. The walls determine the useful stopping points.\n\nBefore moving, inspect how a sequence of those stopping points can connect the character, key, and door. Look beyond the next direction and consider where the slide will actually end. Dead ends can leave you without a useful continuation, so a route that looks short is not automatically the one that reaches the objective. Restart is available as a dedicated control when you want to try a different plan, while the menu and mute controls serve separate purposes.",
+      "instructions": "Use the arrow keys or WASD to choose up, down, left, or right. Expect the character to continue in that direction until a wall stops the slide. Plan a sequence of wall stops that reaches the key and then the unlocked door. Press R to restart, Q for the menu, and M to mute. On mobile, swipe to move and use the UI buttons for restart, menu, or mute. Gamepad support is listed without a button mapping.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "OUTSIDE is a minimalist puzzle game where every move counts. Guide your one-eyed character across a grid to collect the ",
+        "instructionsQuote": "Desktop Controls: ↑ (Up Arrow) / W: Move upward. ↓ (Down Arrow) / S: Move downward. ← (Left Arrow) / A: Move left. → (Ri"
+      },
+      "reviewedTextHash": "df72a0c75930a73fd68ff766f76d5ffd0ccef3bf7c5ab083c573c56c7983f5ba"
+    },
+    "idle-pop-merge": {
+      "sourceHash": "0c49047590d37597fcd27975414002b49d24e7a9991b8e5db03a97adadfbde35",
+      "title": "Idle Pop Merge",
+      "description": "Idle Pop Merge starts with a small fighter and develops a team through combining identical characters. The provider describes 32 cartoon warriors and a 3-by-3 battle grid, so the board has two related jobs: holding the current team and providing the spaces where you arrange or merge its members. Matching identities matter when you want a new form; simply placing two different fighters near one another is not the merge rule given in the source.\n\nBattles form the progression around that board. The source lists 120 enemies and challenges involving single, double, and triple arenas, with victories bringing you closer to additional fighters. Tapping can boost attack speed, while dragging handles the team arrangement. Inspect your available spaces and identical fighters first, make the desired merges, and then use the tap action during combat when you want the described attack-speed boost.",
+      "instructions": "Drag and drop characters into the available grid slots to arrange your team. Identify identical fighters and combine them to create a new form. Check the space left on the 3-by-3 board after a merge before moving the next character. During battles, tap to boost attack speed. Continue facing the available enemy challenges and use the fighters unlocked through progression to develop the team further.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🎮 MERGE, TAP, CONQUER! 🎮 Welcome to the ultimate cartoon merge adventure! Start with one tiny fighter and build an uns",
+        "instructionsQuote": "Drag and drop the characters into the available slots to combine and merge them into powerful new forms!"
+      },
+      "reviewedTextHash": "c27a960090f76652acf6a1c63483d73ff4328ab9f6391e299264935f5dfe3141"
+    },
+    "organize-it": {
+      "sourceHash": "4020b81bc4adc8189e0c3b5d2002370205c73b896d283a061455f395e7a11e0f",
+      "title": "CLUTTER MASTER",
+      "description": "CLUTTER MASTER is a room-organizing puzzle built around returning scattered objects to their correct places. Each scene presents a messy room, and completing its arrangement leads automatically to a new room. The aim is therefore to resolve the whole room, rather than treating one successfully placed object as the end of a level.\n\nInteraction begins by clicking an object to grab it, followed by dragging it toward the intended spot. The instructions also say to click again to release it. Look at the room and choose an object whose destination you can identify, then work through the remaining clutter in the same way. The provider mentions a secret at the end but gives no details about it; the documented route forward is to keep completing the room arrangements.",
+      "instructions": "Click an object to grab it, drag it toward the place where it belongs, and place it in the correct spot. The source also specifies clicking again to release the object. Continue organizing the remaining items until everything in the room is in place. Once the arrangement is complete, the game automatically advances to a new room, where you repeat the same sorting process.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Clutter Master is a handcrafted casual cozy game where you organize a messy room by placing each item where it belongs. ",
+        "instructionsQuote": "Organize the messy room by placing each item where it belongs. Click on an object to grab it, then drag and drop it into"
+      },
+      "reviewedTextHash": "ecbbae1ce0aefcb7fecc25a82fee2d3a26127c1082295e56c4ea0abfa186962f"
+    },
+    "rpg-idle-clicker": {
+      "sourceHash": "74c243949aeeabdb8f4e25488a29ef0c31d656e79b6f81febb47f40a6180370e",
+      "title": "RPG Idle Clicker",
+      "description": "RPG Idle Clicker begins with direct attacks on monsters and builds an incremental progression around the rewards. Clicking or tapping an enemy deals damage; defeating monsters earns in-game gold that supports stronger attacks. Swords are part of that development, with blade upgrades and equipment choices providing ways to improve the attack setup as you face tougher enemies and bosses.\n\nRecruiting heroes adds an automatic attack component alongside your own input. That makes the progression more than repeatedly tapping the same target: you also need to inspect the sword, hero, and equipment controls to decide how to develop the current setup. A useful starting order is to learn the direct attack, earn enough gold for an available improvement, and then check the automatic hero options. The provider describes idle progression, but does not give exact reward rates or upgrade costs.",
+      "instructions": "Tap or click an enemy to deal damage and continue until it is eliminated. Use the earned gold through the interface to upgrade sword levels and develop the available heroes. Open the equipment controls when you have an item to equip, then return to attacking the current enemies. Recruit the auto-attacking heroes when available to add their attacks to your progression. Read the displayed costs before selecting an upgrade.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "RPG Idle Clicker is an incremental game where you embark on an adventure to slay monsters. Click to deal damage, earn go",
+        "instructionsQuote": "Tap the enemy to deal damage and eliminate them. Interact with the UI buttons to upgrade sword levels, heroes, equip ite"
+      },
+      "reviewedTextHash": "74289f726cb703e9332166d94d66b18c8c3b609974e3eeb8fec745f86f3cd0c0"
+    },
+    "clawler-fight": {
+      "sourceHash": "daec3272868818d4b3e5951974deb2ac7f4649712d66d564c1bbc7a421d905ce",
+      "title": "Clawler Fight",
+      "description": "Clawler Fight turns a crane claw into the main tool of a zombie-survival game. You aim the claw at items, release it to make a grab, and let the picked-up items take effect automatically. This makes the collection action part of fighting through the enemy waves rather than a separate inventory task requiring a manual use command for every object.\n\nThe progression includes improvements to the claw's grip strength and item-storage width. Those are distinct upgrades: one concerns the grip and the other the space available for collected items. Between waves, ability choices offer another way to improve item-grabbing power. Start by observing what your aimed drop collects, then use the available improvements to develop that same collection loop. The provider also describes resources, currency, and card-based skill progression, but does not specify an exact upgrade cost or a universal best ability sequence.",
+      "instructions": "Swipe to aim the claw, then release your finger to drop it onto the items below. Watch the result of the grab; picked-up items are applied automatically, so no separate item-use input is described. Use the available upgrades to improve grip strength and item-storage width. Between enemy waves, read the offered abilities and choose one that improves your item-grabbing setup before the next wave begins.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Immerse yourself in the thrilling blend of addictive gameplay of Clawler fight! In this action-packed game, you step int",
+        "instructionsQuote": "Swipe to aim the Claw. Release your finger to drop it onto items. Picked-up items are applied automatically. Upgrade you"
+      },
+      "reviewedTextHash": "4958f406f22ee83d2321bb50a8b5d1d46c17b1b939a2ec59e7457166f3e66feb"
+    }
+  }
+}

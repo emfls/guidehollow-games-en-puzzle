@@ -119,7 +119,8 @@
       const image=$('[data-shell-image]');image.src=game.thumbnail;image.alt=game.title;image.dataset.gameImage='';
       const favorite=$('[data-shell-favorite]');favorite.dataset.favorite=game.id;favorite.dataset.gameTitle=game.title;
       $$('[data-shell-source]').forEach(a=>a.href=game.affiliateUrl);
-      const path=locale=>game.languages.some(language=>language.locale===locale)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
+      const pageLocales=game.pageLocales||game.languages.map(language=>language.locale);
+      const path=locale=>pageLocales.includes(locale)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
       $('[data-shell-languages]').replaceChildren(...game.languages.map(language=>{const a=document.createElement('a');a.href=path(language.locale);a.lang=language.locale;a.textContent=language.name;return a;}));
       $$('.language-panel a').forEach(a=>a.href=path(a.lang));
       error.hidden=true;$('[data-player-content]').hidden=false;updateFavorites();watchImages(preview);

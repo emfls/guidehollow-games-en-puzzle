@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh",
+  "games": {
+    "diamant-match-3-sky-story": {
+      "description": "这是一款把宝石三消与空中城市建设结合起来的冒险游戏。玩家需要把三个或更多彩色宝石排成一线，完成关卡目标，再逐步发展属于自己的浮空岛。岛屿的变化与解谜进度相连：研究找到的建筑蓝图，扩展岛屿，并为它配置不同寻常的建筑，让一座空中城市逐渐成形。\n\n棋盘的难点并不只有宝石排列。资料列出的障碍包括坚硬的石块、蜜蜂、蜘蛛、黏住道路的蛛网以及奔流的河水。面对不同布局，应先辨认当前目标与障碍的位置，再决定怎样组成消除组合。特殊组合还能召唤帮手，为处理复杂棋盘提供另一种途径。\n\n游戏提供八种助手魔像，各自拥有不同的特殊能力，而且能力能够继续培养。完成关卡与不同任务可以取得珍贵的工艺品，用来升级城镇、增加装饰。寻找蓝图、调用魔像、解决三消谜题和建设岛屿是相互衔接的过程，适合希望在一轮轮解谜之外，也能看到城市逐步发展的玩家。",
+      "instructions": "将三个或更多同色宝石排成一线，按照当前关卡目标完成谜题。先查看石块、蜜蜂、蜘蛛、蛛网和河流等障碍，再选择有助于推进目标的组合；可以使用特殊组合及魔像伙伴来帮助清理难处理的棋盘。\n\n通关并完成各类任务，收集工艺品和隐藏蓝图。随后扩展浮空岛、研究蓝图、升级城镇并添加装饰。八种魔像的能力也可发展，选择帮手时可结合眼前棋盘的问题考虑。",
+      "sourceHash": "e900134e6adc3eeccec5991d0a6450f287ea58ad168a93031ff12b3174f226f5",
+      "title": "钻石三消：天空故事",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A fun adventure with match 3 elements. Create your own soaring city in the sky An exciting adventure in the world of Dia",
+        "instructionsQuote": "Line up three or more colorful gems to achieve your goals and solve challenging puzzles! Prepare to face a variety of obstacles - from solid"
+      },
+      "reviewedTextHash": "c5320d8ae9ced5f1afe0afdc6c0ef1b99f62e29b12d0b45581b5c4da67de5511"
+    },
+    "police-chase-simulator": {
+      "description": "这款驾驶模拟游戏围绕警察追逐、赛车和碰撞破坏展开。可选车辆超过十五辆，包含轿车、SUV、卡车和特殊车辆。玩家可以参加竞速，也可以进入沙盒自由驾驶；两种玩法的共同基础是选择车辆、熟悉场地，再观察车辆在驾驶与碰撞中的表现。外观调整包括车身各部分的涂装，以及车轮的外倾角、高度和尺寸。\n\n地图提供不同的驾驶环境：城市有宽阔街道与绿色郊区，月球具有低重力与太空背景，乡村有山丘、可供跳跃的岩石和破坏区域，测试场则配置坡道、压力机与多种实验道具。选择场地时可以结合想观察的驾驶情形，不必把每张地图都当成相同的赛道。\n\n车辆受到撞击后会出现车身挤压、车门或车轮脱落、车窗碎裂等表现，环境也有部分可破坏内容。游戏还提供减慢时间的操作，用于查看激烈场面。重置车辆与修复车辆各有独立按键，因此遇到需要重新摆放车辆或恢复车况的情况时，应先分清这两种操作。",
+      "instructions": "电脑端用WASD驾驶，空格键使用手刹，Shift使用氮气，C切换视角。R重置车辆，K修复车辆，B减慢时间；TAB或Escape打开暂停菜单。先选好竞速或沙盒模式，再根据地图中的道路、坡道和装置驾驶。\n\n移动设备使用游戏画面上的操作界面。调整车辆或观察碰撞时，注意区分R的重置与K的修复作用；需要放慢场面时使用B，不要把它与暂停菜单混淆。",
+      "sourceHash": "86948a382b966cdaf0b931be182b8fe02a494715a3855dd2ccd15b99583cd977",
+      "title": "警察追逐模拟器",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dive into the world of police chases, destruction, and crazy races! Choose from over 15 vehicles, including sedans, SUVs",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) WASD - driving. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca"
+      },
+      "reviewedTextHash": "9c4503cf83963698f23b7e0134ebeeadc65b00673c4d587543c23dbb40ce79e0"
+    },
+    "pocket-universe": {
+      "description": "玩家从一个属于自己的小世界出发，通过收集资源与解锁土地，让它逐步扩展成更大的天地。木材、石头、金属和水晶是资料中明确列出的资源，它们既是探索的收获，也是继续发展的投入。收集并不是单独存在的动作：取得资源之后，还需要决定把它们用于工具升级，还是投入新的六角形区域。\n\n探索过程中会遇到不同生态环境，包括茂盛草地、冰冻苔原和火山区域。工具能够升级，升级与采集稀有材料有关，因此扩地和改进工具需要放在同一个进度里考虑。操作核心是用摇杆移动角色，接近并开采岩石、树木与水晶，再把得到的资源用于后续发展。\n\n尚未探索的土地也会受到怪物、魔像和野生生物的守护，前进途中除了采集，还要面对敌人。这使游戏的循环同时包含资源积累、工具提升、解锁新地区、探索环境和战斗。游玩重点在于逐块扩大世界，并通过新地点与更好的工具继续获得发展所需的材料，而不是只停留在最初的采集区域。",
+      "instructions": "使用摇杆移动角色，开采岩石、树木和水晶以收集资源。将资源花在工具升级或新六角形土地的解锁上，再进入新的生态区域探索。资料列出的资源包括木材、石头、金属与水晶，工具升级能够帮助采集稀有材料。\n\n探索草地、苔原和火山等环境时，也会遇到守护未开发区域的怪物、魔像及野生生物。按照采集、升级、扩地与战斗的流程前进，逐步把最初的小世界扩大。",
+      "sourceHash": "3f2322038dfec9b35b0c3cbd30babf644089a03d2d6798c11674443e3f35ac28",
+      "title": "口袋宇宙",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Pocket Universe is an adventure game where players build and expand their own tiny world. 1. Gather resources (wood, sto",
+        "instructionsQuote": "How to Play Use the joystick to move your character. Collect resources by mining rocks, trees and crystals. Spend them to upgrade tools, unl"
+      },
+      "reviewedTextHash": "35ac23150da109fe2f69b229c6e4ecab8edde744048fa6d55b419097a84e2495"
+    },
+    "domino-online-multiplayer": {
+      "description": "这是一款以连接相同点数、尽快出完手牌为核心的多米诺对战游戏。电脑对手提供九个难度等级，也可选择在线对局、发送链接邀请朋友，或在同一屏幕上与身边的人对战。时间设置包括Bullet、Blitz、Rapid与Classic，另外还有提示、悔步、对局历史、评分和统计，方便查看自己每一步的选择。\n\n每位玩家开局获得七张牌，由持有最小非空白双牌的人先出。双方轮流延长桌上的牌链，使相邻两端的点数一致。如果手上没有符合开放端点数的牌，就从剩余牌堆中抽取，直到找到能够连接的牌。率先出完手牌的人赢得这一轮，另一方按剩余牌计算罚分。\n\n罚分通常是剩余点数之和，但零零牌计二十五分，六六牌计五十分。如果牌堆已空且无人能够继续出牌，该轮结束，剩余点数较少者获胜。每轮之后继续下一手，直到有人累计到一百分罚分，这名玩家成为整场游戏的负者。因此选择出牌顺序时，既要关注当前能否连接，也要留意可能留在手中的高罚分牌。",
+      "instructions": "选择电脑、在线、链接邀请或同屏对战，再设置时间模式，需要时开启提示。每人获得七张牌，最小的非空白双牌持有者先出。轮流在牌链开放的一端接上相同点数；没有匹配牌时，从余牌中抽到能够出牌为止。\n\n出完手牌即可赢得该轮。牌堆为空且双方都不能出牌时，以剩余点数较少者胜出。剩余点数计入罚分，其中零零为二十五分、六六为五十分；累计到一百分罚分的人输掉整场。",
+      "sourceHash": "8b7b3c71981f8dee7092711a91de68427d1d52e58e6941669156f21841086263",
+      "title": "在线多米诺对战",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Domino Online Multiplayer: Challenge Your Mind in Exciting Domino Duels! Are you ready for a thrilling battle of wits an",
+        "instructionsQuote": "Getting Started Choose your game mode: - play against the computer; - engage in online duels with real players; - play with a friend by shar"
+      },
+      "reviewedTextHash": "f2b5aa48c9ed8cea2ab7e36999d29160ed4f87d89da2a2265f0a81779c72fd33"
+    },
+    "click-click-clicker-playgama": {
+      "description": "这是一款通过点击按钮积累游戏内资金，再把资金投入升级的放置点击游戏。最初的进度来自一次普通点击，之后逐渐获得更多收入，并解锁新按钮、光标、主题和音乐。视觉与声音的变化也属于推进过程的一部分，需要先完成相应解锁，才能用来调整游戏外观。\n\n升级分为几个明确方向：增加被动收入、提高每次点击获得的金额，以及增加光标数量。因此，点击所得资金不只是用来购买装饰，也能改变后续积累资金的方式。玩家可以继续手动点击，或者等待放置收益，再购买下一项升级。背景、音乐、光标和按钮都可以定制，整个循环就是点击或等待收益、购买提升，再逐步取得新的可选内容。",
+      "instructions": "点击画面中的按钮获得游戏内资金，然后购买升级。升级方向包括被动赚钱能力、单次点击金额和光标数量，按当前可购买的内容继续推进。\n\n需要更多资金时，可以继续点击，也可以等待放置收入。新背景、音乐、光标和按钮必须先解锁，再用于定制画面与声音；重复积累资金和升级的过程，取得更多可用内容。",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "点击小能手",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "ad5069845e300dff3f92b3127051e9d7f1b7d7c39b975f3bb8623610be39dbbc"
+    },
+    "build-and-run-playgama": {
+      "description": "这款街机游戏把奔跑、修建路线和对付敌人放在同一段闯关过程中。玩家面对的道路并不总是完整的，需要补上关卡缺失的部分，再继续穿过场景。平台、坡道和斜坡对应不同建造操作，因此观察前方缺口与地形，再选择要修建的结构，是理解玩法的关键。\n\n电脑端把三种建造行为与武器分别放在Q、W、E、R上，操作时需要分清眼前的问题属于铺路还是迎敌。手机端则通过屏幕按钮完成操作。游戏介绍还列出两种模式，以及用装备改变角色外观的内容，但具体推进仍围绕跑过关卡、补齐道路并使用不同武器应对敌人展开。先熟悉各按键代表的动作，再把路线建设与向前推进衔接起来，有助于理解整个过程。",
+      "instructions": "补上关卡中缺失的道路部分，继续向前闯关。电脑上按Q建造平台，W建造坡道，E建造斜坡，R使用武器。先查看需要跨越或连接的地形，再选择对应建造键；遇到需要对付的敌人时使用武器。\n\n手机端使用屏幕上的操作按钮。把修建道路与使用武器分开记忆，依照当前场景需要执行动作，并在行进过程中继续补齐路线。",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "建造与奔跑",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "ccbe613fd2df2e2948b3dc08ff19e75e95e2dd86d92db253cef131ec783f8948"
+    },
+    "samurai-survivor": {
+      "description": "故事发生在古代日本：神秘传送门突然开启，大批怪物涌入人间，一群武士成为保护故土的最后防线。每位武士拥有代代相传的独特技能与能力，需要用这些力量抵御黑暗势力。关闭传送门、让这片土地恢复和平，是游戏介绍交代的故事目标。\n\n玩法重点是在数百名敌人面前生存，并在过程中提升等级、强化技能。角色移动可使用方向键，也可以按住鼠标左键拖动，手机端则通过触摸屏幕向各个方向移动。这里的成长与生存相互关联：一边处理大量敌人带来的压力，一边逐步提升能力。先熟悉方向控制，再结合升级推进，是理解这款武士生存游戏的基本顺序。",
+      "instructions": "电脑上用↑向上、↓向下、←向左、→向右移动。也可按住鼠标左键并拖动，让角色向各个方向移动；手机端通过触摸屏幕控制方向。\n\n目标是在数百名敌人面前坚持生存，同时提升等级并升级技能。先选择自己熟悉的方向操作方式，在移动过程中持续推进成长；生存与等级提升是介绍中明确的推进内容。",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "武士幸存者",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "4362a7949f8e1d5bd22f0ed253ae704b5f5900591dc279ed88d1787ba9e22685"
+    },
+    "pow-2889-1": {
+      "description": "这是一款照顾宠物Pow的养成游戏，日常内容包括喂食、清洁、陪它玩耍，并看着它在升级过程中长大。各房间的画面顶部有竖直的需求条，能够显示Pow当前的需要。照顾时应结合所在房间与需求条的变化，完成相应互动，让这些状态保持充足。\n\n游戏室里有不同小游戏，玩家可通过游玩收集金币，再用金币购买喂养Pow的食物，以及用来定制房间的装饰。小游戏的收获因而会回到照顾宠物与布置房间的循环里，不只是单独的分数。资料还提到可向朋友发起挑战的三种小游戏。操作使用鼠标或触屏，选择Pow及场景中的物品，并按照屏幕指示进行；重点是持续查看需求，并配合游戏室活动和房间装饰推进养成。",
+      "instructions": "用鼠标或触摸屏幕与Pow及物品互动，按照画面提示操作。查看每个房间顶部的竖直需求条，再完成对应照顾，尽量让需求条保持充足。\n\n给Pow喂食、清洁并陪它玩耍；进入游戏室游玩小游戏、收集金币，再购买食物和房间装饰。把需求检查、日常照顾与小游戏收益衔接起来，观察它的成长和等级变化。",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "照顾小宠物波",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "35aa245ee241d66a7d0829c10cd315b6546f45b612743a38812484516dc031c3"
+    },
+    "slides-and-climbs": {
+      "description": "这款棋盘游戏以掷骰子、移动棋子并到达终点为基本流程。它取材于传统英国同名桌游，也是美国Chutes and Ladders这一版本的灵感来源。玩家随着骰子点数在棋盘上前进，需要留意蛇的位置；每次掷出的数字都会改变当前进度，因此一轮轮轮流行动就是主要节奏。\n\n游戏既可单人游玩、选择电脑对手，也支持与身边朋友在本地一起玩。参与人数最多六人，每位玩家可选择自己的棋子颜色，便于辨认各自在棋盘上的位置。规则中特别明确的一点是：掷出六点可以额外再掷一次。了解这个追加机会后，再按每次点数推进棋子，逐步争取到达终点即可。选择对手与颜色之后，就可以沿着棋盘继续这场由出目推动的比赛。",
+      "instructions": "先决定参与人数并分别选择棋子颜色，最多六人，也可选择电脑对手。轮到自己时掷骰子，按照点数移动对应棋子，继续向终点推进。\n\n如果掷出六点，可以额外再掷一次，记得完成这次追加行动。游玩时留意蛇的位置和当前棋子的进度。与朋友一起玩时采用本地方式，单人游玩则可选择与电脑对手比赛。",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "滑梯和攀爬",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "b1d861f93c341ae089d5e626a3a1412e8718173a9163e02791a433dd8977bab5"
+    },
+    "pathfinder": {
+      "description": "这是一款通过挖掘地下通道，把彩色小球引向下方管道的二维解谜游戏。玩家需要改变的是小球行进的路线，因此开始时应先看清小球、目标管道与两者之间的地形关系，再考虑通道从哪里经过。触屏或点击就是挖路的主要操作，核心问题则是怎样让所挖出的路径服务于目标。\n\n游戏共有三十个关卡，随着进度推进，谜题会变得更加复杂。金属块和尖刺是介绍中列出的障碍，规划路线时必须把它们的位置一起考虑，而不是只看小球与管道之间的直线距离。手机、平板和电脑都在资料支持的设备范围内。每关继续围绕挖掘、引导与抵达管道展开，在新的布局中重新寻找合适的道路，逐步处理更复杂的空间关系。",
+      "instructions": "在手机或平板上触摸屏幕，在电脑上点击，以此挖出地下通道。先查看彩色小球与目标管道的位置，再观察金属块、尖刺等障碍，规划能够把小球引过去的路线。\n\n沿计划的位置挖路，让小球进入地下的管道，继续挑战后续关卡。全程共有三十关，布局会逐渐复杂，因此每次开始时都应重新查看地形，避免直接沿用上一关的路径。",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "探路者",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "7add2e8694253fe175e319c0feecf01f49c1514e1ab6cbf7b4268057083275fe"
+    },
+    "durak": {
+      "description": "杜拉克是一款以尽快出完手牌为目标的纸牌游戏，最后仍拿着牌的人输掉这一局。“Durak”这个名称指向败者，因此游戏的重点是避免成为最后留牌的人。有人出完手牌后，就退出这一局的后续行动，等待其他玩家继续决出负者，可能不止一人成功出完牌。\n\n游戏支持二至四人，使用三十六张牌：四种花色中各自保留六、七、八、九、十、J、Q、K、A。开局每人分得六张，牌堆底牌翻开，用来标示将牌花色。持有最小将牌的人先攻击，顺时针相邻玩家负责防守。任意点数的将牌都能压过其他三种花色的牌，攻防结果还会改变下一名攻击者，因此要同时关注手牌与当前轮转关系。",
+      "instructions": "二至四人使用三十六张牌，每人获得六张，翻开底牌确定将牌花色。最小将牌持有者先攻击，顺时针下一人防守。攻击者把牌正面打到桌上，防守者用防守牌回应；将牌可压过其他三种花色的牌。\n\n攻击成功时，防守者失去下一次行动，攻击转给其左侧玩家；防守成功时，防守者成为下一位攻击者。出完手牌后退出本局并等待其他人，最后仍持有手牌的人输。",
+      "sourceHash": "36ebcc7a9150db947a8a106ac2b39219c8e942914cb7f53b6fd32e1a30ee0dc2",
+      "title": "杜拉克",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Durak is essentially a shedding card game where each player will try to get rid of the cards in their hand first. Durak ",
+        "instructionsQuote": "Durak is played by 2 to 4 players. Total cards used are 36 cards - Only 6 7 8 9 10 J Q K A of all suits are used. The deck is shuffled, and "
+      },
+      "reviewedTextHash": "2fa49741ffa701b7233c1a352c08bfe031f7e3081db0815fb307aef741808d70"
+    },
+    "brainrot-mixup": {
+      "description": "这款拼图把奇异动物梗与素材组合放在一起，目标是把荒诞的动物元素整理成完整融合的生物。开局棋盘会出现随机素材图片，例如香蕉、猴子、汽车、茶壶等。玩家需要辨认这些图案，再把图片整理成正确顺序；素材之间的奇怪组合就是题材本身，也构成了观察与排序的重点。\n\n操作采用拖动图片的方式：手机端触摸并拖动，电脑端点击并拖动。解决问题时应以当前棋盘上的实际素材为线索，看清图片对应的内容，再移动到合适位置。它的核心不是背诵普通动物的外观，而是根据这些混合素材完成拼图。提供的玩法同时面向手机、休闲网页与电脑，输入方式虽不同，整理顺序并拼成融合生物的目标相同。",
+      "instructions": "先观察棋盘上随机出现的素材图片，包括香蕉、猴子、汽车和茶壶等，再把图片移动并整理成正确顺序，完成融合生物的拼图。\n\n手机端用手指触摸图片后拖动，电脑端点击图片并保持拖动。按照当前素材的内容与顺序整理位置，逐步完成组合；操作重点是移动图片并排对顺序，目标是拼成完整的奇异生物。",
+      "sourceHash": "893fda048d8e5532291fa03afcf38970c75651eb49f5bb1a4dc17c988c8d0cee",
+      "title": "脑腐混合",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Brainrot Puzzle takes the viral brainrot animal aesthetic and turns it into an actually playable, satisfying, and replay",
+        "instructionsQuote": "In Brainrot Puzzle, your goal is to merge absurd animal ingredients into fully fused brainrot creatures. The game starts with a grid filled "
+      },
+      "reviewedTextHash": "08e6c810f2a79de781df41c5fa224b3ea815820c4af64c8ec1bbed9078ef26bf"
+    },
+    "drone-dash--time-challenges": {
+      "description": "这是一款控制小型无人机在墙壁与平台之间反弹的限时街机解谜游戏。移动方式像在不同表面之间滑行与折返，并不依靠跳跃或重力下落穿越关卡。因此，选择反弹方向、查看狭窄空间与陷阱的位置，是推进时要考虑的主要问题。\n\n任务是在时间耗尽前尽可能多地收集子弹，收集量影响星数，每关最多三颗星。拿到最低要求数量后，发光水晶会出现在出发点；返回并到达水晶，才能完成关卡。也就是说，收集到最低数量只是打开完成条件，还需要留出时间回到起点。\n\n碰到陷阱或耗尽时间都会回到开头重来。电脑端通过点击让无人机朝所选方向反弹，手机端则使用点按。短关卡里会出现新的陷阱与特殊方块，路线选择需要同时考虑收集数量、当前方向和返回起点的距离。想争取更多星时，也应把完成关卡所需的回程纳入路线安排。",
+      "instructions": "电脑端点击、手机端点按，选择无人机反弹的方向，在墙壁和平台之间移动并收集子弹。没有普通跳跃或重力下落，移动应围绕表面反弹来理解。\n\n收集到最低要求数量后，回到出发点出现的发光水晶处完成关卡。每关最多三颗星，收集越多越有利；但碰到陷阱或时间耗尽会重新开始，因此规划路线时也要考虑返回起点。",
+      "sourceHash": "14efd59ac269fe47fa6f84b90291cddbdaca72f82c0d6e3bec769d165cf7d8a5",
+      "title": "无人机冲刺 - 时间挑战！",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and preci",
+        "instructionsQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and precision bouncing are th"
+      },
+      "reviewedTextHash": "1b6f29b283647212a18f48ae3a1433f4afb64babb3d74325321d48ec2fb024e5"
+    }
+  }
+}

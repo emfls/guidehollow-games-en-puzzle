@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "uz",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "Bu klikker o‘yini bitta tugmadan boshlanadi. Har bosish o‘yin ichidagi pulni beradi, so‘ng pul yaxshilanishlarni sotib olishga sarflanadi. Tanlovlar bir bosishdan tushadigan daromadni oshirish, passiv daromadni ko‘paytirish va kursorlar sonini orttirishni o‘z ichiga oladi. Shu sababli tugmani o‘zingiz bosish ham, passiv daromad yig‘ilishini kutish ham rivojlanishning bir qismidir.\n\nOchilgan narsalar ko‘rinish va ovozni ham o‘zgartiradi: yangi tugmalar, kursorlar, fonlar va musiqa mavjud. Ularni tanlashdan oldin ochish kerak. Dastlab asosiy tugma bilan pul yig‘ing, keyin navbatdagi xaridda daromadning qaysi qismini yaxshilashni o‘ylang. Asosiy jarayon pul topish, yaxshilanish olish va kerakli bezak variantlariga bosqichma-bosqich yetishishdan iborat.",
+      "instructions": "Asosiy tugmani bosib o‘yin ichidagi pulni toping. Bir bosish daromadi, passiv daromad va kursorlar soni uchun yaxshilanishlarni solishtirib, pulingiz yetadiganini oling. Bosishda davom eting yoki passiv daromadni kuting. Yangi fon, musiqa, kursor yoki tugma ochilgach, moslashtirish bo‘limidan tanlang.",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Bosish, bosish, klikker",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "38b3cee252e3ace5730463b812b309617db84e8d8df0692133008375008f877b"
+    },
+    "build-and-run-playgama": {
+      "description": "Bu arkada o‘yinida bosqichdan o‘tish bilan birga yo‘lning yetishmayotgan qismlarini qurasiz. Tugallanmagan joy shakliga qarab platforma, yuqoriga chiqadigan rampa yoki qiya sirt tanlash kerak. Yo‘lda dushmanlar ham bor va qurollardan foydalanasiz. Demak, yo‘lni to‘ldirish va raqibga qarshi harakat qilish alohida amallarni talab qiladi.\n\nKompyuterda uchta qurilish amali alohida tugmalarga biriktirilgan, qurol tugmasi ham ulardan boshqa. Ularning joyini o‘rganish bo‘shliqni ko‘rganda kerakli qurilmani tanlashga yordam beradi. Tavsifda qahramon ko‘rinishini o‘zgartiradigan jihozlar va ikkita rejim ham aytilgan. Telefonda amallar ekrandagi tugmalar orqali bajariladi. Boshlash uchun qurilish turlari bilan qurol ishlatish buyrug‘ini ajratib olish muhim.",
+      "instructions": "Kompyuterda Q bilan platforma, W bilan yuqoriga chiqadigan rampa, E bilan qiya sirt quring. Yo‘lning yo‘q qismini tekshirib, mos qurilishni tanlang. Qurol ishlatish uchun R bosing. Telefonda ekrandagi tugmalardan foydalaning va o‘yin ko‘rsatadigan harakat ko‘rsatmalariga amal qiling.",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Qur va yugur",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "bf4a3659fc23c29267880a254e6e7d5f12e843a223eb7c5f7ced0543c441fd75"
+    },
+    "samurai-survivor": {
+      "description": "Voqea qadimgi Yaponiyada yuz beradi: sirli portal ochilib, undan maxluqlar to‘dasi chiqadi. Samuraylar avlodlardan o‘tgan qobiliyatlari bilan vatanini himoya qiladigan so‘nggi safga aylanadi. Portalni yopish va tinchlikni qaytarish hikoyaning maqsadidir. Aniq o‘yin jarayoni esa yuzlab dushman qarshisida omon qolish, daraja oshirish va ko‘nikmalarni yaxshilash sifatida tushuntirilgan.\n\nManbada harakat boshqaruvi batafsil berilgan. Yo‘nalish tugmalaridan yoki sichqonchaning chap tugmasini bosib ushlab sudrashdan foydalanish mumkin. Telefonda yo‘nalish ekranga tegish bilan boshqariladi. Avval qahramon joyini o‘zgartirishga o‘rganing, keyin daraja oshishi bilan ko‘nikmalarni rivojlantiring. Ko‘rsatmada alohida hujum tugmasi aytilmagan, shu sababli tasdiqlangan harakat usullari va omon qolish maqsadidan boshlang.",
+      "instructions": "↑ bilan yuqoriga, ↓ bilan pastga, ← bilan chapga, → bilan o‘ngga yuring. Muqobil usul sifatida sichqonchaning chap tugmasini bosib ushlab, sudrash orqali har tomonga harakatlaning. Telefonda ekranga teging. Dushmanlar orasida omon qolib, daraja va ko‘nikmalarni oshiring; alohida hujum tugmasi ko‘rsatilmagan.",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Samurayning omon qolishi",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "675422591c88d4c98a6ef690cf3d3139de6216b2f60374b1cb854c53b5402792"
+    },
+    "pow-2889-1": {
+      "description": "Pow ismli virtual uy hayvoniga ovqat berasiz, uni tozalaysiz va u bilan o‘ynab, o‘sishi hamda darajasi oshishini kuzatasiz. Har bir xona ekranining yuqorisidagi tik chiziqlar uning ehtiyojlarini ko‘rsatadi. Avval shu ko‘rsatkichlarni ko‘ring, keyin xonadagi mos buyumlar bilan harakat qiling va parvarish ehtiyoj chizig‘ini to‘ldirganini tekshiring.\n\nO‘yin xonasi ko‘ngilochar mashg‘ulotlarni parvarish bilan bog‘laydi. U yerdagi faoliyatlardan tangalar yig‘ib, ovqat va xona bezaklarini sotib olish mumkin. Ovqat Pow ehtiyojini qondiradi, bezak esa xonaning ko‘rinishini o‘zgartiradi. Tangani sarflashdan oldin qaysi maqsadni hal qilayotganingizni o‘ylang. Boshqaruv sichqoncha yoki sensorli ekran orqali bajariladi; har xona ko‘rsatmasiga amal qilib, ehtiyoj chiziqlarini qayta tekshirib turish kerak.",
+      "instructions": "Sichqoncha yoki ekranga tegish orqali Pow va atrofdagi buyumlar bilan harakat qiling. Xona yuqorisidagi tik ehtiyoj chiziqlarini ko‘rib, ko‘rsatmaga muvofiq ovqat bering, tozalang yoki o‘ynang. O‘yin xonasida tangalar yig‘ib, ovqat va bezak oling. Parvarish ishlari orasida ehtiyojlarni yana tekshiring.",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow parvarishi",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "7508ff35f2a883fca1d5df3b070d86ea802a63bb2a6e2aec4842c8e8c482a598"
+    },
+    "slides-and-climbs": {
+      "description": "Bu stol o‘yinidagi poygada zar tashlab, rangli donangizni marraga qarab yurgizasiz. Taxtada ilonlar bor, shuning uchun har tashlashdan keyin to‘xtagan katak yo‘l natijasiga ta’sir qilishi mumkin. Donalarning joyi va navbatdagi zar natijasini kuzatish o‘yinning asosiy borishini tashkil etadi, maqsad esa yo‘l oxiriga yetishdir.\n\nJami ko‘pi bilan olti ishtirokchi uchun o‘yin tuzish mumkin va har kim o‘z rangini tanlaydi. Kompyuter raqiblariga qarshi yoki yoningizdagi do‘stlar bilan o‘ynash bor. Esda tutish kerak bo‘lgan qoida: zarda 6 tushsa, yana bir marta tashlash huquqi beriladi. Bu imkoniyat paydo bo‘lsa, navbat tugadi deb hisoblashdan oldin qo‘shimcha tashlashni bajaring. Har yurishdan keyin taxtada ko‘rsatilgan natijaga qarab davom eting.",
+      "instructions": "Ishtirokchilar rangini va raqib turini tanlang; o‘yinchilar jami ko‘pi bilan olti kishi bo‘ladi. O‘yindagi zar tashlash boshqaruvidan foydalanib donani yurgizing va to‘xtagan katakni ko‘ring. 6 tushsa, qo‘shimcha zar tashlang. Ilonlarga e’tibor berib marraga intiling; kompyuter raqibini ham tanlash mumkin.",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Sirpanchiqlar va narvonlar",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "84beed94faa2ac8000dd8b36c82de0d73eb1bc056ff7e14807b4db4311d5026a"
+    },
+    "pathfinder": {
+      "description": "Bu ikki o‘lchamli boshqotirmada rangli to‘plarni yer ostidagi quvurlarga yo‘naltirish uchun tunnel qazasiz. Qahramonni boshqarish o‘rniga yo‘l yaratasiz. Shu bois qazishni boshlashdan oldin to‘pning boshlang‘ich joyini, boradigan quvurni va oradagi maydonni aniqlash muhim. O‘yinda 30 bosqich bor va oldinga siljigan sari joylashuvlar murakkablashadi.\n\nMetall bloklar va tikanlar manbada aytilgan to‘siqlarga kiradi. Birdan quvurga to‘g‘ri chiziq qazish o‘rniga tunnelni rejalaganda ularning joyini hisobga oling. Avval manzilni topib, keyin u yerdan to‘pga ulanishi mumkin bo‘lgan yo‘lni o‘ylash foydali. Kompyuterda bosish, telefon va planshetda tegish bilan qaziladi. Har yangi bosqichni qayta ko‘ring, chunki mos yo‘l to‘siqlar joylashuviga qarab o‘zgaradi.",
+      "instructions": "Kompyuterda yo‘l qazish uchun bosing, telefon yoki planshetda sirtga teging. Avval rangli to‘plar, quvurlar, metall bloklar va tikanlarni toping. To‘siqlarni chetlab o‘tadigan yo‘lni rejalab, to‘pni quvurga yetaklaydigan tunnel qazing. 30 bosqich davomida har yangi joylashuvni tekshiring, chunki boshqotirmalar murakkablashadi.",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Yoʻl topuvchi",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "d2ac7da268dbac53f980890fe041c9e4f1dc0e185ea16e6e62d4588eff12e7e6"
+    }
+  }
+}

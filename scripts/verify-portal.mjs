@@ -132,6 +132,19 @@ async function verify() {
     isIndexable, allRoutes, routeFile, alternatives, preview, provider, listGames, gamePath } = catalog;
   const { buildFingerprint } = await import('../portal/assets.mjs');
   const {catalogTranslation}=await import('../portal/localization.mjs');
+  const {guideDecision}=await import('../portal/guides.mjs');
+  report.guideCoverage={gameLocaleCombinations:games.length*localeIds.length,qualified:0,byOrigin:{},byLocale:{},gamesWithAnyQualifiedGuide:0,notQualified:0};
+  const qualifiedGameIds=new Set();
+  for(const locale of localeIds){
+    const counts={qualified:0,byOrigin:{},pendingByReason:{}};
+    for(const game of games){
+      const guide=editorial(game,locale);
+      if(guide){counts.qualified++;report.guideCoverage.qualified++;increment(counts.byOrigin,guide.origin);increment(report.guideCoverage.byOrigin,guide.origin);qualifiedGameIds.add(game.id);}
+      else{increment(counts.pendingByReason,guideDecision(game,locale).reason);report.guideCoverage.notQualified++;}
+    }
+    report.guideCoverage.byLocale[locale]=counts;
+  }
+  report.guideCoverage.gamesWithAnyQualifiedGuide=qualifiedGameIds.size;
   for(const locale of localeIds.filter(locale=>locale!=='en'))for(const game of games){
     expect(Boolean(catalogTranslation(game,locale)),'catalog-translation',locale+'/'+game.id,'Missing or stale localized title/summary.');
   }
@@ -216,20 +229,20 @@ async function verify() {
       'game-genres', game.id, 'Invalid, duplicate or excessive broad genres.');
     checkClid(game.embedUrl, game.id + ':embedUrl');
     checkClid(game.affiliateUrl, game.id + ':affiliateUrl');
-    for (const locale of native) allGamePairs.add(locale + '/' + game.id);
+    for (const locale of localeIds.filter(locale=>catalog.hasGamePage(locale,game))) allGamePairs.add(locale + '/' + game.id);
   }
   const actualPairs = new Set();
   for (const entry of routes.filter(entry => entry.type === 'game')) {
     const game = byId.get(entry.id);
     if (!expect(Boolean(game), 'route-game', entry.path, 'Unknown game ID.')) continue;
-    expect(game.locales.includes(entry.locale), 'route-language', entry.path, 'Game does not declare this native language.');
+    expect(catalog.hasGamePage(entry.locale,game), 'route-language', entry.path, 'Game needs native support or a stored/qualified localized guide route.');
     expect(entry.path === '/' + entry.locale + '/play/' + game.slug + '/', 'game-route-shape', entry.path, 'A game must have one genre-independent URL per language.');
     const pair = entry.locale + '/' + game.id;
     expect(!actualPairs.has(pair), 'game-route-duplicate', entry.path, 'Duplicate game/language page.');
     actualPairs.add(pair);
     routedIds.add(game.id);
   }
-  expect(eqSet([...actualPairs], [...allGamePairs]), 'game-route-coverage', 'routes', 'Missing or extra native game/language routes.');
+  expect(eqSet([...actualPairs], [...allGamePairs]), 'game-route-coverage', 'routes', 'Missing or extra native/qualified guide routes.');
   expect(routedIds.size === games.length, 'game-route-cap', 'routes', 'One or more catalog games has no play page.');
 
   const files = walk(dist).sort();
@@ -345,8 +358,8 @@ async function verify() {
       if (tag.name === 'a' && tag.attrs.lang && target?.entry) {
         expect(tag.attrs.lang === target.entry.locale, 'language-switch', file, 'Language label and target route disagree.');
         if (entry.type === 'game') {
-          const supported = byId.get(entry.id).locales.includes(target.entry.locale);
-          expect(supported ? target.entry.type === 'game' && target.entry.id === entry.id :
+          const hasPage = catalog.hasGamePage(target.entry.locale,byId.get(entry.id));
+          expect(hasPage ? target.entry.type === 'game' && target.entry.id === entry.id :
             target.entry.type === 'player' && target.url.searchParams.get('game') === entry.id,
             'game-language-switch', file, 'Use the same game and preserve UI language through the localized player when unsupported.');
         }
@@ -471,6 +484,7 @@ async function verify() {
       if (!game) continue;
       expect(item.path === gamePath(locale,game) && item.native === game.locales.includes(locale) && item.thumbnail === game.thumbnail &&
         eqSet(item.genres || [], game.genreIds), 'search-entry', path + ':' + item.id, 'Search metadata/path differs from the game.');
+      expect(eqSet(item.pageLocales||[],localeIds.filter(target=>catalog.hasGamePage(target,game))),'search-page-locales',path+':'+item.id,'Clean guide routes must be separate from actual game language support.');
       resolveLink(item.path, origin, path);
     }
   }

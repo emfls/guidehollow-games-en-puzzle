@@ -1,12 +1,14 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { catalogTranslation } from './localization.mjs';
+import {guideDecision,indexGuideSources,hasSavedGuide} from './guides.mjs';
 
 const readJson = path => JSON.parse(readFileSync(resolve(process.cwd(), path), 'utf8'));
 export const config = readJson('portal/config.json');
 export const groups = readJson('data/genre-groups.json').groups;
 export const provider = readJson('data/portal/catalog.json');
 export const games = provider.games;
+indexGuideSources(games);
 export const byId = new Map(games.map(game => [game.id, game]));
 export const bySlug = new Map(games.map(game => [game.slug, game]));
 export const curated = new Map(readJson('data/catalog.json').map(game => [game.id, game]));
@@ -27,15 +29,15 @@ export const recommendationsAll = [...new Set(Array.from({length: Math.max(...le
 export const format = (text, values={}) => String(text).replace(/\{(\w+)\}/g, (_, key) => values[key] ?? `{${key}}`);
 export const urlFor = path => new URL(path, config.origin).href;
 export const playLocale = (locale, game) => game.locales.includes(locale) ? locale : game.locales.includes('en') ? 'en' : game.locales[0];
-export const gamePath = (locale, game) => game.locales.includes(locale)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
+export const hasGamePage=(locale,game)=>game.locales.includes(locale)||hasSavedGuide(game,locale)||guideDecision(game,locale).ready;
+export const gamePath = (locale, game) => hasGamePage(locale,game)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
 export const listPath = (locale, genre, page=1) => `/${locale}/${genre ? `${genre}/` : ''}${page > 1 ? `page/${page}/` : ''}`;
 export function editorial(game, locale) {
-  if (!game.locales.includes(locale)) return null;
   const source = curated.get(game.id);
-  const text = locale === 'en' ? (source || reviewedGuides.en?.[game.id]) : (source?.translations?.[locale] || reviewedGuides[locale]?.[game.id]);
-  if (!text?.description || !text?.instructions) return null;
-  if (text.description.trim().length < config.minimumGuideCharacters || text.instructions.trim().length < config.minimumGuideCharacters) return null;
-  return { title: text.title || game.title, description: text.description, instructions: text.instructions };
+  const text = game.locales.includes(locale)?(locale === 'en' ? (source || reviewedGuides.en?.[game.id]) : (source?.translations?.[locale] || reviewedGuides[locale]?.[game.id])):null;
+  if (text?.description?.trim().length>=config.minimumGuideCharacters && text?.instructions?.trim().length>=config.minimumGuideCharacters)return {title:text.title||game.title,description:text.description,instructions:text.instructions,origin:'legacy-reviewed'};
+  const decision=guideDecision(game,locale);
+  return decision.ready?decision.guide:null;
 }
 const localizedMetadata = readJson('portal/locales/game-metadata.json');
 function translateCommonTitle(source, locale) {
@@ -51,8 +53,9 @@ function translateCommonTitle(source, locale) {
   return title;
 }
 export const titleFor = (game, locale) => {
-  const manual = localizedMetadata.titles?.[locale]?.[game.id];
-  const written = editorial(game, locale)?.title;
+  const guide=editorial(game,locale);
+  const manual = guide?.origin==='source-reviewed'?guide.title:localizedMetadata.titles?.[locale]?.[game.id];
+  const written = guide?.title;
   let title=manual;
   if (!title && written && (locale==='en' || written!==game.title)) {
     title=written;
@@ -94,7 +97,7 @@ export function isIndexable(entry) {
   if (entry.type === 'game') return Boolean(editorial(byId.get(entry.id), entry.locale));
   if (entry.type === 'genre') {
     const selected = collections.get(entry.locale).get(entry.genre);
-    if (selected.length >= config.minimumIndexableCollectionGames) return true;
+    if (selected.length >= config.minimumIndexableCollectionGames || allCollections.get(entry.genre).filter(game=>editorial(game,entry.locale)).length>=config.minimumIndexableCollectionGames) return true;
     // The five-game Korean horror guide is intentionally authored and fully supported.
     // Keep other undersized collections out of the index until their content is reviewed.
     return entry.locale === 'ko' && entry.genre === 'horror' && selected.length === 5
@@ -121,7 +124,7 @@ export function recommendedGames(locale, genre, limit=6) {
 export function counterpart(entry, locale) {
   if (entry.type === 'game') {
     const game = byId.get(entry.id);
-    return game.locales.includes(locale) ? { ...entry, locale, path: gamePath(locale, game) } : null;
+    return hasGamePage(locale,game) ? { ...entry, locale, path: gamePath(locale, game) } : null;
   }
   if (entry.type === 'genre') {
     const count = allCollections.get(entry.genre).length;
@@ -147,7 +150,7 @@ export function allRoutes() {
     }
     for (const type of ['about','privacy','search']) routes.push({type,locale,path:`/${locale}/${type}/`});
     routes.push({type:'player',locale,path:`/${locale}/play/`});
-    for (const game of localeGames.get(locale)) routes.push({type:'game',locale,id:game.id,path:gamePath(locale,game)});
+    for (const game of games.filter(game=>hasGamePage(locale,game))) routes.push({type:'game',locale,id:game.id,path:gamePath(locale,game)});
   }
   if (new Set(routes.map(route => route.path)).size !== routes.length) throw new Error('Duplicate portal route');
   return routes;

@@ -294,8 +294,21 @@ async function main() {
   const gamePath = '/en/play/' + game.slug + '/';
   const en = catalogFor('en').data, ko = catalogFor('ko').data.filter(game=>game.native);
   assert.ok(en.length > 48 && ko.length > 48, 'Need real paginated English and Korean catalogs');
-  const englishOnly = en.find(item => !runtimeById.get(item.id)?.locales.includes('ko'));
+  const englishOnly = en.find(item => !runtimeById.get(item.id)?.locales.includes('ko')&&catalogFor('ko').data.find(game=>game.id===item.id)?.path.includes('?game='));
   assert.ok(englishOnly, 'Need an English-only fixture to test Korean native-language filtering');
+  await test('qualified localized guide: clean URL indexes the guide without claiming native support',async context=>{
+    const selected=catalogFor('ko').data.find(item=>!item.native&&!item.path.includes('?')&&item.id==='build-and-run-playgama');
+    check(context,Boolean(selected),'A source-reviewed non-native guide has a dedicated URL');
+    const page=openPage(context,selected.path);
+    equal(context,page.config.type,'game','The clean URL is a full server-rendered detail page');
+    equal(context,page.document.querySelector('meta[name="robots"]'),null,'Qualified guide is search eligible');
+    check(context,required(page.document,'#game-how-to').textContent.includes('발판'),'Game-specific controls appear without a catalog fetch');
+    check(context,!runtimeById.get(selected.id).locales.includes('ko'),'Native game support remains unchanged');
+    const schema=Array.from(page.document.querySelectorAll('script[type="application/ld+json"]')).map(node=>JSON.parse(node.textContent));
+    check(context,!schema.find(node=>node['@type']==='VideoGame').inLanguage.includes('ko'),'Game schema does not invent Korean support');
+    equal(context,schema.find(node=>node['@type']==='WebPage').inLanguage,'ko','Page schema uses the guide language');
+    equal(context,page.document.querySelectorAll('iframe').length,0,'Guide loading does not create a provider frame');
+  });
   await test('carousel: automatic rotation, wrapping, manual controls and explicit pause',async context=>{
     const page=openPage(context,'/ko/',{},{carouselClock:true}),slides=[...page.document.querySelectorAll('[data-slide]')];
     equal(context,slides.length,6,'Home renders six source-backed recommendations');
@@ -366,6 +379,14 @@ async function main() {
     const unsafe=openPage(context,'/ko/play/?game='+encodeURIComponent(englishOnly.id),{},{catalogTransform:data=>data.map(item=>item.id===englishOnly.id?{...item,embedUrl:'https://example.invalid/export?clid='+expectedClid}:item)});
     await until(()=>required(unsafe.document,'[data-player-error]').textContent===unsafe.config.copy.catalogLoadError,'provider origin rejection');
     equal(context,unsafe.document.querySelectorAll('iframe').length,0,'Unknown provider origins never produce a frame');
+  });
+  await test('localized player: cached catalog without guide route metadata remains usable',async context=>{
+    const page=openPage(context,'/ko/play/?game='+encodeURIComponent(englishOnly.id),{},{catalogTransform:data=>data.map(({pageLocales,...item})=>item)});
+    await until(()=>!required(page.document,'[data-player-content]').hidden,'cached catalog ready');
+    equal(context,required(page.document,'[data-shell-instructions]').textContent,catalogFor('ko').data.find(item=>item.id===englishOnly.id).detail.instructions,'Previously cached details still load');
+    equal(context,required(page.document,'.language-panel a[lang="ko"]').getAttribute('href'),'/ko/play/?game='+encodeURIComponent(englishOnly.id),'Old catalog retains a working fallback');
+    click(required(page.document,'[data-play]'),page.window);
+    equal(context,required(page.document,'iframe').src,englishOnly.embedUrl,'Previously cached catalog still starts the attributed game');
   });
   await test('localized player: official custom provider export host remains playable',async context=>{
     const selected=catalogFor('ko').data.find(item=>new URL(item.embedUrl).hostname!=='playgama.com' && !item.native);
@@ -507,7 +528,7 @@ async function main() {
 
   await test('language menu: every locale remains reachable with unsupported-game home fallback', async context => {
     const fixture = runtimeGames.find(item => item.locales.includes('en') && item.locales.length > 1 &&
-      item.locales.length < supportedLocales.size);
+      [...supportedLocales].some(locale=>catalogFor(locale).data.find(game=>game.id===item.id)?.path.includes('?game=')));
     check(context, Boolean(fixture), 'Fixture has both supported and unsupported portal languages');
     const page = openPage(context, '/en/play/' + fixture.slug + '/');
     const menu = required(page.document, '[data-menu]');
@@ -517,10 +538,10 @@ async function main() {
     same(context, links.map(link => link.lang).sort(), Array.from(supportedLocales).sort(),
       'Menu contains each portal language exactly once');
     for (const link of links) {
-      const expected = fixture.locales.includes(link.lang) ? '/' + link.lang + '/play/' + fixture.slug + '/' : '/' + link.lang + '/play/?game='+encodeURIComponent(fixture.id);
+      const expected = catalogFor(link.lang).data.find(game=>game.id===fixture.id).path;
       equal(context, link.getAttribute('href'), expected, 'Language destination preserves the selected game and UI language: ' + link.lang);
     }
-    const fallback = links.find(link => !fixture.locales.includes(link.lang));
+    const fallback = links.find(link => link.getAttribute('href').includes('?game='));
     check(context, Boolean(fallback), 'An unsupported language has an explicit menu entry');
     let clickedDestination;
     fallback.addEventListener('click', event => {

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "tr",
+  "games": {
+    "click-click-clicker-playgama": {
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Tık Tık Tıklayıcı",
+      "description": "Tık Tık Tıklayıcı'da ilerleme tek bir düğmeyle başlar. Her basış oyun parası kazandırır; bu parayla tıklama başına kazancı, pasif geliri veya imleç sayısını artıran geliştirmeler alınır. Bir geliştirme seçmeden önce hangi gelir yolunu güçlendirmek istediğinize karar verin: sürekli tıklamayı mı, yoksa zamanla biriken kazancı mı?\n\nİlerledikçe yeni düğmeler, arka planlar, imleçler ve müzikler de açılır. Böylece birikiminiz için görünür hedefler oluşur. Önce temel düğmeyle gelir elde edin, ardından geliştirmeleri ve istediğiniz görünümü inceleyin. Kaynak pasif kazançtan söz eder, ancak kesin fiyatları veya oyun dışındayken kazanma kurallarını vermez; kararlarınızı oyunda gösterilen değerlere göre verin.",
+      "instructions": "İlk oyun paranızı kazanmak için ana düğmeye basın. Geliştirmeler bölümünde tıklama başına kazancı, pasif geliri ve imleç sayısını karşılaştırıp alabildiğiniz bir geliştirmeyi seçin. Tıklamayı sürdürün veya belirtilen pasif gelirin birikmesini bekleyin. Yeni arka plan, müzik, imleç ve düğmeler açıldığında görünüm seçeneklerinden bunları seçin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click "
+      },
+      "reviewedTextHash": "5acb15a2b0a116d79a95e29c75abeae2c0701a449bd11f4f638c4e54878de6a0"
+    },
+    "build-and-run-playgama": {
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "İnşa Et ve Koş",
+      "description": "İnşa Et ve Koş, parkurda ilerlemeyi eksik yol parçalarını tamamlama göreviyle birleştirir. Platform, rampa ve eğimli parça ayrı komutlarla yapılır. Bu yüzden önce yolun hangi biçimde eksik olduğunu inceleyip uygun yapıyı seçmeniz gerekir. Karşınıza çıkan düşmanlarla mücadele etmek için ayrıca bir silah kullanma komutu bulunur.\n\nTemel beceri, inşa ile çatışma arasında doğru zamanda geçiş yapmaktır. Silah komutu yol yapımının yerine geçmez; üç yapı türü de farklı tuşlara atanmıştır. Zorlu bir bölüme gelmeden önce bu tuşların yerini öğrenmek, boşluğu gördüğünüzde seçim yapmayı kolaylaştırır. Kaynak karakter donanımından ve iki moddan da söz eder, ancak modların farklı kurallarını açıklamaz.",
+      "instructions": "Bilgisayarda platform için Q, rampa için W, eğimli parça için E tuşuna basın. Önce eksik yol bölümünü belirleyin, sonra ona uygun inşa komutunu kullanın. Düşmanlara karşı silah kullanmak için R'ye basın. Telefonda ekrandaki düğmeleri kullanın. Kaynak ayrı bir hareket tuşu belirtmediğinden oyunun hareket yönergelerini izleyin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use wea"
+      },
+      "reviewedTextHash": "7cae9433fc6500d8b92ebafe2f5c8667aba7ae890a1d7ec79d2ba611316b0fd4"
+    },
+    "samurai-survivor": {
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Samuray: Hayatta Kalma",
+      "description": "Samuray: Hayatta Kalma, gizemli bir geçitten canavarların çıktığı eski Japonya'da geçer. Doğrudan hedefiniz kalabalık düşman grupları arasında hayatta kalmak, seviye atlamak ve savaşçınızın becerilerini geliştirmektir. Öykü ülkeyi savunma nedenini anlatırken, açıklanan oyun ilerleyişi hayatta kalma ve beceri geliştirme döngüsüne dayanır.\n\nKaynak en ayrıntılı biçimde hareketi açıklar. Yön tuşlarıyla, sol fare düğmesini basılı tutup sürükleyerek veya telefonda ekrana dokunarak hareket edebilirsiniz. Önce rahat kullandığınız yöntemi öğrenin; böylece düşmanlar arasında konum değiştirmeye odaklanabilirsiniz. Seviye atladığınızda sunulan geliştirmeleri okuyun. Farklı savaşçı becerileri belirtilse de ayrı bir saldırı tuşu veya zorunlu geliştirme sırası verilmez.",
+      "instructions": "↑, ↓, ← ve → tuşlarıyla yukarı, aşağı, sola ve sağa hareket edin. Alternatif olarak sol fare düğmesini basılı tutun ve fareyi istediğiniz yöne sürükleyin. Mobil cihazda ekrana dokunarak hareket edin. Düşmanlar arasında yer değiştirmeyi sürdürün; seviye atladığınızda seçenekleri okuyup becerilerinizi geliştirin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move"
+      },
+      "reviewedTextHash": "6853098a3fa14c24eadc2b545e3e99e6bdcd3792f4aebff2e43fe28dd57a7d2e"
+    },
+    "pow-2889-1": {
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow Bakımı",
+      "description": "Pow Bakımı, sanal bir evcil hayvanı besleme, temizleme ve onunla oynama üzerine kurulur. Pow büyüyüp seviye atlarken bakım ihtiyaçlarını takip etmeniz gerekir. Her odada ekranın üstündeki dikey çubuklar bu ihtiyaçların durumunu gösterir. Önce çubukları kontrol edin, sonra ilgili odanın eşyalarını kullanıp yaptığınız işlemin göstergeleri doldurup doldurmadığına bakın.\n\nOyun odasındaki etkinlikler, bakım ile oyun parası kazanmayı birbirine bağlar. Buradan topladığınız paralarla yiyecek ve oda süslemeleri alabilirsiniz. Yiyecek bakım için, süslemeler ise ortamı değiştirmek içindir; bir seçim yapmadan önce Pow'un o anki ihtiyaçlarını değerlendirin. Etkileşim fare veya dokunmatik ekranla yapılır, ayrıntılı adımları ise ekrandaki yönergeler açıklar.",
+      "instructions": "Pow ve eşyalarla etkileşmek için fareyi kullanın veya ekrana dokunun. Bulunduğunuz odada ekranın üstündeki dikey ihtiyaç çubuklarını kontrol edip yönergelere göre bakım yapın. Para toplamak için oyun odasındaki etkinliklere katılın. Bu paraları yiyecek ve süslemeler için kullanın; odalar arasında geçerken ihtiyaç göstergelerini yeniden gözden geçirin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can s"
+      },
+      "reviewedTextHash": "8c9e24a8288a77e62d4151b4604b363adffe189079332e3c49841b3358494cd7"
+    },
+    "slides-and-climbs": {
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Kaydıraklar ve Merdivenler",
+      "description": "Kaydıraklar ve Merdivenler'de renkli taşınızı bitişe götürmek için zar atarsınız. Tahta üzerinde yılanlar bulunduğundan, elverişsiz bir kareye gelmek ilerleyişinizi değiştirebilir. Bu nedenle yalnızca zarın sayısına değil, taşın indiği kareye ve oyun tarafından gösterilen hamle sonucuna da dikkat edin.\n\nBaşlangıçta katılımcı renkleri ve bilgisayar rakipleri dahil mevcut rakip düzeni seçilir. Masada toplam en fazla altı katılımcı olabilir. Önemli sıra kuralı şudur: altı atınca fazladan bir zar hakkı kazanırsınız; sırayı bitmiş saymadan önce bu atışı da yapın. Kaynak, bitişe varmak için son zarın özel bir sayı olması gerektiğini açıklamaz, bu yüzden tahtanın sunduğu hareketleri izleyin.",
+      "instructions": "Renkleri ve toplam en fazla altı katılımcıdan oluşan masa düzenini seçin. Zar atma düğmesini kullanın, taşın ilerlemesini ve indiği karedeki sonucu izleyin. Zar 6 gelirse ek atış hakkınızı kullanın. Yılanlara ve her hamleden sonra taşın değişen konumuna dikkat ederek bitişe doğru ilerleyin. Kaynak zar atmak için ayrı bir klavye kısayolu vermez.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to "
+      },
+      "reviewedTextHash": "c25c6563447fe476f7dc8a20404001dd42207372a9a84cb83c53b4c8e34b180e"
+    },
+    "pathfinder": {
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Yol Bulucu",
+      "description": "Yol Bulucu'da renkli topları yer altındaki borulara ulaştırmak için tünel kazarsınız. Bir karakteri yönlendirmek yerine, topların izleyeceği geçidin biçimini oluşturursunuz. Kazmaya başlamadan önce topların başlangıç konumlarını ve hedef boruları bulun; böylece zeminde hangi bağlantıya ihtiyaç olduğunu anlayabilirsiniz.\n\nKaynakta belirtilen engeller arasında metal bloklar ve dikenler vardır. Rotayı çizerken bunları hesaba katın; arada engel varsa boruya doğru düz bir çizgi açmak yeterli olmaz. Önce boruyu bulup olası yolu zihninizde topa doğru geriye izlemek yararlı bir başlangıçtır. Oyun, giderek karmaşıklaşan 30 bölüm içerir. Bu nedenle her yeni düzeni önceki tüneli tekrarlamak yerine yeniden inceleyin.",
+      "instructions": "Bilgisayarda yolu kazmak için tıklayın; telefon veya tablette yüzeye dokunun. Önce renkli topları, boruları, metal blokları ve dikenleri bulun. Engellerin çevresinden geçen bir bağlantı planlayın, ardından topları borulara yönlendirecek tüneli kazın. Bulmacalar karmaşıklaştığı için 30 bölümün her birine başlamadan önce düzeni yeniden gözden geçirin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—"
+      },
+      "reviewedTextHash": "55566da2361e97e0e81882895d869a0a5dbf143d4122b5a009868036a7d5dd82"
+    }
+  }
+}

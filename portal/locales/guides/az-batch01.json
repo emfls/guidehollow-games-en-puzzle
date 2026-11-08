@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "az",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "Bu klik oyununda hər şey bir düymədən başlayır. Hər klik oyundaxili pul qazandırır, həmin pul isə təkmilləşdirmələrə xərclənir. Seçimlərə bir klikdən gələn gəliri artırmaq, passiv qazancı yüksəltmək və kursorların sayını çoxaltmaq daxildir. Buna görə həm özünüz klikləmək, həm də boşdayanma gəlirinin yığılmasını gözləmək inkişafın bir hissəsidir.\n\nAçılan yeniliklər görüntünü və səsi də dəyişir: müxtəlif düymələr, kursorlar, fonlar və musiqilər əldə etmək mümkündür. Onları seçmək üçün əvvəlcə açmaq lazımdır. Başlanğıc gəlirini toplayın, sonra növbəti alışdan hansı qazanc mənbəyini yaxşılaşdırmaq istədiyinizi müəyyənləşdirin. Əsas dövr pul toplamaq, təkmilləşdirmə almaq və istədiyiniz görünüşə doğru irəliləməkdir.",
+      "instructions": "Əsas düyməni klikləyərək oyundaxili pul qazanın. Bir klikdən gələn gəlir, passiv qazanc və kursor sayı üzrə mövcud təkmilləşdirmələri müqayisə edib uyğun olanı alın. Klikləməyə davam edin və ya passiv gəliri gözləyin. Yeni fon, musiqi, kursor və düymə açıldıqda fərdiləşdirmə seçimlərindən istifadə edin.",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Klik, klik, klikker",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "32e1cfcd9220c2a5a57a724d378e33889b8597e6c5f5e5e3e473354b098f9452"
+    },
+    "build-and-run-playgama": {
+      "description": "Bu arkada oyununda səviyyəni keçməklə yanaşı yolun çatışmayan hissələrini də qurursunuz. Yarımçıq hissənin formasına baxıb platforma, qalxış rampası və ya maili səth seçmək lazımdır. Qarşınıza düşmənlər də çıxır və silahlardan istifadə edə bilərsiniz. Beləliklə, yol qurmaq və rəqiblə mübarizə aparmaq fərqli hərəkətlər tələb edir.\n\nKompüterdə üç tikinti əmri ayrı düymələrə bağlanıb, silah əmri də onlardan ayrıdır. Düymələrin yerini öyrənmək boşluğu görəndə uyğun quruluşu seçməyə kömək edir. Təsvir personajın görünüşünü dəyişən avadanlıqları və iki oyun rejimini də qeyd edir. Telefonda hərəkətlər ekrandakı düymələrlə yerinə yetirilir. Başlamaq üçün əsas olan tikinti seçimlərini və silahdan istifadə əmrini tanımaqdır.",
+      "instructions": "Kompüterdə Q ilə platforma, W ilə qalxış rampası, E ilə maili səth qurun. Yolun çatışmayan hissəsini yoxlayıb uyğun tikintini seçin. Silahdan istifadə etmək üçün R basın. Telefonda ekrandakı düymələrdən istifadə edin və oyunun göstərdiyi hərəkət təlimatlarını izləyin.",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Qurmaq və Qaçmaq",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "f40cdc64fbe62e22d6182ac039570fc02a49ba8f5f539acbf4f472f067b70bf7"
+    },
+    "samurai-survivor": {
+      "description": "Hadisələr qədim Yaponiyada baş verir: sirli portal açılır və oradan canavar dəstələri çıxır. Samuraylar nəsillərdən gələn bacarıqları ilə yurdlarını qoruyan son müdafiə xəttinə çevrilirlər. Portalı bağlamaq və sülhü bərpa etmək hekayənin məqsədidir; konkret oyun irəliləyişi isə yüzlərlə düşmən qarşısında sağ qalmaq, səviyyə artırmaq və bacarıqları inkişaf etdirməkdir.\n\nMənbədə ətraflı izah edilən idarəetmə hərəkətdir. Ox düymələrindən istifadə edə və ya siçanın sol düyməsini basılı saxlayaraq sürükləyə bilərsiniz. Telefonda istiqamət ekrana toxunmaqla seçilir. Əvvəlcə personajın yerini dəyişməyə alışın, sonra səviyyə yüksəldikcə bacarıqları təkmilləşdirin. Təlimatda ayrıca hücum düyməsi göstərilmir.",
+      "instructions": "↑ ilə yuxarı, ↓ ilə aşağı, ← ilə sola, → ilə sağa hərəkət edin. Alternativ olaraq siçanın sol düyməsini basılı saxlayıb sürükləyərək bütün istiqamətlərə gedin. Telefonda ekrana toxunun. Düşmən dəstələri qarşısında sağ qalmağa çalışarkən səviyyə və bacarıqları artırın; ayrıca hücum düyməsi göstərilmir.",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Sağ qalan Samuray",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "56c449b6283de2634d87771c8f37fa5ead29e26a96a6ef805462b083043c86bb"
+    },
+    "pow-2889-1": {
+      "description": "Pow adlı virtual ev heyvanına yemək verir, onu təmizləyir və onunla oynayaraq böyüməsini və səviyyə artımını izləyirsiniz. Hər otağın yuxarısında ehtiyacları göstərən şaquli zolaqlar var. Əvvəlcə bu göstəricilərə baxın, sonra otaqdakı uyğun əşyalarla qarşılıqlı əlaqə yaradın və qayğının ehtiyacı doldurub-doldurmadığını yoxlayın.\n\nOyun otağı əyləncəni qayğı ilə əlaqələndirir. Oradakı fəaliyyətlərdən yığdığınız sikkələrlə yemək və otaq bəzəkləri ala bilərsiniz. Yemək Pow-un ehtiyacını qarşılayır, bəzəklər isə otağın görünüşünü dəyişir. Sikkələri xərcləməzdən əvvəl hansı məqsədi həll etdiyinizi düşünün. İdarəetmə siçan və ya toxunma ilə aparılır; hər otağın ekrandakı göstərişlərini izləyib ehtiyac zolaqlarını yenidən yoxlamaq əsasdır.",
+      "instructions": "Siçanla və ya ekrana toxunaraq Pow və əşyalarla qarşılıqlı əlaqə yaradın. Otağın yuxarısındakı şaquli ehtiyac zolaqlarına baxın və göstərişlərə uyğun yemək verin, təmizləyin və ya oynayın. Oyun otağında sikkə toplayıb yemək və bəzəklərə xərcləyin. Qayğı zamanı göstəriciləri təkrar yoxlayın.",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "105904e394127653405564a5899b4a21e01438355602509b4455af7b49c1c08c"
+    },
+    "slides-and-climbs": {
+      "description": "Bu stolüstü yarışda zər ataraq rəngli fiqurunuzu finişə doğru aparırsınız. Lövhədə ilanlar var, buna görə hər atışdan sonra dayandığınız xana gedişin nəticəsinə təsir edə bilər. Fiqurların yerini və növbəti zərin nəticəsini izləmək oyunun əsas axınıdır; məqsəd isə yolun sonuna çatmaqdır.\n\nÜmumilikdə ən çox altı iştirakçı üçün oyun qurmaq olar və hər kəs öz rəngini seçir. Kompüter rəqiblərinə qarşı və eyni yerdə olan dostlarla oynamaq mümkündür. Yadda saxlanmalı xüsusi qayda budur: zərdə 6 gələndə əlavə bir atış qazanırsınız. Bu imkan yarananda növbəni bitmiş saymazdan əvvəl əlavə atışı edin. Hər hərəkətdən sonra lövhədə göstərilən nəticəyə baxaraq yarışa davam edin.",
+      "instructions": "İştirakçıların rənglərini və rəqib seçimini təyin edin; ümumi oyunçu sayı ən çox altıdır. Oyundakı zər atma idarəsindən istifadə edib fiquru irəlilədin və dayandığı xanaya baxın. 6 gəldikdə əlavə atışı edin. İlanları nəzərə alaraq finişə yaxınlaşın; kompüter rəqibi də seçə bilərsiniz.",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Sürüşmələr və nərdivanlar",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "2fcbcea348d0c3e85781bdec1e33f0705ced0aec074d226e0051b6a77b056ef1"
+    },
+    "pathfinder": {
+      "description": "Bu ikiölçülü tapmacada rəngli topları səthin altındakı borulara yönəltmək üçün tunel qazırsınız. Personajı idarə etmək əvəzinə yol yaradırsınız. Buna görə qazmağa başlamazdan əvvəl topun başlanğıc yerini, hədəf borunu və aradakı sahəni müəyyənləşdirmək vacibdir. Oyunda 30 səviyyə var və irəlilədikcə düzülüşlər daha mürəkkəb olur.\n\nMetal bloklar və tikanlar mənbədə göstərilən maneələrdəndir. Birbaşa xətt qazmaq əvəzinə tunelin keçəcəyi yeri seçərkən onların mövqeyini nəzərə alın. Əvvəlcə borunu tapmaq, sonra oradan topa doğru mümkün yolu düşünmək faydalı yanaşmadır. Kompüterdə klik, telefon və planşetdə toxunma ilə qazılır. Hər yeni səviyyədə düzülüşü yenidən yoxlayın, çünki uyğun yol maneələrə görə dəyişir.",
+      "instructions": "Kompüterdə yolu qazmaq üçün klikləyin, telefonda və ya planşetdə səthə toxunun. Əvvəlcə rəngli topları, boruları, metal blokları və tikanları tapın. Maneələrdən yayınan yol planlayıb topu boruya yönəldən tunel qazın. 30 səviyyə boyunca hər yeni düzülüşü yoxlayın, çünki tapmacalar getdikcə mürəkkəbləşir.",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Yol tapan",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "10181588ee1a1312484a91fb6626a17b3d351142f09c73549bb391d041da243f"
+    }
+  }
+}

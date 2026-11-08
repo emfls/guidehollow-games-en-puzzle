@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "locale": "az",
+  "games": {
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "title": "CubeGate: kub qapıları",
+      "description": "CubeGate elmi fantastika üslubunda otaqlardan keçən məntiq və platforma oyunudur. İşıqlanan kubları götürüb təzyiq lövhələrinin üstünə qoyaraq qapılara, körpülərə və liftlərə enerji verirsiniz. Bəzi otaqlarda bir neçə kub, bəzilərində isə düzgün hərəkət ardıcıllığı lazımdır. Döşəmədəki işarələr, naqillər və enerji xətləri mexanizmlərin əlaqəsini göstərir.\n\nÇıxışa çatmaq üçün dəqiq tullanışları kubun yerləşdirilməsi ilə uzlaşdırın. Bir qapını işə salmazdan əvvəl onun arxasındakı sahəyə keçmək lazım gələ bilər. Kubu daşıyarkən növbəti dayanacağınızı əvvəlcədən seçin; uğursuz ardıcıllığı səviyyəni yenidən başladaraq dəyişmək olar.",
+      "instructions": "Hərəkət üçün W, A, S, D, Q, Z və ya ox düymələrindən istifadə edin. E və ya siçanın sol düyməsi kubu götürür və yerə qoyur. Space və ya siçanın sağ düyməsi ilə tullanın, Shift ilə sürətlə qaçın. Escape səviyyəni yenidən başlatmaq və səsi dəyişmək menyusunu açır. Kubları işarələnmiş lövhələrə yerləşdirin, naqillərin hara getdiyinə baxın və uzaq platformaya keçərkən qaçışla tullanışı uyğunlaşdırın.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis"
+      },
+      "reviewedTextHash": "15c507abf429d5868a8a4af492154339a5479e210582c887523161221dce1010"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "3D avtomobil tryukları və yarış",
+      "description": "Car Stunt Racing Game 3D : Car Games havada yerləşən yollar, böyük rampalar və hərəkətli maneələr üzərində avtomobil idarəetməsini sınayır. Məqsəd maşını yoldan salmadan və qəzaya uğratmadan finişə çatdırmaqdır. Tullanışdan əvvəl istiqaməti düz seçmək, havada tarazlığı qorumaq və eniş yerini hesablamaq lazımdır.\n\nMüxtəlif kamera görünüşləri dar hissələri və rampaları izləməyə kömək edir. Nəzarət nöqtələri yıxıldıqdan sonra yolun ortasından yenidən başlamağa imkan verir. Vaxt məhdudiyyəti olan mərhələlərdə sürətlə təhlükəsiz hərəkət arasında tarazlıq qurun, hərəkətli maneənin keçidi bağlayıb-bağlamadığını qabaqcadan yoxlayın.",
+      "instructions": "Kompüterdə yuxarı ox sürətləndirir, aşağı ox geriyə hərəkət etdirir, sol və sağ oxlar istiqaməti dəyişir. Space əyləcdir. Telefonda sol və sağ düymələrlə dönün, qaz pedalı ilə irəli gedin, əyləc pedalı ilə yavaşıyın və ya dayanın. Rampaya düz yaxınlaşın, enişdə yolda qalmağa çalışın və mərhələnin vaxtı bitməmiş finişə çatın.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Omitted the unverified offline-play and download claims; retained the explicit racing objectives, checkpoint mechanic and exact device controls."
+      },
+      "reviewedTextHash": "500442b9189c762057cc9cf59a4f5fc1148395faa307f48dac0bd2710f6e0533"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: təyyarə qur",
+      "description": "Obby Craft: Build a Plane hissələrdən öz təyyarənizi yığdığınız uçuş oyunudur. Quraşdırılan bloklar uçuşa təsir edir; havada xəritəyə səpələnmiş sikkələri yığıb yeni hissələrə və təkmilləşdirmələrə xərcləyirsiniz. Uçuşdan əvvəl sapandı gücləndirmək təyyarəni daha yüksək və daha sürətli buraxmağa kömək edir.\n\nHissə mağazası yeni bloklar və görünüşlər təklif edir, çarx isə əlavə əşyalar və ya sikkələr verə bilər. Mənbədə layihələri saxlamaq üçün dördədək yuva və iki pulsuz görünüş göstərilir. Qurduğunuz təyyarəni maneə zolağında sınayın: uçuş məsafəsini artırmaqla yanaşı, qarşıya çıxan maneələrdən yayınmaq da vacibdir.",
+      "instructions": "Təyyarənin yanındakı quraşdırma sahəsinə yaxınlaşın. Aşağıdakı inventardan hissəni seçin və quraşdırmaq üçün təyyarənin yanında klikləyin. Hissələr bitərsə, mağazadan yenisini alın. Sikkələrlə sapandı təkmilləşdirin, təyyarəni buraxın, uçuş zamanı sikkələri toplayın və maneələrdən yayının. Mənbə ayrıca uçuş düymələrini göstərmir; idarəetmə üçün oyundakı göstərişləri izləyin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "1e30eb3d672c205cf3eade915fac94afc812ab1dcb22aeb5387e9de9865c9c62"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: motosiklet sınağı",
+      "description": "Canyon Drifter çətin yollar və motosikletin sazlanması ətrafında qurulmuş ikiölçülü sınaq oyunudur. Dik yoxuşları və tullanışları keçərkən təkcə qaz vermək kifayət etmir: sürücünün irəli və arxaya əyilməsi motosikletin tarazlığına təsir edir. Məqsəd yolu uğurla keçib nəticələr cədvəlində daha yaxşı vaxt əldə etməkdir.\n\nYol keçilməz görünürsə, qaraja qayıdıb motosikletin quruluşunu həmin səthə uyğun dəyişin. Sonra qazı, əyləci və əyilməni fərqli ardıcıllıqla sınayın. Ön təkəri qaldırmaqla burnu aşağı salmaq ayrı hərəkətlərdir; enişə yaxın motosikletin bucağını nəzərə alın.",
+      "instructions": "Yuxarı ox və ya W qaz verir, aşağı ox və ya S əyləc və geriyə hərəkətdir. Sol ox və ya A arxaya əyilib ön təkəri qaldırır; sağ ox və ya D irəli əyilib burnu endirir. Esc və ya P fasilə verir, R yenidən başladır. Telefonda ilk toxunuşdan sonra dörd düymə görünür: yuxarıda qaz və əyləc, aşağıda irəli və arxaya əyilmə. Fasilə və yenidən başlatma sağ yuxarıdadır.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "b1c343b54fd3d02552eb3a0ea8caac857943684636db812b36be9087f1700ad1"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "3D şahmat: sehrli bağ",
+      "description": "3D Chess - Arcane Edition klassik şahmatı nağıl ab-havalı bağda üçölçülü lövhə və mis-qızılı fiqurlarla təqdim edir. Kompüter rəqibinin üç çətinlik səviyyəsi var. Məqsəd rəqibin şahını mat etməkdir; fiquru seçəndə işıqlı nöqtələr icazə verilən gedişləri göstərir. Rəqib fiqurunun xanasına gedərək onu götürürsünüz.\n\nLövhəyə müxtəlif bucaqlardan baxmaq üçün kameranı döndərmək və görüntünü yaxınlaşdırmaq mümkündür. Parametrlərdə çətinliyi, gediş işarələrini və səsi dəyişə bilərsiniz. Dostla oynamaq üçün başlanğıc ekrandakı Play a Friend seçimi şəxsi otaq yaradır; otaq kodunu paylaşmaqla digər oyunçunu dəvət edirsiniz.",
+      "instructions": "Fiquru seçmək üçün ona toxunun və ya klikləyin, sonra işıqlandırılmış xanaya toxunaraq gediş edin. Kameranı sürükləyərək döndərin, iki barmaqla və ya siçanın təkəri ilə miqyası dəyişin. Lampa işarəli Hint düyməsi tövsiyə olunan gedişi göstərir; mənbədə hər oyun üçün üçədək ipucu və solo rejimdə mükafatlı reklam şərti qeyd olunur. Dişli işarəsi parametrləri açır.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "9c0969dd6e709703829bef84fe74d4f1cee213e048366462c166e060ff0e0071"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: rahat xətt tapmacası",
+      "description": "Turnline: Relaxing Puzzle xətləri bir şəbəkədə birləşdirmək barədə sakit məntiq oyunudur. Hər plitəni döndərərək onun yollarını qonşu hissələrin xətləri ilə uyğunlaşdırırsınız. Bütün tələb olunan hissələr birləşəndə mərhələ tamamlanır. Əvvəlki səviyyələr qaydanı sadə düzülüşlərlə öyrədir, sonrakılar isə şaxələnən və daha mürəkkəb yollar əlavə edir.\n\nVaxtölçən yoxdur, buna görə dəyişiklik etməzdən əvvəl şəbəkəni bütöv nəzərdən keçirə bilərsiniz. Düzgün birləşən yollar işıqlandırılır və hansı hissələrin hələ uyğunlaşmadığını görməyə kömək edir. Çətin yerdə ipucu istifadə etmək olar; oyun irəliləyişi saxlayır və qısa, yaxud uzun sessiyalara uyğun mərhələlər təqdim edir.",
+      "instructions": "Plitəni döndərmək üçün kompüterdə siçanla klikləyin, telefon və ya planşetdə ona toxunun. Xətlərin qonşu plitələrlə necə birləşdiyini yoxlayın. Yalnız bir parçanı deyil, onun dəyişməsinin bütün şəbəkəyə təsirini nəzərə alın. Tələb olunan bütün yolları birləşdirənədək plitələri döndərin; işıqlanan yollar düzgün əlaqəni göstərir. İrəliləyə bilmirsinizsə, ipucundan istifadə edin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "46f6316030390144ab1626129bdf076f1f8323414bb24855e12d52ad7f70e816"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "title": "Mavi traktor",
+      "description": "Blue Tractor kənd sakinlərinə kömək etdiyiniz üçölçülü sürücülük macərasıdır. Mavi traktorla kəndi gəzir, aşpaz Peppinoya pendir, başqa sakinlərə ot, yumurta və bağlamalar çatdırır, itmiş heyvanları və gizli xəzinələri axtarırsınız. Tamamlanan tapşırıqlar traktoru yaxşılaşdırmaq üçün sikkə qazandırır.\n\nQarajda mühərriki sürətləndirmək, yanacaq çənini böyütmək, palçıq təkərləri və yeni rənglər almaq olar. Vaxt təzyiqi olmayan açıq dünyada sakinlərə aparan oxları izləyin. Yanacaq və təkərlər səfərin davamına təsir edir: mağazadakı xidmətlərdən istifadə edin, dərin sudan uzaq durun və tapşırığa uyğun marşrut seçin.",
+      "instructions": "Kompüterdə W, A, S, D və ya ox düymələri ilə sürün və istiqaməti dəyişin; Space əyləcdir. Telefonda ekrandakı joystiki sürükləyin. Oxun göstərdiyi sakinlə görüşüb çatdırılma və toplama tapşırığını yerinə yetirin. Yanacağı mağazadan alın; çən boşalarsa, fermerlər qısa dayanışdan sonra doldururlar. Qırılmış təkəri mağazada təmir etdirin və ya mexaniki gözləyin. Küncdəki düymə fasilə verir.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villag",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S"
+      },
+      "reviewedTextHash": "a55b88d04542b6e506715eb2b7af5d3f5dc9d51453f3818b1e45cd7b30d8498f"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: şəhər yolları",
+      "description": "City Pop Drive səksəninci illərin pastel şəhər mənzərələrində keçən arkada sürücülük oyunudur. Avtomobil özü sürətlənir; siz nəqliyyatın arasından keçib vaxt bitməmiş nəzarət nöqtəsinə çatmağa çalışırsınız. Digər maşınların yaxınından toxunmadan keçmək vaxt əlavə edir və Breeze göstəricisini doldurur. Göstərici dolanda güclənmə işə düşür.\n\nHər yol ayrıcında mənzərəli və ya sürətli yolu seçirsiniz. Beş xəritənin öz xüsusiyyəti var və musiqi marşruta uyğun dəyişir. Məqsədə çatanda kolleksiya üçün üzlük əldə edirsiniz; oyunda ümumilikdə iyirmi beş belə üzlük göstərilir. Qazanılan Miles resursu təkmilləşdirmələr, avtomobillər və yeni xəritələr üçün xərclənir.",
+      "instructions": "Başlamaq üçün toxunun, sonra sola və ya sağa sürükləyərək dönün. Kompüterdə siçanı sürükləmək, ox düymələri, A və D də işləyir; P fasilə verir. Qaz düyməsi lazım deyil, maşın avtomatik sürətlənir. Yaxın keçidlərlə Breeze göstəricisini doldurun; tam göstərici maşınları kənara itələyən Boost yaradır. Taymer bitmədən nəzarət nöqtəsinə çatın və hər ayrıcda bir yol seçin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "c05beecb94b7e3375c5c7b4adf4bd79c49ec02e3ec3e0ad3b3c58e8472345513"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "title": "Roll Tycoon: zər biznesi",
+      "description": "Roll Tycoon zərlərin nəticələrindən oyun valyutası qazandığınız üçölçülü idarəetmə oyunudur. Hazır zərləri lövhəyə atırsınız və dayandıqda üstdə qalan rəqəmlərə görə gəlir əldə edirsiniz. Yeni zərlər almaq, d4-dən d20-yə qədər beş pilləni açmaq, artefaktlar və heykəllərlə gəliri artırmaq mümkündür. Maksimum rəqəm JACKPOT verir və FEVER göstəricisini doldurur.\n\nTam FEVER göstəricisi səkkiz saniyəlik ikiqat ödəniş yaradır; uyğun artefakt bunu uzada bilər. Otuz müqavilə, iyirmi iki kubok, gündəlik və həftəlik tapşırıqlar əlavə məqsədlər verir. Bir gedişdə bir milyon oyun valyutası qazandıqdan sonra Rebirth ilə daimi ulduz çarpanları almaq olar. Bunlar oyun daxilindəki resurslardır.",
+      "instructions": "Bütün hazır zərləri atmaq üçün lövhəyə toxunun və ya klikləyin, yaxud Space və ROLL düyməsindən istifadə edin. Növbəti məqsədi CONTRACT nişanında izləyin. Qazancı yeni zərlərə, pillələrə, şans təkmilləşdirmələrinə və artefaktlara xərcləyin. MISSIONS bölməsində gündəlik və həftəlik məqsədləri tamamlayıb CLAIM ilə mükafatı götürün. Sponsor Boost və pulsuz sandıq üçün mükafatlı reklam təklif oluna bilər; qrafika ağırdırsa, mağazadakı Graphics sətrindən keyfiyyəti azaldın.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the"
+      },
+      "reviewedTextHash": "0a153226a2bc878a1404be8ee940259344c4ee25d9024ba4b8dceb87a20714d4"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: qəhrəmanın seçimləri",
+      "description": "Battlecross müxtəlif müəllimlərdən bacarıq öyrənərək qəhrəman yaratdığınız döyüş rol oyunudur. Cəngavərin qalxanını od sehri ilə birləşdirə, mühafizəçilər çağıra və başqa siniflərin bacarıqlarından istifadə edə bilərsiniz. Düşmən qruplarını və sahənin sonundakı başçını məğlub etmək irəliləyişin əsasını təşkil edir; uduzanda belə təcrübə və qənimət saxlanır.\n\nHər səviyyə üç xüsusiyyət xalı verir. Güc, çeviklik, zəka, dözümlülük, bacarıq və xarizma seçimləri istifadə edilən avadanlıqla bacarıqlara təsir edir. Şəhərlərdə alış-veriş edin, şəfaçıdan iksir kəmərini böyüdün və müəllimlərdən öyrənin. Bəzi sahələrin sonunda geri qaytarılmayan qərarlar mağazaları, müəllimləri və hekayənin sonunu dəyişir.",
+      "instructions": "Düşmənə yaxınlaşanda qəhrəman avtomatik hücum edir. Döyüşdə aktiv bacarıqları və sağlamlıq iksirlərini istifadə edin; bütün qrupları və son başçını məğlub edin. Səviyyə xallarını qurmaq istədiyiniz qəhrəmana uyğun bölüşdürün. Səkkiz aktiv və dörd passiv yuva on altı sinifdən seçilən bacarıqları qəbul edir. Mənbə hərəkət və bacarıqlar üçün konkret klaviatura düymələri vermir; oyunun ekrandakı idarəetmə göstərişlərini izləyin.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "be8891270173b3c84a6cf6bfcec60df1abda6706b34d0453530c03d48ff40f1f"
+    }
+  }
+}

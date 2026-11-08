@@ -90,7 +90,7 @@ function horrorQuickGuide(entry) {
 function guideLinks(entry) {
   if ((entry.page || 1)!==1) return '';
   const copy=ui(entry);
-  let selected=(entry.genre?collections.get(entry.locale).get(entry.genre):localeGames.get(entry.locale)).filter(game=>editorial(game,entry.locale));
+  let selected=(entry.genre?allCollections.get(entry.genre):games).filter(game=>editorial(game,entry.locale));
   if (!entry.genre) selected=selected.slice(0,6);
   if (!selected.length) return '';
   return `<section class="portal-section guide-links"><div class="section-heading"><div><h2>${escape(copy.guidesTitle)}</h2><p class="section-note">${escape(copy.guidesNote)}</p></div></div><ul>${selected.map(game=>`<li><a href="${gamePath(entry.locale,game)}">${escape(titleFor(game,entry.locale))} ${icon('arrow')}</a></li>`).join('')}</ul></section>`;

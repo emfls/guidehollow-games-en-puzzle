@@ -32,6 +32,8 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - name: Check guide qualification and deployment budget gates
+        run: node scripts/test-portal-guide-quality.mjs && node scripts/test-portal-budget.mjs
       - name: Build and verify every language and game
         run: npm run build
       - name: Check complete discovery and supported detail routes

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "locale": "ja",
+  "games": {
+    "magic-kingdom-hex-match": {
+      "description": "魔法の国の王の三男として、遠い土地に新しい王国を築くパズルゲームです。建物を増やすには資源が必要で、その資源は六角形のタイルをまとめることで集めます。食料、水、石、木、ダイヤモンド、金属の6種類を扱うため、同じ種類のタイルを重ねられる配置と、次の建物に必要な資源の両方を確認しながら進めます。\n\n資源集めの画面では下に3つの束が現れます。束を盤面に置き、上側のタイルの種類が合うように重ねると、タイルが移動してまとまります。同じ種類が10枚以上になった束は消え、その資源を獲得できます。画面上のカウンターは、そのレベルを終えるために必要な収集数を示します。\n\n王国の画面では建設中の足場から不足資源を確認できます。必要量がそろうとハンマーのアイコンが現れるので、それを押して建物を完成させます。資源を集める段階と建てる段階を行き来しながら、順番に新しい建物を解放する流れです。",
+      "instructions": "王国の画面で足場をクリックし、次の建物に足りない資源を確認します。必要量がそろったら、建物の上に出るハンマーをクリックして建設します。\n\n資源集めでは下に出る3つの束から1つを取り、上のタイルが同じ種類になる位置へ置きます。同じ種類の六角形を10枚以上まとめると回収されます。上部のカウンターを確認し、そのレベルの必要数まで集めてください。",
+      "sourceHash": "d74ca5a53069f4e9d44c1423cc63cf1b38cae9fd9fb3cda8977faea78b1d238b",
+      "title": "マジック キングダム: ヘックス マッチ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "You are the 3rd son of the great king of a magical land. Your parents send you to a faraway land to establish a new king",
+        "instructionsQuote": "Kingdom building screen. - Click on the scaffolding to see how many more resources you need to collect to build a new building; - when there"
+      },
+      "reviewedTextHash": "3f7617f6b9dbf081b9d2e1d5b7561ea9373481c78083ec94abbe4a78e11f26d5"
+    },
+    "diamant-match-3-sky-story": {
+      "description": "空に浮かぶ島を育てながら、色とりどりの宝石をそろえるマッチ3の冒険です。3個以上の宝石を一列に並べ、各パズルの目標を達成して先へ進みます。パズルを解くことが島の発展につながっており、設計図を調べて特別な建物を用意し、自分の空中都市を形にしていく構成です。\n\n盤面には石の障害物、ハチ、クモやクモの巣、流れる川などが登場します。単に宝石の数を見るだけでなく、その盤面で何が進行を妨げているかを確かめることが大切です。特別な組み合わせを作ると、難しい盤面を片づける助けになる仲間を呼べます。\n\n助けてくれるゴーレムは8種類で、それぞれ固有の能力を持ち、その能力を成長させられます。レベルや各種クエストを進めて得たアーティファクトは、町の改良や装飾にも関わります。島の拡張、建物の準備、宝石パズルという複数の要素が、一つの冒険としてつながっています。",
+      "instructions": "同じ色の宝石を3個以上並べ、表示された目標に合わせて盤面を進めます。石、ハチ、クモの巣、川などの障害物があるため、目標と障害物の位置を確認して組み合わせを選んでください。\n\n特別な組み合わせやゴーレムの力を利用し、難しい盤面の攻略につなげます。レベルとクエストを達成してアーティファクトや設計図を集め、島を拡張しながら町を改良、装飾していきます。",
+      "sourceHash": "e900134e6adc3eeccec5991d0a6450f287ea58ad168a93031ff12b3174f226f5",
+      "title": "ディアマント: マッチ 3 スカイ ストーリー",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A fun adventure with match 3 elements. Create your own soaring city in the sky An exciting adventure in the world of Dia",
+        "instructionsQuote": "Line up three or more colorful gems to achieve your goals and solve challenging puzzles! Prepare to face a variety of obstacles - from solid"
+      },
+      "reviewedTextHash": "4473c3ae0e1ed8949a76ed9c05f8921350f6474b82567f4e9c93e00d83057e33"
+    },
+    "police-chase-simulator": {
+      "description": "警察との追跡、レース、車の破壊を題材にした運転シミュレーターです。セダン、SUV、トラック、特殊車両を含む15台を超える車から選べます。競走するモードと自由に走るサンドボックスが用意され、目的に合わせて運転の仕方を変えられます。車体の各部分の色を変更でき、ホイールのキャンバー、高さ、大きさも調整できます。\n\n走行場所には広い道路と郊外を持つ街、低重力の月、丘や岩と破壊エリアがある田舎、ランプやプレスなどを備えたテストエリアがあります。地形や装置の違いを見ながら、同じ車でも場所によってどう動くかを観察できる構成です。\n\n衝突すると車体がつぶれ、ドアや車輪が外れ、窓が割れる表現があります。周囲の環境も一部を壊せます。時間を遅くする操作があるため、激しい衝突の場面をゆっくり確認できます。車を元の状態に戻す操作と位置をリセットする操作は別のキーなので、使い分けてください。",
+      "instructions": "PCではWASDで運転、Spaceでハンドブレーキ、Shiftでニトロを使います。Cでカメラを切り替え、Rで車をリセットし、Kで車を修復します。Bは時間を遅くする操作、TABまたはEscapeは一時停止メニューです。\n\nモバイル端末ではゲーム画面の操作UIを使います。レースかサンドボックスを選び、車両とマップを確認して走行してください。リセットと修復は用途が異なるので、必要な操作を選びます。",
+      "sourceHash": "86948a382b966cdaf0b931be182b8fe02a494715a3855dd2ccd15b99583cd977",
+      "title": "警察追跡シミュレーター",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dive into the world of police chases, destruction, and crazy races! Choose from over 15 vehicles, including sedans, SUVs",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) WASD - driving. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca"
+      },
+      "reviewedTextHash": "cd455fffe9a1796724248f1a1b7f11bb9ef61cbbc92494bab8c6afa98e3d3b71"
+    },
+    "pocket-universe": {
+      "description": "小さな世界を少しずつ広げていく探索アドベンチャーです。木、石、金属、クリスタルを集め、それを使って新しい土地を解放します。資源を集めることと世界を拡張することがつながっているため、目の前の採集だけでなく、次にどの場所へ進むかも考えながら遊ぶ内容です。\n\n探索先には緑豊かな草原、凍ったツンドラ、火山地帯など、異なる環境が広がります。道具を強化すると希少な素材の採集につながるので、集めた資源を新しい六角形の土地に使うか、道具の改良に使うかが進行の要点になります。移動はジョイスティックで行い、岩、木、クリスタルから資源を収集します。\n\n未探索の場所は安全な採集地ばかりではありません。モンスター、ゴーレム、野生の生き物が守っている区域もあり、探索の途中で敵と戦います。土地を解放し、道具を強くし、新たな環境を調べる流れを繰り返し、自分の小さな世界をさらに大きな宇宙へ育てていくゲームです。",
+      "instructions": "ジョイスティックでキャラクターを移動させます。岩、木、クリスタルを採集して資源を集め、道具の強化や新しい六角形の土地の解放に使ってください。\n\n新しい土地へ進むと、草原、ツンドラ、火山地帯などの環境を探索できます。道具の強化は希少な素材を得るために役立ちます。未探索の場所には敵もいるため、採集、道具の改良、探索、戦闘という進行を意識して世界を広げます。",
+      "sourceHash": "3f2322038dfec9b35b0c3cbd30babf644089a03d2d6798c11674443e3f35ac28",
+      "title": "ポケットユニバース",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Pocket Universe is an adventure game where players build and expand their own tiny world. 1. Gather resources (wood, sto",
+        "instructionsQuote": "How to Play Use the joystick to move your character. Collect resources by mining rocks, trees and crystals. Spend them to upgrade tools, unl"
+      },
+      "reviewedTextHash": "889cc36439949efce3dc40502eb5f2bea48a1c8ed03a6ce0964ae2c7362e3281"
+    },
+    "domino-online-multiplayer": {
+      "description": "数字の合うドミノをつなぎ、手持ちの牌を先になくすことを目指す対戦ゲームです。コンピューターとの対戦には9段階の難易度があり、オンライン対戦、リンクを共有した友達との対戦、同じ画面を使う対戦も用意されています。時間設定はBullet、Blitz、Rapid、Classicから選べます。\n\n開始時の手牌は7枚です。空白の牌を除いた最も小さいゾロ目を持つ人が先手となり、場の列の端に数字が合う牌を交互につなぎます。出せる牌がなければ、残りの山から合う牌が見つかるまで引きます。手牌をなくした人がそのラウンドの勝者です。\n\n負けた側には残った目の合計がペナルティとして数えられますが、0-0は25点、6-6は50点という特別な点数になります。山が空で誰も出せない場合は、残りの目が少ない人が勝ちます。ラウンドを繰り返し、ペナルティが100点に達した人が全体の敗者になります。ヒント、手の取り消し、履歴や統計の確認も利用できます。",
+      "instructions": "対戦形式と時間設定を選び、必要ならヒントを有効にします。配られる牌は各7枚で、空白以外の最小のゾロ目を持つ人が先手です。列の端と同じ数字の牌をつなぎ、出せなければ山から合う牌が出るまで引きます。\n\n先に手牌をなくすとラウンド勝利です。誰も出せず山も空なら、残りの目が少ない人が勝ちます。残りの目はペナルティとなり、0-0は25点、6-6は50点です。100点に達した人がゲーム全体の敗者になります。",
+      "sourceHash": "8b7b3c71981f8dee7092711a91de68427d1d52e58e6941669156f21841086263",
+      "title": "オンラインドミノ対戦",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Domino Online Multiplayer: Challenge Your Mind in Exciting Domino Duels! Are you ready for a thrilling battle of wits an",
+        "instructionsQuote": "Getting Started Choose your game mode: - play against the computer; - engage in online duels with real players; - play with a friend by shar"
+      },
+      "reviewedTextHash": "44532157d28ae32727a936b9ee51bf1e3f98b4816325835a6313ecbf59a9632a"
+    },
+    "click-click-clicker-playgama": {
+      "description": "ボタンをクリックしてゲーム内のお金を増やし、そのお金を強化に使う放置系クリッカーです。最初は1回のクリックから始まり、操作を重ねて新しいボタンやカーソル、テーマ、音楽を解放していきます。画面の見た目を変える要素も、収入を生み出す基本の仕組みにつながっています。\n\n強化できるのは、操作していない間に得られる収入、1回のクリックで手に入る金額、カーソルの数です。手動でクリックを続ける進め方と、放置収入を待つ進め方があり、得たお金で次の強化を購入します。背景、音楽、カーソル、ボタンは、必要な解放を済ませてから変更できます。",
+      "instructions": "画面のボタンをクリックし、ゲーム内のお金を獲得します。たまったお金で、放置収入、クリック1回の収入、カーソル数の強化を購入してください。\n\nさらにクリックするか放置収入を待ち、新しいボタンなどの解放を目指します。背景、音楽、カーソル、ボタンの変更は、先に該当する要素を解放してから行います。",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "クリック・クリック・クリッカー",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "13d4b5e91525c097ee1c252f46c31efec193e7334632c338c6957b923edd381b"
+    },
+    "build-and-run-playgama": {
+      "description": "走りながらコースの足りない部分を作り、敵にも対処して進むアーケードゲームです。完成した道を走るだけでなく、必要な場所に足場や斜面を用意する建設操作が組み込まれています。先の地形に合わせて作るものを選び、武器を使う場面と建設する場面を切り替えて進みます。\n\nPCでは足場、ランプ、スロープ、武器にそれぞれ別のキーが割り当てられています。次に必要な構造を見てから対応する操作を選ぶことが、このゲームの中心です。モバイルでは画面上のボタンを利用します。キャラクターは装備で外見を変えることができ、提供元の説明では2つのモードが用意されています。",
+      "instructions": "コースの欠けている部分を作りながら進みます。PCではQで足場、Wでランプ、Eでスロープを作り、Rで武器を使用します。先の地形を見て、必要な建設操作を選んでください。\n\nモバイルでは画面上に表示されるボタンを使います。建設と敵への対処は別の操作なので、道を補う必要がある場面か、武器を使う場面かを確認して進めます。",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "作って走ろう",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "b1225814901928f837c3be82cdd233f8333ad7e6abd027be2e5152428dc45c93"
+    },
+    "samurai-survivor": {
+      "description": "古代日本に開いた謎の門から、怪物の大群が押し寄せるという設定のサバイバルゲームです。故郷を守る最後の防衛線となった侍たちは、受け継がれてきたそれぞれの技や能力で立ち向かいます。物語上の目的は門を閉じ、土地に平和を取り戻すことです。\n\n実際の進行では、数百の敵を相手に生き延びながらレベルを上げ、スキルを強化します。移動には矢印キーか、左クリックを押したままのマウスドラッグを使えます。モバイルでは画面に触れて全方向へ移動します。敵の群れの中で移動し続けることと、レベルや能力を育てることを組み合わせて進める内容です。",
+      "instructions": "上、下、左、右の矢印キーで、それぞれ対応する方向へ移動します。マウスなら左ボタンを押したままドラッグすることで全方向へ動けます。モバイルでは画面に触れて移動してください。\n\n数百の敵がいる状況で生き残ることを目指し、レベルを上げてスキルを強化します。移動方法を一つ選んで方向操作に慣れ、成長と生存を両立させながら進めます。",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "サムライサバイバー",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "c86af59ddf61bfffab81a56b48d41909c5e0be1c2b35e04be049536ace2ce293"
+    },
+    "pow-2889-1": {
+      "description": "小さなペットのPowに食事を与え、体をきれいにし、一緒に遊びながら育てるお世話ゲームです。成長やレベルアップを見守るだけでなく、各部屋で表示される欲求のバーを確認し、Powが今必要としている世話を行います。バーは画面上部に縦向きで表示され、部屋ごとの状態を知る目印になります。\n\nゲームルームでは複数のゲームを遊べ、コインを集めて食べ物や部屋の装飾を購入できます。食事を与えるための買い物と、自分好みの部屋に変える楽しみが、お世話の流れに組み込まれています。提供元の説明では、友達に挑戦できる3つのミニゲームも紹介されています。Powや物にはマウスまたはタッチで働きかけます。",
+      "instructions": "マウスでPowや物を選ぶか、画面に触れて操作します。画面に表示される案内に従い、部屋の上部にある縦の欲求バーを確認してください。\n\n食事、清潔さ、遊びなど、その部屋で必要な世話をして、バーを満たすように進めます。ゲームルームでコインを集めたら、Powの食べ物や部屋の飾りの購入に使い、お世話と遊びを行き来します。",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "ポウのお世話",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "6c8d6d4b06ebb7414a750db0bdabe4f3d536b41b1aefb3f91b658b49da84749c"
+    },
+    "slides-and-climbs": {
+      "description": "サイコロを振って駒を進め、ゴールを目指すボードゲームです。伝統的な英国の盤上遊戯をもとにしており、米国で知られるChutes and Laddersにもつながる題材です。盤面を進みながらヘビの場所に止まらないよう願う、出目によって流れが変わる遊びです。\n\n1人でコンピューターを相手に遊ぶことも、同じ場所にいる友達と遊ぶこともできます。参加者は最大6人で、それぞれ自分の駒の色を選べます。サイコロで6を出すと、もう1回振れるのが重要なルールです。手番では出た目に従って駒を進め、この追加の1投があるかどうかも確かめながら、先にゴールへ到達することを目指します。",
+      "instructions": "参加する人数を決め、各プレイヤーの色を選びます。最大6人で遊べ、コンピューターの対戦相手も選択できます。手番でサイコロを振り、出た目に従って自分の駒を進めてください。\n\n6が出た場合は追加でもう1回サイコロを振れます。盤面の進行とヘビの位置を確かめながら、ゴールを目指します。友達と遊ぶ場合は同じ場所での対戦を利用します。",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "スライドとクライム",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "a9d5fe07672c1c9e98ca5e35ea8daf9eecd0b54bd29d7b0dd3b2ac534193956f"
+    },
+    "pathfinder": {
+      "description": "地面にトンネルを掘り、色の付いたボールを地下のパイプへ導く2Dパズルです。目的地へ通じる道を自分で作るため、ボールとパイプの位置だけでなく、途中の地形も確認して掘る経路を考えます。進行の中心は、移動キャラクターの操作ではなく、通り道そのものを整えることです。\n\n全30レベルがあり、進むにつれてパズルの組み合わせが複雑になります。金属のブロックやトゲといった障害物があるため、単に目的地へ向けて一直線に掘るだけでなく、どこを通ればよいかを考える必要があります。スマートフォン、タブレット、PCで利用でき、タッチまたはクリックで道を掘る操作に対応しています。",
+      "instructions": "スマートフォンやタブレットでは画面に触れ、PCではクリックして地面に道を掘ります。色の付いたボールを地下のパイプへ導けるよう、両者の位置と間にある障害物を確認してください。\n\n金属ブロックやトゲを考慮して経路を作り、30のレベルを進めます。後のレベルほど複雑になるため、掘り始める前に、どの方向へ道をつなげるかを確認することが役立ちます。",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "パスファインダー",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "11c618e58d86fc883657bdb5078a4b48cff25857070bdfb3e85928f8c0b7de9b"
+    },
+    "durak": {
+      "description": "手持ちのカードを出し切り、最後までカードを残す人にならないことを目指すカードゲームです。「Durak」は敗者を指す言葉として使われ、全員が同じ順位で勝つ形式ではなく、最後の1人が負けることが特徴です。勝ち抜いた人はその回のプレイを終え、ほかの人の決着を待ちます。\n\n2〜4人で遊び、各スートの6、7、8、9、10、J、Q、K、Aを使った36枚のデッキを使用します。最初に各人へ6枚ずつ配り、山札の下のカードを表にして切り札のスートを示します。最小の切り札を持つ人が最初の攻撃側となり、時計回りで隣の人が防御側です。切り札は、ほかの3スートのカードに勝てます。",
+      "instructions": "2〜4人で36枚を使い、各人に6枚ずつ配ります。山の下のカードを表にして切り札を示し、最小の切り札を持つ人から攻撃します。攻撃側はカードを表向きに出し、時計回りで隣の防御側がカードで応じます。\n\n切り札は、ほかの3スートのカードに勝ちます。攻撃が成功すると防御側の次の手番が飛ばされ、その左の人へ攻撃が移ります。防御に成功した人は次の攻撃側になります。手札を出し切ることを目指し、最後にカードを持っている人が負けます。",
+      "sourceHash": "36ebcc7a9150db947a8a106ac2b39219c8e942914cb7f53b6fd32e1a30ee0dc2",
+      "title": "デュラック",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Durak is essentially a shedding card game where each player will try to get rid of the cards in their hand first. Durak ",
+        "instructionsQuote": "Durak is played by 2 to 4 players. Total cards used are 36 cards - Only 6 7 8 9 10 J Q K A of all suits are used. The deck is shuffled, and "
+      },
+      "reviewedTextHash": "e1c81c8a9f386a6f98671254181b0eeea7b5d5c2d646fefae494c988ede3d94d"
+    },
+    "brainrot-mixup": {
+      "description": "奇妙な動物と物を組み合わせる、ブレインロット風の絵柄を使ったパズルです。バナナやサル、車、ティーポットなどの素材タイルが盤面に並び、それらを正しい順序に整えて、一体になった不思議な生き物を作ることが目標です。元の素材を見分け、その組み合わせを考える遊びになっています。\n\n操作は画像タイルをつかんでドラッグする方式です。タッチ画面では指で触れて動かし、PCではクリックしたまま移動させます。盤面にはランダムな素材が出るため、目の前にある絵を見て位置を整理する必要があります。一般的な動物の姿ではなく、動物と物が混ざる独特の見た目そのものが、パズルの題材です。",
+      "instructions": "盤面に並ぶ画像タイルを確認し、素材を正しい順序に並べてパズルを解きます。バナナ、サル、車、ティーポットなどの絵を手がかりに、合体した生き物を作ることを目指してください。\n\nモバイルではタイルに触れてドラッグし、PCではクリックしたままドラッグします。出ている素材と並び順を見ながら、画像タイルの位置を整理していきます。",
+      "sourceHash": "893fda048d8e5532291fa03afcf38970c75651eb49f5bb1a4dc17c988c8d0cee",
+      "title": "ブレインロット・ミックスアップ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Brainrot Puzzle takes the viral brainrot animal aesthetic and turns it into an actually playable, satisfying, and replay",
+        "instructionsQuote": "In Brainrot Puzzle, your goal is to merge absurd animal ingredients into fully fused brainrot creatures. The game starts with a grid filled "
+      },
+      "reviewedTextHash": "9fcce0c0b1516880bfd5268d82690d8c0d01dbfde5570dda4c6a33302349ca2b"
+    },
+    "drone-dash--time-challenges": {
+      "description": "壁や足場の間を跳ね返りながら飛ぶ、小型ドローンの時間制パズルです。ジャンプや重力による落下で進む形式ではなく、表面から表面へ滑るように移動します。狭い通路にある罠や特殊なタイルを見ながら、反射する方向と移動先を考えます。\n\n目標は制限時間内にできるだけ多くの弾を集めることです。集める数に応じて各レベル最大3つの星を獲得できます。必要な最低数を集めると、出発地点に光るクリスタルが現れ、そこへ戻るとレベルを完了できます。最低数に達することと、クリスタルまで帰ることの両方が必要です。\n\n罠に当たるか時間がなくなると、最初からやり直しになります。PCではクリック、モバイルではタップで飛ばしたい方向を指定します。短いレベルの中で、回収する弾の数、帰り道、残り時間を一緒に考える構成です。",
+      "instructions": "PCではクリック、モバイルではタップし、ドローンを進めたい方向へ跳ね返らせます。壁や足場を利用して移動し、時間内に弾を集めてください。\n\n必要な最低数を集めると、出発地点に光るクリスタルが現れます。そこへ到達してレベルを完了します。集めた弾に応じて星は最大3つです。罠への接触や時間切れは最初からのやり直しになるため、回収と帰還の両方を考えます。",
+      "sourceHash": "14efd59ac269fe47fa6f84b90291cddbdaca72f82c0d6e3bec769d165cf7d8a5",
+      "title": "ドローン ダッシュ - タイムチャレンジ!",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and preci",
+        "instructionsQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and precision bouncing are th"
+      },
+      "reviewedTextHash": "6e500f3e6e3feecb0afa44639ea381e27f75c9264d8c639cb981a256d259e5a2"
+    }
+  }
+}

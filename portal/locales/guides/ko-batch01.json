@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "locale": "ko",
+  "games": {
+    "attack-super-hole": {
+      "sourceHash": "1b33a3fe72d6ef43d337db51f9054aef662e2b166f92ac3484c23b80c835f880",
+      "title": "슈퍼홀 진격",
+      "description": "슈퍼홀 진격은 땅 위를 움직이는 구멍이 되어 군인들을 삼키는 게임입니다. 제한 시간이 끝나기 전에 가능한 한 많은 군인을 흡수하는 것이 첫 과제이며, 점점 더 위험해지는 괴물과의 전투도 목표로 제시됩니다. 시간 제한 속에서 군인을 모으는 행동과 괴물을 상대하는 전투가 함께 있는 구성입니다.\n\n컴퓨터에서는 키보드로 구멍을 이동하고 마우스 왼쪽 버튼으로 공격합니다. 모바일에서는 조이스틱 이동과 화면의 공격 버튼을 사용합니다. 이동할 곳을 정해 군인들을 삼키고, 별도로 마련된 공격 입력으로 괴물과 싸우는 방식입니다.",
+      "instructions": "컴퓨터에서는 키보드를 사용해 이동하고 마우스 왼쪽 버튼을 눌러 공격합니다. 모바일에서는 화면 조이스틱으로 이동하며 해당 공격 버튼을 누릅니다. 제한 시간이 끝나기 전에 가능한 한 많은 군인을 삼키고, 점점 위험해지는 괴물들을 상대하세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play as a hole on the ground and consume as many soldiers as you can before the time runs out to battle the increasingly more dangerous",
+        "instructionsQuote": "Moving around on the computer using the keyboard, attacking by pressing the left mouse button. Move around on mobile devices using joysticks and attack by clicking on"
+      },
+      "reviewedTextHash": "f45e1405ff6ce0a52d1ce3bf10041df5784aeb35a50567b8a345796b939f1e38"
+    },
+    "durak": {
+      "sourceHash": "36ebcc7a9150db947a8a106ac2b39219c8e942914cb7f53b6fd32e1a30ee0dc2",
+      "title": "두라크 카드 게임",
+      "description": "두라크는 손에 든 카드를 먼저 모두 내려놓는 것을 목표로 하는 카드 게임입니다. 마지막까지 카드를 가지고 있는 한 사람이 패자가 되므로, 한 명만 승리하는 경기와는 승패를 가리는 방식이 다릅니다. 이 버전은 2~4명이 참여하며, 각 무늬의 6, 7, 8, 9, 10, J, Q, K, A만 사용하는 36장 덱으로 진행합니다.\n\n시작할 때 각 플레이어에게 카드 6장을 나눠 줍니다. 남은 더미의 아래 카드를 공개해 으뜸패 무늬를 정하고, 다른 카드 더미가 그 위를 일부 덮도록 놓습니다. 가장 낮은 으뜸패를 가진 사람이 첫 공격을 맡으며, 그다음 시계 방향에 앉은 사람이 방어자가 됩니다.\n\n공격자는 카드 한 장을 앞면으로 내고 방어자는 방어 카드로 대응합니다. 으뜸패는 숫자와 관계없이 다른 세 무늬의 카드를 이깁니다. 공격이 성공하면 방어자는 차례를 잃고 그 왼쪽 사람에게 공격이 넘어가며, 방어에 성공하면 방어자가 다음 공격자가 됩니다. 손패를 소진한 사람은 빠지고, 나머지 사람들끼리 마지막 패자가 정해질 때까지 계속합니다.",
+      "instructions": "처음 받은 6장과 공개된 으뜸패 무늬를 확인합니다. 가장 낮은 으뜸패를 가진 사람이 먼저 공격 카드를 내며, 바로 다음 시계 방향의 플레이어가 방어 카드를 내는 순서입니다. 으뜸패는 다른 무늬보다 우선한다는 규칙을 기준으로 대응하세요.\n\n공격 성공 여부에 따라 다음 공격자가 달라집니다. 성공하면 방어자의 왼쪽 사람으로, 실패하면 방어자에게 차례가 넘어갑니다. 손패를 모두 내려놓으면 경기를 빠져나오며, 마지막까지 카드가 남지 않는 것이 목표입니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Durak is essentially a shedding card game where each player will try to get rid of the cards in their hand first. Durak is quite an enjoyable",
+        "instructionsQuote": "Durak is played by 2 to 4 players. Total cards used are 36 cards - Only 6 7 8 9 10 J Q K A of all suits are used. The deck is shuffled, and each player is dealt with 6"
+      },
+      "reviewedTextHash": "4e3e6d7bd71598c18a263a681cb8a2fc01ce22726bd716f6a2c72b248bc5d6ef"
+    },
+    "about-a-frog": {
+      "sourceHash": "cb683cf809631c39d633209ce7749c108a46b28f9ed87014256dd60c4ede7442",
+      "title": "개구리의 뗏목 모험",
+      "description": "개구리의 뗏목 모험은 개구리가 여러 장애물을 통과해 작은 뗏목의 돛을 작동시키는 퍼즐 게임입니다. 돛을 활성화해야 더 앞으로 나아갈 수 있으므로, 장애물을 넘는 과정과 뗏목의 돛을 작동시키는 목표가 연결되어 있습니다. 원본이 제시하는 과제는 개구리를 이동시켜 돛이 작동하도록 진행하는 것입니다.\n\n컴퓨터에서는 상하좌우 방향키나 WASD를 사용하며, 모바일에는 화면 버튼이 제공됩니다. 게임패드도 지원합니다. 다시 시작하기와 메뉴 이동, 음소거가 별도로 마련되어 있어 이동 퍼즐을 재시도하거나 메뉴로 돌아가는 조작을 선택할 수 있습니다.",
+      "instructions": "↑ 또는 W는 위, ↓ 또는 S는 아래, ← 또는 A는 왼쪽, → 또는 D는 오른쪽 이동입니다. R은 다시 시작, Q는 메뉴, M은 음소거입니다. 모바일은 화면 버튼을 사용하며 게임패드도 지원합니다. 개구리로 장애물을 통과해 작은 뗏목의 돛을 작동시키세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A puzzle game about a frog in which you need to pass various obstacles to activate the sail on a small raft to advance",
+        "instructionsQuote": "Desktop Controls: ↑ (Up Arrow) / W: Move upward. ↓ (Down Arrow) / S: Move downward. ← (Left Arrow) / A: Move left. → (Right Arrow) / D: Move right. R: Restart. Q: To"
+      },
+      "reviewedTextHash": "37c11479f5f93dba2ca466af76e3e57866a727ccc3b3629cb7329943aae62c92"
+    },
+    "brainrot-mixup": {
+      "sourceHash": "893fda048d8e5532291fa03afcf38970c75651eb49f5bb1a4dc17c988c8d0cee",
+      "title": "브레인롯 섞기 퍼즐",
+      "description": "브레인롯 섞기 퍼즐은 엉뚱한 동물과 사물이 결합된 밈 이미지를 타일 퍼즐로 구성한 게임입니다. 바나나와 원숭이처럼 익살스러운 재료를 하나의 브레인롯 생물로 완성하는 것이 목표이며, 처음에는 여러 재료 그림이 격자 안에 무작위로 놓여 있습니다. 자동차와 찻주전자도 재료 타일의 예로 등장해 평범한 동물 그림을 맞추는 퍼즐과 다른 조합을 보여 줍니다.\n\n플레이어가 하는 일은 그림 타일을 끌어서 올바른 순서로 정리하는 것입니다. 재료가 흩어져 있는 격자에서 시작해, 순서를 바로잡아 하나로 합쳐진 생물을 완성하는 흐름입니다. 제공업체는 이 작품을 반복해서 즐기는 캐주얼 퍼즐로 소개하며 모바일과 PC를 모두 이용 환경으로 안내합니다.\n\n조작은 터치로 끌거나 마우스로 클릭한 채 끄는 방식입니다. 핵심은 화면의 재료를 단순히 보는 데서 끝내지 않고 직접 배치 순서를 바꾸는 데 있습니다. 동물과 사물이 뒤섞인 그림을 소재로 삼지만, 실제 진행 목표는 각 타일을 맞는 순서로 놓아 퍼즐을 해결하는 것으로 명확하게 정해져 있습니다.",
+      "instructions": "격자에 놓인 그림 타일을 확인하고, 올바른 순서가 되도록 위치를 정리합니다. 터치 기기에서는 타일에 손가락을 대고 끌며, 컴퓨터에서는 타일을 클릭한 채 드래그합니다. 바나나, 원숭이, 자동차, 찻주전자 같은 재료가 합쳐져 완성된 생물이 되도록 퍼즐을 해결하세요.\n\n목표는 재료 타일을 정해진 순서로 배치하는 것입니다. 원본 안내는 터치 드래그와 마우스 드래그를 모두 조작 방법으로 제시합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Brainrot Puzzle takes the viral brainrot animal aesthetic and turns it into an actually playable, satisfying, and replayable puzzle game —",
+        "instructionsQuote": "In Brainrot Puzzle, your goal is to merge absurd animal ingredients into fully fused brainrot creatures. The game starts with a grid filled with random ingredient tiles"
+      },
+      "reviewedTextHash": "e7bfa2731914be0e35576661b3e1fb3f4ba0c59c9d9952bdf1c57bf5967df635"
+    },
+    "drone-dash--time-challenges": {
+      "sourceHash": "14efd59ac269fe47fa6f84b90291cddbdaca72f82c0d6e3bec769d165cf7d8a5",
+      "title": "드론 대시: 시간 도전",
+      "description": "드론 대시: 시간 도전은 벽과 플랫폼 사이를 튕겨 이동하는 작은 드론으로 제한 시간 안에 탄환을 모으는 아케이드 퍼즐입니다. 드론은 점프하거나 중력에 따라 아래로 떨어지는 대신, 표면 사이를 미끄러지듯 날아가며 반사됩니다. 좁은 공간을 통과하면서 원하는 방향으로 튕기는 움직임이 각 구간을 해결하는 기본 수단입니다.\n\n레벨마다 정해진 최소 수량의 탄환을 모으면 처음 출발했던 지점에 빛나는 수정이 나타납니다. 수정을 얻으러 출발점으로 돌아와야 레벨이 완료되므로, 탄환 수집과 귀환이 하나의 진행 과정으로 이어집니다. 모은 탄환이 많을수록 더 많은 별을 받을 수 있으며, 레벨당 별은 최대 3개입니다.\n\n함정에 닿거나 시간이 끝나면 처음부터 다시 시작합니다. 레벨은 짧고 빠르게 진행되며, 새 함정과 까다로운 타일이 추가됩니다. 탄환만 따라가다가 끝내는 방식이 아니라, 제한 시간 안에 필요한 수량을 확보한 뒤 수정까지 도착하는 움직임을 완성하는 것이 이 게임의 목표입니다.",
+      "instructions": "컴퓨터에서는 마우스를 클릭하고, 모바일에서는 화면을 탭해 드론을 원하는 방향으로 튕깁니다. 벽과 플랫폼을 오가며 탄환을 수집하세요. 점프나 아래로 떨어지는 이동 대신 표면 사이를 반사하며 움직이는 방식입니다.\n\n최소 요구 수량을 모으면 출발점에 수정이 생깁니다. 시간이 남아 있을 때 수정으로 돌아가 레벨을 마칩니다. 탄환을 더 모으면 최대 3개의 별을 받을 수 있지만, 함정에 닿거나 시간이 끝나면 처음부터 재시작합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and precision bouncing are the",
+        "instructionsQuote": "**How to Play** Welcome to **Drone Dash - Time Challenges** – a fast-paced arcade puzzler where quick thinking and precision bouncing are the keys to victory! You’ll"
+      },
+      "reviewedTextHash": "682426a7fdc7145190a9f304dd95f37b6bff71017c19410fe83c5e1602b6cbcb"
+    },
+    "happy-coloring-book-1c70-1": {
+      "sourceHash": "152889f2961a2ebd63e4c93ce9de28c013a26be51f78d70815535e41a5695df6",
+      "title": "행복한 색칠하기 책",
+      "description": "행복한 색칠하기 책은 여러 그림 가운데 하나를 골라 가상 크레용으로 색칠하는 웹 색칠놀이입니다. 준비된 그림에 직접 색을 입혀 나만의 작품을 만드는 것이 목표입니다. 제공업체는 다양한 그림을 선택할 수 있다고 설명하며, 여러 색과 색칠 방법을 시도하는 활동을 진행 방식으로 안내합니다.\n\n먼저 색칠할 그림을 고르고 그 안을 가상 크레용으로 채웁니다. 작품을 완성한 뒤에는 저장하고 친구에게 공유할 수 있습니다. 그림 선택부터 색칠, 완성작 보관과 공유까지 이어지는 구성으로, 원본은 다양한 색과 표현 방식을 사용해 자신만의 결과물을 만드는 데 초점을 둡니다.",
+      "instructions": "색칠하기 책에서 원하는 그림을 선택합니다. 가상 크레용으로 그림을 칠하면서 여러 색과 색칠 방법을 사용해 작품을 만드세요. 완성한 뒤에는 결과물을 저장하고 친구와 공유할 수 있습니다. 원본 안내의 진행 순서는 그림 선택, 가상 크레용 색칠, 완성작 저장과 공유입니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Color your world with our interactive web coloring book game! Choose from a variety of fun drawings to bring your imagination to",
+        "instructionsQuote": "Select a drawing from our coloring book and use the virtual crayons to color it in. Experiment with different colors and techniques to create your masterpiece. Once"
+      },
+      "reviewedTextHash": "a0732918497d02b1429369f814f3b416ec0690d1042778b08770b6da4f94f6eb"
+    },
+    "nekos-adventure-d640-1": {
+      "sourceHash": "6b1514d1feef5045ea0fb735059cf1835f1acdb65ce6cf596b6125b3870bc62d",
+      "title": "네코의 모험",
+      "description": "네코의 모험은 여자 친구를 구하려는 고양이 네코가 주인공인 플랫폼 게임입니다. 만화 같은 세계에서 개성 있는 적들을 만나며, 총 20개의 도전적인 레벨을 탐험합니다. 고양이의 구조 여정이 전체 목표이고, 각 레벨을 이동하고 점프하며 헤쳐 나가는 것이 플레이의 중심입니다.\n\n진행 중에는 불을 발사하는 파워 빔을 해금할 수 있습니다. 처음부터 이동만 반복하는 구성에 그치지 않고, 해금한 능력으로 불을 쏘는 행동이 더해집니다. 원본은 이 모험을 빠르게 전개되는 플랫폼 게임으로 설명하며, 네코와 적들의 익살스러운 모습이 어우러진 분위기를 제시합니다.\n\n컴퓨터의 조작은 좌우 이동과 점프, 불 발사로 나뉘어 있습니다. 왼쪽·오른쪽 방향키로 네코를 움직이고 위쪽 방향키로 점프하며, 스페이스바로 불을 발사합니다. 모바일에서는 화면 버튼을 사용합니다. 20개 레벨을 거치며 구조 목표를 향해 나아가고, 파워 빔을 얻은 뒤에는 이동과 불 발사를 함께 사용하는 흐름입니다.",
+      "instructions": "컴퓨터에서는 왼쪽·오른쪽 방향키로 고양이 네코를 이동합니다. 위쪽 방향키는 점프이며, 스페이스바는 불 발사입니다. 불을 쏘는 파워 빔은 진행 중 해금하는 능력으로 소개되어 있으므로, 능력을 얻은 뒤 해당 조작을 사용합니다.\n\n모바일에서는 터치 화면에 나타나는 버튼으로 조작합니다. 여자 친구를 구하는 여정을 따라 20개 레벨을 탐험하고, 각 구간에서 이동과 점프를 사용해 적들이 있는 세계를 통과하세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Neko’s Adventure is a vibrant platformer starring Neko, a playful cat trying to rescue his girlfriend. Explore 20 challenging levels, unlock the",
+        "instructionsQuote": "Desktop Left\\Right keys - move Up key - jump Spacebar - shoots fire Mobile - Touch screen"
+      },
+      "reviewedTextHash": "3638e7b113d5c0fe2e0138593a006eb0555c3e665a65aaec72894e64fa0fb802"
+    },
+    "Shopping-simulator": {
+      "sourceHash": "50b7dcd9240e8b8a0e82ea14c94170c71b6937a29316ceca602b9b190a62e7b2",
+      "title": "쇼핑 시뮬레이터",
+      "description": "쇼핑 시뮬레이터는 햄스터를 탭하거나 미니게임을 플레이해 게임 머니를 얻고, 고객 레벨을 올리며 상점의 물건을 구매하는 게임입니다. 수입을 얻는 활동과 상점에서의 구매가 연결되어 있어, 먼저 게임 안에서 사용할 돈을 모은 뒤 진열대의 다양한 상품을 수집하는 흐름으로 진행됩니다.\n\n제공업체 설명에는 500개가 넘는 고유 아이템과 200개의 레벨 단계가 안내되어 있습니다. 애니메이션, 공포, 음식, 반려동물, 생활용품을 아우르는 물건과 여러 캐릭터가 한곳에 모여 있다는 점이 특징입니다. 한 종류의 상품만 고르는 방식보다 여러 주제의 진열 상품을 구매하는 것이 중심에 놓여 있습니다.\n\n게임 머니를 모으는 방법으로는 햄스터 탭과 퍼즐을 비롯한 여러 미니게임이 제시됩니다. 이렇게 얻은 돈으로 레벨을 올리고 새 레벨을 열어 나갑니다. 햄스터를 누르는 행동, 퍼즐 해결, 고객 성장, 상점 구매가 이어지는 구조이므로, 원본이 제시하는 진행 목표는 게임 내 수입을 늘려 더 높은 레벨과 다양한 물건에 도달하는 것입니다.",
+      "instructions": "햄스터를 탭해 게임 머니를 얻습니다. 퍼즐을 풀고 다른 미니게임도 진행해 돈을 모을 수 있습니다. 벌어들인 게임 머니로 레벨을 올리고 새 레벨을 해금하는 것이 진행의 기본입니다.\n\n고객 레벨을 높이면서 상점 진열대의 상품을 구매합니다. 원본은 500개가 넘는 고유 아이템과 200개의 레벨 단계를 안내하며, 햄스터 탭과 퍼즐을 수입 활동으로 명시합니다. 미니게임에서 돈을 모으고 상점 구매와 레벨 상승으로 이어 가세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Earn game money by tapping the hamster, raise the customer's level and buy everything from the store shelves. Anime, horror, food, pets,",
+        "instructionsQuote": "Earn game money in different mini-games to upgrade your level! Tap the hamster and complete the puzzles to get as many as possible! Unlock new levels to become the"
+      },
+      "reviewedTextHash": "c53868116260a0d6df736a4f13b530332fa844947e787d127dacc5f84783e13a"
+    },
+    "school-escape-obby": {
+      "sourceHash": "72fe6c468e62e1d90b0d85d3b5a695d2073196bdccaeac836ef04d67c3e2d75d",
+      "title": "학교탈출 오비",
+      "description": "학교탈출 오비는 학교에서 벗어나는 것을 목표로 하는 장애물 코스 게임입니다. 학교 복도에서 수수께끼 같은 지하 공간까지 서로 다른 구역을 지나며, 점프와 회피, 퍼즐 해결을 통해 길을 뚫습니다. 제공업체는 로블록스 스타일의 세계와 다양한 장소를 특징으로 소개하며, 시간 기록을 겨루는 탈출 진행을 안내합니다.\n\n각 구역에는 다른 도전이 배치되어 있고, 움직임뿐 아니라 물건과의 상호작용도 조작에 포함되어 있습니다. 컴퓨터에서는 적을 미는 행동과 사물에 상호작용하는 행동이 별도 키로 구분됩니다. 따라서 탈출 과정에서는 이동과 점프에 더해 주변 물건에 접근해 작동시키는 입력도 사용합니다.\n\n캐릭터 외형은 수백 가지 스킨으로 꾸밀 수 있고, 원본 설명에는 친구와 경쟁하는 멀티플레이 모드와 순위표도 제시되어 있습니다. 중심 과제는 학교를 빠져나갈 코스를 통과하는 것이며, 구역마다 나타나는 장애물을 넘고 퍼즐을 해결하면서 탈출 시간에 도전하는 방식입니다.",
+      "instructions": "컴퓨터에서는 WASD로 이동하고 스페이스바로 점프합니다. Shift는 커서 표시, TAB은 일시정지입니다. F를 누르면 적을 밀며, E를 누르면 사물과 상호작용합니다. 사물은 마우스로 클릭해 상호작용할 수도 있습니다.\n\n휴대폰에서는 화면에 표시되는 조작 버튼을 사용합니다. 학교의 여러 구역에서 장애물을 피하고 점프하며, 필요한 사물과 상호작용해 탈출로를 통과합니다. 원본이 제시한 목표는 학교에서 탈출하며 시간 기록에 도전하는 것입니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dive into the thrilling world of School Escape Obby — a vibrant online game in roblox style with stunning graphics and diverse locations! Tackle",
+        "instructionsQuote": "Escape from school, play for time Controls on PC: Shift - show cursor WASD - move. Space - jump. TAB - pause. F - push enemy E - interact with objects (you can also"
+      },
+      "reviewedTextHash": "2a71f17ede56fb6ec19e139fb2cbc01f3f8a0c7913be0620d1af8b2a6cc0b278"
+    },
+    "cup-quest": {
+      "sourceHash": "1a86289409b1a97c5db34314fb17bc117f7f2df8b6ae5b7f328c4767db0dff13",
+      "title": "컵 퀘스트",
+      "description": "컵 퀘스트는 용감한 고양이가 주인공인 공과 컵 퍼즐 모험입니다. 공을 알맞게 보내 컵에 넣는 목표에 물리 기반 도전과 적, 함정이 더해집니다. 회전하는 발판과 폭발물, 까다로운 장애물이 등장하며, 공이 주변 환경에 부딪혀 튕기는 움직임을 이용해 컵에 도착하도록 해야 합니다.\n\n레벨마다 조준과 타이밍이 중요합니다. 공을 보내는 힘만 생각하는 방식에서 더 나아가, 어느 표면을 거쳐 컵으로 향할지 판단하는 것이 퍼즐의 일부입니다. 제공업체는 200개가 넘는 고유 레벨을 안내하며, 간단한 구간부터 훨씬 까다로운 구간까지 난도가 달라진다고 설명합니다.\n\n진행하면서 새로운 고양이 영웅을 해금하고 강화하는 요소도 있습니다. 적 무리와 함정이 포함되어 있어 공의 궤적을 맞추는 퍼즐과 영웅의 모험이 함께 전개됩니다. 컴퓨터에서는 마우스로 컵에서 떨어지는 공을 유도하며, 버튼과 파워업 같은 인터페이스도 같은 마우스로 조작합니다. 공의 움직임과 환경을 맞물려 컵을 향한 경로를 완성하는 것이 핵심입니다.",
+      "instructions": "마우스를 사용해 컵에서 떨어지는 공을 유도합니다. 화면의 버튼과 파워업 등 인터페이스 요소도 마우스로 조작합니다. 공이 주변 환경에 부딪혀 튕기는 움직임과 타이밍을 이용해 목표 컵에 들어가도록 진행하세요.\n\n회전 발판, 폭발물, 장애물이 있는 레벨에서 조준을 맞추는 것이 목표입니다. 진행에 따라 새로운 고양이 영웅을 해금하고 강화할 수 있습니다. 원본의 조작 안내는 공 유도와 인터페이스 입력을 모두 마우스 사용으로 제시합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Cup Quest – Hero’s Journey: A Feline Hero’s Adventure Begins! Join a brave cat on an epic quest in Cup Quest – Hero’s Journey, a fresh twist on",
+        "instructionsQuote": "Use the mouse to guide the balls dropping from the cup, and mouse is also used for interacting with UI elements (buttons, powerups,"
+      },
+      "reviewedTextHash": "d1605231826beee6783d5f57da21cdc55b11de04fc2d3471ab55cfab16f007c1"
+    },
+    "outside": {
+      "sourceHash": "c81f1c2b9d622ea2108512b3abcb20483f007048c2b5dee4fa2ab0992915a79a",
+      "title": "외부",
+      "description": "외부는 외눈 캐릭터를 격자 위에서 움직여 열쇠를 모으고 문을 여는 미니멀 퍼즐입니다. 문을 열면 다음 레벨로 이동하지만, 한 방향으로 움직이기 시작하면 벽에 닿을 때까지 멈출 수 없다는 규칙이 있습니다. 한 칸씩 자유롭게 정지하는 이동이 아니라 벽을 만날 때까지 계속 미끄러지는 방식이므로, 이동을 시작하는 방향이 도착 위치를 결정합니다.\n\n각 레벨의 목표는 열쇠를 얻은 뒤 출구 문까지 도달하는 것입니다. 격자의 벽과 통로는 단순한 배경이 아니라 캐릭터가 멈출 지점을 만드는 구조물입니다. 길의 모양을 살펴 어떤 벽에서 멈추고 다음에는 어느 방향으로 움직일지를 연결해야 합니다. 막다른 길을 피하고 주변 구조를 이용해 열쇠와 문을 잇는 경로를 찾습니다.\n\n컴퓨터에서는 방향키 또는 WASD로 이동하며, 모바일에서는 스와이프를 사용합니다. 다시 시작하기, 메뉴로 돌아가기, 음소거도 별도 입력으로 제공됩니다. 제공업체는 새 레벨마다 논리와 공간 사고를 요구하는 게임으로 설명하며, 시작은 간단하지만 멈출 수 없는 이동 규칙이 퍼즐의 난도를 만듭니다.",
+      "instructions": "컴퓨터에서는 ↑ 또는 W로 위, ↓ 또는 S로 아래, ← 또는 A로 왼쪽, → 또는 D로 오른쪽으로 이동합니다. R은 다시 시작, Q는 메뉴로 이동, M은 음소거입니다. 한 번 움직이면 벽에 닿을 때까지 멈추지 않습니다.\n\n모바일에서는 화면을 스와이프해 이동하고, 다시 시작·메뉴·음소거는 화면 버튼으로 선택합니다. 게임패드도 지원합니다. 벽에 멈추는 위치를 연결해 열쇠를 얻고 문으로 향하면 다음 레벨로 넘어갑니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "OUTSIDE is a minimalist puzzle game where every move counts. Guide your one-eyed character across a grid to collect the key and unlock the door",
+        "instructionsQuote": "Desktop Controls: ↑ (Up Arrow) / W: Move upward. ↓ (Down Arrow) / S: Move downward. ← (Left Arrow) / A: Move left. → (Right Arrow) / D: Move right. R: Restart. Q: To"
+      },
+      "reviewedTextHash": "0c61f229944976d917dfc3380d77f13eafc2d4df47961cd90a645cd505eaa5de"
+    },
+    "idle-pop-merge": {
+      "sourceHash": "0c49047590d37597fcd27975414002b49d24e7a9991b8e5db03a97adadfbde35",
+      "title": "유휴 팝 병합",
+      "description": "유휴 팝 병합은 작은 전사 한 명으로 시작해 같은 전사를 합치며 팀을 만드는 병합 전투 게임입니다. 제공업체는 총 32종의 개성 있는 만화풍 전사를 안내합니다. 동일한 전사를 합치면 더 강력한 새 캐릭터가 열리고, 그렇게 확보한 전사들로 적과 싸우는 흐름입니다.\n\n전투판은 3×3 격자로 구성되어 있어 캐릭터를 어느 칸에 배치할지도 진행 요소가 됩니다. 캐릭터를 빈 슬롯으로 끌어 놓는 조작을 사용하며, 같은 전사를 결합해 새로운 형태로 바꿉니다. 화면을 탭하면 공격 속도를 높일 수 있어, 병합과 배치 외에도 전투를 빠르게 진행시키는 입력이 마련되어 있습니다.\n\n여러 경기장에 걸쳐 120명의 적에게 도전하며, 단일·이중·삼중 경기장 도전이 포함됩니다. 승리할수록 새로운 전사 해금에 가까워집니다. 게임의 목표는 처음의 작은 전사를 출발점으로 삼아 같은 캐릭터를 결합하고 팀을 성장시키면서, 서로 다른 경기장에 등장하는 적들을 차례로 상대하는 것입니다.",
+      "instructions": "캐릭터를 사용 가능한 슬롯으로 드래그해 놓습니다. 같은 종류의 전사를 결합하면 더 강력한 새 형태로 병합되며, 이 방식으로 새로운 캐릭터를 해금합니다. 전사는 3×3 전투 격자에 배치합니다.\n\n전투 중에는 탭으로 공격 속도를 높일 수 있습니다. 한 명의 작은 전사로 시작해 병합과 배치를 이어 가고, 여러 경기장의 적들을 상대하세요. 원본은 32종 전사와 120명의 적, 단일·이중·삼중 경기장 도전을 진행 요소로 안내합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🎮 MERGE, TAP, CONQUER! 🎮 Welcome to the ultimate cartoon merge adventure! Start with one tiny fighter and build an unstoppable team of 32",
+        "instructionsQuote": "Drag and drop the characters into the available slots to combine and merge them into powerful new"
+      },
+      "reviewedTextHash": "f402ec0d6eef68d30503697bd2f626454f62e5f523ea1dbd74ae3999dc25a91b"
+    },
+    "organize-it": {
+      "sourceHash": "4020b81bc4adc8189e0c3b5d2002370205c73b896d283a061455f395e7a11e0f",
+      "title": "클러터 마스터",
+      "description": "클러터 마스터는 어질러진 방에서 물건마다 맞는 자리를 찾아 정리하는 캐주얼 게임입니다. 물건을 집어 올린 뒤 알맞은 위치에 놓아 방 전체를 정돈하는 것이 목표입니다. 클릭과 드래그로 물건을 직접 다루므로, 방에 놓인 각각의 물건을 어디로 옮길지 결정하는 과정이 플레이의 중심입니다.\n\n모든 물건을 정리하면 자동으로 다음 레벨로 넘어가고, 새 방에서 다시 정리를 시작합니다. 한 방을 마무리한 뒤 다른 방을 정돈하는 진행이 이어지며, 제공업체는 게임 마지막에 비밀이 기다린다고 소개합니다. 비밀의 내용은 밝히지 않은 채 물건 정리와 방 교체를 기본 흐름으로 제시합니다.",
+      "instructions": "물건을 클릭해 집어 올린 뒤 드래그해서 올바른 장소로 옮깁니다. 다시 클릭하면 물건을 내려놓습니다. 방의 각 물건을 제자리에 배치해 어질러진 공간을 정리하세요. 모든 물건의 정리가 끝나면 별도의 이동 입력 없이 자동으로 다음 레벨의 새로운 방으로 넘어갑니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Clutter Master is a handcrafted casual cozy game where you organize a messy room by placing each item where it belongs. A secret awaits at the",
+        "instructionsQuote": "Organize the messy room by placing each item where it belongs. Click on an object to grab it, then drag and drop it into the correct spot. Click again to release it."
+      },
+      "reviewedTextHash": "bdf2b280ce029a5c58141d5fba099c244a333a39c35780ec5b43bf61b4e16427"
+    },
+    "brain-coloring-puzzle": {
+      "sourceHash": "abd54cb7ce4c1b3046939cad633943a258534e5358b7d067fb7986603db8d17e",
+      "title": "두뇌 색칠 퍼즐",
+      "description": "두뇌 색칠 퍼즐은 이탈리안 브레인롯 밈 캐릭터의 원래 색을 맞추는 색칠 퍼즐입니다. 30종이 넘는 기묘한 생물이 등장하며, 봄바르디로 크로코딜로, 퉁 퉁 퉁 퉁 사후르, 심판지니 바나니니 같은 캐릭터가 원본에 소개되어 있습니다. 캐릭터의 의상과 신발, 머리 등 서로 다른 부분에 팔레트의 색을 배정합니다.\n\n조작 설명에 제시된 목표는 60초 안에 원래 캐릭터의 색에 맞게 칠해 퍼즐을 완성하는 것입니다. 선택할 수 있는 색은 4~5가지이며, 색칠할 영역을 숫자로 알려 주는 방식은 사용하지 않습니다. 숫자 안내 대신 그림의 각 부위와 색을 연결해야 하므로, 캐릭터의 색을 살펴 맞춰 보는 과정이 중심입니다.\n\n원본 소개에는 자유로운 색칠을 강조하는 문구도 있지만, 실제 진행 방법은 제한 시간 안에 원래 색을 맞추는 퍼즐로 설명되어 있습니다. 따라서 이 안내는 구체적인 완료 조건에 따라 설명합니다. 엉뚱한 캐릭터들의 모습을 소재로 삼아, 짧은 시간 안에 팔레트에서 색을 고르고 각 부위를 칠하는 게임입니다.",
+      "instructions": "팔레트에서 4~5가지 색 가운데 사용할 색을 고릅니다. 화면을 탭해 의상, 신발, 머리 등 캐릭터의 부위에 색을 배정합니다. 숫자가 어느 색을 쓸지 알려 주는 방식은 제공되지 않습니다.\n\n60초 안에 캐릭터의 원래 색과 일치하도록 칠하면 퍼즐을 완성합니다. 원본 조작 안내는 자유롭게 꾸미는 것에서 끝내지 않고, 제한 시간과 원래 색 맞추기를 완료 목표로 명시합니다. 선택한 색과 칠한 부위를 연결해 그림을 완성하세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Discover Italian Brainrot Meme Coloring Puzzle Game Step into the viral world of Italian Brainrot Meme Characters, where over thirty absurd",
+        "instructionsQuote": "How to Play Select Your Palette: Pick from 4–5 vibrant hues. Tap to Color: Assign each color to outfit, shoes, hair and more—without numeric guidance. Solve the Puzzle:"
+      },
+      "reviewedTextHash": "85256aee14c43085048bf9436a065d00f3b70d9e32510722517c5d99c1648401"
+    },
+    "rpg-idle-clicker": {
+      "sourceHash": "74c243949aeeabdb8f4e25488a29ef0c31d656e79b6f81febb47f40a6180370e",
+      "title": "RPG 방치형 클리커",
+      "description": "RPG 방치형 클리커는 몬스터를 눌러 피해를 주고 골드를 얻으며 공격 수단을 성장시키는 점진형 게임입니다. 적을 쓰러뜨려 얻은 골드로 강력한 검을 해금하고 칼날을 강화합니다. 클릭으로 직접 피해를 주는 행동과 검의 성장 단계가 연결되어 있어, 몬스터 전투가 다음 공격력 강화의 바탕이 됩니다.\n\n영웅을 모집하면 매초 몬스터를 자동으로 공격합니다. 제공업체는 오프라인 상태에서도 영웅의 전투가 이어지는 요소를 설명하며, 직접 탭하는 플레이와 방치 성장 모두를 진행 방식으로 제시합니다. 검을 통한 직접 공격 강화와 자동 공격 영웅 모집이 함께 준비되어 있습니다.\n\n성장하면서 더 강한 적과 보스를 상대하게 됩니다. 화면의 인터페이스 버튼으로 검 레벨과 영웅을 업그레이드하고 아이템을 장착할 수 있습니다. 목표는 몬스터를 계속 처치하면서 골드, 검, 영웅을 통해 공격 능력을 높이는 것입니다. 원본이 제시하는 흐름은 적 탭, 처치 보상, 장비와 영웅 강화, 더 강한 적에 대한 도전으로 이어집니다.",
+      "instructions": "적을 탭해 피해를 주고 쓰러뜨립니다. 몬스터를 처치하며 얻은 골드로 검을 해금하고 공격을 강화합니다. 화면의 인터페이스 버튼을 눌러 검 레벨과 영웅을 업그레이드하고, 아이템을 장착합니다.\n\n자동 공격 영웅을 모집하면 매초 몬스터와 싸우는 전력이 생깁니다. 직접 적을 누르는 조작과 검·영웅 강화 버튼을 사용하며 더 강한 적과 보스에게 도전하세요. 원본은 직접 클릭하는 방식과 자동 전투로 성장하는 방식을 모두 안내합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "RPG Idle Clicker is an incremental game where you embark on an adventure to slay monsters. Click to deal damage, earn gold, and unlock powerful",
+        "instructionsQuote": "Tap the enemy to deal damage and eliminate them. Interact with the UI buttons to upgrade sword levels, heroes, equip items, and much"
+      },
+      "reviewedTextHash": "92429a624d185e958b6261dda4458d49e4d7aa4cbcfd86c029cc6076a38b181b"
+    },
+    "clawler-fight": {
+      "sourceHash": "daec3272868818d4b3e5951974deb2ac7f4649712d66d564c1bbc7a421d905ce",
+      "title": "클로러 싸움",
+      "description": "클로러 싸움은 집게가 달린 크레인으로 물건을 잡아 좀비에게 던지며 생존하는 액션 게임입니다. 좀비 사태 속에서 평범한 인물이 살아남는 여정을 따라가며, 각기 다른 능력과 강점을 가진 좀비들을 상대합니다. 직접 무기만 휘두르는 방식과 달리, 크레인의 집게로 집어 올릴 물건을 조준하는 행동이 전투의 중심입니다.\n\n스와이프로 집게의 위치를 조준하고 손가락을 떼면 물건 위로 집게가 내려갑니다. 집어 올린 물건은 자동으로 적용됩니다. 집게의 악력과 물건 보관 공간의 너비를 강화할 수 있어, 어떤 물건을 잡을지뿐 아니라 얼마나 효과적으로 수집할지도 성장 요소로 이어집니다.\n\n진행 중 자원과 재화를 모아 캐릭터를 강화하며, 카드 방식의 능력 성장 시스템을 이용합니다. 적의 공세 사이에 능력을 선택해 물건을 집는 힘을 더 높일 수 있습니다. 다양한 좀비를 상대하면서 물건 수집과 집게 강화, 공세 사이의 능력 선택을 반복하고 끝까지 살아남는 것이 원본에 제시된 최종 목표입니다.",
+      "instructions": "화면을 스와이프해 집게를 조준합니다. 손가락을 떼면 집게가 아래로 내려가 물건을 집으며, 집어 올린 물건은 자동으로 적용됩니다. 크레인으로 물건을 수집해 좀비를 상대하는 흐름입니다.\n\n집게의 악력과 물건 보관 공간의 너비를 업그레이드하면 더 효율적으로 물건을 모을 수 있습니다. 적 공세 사이에는 능력을 선택해 수집 능력을 높입니다. 자원과 재화를 모으고 카드 방식의 능력 성장을 사용하며 생존을 이어 가세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Immerse yourself in the thrilling blend of addictive gameplay of Clawler fight! In this action-packed game, you step into the shoes of an",
+        "instructionsQuote": "Swipe to aim the Claw. Release your finger to drop it onto items. Picked-up items are applied automatically. Upgrade your Claw's grip strength and item storage width to"
+      },
+      "reviewedTextHash": "bbbc20756cdd12358b76d9f9572e2c9b4770423d45f7120e1af5b8c854fa0903"
+    },
+    "madness-ward-number-6": {
+      "sourceHash": "451069b2ecda8ee8b0d8cd386b3f242471005f36eca0dbbb2816b57746c814f7",
+      "title": "광기: 6번 병동",
+      "description": "광기: 6번 병동은 정신병원의 환자가 되어 다른 환자와 보스를 상대하며 캐릭터를 키우는 게임입니다. 전투를 여러 차례 치르면 새 레벨과 강화 포인트를 얻고, 이 포인트로 캐릭터의 능력을 높입니다. 상대와의 전투가 성장으로 이어지고, 성장한 캐릭터로 다시 싸움을 계속하는 흐름입니다.\n\n전투에는 무작위 치명타가 포함됩니다. 치명타가 발생할 확률은 완전히 무작위라고 안내되어 있으며, 치명타의 위력은 'Madness', 즉 광기 능력치에 따라 달라집니다. 원본은 발생 여부와 피해의 크기를 서로 다르게 설명하므로, 광기 수치가 높으면 반드시 치명타가 나온다는 식으로 이해하지 않도록 구분해야 합니다.\n\n전투 외에는 쥐 경주에서 운을 시험하고 무기, 스킨, 반려동물을 구매하는 요소가 소개되어 있습니다. 조작은 버튼을 탭하거나 클릭하는 방식입니다. 다양한 행동을 같은 버튼 인터페이스로 선택하면서, 다른 환자와 보스에게 도전하고 레벨과 강화 포인트를 쌓아 캐릭터를 성장시키는 것이 기본 진행입니다.",
+      "instructions": "화면의 버튼을 탭하거나 클릭해 조작합니다. 다른 환자 및 보스와 전투를 진행하고, 여러 차례 싸운 뒤 얻는 새 레벨과 포인트로 캐릭터를 강화합니다. 무기, 스킨, 반려동물 구매와 쥐 경주도 원본에 소개된 활동입니다.\n\n치명타 발생은 완전히 무작위이며, 치명타의 위력은 광기(Madness) 능력치에 따라 달라집니다. 강화 포인트로 캐릭터를 성장시키면서 버튼을 통해 다음 행동을 선택하고 전투를 이어 가세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In this game you are a patient of a psychiatric hospital. - Upgrade your character by leveling up. - Try your luck in the rat race. - Fight with",
+        "instructionsQuote": "Management: - By tapping/clicking on the buttons Fight with other patients and bosses to level up. After several battles, you will get a new level and points to upgrade"
+      },
+      "reviewedTextHash": "0f4de5b80f8e05eb97db8a2dec6e497bda14ca7a2654d8d7070c16052131a06e"
+    },
+    "winged-wheels-2": {
+      "sourceHash": "546a6bdfd8fafa5794de61695163d08226c9bb64e106bb9e6998b706bd8e2287",
+      "title": "날개 달린 바퀴 2",
+      "description": "날개 달린 바퀴 2는 자동차와 우주선을 동시에 조종하는 액션 게임입니다. 한쪽 차량으로 적과 장애물을 피하는 동안 다른 쪽으로 코인과 파워업을 모아야 하며, 두 이동을 실시간으로 처리합니다. 코인을 모아 업그레이드를 구매하고 순위표에 도전하는 것이 목표입니다.\n\n적이나 장애물에 부딪히면 체력을 하나 잃습니다. 코인을 놓치는 경우에도 체력을 하나 잃으므로, 충돌을 피하는 일과 코인을 챙기는 일이 모두 생존에 영향을 줍니다. 플레이를 마친 뒤 능력을 업그레이드하고 새로운 외형의 자동차와 우주선을 해금할 수 있으며, 무작위 사건과 파워업이 진행 중 변화를 만듭니다.\n\n자기장은 코인을 차량 쪽으로 끌어오고, 에너지 보호막은 접촉한 적과 장애물을 파괴합니다. 추가 생명은 생명 하나를 더 주며, 무기 시스템은 가장 가까운 적이나 장애물을 향해 로켓을 자동 발사합니다. 자기장과 보호막은 업그레이드로 지속 시간이 늘고, 무기 시스템은 탄약 보유량이 늘어납니다. 두 차량의 조작을 나누면서 이 효과들을 이용해 달리기를 이어 갑니다.",
+      "instructions": "컴퓨터에서는 ←·→ 방향키로 자동차를 좌우로 움직이고, A·D로 우주선을 좌우로 움직입니다. 모바일에서는 화면 왼쪽을 스와이프해 우주선을, 오른쪽을 스와이프해 자동차를 조종합니다.\n\n코인을 모아 업그레이드를 구매하세요. 적·장애물 충돌과 코인 누락은 각각 체력 하나를 소모합니다. 자기장은 코인 수집, 에너지 보호막은 접촉한 적·장애물 파괴, 추가 생명은 생명 추가, 무기 시스템은 가까운 표적에 로켓 자동 발사 효과를 줍니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Ready to challenge your brain and reflexes like never before? In this fast-paced action game, you'll control a car and a spaceship",
+        "instructionsQuote": "PC: ← (Left Arrow): Move left with the car. → (Right Arrow): Move right with the car. A: Move left with the spaceship. D: Move right with the spaceship. Mobile: - Swipe"
+      },
+      "reviewedTextHash": "912c341e0b63a8f805b3d8a61612f34e7ef4f1964f02d1635101dbac9571c420"
+    },
+    "playful-cup": {
+      "sourceHash": "7eb137f42f8c7b20e2dd4322d886f507fedfaa4cdd2a82de1ce2e490f7084044",
+      "title": "플레이풀 컵",
+      "description": "플레이풀 컵은 비어 있어 슬픈 컵에 액체를 채워 다시 웃게 만드는 게임입니다. 화면을 누르고 있으면 물이 흐르며, 컵 밖으로 넘치지 않게 채우는 것이 목표입니다. 물을 공급하는 입력과 넘침을 막는 조건이 함께 제시되어 있어, 화면을 누르는 시간과 컵에 채워지는 양이 연결됩니다.\n\n제공업체는 레벨마다 해결 방법을 찾아 진행하고, 자신만의 방식으로 해법을 생각해 볼 수 있다고 설명합니다. 총 3개의 게임 모드가 안내되어 있습니다. 공통 조작 안내는 화면을 길게 눌러 물을 흐르게 하는 방식이며, 빈 컵을 채우되 넘치지 않도록 마무리하는 것이 핵심 과제입니다.",
+      "instructions": "화면을 누르고 있으면 컵으로 물이 흐릅니다. 컵에 액체를 채우면서 밖으로 넘치지 않도록 조절하세요. 비어 있는 컵을 채워 다시 웃게 만드는 것이 목표입니다. 제공업체는 레벨의 해결 방법을 찾아 진행하는 구성과 3개의 게임 모드를 안내하며, 기본 입력은 화면을 길게 누르는 방식입니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "The glass is sad because it's empty. Your job is to make the glass filled up with liquid and smile again! Try to find the best way to complete",
+        "instructionsQuote": "Hold the screen to make the water flow into the glass. Take care to fill the glass without"
+      },
+      "reviewedTextHash": "77e19f5063c0d097bf451379fba96da3c3d9d175afb6def6faef43d03a3de840"
+    },
+    "the-pirate-sea-the-smugglers-way": {
+      "sourceHash": "55e0bfc3e4dc96333e82ce8cd5a4708daf6c7078c05ab71f643d8e0d0daa3aa3",
+      "title": "해적 바다. 밀수꾼의 길",
+      "description": "해적 바다. 밀수꾼의 길은 밀수꾼이 되어 바다를 항해하며 보물을 찾고 여러 임무를 수행하는 게임입니다. 적 함선을 파괴하고 섬을 점령하며 자신의 배를 업그레이드하는 활동이 준비되어 있습니다. 바다 괴물을 경계하면서 명성 높은 밀수꾼이 되는 것이 전체 목표입니다.\n\n함선은 전진과 후진, 좌우 이동을 하고 양쪽 측면에서 각각 사격합니다. 가속도 사용할 수 있지만, 빠르게 항해하려면 식량이 필요하며 바다를 이동하는 동안 식량이 소모됩니다. 항해 방향과 사격할 측면을 조작하고, 가속에 쓰이는 자원을 함께 다루는 구조입니다.\n\n목적지로 항로를 설정하려면 지도를 열고 원하는 장소 가까이에 있는 나침반 아이콘을 선택합니다. 단순히 바다를 돌아다니는 데서 끝나지 않고, 지도에서 목적지를 정해 보물 탐색과 임무, 섬 점령으로 이동을 이어 갈 수 있습니다. 순위표는 보유 골드의 양을 보여 주므로, 원본이 제시하는 순위 기준은 골드입니다. 탐험과 함선 전투, 강화 활동을 통해 바다에서의 모험을 진행합니다.",
+      "instructions": "컴퓨터에서는 ↑로 전진, ↓로 후진, →로 오른쪽, ←로 왼쪽으로 이동합니다. D는 오른쪽 측면 사격, A는 왼쪽 측면 사격이며, 왼쪽 Shift는 가속입니다.\n\n모바일에서는 방향 화살표 버튼으로 이동합니다. 왼쪽의 불타는 포탄 버튼은 왼쪽 사격, 오른쪽 포탄 버튼은 오른쪽 사격, 빨강·흰색 화살표 버튼은 가속입니다. 가속 항해에는 식량이 필요하고 항해 중 소모됩니다. 지도를 열어 목적지 근처의 나침반 아이콘을 누르면 항로를 설정합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the game you have to take on the role of a smuggler. Search for treasures, complete various tasks, destroy enemy ships, capture islands,",
+        "instructionsQuote": "PC Management: Up arrow - Straight movement Down arrow - Backward movement Right Arrow - Move to the right Left Arrow - Move to the left Key \"D\" - Shooting from the"
+      },
+      "reviewedTextHash": "78b56cfac33ac9639461d2ddbf2208005ada2db641bbcf0c2bfbff62ad96c30e"
+    },
+    "age-of-tanks-warriors-td-war": {
+      "sourceHash": "db2a63b2bf0397c65989d9157d8554edfeba546340a8d28a8a5934b2e522c9c8",
+      "title": "에이지 오브 탱크 워리어: TD 워",
+      "description": "에이지 오브 탱크 워리어: TD 워는 시대가 바뀌는 전장에서 병력과 무기를 성장시키는 전략 전투 게임입니다. 석기 시대의 전사부터 미래 우주 시대까지 이어지며, 상대 군대를 격파하고 상대의 은신처를 파괴하는 것이 각 레벨의 목표입니다. 원본은 탑 디펜스 전략과 100 대 100 생존 전투를 특징으로 안내합니다.\n\n처음에는 자신의 돌 동굴과 상대 동굴이 마주 놓인 상태로 시작합니다. 화면 오른쪽 아래의 작은 아이콘을 클릭해 병사를 출전시킵니다. 상대의 병력에 맞설 만큼 충분한 병사를 제때 보내지 못할 수 있다는 점이 전투의 제약으로 설명됩니다. 전투 조작 자체는 원클릭 방식이며, 병력과 무기를 어떻게 활용하느냐가 전략의 중심입니다.\n\n적의 군대와 거처를 무너뜨린 뒤에는 군대와 무기를 업그레이드합니다. 레벨이 올라갈수록 요새도 발전해 공략이 어려워지고, 싸움에 쓰는 수단은 막대기와 돌에서 탱크와 포병으로 바뀝니다. 시대별 성장과 함께 자신의 요새가 파괴되기 전에 상대를 무너뜨리는 진행을 반복합니다.",
+      "instructions": "화면 오른쪽 아래의 작은 아이콘을 클릭해 병사를 출전시킵니다. 처음에는 서로 마주 선 돌 동굴에서 전투를 시작하며, 각 레벨에서 상대 군대를 물리치고 상대 거처를 파괴해야 합니다.\n\n상대에게 자신의 요새가 파괴되기 전에 병력과 무기를 활용해 승리하세요. 상대 병력에 맞설 병사를 제때 충분히 보내는 것이 전투의 과제입니다. 승리 후 군대와 무기를 업그레이드하고, 발전한 요새와 더 높은 시대의 무기가 등장하는 다음 레벨로 진행합니다.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Lead Your Tank Warriors to Glory Across Time! Welcome to Age of Tank Warriors: TD War, the ultimate tank warriors strategy game! Travel through",
+        "instructionsQuote": "Age of Tanks Warriors is a one-click battle game, so the actual combat portion of the game is fairly simple. The difficulty lies in the strategy of how you use your army"
+      },
+      "reviewedTextHash": "dac46b61d746c5bb64a0afda94d390ac58c1938ceb3a15a36e9664460f6900a5"
+    },
+    "Super-Frog-Adventure": {
+      "sourceHash": "d5314cd362243b05b86fe7e390c5ac693a306190a3c89cec9564e7a403cd824a",
+      "title": "슈퍼 개구리 모험",
+      "description": "슈퍼 개구리 모험은 개구리를 조종해 장애물을 넘고 적과 싸우며 결승선을 향하는 고전풍 플랫폼 게임입니다. 제공업체는 총 8개의 레벨을 안내하며, 레벨마다 다른 장애물과 도전이 준비되어 있다고 설명합니다. 이동 중에는 코인을 수집하는 요소가 있고, 구간을 통과하기 위한 별도의 수집 목표도 있습니다.\n\n조작 안내에 명시된 레벨 통과 조건은 모든 과일을 모으는 것입니다. 따라서 결승선을 향해 이동하는 전체 흐름 속에서 과일을 빠짐없이 수집해야 합니다. 코인 수집과 과일 수집이 모두 소개되어 있지만, 모든 과일을 모으라는 지시가 레벨 완료와 직접 연결되어 있다는 점을 구분해 확인할 수 있습니다.\n\n기본 조작은 좌우 이동과 점프이며, 공중에서 점프 버튼을 한 번 더 누르면 더블 점프를 수행합니다. 컴퓨터에서는 방향키나 A·D, W를 사용하고 모바일에서는 화면 버튼을 사용합니다. 8개 레벨의 지형과 적을 상대하면서 이동과 두 번의 점프를 조합하고, 모든 과일을 확보해 다음 구간으로 진행하는 모험입니다.",
+      "instructions": "컴퓨터에서는 ←·→ 방향키 또는 A·D로 개구리를 좌우로 이동합니다. ↑ 방향키 또는 W를 누르면 점프합니다. 공중에 떠 있는 동안 점프 버튼을 다시 누르면 더블 점프를 할 수 있습니다.\n\n모바일에서는 터치 화면의 조작 버튼을 사용합니다. 장애물을 넘고 적을 상대하며 이동 중 코인을 모읍니다. 레벨을 통과하려면 모든 과일을 수집해야 하므로, 과일 수집 목표를 완성하면서 8개의 레벨을 진행하세요.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Super Frog Adventure\" is a great platformer that takes you into the world of classic Super Mario style games. The game features 8 incredible",
+        "instructionsQuote": "Desktop: Left/Right or A/D keyboard keys to move the character. Up arrow or W keyboard key to make the character jump. Mobile: Use touch screen buttons. Press jump"
+      },
+      "reviewedTextHash": "971662e29aeb4c8d81be2588ecfe3370e91ca1f3fec5728ba6860a2fc9ab8a73"
+    }
+  }
+}

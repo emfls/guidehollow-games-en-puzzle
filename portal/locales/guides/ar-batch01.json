@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "ar",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "تبدأ هذه اللعبة بزر واحد: كل نقرة تمنحك مالًا داخل اللعبة، ثم تستخدم المال لشراء تحسينات تساعد على زيادة الدخل. تشمل الخيارات رفع العائد من النقرة الواحدة، وتحسين الدخل التلقائي، وزيادة عدد المؤشرات. لذلك يرتبط التقدم باختيار الجانب الذي تريد تطويره، مع الاستمرار في النقر أو انتظار تراكم عائد الخمول.\n\nلا تقتصر الأشياء التي تفتحها على زيادة المال؛ يمكنك أيضًا الحصول على أزرار ومؤشرات وخلفيات وموسيقى مختلفة. هذه العناصر تمنحك أهدافًا مرئية ومسموعة خلال التقدم، لكنها تحتاج إلى الفتح أولًا قبل تخصيصها. ابدأ بتجميع الدخل، ثم استخدم ما جمعته للتحسينات وللوصول إلى مظهر اللعبة الذي تفضله.",
+      "instructions": "انقر الزر الرئيسي لجمع المال داخل اللعبة، ثم اختر من التحسينات المتاحة: عائد النقرة، أو الدخل التلقائي، أو عدد المؤشرات. واصل النقر أو انتظر دخل الخمول لتمويل المشتريات التالية. بعد فتح خلفية أو موسيقى أو مؤشر أو زر جديد، استخدم خيارات التخصيص لاختياره.",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "كليك كليك كليكر",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "7c49969ce9152c4a72db99874877d89fbd2840fe4ac8718b399633c65dd34ed8"
+    },
+    "build-and-run-playgama": {
+      "description": "تجمع اللعبة بين اجتياز المراحل وبناء الأجزاء الناقصة من الطريق. تحتاج إلى ملاحظة شكل المقطع غير المكتمل، ثم اختيار منصة أو منحدر صاعد أو سطح مائل لإكمال المسار. توجد أيضًا مواجهات مع أعداء وأسلحة لاستخدامها، فتتنقل أثناء التقدم بين إصلاح الطريق والتعامل مع الخصوم.\n\nلكل نوع بناء مفتاح مستقل على الكمبيوتر، وللسلاح مفتاح منفصل أيضًا. تعلّم هذا التوزيع قبل المقاطع المزدحمة كي تربط ما تراه بالفعل المناسب. يذكر وصف اللعبة إمكانية تغيير مظهر الشخصية بالمعدات ووجود نمطين، بينما تبدأ طريقة اللعب الموضحة من أوامر البناء الثلاثة واستخدام السلاح. على الهاتف تستخدم الأزرار التي تظهر على الشاشة لتنفيذ الأفعال.",
+      "instructions": "على الكمبيوتر اضغط Q لبناء منصة، وW لبناء منحدر صاعد، وE لبناء سطح مائل. افحص الجزء الناقص واختر البناء المناسب لإكمال الطريق. اضغط R لاستخدام الأسلحة عند مواجهة الأعداء. على الهاتف استخدم أزرار الشاشة، واتبع إرشادات الحركة التي يعرضها اللعب.",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "ابنِ واركض",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "16d2d05baf3e091241c2c997dfff1b9275a7e004bad82eaf1f9c6a9c3c076c3d"
+    },
+    "samurai-survivor": {
+      "description": "تدور القصة في اليابان القديمة، حيث فتحت بوابة غامضة وخرجت منها جموع من الوحوش. يقف محاربو الساموراي لحماية موطنهم باستخدام مهارات وقدرات موروثة، وتضع القصة إغلاق البوابة واستعادة السلام هدفًا لهم. أما التقدم الذي توضحه تعليمات اللعب فهو البقاء أمام مئات الأعداء، ورفع المستوى، وتحسين المهارات.\n\nالحركة هي وسيلة التحكم المفصلة في المصدر: يمكنك استخدام الأسهم أو السحب مع الاستمرار في ضغط زر الفأرة الأيسر، وعلى الهاتف تتحرك باللمس. ابدأ بالتعود على توجيه المحارب وتغيير موقعه، ثم طوّر مهاراتك مع ارتفاع المستوى. يجمع اللعب بذلك بين الصمود أمام الحشود وتنمية قدرات الشخصية، من دون أن يقدم المصدر زر هجوم مستقلًا.",
+      "instructions": "حرّك الشخصية بالمفاتيح ↑ للأعلى و↓ للأسفل و← لليسار و→ لليمين. ويمكنك بدلًا منها إبقاء زر الفأرة الأيسر مضغوطًا والسحب للتحرك في جميع الاتجاهات. على الهاتف المس الشاشة للحركة. حاول البقاء أمام جموع الأعداء مع رفع المستوى وتحسين المهارات؛ لا تحدد التعليمات زرًا منفصلًا للهجوم.",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "الساموراي: البقاء",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "b0f8f973e11f598c51b1950c0080b61183c96598841f3aa8f9d1f81d6ee6b9b4"
+    },
+    "pow-2889-1": {
+      "description": "تعتني في هذه اللعبة بحيوانك الافتراضي Pow عبر إطعامه وتنظيفه واللعب معه ومتابعة نموه وارتفاع مستواه. تعرض كل غرفة احتياجاته بأشرطة عمودية في أعلى الشاشة. ابدأ بمراقبة هذه الأشرطة، ثم تفاعل مع الحيوان والأشياء المناسبة في الغرفة، وراجع أثر العناية على مستوى الاحتياج.\n\nتربط غرفة الألعاب بين اللعب والعناية: تجمع منها عملات تستطيع استخدامها لشراء الطعام أو زينة الغرفة. يخدم الطعام حاجة الحيوان، بينما تغير الزينة مظهر المكان، لذلك فكّر في غرض الشراء قبل إنفاق العملات. تعتمد التفاعلات على الفأرة أو اللمس، وعلى اتباع التعليمات الظاهرة في كل غرفة، مع العودة إلى أشرطة الاحتياجات أثناء التنقل بين الأنشطة.",
+      "instructions": "استخدم الفأرة أو المس الشاشة للتفاعل مع Pow والأشياء المحيطة به. افحص أشرطة الاحتياجات العمودية أعلى الغرفة، ثم اتبع التعليمات لتلبيتها. العب في غرفة الألعاب لجمع العملات، واستخدمها للطعام أو الزينة. أطعم الحيوان ونظفه والعب معه، وراقب الأشرطة لتعرف أثر كل مهمة.",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "رعاية باو",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "7a38ca6a83b7a63e745926710da45e8a8c3079632739e93a94c6939c53dd2c3b"
+    },
+    "slides-and-climbs": {
+      "description": "هذه لعبة سباق على لوحة، تحرك فيها قطعتك الملونة نحو النهاية تبعًا لنتيجة رمي النرد. تتضمن اللوحة ثعابين، ولذلك قد يؤثر مكان الوقوف في مسارك بدل أن يكون التقدم متساويًا في كل دور. تابع مواضع القطع ونتيجة الرمية التالية، مع بقاء الوصول إلى خط النهاية هدف اللعب الأساسي.\n\nيمكن إعداد اللعب لما يصل إلى ستة مشاركين إجمالًا، ويختار كل منهم لونًا لقطعته. تتوفر مواجهة خصوم يتحكم بهم الكمبيوتر، وكذلك اللعب مع أصدقاء في المكان نفسه. القاعدة الخاصة التي ينبغي تذكرها هي أن ظهور الرقم 6 يمنح رمية إضافية. نفّذ هذه الرمية عندما تتاح، ثم تابع نتيجة الحركة التي تظهر على اللوحة أثناء تقدم الأدوار.",
+      "instructions": "اختر ألوان المشاركين وإعداد الخصوم، بحد أقصى ستة لاعبين إجمالًا. ارمِ النرد بواسطة أداة الرمي في اللعبة لتحريك قطعتك، ثم راقب موضعها على اللوحة. إذا ظهر الرقم 6، خذ الرمية الإضافية. واصل الاقتراب من النهاية مع الانتباه إلى الثعابين ونتيجة كل حركة، ويمكنك اختيار خصوم الكمبيوتر.",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "المنزلقات والسلالم",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "ee93cc4db8d8591c41977dce65e2c45473e38fea05948eb8a60133b3c141bbc4"
+    },
+    "pathfinder": {
+      "description": "تعتمد هذه الأحجية ثنائية الأبعاد على حفر أنفاق تقود الكرات الملونة إلى الأنابيب تحت السطح. أنت تصنع الطريق بدل قيادة شخصية، لذا ابدأ بتحديد موضع الكرة والأنبوب الذي تريد الوصول إليه والمساحة بينهما. تضم اللعبة 30 مستوى، وتزداد تعقيدات الترتيب مع التقدم، مما يجعل فحص المشهد كاملًا مفيدًا قبل الحفر.\n\nتشمل العوائق المذكورة كتلًا معدنية وأشواكًا؛ ضع مواقعها في الحسبان عند رسم مسار النفق. من المفيد تحديد وجهة الوصول أولًا، ثم التفكير في الطريق الذي يصلها بالكرة، وبعدها البدء في الحفر. تعمل طريقة الإدخال بالنقر على الكمبيوتر وباللمس على الهاتف أو الجهاز اللوحي، ويبقى التحدي في اختيار مسار يناسب كل ترتيب جديد.",
+      "instructions": "على الكمبيوتر انقر لحفر الطريق، وعلى الهاتف أو الجهاز اللوحي المس السطح للحفر. حدّد الكرات الملونة والأنابيب والكتل المعدنية والأشواك قبل البدء. خطط لنفق يتفادى العوائق ويوجه الكرة نحو الأنبوب، ثم احفره. أعد فحص كل ترتيب جديد خلال المستويات الثلاثين، لأن الأحجيات تصبح أكثر تعقيدًا.",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "مكتشف الطريق",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "be9b036f1476099b0471e3438157b981d33c654bd5d27e9f3cb5c13b696b8166"
+    }
+  }
+}
