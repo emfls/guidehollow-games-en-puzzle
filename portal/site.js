@@ -53,12 +53,17 @@
   const normalize=text=>String(text||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase(config.locale);
   let catalogPromise=null,searchVersion=0,visibleResults=[],shown=0;
   function searchCatalog(){return catalogPromise ||= fetch(`/assets/catalog/${config.locale}.json`).then(response=>{if(!response.ok)throw new Error('Catalog request failed');return response.json();}).then(data=>{if(!Array.isArray(data))throw new Error('Invalid catalog data');return data;}).catch(error=>{catalogPromise=null;throw error;});}
+  function cardIcon(name){
+    const namespace='http://www.w3.org/2000/svg',svg=document.createElementNS(namespace,'svg');
+    for(const [key,value] of Object.entries({class:`icon icon-${name}`,'aria-hidden':'true',viewBox:'0 0 24 24',fill:'none',stroke:'currentColor','stroke-width':'1.7','stroke-linecap':'round','stroke-linejoin':'round'}))svg.setAttribute(key,value);
+    const path=document.createElementNS(namespace,'path');path.setAttribute('d',name==='heart'?'M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z':'M4 12h16m-6-6 6 6-6 6');svg.append(path);return svg;
+  }
   function searchCard(game){
-    const article=document.createElement('article');article.className='game-card';
+    const article=document.createElement('article');article.className='game-card';article.dataset.card=game.id;
     const link=document.createElement('a');link.className='card-link';link.href=game.path;
     const art=document.createElement('span');art.className='game-art';const image=document.createElement('img');image.src=game.thumbnail;image.alt=game.title;image.width=720;image.height=480;image.loading='lazy';image.decoding='async';image.dataset.gameImage='';art.append(image);
-    const text=document.createElement('div');text.className='card-copy';const genre=document.createElement('span');genre.className='eyebrow';genre.textContent=config.genreNames[game.genres[0]]||'';const title=document.createElement('h3');title.textContent=game.title;const action=document.createElement('span');action.className='card-action';action.textContent=copy.play;text.append(genre,title,action);link.append(art,text);
-    const save=document.createElement('button');save.type='button';save.className='favorite-button';save.dataset.favorite=game.id;save.dataset.gameTitle=game.title;save.textContent='♡';save.setAttribute('aria-label',copy.save);article.append(link,save);return article;
+    const text=document.createElement('div');text.className='card-copy';const genre=document.createElement('span');genre.className='eyebrow';genre.textContent=config.genreNames[game.genres[0]]||'';const title=document.createElement('h3');title.textContent=game.title;const action=document.createElement('span');action.className='card-action';action.append(document.createTextNode(copy.play+' '),cardIcon('arrow'));text.append(genre,title,action);link.append(art,text);
+    const save=document.createElement('button');save.type='button';save.className='favorite-button';save.dataset.favorite=game.id;save.dataset.gameTitle=game.title;const saveText=document.createElement('span');saveText.className='favorite-text';saveText.textContent=copy.save;save.append(cardIcon('heart'),saveText);save.setAttribute('aria-label',copy.save);article.append(link,save);return article;
   }
   function showMore(){const grid=$('[data-search-results]');if(!grid)return;const fragment=document.createDocumentFragment();for(const game of visibleResults.slice(shown,shown+24))fragment.append(searchCard(game));shown+=24;grid.append(fragment);const button=$('[data-more-results]');if(button)button.hidden=shown>=visibleResults.length;updateFavorites();watchImages(grid);}
   async function runSearch(){
