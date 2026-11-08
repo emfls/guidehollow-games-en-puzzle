@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "games": {
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "title": "Ontsnap uit de crypte",
+      "description": "Escape From The Crypt is een ontsnappingspuzzel waarin je kamer voor kamer uit een crypte probeert te komen. De dodenbezweerders bewegen sneller dan jij, maar ontwijken obstakels niet. Recht van hen wegrennen is daardoor niet de enige afweging: je kunt de indeling van de kamer gebruiken om achtervolgers een doodlopende route in te lokken.\n\nBekijk voor iedere stap waar een obstakel de weg afsluit en welke doorgang nog openblijft. Je eigen ontsnappingsroute en de route van de achtervolger hangen met elkaar samen. Een verkeerde zet kun je terugdraaien; een hint helpt wanneer je niet ziet hoe je de vijand moet omleiden.",
+      "instructions": "Gebruik op de computer de pijltjestoetsen om je personage te verplaatsen. Backspace maakt een zet ongedaan en H geeft een hint. Op een telefoon gebruik je het richtingkruis en de knoppen op het scherm. Leid de snellere dodenbezweerders tegen obstakels of doodlopende gangen en bereik de uitgang van de kamer.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the "
+      },
+      "reviewedTextHash": "eaf104867986d9294b1ef454af2988efef6d2578a75c7a733c1eb8b80b229315"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "title": "De legende van de ridder",
+      "description": "Knight Legend laat je een ridder ontwikkelen door monsters te bevechten, uitrusting te verbeteren en nieuwe levels vrij te spelen. Gevechten leveren goud op waarmee je betere bepantsering en huisdieren koopt. Die metgezellen helpen tijdens de tocht, zodat de keuze voor uitrusting en ondersteuning samen je voortgang bepaalt.\n\nWissel het doorlopen van gebieden af met het bekijken van beschikbare verbeteringen. De bron beschrijft een eenvoudige kringloop van vechten, geld verzamelen en sterker terugkeren voor volgende ontmoetingen. De bevestigingstoets dient voor keuzes in de bediening; er wordt geen afzonderlijke aanvalstoets opgegeven.",
+      "instructions": "Beweeg op de computer met de pijltjestoetsen, W, A, S, D of Z, Q, S, D. Enter bevestigt een keuze; Esc pauzeert of sluit een menu. Sleep op mobiel de schermjoystick om te lopen en tik op de bevestigingsknop wanneer dat nodig is. Versla monsters, verzamel goud en bekijk bepantsering en huisdieren. De bron noemt geen aparte aanvalstoets; volg daarvoor de aanwijzingen in het spel.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels.",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, up"
+      },
+      "reviewedTextHash": "e3ff835b48cb3495e63cfbd0e774f1fe0e618dcf86cba7fb1b4364509c6d0fd9"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "title": "CubeGate: kubussen en poorten",
+      "description": "CubeGate combineert platformactie met logische proefkamers. Je plaatst lichtgevende kubussen op drukplaten om deuren, bruggen en liften van stroom te voorzien. Soms is één kubus onvoldoende, soms telt de volgorde, en soms moet je eerst naar een platform springen voordat je een poort activeert.\n\nKabels, vloermarkeringen en energielijnen laten zien welke onderdelen met elkaar verbonden zijn. Plan waar je met een kubus naartoe loopt voordat je een mechanisme omschakelt. Het doel is de uitgang bereikbaar te maken door nauwkeurig springen en slim plaatsen te combineren. Via het menu kun je een mislukte volgorde opnieuw proberen.",
+      "instructions": "Beweeg met W, A, S, D, Q, Z of de pijltjestoetsen. E of de linkermuisknop pakt een kubus op of zet hem neer. Space of de rechtermuisknop laat je springen; Shift is sprinten. Escape opent het menu voor herstarten en geluid. Zet kubussen op de gemarkeerde platen en volg de stroomverbindingen. Neem voor verre platforms eerst een aanloop en spring vanaf de rand.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis"
+      },
+      "reviewedTextHash": "93b8b1f778776896cbd690ac69d9b94e141004797c241f9d5d0cdb3de5f97f0c"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "3D autoraces en stuntbanen",
+      "description": "Car Stunt Racing Game 3D : Car Games draait om autorijden over hoge stuntbanen met grote hellingen, sprongen en bewegende obstakels. Je probeert de finish te halen zonder te botsen of van de weg te vallen. Richt de auto vóór een helling goed uit en houd rekening met de plek waar je na de sprong landt.\n\nVerschillende camerastandpunten helpen om lastige stukken te bekijken. Controlepunten zorgen dat je na een val onderweg opnieuw kunt beginnen. In tijdritten moet je bovendien binnen de limiet finishen. De uitdaging is voldoende snelheid houden voor de baan, terwijl je de auto op smalle wegen en langs bewegende hindernissen beheerst.",
+      "instructions": "Op de computer versnelt pijl omhoog, rijdt pijl omlaag achteruit en sturen de linker- en rechterpijl. Gebruik Space om te remmen. Op mobiel zijn er linker- en rechterstuurknoppen, een gaspedaal en een rempedaal. Rijd de hellingen recht aan, houd de auto bij de landing op de baan en bereik de finish voor de tijd verstrijkt.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Removed the repeated download and unverified offline-play promises, retaining only the concrete stunt objectives, checkpoints and stated device controls."
+      },
+      "reviewedTextHash": "3aee774cedbeb2d1deb9fa35681b10276a50fe671cfdf392c3253d57a2ed9a3e"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: bouw een vliegtuig",
+      "description": "Obby Craft: Build a Plane laat je een vliegtuig uit losse onderdelen bouwen. Ieder blok beïnvloedt de vlucht. Tijdens het vliegen verzamel je munten op de kaart; die vormen de spelvaluta voor nieuwe onderdelen en verbeteringen. Een krachtigere katapult geeft je toestel bij de start meer hoogte en snelheid.\n\nIn de winkel koop je blokken en uiterlijken, terwijl het beloningsrad extra munten of zeldzame onderdelen kan geven. De bron noemt twee gratis uiterlijken en maximaal vier opslagplaatsen voor ontwerpen. Test je constructie tijdens de hindernisbaan en pas haar aan met wat je tijdens eerdere vluchten hebt verdiend.",
+      "instructions": "Loop naar het bouwgebied naast het vliegtuig. Kies onderaan een onderdeel uit de inventaris en klik om het naast het toestel te plaatsen. Koop ontbrekende onderdelen in de winkel en verbeter de katapult met munten. Lanceer het vliegtuig, verzamel munten in de lucht en ontwijk obstakels. De bron specificeert geen afzonderlijke vliegtoetsen; volg hiervoor de bediening die het spel toont.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "1b7e3d0adb28ffa21974cf6e89bafb1cec8b9e30485821274a4f2e37de11e9b4"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: motortrial",
+      "description": "Canyon Drifter is een tweedimensionale motortrial over moeilijke hellingen en sprongen. Naast gas geven en remmen moet je de motor in balans houden door de rijder voor- of achterover te laten leunen. De juiste houding bij een klim of landing helpt je de baan te voltooien en een betere tijd op het klassement te zetten.\n\nLukt een parcours niet, dan kun je naar de garage terugkeren en de motor anders afstellen voor de ondergrond. Probeer daarna een andere combinatie van snelheid en lichaamshouding. Achteroverleunen tilt het voorwiel op; vooroverleunen brengt de neus omlaag. Dat onderscheid is belangrijk op steile stukken.",
+      "instructions": "Pijl omhoog of W geeft gas; pijl omlaag of S remt en rijdt achteruit. Pijl links of A leunt achterover, pijl rechts of D voorover. Esc of P pauzeert en R begint opnieuw. Op de telefoon verschijnen bij de eerste aanraking vier schermknoppen: gas en rem bovenaan, voor- en achteroverleunen onderaan. Pauzeren en herstarten staan rechtsboven.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "cf670752daffcad1d035c4c13097854520a09f580c26fccec6e4c32c1678a29a"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "3D schaken in de tovertuin",
+      "description": "3D Chess - Arcane Edition plaatst klassiek schaken in een sprookjesachtige tuin met een driedimensionaal bord en koper- en goudkleurige stukken. Je kunt tegen een computer op drie moeilijkheidsgraden spelen. Het doel blijft de koning van de tegenstander schaakmat te zetten; oplichtende stippen tonen de toegestane zetten van het geselecteerde stuk.\n\nDe camera is draaibaar en je kunt inzoomen om het bord anders te bekijken. Instellingen regelen de moeilijkheid, zetmarkeringen en het geluid. Via Play a Friend op het beginscherm maak je een privéruimte aan om met een vriend te spelen; deel de kamercode zodat de ander kan aansluiten.",
+      "instructions": "Klik of tik op een stuk en daarna op een gemarkeerd veld om te zetten. Je slaat een vijandelijk stuk door naar zijn veld te gaan. Sleep om de camera te draaien; knijp met twee vingers of gebruik het muiswiel om te zoomen. Het lampje Hint geeft maximaal drie tips per partij; de bron noemt hiervoor in solo een beloningsadvertentie. Het tandwiel opent de instellingen.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "aabfdfe2fd88d1f2820cfb1583891c3d63c258dbfbc0a61d056efa55b5520642"
+    },
+    "city-chase-escape-police": {
+      "sourceHash": "dcc99e6ab5ca8b950e2e9cc67342669f96473b31c08335668beaa2fac26e1c89",
+      "referenceHash": "630d5147f158d65e45acfdc7fd833a71c1b637f8b4c007dddfe659b7f74c3fc7",
+      "title": "Stadsachtervolging: ontsnap aan de politie",
+      "description": "City Chase: Escape Police is een achtervolgingsspel waarin je zo lang mogelijk aan de politie probeert te ontsnappen. Verzamel munten voor nieuwe auto’s en pak herstelbonussen om je rit langer vol te houden. Met de Ram Bar kun je politieauto’s rammen. De oplopende Wanted Levels maken overleven steeds lastiger.\n\nDe auto versnelt standaard vanzelf, zodat sturen en achteruitrijden centraal staan. Je kunt ook een knoppenmodus kiezen met aparte pedalen. Verschillende auto’s hebben eigen eigenschappen. Probeer je beste overlevingstijd te verbeteren en gebruik de herstelknop wanneer je vastzit, zonder de rit meteen te beëindigen.",
+      "instructions": "Op mobiel houd je de linker- of rechterkant vast om te sturen; beide kanten tegelijk is achteruit. Loslaten zet de auto recht. In knoppenmodus gebruik je schermpijlen en GO/REVERSE. Op de computer sturen links/A en rechts/D; omlaag/S rijdt achteruit. Omhoog, W of Space versnelt alleen in knoppenmodus. Je kunt ook de muisknop aan een schermzijde vasthouden om te sturen. R zet een vastgelopen auto terug; Esc pauzeert.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Race through the city and survive the police chase for as long as you can! Dodge cops, collect coins, grab HP boosts, an",
+        "instructionsQuote": "Dodge the police cars and survive as long as you can to achieve the highest score. Collect coins to fill the garage with cars. Mobile Contro"
+      },
+      "reviewedTextHash": "6b36f048b9cd782964193889b987abd8a27a7038449b66988f1da963cf8e17c4"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "title": "Live Round: meteorieten afweren",
+      "description": "Live Round is een arcadespel voor acht spelers waarin iedere stad onder vuur ligt van meteorieten uit de kern van de arena. Je verplaatst je afweer om inslagen weg te sturen van je eigen stad en naar tegenstanders. De arena wordt drukker naarmate de ronde doorgaat; het doel is als laatste overeind te blijven.\n\nTussen rondes kies je verbeteringen die de speelwijze aanpassen. Als je stad wordt vernietigd, kun je achterblijven en de overlevenden saboteren. Er zijn onlinepartijen, bots en privéruimtes, met vijf genoemde speltypen: Defence, Paddle, Vault, Invaders en Belt. Welke acties beschikbaar zijn, hangt van het gekozen type af.",
+      "instructions": "In speltypen met een afweerplank verplaats je de muis om de plank te bewegen. Waar schieten is toegestaan, klik je om raketten af te vuren; let op de beschikbare munitie. Richt je afweer op de inkomende meteorieten en bescherm je stad. Ben je uitgeschakeld, kies dan met de muis een sabotage en daarna de plaats waar je die wilt inzetten.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. ("
+      },
+      "reviewedTextHash": "e05baf87b879601e367a5fcc5cbc272ba37aed83d2961ab2c9385bda31af82e9"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: ontspannen lijnenpuzzel",
+      "description": "Turnline: Relaxing Puzzle is een rustige puzzel waarin je lijnstukken tot één netwerk verbindt. Door tegels te draaien laat je aansluitingen op naburige stukken aansluiten. Een level is klaar zodra alle vereiste routes verbonden zijn. De eerste indelingen zijn eenvoudig; later worden de netwerken groter en krijgen ze meer vertakkingen.\n\nEr is geen tijdslimiet, zodat je de gevolgen van een draai rustig kunt bekijken. Correct aangesloten routes lichten op en helpen om het resterende probleem te zien. Voor lastige situaties zijn hints beschikbaar. De voortgang wordt opgeslagen, waardoor je niet alle aangeboden levels in één sessie hoeft te spelen.",
+      "instructions": "Klik op de computer op een tegel of tik erop op een telefoon of tablet om hem te draaien. Controleer hoe zijn lijnen op de omliggende tegels aansluiten. Blijf draaien totdat alle vereiste stukken van het netwerk verbonden zijn; de oplichtende routes tonen welke verbindingen kloppen. Gebruik een hint als je geen volgende stap ziet.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "0cc4ca4261eed4b99e98a6537859d34dd975f325f47ffc6cc41f76d39b24691a"
+    },
+    "car-wash-idle": {
+      "sourceHash": "103863131d9fa5dbd883ab55eab53ec155c75adc2451067ecdec16f2ea2d4d78",
+      "referenceHash": "ac721643f5aff5d5e9524e55f4a5cb18df1731e538f8b483f3205f6df99b2ab2",
+      "title": "Bouw je eigen autowasstraat",
+      "description": "Car Wash Idle begint met een kleine wasplaats en laat je die tot een groter schoonmaakbedrijf uitbouwen. Je wast modderige auto’s met zeep en water, verzamelt het verdiende geld en opent nieuwe werkplekken. Naast gewone wasplaatsen zijn er stations voor vloermatten en autostoelen.\n\nLoop over de gekleurde vloervakken om geld in nieuwe stations of verbeteringen te stoppen. Helpers kunnen schoonmaakwerk automatiseren terwijl jij het bedrijf verder uitbreidt. De combinatie van zelf wassen, geld ophalen en gericht investeren bepaalt de voortgang. De takenlijst op het scherm leidt je door de eerste handelingen.",
+      "instructions": "Beweeg met W, A, S, D of de pijltjestoetsen. Loop op het wasvak met een slang om zeep of water op een vuile auto te spuiten. Verzamel de geldstapels. Ga op blauwe of groene vloervakken staan om geld te storten voor een nieuw station of een verbetering. Volg tijdens de kennismaking de takenlijst op het scherm.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build your own car detailing empire! Wash muddy cars, expand your shop, hire helpers, and turn a tiny bay into a full id",
+        "instructionsQuote": "- WASD / Arrow keys = move - Walk onto blue/green floor pads = unlock stations or upgrade (stand to deposit cash). - Walk onto the wash pad "
+      },
+      "reviewedTextHash": "06fd19193e53cd936462c0e13740a2ee5d69916b9883c7494f1df64fe9f4fa96"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "title": "Loopix: vang met komeetlussen",
+      "description": "Loopix laat je een komeet besturen die wezens met zijn lichtspoor omsluit. Trek een gesloten lus om een groep en vang alles wat erin zit. Grotere lussen leveren grotere combinaties op, zodat je van een kleine vonk naar een veel grotere komeet groeit. Andere kometen vormen ondertussen een voortdurend gevaar.\n\nRaak nooit hun spoor: daarmee word je uitgeschakeld. Je kunt rivalen juist binnen je eigen lus vangen om hun punten te krijgen. Versla de bewaker van een wereld en ga door het zwarte gat naar de volgende. Metgezellen, uiterlijken en permanente verbeteringen geven aanvullende doelen naast het veilig sluiten van lussen.",
+      "instructions": "Stuur op de computer met de muis of met de pijltjestoetsen en A/D. Houd de linkermuisknop of Space vast voor een versnelling; die kost een beetje grootte. Sleep op mobiel met je vinger om te sturen, en tik tweemaal en houd vast om te versnellen. Omsluit wezens met een volledig gesloten spoor, ontwijk andermans spoor en versla de wereldbewaker voor de doorgang naar de volgende wereld.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum"
+      },
+      "reviewedTextHash": "8f5f1dabd181a8669084bb355842cbec36533065a4b957ed117ae68716286c9a"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "title": "SoccerLat: online 3D voetbal",
+      "description": "SoccerLat: 3D Football Online is een voetbalspel met rechtstreekse wedstrijden tegen andere spelers. Kies een positie en speel van één tegen één tot elf tegen elf. Het spel kent overtredingen, vrije trappen, strafschoppen, hoekschoppen en inworpen. Een gelijkspel na de reguliere tijd gaat naar een strafschoppenserie.\n\nJe kunt botkeepers inschakelen wanneer de doelen niet bemand zijn. De bal reageert op je schotrichting en beweging: zijwaarts bewegen bij het schieten geeft effect en hoger richten met de camera brengt de bal omhoog. Kies een stadion of straatveld en pas de speler en het team aan. Te laat sliden kan een overtreding opleveren.",
+      "instructions": "WASD beweegt, Shift sprint, Space springt en de muis kijkt rond. Houd links ingedrukt om te dribbelen; houd rechts vast om een schot of pass te laden en laat los om te schieten. Links klikken in de lucht geeft een omhaal. C is een sliding, F legt als keeper de bal neer, E vraagt om de bal, B opent de emotes, 1 kiest eerste persoon en Esc pauzeert. Toetsen zijn aanpasbaar. Mobiel gebruikt een joystick, knoppen en slepen om te kijken; ook een gamepad wordt ondersteund.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re"
+      },
+      "reviewedTextHash": "c6569aeee6008911c3ef0b3dc6f41021f2cf7a838c2f657d15656903ba9560c8"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: rijden in jaren-tachtigstijl",
+      "description": "City Pop Drive is een arcade-autorit door pastelkleurige stadsbeelden in jaren-tachtigstijl. De auto versnelt vanzelf. Door andere voertuigen op korte afstand te passeren krijg je extra tijd en vul je de Breeze-meter. Een volle meter start een Boost die verkeer opzij kan duwen.\n\nBereik ieder controlepunt voordat de klok afloopt en kies bij splitsingen tussen een mooie route en een snelle weg. De vijf kaarten hebben eigen bijzonderheden en muziek die op je route reageert. Aan het einddoel verzamel je platenhoezen; er zijn er vijfentwintig. De verdiende Miles besteed je aan verbeteringen, auto’s en nieuwe kaarten.",
+      "instructions": "Tik om te beginnen en sleep naar links of rechts om te sturen. Op de computer werken ook slepen met de muis, pijltjestoetsen en A/D; P pauzeert. De auto geeft zelf gas. Passeer verkeer rakelings zonder te botsen om tijd en Breeze op te bouwen. Haal de controlepunten op tijd, kies een kant bij iedere splitsing en bereik een einddoel om de bijbehorende hoes te verzamelen.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "ccf930049c40b807a0cda3be2c86ca514df3e1819b971cb0d8f223ccc2ca085e"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "title": "Loot Hole: graven naar schatten",
+      "description": "Loot Hole is een cartoonesk graafspel vanuit het perspectief van de graver. Graaf door de voortuin, neem gevonden schatten mee omhoog en verkoop ze bij je kraam. De opbrengst gaat naar betere scheppen, houwelen en boren, grotere rugzakken, jetpacks en explosieven. Hardere steenlagen liggen op de weg naar de bodem op duizend meter.\n\nIedere laag eindigt bij een verborgen herkenningspunt met een zeldzame vondst. Buren vragen via het bord om opgegraven voorwerpen en een verzamelboek houdt vondsten bij. Je kunt alleen spelen of met maximaal vier spelers in een gedeelde tuin graven. Privéruimtes werken met een code; Neighbours biedt daarnaast een graafwedstrijd.",
+      "instructions": "Houd de linkermuisknop of op mobiel je vinger vast om te graven waar je richt. Loop langs vondsten om ze op te pakken. H brengt je naar boven om bij de kraam te verkopen. WASD beweegt, de muis kijkt, Space springt/gebruikt de jetpack, B of I opent de rugzak en C het verzamelboek. X gooit een explosief; Q wisselt het type. P opent samen spelen. Mobiel gebruikt de schermstick en knoppen. Koop gereedschap en grotere rugzakken bij de schuur.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa"
+      },
+      "reviewedTextHash": "a94d82c8da28e4d20a19bd8071f729aaa9e5a6b98b830267cf606f8d452d0b21"
+    },
+    "snackrab": {
+      "sourceHash": "1bbe9d7f52a1696c02d62293c02caa90a4cbbd16264783c2435aeba716e3206b",
+      "referenceHash": "781c06fab75d3a9e85a6124d54b7a11d0380e21f3a283b11e7c35f10f4d6db80",
+      "title": "Snackrab: samenvoegen aan het strand",
+      "description": "Snackrab is een samenvoegspel waarin machines ijs, fruit, drankjes en gebak maken. Combineer twee gelijke hapjes tot het volgende product en geef het gevraagde eten aan dierlijke gasten. Zij betalen munten waarmee je de strandkraam en omgeving uitbreidt, bijvoorbeeld met verlichting, een steiger of een vuurtoren.\n\nDe machines moeten soms kort herstellen en de dienbladruimte is beperkt. Gasten hebben een zichtbare geduldring; wie te lang wacht, vertrekt. Snelle bediening geeft een fooi. Overschotten kun je aan de krab voeren: is die vol, dan danst hij en krijgen alle gasten nieuw geduld. Tijdens de spits is de betaling tijdelijk dubbel.",
+      "instructions": "Tik of klik op een machine voor een hapje. Sleep twee gelijke producten op elkaar, of tik eerst het ene en dan het andere aan. Sleep de bestelling naar de juiste gast en voer ongewenste producten aan de krab. De mand opent aankopen; de ronde pijl maakt de laatste zet ongedaan en het boek toont samenvoegingen. Esc of P pauzeert en sluit panelen. In menu’s bewegen pijlen of Tab de selectie; Enter of Space bevestigt. Mobiel werkt met tikken en slepen.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Snackrab is a cosy merge game on the beach. Tap your machines to make ice cream, fruit, drinks and cakes, drag two of th",
+        "instructionsQuote": "Tap a machine to make a snack. Drag a snack onto an identical one to merge them, or tap one and then the other. Drag a snack to the guest wh"
+      },
+      "reviewedTextHash": "cc91f976ad0d4fa1c5da6d2d18e6449ec5b33a3f7c2066f0bd9ce423b3f51cd4"
+    },
+    "smashsite-io": {
+      "sourceHash": "7ee2852bb3865b7b11b8b764a2fc3a5087670d80a2ac1e8b5f24c947efe7e406",
+      "referenceHash": "d4d9034ddc2fc0f09e599c84d0b981adb61ce0a043b18a79e9f712c0c7d54d72",
+      "title": "SmashSite.io: strijd op de bouwplaats",
+      "description": "SmashSite.io is een driedimensionaal vechtspel op een bouwterrein waar je tegenstanders met zware werktuigen uitschakelt. Verzamel voedsel en buit om door zes groeistappen sterker en groter te worden. Een goed getimede klap kan beslissend zijn; gelijktijdige slagen kunnen op elkaar afketsen.\n\nHet veilige gebied wordt kleiner en dwingt overlevenden dichter bij elkaar. Kratten kunnen voedsel, beschermschilden of magneten bevatten, maar dronekratten lokken een achtervolgende zwerm uit. Frisdrankblikjes maken de grond glad. Bewaar je sprint voor ontsnappen of een kansrijke aanval en houd rekening met het bereik van een groter wapen.",
+      "instructions": "De muis stuurt en richt je personage. Links klikken, J of F valt aan; vasthouden kan ook. Houd de rechtermuisknop, Space, Shift of Q vast om te sprinten. E toont een emote; Space op het Game Over-scherm speelt direct opnieuw. Op mobiel verplaatst de linkerjoystick je personage; rechts zitten de aanvalsknop en een vast te houden boostknop. De emoteknop staat rechtsboven. Verzamel voedsel, ontwijk gevaren en blijf in de krimpende veilige zone.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "SmashSite.io — SMASH. GROW. DOMINATE THE SITE. Welcome to SmashSite.io, the craziest 3D slapstick combat battleground se",
+        "instructionsQuote": "DESKTOP (PC / MAC): - Mouse Movement: Aim and steer your character (360-degree direction) - Left Mouse Button / J / F: Smash / Attack (Tap o"
+      },
+      "reviewedTextHash": "ac31c8422e9130834187116cb5b117e392c856aa2aecdfacabe269c7b8e473d6"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "title": "+1 zombie-overleving",
+      "description": "+1 Zombie Survival is een blokkerige schietgame waarin je kracht iedere seconde met één toeneemt. Overleef tien nachten in elk van vijf steden, ruim de hordes op en kies zelf wanneer de volgende nacht begint. In ingerichte gebouwen kun je deuren plaatsen, vallen neerzetten en met de houweel openingen in muren maken.\n\nGeparkeerde auto’s helpen om gewone zombies te rammen, maar niet de bazen. Je speelt elf wapens vrij, tot een zwartgatwapen, en gebruikt wedergeboorte voor blijvende vermenigvuldigers. Het oefenterrein leert de handelingen door ze uit te voeren. Kies tussen bescherming in een kamer en bewegen door de straten terwijl je kracht groeit.",
+      "instructions": "WASD beweegt, de muis kijkt, links schiet en rechts richt. Space springt, Shift sprint, R herlaadt; 1–0, het muiswiel of de wapenbalk wisselt wapens. B opent bouwplannen, E bedient deuren en instappen/uitstappen, F repareert, U verbetert, G start de nacht en Esc pauzeert. In de auto geeft W/S gas en rem en stuurt A/D. Mobiel: linkerjoystick bewegen, rechts slepen kijken, vuurknop schieten en de getoonde knoppen voor bouwen, rijden en onderhoud gebruiken.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make"
+      },
+      "reviewedTextHash": "63a4621237cf737df1a2307adb2371cd33ccce7c48d28bd31e6cb98d42c68694"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "title": "Roll Tycoon: dobbelimperium",
+      "description": "Roll Tycoon is een driedimensionaal managementspel waarin worpen met dobbelstenen spelgeld opleveren. Gooi alle gereedstaande stenen op het blad en ontvang hun bovenliggende waarden. Koop stenen in vijf trappen van d4 tot d20 en verbeter de opbrengst met artefacten en beelden uit kisten. Een maximale worp geeft een JACKPOT en vult de FEVER-meter.\n\nEen volle meter verdubbelt de opbrengst acht seconden; bepaalde artefacten verlengen dat venster. Dertig contracten, tweeëntwintig trofeeën en dagelijkse en wekelijkse opdrachten leveren extra doelen. Na één miljoen spelgeld in een run kun je via Rebirth sterren voor permanente vermenigvuldigers verdienen. Het betreft uitsluitend voortgang en valuta binnen het spel.",
+      "instructions": "Tik of klik op het blad, druk Space of kies ROLL om alle wachtende stenen te gooien. Volg het volgende doel op CONTRACT en gebruik opbrengsten voor stenen, nieuwe trappen, geluk en artefacten. Haal voltooide opdrachtbeloningen op met CLAIM in MISSIONS. Sponsor Boost of een gratis kist kan een beloningsadvertentie vragen. Pas bij een trage weergave de Graphics-instelling aan. Rebirth wordt beschikbaar na de genoemde miljoen aan spelvaluta.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the"
+      },
+      "reviewedTextHash": "66cfcab49675d768859c4015467220b8f8c603674287ff5d3a65eba7b63e078e"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: bouw je eigen held",
+      "description": "Battlecross is een actie-rollenspel waarin een held van verschillende leermeesters vaardigheden kan combineren. Gebruik bijvoorbeeld een ridderschild samen met vuurmagie of opgeroepen wachters. Versla alle vijandengroepen en de leider aan het eind van een gebied om verder te komen. Ook na een nederlaag blijven ervaring en buit behouden.\n\nIeder niveau geeft drie eigenschapspunten voor onder meer kracht, behendigheid, intelligentie en uithoudingsvermogen. In steden koop je uitrusting, vergroot je de drankengordel bij de genezer en leer je nieuwe vaardigheden. Acht actieve en vier passieve plekken mogen uit zestien klassen worden gevuld. Sommige gebiedskeuzes zijn onomkeerbaar en veranderen handelaren, leraren en het einde.",
+      "instructions": "Loop naar een vijand toe om automatisch aan te vallen. Gebruik vaardigheden en een gezondheidsdrank wanneer nodig. Versla iedere groep en de gebiedsleider, besteed niveaupunten aan je gewenste opbouw en bezoek steden voor uitrusting en lessen. Denk na over beslissingen aan het gebiedseinde: die kunnen niet worden teruggedraaid. De bron geeft geen exacte bewegings- of vaardigheidstoetsen; volg hiervoor de schermbediening van het spel.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "effeb99e613bdfa340b69937b2036d906fc54ae3c95d0b8f32a6545da5e68771"
+    }
+  }
+}

@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "games": {
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "Raja Penghancuran Mobil",
+      "description": "Coba berbagai mobil di lintasan yang dipenuhi palu berputar, mesin penekan, pelontar, dan rintangan lain. Anda dapat mengikuti balapan untuk memperbaiki rekor atau mengamati kerusakan kendaraan saat melewati arena. Pilihan peta dan mode memberi tujuan yang berbeda untuk setiap percobaan.\n\nGunakan gerak lambat untuk melihat benturan dengan lebih jelas. Mengatur ulang posisi mobil berbeda dari memulihkan kondisinya, sehingga pilih perintah yang sesuai ketika ingin mengulang bagian sulit. Ganti sudut kamera untuk membaca jalur, lalu bandingkan bagaimana mobil lain menghadapi rintangan yang sama.",
+      "instructions": "Kemudikan dengan WASD, gunakan Spacebar untuk rem tangan dan Shift untuk nitro. C mengganti kamera, R mengatur ulang mobil, K memulihkan mobil, dan N mengganti kendaraan. B mengaktifkan gerak lambat; TAB atau Escape membuka menu jeda. Pada ponsel, gunakan kontrol di layar.",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3619dedf3944a4c8b6992e902c0b71e2c9523f4756b17ba95f9e7f87d182aab7"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "Catur Multipemain Online",
+      "description": "Mainkan catur melawan komputer, pemain daring, atau teman pada satu layar. Komputer memiliki 21 tingkat kesulitan, sedangkan pilihan waktu mencakup tanpa batas, Bullet, Blitz, Rapid, dan Classic. Pilih tempo yang sesuai sebelum mulai memikirkan keselamatan raja dan susunan bidak Anda.\n\nTujuannya adalah skakmat: raja lawan diserang dan tidak ada langkah sah yang dapat menyelamatkannya. Sorotan langkah sah, petunjuk interaktif, serta analisis setelah pertandingan membantu mempelajari posisi. Jangan hanya mengejar serangan; perhatikan bidak yang bisa ditangkap dan jawaban lawan sebelum memastikan langkah.",
+      "instructions": "Pilih jenis pertandingan, lalu atur kesulitan atau batas waktu yang tersedia. Kedua pemain bergantian melangkah sesuai aturan tiap bidak. Gunakan penanda langkah sah dan lindungi bidak yang terancam. Usahakan skakmat, lalu tinjau riwayat langkah atau analisis pertandingan untuk memahami keputusan yang perlu diperbaiki.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "37e7e1abf9e3265008af5de9fce33ab0156f8884164a615bb398873afb5e0f54"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "Screw Match: Cocokkan Sekrup",
+      "description": "Pindahkan sekrup berwarna dari susunan kaca ke kotak dengan warna yang sama di bagian atas layar. Tantangannya adalah membaca warna kotak yang sedang tersedia, lalu memilih sekrup yang cocok. Ruang pada setiap kotak menentukan kapan kotak itu selesai diisi.\n\nKotak yang penuh diganti dengan kotak baru, sehingga warna tujuan dapat berubah selama Anda menyelesaikan susunan. Periksa penggantinya sebelum mengambil sekrup berikutnya, alih-alih terus memilih warna yang baru saja dikumpulkan. Lanjutkan pencocokan satu per satu sambil memperhatikan sekrup yang masih tersisa.",
+      "instructions": "Lihat warna kotak di bagian atas, lalu pilih sekrup dengan warna yang sama dan pindahkan ke kotak tersebut. Perhatikan ruang yang belum terisi. Setelah sebuah kotak penuh, periksa warna kotak penggantinya sebelum memilih lagi. Bersihkan susunan dengan mencocokkan sekrup yang masih tersedia.",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the screws",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1e90c6403b70b2032e32f9fe900b8311f35f811980d777f4cca6b03524dc89e5"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "Melarikan Diri dari Ruang Makam",
+      "description": "Cari jalan keluar dari ruang makam satu ruangan demi satu ruangan sebelum para ahli nujum menangkap Anda. Mereka bergerak lebih cepat daripada karakter Anda, sehingga berlari menjauh saja tidak cukup. Kelemahan mereka adalah tidak menghindari rintangan dengan cerdas.\n\nBaca tata ruang untuk memancing pengejar menuju jalan buntu, tetapi sisakan jalur bagi karakter Anda menuju ruangan berikutnya. Pertimbangkan arah gerak musuh bersama langkah Anda sendiri. Fitur membatalkan langkah membantu memperbaiki urutan yang keliru, sedangkan petunjuk dapat digunakan saat jalur yang aman belum terlihat.",
+      "instructions": "Pada komputer, gerakkan karakter dengan tombol panah. Backspace membatalkan langkah dan H meminta petunjuk. Pada ponsel, gunakan tombol arah serta tombol aksi di layar. Periksa penghalang sebelum bergerak, pancing musuh ke jalan buntu, lalu lanjutkan melalui jalur keluar yang masih terbuka.",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "746cd5522b8297b3d9185f1f570590fdffaf209bb38c3fd54a5b64439c4fbe0c"
+    },
+    "idle-game-dev-simulator": {
+      "sourceHash": "192805940130f535dde600a5e41990feafffe1c56ce43e8197c9f1c9f2722b25",
+      "title": "Simulator Studio Game Idle",
+      "description": "Kelola studio pengembang game yang berawal dari sebuah garasi. Untuk setiap proyek, gabungkan genre, tema, dan platform, lalu baca ulasan serta nilainya untuk memahami tanggapan terhadap rilis tersebut. Keputusan berikutnya dapat mencakup konsep game baru maupun peningkatan tempat yang memproduksinya.\n\nPertumbuhan studio membuka perekrutan, ruangan, penelitian, dan otomatisasi produksi. Gunakan tab Research untuk memperoleh konten tambahan, lalu pilih peningkatan efisiensi dari panel kanan. Bandingkan hasil beberapa kombinasi sebelum mengulang proyek, sehingga pengembangan studio dan rencana rilis berikutnya saling mendukung.",
+      "instructions": "Pilih bagian tengah ruangan untuk membuka menu aksi dan memulai proyek. Tentukan genre, tema, serta platform, lalu periksa ulasan setelah rilis. Buka Research untuk konten baru dan panel kanan untuk membeli peningkatan efisiensi atau produksi. Kembangkan tim dan tempat kerja melalui pilihan yang tersedia.",
+      "referenceHash": "10a3fd80e0e5dd83e4ecde2d1e6afaa64f6dde44a4e19c5fe1368f0aec12ad3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Become the Ultimate Game Developer! Start from a small garage and build your way up to a legendary game studio in Idle G",
+        "instructionsQuote": "• Tap the center of the room to open the action menu — start developing your next masterpiece. • Experiment with genre, theme, and platform ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9acb4036000758e262d6cf2e364c54fb8dedfcb5ec32f7fcbdf25f4cbdbd85a9"
+    },
+    "tall-io": {
+      "sourceHash": "6ac1ea15f898ce626fce6c54a0a561ba38b9eac4cdde38654059793f6d479f76",
+      "title": "Tall.io",
+      "description": "Kendalikan karakter manusia lidi di arena dan kumpulkan bahan untuk bertambah tinggi. Batu bata, kubus, koin, dan bola pelangi menjadi bagian dari perjalanan memperbesar karakter. Ukuran dan kekuatan yang meningkat membantu Anda menghadapi persaingan di pulau-pulau arena.\n\nSelain mengumpulkan benda, Anda dapat menyerang lawan dengan memanfaatkan pedang serta zirah yang diperoleh. Perhatikan posisi lawan ketika memilih arah pengumpulan agar pertumbuhan tidak terputus oleh bentrokan yang belum siap dihadapi. Tujuan utamanya menggabungkan pengumpulan sumber daya dengan pertarungan untuk menguasai arena.",
+      "instructions": "Gunakan WASD atau tombol panah untuk menggerakkan karakter di arena. Datangi kubus, koin, batu bata, serta bola pelangi untuk menambah tinggi dan kekuatan. Spacebar digunakan untuk menyerang atau menghantam lawan. Pertimbangkan perlengkapan dan posisi lawan sebelum mendekat untuk bertarung.",
+      "referenceHash": "322ae579d42971c0798ee28b61a29fd12319da5f039114bcb682816642f5fbeb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Tall.io is an engaging and addictive browser-based HTML5 game that combines elements of growth strategy and battle-arena",
+        "instructionsQuote": "Understanding the &controls& in Tall.io is crucial for success. Players use the arrow keys or WASD keys to navigate their &stickman& through",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9a3a1d449fccc90f99868a578e1ac23d75727ff50f7136346692c5586f46f585"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "CubeGate: Gerbang Kubus",
+      "description": "Lewati ruang uji fiksi ilmiah dengan menaruh kubus bercahaya di atas pelat tekanan. Daya dari pelat mengaktifkan pintu, jembatan, dan lift. Setiap ruangan menuntut urutan yang tepat: beberapa membutuhkan lebih dari satu kubus, sedangkan yang lain mengharuskan Anda mencapai tempat tertentu sebelum menyalakan mekanisme.\n\nIkuti kabel, garis energi, dan tanda lantai untuk memahami hubungan antarbagian. Rencanakan rute sebelum mengangkat kubus karena perubahan daya dapat mengubah jalur yang bisa dilewati. Lompatan yang akurat sama pentingnya dengan penempatan kubus. Jika urutannya membuat Anda terjebak, mulai ulang ruangan dan coba susunan tindakan lain.",
+      "instructions": "Bergerak dengan WASD, tombol panah, atau Q dan Z sesuai kontrol permainan. E atau tombol kiri mouse mengambil dan meletakkan kubus; Space atau tombol kanan melompat. Shift untuk berlari, Escape membuka menu dan pilihan mulai ulang. Ikuti tanda pelat dan kabel; untuk platform jauh, berlari lalu melompat dari tepi.",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5c1a9d943b8e9eea9abd8e2a3c19fb0ec92913253b1961132ea9e26dd9424e92"
+    },
+    "idle-airport-tycoon": {
+      "sourceHash": "c8b35ac92f5ffe90daafa8970764548c5f7c5efee5be2eb30a8384d9b84eb4d0",
+      "title": "Taipan Bandara Idle",
+      "description": "Mulailah dengan landasan kecil dan kembangkan menjadi bandara yang semakin sibuk. Pilihan peningkatan mencakup pesawat, terminal, dan sumber pemasukan baru. Permainan berfokus pada pengelolaan fasilitas melalui antarmuka, dengan tujuan membangun operasi yang lebih besar dari tahap awal yang sederhana.\n\nPeriksa peningkatan yang sedang tersedia sebelum menentukan bagian berikutnya untuk dikembangkan. Membuka peluang pendapatan baru perlu dipertimbangkan bersama perbaikan fasilitas yang sudah ada. Tampilan kamera dapat diubah agar area bandara mudah diperiksa, lalu Anda bisa kembali membandingkan pilihan pengembangan berikutnya.",
+      "instructions": "Gunakan tombol kiri mouse untuk memilih tombol pada antarmuka. Tombol + dan - mengubah skala kamera. Tinjau peningkatan pesawat dan terminal yang tersedia, beli pilihan yang sesuai, lalu kembali melihat keseluruhan bandara. Saat sumber pendapatan baru terbuka, bandingkan dengan peningkatan fasilitas yang sudah dimiliki.",
+      "referenceHash": "15004f320b6ad1c03c42b3e96be381658d66f5291a3229ce61f197f139a70ed2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Idle Airport Tycoon is a casual simulation game that puts you in charge of building and managing your very own bustling ",
+        "instructionsQuote": "Controls: Use the left mouse button = interact with the in-game UI+/- keys = change the size of the camera",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "51af9da151e531f2479fedbf77ed9e049e3605cf52a8dcef69fe2a4e80892fe8"
+    },
+    "imposter-3d-online-horror": {
+      "sourceHash": "44ede643d2dc109079cb310f0d5c525121aae8925850bbca07ebbb502f500d2b",
+      "title": "Imposter 3D: Horor Daring",
+      "description": "Selamatkan awak kecil dari penyusup dalam permainan horor dengan pilihan bermain sendiri atau daring. Anda bisa membuat ruangan untuk teman dan menjelajahi delapan peta. Peran mengubah tugas: awak mengumpulkan serta menyelamatkan, sedangkan penyusup memburu pemain dan dapat bersembunyi di ventilasi.\n\nPilih aturan sebelum mulai. Mafia memakai penyusup yang menyamar dan pemungutan suara; PvE menghadapkan pemain pada penyusup komputer. Zombie menularkan peran kepada korban, sementara Hide and Seek meminta astronot bertahan sampai ronde berakhir tanpa wajib mengumpulkan awak kecil. Hunt berfokus pada jumlah yang dikumpulkan, Rescue melibatkan sangkar, dan Lava menuntut berpindah ke tempat tinggi saat permukaannya naik.",
+      "instructions": "WASD untuk bergerak, mouse untuk kamera, Tab untuk kursor, dan Space untuk melompat. Sebagai awak, E berinteraksi, F menyalakan senter, G melempar baterai, dan R memakai baterai untuk mengisi senter. Sebagai penyusup, E menangkap atau memakai ventilasi dan R berteriak. Dalam Mafia, tombol 2 mengubah wujud menjadi penyusup.",
+      "referenceHash": "3961e74b7335ac2b74499c8969c3c479512054395a4124f34b564c0a4a47993b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Save all the mini-crewmates from the traitor in single player or online. Play online with other players, or with friends",
+        "instructionsQuote": "For the imposter and crewmate: WASD keys - player control. Mouse - camera rotation \"Tab\" - hide/show cursor Space - to jump Playing as an cr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source advertises seven online modes but separately lists eight named modes. This guide omits the contradictory total and explains only the individual mode objectives and role-specific controls explicitly documented in the source."
+      },
+      "reviewedTextHash": "117828706dfcd4dac3e76c0ad3a9349a8937cd08bccbd12ea2f490de483dfe01"
+    },
+    "burger-restaurant-simulator-3d": {
+      "sourceHash": "e1304192a56efc9dff943f4ab1d87e671536cdc8dde719b3c7e2e48ad330a266",
+      "title": "Simulator Restoran Burger 3D",
+      "description": "Jalankan restoran burger dengan menerima pesanan dan menyiapkan makanan yang diminta pelanggan. Menu mencakup burger, kentang goreng, nugget, minuman, dan kopi, lalu dapat berkembang ke hidangan lain. Pelanggan yang puas menyumbangkan tip serta reputasi untuk membantu usaha bertumbuh.\n\nGunakan keuntungan untuk memperbaiki peralatan dapur, merekrut dan melatih pegawai, atau menata interior restoran. Perkembangan usaha dapat membawa Anda membuka cabang, kafe, maupun truk makanan. Kegiatan harian bergantian antara melayani pesanan dan menentukan perbaikan usaha berikutnya; periksa tugas serta hadiah harian sebelum kembali bekerja.",
+      "instructions": "Bergerak dengan WASD dan putar kamera dengan mouse. E untuk berinteraksi, M membuka toko, J membuka tugas harian, H menampilkan hadiah harian, dan Tab menampilkan atau menyembunyikan kursor. P menjeda permainan. Ambil pesanan, masak hidangan yang diminta, lalu gunakan keuntungan untuk dapur dan pegawai.",
+      "referenceHash": "508a8f9c188720a0d70c812524eccdd3953e962e92947c31fa51dec5716ddcbe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Lead your own burger adventure! Dive into the exciting world of restaurant management, where you will cook delicious dis",
+        "instructionsQuote": "Desktop: WASD - move; E - interact; Mouse - camera rotate; M - shop; J - daily tasks; H - daily reward; Tab - show/hide cursor; P - pause; O",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e5396f710240beb4138e2f1857cbac121613f2217da38c05278b35bdc5d3679a"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "Puzzle Gambar Favorit",
+      "description": "Susun potongan untuk membentuk gambar utuh dengan tingkat kesulitan dari 6 hingga 1.200 bagian. Pilih puzzle kecil untuk memulai atau tambahkan jumlah potongan untuk tantangan lebih rinci. Rotasi dapat diaktifkan, sedangkan mode Classic dan Realistic mengubah cara potongan ditampilkan di ruang kerja.\n\nGambar acuan, petunjuk, dan kisi opsional membantu membandingkan bagian yang belum jelas. Mulailah dari warna atau tepi yang mudah dikenali, lalu perbesar tampilan saat beberapa potongan tampak serupa. Selain kategori gambar yang tersedia, Anda dapat membuat puzzle dari foto sendiri serta menyesuaikan latar dan antarmuka ruang penyusunan.",
+      "instructions": "Pada komputer, tahan tombol kiri mouse untuk menarik potongan. Gunakan roda untuk memperbesar tampilan atau menggulir deretan potongan. Pada ponsel dan tablet, pindahkan bagian serta atur tampilan dengan jari. Pilih kesulitan dahulu, susun bagian yang mudah dikenali, lalu periksa gambar acuan atau kisi jika perlu.",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8720950ac01c722614a85efda4076d0019994373e1bb4b6cccef60a5bb19fc4f"
+    },
+    "idle-magic-academy-tycoon": {
+      "sourceHash": "51eda273d285436b6c757e9bdb16e623e7c4f38422c0d42631e2817361b66fb9",
+      "title": "Taipan Akademi Sihir Idle",
+      "description": "Bangun akademi sihir dengan menyiapkan ruang kelas, merekrut pengajar Magister, dan mengumpulkan artefak untuk mendukung pelajaran. Murid berkembang dari teori dasar menuju mantra tempur yang lebih maju. Sebagai kepala sekolah, Anda menentukan fasilitas dan isi ruangan yang perlu diperbaiki agar kegiatan pendidikan terus berkembang.\n\nKoin emas dipakai untuk meningkatkan fasilitas, menambah tempat murid, serta mempercepat pelatihan dan memperbaiki kualitas pendidikan. Pendapatan dapat diinvestasikan kembali ke pengembangan berikutnya. Ikuti pengenalan untuk memahami pembelian ruangan, lalu periksa pilihan pengelolaan tiap jenis ruangan. Tugas harian, pencapaian, dan peti berkala memberi tujuan tambahan di luar perluasan kelas.",
+      "instructions": "Ikuti tutorial, lalu klik area ruangan untuk membuka jendela pembelian atau pengelolaannya. Periksa biaya sebelum menekan tombol beli. Jika ruangan sudah dimiliki, pilih isi atau fasilitas yang ingin diperbaiki dan tekan Upgrade. Kembali ke layar utama untuk membuka mekanisme lain dan menilai pengembangan akademi berikutnya.",
+      "referenceHash": "aef98e6df096014892ac0acc1bbbc274a443a5468816ba4db156a04b19422da5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Idle Magic Academy Tycoon is a charming management simulator that puts you in charge of a growing academy of sorcery. Yo",
+        "instructionsQuote": "The introductory tutorial will familiarize you with the core game mechanics, including purchasing and upgrading rooms. To buy or upgrade a r",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c2527d56a89decb9e07d1a492d9b442c783b75760ff98cd2d2c1101048e848d5"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "Salon Rambut 3D",
+      "description": "Pelajari permintaan pelanggan, lalu buat potongan rambut yang mendekati contoh. Gunting, mesin cukur, pisau cukur, dan kuas warna memiliki fungsi berbeda untuk gaya seperti bob, mohawk, undercut, atau lapisan panjang. Hasil yang lebih sesuai menghasilkan lebih banyak bintang serta tip.\n\nPratinjau tiga dimensi membantu memeriksa bentuk sebelum memangkas. Putar kamera untuk melihat bagian lain, pilih alat sesuai pekerjaan, lalu tambahkan warna jika diminta. Penghasilan dalam game dapat membeli alat dan pewarna baru. Seiring perkembangan, tersedia potongan yang lebih rumit dan pelanggan tambahan; bandingkan hasil dengan contoh sebelum menyelesaikan layanan.",
+      "instructions": "Ketuk kartu permintaan di kanan untuk melihat contoh. Pilih gunting untuk potongan presisi, mesin cukur untuk meratakan, atau pisau untuk detail. Usap kepala untuk memangkas, lalu gunakan dua jari untuk memutar atau menyesuaikan kamera. Pilih kuas dan warna bila perlu. Tekan Done setelah hasil sesuai untuk menerima penilaian.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1d1987dfa3b18f3b1978a4efad06e924f3cc4df3a0a62eb4eb6b7a8a007656b9"
+    },
+    "supermarket-manager": {
+      "sourceHash": "1d76f4a10d8c4f23503f63953e5445c3979f344f1946fb0c249e846810c65a7b",
+      "title": "Manajer Supermarket",
+      "description": "Kembangkan supermarket dengan membeli rak dan mengisi barang sendiri pada tahap awal. Layani pelanggan untuk mendapatkan keuntungan, kemudian rekrut pengisi stok dan kasir agar pekerjaan dapat dibantu pegawai. Pertumbuhan toko bergantung pada penyediaan barang serta pelayanan yang terus berjalan.\n\nTingkatkan mutu produk untuk menaikkan prestise supermarket, lalu investasikan hasil usaha pada rak yang lebih mahal dan pilihan barang yang lebih beragam. Barang diambil dari gudang dan dibawa ke rak yang sesuai. Komputer di area gudang membuka pengelolaan toko, sehingga Anda dapat memeriksa peningkatan kualitas serta perekrutan sebelum kembali melayani.",
+      "instructions": "Pada komputer, gunakan WASD atau tombol kiri mouse untuk menggerakkan karakter. Pada ponsel, tahan dan geser jari ke arah tujuan. Berdiri di area bertanda untuk membeli rak atau kasir. Ambil barang dari gudang, lalu bawa ke rak yang tepat. Dekati komputer gudang untuk membuka menu kualitas produk dan pegawai.",
+      "referenceHash": "575273b373e17153d18dfcb98c367b9e86f471ae006462151a93be013d4d8797",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Try your hand as a Supermarket Manager! Develop your store by purchasing shelves for products, which you will need to st",
+        "instructionsQuote": "For PC Controls = Use the left mouse button or the WASD keys to move your character For Smartphone Controls = Hold your finger on the screen",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1b095bfde18a5f20bb4bd667d03857317421bef2b04778749cac155449c1875d"
+    },
+    "idle-hotel-empire-tycoon": {
+      "sourceHash": "19a2d0f8778dd0b737ee170480f00318f802d1ce4e5dc7847ba52f3273494ba9",
+      "title": "Taipan Kerajaan Hotel Idle",
+      "description": "Kelola hotel kecil dan perluas usahanya dengan membuka kamar, restoran, kafe, serta tempat bersantai. Pegawai dapat dipekerjakan untuk melayani kamar, sementara area parkir dan penataan bagian dalam maupun luar juga menjadi bagian dari perkembangan hotel. Tujuannya meningkatkan layanan dan pendapatan dari para pengunjung.\n\nInvestasikan kembali keuntungan pada fasilitas yang sudah berjalan atau perluasan yang baru tersedia. Jika ingin lebih aktif, tekan bilah kemajuan di atas meja resepsionis atau kasir untuk mempercepat pelayanan. Bandingkan pembukaan area baru dengan perbaikan layanan yang ada, lalu pilih langkah yang sesuai dengan kebutuhan hotel saat itu.",
+      "instructions": "Gunakan tombol kiri mouse untuk mengoperasikan antarmuka dari layar utama. Buka kamar atau fasilitas yang tersedia, beli peningkatan, dan rekrut pegawai melalui pilihannya. Tekan bilah kemajuan di atas resepsionis atau meja kasir untuk mempercepat layanan. Periksa perluasan berikutnya sebelum membelanjakan pendapatan hotel.",
+      "referenceHash": "941b398271274791aee8b1392789481fa7f1b44dd6bb2f6eb8bfa841e0d9505a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into the role of a manager for a small Hotel. Open and upgrade rooms, restaurants, leisure areas, and various cafes",
+        "instructionsQuote": "Access to all main game mechanics is available from the main screen. Use the left mouse button to interact with the in-game UI.",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "061bea6dfb92eb56d110dc6353b0d487639a863de7bb978320cfe698c7444300"
+    },
+    "archer-trial-by-fate": {
+      "sourceHash": "9158285628e782304ba3af336cfc540d406fb282994857ab2e90efefa111c3bb",
+      "title": "Pemanah: Ujian Takdir",
+      "description": "Kendalikan pemanah dari sudut pandang atas dan lewati ruangan yang dipenuhi monster serta bos. Menembak dilakukan otomatis ketika pahlawan diam: ia membidik musuh terdekat dan melepaskan panah. Gerakan Anda menentukan kapan menghindar dan kapan berhenti untuk menyerang.\n\nUrutan ruangan dan gelombang berubah pada tiap percobaan. Kemampuan seperti panah memantul, panah bercabang, meteor, es, api, dan pendamping hantu membentuk kombinasi yang berbeda. Di antara percobaan, buka pahlawan baru, tingkatkan perlengkapan di Forge, dan gunakan koin untuk perbaikan statistik permanen. Pelajari serangan musuh untuk menemukan kesempatan aman menuju bos terakhir.",
+      "instructions": "Gunakan joystick virtual atau WASD maupun tombol panah untuk bergerak. Bergeraklah untuk menghindari serangan, lalu berhenti saat tempat aman agar pahlawan otomatis menembak musuh terdekat. Tidak perlu menekan tombol tembak terpisah. Setelah percobaan, periksa Forge dan peningkatan permanen untuk persiapan berikutnya.",
+      "referenceHash": "7d40fc1ce7176f841620df5be03ee1cfd5fdba7e004f45c2728cc1ef79d5a6bc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Archer: Trial by Fate is a dynamic top-down action game. You control an archer who fights through dozens of rooms filled",
+        "instructionsQuote": "To control your character, use the virtual joystick or the WASD keys / arrow keys on your keyboard. Shooting is automatic: when the hero sta",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d17f382559fa1ef335f0a6566e6197bed6b778cc293b5b04febf2436aedccbb0"
+    },
+    "obby-sword-hero-adventure": {
+      "sourceHash": "4e2a4bc874d582e4bc979b7e3fb8209556d4c650589b8ebe549995dfdfb3e1f7",
+      "title": "Obby: Petualangan Pahlawan Pedang",
+      "description": "Kembangkan pahlawan pedang dengan meningkatkan daya serang dan mencari senjata yang semakin langka. Lawan musuh biasa maupun bos untuk melanjutkan petualangan ke berbagai dunia. Pedang yang diperoleh menjadi bagian penting dalam upaya memperkuat karakter menghadapi tantangan berikutnya.\n\nSelain senjata, Anda dapat merekrut pendamping, mengumpulkan trofi serta poin keterampilan, dan meningkatkan kemampuan pahlawan. Periksa perkembangan perlengkapan sebelum meneruskan perjalanan. Tujuannya bukan hanya menyerang musuh di tempat yang sama, melainkan membuka seluruh dunia sambil membangun koleksi senjata dan pendamping.",
+      "instructions": "Pada komputer, gunakan WASD untuk bergerak, Space untuk melompat, tombol kanan mouse untuk mengendalikan kamera, dan tombol kiri untuk menyerang. Pada ponsel, gerakkan joystick, tahan jari pada layar untuk kamera, lalu ketuk layar untuk menyerang. Tingkatkan kekuatan dan perlengkapan saat melanjutkan petualangan.",
+      "referenceHash": "889da4dd3dacd1b3d33cd96da89c129a5987bbc8de60b363c3f6cfbdbbc18758",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Obby: Sword Hero Adventure is an exciting game where you’ll master your sword skills. Increase your attack power, obtain",
+        "instructionsQuote": "PC Controls: WASD - Move your character Space - Jump Right Mouse Button - Camera control Left Mouse Button - Attack Mobile Controls: Joystic",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ff7ba50daf8c2b2baf7642494afdea8d860b11e96bee49a5cd8c75d6a8983b94"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "Balap Aksi Mobil 3D",
+      "description": "Kemudikan mobil di jalur tinggi yang dipenuhi ramp, lompatan, serta rintangan bergerak. Tujuannya mencapai garis akhir tanpa menabrak atau jatuh dari lintasan. Pada level berbatas waktu, kecepatan juga perlu dijaga agar Anda tiba sebelum hitungan selesai.\n\nBeberapa sudut kamera membantu membaca bagian sempit dan tempat pendaratan. Luruskan arah mobil sebelum menaiki ramp, lalu perhatikan gerakan penghalang sebelum melintas. Titik pemeriksaan memungkinkan melanjutkan dari bagian tengah setelah terjatuh. Seimbangkan kebutuhan menghemat waktu dengan menjaga mobil tetap berada di jalan, terutama ketika kesulitan meningkat.",
+      "instructions": "Pada komputer, panah atas mempercepat, panah bawah memundurkan mobil, dan panah kiri/kanan membelokkan. Spacebar mengerem. Pada ponsel, gunakan tombol arah, pedal gas, serta rem. Arahkan mobil sebelum ramp, awasi penghalang bergerak, dan capai akhir dalam batas waktu tanpa meninggalkan lintasan.",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source repeatedly promotes a downloadable offline app. This guide omits those unsupported delivery claims and retains only the documented driving inputs, obstacles, checkpoints, camera views and timed finish objective."
+      },
+      "reviewedTextHash": "9d71208d15f02c3ab345eddddee8de45205d103226f1e956f8c0e484e7d93575"
+    },
+    "arrow-cube-3d": {
+      "sourceHash": "319b9ac06b6029545e5ab839d79a55736ff6dcc0050d758d13b9723f11997cba",
+      "title": "Kubus Panah 3D",
+      "description": "Bersihkan semua panah pada enam sisi kubus dengan memilih urutan pelepasan yang tepat. Sebuah panah hanya bisa keluar bila jalur di arah tunjuknya tidak terhalang. Bentuk tiga dimensi membuat satu sisi saja belum cukup untuk menilai apakah bagian itu benar-benar bebas.\n\nPutar kubus dan amati hubungan antarbagian sebelum memilih. Mulailah dari jalur yang terbuka, kemudian periksa kembali karena celah baru dapat membebaskan panah lain. Tantangannya memadukan pemahaman ruang dengan perencanaan urutan, bukan sekadar mengetuk semua bagian yang tampak di depan. Level selesai setelah seluruh panah berhasil dilepas.",
+      "instructions": "Putar kubus untuk melihat sisi depan, belakang, dan bagian tersembunyi. Ketuk panah yang ingin dilepas, tetapi pastikan jalur sesuai arahnya tidak terhalang. Setelah satu panah keluar, periksa apakah jalur lain terbuka. Ulangi pengamatan dan pelepasan dalam urutan yang sesuai sampai kubus bersih.",
+      "referenceHash": "9fd011e1130d37040554032f227151b511cfe10108848b325f6bbce6b7c10907",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Remove every arrow from the six-sided cube by finding the perfect order. Arrow Cube Escape is a calm 3D logic puzzle tha",
+        "instructionsQuote": "Tap an arrow to remove it from the cube. An arrow can move only when nothing blocks its path. Rotate and inspect the cube, choose the correc",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "287d08a6383e074c499e25cfa94a88cd40dbde26e265ba8acc0c1eec692f0592"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "Kerajaan Olahraga Idle",
+      "description": "Kembangkan klub kecil menjadi usaha berbagai cabang olahraga, mulai basket hingga hoki, sepak bola, rugbi, voli, dan bisbol. Pertandingan berlangsung otomatis, sehingga keputusan Anda berada pada pelatihan, perekrutan, perlengkapan, serta keterampilan. Peningkatan tim memperbaiki kekuatan dan peluang menang.\n\nGunakan pendapatan untuk membuka olahraga baru dan mengembangkan tim yang sedang bermain. Tombol Sports menampilkan pilihan cabang serta kemajuan liga, sementara tab lain mengatur pegawai, perlengkapan, hadiah, dan acara. Perkembangan musim dan bonus saat kembali memberi tujuan tambahan. Bandingkan kebutuhan tim sebelum membeli peningkatan berikutnya.",
+      "instructions": "Klik tombol antarmuka dengan tombol kiri mouse, atau ketuk dan gulir panel pada ponsel. Beli peningkatan, rekrut pemain, dan pasang perlengkapan melalui menunya. Buka Sports untuk berganti olahraga atau memeriksa liga. Gunakan keterampilan serta ambil hadiah yang tersedia; gerakan atlet dalam pertandingan tidak dikendalikan langsung.",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketba",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using sk",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8c0c185a2fce767c07786df4801d66fd735d74ce99dac0669bb65ffc29e0f89a"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "Obby Craft: Rakit Pesawat",
+      "description": "Rakit pesawat dari bagian-bagian di area konstruksi, lalu luncurkan untuk melewati jalur rintangan. Setiap blok memengaruhi penerbangan. Koin yang dikumpulkan di udara menjadi mata uang utama untuk membeli bagian baru serta peningkatan, sehingga setiap perjalanan mendukung rancangan berikutnya.\n\nSebelum lepas landas, tingkatkan pelontar agar pesawat terbang lebih cepat dan tinggi. Pilih bagian dari inventaris bawah dan pasang di dekat pesawat. Tersedia dua tampilan gratis serta hingga empat tempat penyimpanan rancangan. Roda bonus dapat memberi benda atau koin tambahan, sementara tantangan penerbangan tetap berpusat pada menghindari penghalang dan mengumpulkan sumber daya.",
+      "instructions": "Dekati pesawat dan area konstruksinya. Pilih bagian pada inventaris bawah, lalu klik untuk memasangnya; beli bagian tambahan di toko jika habis. Gunakan koin untuk meningkatkan pelontar sebelum meluncur. Kendalikan pesawat di udara, ambil koin, dan hindari rintangan. Kembali ke toko untuk memperbaiki rancangan berikutnya.",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The description contains one stray reference to testing a car. The title and detailed assembly, launch and flight instructions consistently identify an airplane, so this guide omits the car reference and follows only the documented aircraft workflow."
+      },
+      "reviewedTextHash": "03304f1afa8c535e193a9c3092c892970a29533a783032b49c27b194f5276725"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "Jurassic Merge: Evolusi Dinosaurus",
+      "description": "Gabungkan dinosaurus yang sama untuk menciptakan makhluk lebih kuat, lalu susun pasukan menghadapi tentara musuh. Pertempuran berjalan otomatis setelah Anda mengirim pasukan, sehingga persiapan sebelum bertarung menjadi bagian utama permainan. Perhatikan pilihan penggabungan dan posisi tiap karakter di medan perang.\n\nKemenangan menghasilkan kristal serta emas untuk membuka karakter baru atau meningkatkan yang sudah dimiliki. Saat lawan makin kuat, gunakan hasil pertempuran untuk memperbaiki susunan dan kekuatan dinosaurus sebelum mencoba lagi. Perkembangan menghubungkan tiga tindakan: menggabungkan makhluk, mengatur formasi, lalu menginvestasikan hadiah pada pasukan berikutnya.",
+      "instructions": "Pada komputer, tarik karakter dengan tombol kiri mouse; pada ponsel, gunakan usapan untuk memindahkannya. Gabungkan dua dinosaurus identik, susun pasukan di medan perang, lalu mulai pertempuran otomatis. Setelah menang, gunakan emas dan kristal untuk karakter atau peningkatan, kemudian atur kembali formasi sesuai tantangan berikutnya.",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ea00b6a181bb8a8cb6c69744d7eab75316e0b59b23ea75c47b95dfc24d4b5008"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "Dogfight: Pertempuran Udara",
+      "description": "Terbangkan pesawat tempur dalam pertarungan udara dengan belokan, putaran, dan manuver menanjak. Mengatur kecepatan serta arah pesawat membantu menempatkan sasaran pada jalur tembakan. Anda memiliki senjata utama dan senjata tambahan, bukan hanya satu serangan yang digunakan dalam segala situasi.\n\nPelajari perbedaan belokan biasa dan belokan tajam sebelum merangkainya dengan gerakan naik atau berguling. Setelah menembak, sisakan ruang untuk mengubah arah dan menyusun pendekatan berikutnya. Komputer menggunakan tombol penerbangan terpisah, sedangkan ponsel menyediakan joystick dan tombol aksi untuk mengendalikan pesawat.",
+      "instructions": "W mempercepat dan S memperlambat. A/D membelokkan kiri/kanan, Q/E membuat belokan tajam. Space menaikkan hidung pesawat dan Shift menggulingkannya. J menembakkan senjata utama, K senjata tambahan, dan R mengisi ulang. Pada ponsel, gunakan joystick serta tombol tembak, naik, dan berguling. Atur posisi pesawat sebelum melepaskan tembakan.",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers li",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f329f9d346d6d247236c15f6f02b4a09a665ee2ef4682f8f81d3a40eac71d9eb"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "Canyon Drifter",
+      "description": "Lewati lintasan uji motor dua dimensi yang dipenuhi tanjakan curam dan lompatan. Kecepatan saja tidak cukup: memiringkan pengendara ke depan atau belakang mengubah keseimbangan motor ketika permukaan tanah naik dan turun. Tujuannya menyelesaikan jalur dengan waktu terbaik untuk papan peringkat.\n\nPilihan rakitan dan setelan motor membantu menyesuaikan kendaraan dengan tanah serta medan. Jika suatu rute terus membuat Anda gagal, periksa kembali setelan di garasi selain mengubah cara berkendara. Amati tempat keseimbangan hilang, lalu sesuaikan waktu memiringkan badan sebelum mencoba menyelesaikan lintasan dengan lebih cepat.",
+      "instructions": "W atau panah atas menambah gas; S atau panah bawah mengerem atau mundur. A atau panah kiri memiringkan badan ke belakang dan mengangkat roda depan, sedangkan D atau panah kanan memiringkan ke depan. R mengulang, Esc atau P menjeda. Pada ponsel, gunakan empat tombol gas, rem, serta kemiringan; jeda dan ulang berada di kanan atas.",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "70ffbb86a54fa8fe6fb66b227a8f0b77d71b61b2d7733a7875792b3e88a9ba78"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "Sudoku Daring",
+      "description": "Isi kisi sembilan kali sembilan memakai angka satu hingga sembilan tanpa pengulangan pada baris, kolom, atau kotak tiga kali tiga. Mode klasik menawarkan empat kesulitan. Mulailah dari sel yang petunjuk tetangganya membatasi pilihan, kemudian gunakan hasilnya untuk mempersempit kemungkinan di bagian lain.\n\nVariasi aturan menambah cara berpikir: X-Sudoku juga membatasi kedua diagonal, Windoku menambah wilayah khusus, dan Killer Sudoku meminta jumlah tertentu dalam kelompok sel. Pada Kropki, titik putih menunjukkan selisih satu dan titik hitam berarti satu angka tepat dua kali angka lainnya. Catatan kandidat membantu melacak pilihan sebelum angka dipastikan.",
+      "instructions": "Pilih mode dan kesulitan. Isi setiap baris, kolom, serta kotak 3×3 dengan angka 1–9 masing-masing sekali. Gunakan catatan untuk beberapa kandidat dan hapus yang tidak mungkin saat petunjuk bertambah. Pada mode khusus, periksa juga diagonal, wilayah tambahan, jumlah kelompok, atau hubungan titik Kropki sebelum memastikan jawaban.",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers fou",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4704d6c28cee70d3e950c10403c0d864492c2e8efe10066c2fa3cc2da57b0586"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "Catur 3D: Edisi Arcane",
+      "description": "Mainkan catur dalam taman bernuansa dongeng dengan bidak tembaga dan emas. Komputer memiliki tiga tingkat kesulitan yang dapat diatur melalui menu. Tujuannya tetap skakmat, yaitu menyerang raja lawan ketika tidak ada langkah sah yang dapat menyelamatkannya. Titik bercahaya menunjukkan langkah yang diperbolehkan.\n\nPutar atau perbesar tampilan untuk memeriksa papan. Tombol Hint menawarkan hingga tiga petunjuk per pertandingan; pada permainan solo fitur ini menggunakan hadiah. Untuk bermain bersama teman, buat ruangan dari Play a Friend dan bagikan kodenya. Ruangan bersifat sementara, sehingga pertandingan dan riwayatnya hilang setelah semua pemain keluar.",
+      "instructions": "Klik atau ketuk bidak, lalu pilih petak yang disorot untuk melangkah. Tangkap bidak lawan dengan memasuki petaknya dan usahakan skakmat. Seret untuk memutar kamera, cubit atau gulir untuk memperbesar tampilan. Ikon lampu membuka petunjuk dan roda gigi membuka pengaturan. Pilih Play a Friend untuk membuat ruangan dengan kode.",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d8e618e12ed6833acefdc33a1877f96298da20afbececb36fce6eb63ac3959ad"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "Tembak Semua Blok",
+      "description": "Hancurkan pulau yang tersusun dari blok, termasuk rumah, hutan, dan menaranya. Semua blok harus dibersihkan untuk menyelesaikan lokasi. Amunisi terbatas, sehingga setiap tembakan perlu diarahkan dengan baik. Blok dinamit dan petir dapat memulai reaksi berantai yang menyebarkan kehancuran.\n\nJika amunisi habis, blok yang sudah hancur tetap hilang. Kunjungi toko untuk meningkatkan senjata, lalu kembali menyelesaikan sisa pekerjaan. Koin juga dapat membeli senjata serta artefak baru. Senjata yang mencapai level sepuluh mulai menembak otomatis, menghubungkan pengembangan perlengkapan dengan kemajuan penghancuran pulau.",
+      "instructions": "Tahan tombol kiri mouse untuk menembak. A/D memutar kamera, W/S memiringkannya, +/− memperbesar atau memperkecil, dan F mengatur ulang kamera. Pilih senjata dengan 1–9, Q/E, atau roda mouse; Esc menjeda. Pada layar sentuh, tahan jari pada blok untuk menembak dan gunakan dua jari atau tombol kanan bawah untuk mengatur kamera.",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, ",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and tr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3b2ebc2eca44bfb1a7732cd54424e50bcbf52ac434841750d1510cf9e1f37882"
+    },
+    "ashfall-industries": {
+      "sourceHash": "e7fb0f0c2799b887e54f39e10f74e44b3e5555fed5915b8f20fe6a05ebf3fc76",
+      "title": "Ashfall Industries",
+      "description": "Bangun jaringan industri di tanah tandus, dimulai dari pompa Rustwater yang menghasilkan Scrap. Perluasan mencakup rumah kaca, tempat pengumpulan barang bekas, radio, jalur karavan, bengkel drone, dan fasilitas lain hingga lima belas operasi. Peningkatan memberi hasil lebih besar dan siklus produksi lebih cepat.\n\nCrew Chief mengotomatiskan produksi, sedangkan Retrofit memperbaiki hasil, kecepatan, biaya, serta hadiah Lucky Find. Kumpulkan temuan tersebut sambil mengejar Benchmarks. Ketika siap memulai ulang, Reclamation memberi Reactor Core untuk membeli Recovery Protocol yang permanen. Pertimbangkan perkembangan saat ini sebelum mereset agar pembangunan berikutnya mendapat manfaat dari peningkatan itu.",
+      "instructions": "Klik dengan tombol kiri mouse, atau ketuk pada layar sentuh. Beli operasi lalu tekan Run untuk menghasilkan Scrap. Gunakan hasilnya untuk menaikkan level dan membuka usaha lain. Rekrut Crew Chief, beli Retrofit, dan ambil Lucky Find. Saat siap membangun ulang, gunakan Reclamation untuk Reactor Core serta peningkatan permanen.",
+      "referenceHash": "a51019fb2ba84b6d9e7a862eb69462f787b01b1ed9ceb1b3cf43a035faee92e9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Ashfall Industries is a comic atompunk idle management game about turning a battered wasteland into a thriving industria",
+        "instructionsQuote": "How to Play 1. Buy an operation and click its Run button to begin producing Scrap. 2. Spend Scrap to level up operations, unlock more busine",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fcc452010ab0c47043206f62b9ebf955bb35b3004b52446e94c383ba0f7ff74c"
+    },
+    "the-biggest-number": {
+      "sourceHash": "2c04ae445f107cb8e343a1c812121c727065614567f6e356403d9bfef168f96e",
+      "title": "Angka Terbesar",
+      "description": "Bawa angka Anda menuju garis akhir dengan mengumpulkan nilai yang sama atau lebih kecil. Angka merah yang lebih besar menghentikan percobaan, sedangkan gergaji, celah, dan jebakan juga perlu dihindari. Besarnya angka yang tersisa menentukan berapa banyak dinding yang dapat dihancurkan di akhir lintasan.\n\nGerbang matematika mengubah nilai: penjumlahan dan perkalian memperbesar, sementara pengurangan serta pembagian memperkecil. Bandingkan jalur sebelum masuk. Perisai membantu menghadapi bahaya dan magnet menarik angka berguna. Koin dapat meningkatkan angka awal serta pendapatan, sehingga persiapan percobaan berikutnya mendukung kemajuan yang lebih jauh.",
+      "instructions": "Gerakkan ke kiri atau kanan dengan A/D, tombol panah, atau tahan tombol kiri mouse lalu seret. Pada ponsel, usap ke samping. Ambil angka yang aman dan hindari angka merah lebih besar. Pilih gerbang dengan hasil menguntungkan, gunakan bonus yang tersedia, dan capai akhir dengan nilai sebesar mungkin untuk menembus dinding.",
+      "referenceHash": "2db675bc08e1ffffc57658a58425b2f0134638ff2ec3600d5e5290c2f663bfd1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🔢 The Biggest Number is a fast-paced 3D number runner and casual math game where every choice can make you stronger—or ",
+        "instructionsQuote": "🎯 Goal Reach the finish with the biggest number possible and smash through as many walls as you can! 🎮 Controls On desktop, use A/D or the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "390dae8660fbb3fa2907f978f4bf5a610f7abe490279de7c4d2cefe69df56a76"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "title": "Live Round",
+      "description": "Lindungi kota Anda dari meteor yang ditembakkan inti arena ke segala arah. Delapan kota mengelilingi pusat, dan tugas pemain membelokkan serangan menuju lawan alih-alih membiarkannya mengenai kota sendiri. Pertahanan harus terus disesuaikan saat arena semakin kacau, dengan tujuan menjadi pemain terakhir yang bertahan.\n\nPilih peningkatan di antara ronde untuk mengubah cara bermain. Kota yang hancur tidak langsung mengakhiri peran Anda, karena pemain yang tersingkir dapat menyabotase yang masih hidup. Ada lima mode, termasuk Defence, Paddle, Vault, Invaders, dan Belt, dengan pilihan daring, bot, atau ruangan pribadi. Periksa aturan mode karena gerakan pemantul dan tembakan tidak selalu tersedia bersamaan.",
+      "instructions": "Pada mode yang memakai paddle, gerakkan mouse untuk memindahkan pemantul. Jika mode mengizinkan, klik untuk menembakkan rudal dan perhatikan sisa amunisi. Atur posisi agar meteor menjauh dari kota. Setelah tersingkir, pilih jenis sabotase lalu gunakan mouse untuk menentukan tempat penyebarannya.",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. (",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "54060d31b5a23c49e7eb7f9798a246a159cc9bcca99c51d6fc0ec9d5e1eec7a0"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "Turnline: Puzzle Sambung Garis",
+      "description": "Putar ubin agar ruas garisnya membentuk jaringan yang utuh. Setiap bagian perlu menghadap ke arah yang menghubungkannya dengan tetangga. Level selesai setelah semua jalur wajib tersambung, bukan sekadar ketika satu bagian terlihat rapi. Jalur yang sudah benar akan ditandai saat Anda maju.\n\nPuzzle awal mengenalkan aturan sederhana, lalu ukuran jaringan bertambah dengan percabangan serta tata letak lebih rumit. Tidak ada penghitung waktu, sehingga Anda dapat memeriksa hubungan sebelum memutar bagian berikutnya. Petunjuk tersedia saat buntu dan kemajuan tersimpan, cocok untuk melanjutkan jaringan yang lebih sulit pada sesi berikutnya.",
+      "instructions": "Klik ubin dengan mouse pada komputer, atau ketuk pada ponsel dan tablet, untuk memutarnya. Bandingkan ujung garis dengan ubin tetangga. Terus atur arah sampai semua bagian wajib terhubung, sambil melihat jalur yang ditandai benar. Jika belum menemukan sambungan yang berguna, gunakan petunjuk lalu periksa bagian yang masih terputus.",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5b92910354929ca3d8c8afae9fe129319933abfdb0873734fbcfc0ed7a6e1679"
+    },
+    "freekick-hero": {
+      "sourceHash": "bba7f19c34c577cf7610659baeb8045973fbf554dfe54412a11fd7ffa9fe0514",
+      "title": "Pahlawan Tendangan Bebas",
+      "description": "Arahkan tendangan bebas melewati pagar pemain serta penjaga gawang. Career membawa Anda melewati musim dan liga, sementara Free Kick Challenge mengejar skor sebelum kesempatan habis. Jarak, sudut, serta angin berubah, sehingga kekuatan dan titik sentuh pada bola perlu dipilih sesuai situasi.\n\nTitik tendangan mengatur ketinggian dan lengkungan, bukan hanya arah awal. Bangun rentetan gol, tingkatkan kekuatan serta kemampuan melengkungkan bola, lalu buka bola khusus. Kemampuannya mencakup tembakan yang mengejar sasaran, tahan angin, atau Meteor. Pelajari dua tahap kontrol—membidik lalu memilih titik tendangan—sebelum mengejar skor yang lebih tinggi.",
+      "instructions": "Tahan tombol kiri mouse dan tarik bola ke belakang untuk menentukan arah serta tenaga. Lepaskan untuk masuk ke pilihan titik tendangan, lalu klik bagian bola pada tampilan dekat untuk menembak. Pada ponsel, lakukan urutan yang sama dengan tarik dan ketuk. Ikon bola membuka pemilihan bola; tombol Info menampilkan panduan titik tendangan.",
+      "referenceHash": "b8172ee035a3ad358cc62309f3a3cff6736730a56affc5e7ccc0dfcec3c17613",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Freekick Hero is a 3D arcade football game about bending spectacular free kicks past defensive walls and goalkeepers. Pl",
+        "instructionsQuote": "Become a Freekick Hero! Step onto the pitch and score spectacular free kicks past defensive walls and goalkeepers. Choose between two modes:",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "751203c30ad9a0af4170b24e7c0d5b77ef674285be6da1cbe17661e8a3a70922"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "Ash of the Depths",
+      "description": "Turun ke koloni Sorrow-IV yang kehilangan kontak dan cari jalan keluar setiap level sambil menghadapi musuh serta bos. Dunia penembak fiksi ilmiah ini bereaksi secara fisik: batu runtuh, pasir serta air mengalir, magma mendingin menjadi batu, dan gas dapat meledak. Lingkungan ikut menentukan jalur dan bahaya.\n\nKampanye memuat seratus level dalam enam bab, dengan berbagai wilayah, senjata, serta zirah. Pemotong plasma dapat membuka jalan melalui batu, tetapi hanya sedikit melukai musuh. Gunakan emas di Arsenal untuk perlengkapan seperti drone dan pakaian pelindung. Amati penunjuk tujuan di tepi layar agar penggalian jalan tetap mengarah pada pintu keluar.",
+      "instructions": "Pada komputer, A/D bergerak, W melompat, Space memakai jetpack, mouse membidik dan menembak, tombol kanan melempar granat, 1–4 memilih senjata, F memakai pemotong, dan Esc menjeda. Pada ponsel, stik kiri untuk gerak/lompat dan kanan untuk bidik/tembak; gunakan tombol granat, pemotong, serta senjata. Buka Arsenal dari jeda atau setelah level.",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something anci",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c3144926437b634eca4eba2d1c17bde3ecd62ec5929c986ae113e24328a0d748"
+    },
+    "zasteroid": {
+      "sourceHash": "918e524144772b4b0d9bc157ccfb7822e69148b2baf4ebd2aa27f9db1aaedd66",
+      "title": "Zasteroid",
+      "description": "Kemudikan kapal melewati gelombang musuh luar angkasa tanpa akhir. Senjata terus menembak otomatis, sehingga Anda berfokus menghindari peluru dan mengambil kristal XP. Bos muncul setiap lima gelombang. Mengisi bilah XP menaikkan level dan menawarkan tiga kartu acak untuk dipilih.\n\nLebih dari dua puluh peningkatan dapat membentuk susunan berbeda, seperti tembakan menembus, rudal pelacak, perisai, atau tambahan kecepatan. Koin tetap disimpan setelah kalah dan dapat dibelanjakan di Hangar untuk kapal serta peningkatan permanen. Melintas dekat peluru mengisi Super Weapon, sedangkan target bonus tiap gelombang memberi koin tambahan. Utamakan bertahan sambil membangun kekuatan berikutnya.",
+      "instructions": "Gerakkan mouse agar kapal mengikuti kursor, atau gunakan WASD maupun tombol panah. Esc menjeda. Pada ponsel, seret jari untuk bergerak dan tekan jeda di kanan atas. Tidak perlu tombol tembak. Kumpulkan XP, pilih satu dari tiga kartu saat naik level, dan kerjakan target gelombang. Gunakan koin di Hangar setelah percobaan dan persiapkan senjata super untuk bos.",
+      "referenceHash": "eb5d549c59d1c794ff7f3a2d963731503e4178c0cfb698fb68f6d1c26ca08169",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Zasteroid is a fast-paced 2D top-down space shooter with roguelike progression. Pilot a starship through endless waves o",
+        "instructionsQuote": "Controls * Desktop: Move the mouse — your ship follows the cursor. Use WASD or arrow keys as an alternative. Press Esc to pause. * Mobile: D",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9972336f2627a0f3bbf38fc9fbf4a5cb4dcf8167c5d6a66f8774ec0db5e56a1f"
+    },
+    "busy-bites-tycoon": {
+      "sourceHash": "7b802676367ca63a0ffc0d9fff325528fadacec7d9ec9275438019f2d1b00c25",
+      "title": "Busy Bites: Taipan Restoran",
+      "description": "Mulai dengan konter kosong dan pelanggan lapar, lalu bawa bahan, masak, sajikan, serta ambil uang yang ditinggalkan. Pengambilan dan penyerahan terjadi ketika karakter mendekat, sehingga pengaturan rute kerja menjadi bagian penting. Gunakan hasil usaha untuk mesin, konveyor, dan pegawai sampai restoran dapat berjalan otomatis.\n\nTur dunia membawa Anda dari restoran pizza Amerika ke taquería Meksiko, kedai di Turki, dan dhaba India. Menu serta layanan berubah di tiap lokasi. Selesaikan restoran untuk menuju negara berikutnya; restoran lama tetap dimiliki dan cap paspor menaikkan harga di seluruh usaha. Pembayaran pembangunan dapat dicicil, sementara hadiah harian dan pakaian koki memberi pilihan tambahan.",
+      "instructions": "Gunakan WASD atau tombol panah; pada layar sentuh atau dengan mouse, seret untuk joystick. Dekati bahan untuk mengambil, lalu mesin atau rak untuk menyerahkan. Berdiri di area harga untuk membayar pembangunan dan di kasir untuk melayani. Ikuti panah tutorial, buka pekerja serta ruangan, dan gunakan Esc atau P untuk jeda. Wardrobe mengubah pakaian koki.",
+      "referenceHash": "c6bd4dad863edc6bf3f2d7db6e39ec278868d93e2a7e84b8be59f210dde44058",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Busy Bites Tycoon is a cozy restaurant tycoon game. You start with one empty counter and a line of hungry customers. Car",
+        "instructionsQuote": "Move: WASD or arrow keys. On touch screens (or with the mouse), drag anywhere to use the on-screen joystick. Carry: walk up to a pallet or m",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7a6cc4de810823cd570359da9ce20d3add360c5c532a35c25c20dc8c2391bd35"
+    },
+    "football-free-kick": {
+      "sourceHash": "9a283751c2c0f1a78450844c44f84da33e0a9c52b328f65cb11943be99ff5333",
+      "title": "Tendangan Bebas Sepak Bola",
+      "description": "Cetak gol lewat tendangan bebas yang melewati pagar pemain dan penjaga gawang. Tujuh stadion membawa variasi angin, dinding yang melompat, serta kiper yang semakin sulit. Gol mengisi kemajuan tahap, dan rentetan gol memberi tambahan poin, sehingga akurasi perlu dijaga selama persediaan bola masih ada.\n\nPerhatikan posisi dinding serta angin sebelum memilih lintasan bola. Usapan cepat menaikkan tendangan, sedangkan usapan melengkung membantu melewati sisi penghalang. Di antara tahap, pilih keunggulan yang ditawarkan dan kerjakan misi untuk membuka peti, bola baru, serta jejak visual. Utamakan jalur tembakan yang jelas agar kesempatan tidak habis sebelum tahap selesai.",
+      "instructions": "Dengan mouse, seret dari bola lalu lepaskan untuk menendang; pada layar sentuh, usap ke atas. Gerakan lebih cepat membuat bola lebih tinggi dan gerakan melengkung memberi efek lengkung. Pada keyboard, panah mengatur bidikan, A/D menambah lengkungan, dan Space atau Enter menembak. Periksa angin, dinding, serta sisa bola sebelum menendang.",
+      "referenceHash": "fb1a28e833656881f906cfb9114c19c2d01ed30d8e17d01b0691f74876b53ea9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Football Free Kick is a 3D arcade soccer game. Swipe to shoot, curl the ball over the defensive wall and beat a diving g",
+        "instructionsQuote": "Swipe up from the ball to shoot: a faster swipe kicks it higher and a curved swipe bends it around the wall. Score to fill each stage, keep ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5404b8217f0fe604acb166825513e66d58e8857528d87c24637b5757ebd718a0"
+    },
+    "block-zero": {
+      "sourceHash": "71ed660e3b17abf729025e52cea528638c377127f3947df1ce8edb680ed22656",
+      "title": "Block Zero",
+      "description": "Jelajahi kota sebagai mutan yang dapat berlari menaiki dinding, melompat dari atap, meluncur, dan melesat di udara. Misi terminal perlawanan membawa Anda menghadapi kelompok terinfeksi, sarang, pengejaran, serta ancaman korporasi. Menyerap musuh yang dilemahkan memulihkan kesehatan, memberi biomassa, dan memungkinkan penyamaran.\n\nPerkembangan membuka bentuk lengan, pukulan berat, harpun, serta kemampuan melempar mobil. Di luar misi dan status siaga, pilar kuning memulai tantangan medali berupa lari atap atau arena Smash. Tantangan harian memberi variasi aturan. Ikuti tutorial dari lompatan pertama agar gerakan dan aksi kontekstual dipahami sebelum menjelajahi tiga zona kota.",
+      "instructions": "WASD/panah bergerak, Shift berlari, Space melompat; tahan untuk lompatan tinggi atau meluncur di udara. Ctrl melesat, klik kiri menyerang, E menyerap atau berinteraksi, Q menandai tujuan, dan Esc menjeda. Setelah terbuka, tahan serangan untuk pukulan berat, F memakai harpun, Tab mengganti bentuk. E mengangkat mobil, lalu E/serang melempar. R mengulang tantangan. Pada sentuh gunakan stik kiri, geser kanan untuk kamera, dan tombol aksi.",
+      "referenceHash": "8e75eed27f9291726342b32d9777019fc8e4b1ce63b00964bae9b2dcd0c392d7",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Block Zero is a third-person action game in an open low-poly city. You are a blocky mutant born of the outbreak: every w",
+        "instructionsQuote": "1. Press \"Play\". You start on a rooftop above a crowd of infected — jump down into them. The first mission teaches every move on the way: fi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "04d20f66fd046810959c382f20c0e5dc5a8c38bfdd1ea9174846dc316bf07b2b"
+    },
+    "math-crosswords": {
+      "sourceHash": "0c48aa30068b8bf6d608456c6ce74b18c929329458e4bb846b3a58dac5a88804",
+      "title": "Teka-Teki Silang Matematika",
+      "description": "Isi jawaban teka-teki silang dengan angka, bukan kata. Persamaan mendatar dan menurun berbagi sel, sehingga satu angka harus memenuhi dua perhitungan sekaligus di titik perpotongan. Penjumlahan, pengurangan, perkalian, dan pembagian menjadi bagian dari kisi yang semakin besar.\n\nPersamaan yang benar menyala hijau, sedangkan yang keliru berwarna merah. Level selesai setelah semuanya benar. Mulailah dari perpotongan untuk membatasi kemungkinan jawaban, lalu gunakan hasilnya pada jalur lain. Tersedia puzzle harian, pencapaian, serta papan peringkat; penyelesaian cepat tanpa banyak petunjuk menghasilkan poin lebih tinggi.",
+      "instructions": "Seret angka dari panel ke sel kosong, atau pilih angka lalu sel tujuannya. Pilih sel terisi untuk mengembalikan angka ke panel. Gunakan mouse pada komputer atau sentuhan pada ponsel. Periksa persamaan hijau dan merah, kerjakan titik perpotongan terlebih dahulu, dan ketuk lampu jika perlu menempatkan satu angka yang benar.",
+      "referenceHash": "692223e34cd9607ff88e2398202a492d700e5c19fe1dc7e352312e3d9171fcf4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "A crossword where numbers take the place of words. Equations cross each other, so a single number has to fit two of them",
+        "instructionsQuote": "Numbers wait in the panel next to the board; the board holds equations with empty cells. Drag a number into an empty cell, or tap the number",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "aae622cbe12168e1bdfab97fce571218683a43f89478479fe42f06838d75fe96"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "Loopix",
+      "description": "Kemudikan komet dan buat lingkaran tertutup mengelilingi kelompok makhluk. Semua yang berada di dalamnya tertangkap ketika lingkaran ditutup, dan lingkaran lebih besar memberi kombo lebih besar. Hindari jejak komet lain karena menyentuhnya mengakhiri permainan, tetapi menjebak komet lawan dapat mengambil poinnya.\n\nKalahkan Guardian setiap dunia, lalu lanjutkan melalui lubang hitam. Pendamping yang menetas memberi bonus, sementara tampilan, topi, dan peningkatan permanen dapat dibuka. Boost membantu kabur atau menutup lingkaran pada saat terakhir, tetapi mengurangi sedikit ukuran. Pilih kapan memakai kecepatan tambahan sambil mempertahankan ruang aman untuk berbelok.",
+      "instructions": "Arahkan komet dengan mouse, tombol panah, atau A-D. Tahan tombol kiri mouse atau Space untuk boost dengan biaya sedikit ukuran. Pada ponsel, seret jari untuk mengarah dan ketuk dua kali lalu tahan untuk boost. Tutup lingkaran mengelilingi makhluk, jangan sentuh jejak lawan, lalu kalahkan Guardian untuk menuju dunia berikutnya.",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6e87554061de5702271eb0cf47875571f2b72686dc2f55394e3cc60d2af16cc1"
+    },
+    "iron-defense": {
+      "sourceHash": "c51bec692c82518f4f2ff19651901ae9ecb3ee880feab10a0409cc6aa4e6162d",
+      "title": "Pertahanan Besi",
+      "description": "Pertahankan tembok rongsokan dengan menembakkan turret ke robot yang datang dari kanan. Anda mengendalikan tembakan dan menambahkan kemampuan api, es, serta petir ketika diperlukan. Semua gelombang harus dihancurkan sebelum tembok runtuh agar tahap dinyatakan menang.\n\nKemampuan memakai energi yang pulih seiring waktu; kristal dapat dipakai untuk mengisinya lewat tombol tambah. Di antara tahap, emas serta kristal meningkatkan turret, tembok, lantai listrik, dan pilar senjata otomatis. Periksa bagian pertahanan yang paling tertekan sebelum membeli peningkatan. Kampanye memiliki seratus tahap dengan bos, lalu membuka Endless setelah tahap terakhir.",
+      "instructions": "Tahan tombol mouse atau jari di medan untuk menembak. Seret tombol api, es, atau petir ke medan lalu lepaskan untuk memakai kemampuan; lepaskan di atas tombol untuk membatalkan. Perhatikan energi dan biaya kristal pada tombol +. Hancurkan semua gelombang, kemudian buka UPGRADES di antara tahap. Selesaikan tahap 100 untuk Endless.",
+      "referenceHash": "dc9b7c21eb0e5cda9c385ba756cc8f1478121af1fad5827bd60aac38aa11d17c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Iron Defense is a one-screen defense shooter set in an industrial scrapyard. Hold a turret on a scrap wall while waves o",
+        "instructionsQuote": "Hold the mouse button or your finger on the field to fire at the robots. Drag the fire, ice or lightning button onto the field and release t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "43157db3762b3359e95b1ac61abe4f7c5aca6e9da9e141943239cc272a35f078"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "title": "SWAT OPS: Kamera Tubuh",
+      "description": "Hadapi pertempuran penembak orang pertama melalui tampilan kamera tubuh dengan distorsi lensa dan guncangan. Pertandingan singkat berlangsung di empat peta dengan pilihan melawan bot atau pemain lain. Deathmatch, Team Deathmatch, serta mode zombi memberi konteks yang berbeda untuk menggunakan senjata.\n\nDalam Deathmatch, sasaran kemenangan adalah lima belas eliminasi; pada Team Deathmatch tim pertama mencapai tiga puluh. Perhatikan penghitung waktu tiga menit dan papan skor. Koin pertandingan dapat membuka peti berisi tampilan atau hiasan senjata, sementara battle pass memberi perkembangan musiman. Saat menembak dari jauh, gunakan bidikan senjata agar lebih akurat.",
+      "instructions": "WASD bergerak, mouse melihat, klik kiri menembak, klik kanan membidik, R mengisi ulang, dan Q atau roda mouse mengganti senjata. Shift berlari, Ctrl merunduk, Space melompat, Tab/Esc membuka PDA serta skor. Pada ponsel mendatar, gunakan stik kiri, geser kanan untuk melihat, serta tombol tembak, bidik, isi ulang, lompat, merunduk, dan ganti senjata.",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera sh",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. D",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f5c96a75d397474e690ea9e6ea25c14b18050515a2d5e4bb667a87e592a53044"
+    },
+    "reversi-classic": {
+      "sourceHash": "d98e4e68e0cdafa94d4938232f92503d5fd416a61c28100b2e28375ac6378ea0",
+      "title": "Reversi Klasik",
+      "description": "Letakkan cakram untuk menjepit cakram lawan di antara milik Anda, lalu balik garis tersebut menjadi warna sendiri. Tujuannya memiliki cakram terbanyak saat kedua pemain tidak dapat melangkah lagi. Setiap penempatan harus membalik sedikitnya satu cakram dalam garis lurus atau diagonal.\n\nTersedia lima kesulitan komputer, pertandingan daring berperingkat, tantangan teman dengan kode ruangan atau satu layar, dan puzzle harian. Perhatikan sudut karena cakram di sana tidak dapat dibalik kembali. Penanda langkah sah serta pratinjau pada mode latihan membantu menilai perubahan papan sebelum Anda memutuskan penempatan berikutnya.",
+      "instructions": "Klik atau ketuk petak bertanda untuk meletakkan cakram. Cari garis yang menjepit lawan di antara cakram baru dan cakram Anda yang sudah ada. Dalam latihan, arahkan kursor atau tahan untuk pratinjau. Jika tidak ada langkah sah, giliran dilewati; jika keduanya tidak bisa melangkah, permainan selesai. Esc membuka menu.",
+      "referenceHash": "dbcd1f18addefca533a22d6fdd0f8e2b204df375041aa3a4ded59606d781e3c0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Reversi (Othello) in beautiful 3D — the classic strategy game where one move can turn the whole board. Sandwich your opp",
+        "instructionsQuote": "Goal: have more discs of your color on the board when the game ends. Players take turns placing one disc. A move is only allowed where it sa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "cdd336d31bd97fedffb318d106b53ab6fa7fd09d3f9a1f85f720911afd0c63d8"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "SoccerLat: Sepak Bola 3D Daring",
+      "description": "Pilih posisi dan ikuti pertandingan sepak bola waktu nyata, dari satu lawan satu hingga sebelas lawan sebelas. Pelanggaran, tendangan bebas, sudut, lemparan ke dalam, serta adu penalti membentuk pertandingan. Penjaga gawang bot dapat mengisi gawang jika diperlukan.\n\nPilih stadion dalam ruangan atau lapangan jalanan, lalu sesuaikan pakaian, nama, dan nomor pemain. Arah bola dipengaruhi gerakan saat menendang serta sudut kamera: bergerak menyamping memberi lengkungan dan membidik lebih tinggi melambungkan bola. Atur posisi sebelum menahan tembakan, dan hindari tekel terlambat yang dapat dinilai sebagai pelanggaran.",
+      "instructions": "WASD bergerak, Shift berlari, Space melompat, dan mouse melihat. Tahan klik kiri untuk menggiring; tahan klik kanan lalu lepas untuk mengoper/menembak. Klik kiri di udara untuk tendangan salto. C menekel, F meletakkan bola sebagai kiper, E meminta bola, tahan B untuk ekspresi, 1 untuk orang pertama, Esc menjeda. Ponsel memakai joystick, tombol, dan geser kamera; tombol dapat diatur ulang.",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "633249f9b72833e72cccc7d3a9a88e0347c3ce5ad430153cac5bf8309dbd82d6"
+    },
+    "aura-clicker": {
+      "sourceHash": "c70e25e81c1b19b88cc267bd379dd65491eff377d16775164f7bc12da99012a1",
+      "title": "Aura Clicker",
+      "description": "Kumpulkan aura dengan mengeklik di sekitar pahlawan, lalu tingkatkan daya klik, penghasilan otomatis, pengganda, dan peluang kritis. Enam peringkat membawa karakter dari Noob hingga GOAT. Kemajuan peringkat dihitung dari aura yang diperoleh dalam percobaan, sehingga membeli peningkatan tidak menurunkan peringkat Anda.\n\nPilih dari enam pahlawan dan kumpulkan lima puluh dua hewan di lima wilayah. Semua hewan yang dimiliki memberi bonus permanen meskipun tidak sedang menemani karakter. Rebirth pertama terbuka setelah memperoleh tiga ratus juta aura dalam satu percobaan. Aura, peringkat, dan peningkatan direset, tetapi hewan, pahlawan terbuka, serta prestige tetap ada. Prestige membuka bonus dan wilayah baru; penghasilan otomatis berjalan saat game terbuka.",
+      "instructions": "Klik atau ketuk sekitar pahlawan untuk aura. Beli peningkatan; tahan tombol beli untuk beberapa level. Buka toko untuk memanggil hewan yang belum dimiliki di wilayah saat ini, lalu pilih pendamping dari koleksi. Ambil peti dan hadiah. Periksa syarat pada tombol Rebirth sebelum reset, kemudian gunakan prestige serta wilayah baru untuk perkembangan berikutnya.",
+      "referenceHash": "c408c7c4f4ec749a704338beda7335803bc0e11fdd2c3f3e48f93cae1c95e6ef",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "How much aura can you farm? Start as a Noob and work your way up to GOAT in Aura Clicker, a colorful idle clicker packed",
+        "instructionsQuote": "1. Choose your starting hero, then click or tap around them to earn aura. 2. Spend aura on Click Power, Auto Click, Aura Multiplier, and Cri",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "564b0eced7dc04f2bd266049f78e1fccc24aa6a1948b10b8d9a9b27b8685c674"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "City Pop Drive",
+      "description": "Kemudikan mobil melalui kota berwarna pastel dengan suasana musik tahun delapan puluhan. Mobil berakselerasi sendiri, dan tugas Anda mencapai titik pemeriksaan sebelum waktu habis. Pada setiap percabangan, pilih jalan pemandangan atau jalur ekspres; pilihan rute juga memengaruhi musik perjalanan.\n\nMelintas dekat kendaraan tanpa menabrak menambah waktu dan mengisi Breeze. Meter penuh memicu Boost yang mendorong mobil lain ke samping. Lima peta memiliki ciri berbeda, dari tepi laut hingga resor salju. Capai tujuan untuk memperoleh salah satu dari dua puluh lima sampul rekaman, lalu gunakan Miles untuk peningkatan, kendaraan, dan peta baru.",
+      "instructions": "Ketuk untuk mulai, lalu seret kiri atau kanan untuk mengemudi. Pada komputer, gunakan seretan mouse, tombol panah, atau A/D; P menjeda. Lewati lalu lintas dari jarak dekat dengan aman untuk waktu serta Breeze. Pilih sisi pada percabangan dan capai titik pemeriksaan sebelum hitungan selesai. Belanjakan Miles melalui pilihan peningkatan.",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "46383f91e8aea1733a515701db5505d566f98714a5d9c8af64ec336385abf133"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "title": "Loot Hole: Gali Harta",
+      "description": "Gali halaman depan untuk mencari harta yang terkubur di bawah lapisan batu semakin keras. Bawa temuan ke kios di permukaan untuk dijual, lalu investasikan koin pada alat dan tas yang lebih baik. Tujuan kedalaman mencapai seribu meter, dengan penemuan langka di akhir setiap lapisan.\n\nBuku koleksi mencatat temuan, dan papan permintaan tetangga memberi kegunaan khusus pada beberapa benda. Sekop, beliung, bor, jetpack, serta bahan peledak mendukung perjalanan lebih jauh. Anda dapat menggali sendiri atau berbagi halaman dengan hingga empat pemain, membuat ruangan pribadi, bergabung lewat kode, atau memasuki halaman terbuka.",
+      "instructions": "WASD bergerak dan mouse melihat. Tahan klik kiri untuk menggali; dekati temuan untuk mengambilnya. H kembali ke permukaan, lalu masuk kios untuk menjual. Space melompat/jetpack, B atau I membuka tas, C koleksi, X melempar peledak, Q mengganti jenisnya, dan P membuka Play together. Pada ponsel, gunakan stik serta tombol dan tahan sentuhan untuk menggali.",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a8d956255d8be2dd49160ccd94f71fb7c9b92908b2d57b70f99ddb2550b843d7"
+    },
+    "smashsite-io": {
+      "sourceHash": "7ee2852bb3865b7b11b8b764a2fc3a5087670d80a2ac1e8b5f24c947efe7e406",
+      "title": "SmashSite.io",
+      "description": "Bertarung di lokasi konstruksi, kumpulkan makanan untuk tumbuh, dan singkirkan lawan dengan alat berat. Pukulan yang tepat dapat menghempaskan musuh, sedangkan serangan bersamaan dapat memicu tangkisan senjata. Karakter berkembang melalui enam tingkat dengan ukuran serta jangkauan yang semakin besar.\n\nArena aman terus menyusut, sehingga pergerakan perlu mempertimbangkan batas bahaya. Peti dapat menyimpan makanan, magnet, atau perisai, tetapi peti drone memicu pengejaran dan kaleng di tanah membuat karakter tergelincir. Gunakan ujung senjata untuk menjaga jarak dan simpan tenaga lari untuk keluar dari jangkauan raksasa. Koin dari lawan yang kalah dapat membantu perkembangan cepat.",
+      "instructions": "Mouse mengarahkan gerakan. Klik kiri, J, atau F menyerang; tahan klik kanan, Space, Shift, atau Q untuk berlari cepat. E menampilkan ekspresi dan Space pada layar kalah langsung mengulang. Pada ponsel, gunakan joystick kiri, tombol Smash untuk menyerang, Boost untuk berlari, serta ekspresi di kanan atas. Awasi jangkauan lawan dan batas arena.",
+      "referenceHash": "d4d9034ddc2fc0f09e599c84d0b981adb61ce0a043b18a79e9f712c0c7d54d72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SmashSite.io — SMASH. GROW. DOMINATE THE SITE. Welcome to SmashSite.io, the craziest 3D slapstick combat battleground se",
+        "instructionsQuote": "DESKTOP (PC / MAC): - Mouse Movement: Aim and steer your character (360-degree direction) - Left Mouse Button / J / F: Smash / Attack (Tap o",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "89673f4de8e03a9565fa198b72045385fa379149f90e17e54a2d51c6c21f18bb"
+    },
+    "goblin-defense-merge": {
+      "sourceHash": "6a54a8844ae0af490c5a3d23e140e4b7b71e15c2c32706204acb96a14f51833a",
+      "title": "Gabungkan Pertahanan Goblin",
+      "description": "Lindungi desa goblin dari gelombang penyerbu manusia dengan membangun pasukan yang semakin kuat. Pilih unit pada petak dan gabungkan dua goblin berpangkat sama untuk menghasilkan petarung dengan peringkat lebih tinggi. Hasil penggabungan membantu memperkuat barisan yang bertugas menghadang musuh.\n\nSelain menggabungkan, Anda perlu menugaskan goblin ke medan pertempuran. Perhatikan unit yang tersedia sebelum menentukan pasangan dan susunan pasukan. Kemajuan berpusat pada mengembangkan kekuatan pertahanan untuk menahan serbuan yang terus datang, bukan mengendalikan serangan tiap goblin melalui tombol tempur terpisah.",
+      "instructions": "Klik petak untuk memilih goblin. Gabungkan dua unit dengan peringkat yang sama agar menjadi goblin lebih kuat, lalu tugaskan pasukan ke medan untuk menghadapi manusia yang datang. Periksa kembali pilihan penggabungan dan penempatan saat mengembangkan pertahanan, lalu terus perkuat pasukan agar desa bertahan.",
+      "referenceHash": "bbf1f4a3c36c3d0750cf340d7864aa26f1b44dbcf27aa869495f602adba2a5e1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Merge, Evolve, and Defend Your Village! The humans are invading, and it's time for the goblins to fight back! In Goblin ",
+        "instructionsQuote": "Select Goblins: Click on the grid to select your goblin units. Merge & Evolve: Combine two goblins of the same rank to create a stronger gob",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a60a6e83fc9f84833ec4d895cb4505104a4bad7a35772356bdd22f0148532f1f"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1 Bertahan dari Zombi",
+      "description": "Hadapi zombi dalam kota berbentuk blok sambil memperoleh tambahan satu kekuatan setiap detik. Kekuatan tersebut membuat tembakan semakin kuat. Setelah area latihan, Anda harus bertahan sepuluh malam pada masing-masing dari lima kota. Malam dimulai atas pilihan Anda dan berakhir ketika seluruh kelompok musuh telah dikalahkan.\n\nBerlindunglah di kamar, pasang pintu serta jebakan, dan gunakan beliung untuk membuka celah pada dinding. Mobil dapat dipakai menabrak gerombolan biasa, tetapi bukan bos. Sebelas senjata dapat dibuka hingga senjata lubang hitam. Perbaiki pertahanan dan perlengkapan sebelum memulai malam berikutnya, lalu gunakan rebirth untuk memperoleh pengganda permanen.",
+      "instructions": "WASD bergerak, mouse melihat, klik kiri menembak, kanan membidik, Space melompat, Shift berlari, dan R mengisi ulang. 1–0 atau roda memilih senjata; B membuka cetak biru, E untuk pintu/keluar-masuk mobil, F memperbaiki, U meningkatkan, G memulai malam, Esc menjeda. Dalam mobil W/S gas-rem dan A/D membelok. Pada ponsel gunakan stik, geser kamera, serta tombol aksi yang tersedia.",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4e1c993544d6d6728773ec1dab1fd6667f77f83787c16ae3ed8cf7b760cd6f93"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "Roll Tycoon: Kerajaan Dadu",
+      "description": "Lempar kelompok dadu ke papan tiga dimensi dan kumpulkan penghasilan berdasarkan angka pada sisi atasnya. Lima tingkat dadu berkisar dari empat hingga dua puluh sisi. Hasil maksimum pada sebuah dadu memberi JACKPOT dan mengisi FEVER; meter penuh menggandakan pembayaran selama delapan detik atau lebih lama dengan artefak yang sesuai.\n\nIkuti tiga puluh kontrak, dua puluh dua trofi, serta misi harian dan mingguan untuk hadiah tambahan. Belanjakan hasil pada dadu, keberuntungan, artefak, dan peti yang dapat memberi patung peningkat penghasilan. Setelah memperoleh satu juta dalam satu percobaan, Rebirth menghasilkan bintang untuk pengganda permanen. Periksa juga Daily Drop tujuh hari dan bonus kembali.",
+      "instructions": "Klik atau ketuk papan, atau tekan Space maupun ROLL untuk melempar seluruh dadu yang siap. Setelah dadu berhenti, lihat hasil dan kontrak berikutnya. Buka MISSIONS, selesaikan target lalu tekan CLAIM. Beli peningkatan di toko dan periksa Rebirth saat pendapatan percobaan mencapai satu juta. Graphics di toko menyediakan pilihan tampilan lebih ringan.",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "80537d8120fbfe8dca8915b99f893907d91886a4de1cc8aa3ad0dd08834606fb"
+    },
+    "nest-heist": {
+      "sourceHash": "3bc1a5e550e7b627c20916765c905d4f12abf86626409966ecd2cf27df4f6642",
+      "title": "Pencurian Sarang",
+      "description": "Beli telur dari konveyor pulau, bawa ke sarang, lalu rawat makhluk sampai dewasa. Ambil makanan untuk lumbung dan elus hewan agar tumbuh; makanan favorit membuatnya senang. Pembeli mendatangi peternakan, dan hewan dewasa bernilai lebih tinggi. Hasil penjualan dapat membangun sarang hingga delapan lantai.\n\nHingga delapan peserta berbagi pulau, sehingga koleksi juga perlu dijaga dari pencuri. Gunakan perisai, lonceng, dan pukulan untuk mengejar pencuri sebelum pulang. Ada sembilan puluh dua makhluk serta dua dunia, termasuk gurun Las Dunas. Selesaikan pesanan kebun binatang dan kumpulkan ketenaran untuk rebirth. Pendamping tidak dapat dijual atau dicuri; penghasilan saat pergi berlanjut selama makanan masih ada.",
+      "instructions": "WASD/panah bergerak, seret mouse atau Q/E memutar kamera, Space melompat, dan F melakukan aksi yang ditampilkan. R mengelus, G memukul, X menjual cepat, C mengganti kamera, B membuka bestiary, dan T membuka papan. Pada ponsel mendatar, gunakan joystick, geser layar, serta tombol kontekstual kanan. Beli telur, antar ke sarang, isi lumbung, dan layani pembeli.",
+      "referenceHash": "de7166e33452940b263710f1e6b388e7d652ad0151c1a5fc69a0e0dec9d5be6d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Nest Heist is a free online multiplayer game where up to eight participants share an island and every nest is a target. ",
+        "instructionsQuote": "Goal: raise your creatures, complete each world’s grand zoo order, discover species and gain enough fame to rebirth and unlock the next stag",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fe7036e33277d2a2ac3d851ef8230933d83913213b003074ece5784ca3774234"
+    },
+    "dont-die-kitty": {
+      "sourceHash": "1c24478277b9502a3599d8f3fe42505f4a72659cdd5855c266f43b36f5cd6638",
+      "title": "Jangan Mati, Kitty!",
+      "description": "Bantu kucing berpedang menyelamatkan manusia kesayangannya yang diculik naga hijau. Lewati ruangan berisi goblin dan musuh lain, lalu pilih satu dari tiga kekuatan setelah bertarung. Tebasan berputar, bom saat berguling, bola api, serta kombinasi kekuatan memberi susunan yang berbeda pada setiap percobaan.\n\nIsi Big Meow untuk melepaskan gelombang kejut ke kerumunan. Bos, ruangan kejutan, peti, dan pintu rahasia menambah variasi perjalanan. Temukan perlengkapan, tingkatkan pondok, dan buka pahlawan kucing baru untuk persiapan berikutnya. Kontrol ponsel memakai serangan otomatis yang dapat dimatikan, sementara komputer memiliki tombol serang tersendiri.",
+      "instructions": "WASD/panah bergerak; J atau klik kiri menyerang. Space, Shift, atau klik kanan berguling menghindar. Q memakai Big Meow saat penuh, 1/2 mainan, E interaksi, I perlengkapan, P jeda, dan M suara. Pada ponsel, seret sisi kiri untuk bergerak dan gunakan tombol Roll, Meow, serta mainan. Sakelar AUTO mematikan serangan otomatis jika diinginkan.",
+      "referenceHash": "6f1d00ce2a3ebeecdd5ded06934e2385ab04f96359550c61994bf6f8ea1fc9fa",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Don’t Die, Kitty! is a cute action roguelite about one very brave cat. A grumpy green dragon has stolen your favourite h",
+        "instructionsQuote": "Computer WASD / Arrow keys: move J or Left click: attack Space, Shift or Right click: roll (dodge) Q: Big Meow (when charged) 1 / 2: use toy",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5563ae75d10e09bc10a88dcf33f8db9ce70638147872a298e5156ef68f187d23"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "title": "Toko Hewan Aneh",
+      "description": "Periksa kiriman hewan pagi hari dan bandingkan tiap hewan dengan buku panduan sebelum waktu habis. Keanehan dapat berupa mata tambahan, bayangan hilang, telinga ketiga, atau perilaku yang tidak sesuai. Hewan normal kemudian dirawat dan ditawarkan kepada pembeli melalui percakapan tawar-menawar.\n\nPerawatan menaikkan harga, tetapi meminta terlalu banyak dapat membuat pembeli pergi. Keanehan yang terlewat dapat menimbulkan masalah saat malam, ketika Anda harus mengawasi kandang. Dua puluh empat spesies, lima belas jenis anomali, peningkatan toko, dan koleksi memberi perkembangan antarsif. Periksa hasil setelah bekerja untuk menentukan penggunaan koin berikutnya.",
+      "instructions": "Klik dengan mouse atau ketuk pada ponsel. Pilih Start shift dan buka kotak. Cocokkan dengan Guide; tekan Looks normal jika sesuai, atau Anomaly! lalu tunjuk detail yang salah. Gosok hewan sehat untuk merawatnya, kemudian jawab tawaran pembeli. Pada malam hari, ketuk kandang yang bergerak. Setelah sif, periksa hasil dan beli peningkatan.",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each ",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks nor",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ff9c8972de8b1ad1af0af864a56f38daaf0e75d06624da25d0d09b8dcd727958"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "Battlecross",
+      "description": "Bangun pahlawan dengan menggabungkan kemampuan dari berbagai guru, bukan hanya mengikuti satu kelas. Perisai kesatria, sihir api, pemanggilan penjaga, dan penghentian waktu memberi pilihan gaya bertarung. Pahlawan menyerang otomatis saat mendekati musuh, sementara Anda mengatur penggunaan keterampilan serta ramuan kesehatan.\n\nBersihkan semua kelompok dan pemimpin wilayah untuk maju; pengalaman serta jarahan tetap dibawa meski kalah. Tiap level memberi tiga poin atribut yang membuka perlengkapan dan kemampuan. Di kota, beli barang, perluas sabuk ramuan, serta isi delapan slot aktif dan empat pasif dari enam belas kelas. Beberapa keputusan akhir wilayah bersifat permanen dan mengubah toko, guru, kota, serta akhir cerita.",
+      "instructions": "Dekati musuh untuk menyerang otomatis, lalu gunakan keterampilan dan ramuan sesuai kebutuhan. Kalahkan semua kelompok serta pemimpin wilayah. Bagikan tiga poin atribut menurut perlengkapan dan kemampuan yang diinginkan. Kunjungi kota untuk latihan serta perbekalan. Baca keputusan besar dengan teliti sebelum memilih karena sebagian tidak dapat dibatalkan.",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fab67c4846a45b4bd7a879378e4e1ba92cf494d5c951b4e8cfb9269e29e12c62"
+    },
+    "orbital": {
+      "sourceHash": "6a89af2afa8b82efef9b81c6bc9a7ef4f975c741b3a54792d393828c89d4bc9e",
+      "title": "Orbital",
+      "description": "Gerakkan percikan mengelilingi inti bercahaya sambil melewati celah pada cincin yang menutup dari segala arah. Permainan menuntut reaksi dan pemilihan arah yang cepat. Kristal muncul pada celah berisiko; mengambilnya berurutan meningkatkan kombo, tetapi tetap bertahan menjadi syarat melanjutkan percobaan.\n\nBertahan memberi bintang untuk membuka dunia Neon, Lava, dan Ice yang memiliki variasi tantangan. Kristal dapat membeli peningkatan dan tampilan baru. Focus memperlambat waktu setelah peningkatannya terbuka, sehingga penggunaannya berbeda dari gerakan biasa. Misi harian serta peti harian memberi hadiah tambahan di luar upaya memperbaiki ketahanan Anda.",
+      "instructions": "Gerak kiri/kanan memakai panah, A/D, atau tombol kiri/kanan mouse. Shift memakai Focus setelah peningkatan itu tersedia. Pada ponsel, tahan sisi kiri atau kanan layar untuk bergerak dan gunakan dua jari untuk Focus. Space mengulang, Esc membuka menu, dan M mematikan suara. Cari celah cincin sambil mempertimbangkan risiko mengambil kristal.",
+      "referenceHash": "148e9a2820cd44032e546f3905681c337cd61b7eabd176c679fd3708a5a8f7a9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Orbital is a fast reflex game. Rings close in on the glowing core from every side, and you steer a spark around it to sl",
+        "instructionsQuote": "- Move: Left / Right arrow keys, A / D, or left / right mouse button - Focus (slow time, after upgrade): Shift - Mobile: touch and hold the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "32a1e5fc23412522e34eb237493c7528db021f8f1751894070705bada599829d"
+    },
+    "idle-train-empire": {
+      "sourceHash": "6c9cba71e13db5460db7c4df74f600aced3939d9a1f6a53098f12a2c5eff18d7",
+      "title": "Taipan Kerajaan Kereta Idle",
+      "description": "Kembangkan stasiun dengan membeli kereta, meningkatkan kemampuannya, dan mengatur rute. Penumpang serta penjualan tiket menghasilkan pendapatan yang dapat dipakai kembali pada usaha. Seiring perkembangan, peron dan tujuan baru terbuka sehingga pilihan jadwal serta koleksi kereta makin luas.\n\nRuang tunggu dan fasilitas lain juga perlu dilengkapi, sementara poin teknologi dapat memperbaiki stasiun maupun kendaraan. Bandingkan perluasan baru dengan peningkatan area yang sudah melayani pengunjung. Tugas harian dan rutin menyediakan target serta hadiah yang dapat membantu menentukan pengembangan berikutnya, dari fasilitas penumpang hingga rute menuju tujuan tambahan.",
+      "instructions": "Gunakan tombol kiri mouse untuk memilih antarmuka. Tombol + dan - mengubah skala kamera. Belanjakan pendapatan tiket untuk kereta, ruangan, atau peron tambahan. Tinjau rute saat tujuan baru dibuka dan alokasikan poin teknologi pada peningkatan yang dibutuhkan. Periksa tugas harian serta rutin, lalu ambil hadiah setelah tujuannya selesai.",
+      "referenceHash": "b516e2ac65b98686ca20b288d059ef88793f1f67e9b5b0c3a509853c35867a47",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Embark on a captivating journey to build and manage your own railway station with Idle Train Empire Tycoon. This immersi",
+        "instructionsQuote": "Develop your railway station by purchasing and upgrading trains, as well as customizing routes! Acquire and furnish various spaces and waiti",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7c977d399bc3c4b226db24bf556969dad01d0d96eae5477ae396ecef5e9f9d0f"
+    },
+    "idle-supermarket-tycoon": {
+      "sourceHash": "04a2c77c3f39649dda4faac024eb70bf6f9beb3399316a561cfa5bc887192093",
+      "title": "Taipan Pusat Belanja Idle",
+      "description": "Kelola pusat belanja dengan membuka toko, melengkapi isinya, serta memperbaiki bagian dalam dan luar gedung. Melayani pengunjung menghasilkan uang serta reputasi untuk membantu perkembangan usaha. Penetapan pelanggan prioritas pada tiap toko memberi cara tambahan mengatur pelayanan.\n\nGunakan pendapatan untuk perluasan atau kendaraan pengiriman yang menghasilkan uang setiap perjalanan. Bagikan poin reputasi sesuai pilihan yang tersedia dan jangan mengabaikan koridor: tempat sampah serta mesin penjual dapat tersumbat. Jika belum tahu langkah berikutnya, periksa misi untuk sasaran dan hadiah yang membantu membiayai tahap pengembangan selanjutnya.",
+      "instructions": "Gunakan tombol kiri mouse pada antarmuka, serta + dan - untuk skala kamera. Buka toko dan beli perlengkapannya, tetapkan pelanggan prioritas, serta bagikan poin reputasi. Periksa kendaraan pengiriman dan kondisi koridor sebelum membeli perluasan lain. Buka daftar misi, selesaikan tujuannya, lalu gunakan hadiah untuk mengembangkan pusat belanja.",
+      "referenceHash": "873efb873224ebf1ebcf2a20ca4f49b8519f8566525b1f37d105462bb17fe132",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Embark on a journey to become a retail mogul with Idle Supermarket Tycoon. This engaging online simulation game lets you",
+        "instructionsQuote": "You have a Shopping mall at your disposal, which you need to develop by acquiring new shops and outfitting them, as well as improving the ex",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "07ae3772f5cfec45ef238441b6494ec3720c5108585f04a667eadab104f6fd2a"
+    },
+    "aod--art-of-defense": {
+      "sourceHash": "7d84c9ea4797727c34f53f85132b2261bd37d592ac8054c73b11dfe7033be3e4",
+      "title": "AOD: Seni Pertahanan",
+      "description": "Pimpin pasukan A.O.D dalam kampanye pertahanan menara di dunia pascabencana. Lawan berusaha menemukan Project Inola yang hilang, dan Anda harus membangun pertahanan untuk melindungi pangkalan. Pertempuran berpindah dari permukiman kecil ke kota besar dengan kombinasi perencanaan, peningkatan perlengkapan, dan pengembangan pahlawan.\n\nTank, minigun, serta senjata antipesawat menjadi pilihan pertahanan bersama enam pahlawan dan dukungan berat. Kartu peningkatan memperkuat menara, sedangkan serangan satelit, tembakan balistik, dan bom nuklir memberi bantuan menghadapi musuh kuat serta bos. Mode pelarian, kabut, dan bertahan hidup mengubah kondisi yang harus dihadapi selama menjaga pangkalan.",
+      "instructions": "Gunakan tombol kiri mouse untuk menempatkan menara. Atur tampilan dengan roda gulir atau gerakan mencubit pada touchpad. Bangun jaringan pertahanan, tingkatkan menara, dan bawa pahlawan ke pertempuran. Periksa kartu peningkatan serta dukungan yang tersedia saat menghadapi pasukan lebih kuat, lalu gunakan serangan bantuan untuk melindungi pangkalan.",
+      "referenceHash": "55cd9da741187a3bf20785fc7e11d048f8303ca2c975c726fd6279ab8d67f996",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "AOD - Art Of Defense is a dynamic tower defense game with elements of strategy and RPG in a post-apocalyptic world.",
+        "instructionsQuote": "AOD - Art Of Defense is a dynamic tower defense game set in a post-apocalyptic world. As the commander of the A.O.D squad, you lead the figh",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c3d605271b4e841965459b7c6fc3fdc92457f79c98fec2a83c1cf98399a57b69"
+    }
+  }
+}

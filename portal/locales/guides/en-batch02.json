@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "games": {
+    "mega-jump": {
+      "sourceHash": "6488087aeec7ff2e15a09b1239ca4c721635ce1ebaa44bf7ca8074602f1e3c1b",
+      "title": "Mega Jump",
+      "description": "Mega Jump is a vertical jumping challenge about steering toward platforms, collecting coins and reaching higher stages. The supplied controls move you left and right, so choosing a safe position matters as much as chasing the next reward. Monsters, traps and objects that slow or interrupt movement make an attractive coin route risky.\n\nThe pickups have distinct purposes. Boost stars launch you higher, the magnet draws coins in, and jump boots improve jumps. An umbrella slows your descent while attracting coins. Save Stars offer a recovery when falling, while moving and fleeing coins require you to adjust your approach. Aim to keep climbing and improve your score rather than collecting a reward at the expense of your landing.",
+      "instructions": "Use the left and right arrow keys to steer toward platforms and coins. Gold coins give a boost at 100; blue- and red-centered special coins are worth two and five times a normal coin. Collect boost stars for height and tap a Save Star when falling to recover. Watch for anvils, slowing ball-and-chain pickups and shrinking potions. The provider lists five starting Save Stars; use the game display to track those remaining.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The mega-hit mobile jumping game is now free to play online at Arkadium. No downloads needed—jump right into the action in yo",
+        "instructionsQuote": "Your goal is simple: Jump high, grab coins, and soar to new stages. Miss a grab, and it's Game Over—stay sharp and quickly make yo",
+        "sourceIssueResolution": "Removed the claim that Arkadium is the current host and its unrelated collection promotion; rewrote only this game's documented jumping objective, pickups, hazards and arrow controls."
+      },
+      "reviewedTextHash": "d4310947237fb5be7664702da08068b8ecb90fd166ca064585470b2153b7da46"
+    },
+    "square-sort": {
+      "sourceHash": "1dda25742a2f959838593ce8961f206d7e55b801e57f8494ea49f8fa82710c8e",
+      "title": "Square Sort",
+      "description": "Square Sort is a color-arrangement puzzle played by swiping cubes across a board. Align cubes of the same color in a row or column to remove them. Clearing the board is the goal, but each level gives you a limited number of moves, so every swipe needs to contribute to the remaining arrangement.\n\nLater levels introduce more colors and larger grids. Before moving a cube, consider how its new position relates to both rows and columns rather than solving one small group in isolation. Look for a sequence that opens useful alignments while preserving enough moves to finish. The challenge comes from arranging colors efficiently, not from entering a keyboard command.",
+      "instructions": "Swipe the colored cubes in the direction you want them to move. Form same-color rows or columns to clear cubes, then reassess the board after each change. Plan within the level's move allowance and clear the remaining squares. The provider describes swipe controls and does not supply a separate keyboard mapping or a fixed number of cubes required in a match.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The game involves swiping colorful cubes in any direction to clear the board. The objective is to sort the squares by color, ",
+        "instructionsQuote": "Swipe to Move: Swipe the colorful cubes in any direction to move them across the board. Match Colors: Align cubes of the same colo",
+        "sourceIssueResolution": "Omitted the download, ad-free and no-in-app-purchase promises because these delivery and monetization claims are not verified for the browser embed; retained the documented puzzle rules."
+      },
+      "reviewedTextHash": "d71f692f0c122f0a640c4924d0f1c89cce4607e4b2b5b1c8837b3f9ca07f1069"
+    },
+    "shape-transform": {
+      "sourceHash": "9ae34fcb1bf42d38881f810728216857821c358a32a79436226efe30797ba9c0",
+      "title": "Shape Transform",
+      "description": "Shape Transform is a vehicle-changing race across land, water and air. Switch among a car, a boat and a plane to match the terrain in front of you. The main challenge is recognizing the next section and transforming at the right time while avoiding obstacles and competing with rivals.\n\nThe provider describes one-touch transformations, changing tracks and progression through new tracks and challenges after first-place finishes. A vehicle suitable for the current section may be unsuitable for the next one, so keep looking ahead rather than reacting only to the surface directly underneath you. Timing and choosing the matching form are the concrete starting points.",
+      "instructions": "Tap to switch vehicle form and match the car, boat or plane to land, water or air. Watch the upcoming terrain, avoid obstacles and try to finish before your rivals. First-place finishes unlock further tracks and challenges according to the provider. The supplied instructions do not specify separate steering or acceleration keys, so follow the game's displayed controls for anything beyond transforming.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🌀 Shape Transform – Race 3D Game 🚀🏁 Shift. Race. Conquer. Get ready for the ultimate shape-shifting race where speed, timing,",
+        "instructionsQuote": "🎮 How to Play: 👆 Tap to switch your shape (car, boat, or plane)! ⚡ Match the right vehicle to the terrain — land, water, or air! 🚧",
+        "sourceIssueResolution": "Removed the download call to action and promotional claims; retained the specific one-touch transformation rule, terrain matching, obstacle avoidance and first-place progression."
+      },
+      "reviewedTextHash": "3a8227e78189f72e82eaf053d8ae293b15d419749ca5aae2c1d945464dd1d717"
+    },
+    "race-on-cars-in-moscow": {
+      "sourceHash": "0622e2631662208b76bbe31cdb7b3ad4362d0dfc9d5eb2a9bd5b5caea99aac5d",
+      "title": "Race On Cars in Moscow",
+      "description": "Race On Cars in Moscow combines traffic survival with car tuning. Drive as far as possible along the highway while avoiding collisions, and complete missions on the open map in parking mode to earn money. That income can improve the current car or buy another one, linking driving performance with vehicle development.\n\nThe provider mentions body height, wheel changes and repainting as customization options. On the road, plan a gap before committing to a maneuver; continuing safely matters to the distance objective. The available camera control helps you choose a view, while the phone interface can switch between buttons and an on-screen wheel through settings.",
+      "instructions": "Drive with WASD or the arrow keys. Q and E operate turn signals, and C changes the camera. Z is labelled the emergency action in the supplied controls, but its exact behavior is not explained; check the in-game prompt. On a phone, use the screen buttons or steering wheel selected in settings. Avoid other cars, complete parking-map missions and spend earnings on improvements or new vehicles.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Race On Cars in Moscow — Racing, Tuning and Records! Description: Immerse yourself in a crazy race where the strategy of chec",
+        "instructionsQuote": "The goal of the race is to get as far along the highway as possible. Try not to crash into cars, so you can drive on. Also complet",
+        "sourceIssueResolution": "Removed the instruction to download and unrelated promotional comparisons; preserved traffic survival, parking missions, tuning and exact controls, marking the source's ambiguous emergency label explicitly."
+      },
+      "reviewedTextHash": "0c3b5b1d09c937057bc97ad7f6624a164711096951f7759df8d23b6f50789373"
+    },
+    "slice--soar": {
+      "sourceHash": "994de96419f5ecee0c46ff6154782cfc7d1b03e4f596860791984e67c4927045",
+      "title": "Slice & Soar",
+      "description": "Slice & Soar is a touch-controlled cutting game about slicing objects in the air while staying clear of obstacles. Timing decides whether your swipe reaches the intended object safely. Some patterns demand more accuracy, so an immediate cut is not always as useful as waiting for a clear opportunity.\n\nThe goal is to collect as many points as possible through successful cuts. Watch the target and any forbidden object together before tracing a swipe. As new levels and obstacles appear, adjust your movement to the arrangement rather than treating every object as safe to slice. The documented challenge is precision and obstacle avoidance; no unverified delivery feature is needed to explain it.",
+      "instructions": "Swipe or drag on the touchscreen to slice the intended objects. Time the gesture so it hits the target without touching an obstacle or forbidden item. Read each pattern before cutting and avoid missing the objects you intend to hit. The provider does not give a keyboard scheme, so use the displayed touch-oriented controls and focus on safe, accurate cuts for points.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Are you ready to soar through the skies and slice everything in your path? With the Slice & Soar, you can slice through objec",
+        "instructionsQuote": "You use touch controls (swipe / drag) to slice through the objects. You need good timing: slicing at the right moment to hit the r",
+        "sourceIssueResolution": "Omitted the unverified offline-play promise; the rewritten guide covers only the source-backed swipe/drag input, cutting objective, timing, obstacles and score."
+      },
+      "reviewedTextHash": "434a3e24852905c17e4254f2334ac81a8fb601393a875ac8f2baaf73f1ab3f15"
+    },
+    "annoying-cousins-punch-game": {
+      "sourceHash": "7c6cff807d350368b83748227c4f2792f9a5542a0c0fc60f28327e3de73a803d",
+      "title": "Annoying Cousins Punch Game",
+      "description": "Annoying Cousins Punch Game is a comic arcade challenge built around timed punches and dodges. Tap when a cousin is in position to deliver the hit, and use a swipe to avoid incoming attacks. The exaggerated animations and reactions frame the action as a cartoon contest rather than a detailed fighting simulation.\n\nPassing levels opens harder cousin encounters. As the pace increases, reacting to an opponent's move and choosing your own moment become more important than tapping continuously. Separate the decision to attack from the decision to dodge: the source gives each a different gesture. Aim to survive the encounter and advance through the increasingly demanding battles.",
+      "instructions": "Tap to punch at the right moment and swipe to dodge an incoming attack. Watch the opponent's action before committing, then return to attacking when an opening appears. Complete the current level to unlock harder battles. The supplied instructions describe these gestures but no keyboard combinations, health values or exact timing windows, so follow the game display for those details.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "👊😆 Annoying Cousins Punch Game – The Funniest Family Fight Arcade! Get ready for the most hilarious family showdown ever! You",
+        "instructionsQuote": "🎮 How to Play: 👆 Tap to Punch – Hit your cousin at the perfect moment ↔️ Swipe/Dodge – Avoid their sneaky attacks 🎯 Time Your Move",
+        "sourceIssueResolution": "Removed download and offline-play advertising, device-specific marketing and keyword stuffing; retained the explicit tap-to-punch, swipe-to-dodge and level progression rules."
+      },
+      "reviewedTextHash": "cf5599808f8641a95d86d2312b9343bc7b300e9bb5f255caa34dbac13866d1a9"
+    },
+    "ultimate-lawn-mowing-simulator-mower": {
+      "sourceHash": "528962be5823d08059c345178cbcc3afd72f8bb3487b0d1325260b764e3767ed",
+      "title": "Ultimate Lawn Mowing Simulator: Mower Master",
+      "description": "Ultimate Lawn Mowing Simulator: Mower Master is about guiding a mower across a job until every patch of grass is cut. The source describes lawns, gardens, parks and farms with different shapes and areas. Coverage matters: a neat route still needs to reach the patches left behind around corners.\n\nCompleted jobs give rewards used to unlock better mowers. Walk-behind, ride-on and robotic mower types are mentioned, and the instructions let you switch machines for a task. Inspect the area before moving on, and choose among available equipment rather than assuming every job calls for the same approach. The source-backed objective is complete grass coverage and progression through jobs.",
+      "instructions": "Swipe to move the mower across the grass. Cover every patch to complete the job, checking corners and remaining areas before moving on. Switch among the available mowers for the task and use completion rewards to unlock better machines. The provider supplies swipe-based movement rather than a separate desktop key list, so follow the controls shown inside the game.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🌿 Ultimate Lawn Mowing Simulator: Mower Master 🚜✨ Relax, cut, clean, and master the art of perfect lawn mowing in this satisf",
+        "instructionsQuote": "🕹️ How to Play: 👉 Swipe to Move – Control your mower with smooth swipe gestures 🌱 Cut All Grass – Cover every patch to complete th",
+        "sourceIssueResolution": "Removed the download call to action, repetitive promotional keywords and unverified quality claims; retained grass coverage, swipe movement, mower selection and reward-based unlocks."
+      },
+      "reviewedTextHash": "42a67ed8f0276cb58eb9f27c821e4ec80591a3ab3f1fc74a62954a3df2933a75"
+    },
+    "stickman-archer-kick": {
+      "sourceHash": "9033b3e2423be1cc2120d8780261365db122b0b9d93c09fade3f60db378fb0c7",
+      "title": "Stickman Archer Kick",
+      "description": "Stickman Archer Kick is an archery rescue puzzle. Trapped stickmen depend on your arrows hitting ropes or useful environmental objects. Read the scene before firing: the correct target can release a captive, while the aiming angle and shot power determine whether the arrow reaches it.\n\nThe shooting gesture has two stages: hold and adjust, then release to fire. Treat those as one planned action rather than a quick click. Progress through the puzzle levels and collect stars to unlock characters and features. Ragdoll physics are part of the presentation, but the stated objective is freeing the trapped figures, not simply shooting everything on screen.",
+      "instructions": "Press and hold the mouse button or touchscreen, then move to adjust the angle and power. Release to fire the arrow. Aim at ropes or environmental objects that free the trapped stickmen and complete the level. Review the arrangement before another shot, work through the levels and collect stars for unlocks. Mouse and touch are the documented input methods.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Stickman Archer Kick is an engaging and highly addictive action shooting game where precision meets captivating Ragdoll physi",
+        "instructionsQuote": "Use the mouse or touch controls to play. Aiming: Press and hold the screen or mouse button, then move to adjust the angle and powe",
+        "sourceIssueResolution": "Removed the download instruction and unsupported promotional guarantees; retained the hold-adjust-release aiming sequence, rope/environment rescue objective and star-based progression."
+      },
+      "reviewedTextHash": "2f993a6c5870c087c393c770b87fb37e12fd7dd268c43b2cceabbde833e8b5b0"
+    },
+    "seven-down": {
+      "sourceHash": "b20d7414558ac641fb01ad8903063c3cdebcf3567191b4086f12e0779d2b04ac",
+      "title": "Seven Down",
+      "description": "Seven Down is a rolling-die puzzle in which the important number is the face touching the ground. Opposite faces add up to seven, so the hidden value can be worked out from the visible die. In Puzzle mode, reaching the target is only part of the task: your route must also leave the requested number underneath.\n\nThree modes use this rule: 60 puzzle boards, 120 action stages and 60 mazes. Action adds hazards such as gaps, spikes and turrets, while Maze reveals the places you have walked. Plan the route and die orientation together. Camera controls and an overview help read the board, and the bridge, guard and shield abilities have separate inputs.",
+      "instructions": "Roll with the arrow keys or WASD. In Action, holding the movement key keeps the die rolling. Use 1 for Bridge across a gap, 2 for Guard against spikes and 3 for Shield against one hit. C changes camera, V shows an overview, Space skips the countdown and Esc opens the menu. On mobile, drag in the desired direction and tap the power chips. Check the ground-facing number before committing to the target.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Seven Down is a rolling-die puzzle game with a rule you can hold in one sentence: the face touching the ground is your number",
+        "instructionsQuote": "The Number You Can't See Roll a die across a board — and the number that counts is the face touching the ground, the one you can n",
+        "sourceIssueResolution": "Omitted the permanent offline-operation guarantee and solver-validation marketing; preserved the opposite-face rule, mode-specific objectives, board counts, hazards and exact controls."
+      },
+      "reviewedTextHash": "f6225351b074f40141d8a1defaf94cfcf0781d1d36bf5e5f7441c049750ed6ca"
+    },
+    "almost-infinite": {
+      "sourceHash": "0f02ade7c69edec793ac51b09b82dbe543fdc09ab437033f8b0b5b6e0d74c378",
+      "title": "Almost Infinite",
+      "description": "Almost Infinite is a crafting discovery game that starts with Fire, Water, Earth and Wind. Place elements on the table and combine pairs to discover new cards; for example, Fire and Water make Steam. Combinations are fixed, so the same pair produces the same result, and an unsuccessful pair is a reason to try another rather than repeat it.\n\nNew discoveries enter your inventory. Search and sorting help manage a growing collection, while the Relics filter isolates final forms that cannot be combined further. Undo lets you reconsider the last action and Clear Table removes the current clutter. The goal is exploring connections and extending the collection at your own pace.",
+      "instructions": "Drag elements from the inventory onto the table, then drop one card onto another. If the pair makes something, a new card appears and any new discovery enters the inventory. Use search, discovery-time or depth sorting to find cards. Undo takes back the last move; Clear Table tidies the workspace. Hint can show an untried productive pair after a short rewarded advertisement. Mouse and touch use the same drag-and-drop approach.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Almost Infinite is a calm crafting and discovery game. You start with four elements (Fire, Water, Earth and Wind) and combine",
+        "instructionsQuote": "Drag elements from your inventory onto the table, then drop one card onto another to combine them. If the pair makes something, yo",
+        "sourceIssueResolution": "Omitted the unverified offline-operation and universal-browser guarantees; retained the fixed combination mechanic, initial elements, example recipe, inventory tools, Relics and rewarded-hint condition."
+      },
+      "reviewedTextHash": "0c76f86feda0e1d28e183163250156208f1f286ecedbccbb27c37bcbfa3c7786"
+    }
+  }
+}

@@ -3996,6 +3996,15 @@
       "method": "assistant-source-review",
       "instructionQuote": "To play 4 color card game on a desktop, use your mouse to interact with the cards. Your hand appears at the bottom of the screen. To play a ",
       "reviewNote": "Mouse selection plays matching cards or draws, wild-color selection changes suit and TAP avoids the one-card penalty."
+    },
+    "master-car-destruction": {
+      "sourceHash": "73bd8de9ed722537e230694d67fe5a6e9589a634c79c776d6ac107547f7f9d60",
+      "sourceTextHash": "6adc6aef6e4425069d22f64975d04832ea9e94fe0c7da4b08a485fbf255cd8a4",
+      "status": "consistent",
+      "reviewedAt": "2026-11-09",
+      "method": "assistant-source-review",
+      "instructionQuote": "Race to the finish gate ahead of your rivals, or pick Free smash and wreck everything around you. Desktop: W/S or up/down arrows t",
+      "reviewNote": "Race mode reaches the finish before rivals, while Free smash scores damage; five maps and twelve cars agree with explicit desktop and mobile steering, nitro, repair and progression instructions."
     }
   }
 }

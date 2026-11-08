@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "locale": "uz",
+  "games": {
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "title": "CubeGate: kubli darvozalar",
+      "description": "CubeGate — ilmiy fantastika uslubidagi xonalardan o‘tadigan mantiqiy platformer. Yorug‘ kublarni bosim plitalariga qo‘yib eshiklar, ko‘priklar va ko‘targichlarga quvvat berasiz. Ayrim xonalarda bir nechta kub yoki harakatlarning to‘g‘ri ketma-ketligi kerak bo‘ladi.\n\nPol belgilari, simlar va energiya chiziqlari mexanizmlarning bog‘lanishini ko‘rsatadi. Kubni ko‘tarishdan oldin boradigan joyingizni rejalang. Ba’zan darvozani yoqishdan avval boshqa platformaga sakrash zarur. Aniq sakrash va kubni oqilona joylashtirish orqali chiqish yo‘lini oching; xato ketma-ketlikni menyudan qayta boshlash mumkin.",
+      "instructions": "W, A, S, D, Q, Z yoki yo‘nalish tugmalari bilan yuring. E yoki sichqonchaning chap tugmasi kubni oladi va qo‘yadi. Space yoki o‘ng tugma sakratadi, Shift tez yugurtiradi. Escape menyuni ochadi: bosqichni qayta boshlash va tovushni o‘zgartirish mumkin. Kublarni belgilangan plitalarga qo‘yib, simlarning qayerga borishini kuzating.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis"
+      },
+      "reviewedTextHash": "a370cc852e2becc4d897ebe3478d462379081c8003b2eb9a61daf6f5dcc88abe"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "3D avtomobil tryuklari va poyga",
+      "description": "Car Stunt Racing Game 3D : Car Games baland yo‘llar, katta tramplinlar va harakatlanuvchi to‘siqlar orasida mashina boshqarishni sinaydi. Maqsad — urilmasdan va yo‘ldan tushib ketmasdan marraga yetish. Sakrashdan oldin mashina yo‘nalishini to‘g‘rilab, qayerga qo‘nishini hisobga oling.\n\nTurli kamera ko‘rinishlari tor qismlar va tramplinlarni kuzatishga yordam beradi. Nazorat nuqtalari yiqilgandan so‘ng yo‘lning o‘rtasidan qayta boshlash imkonini beradi. Vaqtli bosqichlarda belgilangan muddatga ulgurish ham kerak. Tezlikni saqlash bilan birga burilish va ko‘chuvchi to‘siqlarda boshqaruvni yo‘qotmang.",
+      "instructions": "Kompyuterda yuqoriga tugmasi tezlashtiradi, pastga tugmasi orqaga yuradi, chap va o‘ng tugmalar buradi. Space tormozlaydi. Telefonda chap-o‘ng boshqaruv tugmalari, gaz va tormoz pedallaridan foydalaning. Tramplinga tekis yaqinlashing, qo‘nganda yo‘lda qoling va vaqt tugashidan oldin marraga yeting.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Removed repeated download advertising and unverified offline-play claims; retained the concrete stunt objectives, checkpoints and device controls."
+      },
+      "reviewedTextHash": "34af78171f729fe97600e9d2daf6216b3bcb00b3d671ae18e15162e9ba44a004"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: samolyot quring",
+      "description": "Obby Craft: Build a Plane o‘yinida samolyotni alohida qismlardan yig‘asiz. Har bir blok parvozga ta’sir qiladi. Havoda xaritadagi tangalarni yig‘ib, yangi qismlar va yaxshilashlarga sarflaysiz. Uchirish moslamasi — rogatkani kuchaytirish samolyotni balandroq va tezroq uchirishga yordam beradi.\n\nQismlar do‘konida yangi blok va ko‘rinishlar bor; sovrin g‘ildiragi tangalar yoki noyob buyum berishi mumkin. Manbada ikkita bepul ko‘rinish va loyihalar uchun to‘rttagacha saqlash joyi keltirilgan. Tayyor samolyotni to‘siqlar yo‘lagida sinab, parvozda to‘siqlardan qoching.",
+      "instructions": "Samolyot yonidagi yig‘ish maydoniga yaqinlashing. Pastdagi inventardan qism tanlab, samolyot yoniga o‘rnatish uchun bosing. Qismlar tugasa do‘kondan oling. Tangalar bilan uchirish moslamasini yaxshilang, samolyotni uchiring va havoda tangalarni yig‘ing. Manba alohida parvoz tugmalarini bermaydi; o‘yin ekranidagi boshqaruv ko‘rsatmalariga amal qiling.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "6eca76c731ee12d23ec2542855ea537d71b114a6f7579ad6d3fafa01d4f84406"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: mototsikl sinovi",
+      "description": "Canyon Drifter qiyin yo‘llar va mototsiklni sozlashga asoslangan ikki o‘lchamli motosinovdir. Tik ko‘tarilish va sakrashlarda faqat gaz berish yetmaydi: haydovchini oldinga yoki orqaga egib muvozanatni saqlash kerak. Yo‘lni yaxshi vaqtda tugatib, natijalar jadvalidagi ko‘rsatkichingizni yaxshilaysiz.\n\nBir yo‘ldan o‘ta olmasangiz garajga qaytib, mototsiklni yerga moslang. Keyin tezlik va egilishni boshqa tartibda birlashtirib ko‘ring. Orqaga egilish old g‘ildirakni ko‘taradi, oldinga egilish esa burunni tushiradi. Qo‘nishdan oldin shu farqni yodda tuting.",
+      "instructions": "Yuqoriga yoki W gaz beradi; pastga yoki S tormozlaydi va orqaga yuradi. Chapga yoki A orqaga, o‘ngga yoki D oldinga egadi. Esc yoki P tanaffus qiladi, R qayta boshlaydi. Telefonda ilk teginishda to‘rtta tugma chiqadi: yuqorida gaz va tormoz, pastda oldinga-orqaga egilish. Tanaffus va qayta boshlash yuqori o‘ng burchakda.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "c343e6dd47c986b84e4c0bf64c60c6e5805f09f4c8fbf3eed0fed7a181f4f814"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "3D shaxmat: sehrli bog‘",
+      "description": "3D Chess - Arcane Edition klassik shaxmatni ertaknamo bog‘dagi uch o‘lchamli taxtada namoyish etadi. Mis va oltin rangli donalar hamda uch qiyinlik darajasidagi kompyuter raqibi mavjud. Maqsad — raqib shohini mot qilish. Dona tanlanganda yoritilgan nuqtalar ruxsat etilgan yurishlarni ko‘rsatadi.\n\nKamerani aylantirib, taxtani yaqinlashtirish mumkin. Sozlamalarda qiyinlik, yurish belgilari va tovushni o‘zgartiring. Do‘st bilan o‘ynash uchun boshlang‘ich ekrandagi Play a Friend orqali shaxsiy xona ochib, kodini ulashasiz. Raqib donasini olish uchun u turgan katakka yuring.",
+      "instructions": "Donani tanlash uchun bosing yoki teging, keyin belgilangan katakni tanlang. Kamerani sudrab aylantiring; ikki barmoq yoki sichqoncha g‘ildiragi bilan yaqinlashtiring. Chiroq belgili Hint tavsiya etilgan yurishni ko‘rsatadi. Manbada har partiyada uchtagacha yordam va yakka rejimda mukofotli reklama sharti qayd etilgan. Tishli belgi sozlamalarni ochadi.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "54024b9160e6754759ce478b138a0bb648f9bbfddb1cc2a8fd9ef9ba764a320a"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: sokin chiziqlar boshqotirmasi",
+      "description": "Turnline: Relaxing Puzzle chiziqlarni yaxlit tarmoqqa ulash haqidagi sokin boshqotirmadir. Plitkalarni aylantirib, yo‘llarini qo‘shni qismlar bilan moslashtirasiz. Barcha kerakli yo‘llar ulanganda bosqich tugaydi. Avvalgi vazifalar oddiy, keyin tarmoqlar kattalashib, shoxlanishlar va murakkab bog‘lanishlar ko‘payadi.\n\nTaymer yo‘q, shu sabab har bir aylantirish oqibatini shoshmasdan o‘ylash mumkin. To‘g‘ri ulangan yo‘llar yorishib, hali qaysi qism mos kelmaganini ko‘rsatadi. Qiyin vaziyatda yordamdan foydalaning. O‘yin rivojlanishni saqlaydi, demak barcha bosqichni bir o‘tirishda tugatish shart emas.",
+      "instructions": "Kompyuterda plitkani sichqoncha bilan bosing, telefon yoki planshetda teging: u aylanadi. Chiziqlar qo‘shni plitkalarga qanday ulanayotganini tekshiring. Kerakli butun tarmoq tugaguncha qismlarni aylantiring. Yorishgan yo‘llar to‘g‘ri bog‘lanishni ko‘rsatadi. Keyingi qadamni topolmasangiz yordam imkoniyatidan foydalaning.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "ab9863d037bd6ced2aaa76ed0d249c02143fb21851b274a0abdc9164f04d444a"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "title": "SWAT OPS: tana kamerasi",
+      "description": "SWAT OPS: Body Camera — operatorning tana kamerasi orqali ko‘rinadigan birinchi shaxs taktik otishmasi. Kamera tebranishi, linza buzilishi va dag‘al retro tasvir uslubning bir qismidir. To‘rtta xaritada botlar yoki haqiqiy o‘yinchilarga qarshi jang qilib, vaqt ichida ko‘proq raqibni yengishga intilasiz.\n\nDeathmatch uch daqiqalik vaqt bilan berilgan; qo‘llanmada unda birinchi 15 ta, jamoaviy turda esa jamoaning birinchi 30 ta yengishi g‘alaba sharti sifatida ko‘rsatiladi. O‘yin tangalari qutilar, qurol ko‘rinishlari va bezaklarga sarflanadi. ZOMBIE MODE ham mavjud. Uzoq nishonda aniq otish uchun nishongohdan foydalaning.",
+      "instructions": "WASD yurgizadi, sichqoncha qarashni boshqaradi. Chap tugma otadi, o‘ng tugma nishonga oladi. R qayta o‘qlaydi; Q yoki g‘ildirak qurolni almashtiradi. Shift yugurtiradi, Ctrl cho‘ktiradi, Space sakratadi. Tab yoki Esc PDA va hisobni ochadi. Telefonda chap joystik yurgizadi, o‘ng tomonni sudrash qarashni boshqaradi; ekran tugmalari otish, nishon, qayta o‘qlash, sakrash va qurol almashtirish uchundir.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera sh",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. D"
+      },
+      "reviewedTextHash": "18ec4d35217a36f5b379f67969bf5dda930ced6384a7a7b6dee337966e5df71e"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: shahar yo‘llari",
+      "description": "City Pop Drive saksoninchi yillar uslubidagi pastel shaharlarda kechadigan arkada haydovchilik o‘yinidir. Mashina o‘zi tezlashadi. Boshqa avtomobillarga tegmay yaqin o‘tish vaqt qo‘shadi va Breeze ko‘rsatkichini to‘ldiradi. U to‘lganda mashinalarni chetga suradigan Boost ishga tushadi.\n\nTaymer tugashidan avval nazorat nuqtalariga yeting va ayrilishlarda manzarali yoki tez yo‘lni tanlang. Beshta xaritaning o‘z xususiyati bor, musiqa esa yo‘nalishga moslashadi. Marraga yetganda yig‘ish uchun muqova olasiz; jami yigirma beshta muqova ko‘rsatilgan. Miles resursi yaxshilashlar, avtomobillar va yangi xaritalarga ketadi.",
+      "instructions": "Boshlash uchun teging, keyin chapga-o‘ngga sudrab buring. Kompyuterda sichqonchani sudrash, yo‘nalish tugmalari va A/D ham ishlaydi; P tanaffus qiladi. Alohida gaz bosmaysiz, mashina avtomatik tezlashadi. Yaqin o‘tishlar bilan Breeze yig‘ing, nazorat nuqtasiga vaqtida yeting va har ayrilishda bir tomonni tanlang.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "e3a24b843cf3054b6981dadd197875c482bec378019014795f894fa4f75e6cbb"
+    },
+    "bullet-factory": {
+      "sourceHash": "c51f8bc15696ec2c0f22965781b8be399cd59277c49fb826a3899bc55e48fdec",
+      "referenceHash": "3b94bc1fd749b9756596f0899de58b86ee291ab48d800fe68ac38e94e3f26c61",
+      "title": "Bullet Factory: o‘q zavodi",
+      "description": "Bullet Factory kunduzgi zavod boshqaruvi bilan tungi otishmani birlashtiradi. Kunduzi yaxshilash uchun o‘n besh soniya beriladi; temir koni va porox sexi material yig‘adi, uchta press yo‘li esa snayper o‘qi, miltiq o‘qi va raketa tayyorlaydi. Tunda ishlab topilgan tangalar ishlab chiqarish va mudofaaga qayta sarflanadi.\n\nTunda minoradan darvozani himoya qilasiz. Snayper daraxtlar ortidagi yuguruvchilarga, miltiq ochiq joydagi olomonga, raketa esa devor yonidagi guruh va qalqonlarga mos. Har besh kechada boshliq keladi. To‘qqiz hududning alohida kuchlari bor; darvoza buzilishiga yo‘l qo‘ymay, imkon qadar ko‘p tun yashang.",
+      "instructions": "Kunduzi yaxshilash kartalarini bosing; yuqoridagi vaqt tugaganda tun avtomatik boshlanadi. Tunda ekran ustiga bosib nishonni faollashtiring, sichqoncha bilan qarang; chap tugma otadi, o‘ng tugma snayper nishongohini yoqadi/o‘chiradi. 1/2/3 qurolni, Q havo zarbasini, E sekinlatishni, R darvoza ta’mirini, F hudud kuchini tanlaydi; Esc tanaffus. Telefonda qarash uchun sudrang: snayperda FIRE ni ushlab nishonga oling va qo‘yib yuborib oting; miltiqda ushlab turing, raketada bosing.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Bullet Factory is a 3D factory sim and shooter in one game. Day: 15 seconds to build up. Your factory runs by itself. Th",
+        "instructionsQuote": "- Day: the factory works and collects materials by itself. Click the upgrade cards to make it stronger. The night starts when the timer at t"
+      },
+      "reviewedTextHash": "21d085713cc1510861de4bb155df20971b5c0077d8f4c98faeb66d9d36384436"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "title": "Roll Tycoon: zarlar saltanati",
+      "description": "Roll Tycoon — zar tashlab o‘yin valyutasi topadigan uch o‘lchamli boshqaruv o‘yini. Tayyor zarlar taxtaga tushib to‘xtaganda yuqori yuzidagi qiymat bo‘yicha daromad beradi. d4 dan d20 gacha besh pog‘onadagi zarlarni ochib, artefakt va sandiq haykallari orqali to‘lovni oshirasiz. Eng katta qiymat JACKPOT beradi va FEVER ni to‘ldiradi.\n\nTo‘la FEVER sakkiz soniyaga ikki hissa to‘lov yaratadi; mos artefakt uni uzaytiradi. O‘ttiz shartnoma, yigirma ikkita kubok, kundalik va haftalik topshiriqlar qo‘shimcha maqsad beradi. Bir yurishda bir million o‘yin valyutasi topilgach, Rebirth orqali doimiy yulduz ko‘paytirgichlarini olish mumkin.",
+      "instructions": "Barcha tayyor zarlarni tashlash uchun taxtani bosing yoki teging, yoxud Space yoki ROLL dan foydalaning. CONTRACT keyingi maqsadni ko‘rsatadi. Daromadni yangi zar, pog‘ona, omad va artefaktlarga sarflang. MISSIONS dagi bajarilgan vazifalar mukofotini CLAIM bilan oling. Sponsor Boost yoki bepul sandiq mukofotli reklama so‘rashi mumkin. Tasvir og‘irlashsa Graphics sozlamasini pasaytiring.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the"
+      },
+      "reviewedTextHash": "757edc4b06de342aa07a4e92a1aa7a47f03a69d229b9d4fcd8254fca392a0f8f"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: qahramon tanlovi",
+      "description": "Battlecross turli ustozlardan qobiliyat o‘rganib qahramon yaratiladigan jangovar rolli o‘yindir. Ritsar qalqonini olov sehrlari yoki chaqirilgan qo‘riqchilar bilan birlashtirish mumkin. Hududdagi barcha dushman guruhlarini va oxirgi sardorni yengish oldinga o‘tkazadi. Mag‘lub bo‘lsangiz ham tajriba va o‘lja saqlanadi.\n\nHar daraja uchta xususiyat ochkosi beradi. Kuch, chaqqonlik, aql, bardoshlilik, mahorat va xarizma tanlovi jihoz hamda qobiliyatlarga ta’sir qiladi. Shaharlarda savdo qiling, tabibda ichimlik kamarini kengaytiring va ustozlardan o‘rganing. Ayrim hudud oxiridagi qaytarilmas qarorlar savdogarlar, ustozlar va hikoya yakunini o‘zgartiradi.",
+      "instructions": "Dushmanga yaqinlashganda qahramon avtomatik hujum qiladi. Kerak bo‘lsa qobiliyat va sog‘liq ichimliklarini ishlating. Barcha guruhlar hamda sardorni yengib, daraja ochkolarini o‘z yo‘nalishingizga ajrating. Sakkiz faol va to‘rt passiv joyga o‘n olti sinfdan qobiliyat olish mumkin. Manba aniq yurish va qobiliyat tugmalarini bermaydi; ekrandagi boshqaruvni kuzating.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "778057c3c0abc4512b6ea9d6ec7f87b0bfad44cc99a290f6955af3536654cbfd"
+    },
+    "abandoned-mansion": {
+      "sourceHash": "35e2f8ef28e6d1ca46c649ebb69c55f3c9121afb01bf644fd98c131afbd0e43d",
+      "referenceHash": "f17613a6b07e2a215f9174a4e2475daea9f019917247320e929b262ecf9ea32e",
+      "title": "Tashlandiq hashamatli uy",
+      "description": "Abandoned Mansion yordam chaqiruvidan so‘ng tashlandiq uy tekshiriladigan birinchi shaxs qo‘rqinchli o‘yinidir. Yetib kelganingizda vaziyat allaqachon yomonlashganini anglaysiz. Binoni kezish, buyumlar bilan ishlash, yashirin xonalarni topish va boshqotirmalarni yechish birga davom etadi.\n\nBir nechta bosqichda turli maxluqlar va boshliqlar uchraydi. Topilgan buyumlarni tekshirib, keyingi yo‘lni ochadigan bog‘lanishlarni izlang. Yurish, cho‘kish va sakrash alohida harakatlardir; hujum va qayta o‘qlashning ham o‘z tugmalari bor. Tovush va musiqa tashlandiq binoning qo‘rqinchli muhitini to‘ldiradi.",
+      "instructions": "W, A, S, D bilan yuring, E bilan buyumga ta’sir qiling. R qurolni qayta o‘qlaydi, C cho‘ktiradi, Tab inventarni ochadi, Space sakratadi. Sichqonchaning chap tugmasi hujum qiladi yoki otadi. Uyni tekshiring, buyumlarni sinang va boshqotirmalarni yeching. Maxluq uchraganda yurish, otish va qayta o‘qlashni uyg‘unlashtiring.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Abandoned Mansion is a first-person horror game set in an abandoned mansion, where a distress call leads you to investig",
+        "instructionsQuote": "W, A, S, D - Move E - Interact R - Reload C - Crouch Tab - Open inventory Space - Jump Left mouse button - Attack/Shoot"
+      },
+      "reviewedTextHash": "670396434e98d3dbda2c1ef24c5b3083937cebc35b7045d0898358bbf82bd6d2"
+    }
+  }
+}

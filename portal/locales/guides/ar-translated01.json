@@ -1,0 +1,609 @@
+{
+  "schemaVersion": 1,
+  "locale": "ar",
+  "games": {
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "الشطرنج عبر الإنترنت",
+      "description": "اختر طريقة اللعب المناسبة لك: مواجهة الكمبيوتر، أو لاعب عبر الإنترنت، أو صديق، أو اللعب بالتناوب على الشاشة نفسها. توفر اللعبة 21 مستوى لصعوبة الكمبيوتر، كما يمكن اختيار وقت غير محدود أو أنماط أسرع مثل Bullet وBlitz وRapid وClassic. الهدف في كل مباراة هو حماية ملكك ومحاولة الوصول إلى كش مات ضد ملك الخصم.\n\nيساعد تمييز النقلات القانونية والتلميحات التفاعلية على قراءة الرقعة قبل تحريك القطعة. ويمكن مراجعة سجل النقلات وتحليل المباراة بعد انتهائها لفهم الأخطاء. اختر إيقاعا مريحا في البداية، وانتبه إلى القطع المهددة وإلى رد الخصم المحتمل، بدلا من الاكتفاء بملاحقة ملكه دون حماية قطعك.",
+      "instructions": "حدد نوع المباراة والصعوبة أو الوقت المتاحين، ثم تناوب مع الخصم على تحريك القطع وفقا لقواعدها. حاول وضع ملكه في كش مات، بحيث يتعرض للهجوم ولا توجد طريقة قانونية لإنقاذه. راجع النقلات المميزة، واحم قطعك، وفكر في رد الخصم قبل تأكيد النقلة. بعد المباراة استخدم السجل أو التحليل لمراجعة قراراتك.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f6df158068c341b00369525d9160b7baccdc3da12d30127b0dfb6e8262c6daa6"
+    },
+    "snow-rush-3d": {
+      "sourceHash": "b3750efe6a29dcc91fa35aa8628b882d182151a9f5ea51ad17381ebdd7910211",
+      "title": "اندفاع الزلاجات ثلاثي الأبعاد",
+      "description": "انطلق بزلاجتك على مسار ثلجي وحاول قطع أكبر مسافة دون الاصطدام بالأشجار ورجال الثلج والحواجز. تزداد السرعة مع استمرار الجولة، فتحتاج إلى توقيت أدق عند تغيير الاتجاه أو القفز. الهدف هو المحافظة على مسار آمن أثناء ازدياد صعوبة الموقف، وليس مجرد التحرك باستمرار نحو أحد الجانبين.\n\nيمكن اللعب منفردا أو مع شخص آخر على الجهاز نفسه باستخدام مجموعتين مختلفتين من المفاتيح. أما على الهاتف فالمتاح هو نمط اللاعب الواحد فقط. اجمع الهدايا على الطريق لفتح زلاجات جديدة، وراقب العائق التالي مبكرا حتى يتبقى لك وقت لتوجيه الزلاجة أو القفز فوقه.",
+      "instructions": "للاعب الأول على الكمبيوتر: استخدم A وD للتحرك يسارا ويمينا، وW أو Space للقفز. اللاعب الثاني يتحرك بسهمي اليسار واليمين ويقفز بالسهم العلوي. على الهاتف العب منفردا، والمس يسار الشاشة أو يمينها للتوجيه، والمس بإصبعين للقفز. تفاد العوائق واجمع الهدايا ما دمت قادرا على مواصلة الجولة.",
+      "referenceHash": "76e4294d43c6cfbc88de1c0544b1aaf25c61483a5228589ba08794022498d419",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Snow Rush 3D is a fast-paced winter action game where your reflexes and timing are put to the test on icy tracks. Ride y",
+        "instructionsQuote": "PLAYER 1: A,D: Left/Right Movements W or SPACE: Jump PLAYER 2: RIGHT / LEFT ARROWS: Left / Right Movements UP ARROW: Jump On Mobile Devices:",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a011b7c901dd4178933f13cc680656ffafdd7d0aa14976ab8372d21472198659"
+    },
+    "summer-rider-3d": {
+      "sourceHash": "68195269b91509f95435ddb76ed5b072142a2ada180b1321af1685a1c334dd77",
+      "title": "متزلج الأمواج ثلاثي الأبعاد",
+      "description": "تحرك فوق الماء بلوح التزلج أو الدراجة المائية، وتجنب الصخور والشلالات والعوائق التي تقطع طريقك. تقدم اللعبة مسارا سريع الإيقاع تزداد سرعته كلما قطعت مسافة أطول، لذلك راقب مواضع القفز والمرور الآمن قبل الوصول إليها. لا توجد قصة يجب متابعتها؛ التحدي هو استمرار الرحلة دون تحطم مركبتك.\n\nنجوم البحر هي مورد الجمع الذي يتيح الحصول على ألواح ومظاهر جديدة، وتشير التعليمات أيضا إلى فتح الدراجات المائية. توجد مكافآت من خمس نجوم بحر فوق بعض الصخور، لكنها تتطلب توقيتا حذرا للقفز. اختر مسارا تستطيع اجتيازه أولا، ثم حاول التقاط المكافأة عندما تكون القفزة واضحة وآمنة.",
+      "instructions": "على الكمبيوتر استخدم الأسهم أو WASD للتحرك والقفز عبر الأمواج والعوائق. على الهاتف المس الجانب الأيسر أو الأيمن للتوجيه، والمس الجانبين معا للقفز. اجمع نجوم البحر لفتح خيارات جديدة، واضبط قفزاتك عند مكافآت النجوم الخمس فوق الصخور. تزداد السرعة مع المسافة، فراقب الطريق ولا تؤخر تغيير الاتجاه.",
+      "referenceHash": "e69f2b3ffcfc073380ef7aeb151e754e40e4838c2d9ffd9fa257f58557706130",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hit the waves in Summer Rider 3D, a sun-soaked surf adventure inspired by high-speed endless runners. Glide over water o",
+        "instructionsQuote": "ARROW KEYS or WASD: Move left, right, or jump to navigate waves and obstacles. On MOBILE, tap left/right to steer, both sides to jump! Colle",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "630bacdf1e5799fc8d347d27a66d57bc5cee0144f3fb4c3faef97ccf9fb19af5"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "ألغاز الصور المفضلة",
+      "description": "اختر صورة وحولها إلى أحجية يتراوح حجمها بين 6 و1200 قطعة. يتيح تغيير عدد القطع البدء بصورة صغيرة أو اختيار عمل أطول وأكثر تفصيلا، كما يمكن إضافة تدوير القطع لزيادة التحدي. تختلف طريقة عرض القطع بين النمط الكلاسيكي والنمط الواقعي، الذي يعرضها متناثرة في مساحة اللعب.\n\nتوفر الصورة المرجعية والتلميحات والشبكة الاختيارية وسائل لمقارنة الأجزاء والتأكد من مواضعها. ابحث عن الألوان المميزة وحواف العناصر في الصورة قبل تجربة القطع المتشابهة. ويمكن اختيار صور من الفئات المتاحة أو إنشاء أحجية من صورة خاصة بك، مع تعديل الواجهة والخلفية لتناسب مساحة العمل.",
+      "instructions": "على الكمبيوتر أمسك القطعة بزر الفأرة الأيسر واسحبها، واستخدم عجلة الفأرة للتكبير أو التصغير ولتمرير شريط القطع. على الهاتف أو الجهاز اللوحي حرك القطع واضبط العرض بأصابعك. اختر الصعوبة أولا، ثم اجمع الأجزاء ذات الألوان أو الحواف الواضحة. ارجع إلى الصورة المرجعية أو الشبكة عند الحاجة إلى مقارنة جزء بالصورة الكاملة.",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "91ed4f9eb34fe4c86927c0e65b98792f5f7992764ff11aa1c1017535d521f1c6"
+    },
+    "escape-school-duel": {
+      "sourceHash": "82986a7bcf22e00ca14dac49ad9144d0708627502e3165947cf09ede735e941b",
+      "title": "مبارزة الهروب من المدرسة",
+      "description": "اهرب من مدرسة مليئة بالفخاخ والمعلمين الذين يسدون الطريق، وحاول الوصول إلى الخارج في أقصر وقت. يمكنك خوض المحاولة منفردا لتحسين زمنك أو مشاركة الجهاز مع لاعب آخر. تتغير المخاطر من ممر إلى آخر، وقد يحاول المدير أو المدرب منع تقدمك، لذلك يفيد التعرف إلى ترتيب المدرسة قبل محاولة تسجيل زمن أسرع.\n\nتتيح القفزة المزدوجة تعديل مسارك في الهواء أو تجاوز خطر، لكن توقيتها مهم عند الاقتراب من الفخاخ. اجمع التذاكر والمال أثناء الجري لشراء مظاهر للشخصية، ثم عد للمحاولة بمسار أفضل. وبعد الخروج توجد ألعاب صغيرة في الساحة، بينما يبقى هدف الهروب الأساسي هو السرعة وتجنب العوائق.",
+      "instructions": "للاعب الأول: تحرك بمفاتيح WASD، واقفز باستخدام Space واضغطه مرتين للقفز المزدوج، واجر باستخدام Left Shift. اللاعب الثاني يتحرك بالأسهم ويقفز بمفتاح L مرتين عند الحاجة إلى القفزة المزدوجة، ويجري بمفتاح K. راقب دورات الفخاخ واختر طريقا آمنا عندما يسد العاملون الممر، ثم اجمع المكافآت وحاول تحسين زمن الهروب.",
+      "referenceHash": "99696a24e7a091b79f953a4e0613ea501e4aa727f5ede4b6141dd7165e268a26",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape School Duel is a fast, funny, and tense escape challenge set inside a school that does not want to let you leave.",
+        "instructionsQuote": "How to Play? Player 1 Move: W, A, S, D Jump: Space (Press twice for double jump) Run: Left Shift Player 2 Move: Arrow Keys Jump: L (Press tw",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "970ddc08a0ca1dd8143da4ad3980a0f660ca48b716185799fe68f4b4f1527835"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "صالون تصفيف الشعر ثلاثي الأبعاد",
+      "description": "استقبل طلب العميل وحاول إعادة تكوين التسريحة المطلوبة باستخدام أدوات الصالون. تشمل الخيارات قصات قصيرة ومتدرجة وموهوك، وتختلف وظيفة المقص عن آلة القص وشفرة تحديد التفاصيل. كلما اقتربت النتيجة من الطلب زادت النجوم والإكراميات التي تحصل عليها، ويمكن استخدام العملة داخل اللعبة لشراء أدوات وأصباغ جديدة.\n\nابدأ بمعاينة الشكل المطلوب من أكثر من زاوية قبل تقصير الشعر. توفر بطاقة الطلب على اليمين عرضا ثلاثي الأبعاد يساعد على فهم الطول والتفاصيل. اختر الأداة المناسبة للجزء الذي تعمل عليه، وأضف اللون عند الحاجة، ثم قارن النتيجة بالمعاينة قبل إنهاء العمل. يفتح التقدم قصات أعقد وعملاء إضافيين.",
+      "instructions": "المس بطاقة الطلب على اليمين لعرض التسريحة. اختر المقص للقص الدقيق، أو آلة القص للتسوية، أو الشفرة للتفاصيل. مرر الأداة عبر الرأس لقص الشعر، واستخدم إصبعين لتدوير الكاميرا أو ضبط العرض. عند الصبغ اختر الفرشاة واللون، ثم قارن النتيجة بالطلب واضغط Done عند الانتهاء للحصول على التقييم.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a1e7cd7e204d7445c5316285a3835842714600b19be7a4cb0f6991c76e021b73"
+    },
+    "gt-cars-mega-ramps": {
+      "sourceHash": "53db5006bfaf12d791660613a7ca83c830affa2ece39136251e3b048407af155",
+      "title": "سيارات GT والمنحدرات العملاقة",
+      "description": "قد سيارات رياضية عبر ثلاثة أنماط مختلفة: Face to Face للمواجهة، وMega Ramps للمنحدرات الضخمة، وColor Lands للمسارات الملونة. تسمح الخيارات باللعب منفردا أو مع لاعب ثان على الجهاز نفسه. يمكنك أيضا تخصيص لون السيارة والنوافذ والعجلات والإضاءة قبل الانطلاق إلى المسار.\n\nفي المواجهة قد يتحول حطام سيارة الخصم إلى خطر على طريقك، بينما تتطلب المنحدرات العملاقة تفادي الكرات الكبيرة والحواجز والصناديق. أما المسارات الملونة فتجعل الحفاظ على خط قيادة آمن مهما قرب الحواف. تعلم توجيه السيارة وإعادتها إلى موضعها وتبديل الكاميرا أولا، ثم استخدم الدفع عندما يسمح الطريق بالسيطرة على السرعة.",
+      "instructions": "في اللعب الفردي استخدم WASD أو الأسهم للقيادة، وLeft Shift للدفع NOS، وR لإعادة السيارة، وC لتغيير الكاميرا. في نمط لاعبين يستخدم الأول WASD وLeft Shift وR وC بالوظائف نفسها. يستخدم الثاني الأسهم للقيادة، وN للدفع، وL لإعادة السيارة، وU للكاميرا. اختر النمط ثم راقب حواف المسار والحطام والعوائق أثناء التقدم.",
+      "referenceHash": "d1ce8acab63d043b624ca66fce1a99b4738af4bbf1817a9b02dc8f53a7d85a25",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "GT Cars Mega Ramps is an exciting driving car game that puts you behind the wheel of fully customizable super-sport cars",
+        "instructionsQuote": "1 Player Mode WASD / arrow keys = move L-Shift = NOS R = reset car position C = change camera view 2 Players Mode Player 1 WASD = move L-Shi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "13998354f14d91dbc14e1c210316f26d370d7960d54693acbc90a8b8ee7302fc"
+    },
+    "hyper-cars-ramp-crash": {
+      "sourceHash": "eeca7bec2aea2fda1e267caf6def3ca8f6d7c239067773ea75fca540995290b3",
+      "title": "قفزات وتحطم السيارات الخارقة",
+      "description": "جرب محاكاة قيادة ثلاثية الأبعاد تجمع القفزات والحركات الاستعراضية والتحطم. يحتوي المرآب على سبعة طرازات من السيارات الرياضية، ويمكن تعديل مظهر السيارة واختيار كاميرا داخلية. تتوفر جولات فردية أو مشاركة محلية للاعبين، مع أنماط للعالم المفتوح والاستعراض والسقوط، إضافة إلى القيادة الحرة في Free Style.\n\nتختلف طبيعة المحاولة بحسب النمط: قد تختبر التحكم على مسارات الغابة أو المحيط أو الصحراء، أو تحاول تسجيل زمن في Time Trial. تؤثر الاصطدامات في شكل السيارة، لذلك راقب اتجاه الهبوط والعوائق قبل الاندفاع. استخدم إعادة السيارة وتغيير الكاميرا لاستئناف المحاولة وفهم موضعك، ثم حاول تنفيذ المسار بصورة أدق.",
+      "instructions": "للعب الفردي استخدم WASD أو الأسهم للحركة، وLeft Shift لتفعيل NOS، وR لإعادة السيارة إلى موضعها، وC لتغيير الكاميرا. عند اللعب الثنائي يحتفظ اللاعب الأول بهذه المفاتيح. اللاعب الثاني يقود بالأسهم، ويستخدم N للدفع، وL لإعادة السيارة، وU لتغيير الكاميرا. اختر النمط، واضبط منظورك، ثم قد عبر العقبات ونفذ القفزات المناسبة له.",
+      "referenceHash": "cf65e6047e0244b3cea44f8648d533b63f61f759f59bc73a825cc6bee3ec2897",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hyper Cars Ramp Crash is a 3D driving stunt and crash simulation game with realistic physics and graphics. Perform incre",
+        "instructionsQuote": "1 Player Mode WASD / arrow keys = move L-Shift = NOS R = reset car position C = change camera view 2 Players Mode Player 1 WASD = move L-Shi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "30c8cc7deb58acebf2fabc3786cd988cf942cf0875abad0c7edab02529c3cb37"
+    },
+    "shape-transform-race": {
+      "sourceHash": "ec56726f4c68d28f0fa51d24657564c32215c55285b231fffed00be97d15443c",
+      "title": "سباق تبديل الأشكال",
+      "description": "يتحدد تقدمك في هذا السباق باختيار المركبة المناسبة للتضاريس في الوقت الصحيح. تحول إلى قارب فوق الماء، وسيارة على الطريق، وطائرة في المقاطع الهوائية. الانتقال المتأخر إلى الشكل المناسب يعرقل المحافظة على السرعة، لذلك راقب نوع الجزء القادم قبل الوصول إليه. أول من يبلغ خط النهاية يفوز.\n\nتتوفر مواجهة ضد الكمبيوتر أو منافسة مع صديق في نمط لاعبين. تعطي السباقات عملات لفتح مركبات وشخصيات إضافية، وتقدم المسارات عقبات وتغييرات في البيئة. ابدأ بالتعرف إلى أشكال المركبات وأزرارها، ثم حاول تنفيذ التحول عند بداية كل تضاريس بدلا من انتظار تعثر الشخصية.",
+      "instructions": "استخدم الفأرة أو اللمس لاختيار المركبة وتغييرها أثناء السباق. في نمط لاعبين توجد اختصارات A وS وD، ومجموعة J وK وL لتبديل المركبات. اختر القارب للماء والسيارة للطريق والطائرة للهواء، وبدل في الوقت المناسب للمحافظة على السرعة. تجاوز العوائق وحاول الوصول إلى النهاية قبل المنافس.",
+      "referenceHash": "baae76c6051881e3981a41738f12e433d2c43a47fa676cba0c4e12e7ade59077",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Shape Transform Race is a fun racing game that can be played in reaction-based 1 and 2 player game modes. You can play t",
+        "instructionsQuote": "You can use \"MOUSE\" or touch controls to change vehicles. For 2 player mode, you can use \"A,S,D\" and \"J,K,L\" keys for shortcuts to change ve",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "676f463a361315aa1d1f617938698993ce189fc0b5e7e610cac3e0976d75662d"
+    },
+    "break-a-lucky-egg-brainrots": {
+      "sourceHash": "b15c010ba0f405f9f14eb339cd9298ad6b3e160d7a22c3e3504f891eb21177ef",
+      "title": "اكسر بيضة الحظ: براينروت",
+      "description": "اكسر البيض واجمع شخصيات براينروت، ثم احملها إلى القاعدة قبل انتهاء المؤقت. تختفي الشخصية إذا لم تصل إلى المنطقة الآمنة في الوقت المحدد، وقد تطاردك الهياكل العظمية أثناء حملها. يجمع التحدي بين اختيار البيضة ومحاولة العودة بغنيمتها، لا مجرد فتح أكبر عدد من البيض دون الانتباه إلى طريق الرجوع.\n\nتولد الشخصيات الموجودة في القاعدة دخلا يمكن إنفاقه على فؤوس ومطارق أقوى وفتح طبقات أعلى من البيض. يمكن توسيع القاعدة حتى ثلاثة طوابق، كما تفتح التذاكر مظاهر وحيوانات أليفة وأفعالا خاصة. تدعم اللعبة نمطي لاعب واحد ولاعبين، وتتيح إعادة الولادة زيادة مضاعفات الدخل.",
+      "instructions": "تحرك باستخدام WASD، واجر بمفتاح Left Shift، واضرب بزر الفأرة الأيسر أو F، واقفز باستخدام Space. استخدم E للالتقاط أو البيع، وT لإعادة الولادة، وH لفهرس البيض. اكسر البيضة، واحمل الشخصية إلى القاعدة قبل انتهاء وقتها مع تجنب الهياكل العظمية. استخدم دخل القاعدة لتطوير الأدوات والطوابق وجمع شخصيات أخرى.",
+      "referenceHash": "d7acac1fe12e601584596b44290c822fe39baff82e7cdb84f49f763a0aa4944d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Break a Lucky Egg Brainrots is a fast and rewarding collection game where action, risk, and strategy come together. Your",
+        "instructionsQuote": "Start breaking eggs to collect Brainrot characters. Carry the Brainrots to your base before their timer expires. Avoid skeleton enemies whil",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source contains the unfinished phrase up to many Brainrots for maximum storage. This guide omits that unsupported numeric capacity, retaining the separately explicit three-floor expansion and documented collection controls."
+      },
+      "reviewedTextHash": "865e42f3b3b915eec1e127e084bbcf54498b247b13a69b69aa3918c732b3c693"
+    },
+    "lucky-brainrot-blocks-online": {
+      "sourceHash": "d07bd29f95025b20cd85e33cb37534df1421d7287f68f9087379d7f4ce39c39c",
+      "title": "مكعبات حظ براينروت عبر الإنترنت",
+      "description": "تنقل بين المناطق للبحث عن صناديق الحظ وجمع شخصيات براينروت، ثم عد بالمكافآت إلى قاعدتك. تزداد فرص المكافآت الأفضل في المناطق الأبعد، لكنها تتطلب حركة أسرع وتخطيطا للعودة. تضم اللعبة أكثر من 75 شخصية و14 فئة ندرة، مع مكافآت معينة تظهر أثناء أحداث أو فترات خاصة.\n\nيمكن بيع الشخصيات لتمويل سرعة الحركة وصناديق أفضل وتوسيع القاعدة، وتوفر إعادة الولادة تحسينا للدخل. النمط الفردي عبر الإنترنت يتضمن غرفا ودردشة ودعوات، ويختلف عن نمط لاعبين محليين يشتركان في الجهاز نفسه. اختر بين جولة آمنة للتجميع والمحاولة في منطقة أصعب، ثم استثمر حصيلتك في تحسين الجولة التالية.",
+      "instructions": "في اللعب الفردي استخدم WASD للحركة، وE للتفاعل، وSpace للقفز، والفأرة مع الزر الأيمن للكاميرا. R للحقيبة وT للمتجر وY لإعادة الولادة وC للدردشة، والأرقام 1 إلى 7 لاختيار براينروت. في اللعب الثنائي يستخدم الأول WASD وE وSpace وR وT وY والأرقام 1 إلى 4؛ يستخدم الثاني الأسهم للحركة وJ للتفاعل وL للقفز وU للحقيبة وI للمتجر وO لإعادة الولادة والأرقام 7 و8 و9 للاختيار.",
+      "referenceHash": "65e9a232b87a08b655e6c2b0d5ecd5d564d5869d4a965ff2ab92ca2411466b3b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Lucky Brainrot Blocks Online is a fast-paced reward adventure that mixes movement, progression, and collection mechanics",
+        "instructionsQuote": "1 Player Mode Move: W, A, S, D Interact: E Jump: SPACE Camera: MOUSE and RIGHT-CLICK Bag: R Shop: T Rebirth: Y Chat: C Pick Brainrots: 1, 2,",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "51c1321db2461161563ad4c725c86e4fcfd0b16d4d0e28856928be8b943dfa1d"
+    },
+    "geometry-vibes-monster": {
+      "sourceHash": "b0a2622b9831dfab2e9dc77ff6eacd507f760fb07b72d78a1318074d571c0c87",
+      "title": "جيومتري فايبس: الوحوش",
+      "description": "قد سفينتك عبر مسار مليء بالعوائق والأشواك، وحاول البقاء لأطول مسافة أمام هجمات الوحوش. تضم اللعبة ثمانية وحوش بأنماط هجوم مختلفة، لذا يفيد التعرف إلى حركة الخطر بدلا من تكرار الارتفاع والانخفاض بالطريقة نفسها. المطلوب هو تجنب الاصطدام ومواصلة التقدم أثناء ازدياد صعوبة المقاطع.\n\nالتحكم الأساسي يقوم على الاستمرار في الضغط للارتفاع ثم الإفلات للهبوط. استخدم ضغطات قصيرة عندما تحتاج إلى تعديل صغير، واترك مساحة للنزول قبل العائق التالي. تدعم اللعبة اللعب باللمس على الهواتف والأجهزة اللوحية، كما تتوفر سباقات محلية للاعبين أو ثلاثة أو أربعة على الجهاز نفسه باستخدام مفاتيح منفصلة.",
+      "instructions": "على الكمبيوتر اضغط باستمرار على زر الفأرة أو Space للارتفاع، ثم أفلت الزر للهبوط. راقب العقبات والأشواك ونمط هجوم الوحش قبل تعديل ارتفاع السفينة. في سباقات لاعبين أو ثلاثة أو أربعة تستخدم مفاتيح السهم العلوي وSpace وH وL للتحكم. حافظ على إيقاع يسمح لك بالمرور دون ملامسة العوائق.",
+      "referenceHash": "761b50206d8c29d4b6d3edf4ee8da18cc66d2989b88e196df27a7d9ebbf66a24",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Geometry Vibes Monster is a reaction-based arcade game where you must dodge incoming obstacles, spikes, and battle again",
+        "instructionsQuote": "Keep your spaceship on course and avoid hitting obstacles. Stay alert for the specific attack patterns of each monster. Click and hold the \"",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b7f6cbc334d29053b51f873edc1d97b7a5eb34a91bc9a3cc7049ad42b3b577c2"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "سباق السيارات الاستعراضية ثلاثي الأبعاد",
+      "description": "قد السيارة على طرق مرتفعة تضم منحدرات وقفزات وعقبات متحركة. الهدف هو بلوغ النهاية دون التحطم أو السقوط عن المسار، مع الالتزام بالوقت المحدد في المراحل المؤقتة. تساعد زوايا الكاميرا المختلفة على رؤية الطريق الضيق وموضع الهبوط قبل بدء القفزة.\n\nتتطلب المقاطع المتعرجة موازنة السرعة مع القدرة على البقاء فوق الطريق. توفر نقاط التفتيش إمكانية استئناف المحاولة من جزء متقدم بعد السقوط. وجه السيارة قبل الصعود إلى المنحدر، وراقب حركة العائق قبل العبور، ثم عد إلى التسارع عندما يستقيم المسار.",
+      "instructions": "على الكمبيوتر استخدم السهم العلوي للتسارع، والسفلي للرجوع، وسهمي اليسار واليمين للتوجيه، وSpace للفرملة. على الهاتف استخدم زري التوجيه ودواستي التسارع والفرامل. اضبط اتجاه السيارة قبل القفز، وتجنب الاصطدام والسقوط، وحاول الوصول إلى النهاية قبل انتهاء الوقت. راقب العوائق المتحركة قبل دخول مسارها.",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The original promotional text repeatedly advertises downloading and offline play. This reviewed guide omits those unverified delivery claims and retains only its explicit browser-relevant driving controls, checkpoints, obstacles and timed finish objective."
+      },
+      "reviewedTextHash": "297c317b973ac50dd7ea9fd8146ac992051c7f024caf627ca1edd37a4826a19d"
+    },
+    "kick-lucky-blocks-online": {
+      "sourceHash": "a15bab4f5d5ce19a3acd1dd6a08ee041097f1a6dc27a5c060e9f83c37d766112",
+      "title": "اركل مكعبات الحظ عبر الإنترنت",
+      "description": "اركل مكعب الحظ إلى مسافة بعيدة، ثم اتبعه عبر المناطق الخطرة وأعد مكافأته إلى القاعدة قبل غمر الخريطة بموجة تسونامي. تزداد فرص العثور على براينروت نادرة مع الوصول إلى مناطق أبعد، لكن العودة الآمنة تصبح جزءا أهم من القرار. تضم اللعبة أكثر من 75 شخصية موزعة على 14 منطقة، مع نسخ ودرجات ندرة مختلفة.\n\nتسمح الأوزان بتحسين مسافة الركل، وتساعد ترقيات السرعة وإعادة الولادة وتوسيع القاعدة على تطوير الجولات التالية. يوجد لعب فردي عبر الإنترنت مع غرف ودردشة ودعوات، ولعب ثنائي محلي على الجهاز نفسه. استخدم الجولات الآمنة لتطوير قدراتك، ثم جرب منطقة أصعب عندما تستطيع الوصول إليها والعودة منها.",
+      "instructions": "في النمط الفردي: WASD للحركة، وE للتفاعل أو الركل، والزر الأيسر للضرب أو الركل، وSpace للقفز، وF لأمر Update. الفأرة والزر الأيمن للكاميرا، وR للحقيبة وT للمتجر وY لإعادة الولادة وC للدردشة. في الثنائي يستخدم الأول WASD وE وSpace وR وT وY؛ يستخدم الثاني الأسهم وJ للتفاعل أو الركل وL للقفز وK لأمر Update وU للحقيبة وI للمتجر وO لإعادة الولادة.",
+      "referenceHash": "85a1db43f61bdb4d9951b401e128ddf56611b1fa8c6fe02d52741eefc085cac2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Kick Lucky Blocks Online is a colorful progression adventure built around distance, upgrades, and reward hunting. Your o",
+        "instructionsQuote": "1 Player Mode Move: W, A, S, D Interact: E Jump: SPACE Hit / Kick: LEFT-CLICK or E Update: F Camera Control: MOUSE / RIGHT-CLICK Bag: R Shop",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "db4d0564c3993918544a425b6571857b7ead6064f20fcef483e6bba14523abcb"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "إمبراطورية الرياضة الصغيرة",
+      "description": "أدر ناديا يبدأ بكرة السلة ويتوسع إلى الهوكي وكرة القدم والرغبي والكرة الطائرة والبيسبول. تجري المباريات تلقائيا، فلا تتحكم في حركة الرياضيين مباشرة؛ قراراتك تتعلق بالتدريب واللاعبين والمعدات والمهارات. استخدم الدخل لتطوير قوة الفريق وفرص الفوز وفتح رياضات إضافية.\n\nيمكن متابعة تقدم الدوري وتبديل الرياضة من زر Sports، بينما تعرض التبويبات خيارات التجنيد والتجهيز والمكافآت. افحص احتياجات فريقك قبل إنفاق العملة، ثم قارن أثر التطويرات في القوة والدخل. تجمع اللعبة بين تحسين التشكيلة وتقدم المواسم والأحداث، ويمكن جمع المكافآت المتراكمة أثناء غيابك عند العودة.",
+      "instructions": "على الكمبيوتر انقر بزر الفأرة الأيسر على أزرار التطوير والتجنيد والمعدات والمهارات. افتح Sports لتبديل الرياضة ومراجعة تقدم الدوري، وانتقل بين التبويبات لإدارة الفريق. على الهاتف المس الأزرار ومرر اللوحات لتصفح الخيارات وجمع المكافآت. المباريات تلقائية؛ استمر في تطوير القوة وفرص الفوز والدخل لفتح مزيد من الأنشطة.",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketba",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using sk",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1af086fef805d74f2fba8038111e11c69b9ae61a360a6d4a61418e9fb593aa2e"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "أوبي كرافت: ابن طائرة",
+      "description": "صمم طائرة من القطع ثم أطلقها لاجتياز مسار العقبات وجمع العملات في الجو. ابدأ من منطقة البناء بجوار الطائرة، واختر قطعة من المخزون السفلي وثبتها في التصميم. تؤثر القطع في الرحلة، وتتيح العملات شراء أجزاء وتحسينات أخرى من المتجر.\n\nقبل الإقلاع يمكن تطوير المقلاع الذي يطلق الطائرة لزيادة سرعة الانطلاق وارتفاعه. اجمع العملات أثناء الطيران ثم عد لتحسين البناء وتجربته من جديد. تدعم اللعبة حفظ ما يصل إلى أربعة تصاميم، وتتوفر مظهران مجانيان وعجلة للمكافآت. ركز أولا على تركيب القطع وفهم الإطلاق وتجنب العقبات، ثم استخدم ما جمعته لتطوير التجربة التالية.",
+      "instructions": "اقترب من الطائرة ومنطقة البناء، واختر قطعة من المخزون في الأسفل ثم انقر لتثبيتها بجوار الطائرة. اشتر قطعا عند نفادها، وأنفق العملات على تطوير المقلاع قبل الإقلاع. أطلق الطائرة وتحكم بها عبر التعليمات المعروضة، واجمع العملات المنتشرة في الهواء وتجنب عقبات مسار Obby. بعد المحاولة اشتر أجزاء أفضل أو عدل التصميم ثم جربه مجددا.",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "One sentence in the source description says test the car, while the title, construction steps and flight instructions consistently identify an airplane. This guide omits that stray vehicle noun and describes only the documented airplane-building and launch workflow."
+      },
+      "reviewedTextHash": "36590816f1f44897d097c6dbb76122c897a643c0b88f708dd3d1e54f2cc7dee6"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "دراجة الوادي",
+      "description": "هذه لعبة تجارب دراجات نارية ثنائية الأبعاد على مسارات صعبة ومنحدرات شديدة. لا يكفي الضغط على التسارع؛ ميل الدراجة إلى الخلف أو الأمام يغير توازنها أثناء الصعود والقفز. الهدف هو إكمال الطريق ثم تحسين الزمن على لوحة النتائج، مع الحفاظ على السيطرة عندما يتغير ارتفاع الأرض.\n\nيسمح المرآب بتعديل إعداد الدراجة لتناسب التضاريس. إذا تكرر الفشل في الموضع نفسه، راقب أين تفقد التوازن قبل تكرار المحاولة: قد تحتاج إلى تغيير توقيت الميل أو إلى إعداد مختلف. تعلم الفرق بين رفع العجلة الأمامية وخفض مقدمة الدراجة حتى لا تتحول محاولة اجتياز المنحدر إلى انقلاب.",
+      "instructions": "استخدم W أو السهم العلوي للتسارع، وS أو السفلي للفرملة أو الرجوع. A أو السهم الأيسر يميل بالدراجة إلى الخلف ويرفع العجلة الأمامية، وD أو الأيمن يميل إلى الأمام. R لإعادة المحاولة، وEsc أو P للإيقاف المؤقت. على الهاتف استخدم أزرار التسارع والفرملة والميل الأربعة؛ تظهر عند أول لمسة. راقب موضع فقد التوازن وعدل توقيتك أو إعداد المرآب.",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f08fd7f470e597a97fa03858ad85aa1cd0e74a086561822d27429e3fa1de091e"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "سودوكو عبر الإنترنت",
+      "description": "املأ شبكة من تسعة صفوف وتسعة أعمدة بالأرقام من 1 إلى 9 دون تكرار في الصف أو العمود أو المربع الصغير ذي الخانات التسع. تقدم اللعبة أربعة مستويات صعوبة في النمط الكلاسيكي، ويمكن استخدام الملاحظات لتسجيل الأرقام المحتملة بدلا من وضع رقم نهائي قبل التأكد منه.\n\nتضيف الأنماط الأخرى قيودا إلى القاعدة الأساسية: يطلب X-Sudoku عدم التكرار على القطرين، ويضيف Windoku مناطق محددة، بينما يعتمد Killer Sudoku على مجاميع مجموعات الخانات. في Kropki تربط النقاط بين الخانات المتجاورة بعلاقة فرق أو تضاعف. افحص القيد الخاص بالنمط مع قواعد الصفوف والأعمدة، لا بوصفه بديلا عنها.",
+      "instructions": "املأ كل صف وعمود ومربع 3×3 بالأرقام 1 إلى 9 بلا تكرار. ابدأ بالخانات التي تترك قرائنها أقل عدد من الاحتمالات، وسجل المرشحين في الملاحظات. افحص قطري X-Sudoku ومناطق Windoku الإضافية، واحترم مجموع كل مجموعة في Killer Sudoku. في Kropki تعني النقطة البيضاء فرقا قدره 1، والسوداء أن أحد الرقمين ضعف الآخر. راجع القيود قبل تثبيت الإجابة.",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers fou",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a0dea2541c9ecd33ddb6b019567f868476e088142d01928634205e547a334dac"
+    },
+    "eat-blobs-simulator": {
+      "sourceHash": "26d0b0140eb310b7da9be5ce38d1a02c950652e59b6d7db21a57f748de666378",
+      "title": "ساحة الكتل الهلامية",
+      "description": "ابدأ بكتلة هلامية صغيرة واجمع القطع الملونة المنتشرة في الساحة لتزداد حجما. عندما تصبح أكبر من منافس يمكنك ابتلاعه للحصول على زيادة كبيرة، لكن الكتل الأكبر تستطيع فعل الشيء نفسه بك. قارن الأحجام باستمرار واختر طريقا آمنا بدلا من ملاحقة هدف صغير إلى منطقة يحاصرك فيها منافس أقوى.\n\nيمكن اللعب منفردا أو بمشاركة محلية للاعبين على الجهاز نفسه. يتيح النمط الفردي تدوير الكاميرا والتكبير لمراقبة الساحة، وتساعد العملات والمكافآت على فتح مظاهر جديدة للكتلة. اجمع الطعام القريب أولا، ثم طارد من هو أصغر منك عندما تكون مساحة الهروب واضحة، واستمر في فحص ما حولك أثناء المطاردة.",
+      "instructions": "اللاعب الأول يتحرك بمفاتيح WASD، والثاني بالأسهم. في اللعب الفردي اضغط زر الفأرة الأيسر وحركها لتدوير الكاميرا، واستخدم العجلة للتكبير أو التصغير. على الهواتف والأجهزة اللوحية تحرك بعصا التحكم على الشاشة. اجمع القطع الصغيرة لتنمو، وابتلع المنافسين الأصغر فقط، وابتعد عن الكتل الأكبر حتى لا تنتهي محاولتك.",
+      "referenceHash": "f32e4acdaede233332d908dfc48f5263346e427d52d88b68be29a7e8ff3d13c0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Enter the Colorful Blob Arena Eat Blobs Simulator is a competitive growing game where tiny slimes can become enormous ar",
+        "instructionsQuote": "Player 1: W, A, S, D Player 2: Arrow Keys In single-player mode: Rotate the Camera: Hold the Left Mouse Button and move the mouse Zoom In or",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6f78ade4829bc62c4e14eefb9fba3e3ef6e1fa7263aa9a93b34177f95d60b678"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "الشطرنج ثلاثي الأبعاد: الإصدار السحري",
+      "description": "خض مباراة شطرنج على رقعة ثلاثية الأبعاد داخل حديقة ذات طابع خيالي، مع قطع بلون النحاس والذهب. يمكنك مواجهة الكمبيوتر بثلاث درجات صعوبة، أو إنشاء غرفة خاصة للعب مع صديق. الهدف هو كش مات ملك الخصم، بينما تعرض النقاط المضيئة المربعات القانونية التي يمكن أن تنتقل إليها القطعة المختارة.\n\nيساعد تدوير الكاميرا والتكبير على رؤية الرقعة من زاوية مريحة، وتسمح الإعدادات بتغيير الصعوبة وتلميحات الحركة والصوت. يتيح زر المصباح حتى ثلاثة تلميحات في المباراة مع شروط المكافأة الموضحة داخل اللعبة. الغرف مؤقتة وتنتهي بياناتها بعد مغادرة الجميع، لذلك لا تعامل سجل الغرفة كأرشيف دائم.",
+      "instructions": "انقر أو المس قطعة لاختيارها، ثم اختر مربعا مضيئا لتحريكها. حاول الوصول إلى كش مات مع حماية ملكك وقطعك. اسحب لتدوير الكاميرا، واستخدم العجلة أو إيماءة القرص للتكبير والتصغير. لبدء مباراة مع صديق اختر Play a Friend وشارك رمز الغرفة. استخدم رمز الترس للإعدادات والمصباح للتلميح عندما تحتاج إلى دراسة نقلة.",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5f4c04168246f0ecfdc86360071c3e0630c2849774941184b2050e5ecc055c6a"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "أطلق النار على المكعبات",
+      "description": "دمر جزرا مبنية من المكعبات، من المنازل والغابات إلى الأبراج، حتى تختفي كل الكتل وتكتمل المنطقة. الذخيرة محدودة، لذلك يفيد البحث عن الديناميت وكتل البرق لإطلاق سلسلة من الانفجارات. فكر في الموضع الذي يسبب أكبر قدر من التدمير بدلا من توزيع الطلقات دون هدف.\n\nلا تعود الكتل التي دمرتها إذا نفدت الذخيرة؛ يمكنك زيارة المتجر وتطوير السلاح ثم استئناف ما تبقى من الجزيرة. تشتري العملات أسلحة وترقيات وقطعا مساعدة، وعندما يصل السلاح إلى المستوى 10 يبدأ بإطلاق النار تلقائيا. استخدم تدوير الكاميرا وإمالتها لفحص الأجزاء الباقية، ثم اختر السلاح وزاوية التصويب المناسبين.",
+      "instructions": "اضغط باستمرار على زر الفأرة الأيسر لإطلاق النار. A وD يديران الكاميرا، وW وS يميلانها، و+ و− يغيران التكبير، وF يعيد وضعها. بدل السلاح بالأرقام 1 إلى 9 أو Q وE أو عجلة الفأرة، وEsc للإيقاف المؤقت. على اللمس ضع إصبعك على الكتل لإطلاق النار، واستخدم إصبعين للدوران والتكبير أو أزرار الكاميرا أسفل اليمين. دمر كل كتلة وأكمل التطوير عند نفاد الذخيرة.",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, ",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and tr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a92aa61fa6b6261c62fef02c72bb8496130cf372d89b6c5e3633c651300048e4"
+    },
+    "driftbound-race-in-the-grip-of-drift": {
+      "sourceHash": "310cd73fbe1e1fc415ab2c15f9abde1ca9c24592644c36d2c554d4c89b99bae8",
+      "title": "دريفت باوند: سباق الخطاف المغناطيسي",
+      "description": "تتسارع السيارة تلقائيا، وتستخدم خطافا يلتصق بالمغناطيسات القريبة من الطريق لتدور حول المنعطفات الحادة. استمر في الإمساك بالخطاف أثناء التأرجح، ثم أفلت في اللحظة التي تعيدك إلى الطريق. تضم البيئات جسورا وتقاطعات وطقسا متغيرا، لذلك راقب شكل المنعطف قبل تثبيت الخطاف.\n\nفي النمط الفردي حاول قطع مسافة أكبر وتحسين الرقم السابق، وفي نمط Rivals تجاوز سائقي الكمبيوتر وابلغ النهاية أولا. تجمع المال لتطوير السيارة وفتح مركبات وخيارات تحكم أخرى. تتيح الإعدادات التبديل بين عجلة على الشاشة وتحكم اتجاهي؛ اختر الوسيلة التي تسمح لك بالمحافظة على الطريق مع استخدام الخطاف بوضوح.",
+      "instructions": "على الكمبيوتر أمسك Space أو زر الفأرة لتفعيل الخطاف المغناطيسي، وأفلت لفكه. A أو السهم الأيسر للتوجيه يسارا، وD أو الأيمن لليمين، ويمكن سحب عجلة الشاشة بالفأرة. Esc للإيقاف المؤقت. على الهاتف المس باستمرار لتفعيل الخطاف ثم ارفع إصبعك، واسحب العجلة أو اضغط الجانب المناسب في النمط الاتجاهي. السيارة تتسارع وحدها؛ تجنب التصادم وعدل توقيت الإفلات عند كل منعطف.",
+      "referenceHash": "2b8ed790f66b629ce5593912d07a44e850e84af59243d53475a3d6b375ad4692",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Driftbound: Race in the Grip of Drift! is a fast-paced arcade racing game built around a unique magnetic drifting mechan",
+        "instructionsQuote": "Your car accelerates automatically. Stay on the road, avoid crashes, collect cash, and master every turn. In Solo mode, travel as far as pos",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "725cfb87e358bae3dd7b7306f969bdffb3bf0afb65a70b3eb13081398f8c881a"
+    },
+    "basket-sport-stars": {
+      "sourceHash": "d326c33dab308265ec11a9de26967556804cdba1749820be09b11421c44b538b",
+      "title": "نجوم كرة السلة",
+      "description": "خض مباريات كرة سلة سريعة ضد الكمبيوتر أو مع لاعب آخر على لوحة المفاتيح نفسها. في Quick Match تستمر المواجهة 90 ثانية ويفوز صاحب النقاط الأكثر عند النهاية. تتيح البطولة التقدم عبر جولات، بينما يساعد نمط التدريب على تعلم الحركة وتوقيت القفز والتصويب قبل المنافسة.\n\nاضغط باستمرار على زر التسديد لمشاهدة خط المسار، ثم أفلت عندما تصبح الزاوية مناسبة. يمكنك الاقتراب من الخصم ومهاجمته لإجباره على إسقاط الكرة، لكن ترك سلتك دون حماية يعرضك للهجوم. تظهر صناديق هدايا يمكن جمعها بالقفز واستخدامها لإطلاق صاروخ يربك المنافس؛ اختر وقت استخدامها وانتبه إلى صواريخ خصمك أيضا.",
+      "instructions": "اللاعب الأول يتحرك بمفتاحي A وD، ويقفز باستخدام W. أمسك W للتصويب ثم أفلت للتسديد؛ S للهجوم وG لاستخدام الهدية. اللاعب الثاني يتحرك بسهمي اليسار واليمين، ويقفز بالسهم العلوي ويمسكه ثم يفلت للتسديد. السهم السفلي للهجوم وL للهدية. راقب مسار الكرة والمؤقت، وحاول تسجيل نقاط أكثر دون إهمال الدفاع.",
+      "referenceHash": "14d05aba60812f8aa4e841b8b44c7a6f78421f0f5e5e5be8d23b0c451dc6a9bd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Basket Sport Stars brings fast, playful basketball matches to colorful courts filled with unpredictable moments. Choose ",
+        "instructionsQuote": "Player 1 Move: A and D Jump: W Aim and Shoot: Hold W and release Attack: S Use Gift: G Player 2 Move: Left and Right Arrow Keys Jump: Up Arr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "129da30e18600b86963142ab874fb95716626767e8d5de27bf97140b09141962"
+    },
+    "collect-brainrot-arena": {
+      "sourceHash": "51016e3f98c182d0eab47f83c2436496d723093a8f02fed3c347888bf2c614da",
+      "title": "ساحة جمع براينروت",
+      "description": "اجمع مكعبات الحظ وافتحها في قاعدتك لاكتشاف شخصيات براينروت، مع الانتباه إلى المنافسين الذين قد يحاولون سرقتها. تظهر المكعبات بدرجات ندرة مختلفة من بوابة في وسط الخريطة، ويمكن شراؤها وحملها إلى القاعدة. كلما زادت ندرة المكعب ارتفعت فرصة الحصول على شخصيات نادرة وأكثر ربحا.\n\nتضم المجموعة 86 شخصية مختلفة، وتتصل عملية الجمع بتطوير المجموعة وحماية القاعدة. يوجد تحكم منفصل للاعبين على الكمبيوتر، بينما يقتصر اللعب المحمول على لاعب واحد. تعلم أمر الشراء أو السرقة والهجوم والركض قبل محاولة نقل مكعب ثمين، ولا تنشغل بفتح المكافآت إلى درجة ترك مجموعتك دون مراقبة.",
+      "instructions": "اللاعب الأول يستخدم WASD للحركة، وSpace للقفز، وE للشراء أو السرقة، وF أو الزر الأيسر للضرب، وLeft Shift للركض، وQ لتطوير براينروت. اللاعب الثاني يستخدم الأسهم للحركة، وL للقفز، وO للشراء أو السرقة، وK للضرب، وJ للركض، وU للتطوير. على الهاتف استخدم التحكم باللمس؛ نمط اللاعب الواحد فقط هو المدعوم هناك.",
+      "referenceHash": "10ca854308d37d8c3934b89c5c133c20b46cb4f4560c0adb07291bfde9496d2b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Collect Brainrot Arena is a chaotic multiplayer collecting and stealing game where luck, strategy, and timing are equall",
+        "instructionsQuote": "Player 1 Move: W, A, S, D Jump: Space Buy or Steal: E Hit: F or Left Mouse Button Sprint: Left Shift Upgrade Brainrot: Q Player 2 Move: Arro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5106d691ec743e35b876f2bef92fdb6172a0620fa5a6767cd8a163db68bfa81f"
+    },
+    "sniper-for-brainrots": {
+      "sourceHash": "49615a3927a0ef4d6c756d281e7fd98f4fb5c0273c392987da3b763cb7b27999",
+      "title": "قناص براينروت",
+      "description": "صوب ببندقية القنص نحو البالون فوق شخصية براينروت لتتحول إليها، ثم اركض إلى المنطقة الآمنة قبل وصول تسونامي. تسمح الطلقات الأبعد بجمع شخصيات أندر، لكنها تجعل الموجة أسرع أيضا. لذلك لا تختار الهدف على أساس الندرة وحدها؛ فطريق العودة والوقت المتاح جزء من نجاح المحاولة.\n\nتضم المجموعة 87 شخصية، ويمكن تطوير القاعدة وفتح بنادق أقوى وتخصيص مظهر الشخصية. توفر لوحة المفاتيح تحكما منفصلا للاعبين، بينما يدعم الهاتف نمط اللاعب الواحد فقط. تعلم الفرق بين الأوامر العادية وأوامر التصويب بالمنظار، لأن بعض المفاتيح تتغير وظيفتها أثناء النظر من خلاله.",
+      "instructions": "للأول: WASD للحركة، وSpace للقفز، وShift للركض، وF أو الزر الأيمن للمنظار. أثناء استخدامه تغير العجلة أو Shift التكبير، ويطلق الزر الأيسر أو Space النار. E للتفاعل وQ للتطوير وT لإعادة الولادة. الثاني يستخدم الأسهم وL للقفز وK للركض وRight Shift للمنظار؛ أثناء التصويب K للتكبير وL للإطلاق، وO للتفاعل وU للتطوير. على الهاتف استخدم أزرار اللمس في النمط الفردي.",
+      "referenceHash": "f7bcad752fac95e4913ac53f489bde18ccdd5a573bf92072e4b301543b70787f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Sniper for Brainrots is an action-packed collection and survival game where every successful shot unlocks a brand-new Br",
+        "instructionsQuote": "Player 1 Move: WASD Jump: Space Sprint: Shift Scope: F or Right Mouse Button Zoom: Mouse Wheel or Shift while scoped Shoot: Left Mouse Butto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7bb4f2e73816ed919ac43d5f8ed2ff4732c610b6f1b94da0d018fcb71d0ae294"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "تيرن لاين: لغز توصيل الخطوط",
+      "description": "أدر مربعات الشبكة حتى تتصل جميع الخطوط المطلوبة في مسار صحيح. تبدأ الألغاز بترتيبات بسيطة ثم تكبر وتضم تفرعات ومسارات متعددة، فيصبح اتجاه كل قطعة مؤثرا في القطع المحيطة بها. لا يوجد مؤقت، لذا يمكنك التوقف وفحص التوصيلات قبل اختيار الحركة التالية.\n\nتوضح اللعبة المسارات المتصلة أثناء التقدم، وتتيح تلميحا عندما يصعب تحديد القطعة المناسبة. افحص كيف تلتقي أطراف الخطوط بين المربعات المتجاورة، ثم عدل القطعة التي تقطع الاتصال. المطلوب إكمال الشبكة كلها، لا مجرد توصيل جزء يبدو صحيحا، مع حفظ التقدم للعودة إلى الألغاز لاحقا.",
+      "instructions": "انقر بالفأرة على مربع لتدويره، أو المسه على الهاتف أو الجهاز اللوحي. افحص اتصال خطوطه بالمربعات المجاورة واستمر في التدوير حتى تتطابق المسارات. راقب التمييز الذي يظهر للأجزاء المتصلة، ووصل كل الأقسام المطلوبة لإكمال المرحلة. إذا تعثرت استخدم التلميح، ثم أعد فحص الشبكة دون استعجال؛ لا يوجد حد زمني.",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b9cfc6d378c7811eabd7bae1987cee2e0b37a89d5b77f6d537fe8aede9885c1d"
+    },
+    "car-wash-idle": {
+      "sourceHash": "103863131d9fa5dbd883ab55eab53ec155c75adc2451067ecdec16f2ea2d4d78",
+      "title": "إدارة مغسلة السيارات",
+      "description": "ابدأ بمساحة غسيل صغيرة ونظف السيارات من الطين باستخدام الصابون ثم الماء. بعد الخدمة اجمع النقود وأنفقها على توسيع المكان وتطوير الدخل. مع التقدم يمكن فتح محطات غسيل أخرى ومنطقة لسجاد السيارات وأخرى للمقاعد الداخلية، فتتحول المهمة من خدمة واحدة إلى إدارة مجموعة محطات.\n\nتوظيف المساعدين يسمح بتنفيذ بعض التنظيف تلقائيا أثناء متابعة التوسع. تعتمد الخطوات الأولى على التحرك بين علامات الأرض ومحطة الخرطوم وأكوام النقود، وتوضح قائمة المهام ما يجب تعلمه بعد ذلك. اتبع هذه الدورة قبل فتح محطات إضافية: خدمة السيارة، جمع الدخل، ثم تمويل التطوير أو العامل المناسب.",
+      "instructions": "تحرك بمفاتيح WASD أو الأسهم. قف على العلامات الزرقاء أو الخضراء لإيداع النقود وفتح محطة أو تطويرها، وتحرك إلى علامة الغسيل مع الخرطوم لرش الصابون أو الماء على السيارات المتسخة. مر فوق أكوام النقود لجمع الدخل. اتبع قائمة التعليم على الشاشة لتعلم المحطات، ثم استخدم الأرباح لتوسيع المغسلة وتوظيف المساعدين.",
+      "referenceHash": "ac721643f5aff5d5e9524e55f4a5cb18df1731e538f8b483f3205f6df99b2ab2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build your own car detailing empire! Wash muddy cars, expand your shop, hire helpers, and turn a tiny bay into a full id",
+        "instructionsQuote": "- WASD / Arrow keys = move - Walk onto blue/green floor pads = unlock stations or upgrade (stand to deposit cash). - Walk onto the wash pad ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "55d7f89e56933cb4b62c07c9046ad089e12ffdabb37d4729cef0d1dfb014aa62"
+    },
+    "football-free-kick": {
+      "sourceHash": "9a283751c2c0f1a78450844c44f84da33e0a9c52b328f65cb11943be99ff5333",
+      "title": "الركلة الحرة في كرة القدم",
+      "description": "ركز على تسديدة ثابتة تتجاوز الحائط الدفاعي وحارس المرمى. تمتد الرحلة عبر سبعة ملاعب مع رياح وحوائط تقفز وحراس أشد صعوبة، لذلك تحتاج إلى تعديل اتجاه الكرة وانحنائها مع كل موقف. تسجل الأهداف تقدم المرحلة، وتزيد سلسلة الأهداف المتتالية النقاط الإضافية.\n\nتختلف نتيجة التسديدة بحسب سرعة حركة السحب وشكلها: الحركة الأسرع ترفع الكرة أكثر، والمنحنية تساعد على الدوران حول الحائط. بين المراحل يمكن اختيار مزايا وإكمال مهمات وفتح صناديق مكافآت لكرات وآثار بصرية جديدة. راقب عدد الكرات المتبقية واختر خطا واضحا بدلا من تجربة زاوية خطرة دون قراءة الرياح.",
+      "instructions": "بالفأرة اسحب من الكرة ثم أفلت للتسديد، وعلى شاشة اللمس اسحب إلى أعلى. السحب الأسرع يرفع التسديدة، والسحب المنحني يضيف التفافا حول الحائط. باستخدام لوحة المفاتيح صوب بالأسهم، وأضف الانحناء بمفتاحي A وD، وسدد عبر Space أو Enter. افحص الحائط والرياح، وسجل لإكمال المرحلة دون استنفاد الكرات المتاحة.",
+      "referenceHash": "fb1a28e833656881f906cfb9114c19c2d01ed30d8e17d01b0691f74876b53ea9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Football Free Kick is a 3D arcade soccer game. Swipe to shoot, curl the ball over the defensive wall and beat a diving g",
+        "instructionsQuote": "Swipe up from the ball to shoot: a faster swipe kicks it higher and a curved swipe bends it around the wall. Score to fill each stage, keep ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "aa9fe3396311893a673a2be5e523b28ac1ccd0d7123223a86bc0de5ed0d2f703"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "سوكر لات: كرة قدم ثلاثية الأبعاد",
+      "description": "تضعك سوكر لات في مباراة كرة قدم ثلاثية الأبعاد أمام لاعبين آخرين في الوقت الفعلي. اختر مركزك وتحرك لتوفير خيار للتمرير أو قطع طريق الخصم. تتراوح المباريات من لاعب ضد لاعب إلى أحد عشر ضد أحد عشر، وتشمل الأخطاء والركلات الحرة والركنية ورميات التماس. إذا انتهى الوقت بالتعادل تحسم ركلات الترجيح النتيجة.\n\nيمكن اختيار ملعب داخلي أو ساحة شارع وتخصيص ملابس اللاعب واسمه ورقمه. ويمكن تفعيل حراس مرمى آليين عند الحاجة. يرتبط مسار الكرة بحركة اللاعب وزاوية الكاميرا: الحركة الجانبية وقت التسديد تمنحها انحناء، ورفع النظر يساعد على إرسالها عالية. لذلك ابدأ بضبط موقعك واتجاهك قبل شحن التسديدة، واحذر التدخل المتأخر الذي يحتسبه الحكم خطأ.",
+      "instructions": "تحرك بـWASD، واركض بـShift واقفز بـSpace. حرّك الفأرة للنظر، واضغط الزر الأيسر باستمرار للمراوغة، والزر الأيمن لشحن التمريرة أو التسديدة ثم اتركه. C للانزلاق، وF لوضع الكرة عند لعب دور الحارس، وE لطلبها، وB لقائمة التعبيرات، و1 لمنظور الشخص الأول وEsc للإيقاف. انقر الزر الأيسر في الهواء لضربة مقصية. على الهاتف استخدم عصا الحركة والأزرار واسحب للنظر؛ يمكن تعديل المفاتيح في الإعدادات.",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "102bdb48ad827464d77d2c464af71f66c2b156b30a9711f98aa1891fb8cb3b53"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "title": "الجرار الأزرق",
+      "description": "قد الجرار الأزرق عبر ريف مشمس وساعد السكان في مهام التوصيل والجمع. تتبع السهم للوصول إلى الشخص الذي يحتاج إليك، ثم انقل الجبن إلى الطاهي بيبينو أو سلّم التبن والبيض والطرود. توجد أيضا حيوانات ضائعة وكنوز مخفية، فتجمع الرحلة بين تنفيذ الطلبات واستكشاف الطرق المحيطة دون ضغط زمني.\n\nتكسب عملات مقابل إنجاز المهام، ويمكن إنفاقها في المرآب على محرك أسرع وخزان أكبر وإطارات للطين، أو على الطلاء والزينة. راقب الوقود وحالة العجلات أثناء التجول وتجنب المياه العميقة. المتجر يتيح التزود والإصلاح، وإذا نفد الوقود أو تعطلت العجلات يستطيع أهل المزرعة المساعدة بعد انتظار قصير. يعرض الإيقاف أرقام أطول رحلة وأطول إقامة للمقارنة بمحاولاتك التالية.",
+      "instructions": "على الكمبيوتر استخدم W/A/S/D أو مفاتيح الأسهم للقيادة والتوجيه، وSpace للفرامل. على الهاتف اسحب عصا التحكم الظاهرة على الشاشة. اتبع السهم إلى صاحب المهمة، أنجز التوصيل أو الجمع ثم خذ العملات. راقب شريط الوقود واشتر الوقود وأصلح العجلات في المتجر عند الحاجة. افتح زر الإيقاف في الزاوية لمراجعة سجلات الرحلات.",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villag",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1e2fbcae0c3af6fb4a6d29baf86498c67d8bb558aa503e7bb57689014ed7037d"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "سيتي بوب درايف",
+      "description": "انطلق عبر مدينة بألوان هادئة وأجواء موسيقية مستوحاة من الثمانينيات. تتسارع السيارة تلقائيا، ومهمتك توجيهها بين المركبات والوصول إلى نقاط التفتيش قبل انتهاء العد التنازلي. عند تفرع الطريق تختار المسار السياحي أو الطريق السريع، فتتغير الرحلة والموسيقى مع اختيارك بدلا من اتباع مسار واحد ثابت.\n\nالمرور قرب السيارات دون الاصطدام بها يضيف وقتا ويملأ مقياس Breeze. عندما يمتلئ يبدأ اندفاع Boost الذي يزيح السيارات عن طريقك، فيربط التقدم بين تفادي المرور والمحافظة على الوقت. توجد خمس خرائط، منها الساحل والطريق الليلي والمنتجع الثلجي، وخمسة وعشرون غلاف أسطوانة للجمع عند بلوغ النهايات. استخدم رصيد Miles لترقية السيارة وفتح سيارات وخرائط أخرى.",
+      "instructions": "اضغط للبدء ثم اسحب يمينا أو يسارا للتوجيه. على الكمبيوتر يمكن سحب الفأرة أو استخدام الأسهم أو A وD، ويوقف P اللعب مؤقتا. لا تحتاج إلى زر للتسارع. مر قرب المركبات لزيادة الوقت وشحن Breeze، ثم اتجه إلى نقطة التفتيش التالية. اختر جانبا عند كل مفترق، وبلغ النهاية لجمع غلافها، وأنفق Miles في قائمة التطوير.",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d5b6a4580b6b35120e1cfa0f34fbdefe5ca88b730a164a1193b4229f17da6bd3"
+    },
+    "rocket-bloom": {
+      "sourceHash": "74e4a81083804988ee16647b80b70559e8844f45ee0b3a1f612f25013d74eab6",
+      "title": "روكيت بلوم",
+      "description": "أطلق صاروخك من المنصة وحافظ على ارتفاعه بتشغيل المحرك في الوقت المناسب. الضغط المستمر يدفعه إلى أعلى، وعند تركه يتباطأ ثم يسقط، ويمكن إعادة الدفع للحاق به ومتابعة الصعود. وجه الرحلة عبر العملات والحلقات والبالونات وعبوات الوقود؛ وجمع عشر عملات متتالية يفعّل AFTERBURN ويضاعف قيمة العملات ثلاث مرات.\n\nيتطلب فصل المراحل توقيتا دقيقا للحصول على دفعة PERFECT، ثم يعود الصاروخ بالمظلة بعد الرحلة. أنفق العملات على المحرك والخزان والزعانف وقيمة العملات وشعاع الجذب. وفي الحظيرة يمكنك دمج صاروخين للحصول على صاروخ أقوى ضمن اثني عشر نوعا. الهدف الأول بلوغ الفضاء عند ارتفاع مئة ألف متر، وبعده يستمر الصعود نحو القمر، فتفيد كل رحلة في تجهيز المحاولة التالية.",
+      "instructions": "اضغط مطولا على الشاشة أو على SPACE لتشغيل المحرك، واتركه لإيقاف الدفع ثم اضغط ثانية قبل أن تفقد الارتفاع المطلوب. اسحب إصبعك أو استخدم مفاتيح الأسهم للتوجيه نحو العملات والوقود. عند فصل المرحلة انتظر اخضرار الحلقة ثم اضغط مجددا لتحصل على دفعة PERFECT. بعد الهبوط طور الصاروخ في المتجر وادمج الصواريخ في الحظيرة.",
+      "referenceHash": "8ac50c56a4815c2b99bca5d32d9adffbe5ebd92fa9672d1d6be73f6718323f67",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hold the screen and your little rocket roars off the launch pad! It has real weight: let go and it slows, stops and fall",
+        "instructionsQuote": "Hold anywhere (or press SPACE) to run the engine; let go and the rocket falls, hold again to catch it. Slide your finger (or use the arrow k",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2cb4a3de478db518d9378e2a922f701e2df4a06390b1c27d91f59f1454071fd0"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "title": "حفرة الكنوز",
+      "description": "ابدأ الحفر في حديقة المنزل وانزل عبر طبقات صخرية تزداد صلابة بحثا عن الكنوز المدفونة. اجمع المكتشفات في حقيبتك ثم ارجع إلى كشك الحديقة لبيعها. يتيح الدخل شراء مجارف ومعاول ومثاقب أفضل وحقائب أكبر، فتتمكن من البقاء تحت الأرض مدة أطول ومتابعة الطريق إلى القاع على عمق ألف متر.\n\nتنتهي كل طبقة بمعلم مخفي يضمن العثور على قطعة نادرة، ويسجل كتاب المجموعة ما اكتشفته. راجع لوحة طلبات الجيران لمعرفة القطع التي يريدونها قبل البيع. تستطيع الحفر منفردا أو مشاركة الحديقة مع ما يصل إلى أربعة لاعبين، بإنشاء غرفة خاصة أو الانضمام برمز أو اختيار حديقة مفتوحة. وهناك أيضا سباق حفر ضمن خيار الجيران، بينما تدعم المعدات الإضافية مثل الحقيبة النفاثة والمتفجرات استكشاف الأعماق.",
+      "instructions": "تحرك بـWASD وانظر بالفأرة. اضغط مطولا على الزر الأيسر للحفر نحو نقطة التصويب، واقترب من القطعة لجمعها. عند امتلاء الحقيبة اضغط H للسطح وادخل الكشك للبيع. Space للقفز أو الحقيبة النفاثة، وB أو I للحقيبة، وC للمجموعة، وX لرمي متفجر وQ لتغيير نوعه. P يفتح اللعب المشترك. على الهاتف استخدم العصا والأزرار واضغط مطولا للحفر.",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "90aae254236a4ecd7a102725b7d54aab1bf4aa31cb00857dde5f15158f652b85"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1: النجاة من الزومبي",
+      "description": "واجه جحافل الزومبي بمنظور الشخص الأول في بلدات ذات أشكال مكعبة. تزيد قوتك نقطة واحدة كل ثانية، فتزداد قوة الطلقات مع الوقت. يبدأ المسار بساحة تدريب، ثم تحاول النجاة عشر ليال في كل واحدة من خمس بلدات. تبدأ كل ليلة بنفسك وتنتهي بعد القضاء على الجحفل، مما يمنحك فرصة لتجهيز موقعك قبل استدعاء الهجوم التالي.\n\nتحتوي المنازل والمتاجر على غرف تستطيع الاحتماء فيها ووضع أبواب وفخاخ عند مداخلها. استخدم المعول لفتح ثغرات في الجدران، وأصلح الدفاعات وطورها بين المواجهات. يمكنك ركوب السيارات لصدم الزومبي العاديين، لكن هذه الطريقة لا تنطبق على الزعماء. يفتح التقدم أحد عشر سلاحا وصولا إلى سلاح الثقب الأسود، وتتيح إعادة الولادة الحصول على مضاعفات دائمة للمحاولات اللاحقة.",
+      "instructions": "WASD للحركة والفأرة للنظر، والزر الأيسر للإطلاق والأيمن للتصويب. Space للقفز وShift للركض وR للتلقيم؛ بدّل السلاح بـ1–0 أو العجلة أو شريط الأسلحة. B يفتح مخطط البناء، وE للأبواب ودخول السيارة أو مغادرتها، وF للإصلاح وU للتطوير وG لبدء الليل وEsc للإيقاف. داخل السيارة W/S للدفع والفرامل وA/D للتوجيه. على الهاتف استخدم العصا والسحب للنظر وأزرار الإطلاق والبناء والتفاعل الظاهرة.",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "03383bfea130e021a49c7f9c178fedf19133f7e5e19efe6228088fda35b6e682"
+    },
+    "hatch-or-steal-online": {
+      "sourceHash": "23295ab666a3c44da6090a0aa0dbab965fedcde6d38eb180aca7921ca72643c7",
+      "title": "فقس أم سرقة: أونلاين",
+      "description": "ابن مزرعة للحيوانات الأليفة بشراء البيض وفقسه، أو بالحصول على حيوانات الآخرين في لعبة فقس أم سرقة. تضم المجموعة أكثر من أربعين حيوانا وبيضًا من ثماني درجات ندرة، وتدر المزرعة دخلا حتى أثناء غيابك. يمكن مشاركة الجلسة مع ما يصل إلى ستة لاعبين، أو دعوة الأصدقاء إلى غرفة خاصة بواسطة رابط.\n\nوازن بين توسيع مجموعتك وحمايتها: أغلق المزرعة وطارد اللصوص بالعصا، بينما تستطيع أنت أيضا أخذ حيوانات اللاعبين والشخصيات الآلية. وتؤدي بوابة إلى عرين التنين حيث تتجاوز العقبات للحصول على بيضة نادرة. استخدم التقدم لتطوير المزرعة وتدريب السرعة، ثم أعد الولادة للحصول على مكافآت دائمة. الملابس والأجنحة وآثار الحركة خيارات لتخصيص المظهر، ويحفظ التقدم تلقائيا عند العودة.",
+      "instructions": "تحرك بـWASD أو الأسهم واقفز بـSpace. E لشراء البيضة أو التقاط الشيء أو وضعه أو سرقته، وG لإسقاط المحمول. أخرج العصا بـ1 واضرب بالزر الأيسر. اضغط الزر الأيمن واسحب لتدوير الكاميرا، والعجلة للتقريب، وTAB لقفل المؤشر أو تحريره. M للملابس وB للتعبيرات وEnter للدردشة وEsc لإغلاق النافذة وH لإظهار التحكم. على الهاتف استخدم العصا والسحب يمينا والقرص للتقريب وأزرار التفاعل وخانة العصا.",
+      "referenceHash": "97f072dc9386dab38ea38ffeaed6be6e9b256f9d186efface97e21e2420d7b72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Buy eggs, hatch or steal cute pets and build the richest farm in Hatch or Steal: Online! Play with up to 6 players or in",
+        "instructionsQuote": "Keyboard and mouse: - TAB - lock or on coursor - WASD / Arrow keys - move - Space - jump - E - action: buy an egg, pick up, place, steal - G",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a6b15b711ac9925cd8e396a9c495b62ee4c49e5679d2b518b987b1cae0b3a371"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "إمبراطورية النرد",
+      "description": "ارم مجموعات النرد على لوحة ثلاثية الأبعاد واجمع دخلا يساوي الأرقام الظاهرة على أوجهها العليا. ابدأ بالمجموعات المتاحة ثم اشتر المزيد وافتح خمس فئات من النرد، من ذي أربعة أوجه إلى ذي عشرين وجها. ظهور أعلى قيمة ممكنة على نردة يمنح JACKPOT ويشحن مقياس FEVER؛ وعند امتلائه تتضاعف العوائد لثماني ثوان، ويمكن لبعض القطع الأثرية إطالة هذه الفترة.\n\nتعرض شارة CONTRACT هدفك التالي ضمن ثلاثين عقدا، فتمنح إنجازاته المال أو الصناديق أو التعزيزات. وهناك اثنتان وعشرون جائزة، وأهداف يومية وأسبوعية ومكافأة دخول تمتد سبعة أيام. أنفق العائد على النرد والحظ والقطع الأثرية والصناديق التي قد تمنح تماثيل تزيد الدخل. عندما تكسب مليون وحدة من عملة اللعبة في الجولة يمكنك إعادة الولادة للحصول على نجوم تضاعف العوائد بصورة دائمة.",
+      "instructions": "انقر اللوحة أو المسها أو اضغط Space أو زر ROLL لرمي جميع النردات الجاهزة. انتظر استقرارها وجمع العائد، ثم راجع العقد النشط واختر تطويرا في المتجر. افتح تبويب MISSIONS ونفذ الأهداف ثم اضغط CLAIM لاستلام مكافآتها. تابع شحن FEVER بالنتائج القصوى. عند بلوغ مليون في الجولة استخدم Rebirth إن أردت المضاعفات الدائمة، ويمكن خفض Graphics في المتجر إذا احتجت إعداد عرض أخف.",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2294f83b4d532e9ec6ecf29eedd4cd52c97603477d67b86f1797d196f8249c50"
+    },
+    "geometry-vibes-2-online": {
+      "sourceHash": "fefdc7b82f49e77e1aae81e18d6ecc7f01b9f01b48d30004404cecc9cdfe68f7",
+      "title": "جيومتري فايبس 2 أونلاين",
+      "description": "قد السهم عبر ممرات هندسية سريعة وبلغ نهاية المرحلة دون لمس الشوك أو الجدران أو بقية العوائق. تعتمد الحركة على الارتفاع أثناء الضغط والانخفاض عند تركه، ولذلك لا يكفي الاستمرار في الاتجاه نفسه؛ يجب توزيع النقرات والضغطات الطويلة بما يناسب الفجوات أمامك. النقر القصير يعدل المسار قليلا، بينما يساعد الضغط الأطول على اجتياز ارتفاع أكبر.\n\nيضم الجزء الثاني عشرين مرحلة كلاسيكية ونمط Infinity، ويضيف اللعب عبر الإنترنت إلى خيارات المنافسة. تجمع العملات أثناء اللعب والتقدم لفتح أربعة وعشرين مظهرا للسهم وستة عشر أثرا للحركة، ويمكن دمجها مع الألوان في قائمة التخصيص. تدعم الهواتف التحكم باللمس، وتوجد مفاتيح منفصلة للمشاركين عند اللعب الجماعي، بحيث تبقى دقة توقيت كل لاعب هي محور اجتياز الممرات.",
+      "instructions": "اضغط باستمرار على الزر الأيسر للفأرة أو SPACE لرفع السهم، واتركه لينخفض. استخدم نقرات قصيرة لتصحيح الارتفاع ولا تدع السهم يلامس الحدود أو الشوك. في اللعب الجماعي يستخدم الأول الزر الأيسر أو SPACE، والثاني UP ARROW، والثالث H والرابع L. على الهاتف استخدم اللمس للتحكم، وأنفق العملات من قائمة Customize لفتح المظاهر والآثار.",
+      "referenceHash": "1a4905ac038c0b3d4661646b674f858796e51926bd0895c5e0c0131836e0996c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Geometry Vibes 2 Online takes the fast, precise and addictive gameplay of the original Geometry Vibes and expands it int",
+        "instructionsQuote": "Geometry Vibes 2 Online is easy to learn, but mastering the movement and timing takes practice. Your goal is to reach the end of the level w",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b2055196939712516e739e17a63b857a7ea523983c5b87372d686ed3956c26f6"
+    },
+    "jelly-paint-wars": {
+      "sourceHash": "8b58f042bc6414f3a4a357f0a016294cb8516bc75905e403282fb115c0e8d765",
+      "title": "حروب طلاء الجيلي",
+      "description": "اختر بطلا من الجيلي وغط ساحة المعركة بلون فريقك بينما تواجه المنافسين بأسلحة الطلاء. تضم الخيارات تسعة وعشرين سلاحا وستة عشر نوعا من القنابل وست عشرة قدرة خاصة، مع ثمانية امتيازات مجانية للاختيار. يمكنك الذوبان في طلاء فريقك للسباحة بسرعة وإعادة ملء الحبر، لذا يفيد ربط الهجوم بالعودة إلى المناطق الملونة بدلا من إطلاق النار حتى نفاد المخزون.\n\nتختلف المهمة بحسب النمط: طلاء أكبر مساحة في Turf Clash، والسيطرة على المنطقة في Zone Control وMoving Hill، وتسليم الجواهر في Gem Collect. تشمل البدائل ساحة تتقلص واشتباكا فرديا لثمانية لاعبين وعشر موجات زومبي يتبعها عملاق، أو إلحاق أكبر ضرر بزعيم اليوم خلال دقيقتين. تتوزع الأنماط التسعة على عشر خرائط، مع خصوم آليين تزداد صعوبتهم حسب الرتبة وخيار اللعب عبر الإنترنت مع الأصدقاء.",
+      "instructions": "تحرك بـWASD وصوب بالفأرة وأطلق بالزر الأيسر. اضغط الأيمن باستمرار للتقريب مع بندقية القنص أو القوس. Space للذوبان في طلاء فريقك والسباحة وتجديد الحبر، وShift للاندفاع وQ للقنبلة وE للقدرة الخاصة. T للتعبير وY للدردشة السريعة عبر الإنترنت وP للإيقاف. على الهاتف بالوضع الأفقي استخدم العصا اليسرى للحركة واليمنى للتصويب والإطلاق، وأزرار الاندفاع والذوبان والقنبلة والقدرة.",
+      "referenceHash": "81f67e3b840b6a0272d33745ba1643c5c1f663ebb7cee99936ed56dc1a7dfc53",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Jelly Paint Wars is a colorful paint shooter where squishy jelly heroes battle to cover the arena in their team's color.",
+        "instructionsQuote": "Win the round: paint more of the map in Turf Clash, hold the zone in Zone Control and Moving Hill, deliver gems in Gem Collect, survive the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5bc32a212b93be37d917fece0527fd8d292fcc65cd893f5ad2ac97ccbab47c01"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "باتل كروس",
+      "description": "كوّن بطلا يتعلم من معلمين مختلفين ويجمع مهارات ست عشرة فئة، مثل درع الفارس ونار الساحر أو استدعاء الحراس وإيقاف الزمن. تهاجم الشخصية تلقائيا عندما تقترب من عدو، بينما تختار أنت توقيت استخدام القدرات وجرعات الصحة. لإنهاء المنطقة عليك هزيمة مجموعات الأعداء كلها ثم القائد في نهايتها، وتبقى الخبرة والغنائم معك حتى إذا سقط البطل.\n\nيمنح كل مستوى ثلاث نقاط للخصائص؛ وتحدد القوة والبراعة والذكاء والتحمل والمهارة والكاريزما المعدات والقدرات التي تستطيع الوصول إليها. في البلدات تشتري العتاد وتوسع حزام الجرعات وتتعلم مهارات تشغل ثماني خانات نشطة وأربع خانات سلبية. بعض القرارات في نهاية المناطق لا رجعة فيها، وتغير المتاجر والمعلمين والبلدات والنهاية، لذلك اقرأ الاختيارات قبل اعتمادها بدلا من التعامل معها كمحادثات عابرة.",
+      "instructions": "اقترب من العدو لبدء الهجوم التلقائي، واستخدم المهارات وجرعات الصحة حسب الحاجة. اهزم جميع المجموعات وقائد المنطقة لتكملها، ثم وزع نقاط المستوى الثلاث بما يخدم القدرات والعتاد اللذين تريدهما. زر المعالج لتوسيع حزام الجرعات والمعلمين لتجهيز المهارات النشطة والسلبية. قبل قرار نهاية المنطقة اقرأ أثره بعناية، لأن بعض الخيارات دائمة وتغير الخدمات والنهاية.",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c1db888b6b9c8796ae260b437960e64e9c9a838f322ba768fb7d4ad3d5dc763f"
+    },
+    "aod--art-of-defense": {
+      "sourceHash": "7d84c9ea4797727c34f53f85132b2261bd37d592ac8054c73b11dfe7033be3e4",
+      "title": "AOD: فن الدفاع",
+      "description": "تول قيادة فرقة A.O.D في حملة دفاع عن الأبراج تدور في عالم ما بعد الكارثة. تحاول قوات مستر إيفل الوصول إلى مشروع إينولا المفقود، ومهمتك بناء الدفاعات لحماية القاعدة وإيقافها. تنتقل المعارك بين قرى صغيرة ومدن كبيرة، وتجمع إدارة الأبراج بين التخطيط التكتيكي وتطوير المعدات والأبطال.\n\nتشمل الدفاعات الدبابات والرشاشات والأسلحة المضادة للطائرات، وتمنح بطاقات التطوير خيارات لتقوية كل برج. توجد ستة أبطال يمكن تطويرهم، ودعم ثقيل مثل القصف الباليستي وضربات الأقمار الصناعية والقنابل النووية لمواجهة القوات القوية والزعماء. وتتغير ظروف القتال عبر أنماط الهروب والضباب والبقاء. ابدأ بتجهيز شبكة الأبراج ثم راجع ترقياتها والقدرات المساندة المتاحة مع ازدياد تهديد الحملة.",
+      "instructions": "استخدم الزر الأيسر للفأرة لوضع برج، وعدل مدى الرؤية بعجلة التمرير أو بحركة القرص على لوحة اللمس. ابن الدفاعات لحماية القاعدة ثم طور الأبراج وأدخل الأبطال إلى القتال. راجع بطاقات الترقية والضربات المساندة المتاحة عند مواجهة قوات أقوى أو زعماء، واستعمل الدعم مثل القصف الباليستي أو ضربة القمر الصناعي لدعم شبكة الأبراج.",
+      "referenceHash": "55cd9da741187a3bf20785fc7e11d048f8303ca2c975c726fd6279ab8d67f996",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "AOD - Art Of Defense is a dynamic tower defense game with elements of strategy and RPG in a post-apocalyptic world.",
+        "instructionsQuote": "AOD - Art Of Defense is a dynamic tower defense game set in a post-apocalyptic world. As the commander of the A.O.D squad, you lead the figh",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "554b91d5c91eefbdf08eec7162226f6c3a297092f05a1b2e97239601bd0b1376"
+    }
+  }
+}

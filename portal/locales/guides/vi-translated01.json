@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "locale": "vi",
+  "games": {
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "Cờ vua nhiều người trực tuyến",
+      "description": "Chơi cờ vua với máy tính, đối thủ trực tuyến hoặc bạn bè trên cùng một màn hình. Máy có 21 mức độ khó; thời gian có thể không giới hạn hoặc theo các nhịp Bullet, Blitz, Rapid và Classic. Hãy chọn tốc độ phù hợp trước khi tính cách bảo vệ vua và phát triển quân.\n\nMục tiêu là chiếu hết: vua đối phương đang bị tấn công và không còn nước đi hợp lệ nào để giải nguy. Các ô gợi ý nước hợp lệ, trợ giúp tương tác và phân tích sau ván giúp bạn xem lại thế cờ. Trước khi đi, hãy tính phản ứng của đối thủ và kiểm tra quân đang bị đe dọa, rồi dùng lịch sử để tìm chỗ có thể cải thiện.",
+      "instructions": "Chọn kiểu ván và đặt độ khó hoặc thời gian được cung cấp. Hai bên luân phiên đi theo quy tắc của từng quân. Quan sát ô hợp lệ, bảo vệ quân có thể bị bắt và tìm cách chiếu hết vua đối phương. Sau ván, xem lịch sử nước đi hoặc bản phân tích để hiểu sai sót và cân nhắc phương án khác.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3fdd6859531a0bf85052e837e15320e019efe5c138d557201ca3555e6f954c24"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "Xếp vít theo màu",
+      "description": "Đưa các vít màu trên cụm kính vào hộp cùng màu ở phía trên màn hình. Mỗi vít cần được ghép với màu của hộp đích đang có, vì vậy hãy nhìn các hộp trước khi chọn vít cần chuyển. Trò chơi tập trung vào việc phân loại các vít theo đúng nơi nhận.\n\nKhi các lỗ của một hộp đã đầy, hộp đó được thay bằng hộp mới. Màu cần thu thập vì thế có thể đổi trong quá trình xử lý cụm vít. Sau mỗi lần thay hộp, hãy kiểm tra lại màu phía trên rồi mới chọn vít tiếp theo; đừng mặc định rằng màu vừa dùng vẫn là màu cần đưa vào.",
+      "instructions": "Quan sát màu các hộp phía trên, rồi chọn vít cùng màu và đưa vào hộp tương ứng. Theo dõi chỗ còn trống. Khi hộp đầy và được thay, kiểm tra màu hộp mới trước khi chọn tiếp. Lần lượt ghép các vít còn lại theo đúng màu của các hộp hiện có.",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the screws",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "568c032e6b0308239e716c71b70e53eeac09575589ba5949833c14f5a4de0bfc"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "Thoát khỏi hầm mộ",
+      "description": "Tìm lối ra khỏi từng căn phòng trong hầm mộ trước khi các pháp sư gọi hồn bắt được bạn. Chúng di chuyển nhanh hơn nhân vật, nên chỉ chạy ra xa chưa đủ để sống sót. Điểm yếu của chúng là không biết tránh vật cản một cách khéo léo.\n\nHãy đọc bố cục phòng để dụ kẻ đuổi theo vào ngõ cụt nhưng vẫn để lại đường đi cho mình. Mỗi bước cần tính cả tuyến của bạn và tuyến mà vị trí đó khiến đối phương chọn. Tính năng hoàn tác giúp sửa một bước bất lợi; gợi ý có thể hỗ trợ khi bạn chưa nhìn ra cách dùng vật cản để tiến sang phòng kế tiếp.",
+      "instructions": "Trên máy tính, dùng các phím mũi tên để di chuyển, Backspace để hoàn tác và H để xin gợi ý. Trên điện thoại, dùng bàn phím hướng và các nút trên màn hình. Kiểm tra chỗ bị chặn, dụ pháp sư vào đường cụt rồi đi qua lối còn mở. Nếu chọn sai thứ tự, hoàn tác và thử tuyến khác.",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ff710bcd0ee4a8957015d8e9a706204e2964c159cf7b4844425674262b8057d6"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "CubeGate",
+      "description": "Vượt qua các phòng thử nghiệm bằng cách đặt khối phát sáng lên tấm áp lực để cấp điện cho cửa, cầu và thang máy. Có phòng cần nhiều khối, có phòng đòi hỏi đúng thứ tự, hoặc cần nhảy tới vị trí khác trước khi đổi nguồn điện. Bài toán kết hợp bố trí khối với di chuyển chính xác.\n\nDây cáp, vạch trên sàn và đường năng lượng cho biết các bộ phận liên quan thế nào. Lập tuyến trước khi mang khối, đồng thời xem việc bật một cơ chế có làm đổi đường tới cơ chế khác hay không. Nếu thứ tự hiện tại khiến bạn mắc kẹt, mở menu để bắt đầu lại và thử cách sắp xếp hành động khác.",
+      "instructions": "Dùng WASD, các phím mũi tên hoặc Q/Z theo bố trí điều khiển để đi. E hoặc chuột trái nhấc/đặt khối; Space hoặc chuột phải nhảy; Shift chạy nhanh. Escape mở menu và mục chơi lại. Theo dấu sàn cùng dây cáp để chọn chỗ đặt khối. Với bệ xa, lấy đà rồi nhảy từ mép.",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "69ff713e873afa3c2b1201bbfd8fa0c0daecfefdad2f5a6b89495872102201a9"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "Ghép tranh yêu thích",
+      "description": "Ghép các mảnh thành một bức tranh hoàn chỉnh với độ khó từ 6 đến 1.200 mảnh. Bạn có thể bật xoay mảnh để tăng thử thách. Hai chế độ Classic và Realistic thay đổi cách bố trí; ở Realistic, các mảnh nằm rải trong vùng chơi thay vì chỉ theo cách sắp xếp cổ điển.\n\nẢnh mẫu, gợi ý và lưới tùy chọn giúp so sánh những đoạn khó nhận ra. Hãy bắt đầu ở màu hoặc đường viền đặc trưng rồi phóng to khi nhiều mảnh trông giống nhau. Ngoài thư viện hình, bạn còn có thể tạo trò ghép từ ảnh riêng và đổi giao diện hay màu nền để dễ quan sát bàn ghép.",
+      "instructions": "Trên máy tính, giữ chuột trái để kéo mảnh, dùng con lăn để phóng to, thu nhỏ hoặc cuộn dải mảnh. Trên điện thoại và máy tính bảng, di chuyển mảnh và chỉnh tầm nhìn bằng ngón tay. Chọn độ khó trước, ghép phần dễ nhận diện rồi đối chiếu ảnh mẫu hoặc lưới khi cần kiểm tra vị trí.",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "499a4fa813f24a9297aa6fe221288b7c02e0a2ad497ee327a2a2e6f9c070870e"
+    },
+    "nonogram": {
+      "sourceHash": "621a497ba9b82dc8a580a0b64502581e661f4c4960b90e6c61f646fe13610449",
+      "title": "Nonogram: Giải ô số thành tranh",
+      "description": "Dùng các con số ngoài lưới để xác định ô nào cần tô, từ đó làm hiện bức tranh ẩn. Số bên trái mỗi hàng và phía trên mỗi cột cho biết độ dài của từng nhóm ô liên tiếp. Nếu có nhiều số, các nhóm phải theo đúng thứ tự và cách nhau ít nhất một ô trống.\n\nVí dụ, 3 rồi 1 là ba ô tô liền nhau, một khoảng trống trở lên, rồi một ô tô. Yêu cầu của hàng và cột phải đồng thời đúng, nên mỗi nhóm đã xác nhận sẽ giúp suy ra những đường giao với nó. Chọn độ khó và giải bằng suy luận, kiểm tra hai hướng trước khi tô một vị trí còn chưa chắc chắn.",
+      "instructions": "Đọc số của hàng từ trái sang phải và số của cột từ trên xuống. Tô nhóm có độ dài đúng với từng số, để ít nhất một ô trống giữa hai nhóm. So sánh cả hàng lẫn cột trước khi quyết định ô chưa rõ. Sau khi xác nhận một nhóm, kiểm tra lại những đường giao nhau và tiếp tục cho đến khi hoàn thành hình.",
+      "referenceHash": "f11d886dbefdbc35dc9001f47fcf56f4b949927554d10393e3fcfd6cb48208c6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Nonogram is a captivating picture cross puzzle with a vast collection of griddlers. Challenge your mind with this easy-t",
+        "instructionsQuote": "The Goal: - Fill in the correct squares to form a picture, using only the number clues - no guessing. Understanding the Clues: - Numbers app",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "020aba380bf0c3ebe3e148fb82ea5c0a06cb161ae1ba96a7baea2d4c9cdaa742"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "Tiệm tóc 3D",
+      "description": "Xem kiểu tóc khách yêu cầu rồi tái tạo bằng dụng cụ của tiệm. Kéo, tông đơ, dao cạo và cọ nhuộm đảm nhận các phần việc khác nhau, từ cắt bob đến mohawk hay tóc nhiều lớp. Kết quả càng gần mẫu, bạn càng nhận được nhiều sao và tiền boa.\n\nTrước khi cắt, mở ảnh xem trước ba chiều ở thẻ bên phải để hiểu độ dài và chi tiết. Xoay góc nhìn để kiểm tra mặt còn lại, chọn dụng cụ đúng rồi thêm màu nếu cần. Thu nhập trong trò chơi mua dụng cụ và thuốc nhuộm mới; tiến trình mở các kiểu cắt phức tạp hơn và thêm khách để phục vụ.",
+      "instructions": "Chạm thẻ yêu cầu bên phải để xem mẫu. Chọn kéo cho đường cắt chính xác, tông đơ để tỉa đều và dao cạo cho chi tiết. Vuốt trên đầu để cắt; dùng hai ngón tay xoay hoặc chỉnh góc nhìn. Khi cần nhuộm, chọn cọ và màu. So lại với yêu cầu rồi nhấn Done để nhận đánh giá.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "274a80aa0520abd5ab5275b2ce9e4235b1329aebf0acfda48cc707c25691fbe1"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "Đua xe biểu diễn 3D",
+      "description": "Lái xe trên các đường đua trên cao có dốc phóng, khoảng nhảy và chướng ngại chuyển động. Mục tiêu là tới đích mà không đâm xe hoặc rơi khỏi đường. Ở màn có giới hạn thời gian, bạn còn phải giữ nhịp độ đủ nhanh để hoàn thành trước khi hết giờ.\n\nNhiều góc máy giúp nhìn đoạn hẹp và điểm tiếp đất. Hãy căn xe thẳng trước dốc, quan sát chu kỳ vật cản rồi mới băng qua. Các điểm kiểm tra cho phép tiếp tục từ giữa tuyến sau khi rơi. Cân bằng tốc độ với khả năng giữ xe trên đường, nhất là khi những đoạn sau tăng độ khó.",
+      "instructions": "Trên máy tính, mũi tên lên tăng tốc, xuống lùi, trái/phải đánh lái; Spacebar phanh. Trên điện thoại, dùng nút lái cùng bàn đạp ga và phanh. Căn hướng trước dốc, kiểm tra vật cản đang chuyển động và kiểm soát điểm đáp. Tới đích trong thời gian cho phép mà không rơi khỏi tuyến.",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The original description repeatedly advertises an offline downloadable app. This guide omits those unsupported delivery claims and retains the explicitly documented driving controls, raised tracks, obstacles, camera views, checkpoints and timed finish."
+      },
+      "reviewedTextHash": "0ff32f82a4d433e848ef134db3af67ab18089f52d7fc2c71957e1f82e46fb304"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "Đế chế thể thao nhàn rỗi",
+      "description": "Phát triển một đội bóng rổ nhỏ thành câu lạc bộ nhiều môn, gồm khúc côn cầu, bóng đá, bóng bầu dục, bóng chuyền và bóng chày. Các trận đấu được mô phỏng tự động; quyết định của bạn tập trung vào tuyển cầu thủ, tập luyện, trang bị và kỹ năng để tăng sức mạnh cùng khả năng chiến thắng.\n\nDùng thu nhập để cải thiện đội hiện tại và mở môn mới. Nút Sports cho phép đổi môn, xem tiến trình giải đấu; các thẻ khác quản lý cầu thủ, vật dụng và phần thưởng. Sự kiện cùng mùa giải tạo thêm mục tiêu. Khi quay lại, nhận thưởng đã tích lũy rồi cân nhắc nhu cầu của câu lạc bộ trước lần nâng cấp tiếp theo.",
+      "instructions": "Trên máy tính, dùng chuột trái với các nút giao diện; trên điện thoại, chạm và cuộn bảng. Mua nâng cấp, tuyển cầu thủ, gắn trang bị và dùng kỹ năng qua menu. Mở Sports để chọn môn hoặc kiểm tra giải đấu. Nhận phần thưởng và xem thẻ sự kiện; trận đấu diễn ra tự động nên bạn điều hành đội qua các lựa chọn quản lý.",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketba",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using sk",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "336fa121e3d01c9902d1071196797df7c0420fb52dd7209cc87af9a63b20f621"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "Obby Craft: Lắp máy bay",
+      "description": "Lắp máy bay từ các khối rồi phóng qua tuyến chướng ngại. Mỗi bộ phận ảnh hưởng tới chuyến bay, và tiền nhặt trên không giúp mua linh kiện hay cải tiến tiếp theo. Chu trình chính là dựng thiết kế, bay thử qua thử thách và dùng nguồn lực để chỉnh cho lần sau.\n\nTới vùng chế tạo cạnh máy bay, chọn bộ phận trong kho bên dưới và lắp vào. Nâng cấp ná phóng trước khi cất cánh giúp bay nhanh và cao hơn. Trò chơi có hai mẫu ngoại hình miễn phí và tối đa bốn ô lưu thiết kế. Vòng quay thưởng có thể cho linh kiện hoặc tiền, còn trên đường bay bạn cần tránh vật cản và thu thập tài nguyên.",
+      "instructions": "Đến cạnh máy bay, chọn linh kiện ở kho phía dưới rồi nhấp để lắp. Nếu hết bộ phận, mua thêm tại cửa hàng. Dùng tiền nâng ná phóng trước khi xuất phát. Phóng máy bay, điều hướng trên không, nhặt tiền và né chướng ngại. Quay lại cửa hàng để mua khối mới rồi điều chỉnh thiết kế cho lượt kế tiếp.",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source has one stray sentence about testing a car, while the title and detailed assembly, launch and flight instructions consistently describe an airplane. This guide omits that car noun and follows the documented aircraft-building workflow."
+      },
+      "reviewedTextHash": "1d20c6ecb6c103f7e1ede33268022e2baba4630a3cf0a7c8a96c12942f1d8ecf"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "Hợp nhất kỷ Jura: Tiến hóa khủng long",
+      "description": "Ghép hai khủng long giống nhau để tạo sinh vật mạnh hơn, rồi sắp xếp đội hình trên chiến trường. Sau khi đưa quân vào trận, chúng chiến đấu tự động. Vì thế việc hợp nhất và bố trí trước trận là những lựa chọn chính để đối phó đội quân địch.\n\nChiến thắng mang lại vàng và tinh thể để mở nhân vật mới hoặc nâng cấp sinh vật đang có. Khi gặp đối thủ mạnh hơn, hãy xem lại những cặp có thể ghép và vị trí từng đơn vị. Tiến trình nối ba bước với nhau: phát triển khủng long, tổ chức đội hình và dùng phần thưởng để chuẩn bị lực lượng cho thử thách tiếp theo.",
+      "instructions": "Trên máy tính, kéo nhân vật bằng chuột trái; trên điện thoại, vuốt hoặc kéo để di chuyển. Ghép hai khủng long giống nhau, sắp xếp đội rồi đưa vào trận tự động. Dùng vàng và tinh thể thắng được để mở nhân vật hoặc nâng cấp, sau đó điều chỉnh đội hình trước trận mới. Cân nhắc cả sức mạnh lẫn vị trí các đơn vị.",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e181cbbbe70f9c8297f0d4b729e6792af5dfd533397741208ca5bd3f74eeabb6"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "Dogfight: Không chiến",
+      "description": "Lái máy bay chiến đấu qua các cuộc giao tranh trên không bằng cách đổi tốc độ, rẽ và lộn vòng. Hướng mũi cùng vị trí của máy bay quyết định cách đưa mục tiêu vào đường bắn. Vũ khí chính và vũ khí phụ cung cấp hai lựa chọn tấn công khi bạn cơ động.\n\nHãy học sự khác nhau giữa rẽ thường và rẽ gấp trước khi kết hợp với kéo mũi lên hoặc lăn nghiêng. Sau khi bắn, chừa khoảng trống để đổi hướng và chuẩn bị lượt tiếp cận khác. Máy tính dùng các phím riêng cho bay và vũ khí, còn điện thoại có cần điều khiển cùng các nút hành động trên màn hình.",
+      "instructions": "W tăng tốc, S giảm tốc; A/D rẽ trái/phải, Q/E rẽ gấp. Space kéo mũi lên, Shift lăn nghiêng, J bắn vũ khí chính, K dùng vũ khí phụ và R nạp đạn. Trên điện thoại, dùng cần điều khiển cùng nút bắn, kéo mũi và lăn. Chỉnh vị trí máy bay trước khi khai hỏa rồi giữ chỗ để tiếp tục đổi hướng.",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers li",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7772952e9dffa921a413fd0452e626439b009b04c0da1e3e31878fa8e3c5b97e"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "Canyon Drifter",
+      "description": "Vượt các đường thử mô tô hai chiều có dốc cao và khoảng nhảy. Tăng ga thôi chưa đủ: nghiêng người trước hoặc sau thay đổi cân bằng khi mặt đất lên xuống. Mục tiêu là hoàn thành tuyến và cải thiện thời gian trên bảng xếp hạng mà vẫn kiểm soát được xe.\n\nBạn có thể chọn cấu hình phù hợp với đất và địa hình rồi chỉnh lại trong gara khi mắc ở đoạn khó. Quan sát chính xác nơi xe mất thăng bằng để quyết định nên thay thời điểm nghiêng hay thay thiết lập. Một lần thử mới kết hợp cả cách lái lẫn cấu hình, thay vì chỉ tăng tốc qua chỗ vừa ngã.",
+      "instructions": "W hoặc mũi tên lên tăng ga; S hoặc xuống phanh/lùi. A hoặc trái nghiêng ra sau và nhấc bánh trước; D hoặc phải nghiêng về trước. R chơi lại, Esc hoặc P tạm dừng. Trên điện thoại, dùng bốn nút ga, phanh và nghiêng xuất hiện khi chạm lần đầu; nút dừng và chơi lại ở góc trên phải.",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2171f8ff4cf2712cc5372508ed677b74418cd8ffe0a71537810444a7132e3723"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "Sudoku trực tuyến",
+      "description": "Điền các số từ một đến chín vào lưới chín nhân chín, không lặp trong mỗi hàng, cột và ô vuông ba nhân ba. Chế độ cổ điển có bốn mức khó. Bắt đầu ở ô có nhiều hàng xóm đã điền giúp giới hạn lựa chọn, rồi dùng kết quả ấy để suy tiếp những vị trí giao nhau.\n\nCác biến thể thêm điều kiện: X-Sudoku áp dụng cả hai đường chéo, Windoku có vùng bổ sung, Killer Sudoku yêu cầu tổng nhóm đúng số cho trước. Trong Kropki, chấm trắng là hai số chênh một, chấm đen là một số gấp đôi số kia. Ghi các ứng viên vào chế độ chú thích rồi loại dần khi nhận thêm dữ kiện.",
+      "instructions": "Chọn chế độ và độ khó. Điền 1–9 đúng một lần trong từng hàng, cột và vùng 3×3. Dùng ghi chú để giữ các số có thể rồi bắt đầu ở nơi ít lựa chọn. Với biến thể, kiểm tra thêm đường chéo, vùng đánh dấu, tổng nhóm hoặc quan hệ Kropki. So tất cả điều kiện liên quan trước khi chốt một số.",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers fou",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "317bbb91ba4f350a60889868772e185abb06582941172516c8f2f4e38e40ca1c"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "Cờ vua 3D: Phiên bản Arcane",
+      "description": "Chơi cờ vua trong khu vườn huyền ảo với quân màu đồng và vàng. Máy có ba mức độ khó; các chấm sáng cho biết nước hợp lệ của quân đang chọn. Mục tiêu vẫn là chiếu hết vua đối phương, tức vua bị tấn công và không còn nước hợp lệ nào có thể giải nguy.\n\nXoay hoặc phóng to bàn để xem thế cờ. Nút bóng đèn cho tối đa ba gợi ý mỗi ván; ở chế độ một người đây là tính năng có phần thưởng. Muốn đấu với bạn, chọn Play a Friend và chia sẻ mã phòng. Phòng chỉ tồn tại tạm thời, nên ván và lịch sử sẽ mất sau khi mọi người đều rời đi.",
+      "instructions": "Nhấp hoặc chạm một quân, rồi chọn ô sáng để đi. Tới ô của quân đối phương để bắt và tìm cách chiếu hết. Kéo để xoay góc máy, dùng cử chỉ chụm hoặc con lăn để đổi độ phóng. Bóng đèn mở gợi ý, bánh răng mở thiết lập. Play a Friend tạo phòng riêng để người kia vào bằng mã.",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f72c8f5adfe6cb9c309cbe3f2836420c91945cb0eb7592ea35b106c61f691474"
+    },
+    "ashfall-industries": {
+      "sourceHash": "e7fb0f0c2799b887e54f39e10f74e44b3e5555fed5915b8f20fe6a05ebf3fc76",
+      "title": "Ashfall Industries",
+      "description": "Xây mạng lưới công nghiệp trên vùng hoang tàn, bắt đầu từ máy bơm Rustwater tạo Scrap. Mười lăm cơ sở gồm nhà kính, bãi thu hồi, trạm radio, đường đoàn xe, xưởng drone và nhà máy lọc. Nâng cấp giúp thu nhiều hơn hoặc rút ngắn chu kỳ sản xuất.\n\nCrew Chief tự động hóa công việc, còn Retrofit cải thiện sản lượng, tốc độ, chi phí và thưởng Lucky Find. Thu các phát hiện ấy và đạt mốc Benchmarks khi mở rộng. Khi sẵn sàng bắt đầu lại, Reclamation cấp Reactor Core để mua Recovery Protocol vĩnh viễn, giúp lần xây dựng sau có lợi thế từ phần thưởng đã đạt.",
+      "instructions": "Nhấp chuột trái hoặc chạm các nút. Mua cơ sở và bấm Run để tạo Scrap, sau đó dùng Scrap tăng cấp hoặc mở doanh nghiệp mới. Thuê Crew Chief, mua Retrofit và nhận Lucky Find. Khi muốn tái thiết, chọn Reclamation để lấy Reactor Core và dùng cho nâng cấp vĩnh viễn trước khi phát triển lại.",
+      "referenceHash": "a51019fb2ba84b6d9e7a862eb69462f787b01b1ed9ceb1b3cf43a035faee92e9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Ashfall Industries is a comic atompunk idle management game about turning a battered wasteland into a thriving industria",
+        "instructionsQuote": "How to Play 1. Buy an operation and click its Run button to begin producing Scrap. 2. Spend Scrap to level up operations, unlock more busine",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e39618fbcc6883f4c2fb39c11c04587a4bef1fb248236761fe46044b622c7a40"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "Turnline: Nối đường thư giãn",
+      "description": "Xoay các ô để nối những đoạn đường thành một mạng hoàn chỉnh. Mỗi mảnh phải có hướng phù hợp với ô bên cạnh, và màn chỉ xong khi mọi đoạn bắt buộc đều kết nối. Những đường đã nối đúng được làm nổi bật, giúp bạn nhận ra phần còn thiếu.\n\nCác màn đầu giới thiệu quy tắc đơn giản; về sau mạng lớn hơn, nhiều nhánh và nhiều tuyến giao nhau. Không có đồng hồ đếm ngược nên bạn có thể xét tác động của một lần xoay trước khi chọn mảnh kế tiếp. Gợi ý hỗ trợ khi mắc kẹt và tiến trình được lưu để tiếp tục các bố cục khó hơn ở lượt sau.",
+      "instructions": "Dùng chuột nhấp vào ô trên máy tính, hoặc chạm ô trên điện thoại và máy tính bảng để xoay. So đầu đường với các ô lân cận rồi xoay đến khi chúng khớp. Theo dõi những đoạn được làm sáng và tìm chỗ còn đứt. Nối đủ mọi phần yêu cầu để qua màn; dùng gợi ý nếu chưa thấy bước hữu ích.",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2639467d543093f14f2809c81ca72bea919e829b3e5d633a97b1d503570cd3f4"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "Loopix",
+      "description": "Lái sao chổi và khép một vòng quanh nhóm sinh vật để bắt mọi thứ bên trong. Vòng càng lớn, chuỗi thưởng càng cao và sao chổi càng phát triển. Chạm vệt của sao chổi khác khiến bạn bị loại, nhưng nhốt đối thủ trong vòng của mình sẽ lấy được điểm của chúng.\n\nĐánh bại Guardian ở từng thế giới rồi qua lỗ đen sang nơi tiếp theo. Bạn đồng hành cho tiền thưởng, còn ngoại hình, mũ và nâng cấp vĩnh viễn mở thêm mục tiêu. Tăng tốc giúp thoát hiểm hoặc khép vòng kịp lúc nhưng làm giảm một chút kích thước. Cân nhắc lúc dùng để vẫn giữ đường an toàn cho vòng tiếp theo.",
+      "instructions": "Dùng chuột, các phím mũi tên hoặc A-D để lái. Giữ chuột trái hoặc Space để tăng tốc với chi phí một phần kích thước. Trên điện thoại, kéo ngón tay để đổi hướng; chạm hai lần rồi giữ lần thứ hai để tăng tốc. Khép vòng quanh sinh vật, tránh vệt đối thủ và hạ Guardian để mở đường sang thế giới mới.",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ed320adc8aca502d7476967ae1c97690bf4134700d6f695f6ea4c8434d0c5e06"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "title": "SWAT OPS: Camera gắn người",
+      "description": "Tham gia trận bắn súng góc nhìn thứ nhất qua camera gắn trên người với hiệu ứng méo ống kính và rung hình. Bốn bản đồ có các trận ngắn với máy hoặc người chơi khác. Deathmatch, Team Deathmatch và chế độ zombie tạo những mục tiêu khác nhau trong bối cảnh chiến đấu.\n\nDeathmatch thắng khi đạt mười lăm lần hạ đối thủ; Team Deathmatch cần đội đạt ba mươi. Theo dõi giới hạn ba phút cùng bảng điểm. Tiền từ trận đấu mở hộp chứa ngoại hình và phụ kiện súng, còn vé mùa tạo tiến trình bổ sung. Khi bắn xa, dùng ngắm qua kính để tăng độ chính xác.",
+      "instructions": "WASD di chuyển, chuột nhìn, trái bắn, phải ngắm, R nạp đạn, Q/con lăn đổi súng. Shift chạy, Ctrl cúi, Space nhảy, Tab hoặc Esc mở PDA và bảng điểm. Trên điện thoại đặt ngang, dùng cần trái để đi, kéo bên phải để nhìn và các nút bắn, ngắm, nạp, nhảy, cúi, đổi súng. PDA mở menu và điểm số.",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera sh",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. D",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "67c08c8095f750155d46726cc16605575fd354638510aab7ef97d7f45d5e1dfe"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "SoccerLat: Bóng đá 3D trực tuyến",
+      "description": "Chọn vị trí và thi đấu bóng đá theo thời gian thực, từ một đấu một đến mười một đấu mười một. Phạm lỗi, đá phạt, phạt góc, ném biên và luân lưu đều góp phần vào trận. Nếu hòa khi hết giờ, hai bên đá luân lưu; thủ môn máy có thể bổ sung vào khung thành khi cần.\n\nChọn sân trong nhà hoặc sân đường phố rồi tùy chỉnh trang phục, tên và số áo. Di chuyển ngang khi sút làm bóng xoáy, còn ngẩng góc máy giúp đưa bóng bổng. Hãy chỉnh vị trí trước khi nạp lực và canh lúc xoạc lấy bóng, vì vào chậm có thể bị trọng tài thổi lỗi.",
+      "instructions": "WASD đi, Shift chạy, Space nhảy, chuột nhìn. Giữ trái rê bóng, giữ phải nạp lực chuyền/sút rồi thả. Nhấp trái khi ở trên không để móc bóng. C xoạc, F đặt bóng khi làm thủ môn, E xin bóng, giữ B mở biểu cảm, 1 góc nhìn thứ nhất, Esc dừng. Điện thoại dùng cần, nút và kéo để nhìn; có thể đổi phím ở Settings.",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a73a888089f7e78f31552b276c1a90c0a0dce1fbd1f5d180d6b650cbebf47b13"
+    },
+    "slime-loop": {
+      "sourceHash": "d48d31fbebeae5cce47fb61d675aa02c5fecdade1d10adf6eff75ece3e6e845d",
+      "title": "Slime Loop",
+      "description": "Chọn slime để chạy quanh vòng và bắn các điểm ảnh cùng màu, dần làm sạch một bức tranh pixel. Mỗi slime chỉ có số lượt bắn nhất định được ghi trên thân. Thứ tự đưa chúng vào đường vòng quyết định màu nào có thể xử lý phần tranh hiện tại.\n\nChỗ đỗ dành cho slime chờ là hữu hạn, vì vậy cần giữ khoảng trống thay vì đưa mọi con ra cùng lúc. Khi màu của slime đã đỗ trở nên hữu ích, bạn có thể gửi nó chạy tiếp. Trò chơi có bốn trăm năm mươi màn cùng cơ chế mới và vật phẩm hỗ trợ; mục tiêu từng màn là xóa hết mọi điểm ảnh mà vẫn quản lý được các vị trí chờ.",
+      "instructions": "Nhấp chuột trái hoặc chạm một slime để đưa vào vòng. Xem số lượt bắn còn lại và chọn màu có thể xóa phần tranh đang hiện. Gửi slime đã đỗ trở lại khi cần màu ấy, đồng thời giữ chỗ đỗ trống. Xóa toàn bộ điểm ảnh để hoàn thành; dùng vật phẩm hỗ trợ với bố cục khó. Không cần phím bàn phím.",
+      "referenceHash": "bb40d565999efa89a66f3f4584648bfc2f7eb90ab85901f27578162b14218755",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Slime Loop is a colorful puzzle game where cute slimes travel around a loop and clear matching pixels. Choose which slim",
+        "instructionsQuote": "Tap a slime on a touchscreen, or click it with the left mouse button, to send it onto the loop. The slime shoots pixels of its own color as ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "11712ad5989dc4237569c234be47e523d2d431e090d3a179c9c34d36530e8319"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "City Pop Drive",
+      "description": "Lái xe qua thành phố màu pastel mang không khí nhạc thập niên tám mươi. Xe tự tăng tốc, còn bạn phải giữ hướng giữa dòng xe và tới điểm kiểm tra trước khi hết giờ. Mỗi ngã rẽ cho chọn tuyến ngắm cảnh hoặc đường nhanh; âm nhạc thay đổi theo lối đã chọn.\n\nLướt sát phương tiện mà không va chạm cộng thời gian và nạp thanh Breeze. Khi đầy, Boost đẩy xe khác sang bên. Năm bản đồ mang bối cảnh riêng, từ ven biển đến khu nghỉ dưỡng tuyết. Tới đích để nhận một trong hai mươi lăm bìa đĩa sưu tầm, rồi dùng Miles mua nâng cấp, xe hoặc bản đồ mới.",
+      "instructions": "Chạm để bắt đầu rồi kéo trái/phải để đánh lái. Trên máy tính có thể kéo chuột, dùng phím mũi tên hoặc A/D; P tạm dừng. Lướt gần xe an toàn để lấy thời gian và Breeze. Chọn hướng ở ngã rẽ, tới điểm kiểm tra đúng giờ và hoàn thành tuyến để lấy bìa đĩa. Đầu tư Miles qua các mục nâng cấp.",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0321e07157956b805f40c755aee75ab8030718c0c4424738127a5f89a73b7f4c"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "title": "Loot Hole: Đào kho báu",
+      "description": "Đào từ sân trước xuống những lớp đá ngày càng cứng để tìm kho báu chôn vùi. Mang đồ tìm được lên quầy trên mặt đất để bán, sau đó dùng tiền mua công cụ hoặc ba lô lớn hơn. Mục tiêu đáy nằm ở độ sâu một nghìn mét, với vật hiếm tại mốc ẩn cuối mỗi lớp.\n\nSổ sưu tầm ghi các khám phá, còn bảng yêu cầu của hàng xóm cho một số món mục đích cụ thể. Xẻng, cuốc, máy khoan, túi bay và chất nổ hỗ trợ các chuyến sâu hơn. Bạn có thể đào một mình hoặc chung sân tối đa bốn người, tạo phòng riêng, nhập mã bạn bè hay tìm một sân mở.",
+      "instructions": "WASD đi, chuột nhìn, giữ trái để đào vào chỗ ngắm. Lại gần vật tìm được để nhặt. H lên mặt đất, rồi vào quầy bán. Space nhảy/dùng túi bay, B hoặc I mở ba lô, C sưu tầm, X ném chất nổ, Q đổi loại, P mở Play together. Trên điện thoại, dùng cần và nút trên màn hình, giữ chạm để đào.",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1bb2947605ad4e1d8f3feba88334e779af5926a5a64d14b26a33c351f3f24d35"
+    },
+    "smashsite-io": {
+      "sourceHash": "7ee2852bb3865b7b11b8b764a2fc3a5087670d80a2ac1e8b5f24c947efe7e406",
+      "title": "SmashSite.io",
+      "description": "Chiến đấu tại công trường bằng dụng cụ nặng và ăn đồ rải trên bản đồ để lớn lên. Đòn đúng lúc có thể hất đối thủ đi xa, còn hai vũ khí đánh cùng thời điểm có thể chạm đỡ nhau. Sáu bậc phát triển tăng kích thước và tầm đánh của nhân vật.\n\nVùng an toàn thu hẹp theo thời gian. Thùng có thể chứa thức ăn, nam châm hoặc khiên, nhưng một số thả drone truy đuổi; lon dưới đất làm trượt chân. Giữ khoảng cách bằng đầu vũ khí và dành sức chạy để thoát kẻ lớn hơn. Tiền rơi từ đối thủ khổng lồ giúp tăng cấp nhanh nếu bạn tiếp cận được an toàn.",
+      "instructions": "Chuột điều hướng. Chuột trái, J hoặc F đánh; giữ chuột phải, Space, Shift hoặc Q để chạy nhanh. E mở biểu cảm, Space ở màn thua chơi lại. Trên điện thoại, dùng cần trái, Smash để đánh, Boost để chạy và nút biểu cảm góc trên phải. Theo dõi tầm vũ khí đối thủ, sức chạy và rìa vùng an toàn khi di chuyển.",
+      "referenceHash": "d4d9034ddc2fc0f09e599c84d0b981adb61ce0a043b18a79e9f712c0c7d54d72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SmashSite.io — SMASH. GROW. DOMINATE THE SITE. Welcome to SmashSite.io, the craziest 3D slapstick combat battleground se",
+        "instructionsQuote": "DESKTOP (PC / MAC): - Mouse Movement: Aim and steer your character (360-degree direction) - Left Mouse Button / J / F: Smash / Attack (Tap o",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4c5e00aad1795f4d5e907024003f97f4a6cbd71601d3cc05cf2eea35f3ff6901"
+    },
+    "crown-crafts": {
+      "sourceHash": "9affe29b0cb2b9d998eec53e0c3ec9036924f7e9c21ba5ac2201ad60bd3e06f3",
+      "title": "Crown & Crafts: Vương quốc và nghề thủ công",
+      "description": "Xây một nền kinh tế thời trung cổ trong đó mọi món hàng đều cần chuỗi sản xuất và vận chuyển. Quặng phải qua lò luyện rồi thợ rèn mới thành kiếm cho tân binh; ngũ cốc thành bột, thành bánh rồi được người khuân giao tới nhà. Bạn thiết kế hệ thống hoạt động của làng thay vì điều khiển riêng từng cư dân.\n\nHơn ba mươi công trình và hai mươi tám hàng hóa đòi hỏi đường đi, người chở, xe và kho hợp lý. Sau khi bảo đảm nhà ở, thức ăn và sản xuất, hãy lập quân bảo vệ trước cướp và lãnh chúa đối địch. Chiến dịch có mười hai nhiệm vụ cùng mục tiêu phụ; Renown và Crown Seal mở sắc lệnh, bản thiết kế và cờ hiệu.",
+      "instructions": "Chuột trái chọn/xây; phải ra lệnh lính đã chọn: đi trên đất, đánh cướp hoặc vào tháp canh. Kéo hoặc WASD/mũi tên dịch bản đồ, con lăn phóng, Esc hủy/menu, Space dừng, 1–3 đổi tốc độ, R làm đường, X phá dỡ. Trên cảm ứng, chạm chọn, kéo bản đồ, chụm để phóng; chọn đơn vị rồi chạm đúp đích để điều quân. Xem mục tiêu góc trên trái và bắt đầu Campaign để học từng bước.",
+      "referenceHash": "0257553df0c159da03ee1b0effa824bedee20cb29542f7902ced2f042f2b1590",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Every sword has a story. In Crown & Crafts nothing appears out of thin air: ore is dug at the mine, carried to the smelt",
+        "instructionsQuote": "Goal: complete each mission's objectives (shown at the top left) by building a working village: roads, homes, food and production chains, th",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7eb7ae42ca1247996af1f8fa1309e1fd49bb379bc29455d4487433617a5c6005"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1 Sinh tồn trước zombie",
+      "description": "Đối đầu bầy zombie trong thế giới khối vuông và nhận thêm một điểm sức mạnh mỗi giây để tăng uy lực phát bắn. Sau khu tập luyện, bạn cần sống sót mười đêm tại mỗi thành phố trong năm thành phố. Bạn chủ động bắt đầu đêm mới, và đêm kết thúc khi toàn bộ bầy đã bị hạ.\n\nẨn trong phòng, đặt cửa cùng bẫy và dùng cuốc phá tường để tạo lối hoặc khe đánh. Có thể dùng xe đâm zombie thường nhưng không áp dụng với trùm. Mười một vũ khí dần mở, gồm súng hố đen. Sửa và nâng phòng thủ trước lượt sau, rồi dùng tái sinh để lấy hệ số tăng vĩnh viễn cho những lần phát triển tiếp theo.",
+      "instructions": "WASD đi, chuột nhìn, trái bắn, phải ngắm, Space nhảy, Shift chạy, R nạp. 1–0/con lăn đổi súng, B bản thiết kế, E mở cửa hoặc vào/ra xe, F sửa, U nâng, G bắt đầu đêm, Esc dừng. Trong xe W/S ga/phanh, A/D lái. Điện thoại dùng cần trái, kéo bên phải để nhìn và các nút bắn, xây, tương tác trên màn hình.",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6b6653b8c363348e16686a32e373dcea75d7bc1ffc69df463c755b35179fca2d"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "Roll Tycoon: Đế chế xúc xắc",
+      "description": "Gieo nhóm xúc xắc lên bàn ba chiều và nhận thu nhập theo mặt trên khi chúng dừng. Năm bậc gồm xúc xắc bốn đến hai mươi mặt. Kết quả cao nhất của một viên tạo JACKPOT và nạp FEVER; thanh đầy cho thu nhập gấp đôi trong tám giây, lâu hơn nếu có cổ vật phù hợp.\n\nBa mươi hợp đồng, hai mươi hai cúp cùng nhiệm vụ ngày và tuần tạo mục tiêu thêm. Đầu tư vào xúc xắc, may mắn, cổ vật và rương có tượng tăng thu nhập. Khi kiếm một triệu trong một lượt, Rebirth đổi tiến trình lấy sao tăng hệ số vĩnh viễn. Cũng hãy kiểm tra Daily Drop bảy ngày và thưởng khi quay lại.",
+      "instructions": "Nhấp hoặc chạm bàn, nhấn Space hay ROLL để gieo toàn bộ xúc xắc sẵn sàng. Xem kết quả và hợp đồng hiện tại rồi mua nâng cấp trong cửa hàng. Mở MISSIONS, làm mục tiêu và bấm CLAIM nhận thưởng. Kiểm tra Rebirth khi một lượt đạt một triệu. Graphics trong cửa hàng cho phép chọn chất lượng hiển thị nhẹ hơn.",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "40010b25834d1dd580057147b820899eeb4e9e91247c646e4e51326fceb9b118"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "Battlecross",
+      "description": "Phát triển anh hùng bằng kỹ năng từ nhiều người dạy thay vì chỉ theo một lớp nhân vật. Khiên hiệp sĩ, lửa phép, gọi lính bảo vệ và dừng thời gian tạo các kiểu chiến đấu khác nhau. Đến gần kẻ thù để tự động đánh, còn bạn chọn lúc dùng kỹ năng hoặc bình hồi máu.\n\nHạ mọi nhóm địch và thủ lĩnh cuối vùng để qua khu vực; kinh nghiệm cùng chiến lợi phẩm vẫn giữ khi thua. Mỗi cấp cho ba điểm thuộc tính. Ở thị trấn, mua đồ, mở rộng đai bình và học từ mười sáu lớp để lấp tám ô chủ động, bốn ô thụ động. Một số quyết định cuối vùng không thể đảo ngược, làm đổi thị trấn, cửa hàng, người dạy và kết thúc.",
+      "instructions": "Lại gần địch để đánh tự động, rồi dùng kỹ năng và bình máu khi cần. Dọn các nhóm cùng thủ lĩnh để hoàn tất vùng. Phân ba điểm thuộc tính theo đồ và khả năng bạn muốn mở. Ghé thị trấn để mua sắm, nâng đai và học kỹ năng. Đọc kỹ lựa chọn quan trọng trước khi xác nhận vì một số làm đổi chiến dịch vĩnh viễn.",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f7ef1791525f4a1f1a682331bedb6709aceef770794c8cd9b9a4f336c310dfc6"
+    },
+    "pickle-rally": {
+      "sourceHash": "3bc4e633bcb3d5601c58b9ef818e4ceba997f61d056f40d0e15bc274c21747ad",
+      "title": "Pickle Rally",
+      "description": "Thi đấu pickleball bằng cách chọn cú đánh và vị trí đưa bóng để đối thủ không trả lại được. Nhân vật tự chạy tới bóng theo mặc định, nên bạn tập trung vào cú bỏ nhỏ dink, cú đánh mạnh drive hoặc bóng bổng lob. Trận chơi tới bảy, mười một hay mười lăm điểm và phải hơn hai điểm để thắng.\n\nWorld Tour qua mười quốc gia mở Elite, Endless và Champion Tour khi hoàn tất. Đá quý, vợt cùng trang phục tạo mục tiêu phát triển ngoài điểm số. Nếu muốn tự chạy, đổi Movement sang FREE trong Settings. Cân nhắc độ cao của bóng và khoảng trống bên đối thủ trước khi chọn cú đánh, nhất là lúc có cơ hội đập smash.",
+      "instructions": "J đánh dink nhẹ, K đánh drive và L lob; nhấn K khi bóng cao để smash. Giữ A/D hoặc trái/phải lúc đánh để chọn hướng; P dừng. Trên cảm ứng, chạm để dink, vuốt lên để drive/smash, xuống để lob, vuốt chéo để hướng bóng. Trong FREE, WASD/mũi tên di chuyển; điện thoại dùng nửa trái làm cần và nửa phải đánh.",
+      "referenceHash": "67bcd1d196430eb0d73b850bf7d9c71c6b96d38348451d089310c4be4d8cf4c1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Pickle Rally is a bright, cute 3D pickleball game you can pick up in seconds. Time your shots, place the ball where your",
+        "instructionsQuote": "Win each rally by landing the ball where your rival can’t return it. A game is played to 7, 11 or 15 points and you must win by 2. Clear the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0d6e082736f4bcdb41a7b5c7ca902853ac75b6ed65423bc692a38a423e719916"
+    }
+  }
+}

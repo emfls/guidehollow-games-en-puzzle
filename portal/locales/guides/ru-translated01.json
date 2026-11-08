@@ -1,0 +1,1466 @@
+{
+  "schemaVersion": 1,
+  "locale": "ru",
+  "games": {
+    "school-escape-obby": {
+      "sourceHash": "72fe6c468e62e1d90b0d85d3b5a695d2073196bdccaeac836ef04d67c3e2d75d",
+      "title": "School Escape Obby: побег из школы",
+      "description": "School Escape Obby — полоса препятствий, цель которой выбраться из школы и показать время прохождения. Маршрут ведёт через школьные коридоры и другие зоны, включая подземелья. На пути приходится прыгать, уклоняться от помех, решать головоломки и взаимодействовать с предметами, чтобы продолжать побег.\n\nПередвижение и действия здесь разделены: одни препятствия требуют точного прыжка, другие — использования объекта или толчка противника. Разные участки проверяют и ловкость, и внимательность к устройству маршрута. Внешность персонажа можно менять с помощью обликов, а цель попытки остаётся прежней: найти путь наружу и завершить побег.",
+      "instructions": "На компьютере перемещайтесь клавишами WASD, прыгайте на Space. E взаимодействует с предметами; для этого также можно щёлкнуть по ним мышью. F отталкивает противника, Shift показывает курсор, Tab ставит игру на паузу. Осматривайте путь и выбирайте действие по препятствию, продолжая движение к выходу. На телефоне используйте экранные кнопки.",
+      "referenceHash": "bd6cddd9186001dc351244ecccf65ebab1341329542337a5ef58910106d6f168",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Dive into the thrilling world of School Escape Obby — a vibrant online game in roblox style with stunning graphics and d",
+        "instructionsQuote": "Escape from school, play for time Controls on PC: Shift - show cursor WASD - move. Space - jump. TAB - pause. F - push enemy E - interact wi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "06faf4f34a4a29d5502680fe86d1bfb237fce570babab40d934cff9a02f555bc"
+    },
+    "organize-it": {
+      "sourceHash": "4020b81bc4adc8189e0c3b5d2002370205c73b896d283a061455f395e7a11e0f",
+      "title": "Clutter Master: порядок в комнате",
+      "description": "Clutter Master предлагает навести порядок в захламлённой комнате: каждому разбросанному предмету нужно найти предназначенное место. Задача охватывает всю комнату, поэтому одного удачного размещения недостаточно. Постепенно возвращая вещи на места, вы завершаете общую расстановку и освобождаете помещение от беспорядка.\n\nКогда все предметы разложены правильно, игра автоматически открывает следующий уровень с новой комнатой. Основной процесс повторяется в другой обстановке: осмотреть вещи, определить их места и перенести каждую. В конце предусмотрен секрет, но путь к нему связан именно с последовательным завершением комнат.",
+      "instructions": "Щёлкните по предмету, чтобы взять его, затем перетащите в подходящее место. Повторный щелчок отпускает предмет. Продолжайте разбирать оставшиеся вещи, пока вся комната не будет приведена в порядок. После завершения расстановки игра сама перейдёт в новую комнату, где нужно выполнить такую же задачу.",
+      "referenceHash": "cfaff3d619ed78a24f27b6c19a65e74f1cbca4a8530b2471fe978a7335383948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Clutter Master is a handcrafted casual cozy game where you organize a messy room by placing each item where it belongs. ",
+        "instructionsQuote": "Organize the messy room by placing each item where it belongs. Click on an object to grab it, then drag and drop it into the correct spot. C",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8467df28164f6fbae176d674569f19e0d7f262148daea2b7f21e33ece1fee34a"
+    },
+    "the-road-home-granny-escape": {
+      "sourceHash": "eaf3398c2900801fa73c39af966aa5a0de59eeaf187a8095664a66baf73adeb4",
+      "title": "The Road Home: побег от Granny",
+      "description": "The Road Home: Granny Escape начинается с неудачной поездки домой: после остановки автобуса в лесу герой оказывается заперт в доме Granny и Grandpa. Двери закрыты, окна заколочены, а хозяева реагируют на звуки и движение. Главная цель — выбраться, исследуя опасные комнаты и избегая поимки.\n\nКлючи, скрытые предметы и головоломки открывают новые проходы. Найденные ресурсы можно сочетать, создавая полезные вещи для побега. В доме предусмотрено несколько путей наружу, но поиски сопровождаются ловушками и преследованиями. Тишина и выбор момента для перемещения помогают добраться до следующей комнаты и продолжить поиски выхода.",
+      "instructions": "WASD перемещают героя, C позволяет присесть, Space — прыгнуть. Исследуйте комнаты, находите полезные предметы и применяйте их для открытия путей. Решайте головоломки и соединяйте найденные ресурсы там, где это помогает побегу. Granny и Grandpa слышат шум, поэтому следите за их приближением и избегайте опасных участков. Цель — покинуть дом.",
+      "referenceHash": "d6050c141d1b56637e78b59435c090694f51e1ceb381c143e504843778eac49f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The Road Home: Granny Escape is a terrifying 3D horror survival game where your only goal is to escape a haunted house f",
+        "instructionsQuote": "WASD — Move C — Crouch Space — Jump The main goal is to escape from the old people's house. Find useful items and use them to your advantage",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a288b96205d6283000a5bb662cdc25d716f6284d823a6eba5124662eb4d2a953"
+    },
+    "wood-blocks-jam": {
+      "sourceHash": "bc8cef395298964f281659ef0d114bdd82a241c8d8c90b1ac5b6fee0b2c296ec",
+      "title": "Wood Blocks Jam",
+      "description": "Wood Blocks Jam — логическая игра с цветными деревянными блоками. Каждый блок нужно провести к воротам такого же цвета и тем самым очистить поле. Ограничения времени нет, поэтому можно заранее рассмотреть расположение фигур и выбрать порядок перемещений.\n\nТысячи уровней постепенно усложняются, добавляя препятствия и новые механики. В трудной ситуации помогают три усилителя: Saw разрезает мешающие блоки, Hammer разрушает один выбранный блок, а Magic удаляет три случайных. Поскольку освобождение места меняет доступные пути, полезно смотреть не только на ближайшие ворота, но и на проходы для остальных цветов.",
+      "instructions": "На телефоне перетаскивайте блок пальцем к воротам соответствующего цвета. На компьютере зажмите левую кнопку мыши на блоке и ведите его к нужным воротам. Для победы уберите все блоки с поля. Планируйте порядок ходов, чтобы не перекрывать проходы, и при необходимости используйте пилу, молоток или Magic, удаляющую три случайных блока.",
+      "referenceHash": "90a1081523fe2cde1dabcdfd617e53124eacaa834ae79c76d16961ad3854e4c0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Wood Blocks Jam is a relaxing logic puzzle game with colorful wooden blocks. Your goal is to drag each block into a gate",
+        "instructionsQuote": "Wood Blocks Jam is easy to learn and fun to master: 📱 On mobile: Drag blocks with your finger and drop them into the matching color gates. 🖱",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "016114248476e832fd7f1be4e8c842e70cbd288b3bd551629260f7d21b5b8432"
+    },
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "Король разрушения машин",
+      "description": "Car Destruction King позволяет испытывать разные автомобили на картах с вращающимися молотами, прессами, катапультами и другими препятствиями. Можно участвовать в гонках и стремиться к рекордам либо наблюдать, как машина переносит столкновения. Замедление времени помогает подробнее рассмотреть момент аварии.\n\nРазные карты и режимы дают повод менять условия испытаний. Для повторной попытки предусмотрены сброс и восстановление машины, а переключение камеры позволяет оценить происходящее с другого ракурса. Выбор другого автомобиля меняет сам объект эксперимента: можно снова пройти знакомый участок и сравнить его поведение с предыдущим.",
+      "instructions": "Управляйте машиной через WASD. Space включает ручной тормоз, Shift — нитро, C меняет камеру. R сбрасывает автомобиль, K восстанавливает его, N выбирает другую машину, B замедляет время. Tab или Escape открывает паузу. Выберите карту и режим, проходите препятствия или участвуйте в гонке; на мобильном устройстве используйте элементы игрового интерфейса.",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9cb20bbf92f37d4a6123b0227662caa0bdcc52697666887b1d861f294746fa1b"
+    },
+    "buggy-simulator-sandbox-3d": {
+      "sourceHash": "d4ec83f4a9fa20bc52ea7f2c8426c3e608957a10432d077de5d086880a9aad7d",
+      "title": "Buggy Simulator Sandbox 3D",
+      "description": "Buggy Simulator Sandbox 3D — песочница для наблюдения за физикой багги, колёс и подвески. Здесь можно свободно ездить по разным картам, исследовать город и мост, прыгать через холмы или съезжать с моста. Заданного гоночного маршрута нет: цель заключается в том, чтобы самому выбирать испытания для машины.\n\nНа тестовой площадке можно разрушать пирамиды и проверять работу подвески на неровностях. Несколько автомобилей доступны для переключения в любой момент. Смена камеры помогает рассмотреть прыжок или реакцию колёс, а сброс машины позволяет повторить неудачный заезд и снова проверить выбранное препятствие.",
+      "instructions": "WASD управляют движением, Space включает ручной тормоз, Shift — нитро. C меняет камеру, R сбрасывает машину, N переключает на следующую, Tab открывает меню. Остальные действия доступны через интерфейс. Выберите участок карты и свободно испытывайте автомобиль; на телефоне используйте экранные элементы управления.",
+      "referenceHash": "d2fe25eee0ad2e1bc469dca737efdde05ec4cc5adda724fbeff71f8e917183d6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "This is a buggy physics simulator, ride on various maps and observe the behavior of cars and their wheels. There are sev",
+        "instructionsQuote": "Controls: \"WASD\" - driving/steering \"SPACE\" - handbrake \"C\" - change camera \"Shift\" - nitro \"R\" - reset car \"N\" - next car \"Tab\" - menu The ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6bbcfbb141b527e596ac5a78ca54aa4e2aa3c8553cdbbdc675ee096668dfdd36"
+    },
+    "escape-from-school-3d": {
+      "sourceHash": "a50845933f0c3496b6b809433ca80696cf31f55a9f5c6f35b04e44c044705e20",
+      "title": "Побег из школы 3D",
+      "description": "Escape from School 3D — побег из школы в кубическом мультяшном стиле. Чтобы выбраться, герою приходится пробиваться через учителей, хулиганов и начальство, уклоняясь от опасностей и вступая в бои. В ход идут найденные предметы, включая биты, кирпичи и рогатки.\n\nШкольные зоны включают классы, коридоры, спортзалы и крыши. Для перехода через уровень нужно отыскать лифт, поэтому сражения сочетаются с поиском пути. Собранные деньги позволяют покупать новых героев для побега. Главная задача каждого участка — пережить столкновения, найти переход и продолжить путь к свободе.",
+      "instructions": "На компьютере перемещайте персонажа клавишами WASD, а левую кнопку мыши используйте для оружия. На телефоне управляйте виртуальным джойстиком. Осматривайте уровень и ищите лифт, через который проходит дальнейший путь. Собирайте деньги по дороге: они нужны для покупки новых героев побега.",
+      "referenceHash": "392445724fe355583fcac71dda46b56b4d05ae9beb6662510f643f29958f36fa",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🏃‍♂️ Welcome to Escape from School 3D – the ultimate blox-style school escape game full of chaos, action, and fun! Trapp",
+        "instructionsQuote": "On PC: Use the WASD keys on keyboard to control the character, and the left mouse button for the weapon. On mobile: Use the virtual joystick",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5103e77830cbd54f35ce6c7fa1e6e32a60623fde43bae8a0538b0acea03d2c53"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "Шахматы онлайн",
+      "description": "Chess Online Multiplayer предлагает классические шахматы против компьютера, соперника в сети или друга на одном экране. У компьютера есть 21 уровень сложности, а темп партии выбирается среди режимов без ограничения времени, Bullet, Blitz, Rapid и Classic. Цель — поставить мат королю соперника.\n\nПодсветка допустимых ходов, подсказки и возможность отмены помогают разбирать позицию. После партии анализ показывает ошибки и варианты улучшения. Игроки ходят по очереди, соблюдая правила фигур; защита собственных фигур, контроль центра и расчёт ответа соперника определяют развитие партии. Оформление доски и фигур можно настроить.",
+      "instructions": "Выберите игру по сети, против компьютера или вдвоём на одном экране. Для компьютера настройте сложность и подсказки, для партии с другом — контроль времени. Делайте ходы по очереди и добейтесь мата: король соперника должен оказаться под ударом без допустимого спасения. Проверяйте доступные ходы и угрозы своим фигурам. После партии просмотрите историю и анализ, чтобы разобрать решения.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2cee932b32292eb8db392245ab1d065d8866141b363be83f1ef7221a0053f9b4"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "Screw Match: цветные винты",
+      "description": "Screw Match — головоломка с цветными винтами и коробками для их сбора. Винты из стеклянной конструкции нужно переносить в коробку наверху экрана, цвет которой совпадает с их собственным. Таким образом, при выборе очередного винта важно сопоставлять его с текущим местом сбора.\n\nКоробка принимает винты, пока её отверстия не заполнятся. После этого вместо неё появляется новая, и доступное сочетание цветов меняется. Прохождение строится на последовательном переносе винтов в подходящие коробки: после замены нужно снова проверить, какой цвет сейчас принимается, прежде чем продолжать разбор конструкции.",
+      "instructions": "Посмотрите, какие цвета принимают коробки наверху экрана, и переносите туда винты такого же цвета из стеклянной конструкции. Следите за заполнением отверстий. Когда заполненная коробка сменится новой, заново сопоставьте её цвет с оставшимися винтами и продолжайте распределение.",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the screws",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4888385dd348c15b719671289534af9cf897d2ecab0e7d2830281aa345ce240d"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "Побег из склепа",
+      "description": "Escape from the Crypt предлагает выбраться из склепа, проходя одну комнату за другой и уводя от себя некромантов. Преследователи двигаются быстрее героя, поэтому простого движения по прямой недостаточно. Их слабость — неумение обходить препятствия, которыми можно воспользоваться при побеге.\n\nРасположение преград определяет безопасный маршрут. Нужно завести противника в тупик и сохранить себе путь к следующей комнате. Отмена хода позволяет пересмотреть неудачное решение, а подсказка помогает, когда полезный маршрут не виден. Внимательный осмотр комнаты перед движением помогает понять, где преследователь потеряет возможность продолжать погоню.",
+      "instructions": "На компьютере двигайтесь стрелками, используйте Backspace для отмены хода и H для подсказки. На телефоне доступны экранная крестовина и кнопки действий. Осмотрите препятствия, затем направляйте некромантов в тупики, сохраняя себе проход. Продолжайте переходить из комнаты в комнату, пока не выберетесь из склепа.",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "71ea391c77afc21f05ea37bd3ba5324841b93ee6dd21c4834187ea2686d5b05e"
+    },
+    "ludo-legend": {
+      "sourceHash": "af03d3c21404e1b666b1c39d862818fd45626cad62324000517f19352efa3d2d",
+      "title": "Ludo Legend",
+      "description": "Ludo Legend — настольная гонка фишек от старта к безопасному домику. Результат броска определяет продвижение, а шестёрка позволяет выпустить фишку со старта. После броска нужно выбрать, какую из своих фишек двигать, учитывая положение остальных участников на дорожке.\n\nЕсли соперник заканчивает ход на клетке с вашей фишкой, она возвращается к началу. Поэтому даже заметное преимущество ещё не гарантирует победу. Выигрывает тот, кто первым доведёт весь набор фишек до домика. Играть можно одному или с друзьями на одном устройстве, передавая его следующему участнику при смене хода.",
+      "instructions": "Выведите фишку со старта, когда выпадет 6. Затем бросайте кубик и выбирайте фишку, которую хотите продвинуть. Проверяйте положение соперников: попадание на занятую ими клетку может вернуть фишку к старту. Доведите все свои фишки до безопасного домика раньше остальных. При игре на одном устройстве передавайте его по очереди.",
+      "referenceHash": "bb8662468f70fa727b05facbf0ede7873c0bc6bb244c1b35170e0478ccd9e88b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Play a game of Ludo! Everyones favourite board game! Play alone or with your friends on one device! Just pass it on! Col",
+        "instructionsQuote": "Get your tokens from start to finish with rolls of a die. First, release them on the roll of 6. Roll a die and decide which token you move. ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1f8214a3d90cb738b3d5bcc7b107784d163628e7cf89b6b60405e357776dbc1a"
+    },
+    "race-on-cars-in-moscow": {
+      "sourceHash": "0622e2631662208b76bbe31cdb7b3ad4362d0dfc9d5eb2a9bd5b5caea99aac5d",
+      "title": "Гонки на машинах в Москве",
+      "description": "«Гонки на машинах в Москве» предлагают проехать как можно дальше по трассе, маневрируя в плотном потоке. Столкновения мешают продолжать заезд, поэтому выбор свободного прохода и момента перестроения становится основной задачей. В бесконечном режиме результат зависит от пройденного расстояния.\n\nНа открытой карте в режиме парковки можно выполнять задания и зарабатывать деньги. Они идут на улучшение текущего автомобиля и покупку новых. Настройка внешности включает колёса, окраску и высоту кузова. Помимо свободной езды предусмотрены соревновательные заезды, а развитие автопарка позволяет возвращаться на дороги с другой машиной.",
+      "instructions": "На компьютере управляйте машиной клавишами WASD или стрелками. Z включает аварийную сигнализацию, Q/E — указатели поворота, C меняет камеру. Избегайте столкновений и старайтесь проехать дальше по шоссе. В режиме парковки выполняйте задания и тратьте заработанное на машины и улучшения. На телефоне используйте экранные кнопки или руль; вариант выбирается в настройках.",
+      "referenceHash": "a12336897e60e72a04cba192f22efb7aa38334eb28851c5151b4f5bf2f235e73",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Race On Cars in Moscow — Racing, Tuning and Records! Description: Immerse yourself in a crazy race where the strategy of",
+        "instructionsQuote": "The goal of the race is to get as far along the highway as possible. Try not to crash into cars, so you can drive on. Also complete missions",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The browser guide omits the source download invitation and describes only the documented driving, parking missions and vehicle upgrades."
+      },
+      "reviewedTextHash": "45434c59b82abd385a5252315c559a966cb625b7f7df5ce0cd5cdbf942404c06"
+    },
+    "idle-game-dev-simulator": {
+      "sourceHash": "192805940130f535dde600a5e41990feafffe1c56ce43e8197c9f1c9f2722b25",
+      "title": "Симулятор игровой студии",
+      "description": "Idle Game Dev Simulator предлагает развить игровую студию, начав с ноутбука в гараже. Для каждого проекта вы сочетаете жанр, тему и платформу, а затем смотрите на отзывы и оценки. Удачные решения помогают студии расти и переходить к новым возможностям разработки.\n\nНайм сотрудников, исследования и улучшение рабочего места дополняют выпуск игр. Постепенно открываются комнаты, функции и производственные улучшения, в том числе автоматизация. Поэтому развитие касается и отдельного проекта, и студии в целом: важно выбирать следующую комбинацию для игры и одновременно повышать эффективность команды.",
+      "instructions": "Нажмите в центре комнаты, чтобы открыть меню действий и начать разработку. Пробуйте разные сочетания жанра, темы и платформы, затем изучайте отзывы о выпусках. Вкладка Research открывает новый контент, а панель справа позволяет покупать улучшения эффективности и скорости производства. Расширяйте команду и рабочее пространство по мере появления возможностей.",
+      "referenceHash": "10a3fd80e0e5dd83e4ecde2d1e6afaa64f6dde44a4e19c5fe1368f0aec12ad3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Become the Ultimate Game Developer! Start from a small garage and build your way up to a legendary game studio in Idle G",
+        "instructionsQuote": "• Tap the center of the room to open the action menu — start developing your next masterpiece. • Experiment with genre, theme, and platform ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f6091e1abf8ca0e66330d016b88aeab36bf0ed73c1408d627fb24a9be8a074b7"
+    },
+    "tall-io": {
+      "sourceHash": "6ac1ea15f898ce626fce6c54a0a561ba38b9eac4cdde38654059793f6d479f76",
+      "title": "Tall.io",
+      "description": "Tall.io — арена, на которой фигурка-стикмен растёт, собирая разбросанные предметы. Кирпичи, кубы и радужные сферы увеличивают рост и силу героя. Продвижение по арене связано с поиском этих ресурсов и столкновениями с соперниками, которые тоже стремятся стать выше.\n\nДействие проходит на разных островах, а собранные мечи и броня участвуют в борьбе за преимущество. Управление разделяет движение и удар: сначала нужно выбрать направление и подойти к нужному участку, затем атаковать противника. Рост меняет возможности персонажа, поэтому сбор ресурсов остаётся важной частью боя, а не только подготовкой к нему.",
+      "instructions": "Перемещайтесь по арене стрелками или клавишами WASD. Собирайте кубы, монеты и кирпичи, чтобы увеличивать рост персонажа; обращайте внимание и на радужные сферы. Space используется для атаки соперников. Учитывайте собранные мечи и броню, выбирайте направление движения и продолжайте наращивать силу на островах.",
+      "referenceHash": "322ae579d42971c0798ee28b61a29fd12319da5f039114bcb682816642f5fbeb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Tall.io is an engaging and addictive browser-based HTML5 game that combines elements of growth strategy and battle-arena",
+        "instructionsQuote": "Understanding the &controls& in Tall.io is crucial for success. Players use the arrow keys or WASD keys to navigate their &stickman& through",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6c1000355cc8303bdd8ab02f6d052d45f5abdc48bf859fb37846b71af6c8dad2"
+    },
+    "edgefire-2-667e-1": {
+      "sourceHash": "8a809924f8cda065c49221b73eb5208d5df8349f327e3897b897aed8ebbbf6d8",
+      "title": "EdgeFire 2",
+      "description": "EdgeFire 2 — соревновательный шутер, в котором огневые столкновения сочетаются с тактическим расчётом и командным взаимодействием. Чтобы одолеть соперников, важно не только быстро реагировать, но и точно стрелять, выбирать движения и согласовывать действия с командой.\n\nОсновные действия включают перемещение, выстрел и перезарядку. Они образуют ритм каждого столкновения: занять позицию, применить оружие и вовремя подготовить его к следующему обмену огнём. Классическая основа жанра делает точность и продуманное поведение центральными навыками, от которых зависит результат очередного матча.",
+      "instructions": "Используйте WASD для движения, левую кнопку мыши для выстрела и R для перезарядки. Esc открывает меню паузы. Следите за направлением перемещения и моментом стрельбы, чтобы действовать осмысленно в каждом столкновении. Сочетайте точность с тактическим выбором позиции и взаимодействием с командой.",
+      "referenceHash": "218b2e582a640c0ade3d9366f4937dbffed836a18c20eb305859ce0ee18275af",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "EdgeFire 2 is a large—scale and multifaceted game universe offering a deep reinterpretation of the classic formulas of t",
+        "instructionsQuote": "WASD - movement R - recharge LMB - shot Esc - pause menu To rise to the top and put your name in the pantheon of legends of this game, it's ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e912133e412ade2e3ffdf99fdfc6521766315b9fa0efb58db7f67a58afa78cab"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "title": "Knight Legend",
+      "description": "Knight Legend ведёт рыцаря через сражения с чудовищами и постепенно открывающиеся уровни. Победы приносят золото, которое позволяет улучшать снаряжение и готовиться к следующим столкновениям. Развитие героя связано не только с движением вперёд, но и с использованием заработанного между боями.\n\nЗа деньги покупаются более сильные доспехи и верные питомцы, сражающиеся рядом с рыцарем. Эти два направления дополняют друг друга: броня усиливает самого героя, а спутник помогает в путешествии. По мере прохождения стоит возвращаться к доступным покупкам и сопоставлять их с трудностями новых уровней.",
+      "instructions": "На компьютере двигайте рыцаря стрелками, WASD или ZQSD. Enter подтверждает выбор, Esc ставит игру на паузу либо закрывает меню. На телефоне перетаскивайте экранный джойстик и нажимайте кнопку подтверждения действий. Сражайтесь с монстрами, собирайте золото, покупайте доспехи и питомцев и открывайте следующие уровни.",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels.",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, up",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "78abbbb04b7dbf5b1b479e0d4fbf48f5c066b847b85260cde8c2c03569db0f78"
+    },
+    "runic-curse": {
+      "sourceHash": "2f404733d546565fcfad7a29382d4726493d7842f6737ccd0b948dc7c32c6219",
+      "title": "Runic Curse: руническое проклятие",
+      "description": "Runic Curse рассказывает об Адриане, который после кораблекрушения оказался на загадочном острове. Поиски пропавшей команды ведут его через древние руины и проклятые земли. Бои соединяют холодное оружие с магическими рунами, а запас выносливости ограничивает действия; перекаты дают короткие периоды неуязвимости.\n\nРазвитие уровня позволяет выбирать характеристики, снаряжение и способности для прежде недоступных областей. В десяти больших локациях встречаются разные враги и боссы. Можно создавать расходуемые руны, улучшать руны оружия и сочетать более 55 заклинаний. Для продолжения предусмотрены New Game + и отдельный Boss Rush.",
+      "instructions": "Перемещайтесь через WASD или стрелки, прыгайте на Space. Левая кнопка мыши используется для боя и выбора, Shift выполняет перекат, 1/2/3 активируют способности. Tab открывает меню, M — карту. Следите за выносливостью и используйте защитный момент переката в бою. Меняйте сочетания оружия и рун, а после получения новых способностей проверяйте ранее закрытые пути.",
+      "referenceHash": "9e78a4521a1153f23858def89de326a7dd7fe6780585212ae0899b39d96a8833",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Runic Curse is an action-adventure game where you step into the boots of Adrian, a shipwreck survivor stranded on a myst",
+        "instructionsQuote": "ControlsWASD / arrow keys = move Space = jump Left mouse button = fight/select Shift = roll 1, 2, 3 = abilities Tab = menu M = map",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "252e1a04674da2983cc97500ec83e92db3ebe6dfdc2e927a3086b48f0f481723"
+    },
+    "merge-fruit-characters": {
+      "sourceHash": "a2b095bd8118253c4b90891ed2b58a10b450cd206edb364586a091e490af1dda",
+      "title": "Фруктовые персонажи: слияние",
+      "description": "Merge Fruit Characters предлагает бросать фрукты в стакан и объединять одинаковые в новых персонажей. Две ягоды черники превращаются в клубнику, а пара клубничных персонажей — в вишню. Всего предусмотрено 26 героев, и каждый новый вид занимает место в дальнейшей цепочке объединений.\n\nФизика фруктов делает расположение в стакане частью головоломки: если хотя бы один выпадет наружу, попытка закончится. Усилители меняют ситуацию по-разному. Multicolor соединяется с любым фруктом, Meteor пробивается ко дну, Bomb взрывает мелкие фрукты и даёт десятикратные очки. Grow, Magnet, Microscope и Tornado помогают менять размер, убирать помехи или встряхивать содержимое.",
+      "instructions": "Щёлкните для быстрого броска. Удержание и перемещение включает лазерный прицел для более точного попадания. Сводите одинаковые фрукты вместе, оставляя место для следующих: выпадение даже одного за пределы стакана завершает игру. Используйте бонусы по ситуации, выполняйте ежедневные задания и тратьте награды на улучшения в магазине. Колесо удачи даёт случайные награды.",
+      "referenceHash": "d7e0823f3c3c46a74cabf25bbe45f4c3a182652084e56ed4de89d3cf10fb1105",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Enjoy nice fruit puzzle game with physics! Match fruits, create new characters, use bonuses. 26 heroes, combos, daily re",
+        "instructionsQuote": "Throw fruits into the glass and combine the same ones to create new fruits and unlock unique characters. For example, two Baby Blue Blueberr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6b7be8f29a5118e5a619b842c62db43255505d6944161c3aea3d6bb4aa33acee"
+    },
+    "2-player-games-mini-games": {
+      "sourceHash": "8ba897c6af44ac24682ea41fe6461f39b5261c0ea8402b6c0452417681c7ad61",
+      "title": "Мини-игры на двоих",
+      "description": "2 Player Games собирает короткие соревнования для двух игроков на одном устройстве. В меню есть теннис, аэрохоккей, крестики-нолики, кёрлинг, бильярд и другие мини-игры. При смене занятия меняется и задача: отбить мяч, направить шайбу или поставить знак в нужную клетку.\n\nРаунды короткие, а победитель определяется результатом выбранного режима. Перед началом на экране показывается управление для обоих участников, поэтому его нужно проверить заново при переходе к другой игре. Для одиночной игры предусмотрен компьютерный соперник, с которым можно познакомиться с правилами перед совместным матчем.",
+      "instructions": "Выберите мини-игру в меню и прочитайте экранные команды для обоих игроков. Нажмите старт и выполняйте задачу режима: отбивайте мяч, ведите шайбу или расставляйте знаки. Стремитесь набрать лучший результат раунда. Если играете один, выберите компьютерного соперника. После смены мини-игры снова проверьте управление и её правила.",
+      "referenceHash": "b206d0af2d772009b82193344b651bb8ceb74358459e7b4f7b8df420a820d6aa",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "2 Player Games offers fast mini-games on one screen: tennis, air hockey, curling, billiards and more. Quick rules and sc",
+        "instructionsQuote": "Select a mini-game from the menu. Controls for both players appear on screen. Press start, then follow the rules of the chosen mode: hit the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "76de9575b06816f88da358775944008324c305813e1bcb7f6d376a14824c2b9d"
+    },
+    "catch-the-snowmen": {
+      "sourceHash": "6218b516cb71db823a464116ec738513a67f1808c5ef3c19453f254ff4981744",
+      "title": "Поймай снеговиков!",
+      "description": "«Поймай снеговиков!» предлагает собирать подарки и пополнять свою команду снеговиков. Рост отряда связан с продвижением по уровням: их завершение позволяет улучшать способности и приобретать новых героев. Чем больше снеговиков удалось собрать, тем выше результат в рейтинге.\n\nПри встрече с противником нужно сравнивать уровни. Врагов слабее себя можно атаковать, а от более сильных следует убегать. Магические предметы открывают уникальные способности для встречи с большим злым Сантой-боссом. В конце уровня можно получить новогоднюю игрушку и украсить ею ёлку, добавляя коллекционную цель к набору команды.",
+      "instructions": "На компьютере двигайтесь клавишами WASD или стрелками. На телефоне коснитесь экрана, чтобы появился виртуальный джойстик. Собирайте подарки для найма снеговиков. Атакуйте противников только ниже своего уровня, а от более сильных отступайте. Завершайте уровни, усиливайте отряд и используйте полученные игрушки для украшения ёлки.",
+      "referenceHash": "7d1e1dc122cd7d5e7cb56b972a05d62f0ba74d6346d6f0605cb66f3160ba65ce",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🎅🌨️ Touch the winter magic in the game \"Catch the Snowmen!\" 🎁🎅You can feel like a real Santa Claus, creating nice and cu",
+        "instructionsQuote": "Recruit new snowmen by collecting gifts. Enemies below your level can be attacked. If the enemy is higher than you, run away! At the end of ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ee680f71bcecbedc00cc897a67e61574e0c8471acdb5d4c6154ba2b351c9677f"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "CubeGate",
+      "description": "CubeGate сочетает платформер с логическими испытаниями в научно-фантастических комнатах. Светящиеся кубы нужно ставить на нажимные плиты, чтобы питать двери, мосты и лифты. Иногда требуется несколько кубов, иногда — определённая последовательность действий или прыжок до переключения питания.\n\nРазметка пола, кабели и линии энергии помогают понять связи между механизмами. Для выхода недостаточно просто принести куб: важно сохранить доступ к следующей площадке и учесть, что изменится при активации плиты. Точные прыжки и план размещения работают вместе, а перезапуск позволяет проверить другой порядок решения комнаты.",
+      "instructions": "Для движения используйте WASD, Q/Z или стрелки. E либо левая кнопка мыши поднимает и кладёт куб, Space либо правая кнопка прыгает, Shift ускоряет бег. Escape открывает меню с перезапуском и звуком. Ставьте кубы на отмеченные плиты, следите за кабелями и заранее планируйте путь с грузом. К дальним площадкам сначала разбегайтесь и прыгайте с края.",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fc3734d7a0efa82d0d5b2d802dd7d2638e4dc893e83643ba558afd2721d211aa"
+    },
+    "idle-airport-tycoon": {
+      "sourceHash": "c8b35ac92f5ffe90daafa8970764548c5f7c5efee5be2eb30a8384d9b84eb4d0",
+      "title": "Idle Airport Tycoon",
+      "description": "Idle Airport Tycoon предлагает развить небольшой аэродром в крупный транспортный узел. Вы управляете расширением аэропорта, улучшая самолёты и терминалы и открывая новые источники дохода. Каждое доступное улучшение становится частью постепенного роста всей воздушной гавани.\n\nОсновная работа сосредоточена в интерфейсе управления: здесь выбираются изменения, которые двигают строительство вперёд. По мере развития нужно сопоставлять улучшение существующих объектов с новыми возможностями заработка. Масштаб камеры можно менять, чтобы рассматривать аэропорт целиком или удобнее следить за выбранной частью.",
+      "instructions": "Используйте левую кнопку мыши для взаимодействия с игровым интерфейсом. Клавиши + и - меняют масштаб камеры. Просматривайте доступные улучшения самолётов и терминалов, выбирайте подходящее и возвращайтесь к обзору аэропорта. Продолжайте развитие через открывающиеся в меню возможности строительства и дохода.",
+      "referenceHash": "15004f320b6ad1c03c42b3e96be381658d66f5291a3229ce61f197f139a70ed2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Idle Airport Tycoon is a casual simulation game that puts you in charge of building and managing your very own bustling ",
+        "instructionsQuote": "Controls: Use the left mouse button = interact with the in-game UI+/- keys = change the size of the camera",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0a6e51ce192838c02d6847b60325d565f5a6d72bacd9554680930227eac5e3d6"
+    },
+    "hoppy-bird": {
+      "sourceHash": "3838ab977dfadae5930e46c8cd247667c0aefe7f8d5f291142bc5735e4a88573",
+      "title": "Hoppy Bird",
+      "description": "Hoppy Bird — аркадный полёт через бесконечную череду труб. Взмахи поднимают птицу, а сила тяжести постоянно тянет вниз, поэтому нужно выдерживать высоту для прохода в щели. Столкновение с трубой или землёй завершает попытку; цель — пролететь как можно дальше и увеличить счёт.\n\nЕсть три режима: Normal, Moon с пониженной гравитацией и Hardcore с двойной скоростью без возрождения. Щит защищает, магнит притягивает монеты, а Double Score удваивает очки. Монеты открывают облики, ежедневные задания и события Gold Rush добавляют цели, а таблица лидеров позволяет сравнивать результаты.",
+      "instructions": "На компьютере нажимайте Space или левую кнопку мыши, чтобы взмахивать крыльями и набирать высоту. На телефоне касайтесь любого места экрана. Соотносите частоту нажатий с падением птицы и проходите через промежутки между трубами. Избегайте земли и препятствий, собирайте монеты и усилители: щит, магнит и двойные очки.",
+      "referenceHash": "c14a80c872aec75560ddb7e263b3973eb97177893ab76cc9c13340d3745cbfb4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Get ready to flap, hop, and soar! Hoppy Bird takes the classic arcade formula to new heights with exciting new mechanics",
+        "instructionsQuote": "Objective: Fly as far as possible without crashing! Your goal is to navigate Hoppy Bird through an endless series of pipes to achieve the hi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "929886f25ce8a9c30533453ba4575b29e5ae860388c67c13e5a8fb46af36acdb"
+    },
+    "snake-2077-glitch-war": {
+      "sourceHash": "6b8bd4f5d81f390dfbce95433a2e8f52cd357032c329be65ccd9f24b7a898a95",
+      "title": "Snake 2077: Glitch War",
+      "description": "Snake 2077: Glitch War переносит змейку на неоновую цифровую арену. Энергетическая еда увеличивает длину киберзмеи, а ускорение помогает перерезать путь соперникам. Уничтоженные противники оставляют остатки, которые можно съесть ради большого количества очков, и монеты для дальнейшего сбора.\n\nЦель — выжить и подняться на первое место таблицы. Ускорение расходует массу, поэтому за выгодный манёвр приходится платить частью роста. На арене встречаются боты с разным поведением, а коллекция обликов даёт цель для открытий. Рост, выбор траектории и своевременный рывок работают вместе в борьбе за место среди лидеров.",
+      "instructions": "На компьютере направляйте змею движением мыши. Удерживайте левую кнопку для ускорения, которое тратит массу. На телефоне используйте экранный джойстик и кнопку с молнией для рывка. Собирайте неоновую еду, перерезайте путь другим змеям и подбирайте их остатки. Старайтесь выжить и занять первое место в таблице.",
+      "referenceHash": "f8034cc4bbd8e22c9f8996df53f7bd15874c4ba4e3beb835b5d6a825877c2c9d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to Snake 2077: Glitch War, a futuristic evolution of the classic snake IO genre. Dive into a chaotic, neon-lit d",
+        "instructionsQuote": "Objective: Slither through the Cyberpunk arena, collecting neon food to grow longer. How to Win: Cut off other snakes to destroy them and ea",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f582a234f8ab6ed4a2764ea874fb05082df2af364198dea8d04bf94e0f7e6553"
+    },
+    "epic-sword-battle-fight-in-the-ragdoll-arena": {
+      "sourceHash": "51289d1027ef886b9eba9a14736ea40aa34c8ecb32a745ebeddfe56143aa4b4c",
+      "title": "Эпическая битва мечей: арена ragdoll",
+      "description": "Epic Sword Battle предлагает дуэли рыцарей и гладиаторов на трёхмерной арене. Вы управляете движением бойца и ударами меча, стараясь победить соперника и избежать его атак. Физика ragdoll делает реакции тел подвижными, а каждое движение влияет на ход обмена ударами.\n\nВ игре есть разные мечи, противники и уровни, а таблица лидеров позволяет сравнивать результаты. Важны точность и реакция: нужно следить за положением врага и менять движение, когда его оружие приближается. Поскольку управление связано с движением указателя или пальца, контроль траектории удара составляет основную часть каждого поединка.",
+      "instructions": "На компьютере зажмите левую кнопку мыши и двигайте указатель, чтобы перемещать бойца и атаковать мечом. На телефоне ведите пальцем по экрану для движения и удара. Следите за оружием соперника, отклоняйтесь от его атак и направляйте собственные удары точно. Цель дуэли — одолеть текущего противника на арене.",
+      "referenceHash": "576e29f25eeb8b2d9cdbd57cd3fcb257fbde50e0f90bc54ab64dbb00dda68ffc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "⚔️ Welcome to \"Epic Sword Battle! Fight in the Ragdoll Arena!\" - an exciting 3D game where knights and gladiators fight ",
+        "instructionsQuote": "⚔️ Game Objective Engage in an epic duel with your enemies! Fight in the arena with your sword, fend off attacks, and win ragdoll battles to",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f35828510ea4ddadd048f9d83616bb3386acdba41c077178dcf6253e52fdc1cf"
+    },
+    "imposter-3d-online-horror": {
+      "sourceHash": "44ede643d2dc109079cb310f0d5c525121aae8925850bbca07ebbb502f500d2b",
+      "title": "Imposter 3D: сетевой хоррор",
+      "description": "Imposter 3D Online Horror предлагает спасать маленьких членов экипажа и избегать предателя в одиночной игре или по сети. Можно присоединиться к другим участникам либо создать комнату для друзей. В Mafia среди группы до десяти игроков скрывается самозванец, которого нужно определить голосованием.\n\nПравила меняются между режимами: PvE противопоставляет команду компьютерному врагу, PvP отдаёт роли предателей игрокам, а Zombie превращает пойманных в новых самозванцев. Hide and Seek требует дожить до конца, Hunt — собрать больше малышей, Rescue использует клетки, а Lava заставляет искать возвышенности. У экипажа и предателя разные действия, поэтому управление зависит от выбранной роли.",
+      "instructions": "Для обеих ролей WASD перемещают, мышь вращает камеру, Tab показывает или скрывает курсор, Space позволяет прыгнуть. За члена экипажа E взаимодействует, F включает фонарь, G бросает батарейки, R использует их для зарядки фонаря. За предателя R применяет крик, а E взаимодействует, ловит игрока и позволяет скрыться в вентиляции. В Mafia клавиша 2 превращает скрытого самозванца в предателя. Выполняйте цель текущего режима.",
+      "referenceHash": "3961e74b7335ac2b74499c8969c3c479512054395a4124f34b564c0a4a47993b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Save all the mini-crewmates from the traitor in single player or online. Play online with other players, or with friends",
+        "instructionsQuote": "For the imposter and crewmate: WASD keys - player control. Mouse - camera rotation \"Tab\" - hide/show cursor Space - to jump Playing as an cr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source announces seven modes but lists eight. This guide omits the conflicting total and explains the named modes and role-specific controls instead."
+      },
+      "reviewedTextHash": "974c4130305c4d5201f23d8aab772cfd730ffb304759ae9ed9528b1ab5df0d1e"
+    },
+    "burger-restaurant-simulator-3d": {
+      "sourceHash": "e1304192a56efc9dff943f4ab1d87e671536cdc8dde719b3c7e2e48ad330a266",
+      "title": "Симулятор бургерной 3D",
+      "description": "Burger Restaurant Simulator 3D соединяет приготовление заказов с развитием ресторана. Вы готовите бургеры, картофель фри, наггетсы, напитки и кофе, обслуживаете посетителей и получаете прибыль. Довольные клиенты оставляют чаевые и повышают репутацию заведения.\n\nДоход можно вкладывать в кухонное оборудование, сотрудников и оформление интерьера. Найм поваров и обучение персонала помогают расширять работу, а новые блюда добавляют в меню коктейли, десерты и закуски. Рост продолжается за пределами первого ресторана: можно открывать филиалы с обслуживанием автомобилей, кафе и фудтрак. Выбор вложений связывает текущие заказы с дальнейшим развитием сети.",
+      "instructions": "Перемещайтесь через WASD и поворачивайте камеру мышью. E взаимодействует, M открывает магазин, J — ежедневные задания, H — ежедневную награду. Tab показывает или скрывает курсор, P ставит игру на паузу. Принимайте заказы, готовьте нужные блюда и вкладывайте доход в кухню, найм и обучение персонала, чтобы расширять ресторан.",
+      "referenceHash": "508a8f9c188720a0d70c812524eccdd3953e962e92947c31fa51dec5716ddcbe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Lead your own burger adventure! Dive into the exciting world of restaurant management, where you will cook delicious dis",
+        "instructionsQuote": "Desktop: WASD - move; E - interact; Mouse - camera rotate; M - shop; J - daily tasks; H - daily reward; Tab - show/hide cursor; P - pause; O",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8fa4b13f8c364fd59127e0ef8aabc6519467c2ae9b512a3332152ce21361e5e3"
+    },
+    "plants-vs-steal-brainrots": {
+      "sourceHash": "ef1ac6b363fda6ab22a055a37f38df8470dda602b460c3b2a692bd4aa7f36b86",
+      "title": "Растения против брейнротов",
+      "description": "Plants Vs Steal Brainrots — защита базы с армией растений. Купленные семена высаживаются в саду, после чего растения автоматически сражаются с волнами брейнротов. Каждый побеждённый враг приносит прибыль, которая идёт на улучшения и новые виды защитников.\n\nПо мере развития сада волны становятся сложнее. Можно менять расстановку и сочетания растений, чтобы усилить защиту территории. Отдельная часть игры посвящена ловле и коллекционированию брейнротов: разные, редкие и уникальные виды пополняют собрание и дают дополнительные награды. Покупка семян, посадка, оборона и новые поимки образуют общий цикл развития базы.",
+      "instructions": "На компьютере W/A/S/D перемещают персонажа вперёд, назад и в стороны, мышь поворачивает камеру. На телефоне двигайтесь виртуальным джойстиком слева, а камерой управляйте с правой стороны экрана. Покупайте семена, высаживайте растения и позволяйте им автоматически защищать сад. Ловите брейнротов и используйте заработанные монеты для усиления базы.",
+      "referenceHash": "2a10c0535692167e57080ac94c51d41d2d0c246bf3764920e1f0007dbfb727e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to 🌱 Plants Vs Steal Brainrots🌱 — an exciting base-defense game where you build your own army of plants and figh",
+        "instructionsQuote": "🖥 PC: • W A S D — move forward, backward, and sideways • Mouse — rotate the camera and look around 📱 Android: • Touchpad (virtual joystick o",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "abe75ecc0bf098e700708275988e4bab6078193689fbfb390a154018323a125e"
+    },
+    "diy-ugly-christmas-sweater": {
+      "sourceHash": "6d1707dc8c4b5ad35b3fbfbea9553f2f193b1c2462455ed68cc4924810c9e37f",
+      "title": "Создай пёстрый рождественский свитер",
+      "description": "DIY Ugly Christmas Sweater предлагает подготовить трёх подруг к праздничной вечеринке. Для каждой нужно выбрать цвет рождественского свитера и украсить его нарочито пёстрыми деталями. Ёлки, олени, снеговики, шары, огоньки и банты дают материал для разных сочетаний.\n\nПосле оформления свитера образ дополняется новой причёской и праздничными аксессуарами. Задача строится на последовательном выборе вещей для каждой из трёх героинь: узоры и значки складываются в индивидуальный костюм. Завершённые наряды позволяют рассмотреть результат и сравнить, как разные цвета и украшения меняют праздничный вид подруг.",
+      "instructions": "Щёлкайте мышью или касайтесь экрана, чтобы выбрать цвет свитера для каждой девушки. Затем размещайте рождественские украшения, сочетая узоры, значки и детали. Подберите причёску и аксессуары к готовому свитеру. Повторите оформление для всех трёх подруг и рассмотрите завершённые праздничные образы.",
+      "referenceHash": "61d48209e748ab39c10a77593db03a4d5277ada8c4b77d1e6117e8d06efb1aab",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Get ready to deck the halls with festive creativity in DIY Ugly Christmas Sweater! Join three BFFs as they design their ",
+        "instructionsQuote": "1. Click or tap to select sweater colors for each girl 2. Choose from a variety of Christmas decorations and place them on the sweaters 3. M",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1dfeed49bf2aaa0cc353332d169c61811596f33a99376c2b890fea29574a0f73"
+    },
+    "stickman-kombat-2d": {
+      "sourceHash": "28722ef4fc59e089ebc1ca497ca13a12f766522e873aedfa335b9baaf00eb429",
+      "title": "Stickman Kombat 2D",
+      "description": "Stickman Kombat 2D — двумерный файтинг с обычными ударами, специальными приёмами, блоком и воздушными атаками. Своевременное продолжение атаки удлиняет комбо, а прыжок за спину противника позволяет начать воздушную серию. Запас выносливости требует выбирать момент для нападения и защиты.\n\nЧтобы выйти из чужой серии, нужно использовать прерывания, а для снижения давления — вовремя блокировать. Победы приносят монеты и открывают новых бойцов. Можно сражаться одному или вдвоём на одной клавиатуре, причём раскладки этих режимов различаются. Освоение коротких комбинаций и реакции на действия соперника составляет основу поединков.",
+      "instructions": "Одиночный режим: WASD — движение, J — атака, K — спецприём, направление назад + K — второй спецприём, S + J — апперкот, удержание S — блок. Вдвоём: игрок 1 использует WASD, F для атаки и G для спецприёмов; игрок 2 — IJKL, двоеточие (:) для атаки и кавычку (\") для спецприёмов. Нажимайте атаку вовремя для продолжения комбо, следите за выносливостью и применяйте блок и прерывания.",
+      "referenceHash": "518bc2397a1adb0b8ccd3e6faabfc5cbfea9af2eab3d494b9de98c0bfc616c7c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Get ready to dive into a thrilling world of adrenaline-fueled combat, precise combos, and intense stickman fights in Sti",
+        "instructionsQuote": "CONTROLS FOR 1 PLAYER: WASD — move J — attack K — special move BACK + K — second special move S + J — uppercut HOLD S — block CONTROLS FOR 2",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "54d098398d684db70bf09a7b6edb1ee6379604e823938348d35167ac50ad46ac"
+    },
+    "blackriver-mystery-hidden-objects": {
+      "sourceHash": "3b4751b67244169b52dfb675bea05aac5eaf2b106b1dbf18ac40f39c71943b55",
+      "title": "Тайна Блэкривера: поиск предметов",
+      "description": "Blackriver Mystery: Hidden Objects делает вас мистическим детективом, которому предстоит восстановить разрушенный город и раскрыть его тайну. Поиск предметов в разных локациях связан с заданиями и коллекциями, а сюжет знакомит с чудовищами и зловещими аномалиями.\n\nРасследование не ограничивается одной сценой: квесты ведут через новые места и мини-игры. Среди них есть «три в ряд» и колесо удачи, а усилители помогают справляться с задачами. Продвижение по истории связано с находками и восстановлением города. Нужно внимательно смотреть, что требуется текущему заданию, и постепенно проходить все части приключения.",
+      "instructions": "На компьютере взаимодействуйте левой кнопкой мыши, на телефоне — касаниями. Следуйте текущему заданию, ищите нужные предметы в локации и переходите к следующей части истории. В мини-играх проверяйте их отдельную цель; в «три в ряд» доступны усилители. Выполняйте квесты, собирайте коллекции и помогайте восстанавливать город до завершения приключения.",
+      "referenceHash": "87d85cfb25cf9fbc83c638d9184a067317a2eed18dee7f2d915366b4a99a23f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Blackriver Mystery. Hidden Objects\" is a new game in which you have to try on the role of a mystical detective, the one",
+        "instructionsQuote": "The goal of the game: complete the entire game, consisting of quests, mini-games and an unforgettable plot. PC control: Left mouse button Co",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "02c5ead98e0e59a786f0eacee4e3962381fed97353eac131e42365da9be8f737"
+    },
+    "diamond-painting-by-number": {
+      "sourceHash": "63878c3e2e39752b3cc22c467277c112d26457aa52cea0712c49e26ceeec6b14",
+      "title": "Алмазная раскраска по номерам",
+      "description": "Diamond Painting by Number — раскраска по номерам с алмазными изображениями. В доступных рисунках числа помогают распределять цвета, постепенно превращая отдельные участки в законченную картину. Основная задача состоит в заполнении изображения по его числовой схеме.\n\nИгра предлагает разные алмазные рисунки в книгах для раскрашивания. Можно выбрать изображение и последовательно работать с его частями, проверяя номера перед заполнением. Результат складывается постепенно: каждый оформленный участок дополняет общую композицию. Управление рассчитано на выбор элементов мышью на компьютере или касанием на телефоне.",
+      "instructions": "На компьютере используйте левую кнопку мыши для выбора игровых элементов. На телефоне касайтесь их на сенсорном экране. Выберите рисунок, ориентируйтесь на его номера и заполняйте соответствующие участки цветом. Проверяйте числовые обозначения по мере работы и продолжайте, пока выбранная алмазная картина не будет оформлена.",
+      "referenceHash": "679ce0b3a46257546cc66008bde115881b3011d89d8e3a8f20edd3622582ebdf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Diamond Painting by Number is a coloring game in which you can draw, color and create diamonds by numbers. Diamond paint",
+        "instructionsQuote": "On desktop: left mouse click. On a mobile device: touch on game elements on the touch screen. Simple controls for everyone. Enjoy!",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "adab692ca8d58471e495b40954c9e6fbe044ed1e6bc8c3b83a3a6c9b1e6292c6"
+    },
+    "bubble-pop-fairyland": {
+      "sourceHash": "73e29db28e98dc712e4f4be00ab9619fa9fa4f56c11ea0bcff344d2b98ae377b",
+      "title": "Bubble Pop Fairyland",
+      "description": "Bubble Pop Fairyland — головоломка со стрельбой цветными пузырьками. Вы выбираете направление и запускаете шарик к группе такого же цвета. Попадание в группу как минимум из трёх одинаковых пузырьков заставляет их лопнуть и освобождает место на поле.\n\nЦель уровня — убрать цветные пузырьки и заработать монеты. Тысячи уровней предлагают новые расположения, поэтому перед выстрелом важно осматривать доступные цвета и направление прицела. Последовательные совпадения очищают поле, а выбор следующей цели зависит от того, какие группы остались после предыдущего попадания. Управление разделяет наведение и сам запуск пузырька.",
+      "instructions": "Двигайте мышь, чтобы направить пусковую установку; на телефоне задавайте направление движением пальца. Щёлкните или коснитесь экрана для выстрела. Направляйте пузырёк в группу не менее чем из трёх пузырьков того же цвета, чтобы они исчезли. После каждого попадания снова осмотрите поле и продолжайте очищать оставшиеся группы.",
+      "referenceHash": "2e44f2d01c52819c08c729daa5ebf93ad1b36904dbb03e262b3b5997792b5587",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Bubble Pop Fairyland is an exciting bubble shooter game that’s very highly addictive! Aim, shoot & pop all the color bub",
+        "instructionsQuote": "Aim: Move your mouse (or swipe on mobile) to point the shooter in the direction you want to fire. Shoot: Click (or tap) to launch the bubble",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f8c99a64b69b5da05360a1ea5490491e6c05f733e80ffd38e01430f383dab63c"
+    },
+    "obby-king-of-the-hill": {
+      "sourceHash": "1e02c4783aeeab572998bee46706d6bb46c7ceb068e713a3faaa4312d19a6546",
+      "title": "Обби: царь горы",
+      "description": "Obby: King of the Hill — гонка по полосе препятствий к вершине горы. Нужно бегать, прыгать и обходить трудные участки, одновременно сталкиваясь с другими претендентами на корону. Достичь вершины недостаточно: в режиме царя горы требуется ещё удержать позицию.\n\nИгроки могут сбивать соперников с горы, поэтому подъём состоит и из платформенных испытаний, и из стычек. За участие в матчах и продвижение вверх начисляется опыт. По мере игры персонаж становится сильнее и устойчивее, что помогает в последующих попытках. Победа зависит от удачного маршрута, точных прыжков и действий против тех, кто мешает закрепиться наверху.",
+      "instructions": "На компьютере W/A/S/D двигают персонажа, Space прыгает, левая кнопка мыши атакует дубинкой. Для камеры удерживайте правую кнопку и двигайте мышь. На телефоне используйте джойстик и кнопки прыжка и атаки. Поднимайтесь по препятствиям, сбивайте соперников и получайте опыт, затем старайтесь удержаться на вершине горы.",
+      "referenceHash": "3b4a45ad9a7e6a4368d11c2bad25a3e3314ab51d8f506cd777e67752f0e0b395",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "👑 Welcome to “Obby: King of the Hill”! A fun online obby game where everyone races to reach the top and become the true ",
+        "instructionsQuote": "🎮 Controls (PC): W / A / S / D — move character Space — jump LMB — club attack Camera — RMB + mouse movement 📱 Controls (Mobile): Joystick —",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9bc6e759193c34c6c383e0e792f88cb369f713fcf3f5957d304663d148826464"
+    },
+    "last-play-ragdoll-sandbox": {
+      "sourceHash": "9eaf58acbeac2bbaba05d00d023da1f3a9f8cf874f5ad3efeb33de6e6e01be1a",
+      "title": "Last Play: Ragdoll Sandbox",
+      "description": "Last Play: Ragdoll Sandbox предлагает устраивать собственные сцены и бои в физической песочнице. Строительные инструменты, персонажи и предметы позволяют создавать обстановку, а взаимодействия ragdoll определяют, как она поведёт себя при столкновениях и разрушении.\n\nНовые предметы открываются за испытания разных жанров, а мини-игры дают доступ к новым персонажам для песочницы. Поэтому свободное создание сцен связано с отдельными задачами для пополнения набора. Можно менять окружение, пробовать разные сочетания объектов и собирать желаемую битву из доступных участников. Предусмотрены и возможности показать свои работы сообществу.",
+      "instructions": "Используйте WASD на клавиатуре или сенсорные элементы для перемещения персонажа. Левая и правая кнопки мыши, либо касания экрана, служат для взаимодействия с предметами и интерфейсом песочницы. Устраивайте бои, проходите испытания для новых предметов и мини-игры для новых персонажей, затем используйте открытия в собственных сценах.",
+      "referenceHash": "a661bf66173b3641adbea09c8506bde4fb99efdeb49caaf7fbf79eb2acbe1f02",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to Last Play: Ragdoll Sandbox, your ultimate sandbox universe where creativity knows no bounds! - Advanced physi",
+        "instructionsQuote": "Arrange battles in the sandbox and unlock new items by passing challenge in a variety of genres. Go through mini-games to unlock new charact",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0424d25c9e9fe03c3c172f38ec3c3a610cdf7c2711ca2c13049a322388305002"
+    },
+    "squid-game": {
+      "sourceHash": "1cb2bc40550d76ee1277c65e333acafbcb5f8800d9b5b0f588d63f66efd3ce6f",
+      "title": "Игра в кальмара",
+      "description": "Squid Game объединяет испытания по мотивам «Игры в кальмара». Прохождение состоит из семи уровней, и перед каждым объясняются его правила. Общая цель — пережить испытания и остаться единственным победителем, но нужные действия меняются от этапа к этапу.\n\nБазовое управление включает передвижение, действие мышью и прыжок, который используется не во всех испытаниях. В «Красный свет — зелёный свет» есть отдельная команда замирания. Поэтому перед началом очередного уровня важно прочитать его условия, а затем применять именно те движения, которые требуются на текущем этапе соревнования.",
+      "instructions": "WASD перемещают персонажа, мышь выполняет действие, Escape открывает паузу. Space позволяет прыгать только там, где прыжок используется в правилах уровня. Левый Shift заставляет замереть исключительно в испытании «Красный свет — зелёный свет». Читайте объяснение перед каждым из семи этапов и выполняйте его условия, чтобы продолжать борьбу за победу.",
+      "referenceHash": "491a8ca4d0d68528c11c890b4cf76621233de661766bcde786c2fb359d629489",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In this game you will find the fun of all the games. We have collected the best and combined them into one whole. You wi",
+        "instructionsQuote": "The game has 7 levels, in each level you will be explained the rules of the game. Control in the game: WASD-move. Space — jump (not used eve",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "463e8d63d9d90497803d20c032f609d481f69b79039b03a631195d47691282ef"
+    },
+    "obby-football-soccer-3d": {
+      "sourceHash": "15e764f9bb5fcd6cfdd3c90907f31e0ee615a3ec4d458d3cf440d7405c4ad023",
+      "title": "Обби: футбол 3D",
+      "description": "Obby Football Soccer 3D предлагает футбольные матчи в реальном времени с друзьями и случайными соперниками. Можно забивать голы, участвовать в пенальти и отражать удары. Полосы препятствий в стиле обби добавляют задания на скорость и реакцию к игре на стадионе.\n\nУчастие в матчах приносит опыт для улучшения параметров персонажа. Сила удара помогает бить мощнее и точнее, скорость — быстрее перемещаться по полю, выносливость — дольше поддерживать максимальный темп. Дополнительно открываются облики. Продвижение связывает практику в матчах с развитием футболиста и выбором своего игрового стиля.",
+      "instructions": "На компьютере Shift включает ускорение, Q защищает мяч, E выполняет подкат и отбор. Левая кнопка мыши отвечает за удар: его сила зависит от длительности нажатия. На телефоне действия выполняются экранными кнопками. Играйте матчи и используйте заработанный опыт в окне улучшений для силы удара, скорости и выносливости.",
+      "referenceHash": "6e2cf7eccf7a1a428cdb572d61a3dcfc40380bb36db0596df5a0ccc619fd43ae",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "⚽ Welcome to “Obby Football Soccer 3D”! An exciting multiplayer where real-time matches with other players await you! 🎮 ",
+        "instructionsQuote": "🎮 Controls (PC): Shift — acceleration (sprint) Q — ball protection. E — sliding tackle and ball tackling. LMB — kick the ball (the force of ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e348b2e0b5f1b33128b4c5aaeb69f48e282e787cd7d7cde1001a0cba996f54ba"
+    },
+    "snow-rush-3d": {
+      "sourceHash": "b3750efe6a29dcc91fa35aa8628b882d182151a9f5ea51ad17381ebdd7910211",
+      "title": "Snow Rush 3D",
+      "description": "Snow Rush 3D — скоростная езда на санях по бесконечным зимним трассам. На пути стоят деревья, снеговики и барьеры, а цель состоит в том, чтобы проехать как можно дальше без столкновения. Скорость растёт по ходу заезда, делая выбор момента для поворота и прыжка всё важнее.\n\nИгра предлагает одиночный режим и соревнование вдвоём на одном устройстве. Подарки на трассе открывают новые сани и дают дополнительную цель во время прохождения. При игре на телефоне доступен только один участник, а компьютерная версия использует отдельные кнопки для каждого, позволяя соревноваться на одной клавиатуре.",
+      "instructions": "Первый игрок двигается влево и вправо клавишами A/D и прыгает на W или Space. Второй использует стрелки влево/вправо и стрелку вверх для прыжка. На телефоне доступен только одиночный режим: касайтесь левой или правой стороны для поворота, а двумя пальцами — для прыжка. Обходите препятствия и собирайте подарки, пока скорость нарастает.",
+      "referenceHash": "76e4294d43c6cfbc88de1c0544b1aaf25c61483a5228589ba08794022498d419",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Snow Rush 3D is a fast-paced winter action game where your reflexes and timing are put to the test on icy tracks. Ride y",
+        "instructionsQuote": "PLAYER 1: A,D: Left/Right Movements W or SPACE: Jump PLAYER 2: RIGHT / LEFT ARROWS: Left / Right Movements UP ARROW: Jump On Mobile Devices:",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1b544ec353aab6861e5b3e6af944a387fcaff0a0c643a34d7d6949f15c7ba047"
+    },
+    "loopvival": {
+      "sourceHash": "07dc1e8b995cabcb8cbbcfcfe6ab3e46b3ff3662ba958a46611bd771c2008d58",
+      "title": "Loopvival",
+      "description": "Loopvival — выживание в мире, поглощённом Тьмой. Костёр в центре карты остаётся единственным источником света, а вы исследуете окружение, добываете ресурсы и усиливаете огонь. Восстановленные руины помогают узнавать историю исчезнувшего мира.\n\nМир возвращается к началу после каждого цикла, но развитие костра и ключевые улучшения сохраняются. Благодаря им постепенно открываются территории всё дальше во Тьме. Нужно не только собирать материалы для руин, но и сражаться с приспешниками темноты. Конечная задача — разорвать повторяющийся цикл, используя то, что удалось сохранить между попытками.",
+      "instructions": "На компьютере WASD перемещают героя, левая кнопка мыши или Space атакует, E взаимодействует. Q переключает ресурс, который вы вносите в руины. На телефоне используйте левый джойстик, кнопку A для атаки, E для взаимодействия и Q для смены ресурса. Исследуйте мир, добывайте материалы, восстанавливайте руины и поддерживайте костёр, чтобы продвигаться дальше в следующих циклах.",
+      "referenceHash": "841316c8593d577be9149728ff186e1c01fde5c2053f96a635d8f990603f2b22",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loopvival is an atmospheric survival game with elements of roguelite, built around the mechanics of cycles. You find you",
+        "instructionsQuote": "Darkness covered the world. You are his last hope. But for some unknown reason, the loop resets every time. And only one permanent thing in ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "165cab49965bfe3a897b948a29931ea4f37b023ebc7f900b498f30511aedd45c"
+    },
+    "road-chase-shooter-realistic-guns": {
+      "sourceHash": "5defafe7c05b71b3666fb5e13097b7c83d52ef679c2f97e030ffdf3043314dd0",
+      "title": "Дорожная погоня: реалистичное оружие",
+      "description": "Road Chase Shooter предлагает оторваться от погони, уничтожив всех преследователей. Автомобиль героя слаб, зато набор оружия включает автоматы, миниган, арбалет, пулемёты и огнемёт. Можно стрелять по колёсам, деталям кузова, установленному оружию и самим противникам.\n\nПреследование ведут мотоциклы, квадроциклы, гоночные машины, дроны, внедорожники и вертолёты. Более 50 уровней открывают новые локации и вооружение, а боссы добавляют крупные цели. Выбор оружия и точки попадания помогает справляться с разными средствами погони. Завершение каждого уровня требует убрать всех, кто продолжает преследование.",
+      "instructions": "На компьютере двигайте мышь для прицеливания и стреляйте левой кнопкой. Клавиши 1/2/3/4 переключают оружие, R перезаряжает. На телефоне используйте нажатия на экран. Стреляйте по преследователям, их колёсам, деталям и установленному вооружению, следите за боезапасом. Для завершения уровня уничтожьте всех участников погони и переходите к следующим открытиям.",
+      "referenceHash": "9809cb6d86379d2c03112413d20c443a413e0c24732e0199ffcba1fff33a5ff8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Your goal is to break away from the chase. But bad luck, you have a rather weak car. No problem! But you have plenty of ",
+        "instructionsQuote": "The task of each level is to break away from the pursuit, or rather to destroy all the pursuers! Control: Shoot: left mouse button Aim contr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "74cd7165be72ee836672e4ba1a13657924e8448c28c135fd10a65f8930a18fde"
+    },
+    "summer-rider-3d": {
+      "sourceHash": "68195269b91509f95435ddb76ed5b072142a2ada180b1321af1685a1c334dd77",
+      "title": "Summer Rider 3D",
+      "description": "Summer Rider 3D — аркадный заезд по воде на доске для сёрфинга или гидроцикле. Нужно обходить скалы, водопады и другие опасности, не разбивая свой транспорт. По мере увеличения расстояния скорость растёт, поэтому прыжки и выбор направления требуют всё более точного момента.\n\nМорские звёзды служат наградой за риск и валютой для новых досок и гидроциклов. На скалах встречаются бонусы сразу из пяти звёзд, но прыжок к ним нужно рассчитывать осторожно. Дополнительно можно менять одежду и облики досок. Основное продвижение связано с дальнейшим заездом, сбором звёзд и расширением доступного набора транспорта.",
+      "instructions": "На компьютере используйте стрелки или WASD для движения влево, вправо и прыжков через волны и препятствия. На телефоне касайтесь левой или правой стороны, чтобы повернуть, и обеих сторон для прыжка. Собирайте морские звёзды для новых досок и гидроциклов. Бонусы из пяти звёзд на скалах требуют точного прыжка; учитывайте, что с расстоянием скорость повышается.",
+      "referenceHash": "e69f2b3ffcfc073380ef7aeb151e754e40e4838c2d9ffd9fa257f58557706130",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hit the waves in Summer Rider 3D, a sun-soaked surf adventure inspired by high-speed endless runners. Glide over water o",
+        "instructionsQuote": "ARROW KEYS or WASD: Move left, right, or jump to navigate waves and obstacles. On MOBILE, tap left/right to steer, both sides to jump! Colle",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0492b3e335bc2271be580d6bbf01fecc87635efb13638878cc1d6d5cd3a850b3"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "Любимые пазлы",
+      "description": "Favorite Puzzles — коллекция пазлов с выбором от 6 до 1 200 деталей. Можно включать поворот элементов, пользоваться образцом, сеткой и подсказкой. Классический и реалистичный режимы по-разному организуют рабочее поле; во втором детали разбросаны по нему.\n\nВ библиотеке есть 48 категорий изображений, а собственную фотографию можно превратить в новый пазл. Настройки сложности позволяют выбирать как небольшую картинку, так и долгую сборку. Масштабирование помогает различать похожие детали и проверять, как участок входит в общую картину. Рейтинги, достижения и еженедельные турниры добавляют цели к завершению изображений.",
+      "instructions": "На компьютере захватывайте и переносите детали левой кнопкой мыши. Колесо меняет масштаб и прокручивает ленту элементов. На телефоне двигайте детали и масштабируйте поле пальцами. Перед началом выберите число частей и поворот. Сопоставляйте края и узнаваемые участки рисунка; при необходимости включите образец или сетку, чтобы проверить расположение.",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "35c63d17b841b700cf32cc5907c01fe248108129e5387d6f9247d9f0bad47b57"
+    },
+    "space-break": {
+      "sourceHash": "cd1bfd126f5cfe5c530a81c42fa0c6dbe3b5b6d212241753a5db8e786eddf874",
+      "title": "Space Break",
+      "description": "Space Break — пиксельный космический шутер с волнами инопланетян. Перед началом вы выбираете тип корабля и улучшаете его, затем проходите через противников к боссу в конце уровня. Чем дальше продолжается игра, тем выше набранные очки и личный рекорд.\n\nВолны и уровни создаются случайным образом, а последовательность не заканчивается после одного завершённого этапа. Разные галактики, боссы и облики кораблей сопровождают дальнейшее продвижение. Управление движением сводится к перемещению из стороны в сторону, позволяя сосредоточиться на положении корабля среди очередной волны врагов.",
+      "instructions": "Выберите тип корабля, улучшите его и начните уровень. На компьютере удерживайте левую кнопку мыши и перемещайте корабль мышью. На телефоне ведите пальцем из стороны в сторону. Пройдите волны врагов и победите босса в конце этапа, затем продолжайте дальше, накапливая очки для нового рекорда.",
+      "referenceHash": "160ac4aa715419527f98d48cb2f99521581262c3d748fa39e871f272819efd85",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Space Break is a casual pixel space shooter with great graphics and lots of locations! Get into the fight against aliens",
+        "instructionsQuote": "Choose the type of your ship, pump it up and start playing! The goal of the game is to pass the level passing through waves of enemies, at t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "053879f1c0562729a679d281619b8779afc02cc5d1da2ed24d50b68d08186dec"
+    },
+    "bouncy-ball": {
+      "sourceHash": "8b608a89cbc7e2f0a72435c22195c826f25d7265b9cf6c78ecdb16db0193e912",
+      "title": "Bouncy Ball",
+      "description": "Bouncy Ball — аркадный платформер с прыгающим мячом и висящими в воздухе площадками. Нужно сохранять движение, избегать шипов и не падать вниз. Уровни усложняют прыжки, поэтому своевременное нажатие становится важнее по мере продвижения.\n\nКасание направляет мяч вниз и позволяет управлять его отскоком. От того, в какой момент применено действие, зависит следующий участок траектории. Цель — продержаться как можно дольше и превзойти свой результат. Цепочки комбо дают больше наград и очков, но ошибка может сразу закончить попытку, поэтому стоит следить за ближайшей площадкой и препятствием.",
+      "instructions": "Касайтесь экрана, чтобы направить мяч вниз и повлиять на его отскок. Подбирайте момент относительно площадки и шипов, не допускайте падения. Старайтесь сохранять серию удачных действий и собирать цепочки комбо ради большего счёта и наград. Продержитесь как можно дольше: неверный момент движения может завершить игру.",
+      "referenceHash": "a49663fdf23ccfde30107af2dbbea16bd658a69a395c28a9b5a1d5aadc5b94bf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Bouncy Ball is a fun and addictive arcade platformer where timing is everything ⚡️ Guide a happy bouncing ball across fl",
+        "instructionsQuote": "Tap the screen to move the ball downward and control its bounce, Your goal is to survive as long as possible, avoid falling down, and collec",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8323d9c037f5b2199c1b4e6bb6b42700a7b202f5c77e34e99a175935a6486627"
+    },
+    "nonogram": {
+      "sourceHash": "621a497ba9b82dc8a580a0b64502581e661f4c4960b90e6c61f646fe13610449",
+      "title": "Японские кроссворды",
+      "description": "Nonogram — логическая головоломка, в которой заполненные клетки складываются в изображение. Подсказки находятся слева от строк и сверху над столбцами. Каждое число показывает длину непрерывной группы закрашенных клеток, а несколько чисел обозначают несколько групп в указанном порядке.\n\nМежду соседними группами должна оставаться хотя бы одна пустая клетка. Поэтому решение строки проверяется по пересекающим её столбцам и наоборот. Выбрав сложность, нужно последовательно выводить правильные клетки из числовых ограничений, без угадывания. Законченный узор раскрывает картинку и пополняет коллекцию решённых задач.",
+      "instructions": "Читайте числа строки слева направо, столбца — сверху вниз. Заполняйте группы указанной длины, оставляя между ними хотя бы одну пустую клетку. Например, 3 и 1 означают три закрашенные клетки, промежуток и ещё одну. Сопоставляйте требования строк и столбцов, перепроверяйте пересечения после каждого подтверждения и продолжайте до готового изображения.",
+      "referenceHash": "f11d886dbefdbc35dc9001f47fcf56f4b949927554d10393e3fcfd6cb48208c6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Nonogram is a captivating picture cross puzzle with a vast collection of griddlers. Challenge your mind with this easy-t",
+        "instructionsQuote": "The Goal: - Fill in the correct squares to form a picture, using only the number clues - no guessing. Understanding the Clues: - Numbers app",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "829b414163ef331d415cbad2ba1991c93393385f25b515c54eba1136af20c84d"
+    },
+    "nuts-puzzle-sort-by-color": {
+      "sourceHash": "0ab7ad4bcd51c07c013f3bf0fd02ba8ba2cc95e2893986ee5e69e61fdef8169b",
+      "title": "Гайки: сортировка по цветам",
+      "description": "Nuts Puzzle: Sort by Color предлагает распределить цветные гайки по болтам так, чтобы на каждом остался один цвет. Перемещение допустимо на пустой болт либо поверх гайки того же цвета. Ограниченное пространство делает порядок действий важным: освобождение одной стопки может открыть путь для другой.\n\nПоздние уровни добавляют больше гаек и цветов. В сложном режиме цвет нижних гаек скрыт, пока не убрана верхняя. Отмена, перезапуск и дополнительный болт помогают пересмотреть последовательность, если эти возможности доступны. Прохождение также связано с восстановлением сада, где постепенно приводятся в порядок цветы.",
+      "instructions": "Нажмите на гайку, затем выберите болт назначения. Он должен быть пустым или иметь сверху гайку такого же цвета. Перекладывайте гайки, пока каждый болт не станет одноцветным. Используйте свободные места для разбора стопок; отмена и перезапуск помогают изменить порядок. При наличии дополнительного болта его значок добавляет место, но число отмен ограничено и восстанавливается на новом уровне.",
+      "referenceHash": "c90ff615551990598fe41a019625cd7ae9362efc20d4458dc5993b6a9a322be1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Nuts Puzzle: Sort by Color is a classic puzzle game where you sort various colored nuts onto screws until they are all t",
+        "instructionsQuote": "Organize the nuts To play Nuts Puzzle: Sort by Color, start by tapping on the nut you want to move, then select the screw where you want to ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source conflicts on buying versus winning extra bolts. This guide omits how extra bolts are obtained and describes their use only when available; the color-placement rules remain unchanged."
+      },
+      "reviewedTextHash": "f4fbe018734feafce780507c3be4004fe81d2148244414fff2283f8ab334d7ac"
+    },
+    "my-fast-brainrot": {
+      "sourceHash": "3c6b5d7c85850c525f2c8fd57935af42fa56e50e71887535466aaaead3129d8c",
+      "title": "Мой быстрый брейнрот",
+      "description": "My Fast Brainrot — кликер с забегами мемных существ. Частые нажатия увеличивают скорость героя, а улучшения и питомцы усиливают клики и бег. Цель гонки — обогнать других брейнротов и использовать победы для следующего этапа развития.\n\nНаградой становятся яйца питомцев, которых можно улучшать, скрещивать и собирать в коллекцию. Более сильные спутники ускоряют самого героя. Кубки используются для покупки улучшений и питомцев, а ежедневный вход даёт нового питомца или кубки. Таким образом, забеги, быстрые клики и развитие коллекции поддерживают друг друга на пути к более высокой скорости.",
+      "instructions": "На компьютере WASD перемещают героя, движение мыши поворачивает обзор, а левая кнопка увеличивает скорость. На телефоне левая часть экрана отвечает за движение, правая — за обзор; касания дают скорость. Нажимайте чаще, участвуйте в забегах и тратьте кубки на улучшения и питомцев, которые повышают силу клика и темп бега.",
+      "referenceHash": "9b0a017fa302fec02670695fdf00a3fcd6465acaa95c1c2d90e2e5a245ec752a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "My Fast Brainrot is a crazy clicker where memes come to life! You control a real Italian Brainrot - a funny little anima",
+        "instructionsQuote": "For PC: W A S D - move Left mouse button - gain speed Mouse movement - look around For phone: Left side of the screen - move Right side of t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "796d58871f5beaa7b5407b35d6ee828516be769f8d4c92be20d5f0a04b683040"
+    },
+    "mahjong-lines": {
+      "sourceHash": "6105b6091c7daac37420278d4dc32c2c68ef864758b412a3d97b895c8d571d62",
+      "title": "Маджонг: линии",
+      "description": "Mahjong Lines — головоломка на соединение одинаковых плиток, расположенных в одном слое. Пара убирается, если между её элементами можно провести путь максимум из трёх прямых отрезков, то есть не более чем с двумя поворотами. Линия проходит только через пустые клетки.\n\nУдаление пары создаёт новые промежутки, поэтому доступность соединений меняется после каждого хода. Нужно сравнивать не только символы, но и путь между ними. Цель уровня — полностью очистить поле. Многочисленные уровни постепенно усложняют поиск маршрутов; подсказки и перемешивание помогают, когда подходящее соединение не находится.",
+      "instructions": "Выберите две одинаковые плитки и проверьте путь между ними: максимум три прямых отрезка и два поворота, без занятых клеток. Допустимая пара исчезнет. После удаления снова осмотрите освободившееся пространство и продолжайте, пока поле не опустеет. Если ход не виден, воспользуйтесь подсказкой; также доступно перемешивание.",
+      "referenceHash": "c1d81f52db4e396464f9d952716eb6e256fe903297a834285e7d359fea4505fa",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Mahjong Lines is an engaging logic puzzle game in the mahjong connect genre, where you need to find and connect pairs of",
+        "instructionsQuote": "The rules of Mahjong Lines are simple and intuitive: 🀄Tap on two identical tiles. 🀄Tiles can be removed if a path of no more than three stra",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "122d8e1783dd7fe45cad2371daf92afc14387888bd73b39d69e48f5c8091b835"
+    },
+    "build-obby-world": {
+      "sourceHash": "0f9ebdde6e93172aabdd0b0583c67a05afd2a7f19bda1e75eb674d9c44fdf442",
+      "title": "Build Obby World: построй остров",
+      "description": "Build Obby World начинается с маленького острова, который нужно расширять сбором ресурсов и строительством. Новые участки островов открывают пути к следующим местам и портам. Исследование, создание предметов и прыжки через препятствия сопровождают рост собственного мира.\n\nУлучшенные топор и кирка ускоряют добычу материалов. Золото и кристаллы используются для необходимых ресурсов и инструментов, а коллекция слаймов и питомцев даёт отдельную цель. Открытие территорий зависит от построек, поэтому каждый собранный ресурс может стать частью следующего перехода. Облики, включая персонажей-брейнротов, меняют внешность героя.",
+      "instructions": "На компьютере двигайтесь WASD или стрелками, прыгайте на Space. Для поворота камеры удерживайте правую кнопку мыши и двигайте её. На телефоне используйте джойстик и небольшие движения пальцем для камеры. Остановитесь возле ресурса и подождите: герой начнёт добывать его автоматически. Собирайте материалы, стройте новые участки и улучшайте инструменты, чтобы добраться дальше.",
+      "referenceHash": "5727180cf673be46340781f6c09820654739fc08277934776552225455eb899e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🌈 Welcome to Build Obby World! Jump, build, explore, and create your own magical world full of surprises, pets, and trea",
+        "instructionsQuote": "Character controls: WASD or arrow keys — movement Rotate the camera while holding the right mouse button Space — jump Phone controls: Joysti",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "15ca2859250cbde86bfeb3fc016dd3da9147fe15fbe60426b436e86eadebbf50"
+    },
+    "chess-online-playing": {
+      "sourceHash": "7a5608fb14a83d0296cb9760c09b2ec5db89cf374baf59f741c008527df9b982",
+      "title": "Шахматы: игра онлайн",
+      "description": "Chess Online Playing предлагает классические шахматы против компьютера, настоящих соперников в сети или друзей. Компьютерная сложность выбирается от начинающего до мастера. Для дружеских встреч можно создать закрытую комнату либо играть на одном телефоне, передавая ход друг другу.\n\nЦель партии — поставить мат королю соперника или выиграть по времени. Выбор фигуры и клетки назначения задаёт каждый ход, поэтому перед подтверждением стоит проверить положение обеих сторон. Раздел Themes меняет оформление фигур и доски независимо друг от друга. Сетевые партии позволяют повышать рейтинг по мере побед над соперниками.",
+      "instructions": "Нажмите Play в главном меню и выберите игру онлайн, с компьютером или другом. Для хода сначала нажмите на свою фигуру, затем на клетку назначения. Стремитесь поставить мат или выиграть по времени. Оформление меняется в Themes: блок Shape type задаёт вид фигур, а Board type — доски. При игре на одном устройстве передавайте ход по очереди.",
+      "referenceHash": "512b0a48e6ba2461cb0c9770032e503999396b07f7e7560c3eaf63ed479e4ae2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Chess Online Playing\" is the best free online chess with a computer with full functionality for amateurs and profession",
+        "instructionsQuote": "Click \"Play\" in the main menu and select the mode: online, with a computer or with a friend. To make a move, click on your piece and then on",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b69127207f25e5621ba1e76fd03bf1d4f4df5c0fe1232a6fba9b91f4a70b1c1b"
+    },
+    "escape-school-duel": {
+      "sourceHash": "82986a7bcf22e00ca14dac49ad9144d0708627502e3165947cf09ede735e941b",
+      "title": "Побег из школы: дуэль",
+      "description": "Escape School Duel — побег из школы на время, в одиночку или вдвоём. Коридоры, классы и спортзал заполнены ловушками, а учителя, директор и тренер стараются преградить путь. Нужно изучать опасные участки и выбирать момент для пробежки и двойного прыжка.\n\nОдиночная попытка направлена на новый личный рекорд, а второй игрок превращает маршрут в прямую гонку к свободе. Билеты и деньги на пути позволяют покупать облики и питомца. После выхода во дворе доступны мини-игры. Возвращение на знакомый маршрут помогает улучшить время, поскольку опасности и позиции школьного персонала уже легче распознать.",
+      "instructions": "Игрок 1 двигается через WASD, прыгает на Space и бежит с левым Shift. Игрок 2 использует стрелки для движения, L для прыжка и K для бега. Дважды нажмите кнопку прыжка для двойного. Наблюдайте за ловушками и выбирайте безопасный путь, если проход перекрыт сотрудником школы. Собирайте билеты и деньги, выберитесь как можно быстрее и возвращайтесь за лучшим временем.",
+      "referenceHash": "99696a24e7a091b79f953a4e0613ea501e4aa727f5ede4b6141dd7165e268a26",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape School Duel is a fast, funny, and tense escape challenge set inside a school that does not want to let you leave.",
+        "instructionsQuote": "How to Play? Player 1 Move: W, A, S, D Jump: Space (Press twice for double jump) Run: Left Shift Player 2 Move: Arrow Keys Jump: L (Press tw",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "084cce9d8274f17dd8394dabd7230deb99f7ac26000eed69b8d636e8fba1bec7"
+    },
+    "1-speed-per-step-obby-mode": {
+      "sourceHash": "e4dd8693bb739624542156e31f53e20c8fca3ae3a9843851e6d0052a878b8919",
+      "title": "+1 к скорости за шаг: обби",
+      "description": "+1 Speed per Step: Obby Mode связывает скорость с постоянным движением. Чем больше герой бежит, тем больше получает опыта и тем быстрее становится. Это помогает проходить полосу препятствий и добираться до конца одного из пяти уровней за трофеями.\n\nТрофеи и шаги служат ресурсами развития. Шаги можно получать тренировкой, а улучшения и беговые дорожки поддерживают рост скорости. Возрождение даёт бонусы для следующего этапа прогресса. Цветные следы меняют внешний вид бега, а число собранных трофеев позволяет сравнивать достижения. Основной цикл — тренироваться движением, быстрее проходить препятствия и вкладывать награды в дальнейший рост.",
+      "instructions": "На компьютере используйте WASD для движения и удерживайте правую кнопку мыши для управления камерой. На телефоне двигайтесь джойстиком внизу слева и поворачивайте обзор движением пальца по экрану. Бегайте, чтобы накапливать опыт и повышать уровень скорости, проходите препятствия и достигайте конца трасс ради трофеев. Затем используйте доступные улучшения и возрождение для бонусов.",
+      "referenceHash": "4c08e8826398fc95213669a75f51ff0af820dbb3ce6eaf83e6e780a0fb8bfea1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to +1 Speed per Step | Obby Mode. Every step makes you faster! Complete obstacles to earn wins! Rebirth to gain ",
+        "instructionsQuote": "PC: WASD – movement Hold Right Mouse Button to control the camera Run to gain experience and level up Mobile: Joystick in the bottom-left co",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The unrelated time-in-prison leaderboard is omitted. This guide describes only the documented running experience, five obstacle levels, trophies, upgrades and rebirth loop."
+      },
+      "reviewedTextHash": "47e25f88e79586f6dea1ff79fd3d7df6214475fdd85beace3cac0ae3c8277eea"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "Purrfect Match: котята три в ряд",
+      "description": "Purrfect Match — «три в ряд» о котятах из приюта, которых нужно забрать домой. Переставляйте соседних котов, чтобы собирать группы. Тройка убирает одинаковых, четвёрка создаёт ракету, пятёрка с изгибом — бомбу, а пять в ряд — Paw, собирающую цвет. Шесть в ряд дают светящуюся Paw с более широким действием и двойными очками.\n\nВ 60 нарисованных уровнях встречаются разные цели: собрать определённых котов, разбить ящики, освободить изо льда или разрушить камни взрывами. Все задачи нужно закончить до исчерпания ходов. Бутылки молока покупают усилители перед уровнем, а ежедневные задания, достижения и рейтинг продолжают коллекционные цели.",
+      "instructions": "Щёлкните или коснитесь кота, затем соседа для обмена; также можно перетащить одного к другому. Нажатие на особого кота активирует его на месте. Выбирайте усилители на экране перед началом уровня. Четыре в ряд дают ракету, пять с изгибом — бомбу, пять в ряд — Paw, шесть — светящуюся Paw. Выполните цели до конца ходов, пробиваясь через ящики, лёд и камни. Кнопка паузы открывает меню, перезапуск и музыку.",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of ",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a706b040a77273dbda7be6f49ba94928f03d79265f713e532630cc7276c2812e"
+    },
+    "survival-tycoon-city-of-zombie": {
+      "sourceHash": "7d18f05d04bf4bc92e02269b5e073206233f5412e42a28eb66e4fe8e03df1d25",
+      "title": "Survival Tycoon: город зомби",
+      "description": "Survival Tycoon: City of Zombie делает вас главой лагеря во время зомби-апокалипсиса. Главная задача — не дать орде прорвать барьер. Для обороны исследуются и размещаются устройства от шипов до крупных бомб-приманок, а улучшения увеличивают прочность и урон.\n\nЛагерь развивается благодаря заданиям, добыче ресурсов и автоматизации дохода. Команду можно отправлять за топливом, нужным для дальнейшего движения. Переезд между мотелями и фермами открывает зоны и новые возможности развития. Управление соединяет активную помощь выжившим на карте с вложениями в здания и защитные устройства.",
+      "instructions": "Перетаскивайте ловушки с нижней панели в подсвеченные зоны поля. Левой кнопкой нажимайте на меню, здания и объекты для действий и улучшений прочности, урона или дохода. Можно нажимать прямо на зомби и объекты карты, помогая выжившим. Следуйте списку заданий ради ресурсов и развивайте лагерь, не позволяя орде прорвать барьер.",
+      "referenceHash": "a2311db30884caa4d3fc26dc24e5d2b38cc54666b1554ae5ca2014bda145d2f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Survival Tycoon: City of Zombie - Your Camp, Your Rules! You are the leader of a survivor group in the heart of a zombie",
+        "instructionsQuote": "🛡 Protect the barrier: Your main goal is to prevent the zombie horde from breaking into the camp. 🏗 Place traps: Simply drag defensive devic",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c903729dd22b5b111dac889b0c2013b4566e948a424d0e0b096d17422dc8e164"
+    },
+    "rivals-fps-online-shooter": {
+      "sourceHash": "0f6cba4c6a9a51cf53f91d655cd7bd4e595aad0ac663726971b0ce743773edfb",
+      "title": "RIVALS FPS: сетевой шутер",
+      "description": "RIVALS FPS: Online Shooter предлагает сетевые сражения от первого лица с друзьями и другими участниками. Для начала можно создать карту или присоединиться к уже играющим. Разные карты и режимы дают место для перестрелок, а таблицы лидеров позволяют сравнивать результаты.\n\nИгровая структура включает смену оружия, улучшения и награды за участие в боях. Движение, обзор, прыжок, приседание и взаимодействие с объектами составляют основные действия персонажа. Матчи соединяют индивидуальную стрельбу с совместными действиями друзей. Управление рассчитано на компьютер и мобильное устройство, где команды вынесены на экран.",
+      "instructions": "Создайте карту или присоединитесь к другим игрокам. На компьютере WASD перемещают, мышь вращает камеру, Space позволяет прыгнуть, C — присесть, E — взаимодействовать с объектами. На телефоне используйте джойстик слева и движения пальца справа для обзора. Прыжок и перезарядка выполняются виртуальными кнопками. Участвуйте в выбранном режиме и используйте доступное оружие.",
+      "referenceHash": "48217a6b2f56df964bff8f5cc5378475935a1dea7f04769a30f9e5e9c33b0648",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "💥Welcome to the world of \"RIVALS FPS: Online Shooter\" — a new free multiplayer online shooter where fun battles, cool gu",
+        "instructionsQuote": "To start a game, create a map or join other players. The controls are the same as in many top shooters. On PC: - Movement - WASD - Camera ro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d91d501b2234f0028c10ed8718fcbc6f13ee2f8b98581cdcb308163d442ce6d9"
+    },
+    "mahjong-tower-puzzles": {
+      "sourceHash": "5fa2212817db8842bb558d7b2d96fbb3affa29d497f6bb1de44df546da1cd43c",
+      "title": "Башня маджонга: головоломки",
+      "description": "Mahjong Tower: Puzzles сочетает плитки маджонга с пространственными головоломками и механикой «три в ряд». Соединения убирают элементы или создают особые плитки для более эффективной очистки. В игре более 60 уровней разной сложности и три режима с разными условиями.\n\nPuzzles предлагает решить задачу с ограниченным набором плиток. Board Clearing требует очистить поле за отведённое время. Arcade продолжается без конца с растущей сложностью: нужно как можно дольше сочетать плитки, не допуская их чрезмерного накопления. Поэтому выбор режима определяет, что важнее — решение расположения, скорость очистки или длительное удержание поля.",
+      "instructions": "Выберите Puzzles, Board Clearing или Arcade с учётом его цели. На компьютере левая кнопка мыши сбрасывает плитку на поле, R перезапускает уровень, H показывает подсказку текущей головоломки, Esc открывает и закрывает паузу. На телефоне все действия выполняются касаниями и движением пальца. Комбинируйте плитки, чтобы убрать их или получить особые, и выполняйте условие выбранного режима.",
+      "referenceHash": "bde4b53ca5042c6f6914298a63d04d63628f729020a910e4407b9e120f0f6fd4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Mahjong Tower: Puzzles are a mix of \"puzzle\" and \"three-in-a-row\" genres in a mahjong setting. An exciting puzzle game f",
+        "instructionsQuote": "Choose one of the three game modes: -\"Puzzles\" - solving spatial puzzles with a limited number of tiles; - \"Board Clearing\" - clearing the b",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "be54524c073d32fe466c26059966bad4291a80f2202b22eeb5edc148c05aec6a"
+    },
+    "obby-saves-brainrots-from-tsunami": {
+      "sourceHash": "65b9fd247787de68a31cafdf65f9db9ff154bc11c66437f79b7cb34b5910c6f1",
+      "title": "Обби спасает брейнротов от цунами",
+      "description": "Obby Saves Brainrots from Tsunami соединяет бегство от гигантской волны с коллекционированием и развитием базы. Во время забегов нужно преодолевать препятствия и опасные зоны, пока цунами приближается. Брейнроты, найденные по пути, становятся главным ресурсом дальнейшего роста.\n\nСобранных существ можно превращать в деньги, создавать новые сочетания и стремиться к редким видам. Чем больше ресурсов удаётся принести, тем быстрее развивается собственная империя. Поэтому короткий забег поддерживает долгосрочную прогрессию: вы спасаетесь от волны, пополняете коллекцию и используете её для следующих улучшений.",
+      "instructions": "На компьютере двигайтесь клавишами WASD. E взаимодействует с предметами, G бросает переносимого брейнрота, F включает курсор. На мобильном устройстве используйте игровые экранные элементы. Собирайте брейнротов во время бегства от цунами, создавайте новые виды и используйте полученные ресурсы для развития империи и поиска редких существ.",
+      "referenceHash": "e03ebb793e67c2ce76e3ce2ad94a212c5abab19c743ce0aa2e5579dea02665ad",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to Obby Saves Brainrots from Tsunami! A fast-paced escape game that blends tsunami runner, idle game, and idle t",
+        "instructionsQuote": "Collect brainrots, craft them, and get the rarest brainrots by building an empire! Computer controls: WASD - to move E - interact with objec",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5423602a445fecfd06316b06752df78283baa1d054064f7e76897f04c5cf359f"
+    },
+    "animals-battle": {
+      "sourceHash": "ad6c853c5bcb69825d03b3e422fee272f62977f1c8d364d3492452886402610d",
+      "title": "Битва животных",
+      "description": "Animals Battle — стратегия с армией животных, завоёвывающей острова. В бою автоматически производится еда, которая расходуется на призыв бойцов. Наращивая отряд, нужно разрушить вражескую базу: именно её уничтожение завершает уровень.\n\nПосле сражения заработанные монеты открывают новые подразделения и улучшают характеристики собственной базы. Карты артефактов дают постоянные бонусы, действующие в следующих боях. Новые территории показывают разные биомы и животных, а с каждым покорённым островом противники становятся сильнее. Поэтому развитие армии между битвами поддерживает продвижение не меньше, чем распределение еды во время боя.",
+      "instructions": "Следите за едой, которая производится в бою автоматически, и тратьте её на призыв животных. Увеличивайте армию и уничтожьте противоположную базу для завершения уровня. После победы вложите монеты в новые отряды и параметры базы. Собирайте карты артефактов с постоянными бонусами, чтобы подготовиться к более сильным противникам следующих островов.",
+      "referenceHash": "e09ad2e3e2186b3c03d1fa5e88eff7c1a27d6f08624c88a3a35afb1adbab6122",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Are you attracted to adorable animals, and do you have the talent of a great commander? The new game combines these two ",
+        "instructionsQuote": "In combat, everything is based on resource economics: food for your creatures is produced automatically. Use it to summon units to build you",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b356668c0b802cf3255e08f0ae43dc647387b327950fdd5e9b5a3a61a39b117f"
+    },
+    "snake-of-bullets-collect-and-shoot": {
+      "sourceHash": "92bef6e9fe2cf75e0da874d23c54e9e29a62cec7c6454c7a6fabbeb66e291e80",
+      "title": "Змейка из пуль: собирай и стреляй",
+      "description": "Snake of Bullets: Collect and Shoot! соединяет змейку, раннер и стрельбу. Вы начинаете с одной пули и ведёте цепочку по дороге, собирая улучшенные боеприпасы. Чем длиннее становится запас, тем больше очков можно получить в дальнейшем.\n\nЛовушки и пилы отнимают часть пуль, поэтому выбор маршрута определяет, сколько их дойдёт до оружия. Собранные боеприпасы заряжают танки, самолёты, автоматы и пистолеты, которыми нужно разрушать стены на пути. Разные уровни повторяют этот цикл: набрать длинную цепочку, провести её через опасности и использовать сохранившийся запас для стрельбы.",
+      "instructions": "Ведите пальцем или курсором по экрану, чтобы направлять цепочку пуль по выгодному маршруту. Собирайте дополнительные и улучшенные боеприпасы, обходите пилы и ловушки: столкновения уменьшают запас. Заряжайте доступное оружие как можно большим количеством пуль и стреляйте по преграждающим путь стенам. Более длинная цепочка приносит больше очков.",
+      "referenceHash": "601d456256bd81163c7d079e4c53e35e6a9f5cc530431c649fbc1996c879eb73",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Snake of Bullets: Collect and Shoot! is a simple relaxing game combining three genres: snake, shooter, runner. To your a",
+        "instructionsQuote": "Swipe your finger or mouse cursor across the screen so that the snake from the cartridge moves along the most promising route. Start with on",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "54aff074fd44437fa5556ec6a743b08f3af9b85587d60100fb454a42ddee9ef2"
+    },
+    "cyberpunk-block-puzzle": {
+      "sourceHash": "164100f70a1fc79e9386f51f9e815f0ce01a4e801a31165b3c726f26aed0d162",
+      "title": "Киберпанк: головоломка с блоками",
+      "description": "Cyberpunk Block Puzzle — головоломка на неоновой сетке: светящиеся блоки нужно довести до разъёмов подходящего цвета у краёв поля. Каждый блок движется только вдоль своей оси, поэтому фигуры способны перекрывать друг другу путь. Очистить нужно всё поле.\n\nБолее 70 уровней используют сетки от 5 × 5 до 8 × 9, стены, ледяные блоки и замки. Завершение задач приносит чипы и повышает хакерский ранг от Noob до Hack Guru. Если полезный ход не находится, система подсказок через несколько секунд подсвечивает продолжение. Ежедневное испытание добавляет новую головоломку к основной последовательности.",
+      "instructions": "На компьютере захватите блок мышью и перетащите вдоль его оси, затем отпустите в нужной позиции. На телефоне коснитесь блока, проведите горизонтально или вертикально и уберите палец. Ведите каждый цвет к соответствующему разъёму. Продумывайте, какой проход откроется после хода; при затруднении немного подождите появления подсказки. Уберите все блоки для победы.",
+      "referenceHash": "a3ddc678dc6fb880fc5bb7ea981983ed19887ae9d4b3f71f2bdf01eef276e150",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Cyberpunk Block Puzzle is a stylish logic game set on a neon circuit board. Slide glowing blocks across the grid to deli",
+        "instructionsQuote": "Slide your way through the neon grid! Your goal is to move all glowing blocks into their matching colored connectors on the edges of the boa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6dfe2d2c48af339c637260eb579da867e90068229ad149150e3c7dde9029113a"
+    },
+    "sword-master-slice-your-enemies": {
+      "sourceHash": "f329a92fa2e7f32a2e5a2dfeec2f2f860e2dd1bbe7f3568f0551f2cf1e62ed4a",
+      "title": "Мастер меча: рассекай врагов",
+      "description": "Sword Master: Slice Your Enemies! — трёхмерные бои с клинком, где нужно рассекать врагов, разрушать препятствия и завершать уровни. Движение мыши или пальца задаёт направление удара, поэтому точность траектории играет основную роль при нападении.\n\nПо мере прохождения открываются новые виды оружия: ножи, сабли, клинки и световые мечи. Разные уровни и противники меняют условия очередного боя, а замедление во время ударов подчёркивает их движение. Задача остаётся связанной с эффективным прохождением: направлять оружие на врага, освобождать путь и использовать полученные открытия для следующих испытаний.",
+      "instructions": "На компьютере удерживайте левую кнопку мыши для удара и двигайте мышь в нужном направлении, чтобы точно вести клинок через врагов. На телефоне проводите пальцем по экрану для взмахов. Уничтожайте противников и преграды на пути, завершайте уровни и открывайте новое оружие по мере продвижения.",
+      "referenceHash": "a7f0514e63a8a5cdd144bb04ed693f05409abe95a49019751eefbf79e5e9dadc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "⚔️ Welcome to the thrilling game \"Sword Master: Slice Your Enemies!\" Destroy everything in your path using knives, saber",
+        "instructionsQuote": "🎯 Game Goals: Become a master of the blade! Your task is to slice enemies, destroy obstacles, and complete levels with maximum efficiency. U",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6ac8161370f3b8906213697b91c8bd9fc9967053ab6258681772689b1b20a2cc"
+    },
+    "island-expander": {
+      "sourceHash": "dd499bbdd8a4d5430b3af7f13524becb25c9c8e0c2bf2dd3e3a822b389651ad6",
+      "title": "Island Expander: расширяй остров",
+      "description": "Island Expander предлагает превратить небольшой остров в развитую территорию. Собирайте материалы, открывайте рецепты и создавайте предметы — от простых инструментов до сложных машин. Постройки и изготовленные ресурсы позволяют добавлять новые клетки острова и находить следующие источники сырья.\n\nВ игре более 30 рецептов, задания и встроенные мини-игры. Рост персонажа связан со сбором и улучшением способностей, а валюта открывает технологии и повышает характеристики. Исследование и производство поддерживают друг друга: расширение открывает материалы, а новые материалы помогают продолжить строительство. Ежедневные бонусы дают предметы или валюту.",
+      "instructions": "На ПК двигайтесь через WASD или стрелки и смотрите мышью. 1–4 выбирают инструменты, левый щелчок бьёт или использует выбранный. Tab открывает инвентарь, E взаимодействует с объектом, P открывает паузу, B освобождает курсор. На телефоне используйте левый джойстик, движения пальцем для обзора и правые кнопки прыжка, инструмента и взаимодействия. Добывайте материалы, создавайте вещи и открывайте новые части острова.",
+      "referenceHash": "11f45c4968b6b45fddf9ff0313b6c9f69ce90c540cc7868e11d06d03b5363b1a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Island Expander is a cozy crafting game where you transform a tiny island into a paradise. Collect resources, unlock rec",
+        "instructionsQuote": "PC Controls Move mouse = look around WASD / Arrow keys = move Keys 1-4 = equip tools Left-click = hit / use tool Tab = open inventory; E = i",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "32fdf358fcc8278a4aacf757147a31b35c343e97f8ade59b19dc6fda89ecdaa6"
+    },
+    "hide-from-school": {
+      "sourceHash": "0b937e5b3ae362aaf89f18d761b2c83ce357387dfdd06b084bd8f891789999e2",
+      "title": "Спрячься и сбеги из школы",
+      "description": "Hide from School сочетает побег, прятки и задания внутри школы. Молодому ученику нужно выбраться, не попавшись учителю. Можно скрываться у стен, маскироваться под предметы, исследовать комнаты и решать головоломки, которые открывают дальнейший путь.\n\nПредметы окружения позволяют прятаться, подбирать нужное и активировать устройства. Тени и интерактивные комнаты дают возможности избежать внимания преследователя или подготовить ловушку. Поиск выхода связан с осторожным перемещением между этими укрытиями. Каждая открытая дверь приближает к свободе, но движение по коридорам всё ещё требует следить за учителем.",
+      "instructions": "На компьютере перемещайтесь WASD либо двигайте мышь, удерживая левую кнопку. На телефоне ведите пальцем по экрану. Исследуйте комнаты и взаимодействуйте с доступными предметами, чтобы скрываться, подбирать или активировать их. Решайте задачи для открытия дверей и выбирайтесь из школы, не позволяя учителю поймать героя.",
+      "referenceHash": "8d614565170240ec004869b6945e47041e1b86273001f54a88cbe4c4db27eba1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🏫\"Hide from School \": A free online game combining popular genres such as: hide and seek, escape and quests. Help a youn",
+        "instructionsQuote": "🎯Your main task is to get out of the school and not let the evil teacher catch you. You can interact with some items(hide, pick up, activate",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1e50158ed291e86fd7f1c99cd4fdd01f7baae58a02a083a0b79578a20e78fe10"
+    },
+    "escape-tsunami-and-save-brainrots": {
+      "sourceHash": "1164d072302e6ab5088a13d3fb0e5f7ef06d3c9844ab349b36e33253d580e6c0",
+      "title": "Убеги от цунами и спаси брейнротов",
+      "description": "Escape Tsunami and Save Brainrots предлагает убегать от гигантской волны и по пути спасать брейнротов. Медлить опасно: цунами продолжает приближаться. Собранные существа приносят монеты, которые можно вложить в скорость героя и дальнейшее развитие базы.\n\nПовышение уровня брейнротов увеличивает их доходность, а новые места на базе позволяют разместить больше существ. Коллекция включает редкие и легендарные виды, поэтому каждый забег поддерживает долгосрочную цель поиска. Деньги и алмазы идут на доступные улучшения, а ежедневный вход даёт одну из наград: валюту или брейнрота. Главная связка — пережить волну, пополнить базу и стать быстрее.",
+      "instructions": "На компьютере используйте W/A/S/D для движения вперёд, назад и в стороны, мышь — для поворота камеры. На телефоне двигайтесь виртуальным джойстиком слева, а обзор меняйте справа. Ловите брейнротов во время бегства, получайте монеты и повышайте скорость. Улучшайте существ для большего дохода и открывайте новые места на базе, продолжая поиски редких видов.",
+      "referenceHash": "44551237bc990ef88936bdca8751f777f36e4201516ab37a4937eb852cb1ceb8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape Tsunami and save Brainrots! Escape the tsunami, upgrade your base, rescue, and steal Brainrots. Can you catch all",
+        "instructionsQuote": "🖥 PC: • W A S D — forward, backward, and sideways movement • Mouse — camera rotation and view 📱 Android: • Touchpad (virtual joystick on the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f28f33a61ff0682fe4416d6b6f5549d43940a15c972761775c8c308a460183d1"
+    },
+    "poppy-4-cut-monsters-with-sword-in-arena": {
+      "sourceHash": "03849feec3d1cf15bc9243d33ad4c3c2a853bdfc5ea927088be9be8c6652d2e3",
+      "title": "Poppy 4: меч против монстров арены",
+      "description": "Poppy 4! Cut Monsters with Sword in Arena! предлагает сражаться мечом против армии чудовищ. Цель — победить всех врагов на арене и остановить их наступление. По мере прохождения сопротивление растёт, так что наблюдение за движением противников помогает выбрать момент для атаки.\n\nРазные уровни и виды врагов сопровождаются набором обликов меча. Комбинации ударов наносят больше урона, а улучшение оружия поддерживает продвижение через следующие бои. Управление связывает взмах с движением указателя или пальца. Таблица лидеров позволяет сравнивать результаты, пока вы осваиваете точные атаки и стараетесь ударить первым.",
+      "instructions": "На компьютере удерживайте левую кнопку мыши и перемещайте курсор, чтобы атаковать мечом. На телефоне проводите пальцем по экрану для взмахов. Следите за движением монстров, старайтесь наносить удар первым и сочетайте атаки для большего урона. Уничтожьте всех на арене, улучшайте меч по ходу игры и переходите к более трудным уровням.",
+      "referenceHash": "e32184bc3adac4e820347de8e4999d34c5538cb39096798e3372ce77eff17144",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to \"Poppy 4! Cut Monsters with Sword in Arena!\" - an exciting action game with a sword, where you fight against ",
+        "instructionsQuote": "🎯 Your goal is to defeat all the monsters in the arena using your sword! Cut down your enemies and stop the monster invasion. The further yo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "bd95ecd0c03486c79e33b303436803115eda2ca9635116ae4dcf000d91362989"
+    },
+    "figure-skating-on-ice": {
+      "sourceHash": "4bd6abf5bca7598c489b10ef488d4c564832a12b1af165398205e2a441236c78",
+      "title": "Фигурное катание: на льду",
+      "description": "«Фигурное катание: на льду!» предлагает управлять позами фигуриста через цветную шкалу. Положение курсора на ней определяет, какую позу примет персонаж. Основное действие состоит в выборе нужного цвета и перемещении указателя к соответствующей части шкалы.\n\nИгра оформляет выступление красивыми костюмами, партнёрами и пируэтами. Вместо сложного набора команд используется одно движение вверх или вниз: оно меняет положение персонажа и позволяет наблюдать переходы между позами. На компьютере это выполняется мышью, а на смартфоне — пальцем, сохраняя одинаковый принцип управления танцем на льду.",
+      "instructions": "Нажмите левую кнопку мыши или коснитесь экрана смартфона. Перемещайте указатель вверх и вниз вдоль шкалы, пока он не окажется на нужном цвете. Фигурист меняет позу в зависимости от положения курсора. Следите за цветом и продолжайте выбирать участки шкалы для последующих движений выступления.",
+      "referenceHash": "74dc532ca5c127a2c9b00240ce158c8b37823272b57ac7623535fa2def30cabc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "“Figure skating: On ice!” — an easy game for girls 💃🏽. Plunge into the world of figure skating with beautiful outfits, b",
+        "instructionsQuote": "It's easy to play, like 1,2,3: 1. Click on the left mouse button, or with your finger on the smartphone screen. 2. Move the cursor up or dow",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0b330f7164d6de9278650dc30bfa65fc8765521fc8127319df086359b96018d3"
+    },
+    "ragdoll-battle-royale-throw-down-the-enemy": {
+      "sourceHash": "cb778bc87740c09cbbeb3fed1d47134f4792db3323fda5e7964b46094da7cf42",
+      "title": "Ragdoll Battle Royale: столкни соперников",
+      "description": "Ragdoll Battle Royale: Throw Down the Enemy — физическая схватка на платформе. Нужно сталкивать и выбрасывать остальных бойцов за край, оставаясь последним на арене. Подвижные ragdoll-тела делают контакт борьбой за положение, а не просто прямой атакой.\n\nКороткие уровни строятся вокруг падений, столкновений и толчков. После каждого контакта положение героя меняется, поэтому важно следить за ближайшим краем и не отправиться вниз вслед за противником. Удобная позиция внутри платформы помогает готовить следующий толчок. Результаты можно сравнивать в таблице лидеров, продолжая добиваться победы над всеми соперниками.",
+      "instructions": "На компьютере удерживайте левую кнопку мыши и двигайте её, чтобы вести персонажа. На телефоне используйте виртуальный джойстик движением пальца. Подходите к соперникам и выталкивайте их с платформы, оставаясь подальше от края. После столкновения проверяйте новое положение героя и продолжайте, пока все остальные не упадут с арены.",
+      "referenceHash": "5f46a8088d555fdf1bc518a4200e0be04f2276eb2315436d940cecffd2d6cf70",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "⚔️ Welcome to \"Ragdoll Battle Royale! Throw Down the Enemy!\" - a fun 3D physics arena where ragdoll opponents fight in f",
+        "instructionsQuote": "🕹️Controls: - 💻 On PC: Move the mouse while holding the left button to move the character. - 📱 On mobile devices: Use the virtual joystick -",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "74c55396fe324e8d3abc73f68a2ca1ff20d26f049397d30f786ece4409aee387"
+    },
+    "no-shorts": {
+      "sourceHash": "466fa7b4e1c4e30767539459b52bc341345df35d9349d11ab3b24e929771d075",
+      "title": "No Shorts",
+      "description": "No Shorts — физическая песочница со сценами, которые переключаются как короткие видеоролики. Стрельба из пушки должна причинять как можно больше повреждений стикменам и окружению. Можно выбирать точку выстрела, активировать объекты и наблюдать ragdoll-взаимодействия.\n\nБыстрое переключение позволяет переходить между уровнями, а редактор — создавать собственные площадки и истории. Разные инструменты и предметы дают материал для экспериментов со сценой. Созданные работы можно показывать другим, а чужим ставить отметки симпатии. Основной процесс соединяет запуск выстрелов в готовых сценах с конструированием своих физических ситуаций.",
+      "instructions": "Нажмите в нужном месте, чтобы выстрелить из пушки по стикменам и окружению. Старайтесь нанести как можно больше повреждений. Для смены уровня проводите вверх или вниз либо используйте виртуальную кнопку. В редакторе создавайте собственные ragdoll-сцены и площадки; также можно просматривать и отмечать понравившиеся работы других.",
+      "referenceHash": "9f405d7a1e0d7b5b646adb83cc1a2bd5b73df8ae03b16dbc6878c23bfab6e9ee",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🌟 Welcome to the exciting world of ragdoll physics and creative fun in the style of short videos in the game No Shorts! ",
+        "instructionsQuote": "🎯 Your task is to cause as much damage to stickmen and the environment as possible by shooting from a cannon. You can quickly switch between",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e03eb57209584473a2cb1cc2988e47840c1b5dd3738720346d1d0586e5af45d4"
+    },
+    "mine-fight-cut-mob-army": {
+      "sourceHash": "ae20eddd2b771b4e804898cb22c9850eafafb41a3656f297c33718ba499bd7b6",
+      "title": "Mine Fight: рассеки армию мобов",
+      "description": "Mine Fight! Cut Mob Army! — бои мечом в кубическом мире против волн зомби, скелетов и криперов. Нужно рассечь всех мобов и завершить уровни, на которых враги наступают большими группами. Физические реакции тел подчёркивают столкновения и удары клинка.\n\nСерии уничтоженных врагов дают больше очков, а окружение позволяет направлять противников в ловушки и взрывать препятствия. Улучшение героя и меча помогает справляться с дальнейшими волнами. Поэтому важно не только непрерывно атаковать, но и наблюдать расположение мобов и опасных объектов, чтобы использовать их в свою пользу и освободить путь.",
+      "instructions": "На компьютере двигайте мышь и нажимайте её кнопку для атаки. На телефоне проводите по экрану, чтобы взмахивать мечом. Уничтожайте мобов подряд ради дополнительных очков, направляйте их в ловушки и используйте взрываемые препятствия. Улучшайте меч и героя по ходу прохождения; цель — победить все волны и завершить уровни.",
+      "referenceHash": "a75825f6ad8d5525d82b6156a2150fd76e07a153918198881bb8ba60cbe87e6b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into the world of Minecraft-style battles and become a master of the sword! ⚔️ In \"Mine Fight! Cut Mob Army!\", you’",
+        "instructionsQuote": "🎯 Your goal is to cut all the mobs with a sword and complete all the levels! Fight hordes of zombies, skeletons and creepers, become stronge",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "68db78c085d98d1ddcc9faf1064ea42bc904ecbfc92a81c040ccc76ce7f83493"
+    },
+    "jumping-bottle-3d": {
+      "sourceHash": "117affb31e568ae30141258081d0255104bfd188071a8d3caaffe33c634b7148",
+      "title": "Прыгающая бутылка 3D",
+      "description": "Jumping Bottle 3D предлагает перекидывать бутылку через препятствия и взаимодействовать с окружающими предметами. Главное правило — не касаться пола. Нажатие заставляет бутылку подпрыгнуть и перевернуться, а двойное меняет высоту и скорость вращения.\n\nБолее 200 уровней проверяют, насколько точно вы выбираете момент следующего броска. Золотые крышки на пути открывают десятки обликов бутылок, включая молоко, колу и яд. Поэтому прохождение соединяет достижение конца участка с поиском дополнительных крышек. Новый облик меняет вид бутылки, а основная задача остаётся прежней: продолжить путь над препятствиями без падения на пол.",
+      "instructions": "Коснитесь экрана, чтобы бутылка подпрыгнула и перевернулась. Двойное касание делает прыжок выше и ускоряет вращение. Перебрасывайте её через препятствия, используя предметы вокруг, и не допускайте касания пола. Собирайте золотые крышки для новых обликов, завершайте уровни и переходите к следующим испытаниям.",
+      "referenceHash": "f98b6a98e37c8cf611101ac8f73c3cc7b2c115738a368ee6b5277fd4c4c1cd7c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "📦Welcome to Jumping Bottle 3D - a game where every bottle throw is fun! 🚀 -🎮Easy and addictive gameplay: once you try it",
+        "instructionsQuote": "🚀 In \"Jumping Bottle 3D\" your task is to complete all levels by throwing the bottle over obstacles. The main rule is not to touch the floor ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3d3a81d98fe502972f1aa61d16be5c1f7b1417841c6642cc2d7086a0eb6518e9"
+    },
+    "draw-action": {
+      "sourceHash": "d588ec92614ce52a35d2e5e5d7a99c9b60bf06410b5827a4f5a204a27f27b696",
+      "title": "Draw Action: рисуй удары",
+      "description": "Draw Action превращает нарисованную линию в боевое движение. Вы выбираете руку или ногу синего бойца и рисуете траекторию, по которой она ударит. Цель уровня — победить всех противников, сведя их здоровье к нулю либо вытолкнув за пределы площадки в воду.\n\nРазные рисунки дают разные схемы атак. По мере продвижения открываются более опасные комбинации и улучшения характеристик героя. Врагов становится больше, они делаются сильнее и подвижнее, поэтому полезно менять подход. Важно наблюдать не только за полосой здоровья, но и за положением у края: удачный толчок может закончить бой до полного истощения противника.",
+      "instructions": "Нажмите на руку или ногу синего персонажа и нарисуйте линию для её движения. Пробуйте разные формы и следите, как получившийся удар достигает противника. Победите всех врагов: уменьшите их здоровье до нуля или столкните в воду. Улучшайте характеристики бойца и сочетайте доступные атаки, учитывая рост силы и числа соперников.",
+      "referenceHash": "54b3987aeb0635f960efa6dc940cbbfc2295b40119b67b278b3295d9439abf5b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Draw lines and defeat enemies effortlessly! The game is best suited for those who want to let off steam and relax now. V",
+        "instructionsQuote": "Goal: defeat all enemies on the level. To win, beat the enemy until his health is reduced to zero. Or you can push the enemy out of the loca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "80a78a727841ea9a339627df9dac6f2d4b9913dde82d19bf3b9f8b7b3cd27515"
+    },
+    "snowy-adventures-with-noob-and-pro": {
+      "sourceHash": "9bfd510a8c3767004eee38751c4c526da1837493087b99ae562881bd554dc73b",
+      "title": "Снежные приключения с Нубом и Про",
+      "description": "«Снежные приключения с Нубом и Про» предлагают выращивать и украшать ёлку одному или с другом на одном устройстве. Мини-игры приносят ресурсы для развития, а игрушки пополняют коллекцию от обычных до редчайших. Сочетание предметов позволяет создавать легендарные украшения.\n\nBucks используются для полива ёлки, усиления украшений и развития мини-игр; Gifts покупают новые украшения. Среди занятий есть ловля падающих денег с уклонением от бомб, доставка подарков и угля, снежки по мишеням и защита сладостей от зомби. Рост ёлки увеличивает награды, а рейтинг учитывает её доход. Также предусмотрены ежедневные бонусы и награды за каждые пять минут игры.",
+      "instructions": "Первый игрок перемещается клавишами A/S/D, прыгает на W и действует через Q. Второй двигается стрелками влево/вниз/вправо, прыгает стрелкой вверх и действует через Enter. Работайте вместе, участвуйте в мини-играх и снежных боях. Зарабатывайте Bucks для роста ёлки, собирайте Gifts и игрушки, соединяйте украшения и развивайте общую праздничную коллекцию.",
+      "referenceHash": "b563db677cbbcede81054af0e2a73a55a7c13ce2d07b08025eeb43b9afeb8838",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Snowy Adventures with Noob and Pro! — a fun snowy adventure where you play solo or with a friend, leveling up your tree ",
+        "instructionsQuote": "Play together on one device — each controls their own character while leveling up the tree and causing snowy chaos! ❄️🎄 🎮 Player 1 Controls:",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "bff29ef7f4baa744511f00b16d4c1b7328a2ddc4ed151ac6954a108daaa5710a"
+    },
+    "crazy-downhill-ragdoll-fall-down": {
+      "sourceHash": "b375ee54cd8aaeff78ade9ca77d94043dccb68494e50f8f7c53597546a9b5574",
+      "title": "Безумный спуск: падение ragdoll",
+      "description": "Crazy Downhill! Ragdoll Fall Down! предлагает управлять героем, который катится и кувыркается вниз по склону. Цель — добраться до финиша, меняя направление среди препятствий. Физика ragdoll превращает столкновения и падения в заметную часть каждого спуска.\n\nДвижение корректируется влево и вправо, поэтому важен выбор линии на ближайшем участке. В магазине есть облики разных мемных персонажей, включая Стикмена, Нуба и Обби. Таблица лидеров позволяет сравнивать результат с другими попытками. Прохождение соединяет наблюдение за катящимся телом с постоянной поправкой маршрута к финишу, пока герой продолжает падать и переворачиваться.",
+      "instructions": "На компьютере используйте стрелки или мышь для управления движением падающего героя. На телефоне проводите влево и вправо, чтобы менять направление. Следите за препятствиями впереди, корректируйте линию спуска и старайтесь докатиться до финиша. После столкновений снова проверяйте положение персонажа и продолжайте вести его к цели.",
+      "referenceHash": "1fb33efefe72eb81ebf5712a1a9d766fbde95db75ff088e1919d57d7092b9d1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🌟 Welcome to \"Crazy Downhill! Ragdoll Fall Down!\" — an exciting online game with ragdoll physics, where every descent tu",
+        "instructionsQuote": "🤪 Control the fall of a ragdoll hero who rolls, tumbles and crashes into everything! Your goal is to roll to the finish line. 📱On mobile, sw",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "42400fe6573b336a0764094e93dd2d40d6f5456892d878cfed21f9ab13842b09"
+    },
+    "schoolboy-escape-from-parents": {
+      "sourceHash": "c604e5a40f595c8ce34ee1ea3292064483d6a63629a1690951dcdd028b522f59",
+      "title": "Школьник: побег от родителей",
+      "description": "Schoolboy: Escape from Parents! — скрытный побег из дома, где нельзя попасться родителям. Исследуйте комнаты, подбирайте вещи и сочетайте их для решения головоломок. Отвлечение, укрытия и продуманный порядок действий позволяют открывать новые пути к свободе.\n\nВ игре десять разных концовок, а таблица лидеров учитывает число открытых. Даже простые предметы вроде лампочки и табурета могут помочь в побеге, поэтому осмотр окружения важен не меньше перемещения. Золото идёт на облики и предметы одежды. Возвращение в дом позволяет пробовать другие решения и искать ещё не обнаруженный вариант завершения.",
+      "instructions": "На компьютере A/S/D перемещают героя, W позволяет прыгнуть. E взаимодействует с предметами, Q ставит или подбирает табурет. На телефоне двигайтесь экранными стрелками, используйте кнопку прыжка, значок руки для взаимодействия и стула для табурета. Исследуйте дом, отвлекайте родителей и скрывайтесь, применяя найденные вещи для открытия выхода и новых концовок.",
+      "referenceHash": "7cf655fbb0981180e7b904d53436c3056aab3365336eda28bb374b2181b3b6d0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to “Schoolboy: Escape from Parents!” — an exciting stealth quest where you must escape the house without being s",
+        "instructionsQuote": "🎮 PC Controls: • A / S / D — Move • W — Jump • E — Interact • Q — Place / Pick up stool 📱 Mobile Controls: • On-screen arrows — Move • Jump ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7367071b6987013e835974bf2a9ed4a40d5dc28c4edd7304a89e37b820a66e73"
+    },
+    "the-warlocks-prisoner": {
+      "sourceHash": "76b27146e845ba510d53e8b71abf243ff59db8d7dd579dcb0b3cb79ea67a5133",
+      "title": "Пленник колдуна",
+      "description": "The Warlock's Prisoner — мрачное приключение с выживанием и головоломками. Герой просыпается пленником в логове загадочного колдуна. Опасные коридоры заполнены ловушками и зомби, а цель состоит в том, чтобы найти путь наружу и остаться в живых.\n\nДля побега нужно искать предметы, собирать улики и решать задачи, не забывая о столкновениях с мертвецами. Загадочное зазеркалье входит в исследование этого места. Инвентарь хранит найденное, а команда подсказки помогает с продолжением. Продвижение зависит от внимательного осмотра комнат и применения доступных предметов на пути из заточения.",
+      "instructions": "На компьютере WASD перемещают, мышь поворачивает героя. E или левая кнопка мыши взаимодействует с предметами, H вызывает подсказку, Tab открывает инвентарь. На телефоне двигайтесь левым джойстиком, проводите справа для поворота и нажимайте центральный значок для взаимодействия. Кнопки меню открываются касанием. Ищите улики и вещи, решайте головоломки и выбирайтесь из логова.",
+      "referenceHash": "02ac22047e6450f54f738ed8b9c478819c1f320f95e212deed3d0ce57ca73204",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The Warlock's Prisoner is a dark adventure with elements of horror, survival, and puzzles. You wake up imprisoned, deep ",
+        "instructionsQuote": "On a mobile device: - Character rotation - swipe from the right side of the screen; - Character movement - virtual joystick on the left; - I",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f9a7cf2e7ede8e7b3a3e3df0832302f170e755b302ed185f9ef0c737b1b45fea"
+    },
+    "bowling-stars": {
+      "sourceHash": "b8e73ec2736f9188d8674adce98fad5295823dd968b032195459a786c93f5290",
+      "title": "Звёзды боулинга",
+      "description": "Bowling Stars сочетает классический боулинг с улучшением шаров. Нужно сбивать кегли, выигрывать матчи и получать трофеи, которые открывают более качественное снаряжение. По мере продвижения встречаются более умелые соперники, поэтому точность броска остаётся важной даже после покупки нового шара.\n\nДеньги расходуются на усиления веса, скорости, хука и контроля хука. Проведённый по экрану жест задаёт траекторию и закручивание броска. Разные облики меняют внешний вид шаров, а развитие характеристик — доступные возможности игры. После изменения оборудования стоит снова оценить направление броска относительно оставшихся кеглей и результата соперника.",
+      "instructions": "Проведите по экрану, задавая траекторию и закручивание шара. Следуйте обычной цели боулинга: сбивайте кегли и набирайте больше очков, чем соперник. Перед следующим броском смотрите, какие кегли остались, и корректируйте путь. Тратьте деньги на усиления шара, а трофеи используйте для открытия более качественных вариантов.",
+      "referenceHash": "7e0d0deeb4df7b4a34aa6dd07ff5809525cb054e9527a5470911c877a3a96962",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Enjoy a classic game of bowling with simple and fun gameplay. Earning trophies will unlock better bowling balls and help",
+        "instructionsQuote": "Classic bowling rules apply. Swipe across the screen to set the trajectory and curve to the ball you throw. Defeat your opponents and upgrad",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2103abc2a4464d852da866ee57bd51e436b7edbd1949e47267e696d7d2eb4bdb"
+    },
+    "demolition-car--rope-and-hook": {
+      "sourceHash": "e4306883d1641bbef6784a1db3887c20e1192251c5b2f0cb6383ed4f8a8ee434",
+      "title": "Снос зданий: машина, трос и крюк",
+      "description": "Demolition Car: Rope and Hook предлагает сносить заброшенные здания с помощью автомобиля, троса и крюка. Сначала нужно обвести конструкцию, закрепляя вокруг неё трос, затем дать газу, чтобы натяжение разрушило сооружение. Физика разрушений определяет, как здание рассыплется под нагрузкой.\n\nЗадача — снести всю постройку и получить больше очков. Для дальнейших работ можно улучшать лебёдку, развивать автомобиль или покупать новый. Поэтому результат зависит и от того, как трос охватил здание, и от возможностей выбранной машины. Рейтинг позволяет сравнивать результаты сноса, возвращаясь к новым попыткам с усиленной техникой.",
+      "instructions": "На компьютере удерживайте левую кнопку мыши и двигайте её для управления крюком. На телефоне ведите пальцем по экрану. Обхватите здание крюком и тросом как можно лучше, затем дайте газу для сноса. Старайтесь разрушить всю конструкцию ради большего числа очков. Улучшайте лебёдку и покупайте автомобили, чтобы справляться с дальнейшими заданиями.",
+      "referenceHash": "ba89b48ffb87cd86dc385931707e0624a69f4ed30978bd6ca74cb5b43187d697",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "😊Want to relax while destroying buildings with rope and grappling hooks? Do you like casual hits like \"Rope and Demolish",
+        "instructionsQuote": "🕹️To control the hook, move your finger across the phone screen or the mouse with LMB held down on your PC. 🎯Your goal is to destroy abandon",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d8c9b2bc062653e5834e4ea55fcdaa2e4b41271585d461f55c23dc69f05dbdac"
+    },
+    "ragdoll-gun-shooter-cannon-spinner-playground": {
+      "sourceHash": "c62e593fec686f505d370d390ff37442d737ae68548145564e90b86d6c126802",
+      "title": "Ragdoll Gun Shooter: вращающаяся пушка",
+      "description": "Ragdoll Gun Shooter! Cannon Spinner Playground — стрельба по жёлтым ragdoll-стикменам из вращающейся пушки. Направление меняется вместе с её поворотом, поэтому основная задача — выбрать точный момент выстрела. Для завершения уровня требуется уничтожить всех мобов.\n\nНа площадках встречаются предметы, которые помогают эффективнее поражать врагов. Взрывающиеся бочки могут увеличить нанесённый урон, если выстрелить в подходящий момент. Разные виды оружия, от пистолета до мощных пушек, меняют набор доступных средств. Прохождение строится на наблюдении за поворотом ствола и использовании окружения для очистки очередной сцены.",
+      "instructions": "На компьютере нажимайте левую кнопку мыши, когда вращающаяся пушка направлена к нужной цели. На телефоне касайтесь экрана в подходящий момент. Уничтожьте всех ragdoll-стикменов на уровне. Проверяйте бочки и другие предметы окружения: их взрыв помогает нанести больше урона и убрать врагов эффективнее.",
+      "referenceHash": "1ddf2a83cd338732aca6604c41ac73115fbfb2fd2b7ee500d9d9ab5f0f1eaa2a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "🎯 Ready for some fun action with ragdoll stickmen? The game \"Ragdoll Gun Shooter! Cannon Spinner Playground\" will hook y",
+        "instructionsQuote": "🔥 Game Goal: Shoot the ragdoll stickmen and destroy them all on the level! Clear the level of mobs and become the best shooter in the playgr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ee98fbe7aff65f2668d64c05f0c2ffc2f28be91494cf076b866fdb1020a8546f"
+    },
+    "find-the-pets": {
+      "sourceHash": "ee2c534877aba5fab17bb65a44dbd24140107fe0d5b47e005124040812dab39c",
+      "title": "Найди питомцев",
+      "description": "Find the Pets — трёхмерное приключение с поиском 150 питомцев, спрятанных в тематических мирах. Среди них встречаются мемные животные вроде Floppa. Для коллекции нужно исследовать местность, проходить сложные обби-маршруты и заглядывать в скрытые участки.\n\nУскоренный бег, суперпрыжок и радар помогают добираться до трудных мест и находить оставшихся существ. За открытие новых питомцев выдаются достижения, а меню коллекции и локаций помогает следить за продвижением. Основная цель — завершить собрание, последовательно осматривая доступные миры и преодолевая препятствия на пути к очередной находке.",
+      "instructions": "На компьютере двигайтесь WASD или стрелками, прыгайте на Space и вращайте камеру мышью. Tab показывает или скрывает курсор, левый щелчок использует кнопки. M открывает карту, P — питомцев, L — локации, N — настройки. Q/E/F получают усиление после просмотра награждаемой рекламы. На телефоне используйте левый джойстик, кнопку прыжка и правую область для камеры. Исследуйте маршруты и собирайте всех питомцев.",
+      "referenceHash": "9d2d6ed57daf65b5bd93f670fcf36edd4fb416653a75e92690af267a0fee6252",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Find The Pets is an exciting 3D adventure game where your mission is to track down 150 adorable, hilarious, and sometime",
+        "instructionsQuote": "PC Controls WASD / arrow keys = move Space = jump Move mouse = camera rotation Tab = show / hide mouse cursor Left-click = interact with the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The source gives six maps and eight biomes without explaining the relationship. This guide omits both location totals, retaining the documented 150-pet objective, exploration and controls."
+      },
+      "reviewedTextHash": "58dcced27fb0e44e1e16277698c6b2efae5e542e0628671958a7c39f2c8f9863"
+    },
+    "field-master": {
+      "sourceHash": "3801c59035ba01ad6b0b3751576e07850d94fcc324dd7a957a6a35027746e745",
+      "title": "Мастер поля",
+      "description": "Field Master — фермерский симулятор, где вы сами водите сельскохозяйственные машины на разных этапах работы. Трактор подготавливает поле, сеялка размещает семена, а уход за посевами ведёт к сезону уборки. Тогда комбайн собирает выращенный урожай.\n\nПолный цикл начинается с обработки почвы и заканчивается сбором. Смена техники помогает переходить между задачами, а отдельная команда загрузки и разгрузки управляет перевозимым содержимым. Важно соотносить текущую машину с тем этапом, который выполняется на поле, постепенно продвигаясь от подготовки земли к результату выращивания.",
+      "instructions": "На компьютере W или стрелка вверх двигает вверх, S или вниз — вниз, A или влево — влево, D или вправо — вправо. Q переключает машины, E загружает или разгружает. На телефоне используйте четыре экранные стрелки. Подбирайте технику под текущую работу и проходите этапы от вспашки и посева до ухода и уборки урожая.",
+      "referenceHash": "8690faf97af7e6c17cb94e648507bd73c6bd26f109c5f701ac64e33889575a11",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Field Master is a casual farming simulator that puts you behind the wheel of powerful agricultural machines. Experience ",
+        "instructionsQuote": "Desktop Controls: W, ↑ (Up Arrow): Move upward. S, ↓ (Down Arrow): Move downward. A, ← (Left Arrow): Move left. D, → (Right Arrow): Move rig",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "dea89f04e767460c30a32daafc35d35ff2db0ce6298413b6007e998245778e68"
+    },
+    "idle-magic-academy-tycoon": {
+      "sourceHash": "51eda273d285436b6c757e9bdb16e623e7c4f38422c0d42631e2817361b66fb9",
+      "title": "Магическая академия: симулятор управления",
+      "description": "Idle Magic Academy Tycoon ставит вас во главе школы волшебства. Создавайте классы, нанимайте магистров и собирайте артефакты для обучения студентов от теории до боевых заклинаний. Улучшение инфраструктуры и исследование магических технологий расширяют возможности академии.\n\nЗолотые монеты идут на помещения, дополнительные места для учеников, скорость подготовки и качество образования. Рост прибыли позволяет снова вкладывать её в развитие. Ежедневные задания и достижения дают ориентиры, а ежедневные награды и почасовые сундуки могут приносить магов или валюту. Основной цикл — открыть помещение, наладить обучение и улучшить его доступное содержимое.",
+      "instructions": "Пройдите вводное обучение, затем нажмите на область комнаты. В окне покупки проверьте стоимость и используйте кнопку приобретения. У уже купленной комнаты открывается управление с вариантами, зависящими от её типа. Выберите нужный элемент и нажмите Upgrade для улучшения. Все основные механики доступны с главного экрана: развивайте помещения и обучение, вкладывая прибыль в академию.",
+      "referenceHash": "aef98e6df096014892ac0acc1bbbc274a443a5468816ba4db156a04b19422da5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Idle Magic Academy Tycoon is a charming management simulator that puts you in charge of a growing academy of sorcery. Yo",
+        "instructionsQuote": "The introductory tutorial will familiarize you with the core game mechanics, including purchasing and upgrading rooms. To buy or upgrade a r",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "72532e0d40227d6667e7df0738378ac4f3029d66cf91717a08b4b77ce03e808f"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "Парикмахерская 3D",
+      "description": "Hair Salon 3D — симулятор парикмахерской, где нужно воспроизвести причёску по просьбе клиента. Каре, ирокезы, андеркаты и длинные слои требуют разных действий ножницами, машинкой, бритвой и кистью для окраски. Чем точнее результат, тем больше звёзд и чаевых.\n\nВ игре 23 причёски и пять инструментов. Заработанная валюта покупает новые инструменты и красители, а продвижение открывает сложные стрижки и VIP-клиентов. Трёхмерный образец помогает понять форму до начала работы. Завершение отмечается кнопкой Done, после чего клиент оценивает причёску; ежедневные задания добавляют новые цели.",
+      "instructions": "Нажмите карточку справа, чтобы рассмотреть желаемую причёску в 3D. Выберите ножницы для точного среза, машинку для ровной длины или бритву для деталей. Проводите по голове для стрижки, двумя пальцами вращайте камеру и меняйте масштаб. Для окраски выберите кисть и цвет. Сравните результат с образцом и нажмите Done, затем используйте доход в магазине инструментов и красителей.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "02645f461451010205c686857f0bac46b091f6bf4993767542007789cc8cad76"
+    },
+    "escape-from-wave-for-brainrots": {
+      "sourceHash": "67ab1379409ab4ed22cb0b58368bc43c0276af9fd88f6f5b4b2d0ede499e0785",
+      "title": "Спаси брейнротов от волны",
+      "description": "Escape from Wave for Brainrots предлагает спасать существ от наступающего цунами. Нужно взять брейнрота и успеть доставить его на базу, пока волна не догнала. Чем быстрее действия, тем больше возможностей добраться до редких и ценных экземпляров.\n\nУлучшение скорости помогает переносить существ дальше и быстрее. На базе спасённые брейнроты расширяют коллекцию, от обычных видов до легендарных. Каждая удачная доставка поддерживает прогресс и открывает возможности для следующих поисков. Главная задача забега — соотнести путь к существу с возвращением в безопасное место, не теряя время перед приближающейся волной.",
+      "instructions": "На компьютере двигайтесь WASD или стрелками, удерживайте правую кнопку мыши и двигайте её для камеры. E взаимодействует с существами, Space прыгает. На телефоне используйте джойстик слева, правую часть для камеры, окно над существом для взаимодействия и кнопку справа для прыжка. Берите брейнротов, доставляйте на базу до прихода волны и повышайте скорость для следующих спасений.",
+      "referenceHash": "5a9c0315367c8e2f8a4ef67ea7f4ecad1e768d5f020fbe2e3b270056a0cf4363",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to the game \"Escape from Wave for Brainrots\"! 🌊🧠 A giant tsunami is already coming — and only you can save the B",
+        "instructionsQuote": "For the computer: - Press the WASD keys or the ⬅️⬆️⬇️➡️ arrows. - Rotate the camera by moving the mouse with the right mouse button held dow",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4610865f08a760349786938118e72126c0c48b2254da469e0c8f3885dc6d68c3"
+    },
+    "hidden-objects-island": {
+      "sourceHash": "b793d903317cc96c87eabd64a6bcb68103f15a92fde928942fbd811fda9e38e6",
+      "title": "Скрытые предметы: остров",
+      "description": "Hidden Objects: Island — поиск скрытых предметов в разнообразных иллюстрированных местах. Пляжи, японские сады, рыбацкие деревни и летающие дома становятся сценами для наблюдения и открытий. Каждая локация содержит свои детали и тайны, которые раскрываются по мере исследования.\n\nПоиск связан с головоломками и сбором редких сокровищ. Основное действие — заметить спрятанный объект на картинке и выбрать его. Если предмет трудно различить среди деталей, подсказка помогает обнаружить его быстрее. Продвижение строится на внимательном осмотре очередной сцены и продолжении путешествия по местам острова.",
+      "instructions": "Щёлкайте мышью или касайтесь спрятанных предметов, когда находите их на картинке. Осматривайте всю сцену, затем проверяйте мелкие детали, чтобы не пропустить нужные объекты. Если поиск затягивается, используйте подсказку для трудного предмета. Продолжайте находить вещи, решать головоломки и собирать сокровища в доступных локациях.",
+      "referenceHash": "0f32a9099387883f3c4fc3fac61214909c38489d960da16c5d6ff0e8902fe910",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into the world of hidden secrets and surprises, where every location tells a story. From serene beaches and tranqui",
+        "instructionsQuote": "Controls: Click or tap objects hidden in the picture. Use hints to reveal hard-to-find items faster.",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3e93ede7c2d66e868ccd8c4cbe5c8d424cd516d87337fabe1c5ea57e20c8f09a"
+    },
+    "supermarket-manager": {
+      "sourceHash": "1d76f4a10d8c4f23503f63953e5445c3979f344f1946fb0c249e846810c65a7b",
+      "title": "Менеджер супермаркета",
+      "description": "Supermarket Manager предлагает развить собственный магазин, начав с покупки стеллажей и самостоятельного пополнения товаров. Обслуживание клиентов приносит прибыль, которую можно вложить в сотрудников: выкладчиков и кассиров. Это постепенно расширяет работу супермаркета.\n\nПовышение качества продукции увеличивает престиж магазина. Более дорогие стеллажи позволяют предлагать широкий ассортимент, а управление персоналом доступно через компьютер на складе. Рост связывает перенос товаров с вложениями: сначала нужно наполнить полки, получить выручку и затем выбрать улучшения, которые помогут обслуживать следующих посетителей.",
+      "instructions": "На компьютере перемещайте героя WASD или левой кнопкой мыши. На телефоне удерживайте палец и ведите в нужную сторону. Встаньте на отмеченную зону для покупки стеллажа или кассы. Заберите продукты со склада и отнесите на соответствующую полку. Подойдите к складскому компьютеру, чтобы открыть управление магазином, улучшить качество товаров или нанять сотрудников.",
+      "referenceHash": "575273b373e17153d18dfcb98c367b9e86f471ae006462151a93be013d4d8797",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Try your hand as a Supermarket Manager! Develop your store by purchasing shelves for products, which you will need to st",
+        "instructionsQuote": "For PC Controls = Use the left mouse button or the WASD keys to move your character For Smartphone Controls = Hold your finger on the screen",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f6e870a8176d5f8ec6abfd98ae23fd3188b32f46600ea5044a99375093b7443d"
+    },
+    "idle-hotel-empire-tycoon": {
+      "sourceHash": "19a2d0f8778dd0b737ee170480f00318f802d1ce4e5dc7847ba52f3273494ba9",
+      "title": "Idle Hotel Empire Tycoon",
+      "description": "Idle Hotel Empire Tycoon начинает с небольшого отеля, который нужно расширять и улучшать. Открывайте номера, рестораны, кафе и зоны отдыха, нанимайте персонал для обслуживания. Оформление внутри и снаружи и новые парковки помогают развивать работу с посетителями.\n\nПрибыль возвращается в бизнес, постепенно открывая больше помещений и услуг. Если хочется активнее участвовать в обслуживании, нажатия на полосы прогресса над ресепшеном и кассами ускоряют его. Основные решения доступны с главного экрана: выбрать новое помещение, улучшить действующее или пополнить штат. Эти вложения формируют долгосрочный рост гостиницы.",
+      "instructions": "Используйте левую кнопку мыши для управления интерфейсом на главном экране. Открывайте доступные номера и зоны отдыха, улучшайте помещения и нанимайте персонал. Нажимайте на полосы прогресса над ресепшеном и кассами, чтобы ускорить обслуживание. Реинвестируйте доход, сопоставляя новое расширение с развитием уже работающих услуг.",
+      "referenceHash": "941b398271274791aee8b1392789481fa7f1b44dd6bb2f6eb8bfa841e0d9505a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into the role of a manager for a small Hotel. Open and upgrade rooms, restaurants, leisure areas, and various cafes",
+        "instructionsQuote": "Access to all main game mechanics is available from the main screen. Use the left mouse button to interact with the in-game UI.",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "bf1af325675804fc07d658d9f9dbeba03e16ac401f8eb58fcf27a9c074790546"
+    },
+    "kings-defense-roguelike": {
+      "sourceHash": "46b7563e4a9aabfaa76913ba40472b652c397e1619e62789edb7015eb165ee74",
+      "title": "Королевская оборона: рогалик",
+      "description": "Kings Defense: Roguelike соединяет защиту королевства с залпами отскакивающих шаров. Они рикошетят от стен и монстров, нанося урон. Противники приближаются к стенам замка и отвечают атаками; нужно пережить 20 волн и победить финального босса.\n\nСундуки дают выбор навыков, включая молнии и разделение шаров. Попадания заполняют шкалу комбо, предоставляющую бонусы урона и лечения. Между попытками монеты в главном меню повышают урон, количество шаров и здоровье. Разные враги, в том числе призраки и уклоняющиеся монстры, требуют менять направление залпа и сочетания улучшений.",
+      "instructions": "На компьютере перемещайте указатель влево и вправо для выбора траектории, на телефоне ведите пальцем. Отпустите кнопку мыши или уберите палец, чтобы выпустить залп в выбранном направлении. Используйте рикошеты для попаданий, выбирайте навыки из сундуков и накапливайте комбо. Переживите 20 волн с финальным боссом, а монеты тратьте на постоянные улучшения башни.",
+      "referenceHash": "effbb52c0d5ad5e0dcf0b3e4dc5c0c3e87564fde8a9ae54b8442bda74127c9da",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Kings Defense: Roguelike — Defend the Kingdom! The kingdom is under threat! Enemies are advancing, and only your cannon ",
+        "instructionsQuote": "Aiming: Move the mouse cursor (on PC) or your finger across the screen (on mobile devices) left or right to set the trajectory of the balls.",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f088e9a9d834e9223656e981518c869740dd5e3fd5e0f774519dc36ffeaaf9dc"
+    },
+    "epic-empire-tower-defense": {
+      "sourceHash": "9374e972cd84caecc67bfd973d92d75d739f4dd84db8d509fcb9e9c4c7bc291f",
+      "title": "Epic Empire: защита башнями",
+      "description": "Epic Empire: Tower Defense предлагает защитить королевство от волн гоблинов, огров и больших боссов. Стройте башни и управляйте сразу тремя героями, усиливая защитников рунами и питомцами. Миры ведут от ледяных земель к подземным туннелям, а боссы заметно сильнее обычных противников.\n\nПовторное прохождение уровней на большей сложности даёт больше наград и развивает героев, открывая новые навыки. Золото расходуется внутри боевых сессий, рубины — на улучшение персонажей. Турниры и специальные испытания продолжают задачи кампании. Важно сочетать расположение башен с действиями героев, чтобы удержать линию обороны.",
+      "instructions": "Взаимодействуйте левой кнопкой мыши или касанием экрана. Размещайте башни и направляйте героев против волн, защищая королевство и побеждая боссов. Проверяйте, как сочетаются герои, руны и питомцы, прежде чем повышать сложность. Повторяйте уровни для развития и новых способностей. Планируйте золото в текущем бою, а рубины используйте для долгосрочных улучшений персонажей.",
+      "referenceHash": "d30956df4302dd38cbe264c7544e5795906589904791cf94e6be91feb2c70e54",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Immerse yourself in a dynamic tower defense strategy game where you must defend your kingdom from waves of goblins, ogre",
+        "instructionsQuote": "The goal of the game is to defend the kingdom from waves of enemies by strategically placing towers and controlling your heroes to defeat al",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c6800b0211b0d140f3907181d0efecc87f041531a899e826594c151e4be847dc"
+    },
+    "dead-land-survival": {
+      "sourceHash": "63dabce9243b3476c4134f2fb726f42d6e9299900c2ffdde290900e972c771f5",
+      "title": "Мёртвая земля: выживание",
+      "description": "Dead Land: Survival — выживание в разрушенном мире с городами, заполненными зомби. Герою нужно восстанавливать убежище и выходить за безопасную зону в поисках еды, снаряжения и материалов. Создание оружия и экипировки поддерживает дальнейшие походы, а восстановление поселения открывает новые задачи.\n\nМожно объединяться с другими игроками в кланы для элитных боссов и общих испытаний. Найденные вещи нужны для заданий поселенцев и улучшения зданий, поэтому излишки следует отличать от полезного запаса. Лишнее продаётся торговцу. Мастерская ремонтирует сломанное снаряжение, а склад требует свободного места для установки нового сундука.",
+      "instructions": "Для ремонта откройте Workshop и вкладку Repair. Перед установкой нового сундука освободите старую коробку от вещей, уберите её со склада и поставьте новую на это место. Собирайте предметы для заданий и построек, продавая лишнее торговцу. Чтобы открыть Amelia's Diner, перенесите 75 заражённых ушей из инвентаря в ячейку требования 0/75. Полный перезапуск находится в Profile → Settings → Start Over.",
+      "referenceHash": "dd4bddeb058424e053a68c83375f990d84a8862c4a0a48bd5d47c3568663bff5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Dead Land: Survival is a multiplayer survival simulator set in a post-apocalyptic setting. The familiar world is destroy",
+        "instructionsQuote": "How to repair items? Broken items can be repaired in the Workshop building under the Repair tab. How to install a new chest in the warehouse",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "734b45e6e1780aabf9e5f3b66c473b9e61191b404c9ce3b39f3511efff7c6fa8"
+    },
+    "gt-cars-mega-ramps": {
+      "sourceHash": "53db5006bfaf12d791660613a7ca83c830affa2ece39136251e3b048407af155",
+      "title": "GT Cars: мегарампы",
+      "description": "GT Cars Mega Ramps предлагает трюковые заезды на настраиваемых суперкарах в одиночку или вдвоём. Три режима меняют характер испытаний. Face to Face сталкивает соперников на соседних маршрутах, где обломки разбившейся машины способны погубить и вторую.\n\nColor Lands ведёт по дорогам из цветных блоков с опасными препятствиями. Mega Ramps использует высокие рампы, катящиеся шары, ящики и летящие геометрические формы. Внешность автомобиля меняется через окраску, тонировку окон, колёса и цвет огней. Выбор камеры и возврат машины на трассу помогают осваивать очередной сложный участок заезда.",
+      "instructions": "В одиночку управляйте WASD или стрелками, используйте левый Shift для NOS, R для возврата машины и C для камеры. Вдвоём игрок 1 использует WASD, левый Shift, R и C; игрок 2 — стрелки, N для NOS, L для сброса и U для камеры. Выберите Face to Face, Color Lands или Mega Ramps, следите за препятствиями и обломками и сохраняйте машину на маршруте.",
+      "referenceHash": "d1ce8acab63d043b624ca66fce1a99b4738af4bbf1817a9b02dc8f53a7d85a25",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "GT Cars Mega Ramps is an exciting driving car game that puts you behind the wheel of fully customizable super-sport cars",
+        "instructionsQuote": "1 Player Mode WASD / arrow keys = move L-Shift = NOS R = reset car position C = change camera view 2 Players Mode Player 1 WASD = move L-Shi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1d1d4c85890aa79f6ed4c275b29b5978d054de859906978b9ff3e30734cda217"
+    },
+    "redblue-forge": {
+      "sourceHash": "c3168d8006f60ff176ac1a72df2002b7c32a8e0734c84c7a0e4b5d8ee5c766bf",
+      "title": "Red-Blue Forge",
+      "description": "Red-Blue Forge — реакционная аркада с вращением цветных ядер. Нужно подставить цвет к приближающемуся угольку до того, как он ударит в центр. Верные совпадения образуют серии и повышают счёт, а ошибка заканчивает попытку.\n\nНачальный режим использует два цвета — красный и синий. Позже открывается режим четырёх ядер с зелёным и жёлтым, где счёт умножается на три. Материалы, полученные за попытки, идут в постоянное дерево Forge Tree. Улучшения развивают контроль, устойчивость и бонусы очков, помогая готовиться к более напряжённым сериям. Каждая попытка начинается только после Ready.",
+      "instructions": "Нажмите Ready для начала. Щёлкайте или касайтесь слева и справа, вращая ядро так, чтобы его цвет совпал с летящим угольком до попадания в центр. Собирайте цепочки верных совпадений и избегайте ошибок. После попытки тратьте материалы в Forge Tree на улучшения и открытие режима четырёх цветов с тройным множителем счёта.",
+      "referenceHash": "c5889f3773b2276d15af4453a9ae7923da654da1bed0ea29514ec962a9cb88dc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Red-Blue Forge is a fast reaction arcade game where you rotate core orbs to match incoming embers and survive as long as",
+        "instructionsQuote": "Tap/click left or right to rotate your core and match the color of incoming embers before they hit the center. Press Ready to start each run",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "845f30b4f81b5a60622e722e02af7964a2e526cf950192b1058cdbf23d961abc"
+    },
+    "hyper-cars-ramp-crash": {
+      "sourceHash": "eeca7bec2aea2fda1e267caf6def3ca8f6d7c239067773ea75fca540995290b3",
+      "title": "Hyper Cars: рампы и аварии",
+      "description": "Hyper Cars Ramp Crash — трёхмерный симулятор трюков и аварий с семью моделями суперкаров. Машины получают физические повреждения, а камера из салона позволяет смотреть на заезд изнутри. Настройка внешности даёт возможность изменить выбранный автомобиль.\n\nОткрытый мир, трюки и падения доступны одному или двум игрокам на одном устройстве. Free Style подходит для свободной езды, Fall Break — для падений, а Side Road, Forest, Ocean и Desert предлагают разные трюковые условия. Time Trial добавляет гонку против времени. Режим определяет задачу, а сброс позиции помогает снова проверить сложный участок.",
+      "instructions": "Одиночный режим: WASD или стрелки управляют, левый Shift включает NOS, R возвращает машину, C меняет камеру. Вдвоём первый игрок использует WASD, левый Shift, R и C, второй — стрелки, N для NOS, L для возврата и U для камеры. Выберите свободную езду, трюки, падения или испытание на время, затем используйте управление и сброс для освоения маршрута.",
+      "referenceHash": "cf65e6047e0244b3cea44f8648d533b63f61f759f59bc73a825cc6bee3ec2897",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hyper Cars Ramp Crash is a 3D driving stunt and crash simulation game with realistic physics and graphics. Perform incre",
+        "instructionsQuote": "1 Player Mode WASD / arrow keys = move L-Shift = NOS R = reset car position C = change camera view 2 Players Mode Player 1 WASD = move L-Shi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d6259a06e69c7fab7db2a9eb8b794417eb91f492f3c5fe0479be45835bd24a38"
+    },
+    "toxic-arena-biological-threat": {
+      "sourceHash": "9495001176f33062230a90ddc61c5e5918ccd621e78436876248229b8215cc0f",
+      "title": "Токсичная арена: биологическая угроза",
+      "description": "Toxic Arena: Biological Threat — выживание среди бесконечных орд мутантов после биологической катастрофы. Волны усиливаются, и задача бойца — продержаться как можно дольше. Биологический опыт повышает уровень и даёт выбор мутаций для дальнейшего боя.\n\nУлучшения увеличивают урон и скорострельность либо открывают рикошет и пробитие брони. Оружие встречается разной редкости, от обычного до легендарного. Леса, заброшенные базы и лаборатории меняют обстановку арены. Постоянное движение и рывок помогают выйти из окружения, а сочетание мутаций поддерживает новый рекорд выживания.",
+      "instructions": "На компьютере WASD или стрелки двигают, мышь наводит, левый щелчок стреляет, R перезаряжает, Space выполняет рывок. На телефоне левый джойстик перемещает, правый наводит и автоматически стреляет; отдельная кнопка перезаряжает вручную. Двигайтесь, собирайте опыт и выбирайте мутации. Следите за магазином и используйте рывок, чтобы вырваться из толпы.",
+      "referenceHash": "605724cfe618227d10a1e234d2cdc6ea78afbc9bd82be94528bff74575d62dff",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Toxic Arena: Biological Threat is a thrilling action-roguelike \"survivors\" game where your only goal is to survive in th",
+        "instructionsQuote": "Survive the harsh conditions of \"Toxic Arena: Biological Threat,\" repelling endless mutant attacks. Collect biological experience, unlock un",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7215a50cb03fde281949d267a28631a495d607eccd5c15f4ba395143342dbe83"
+    },
+    "red--blue-online-build-destroy-fight": {
+      "sourceHash": "45f27f11b16f6e232a08a6da8f0f82cfa69d38e2c3c074673949431b167603db",
+      "title": "Red & Blue: строй, разрушай, сражайся",
+      "description": "Red & Blue: Online объединяет командную стрельбу со строительством и разрушением воксельного мира. Блоки, потерявшие связь с землёй, падают и разрушаются, поэтому уничтожение опоры способно изменить весь участок боя. Можно возводить укрепления и прокладывать новые проходы.\n\nSandbox даёт свободу экспериментов с постройками и сносом. В Capture the Flag нужно принести вражеский флаг на свою базу, а в Team Deathmatch — набрать больше устранений, чем другая команда. Быстрый подбор и пользовательские комнаты позволяют выбрать сессию. Тактическое использование окружения поддерживает бой наряду с выбранным оружием.",
+      "instructions": "WASD перемещают, Space прыгает, C позволяет присесть. Левая кнопка мыши стреляет или строит, правая прицеливается или копает в зависимости от предмета. 1–5 выбирают предмет, R перезаряжает. M открывает карту, J меняет размер мини-карты, T открывает чат, Tab — паузу. Выполняйте цель режима и следите за опорами при разрушении: неподдерживаемые блоки обрушатся.",
+      "referenceHash": "c7a273b8eb5166ec334022a28c77693a8d63fa587fd0482e4009a4e95e22692f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Red & Blue: Online. Build! Destroy! Fight! — is a fast-paced voxel multiplayer shooter with fully destructible, physics-",
+        "instructionsQuote": "The world is fully destructible with realistic physics: any block that loses its connection to the ground will fall and break apart. Game Mo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0c2c18bed0b7a45ad33ae93f70155979cf4b66637180bd61798c35236f8c5355"
+    },
+    "mahjong-classic": {
+      "sourceHash": "d8e9d82a90c8ce4f261dffb47be50592593e9e648620d89eac5b5875eb478e53",
+      "title": "Классический маджонг",
+      "description": "Mahjong Classic — пасьянс с раскладками вроде Черепахи, Форта, Краба, Паука, Кошки и Дракона. Цель — убрать все плитки, выбирая доступные пары с одинаковыми символами. Цветы можно соединять с другими цветами, а сезоны — с другими сезонами.\n\nПлитка доступна для выбора только тогда, когда не заблокирована другими. Поэтому после снятия пары нужно заново осматривать открывшиеся участки. Случайные раскладки позволяют возвращаться к любимому полю, а порядок удаления влияет на дальнейшие возможности. Если доступных пар больше нет, попытка проиграна; Undo, Hint и Spotlight помогают пересмотреть ход или увидеть подходящие элементы.",
+      "instructions": "Выберите раскладку и убирайте пары доступных плиток с одинаковыми символами. Цветы образуют пары между собой, как и сезоны. Проверяйте, какие плитки освободились после удаления. Undo возвращает последнюю пару, Hint показывает совпадение, Spotlight облегчает поиск доступных элементов. Очистите всё поле; если доступных пар не осталось, попытка завершится поражением.",
+      "referenceHash": "e1b128196d455e91ecee370933d9c96b24fa410a8e2b75f0c4963fa8babac3e5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Mahjong Classic\" is a classic mahjong solitaire with a unique algorithm for generating levels - a random layout of chip",
+        "instructionsQuote": "The goal of the game is to clear the field of chips. Choose chips with the same symbols to remove them. Special chips \"flowers\" are consider",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "45e6b56f84982287d87fc59b89c9aa0ffc045361725894557ca3d964e6cd4c46"
+    },
+    "dogs-vs-aliens": {
+      "sourceHash": "2f5491329aab0e62eb00d93a0900ba734f151b369d4bcdade88619b680850c93",
+      "title": "Собаки против пришельцев",
+      "description": "Dogs vs Aliens — спасение домашних животных, похищенных пришельцами. Отряд собак проходит через пляж, парк, городскую площадь и лес, освобождая питомцев и добывая ресурсы. Эволюция и улучшения помогают справляться с более сильными врагами и большими инопланетными боссами.\n\nНовые породы, от овчарок до хаски и доберманов, расширяют коллекцию. Задания и тайна острова направляют дальнейшее исследование. Атаки начинаются автоматически при приближении, поэтому главным действием становится перемещение отряда к нужной цели. Добытые ресурсы усиливают собак, а врагов нужно доставлять на базу, продолжая освобождать оставшихся животных.",
+      "instructions": "На компьютере двигайтесь клавишами WASD или мышью, на телефоне — пальцем. Подойдите к противнику, чтобы собаки начали атаковать автоматически. Доставляйте врагов на базу, добывайте ресурсы и улучшайте отряд. Следуйте заданиям, открывайте территории и спасайте новых питомцев. Для победы нужно освободить всех животных и отправить пришельцев обратно на Луну.",
+      "referenceHash": "93765f0ed07a0d1013c656a0538bdf14a077fe075cbf3e960b78d08bca777920",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Your favorite pets have been kidnapped by evil aliens! Hurry to save them and punish the alien bullies. Evolve to defeat",
+        "instructionsQuote": "To win, you need to save all the pets and send the aliens back to the Moon! Get resources and upgrade your dogs. Hand over enemies to the ba",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "975f7cf084ecd62fffb9c8c25b1dfe6df71ecfcd8d30c8cc78d94cc1f9a0e86a"
+    },
+    "gym-boss": {
+      "sourceHash": "8f251006229fba9b68d440b7b3f96cbf5aa89e34f833269799de3ee084cfe3f1",
+      "title": "Босс спортзала",
+      "description": "Gym Boss начинается с простых упражнений и постепенно ведёт к тяжёлым штангам и боям на ринге. Нажатия выполняют подходы и приносят очки силы. Повышение уровня открывает оборудование, на котором сила растёт быстрее, поэтому дальнейшая тренировка требует переходить к более сложным нагрузкам.\n\nДругие посетители зала выступают соперниками по уровню: опережение даёт бонусы, а рост улучшает награды. Каждый босс на ринге требует определённой силы. Победа над всеми даёт звание Ultimate Gym Boss. Усилители и улучшения ускоряют развитие, а новые костюмы позволяют менять внешность героя между тренировками.",
+      "instructions": "Касайтесь экрана или щёлкайте, чтобы выполнять подходы и набирать силу. Начните с отжиманий и упражнений на пресс, затем повышайте уровень и открывайте более тяжёлое оборудование. Обгоняйте по уровню других посетителей ради бонусов. Когда силы достаточно для конкретного босса, идите на ринг. Используйте доступные усилители и победите всех боссов для главного звания.",
+      "referenceHash": "b55989659e08cbabe017164452a29f29d41c5cc3091a3fabcdce0ecbc89f0192",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "💪 \"Gym Boss\" – a casual game where you start with basic equipment and gradually become a true champion! 🔥 Game Features:",
+        "instructionsQuote": "🎮 How to play \"Gym Boss\" Start with simple exercises: You begin with basic equipment (Push-ups, sit-ups). Tap the screen (or click) to perfo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ffe8ae6617ff432f7f969b451f64df55d83f35decdfe756123a08e736be2bd3f"
+    }
+  }
+}

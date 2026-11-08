@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "games": {
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "कार डिस्ट्रक्शन किंग",
+      "description": "अलग-अलग कारों को चलाकर हथौड़ों, प्रेस, गुलेल जैसे उछालने वाले यंत्रों और दूसरी बाधाओं के बीच उनकी टक्कर का असर देखें। रेस में बेहतर रिकॉर्ड बनाने की कोशिश भी कर सकते हैं। यहां चुनौती केवल तेज चलाना नहीं है; नक्शे और मोड बदलने पर कार को अलग तरह की बाधाओं से गुजरना पड़ता है।\n\nपहले मोड और वाहन चुनें, फिर कैमरा बदलकर सामने का रास्ता देखें। धीमी गति वाला विकल्प टक्कर के क्षण को करीब से समझने देता है। कार को फिर से शुरुआती स्थिति में रखने और उसकी हालत बहाल करने के अलग बटन हैं, इसलिए किसी कठिन हिस्से पर दोबारा प्रयास करते समय सही विकल्प चुनें। दूसरे वाहन के साथ वही बाधा आजमाकर उसके व्यवहार की तुलना कर सकते हैं।",
+      "instructions": "WASD से कार चलाएं, Spacebar से हैंडब्रेक और Shift से नाइट्रो लगाएं। C कैमरा बदलता है, R कार रीसेट करता है, K उसकी हालत बहाल करता है और N वाहन बदलता है। B से स्लो मोशन चालू करें। TAB या Escape से विराम मेनू खोलें। मोबाइल पर गेम के स्क्रीन वाले नियंत्रण इस्तेमाल करें।",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2ce3eaee7a7654a08d164ac26354fa1636a3cef4dc17fae1520cd238d7d811d6"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "शतरंज ऑनलाइन मल्टीप्लेयर",
+      "description": "कंप्यूटर के विरुद्ध खेलें, ऑनलाइन प्रतिद्वंद्वी चुनें या दोस्त के साथ एक ही स्क्रीन पर शतरंज की बाजी लगाएं। कंप्यूटर के लिए कठिनाई के 21 स्तर हैं। समय के विकल्पों में बिना सीमा की बाजी के साथ Bullet, Blitz, Rapid और Classic शामिल हैं, इसलिए अभ्यास की गति अपने अनुसार चुन सकते हैं।\n\nउद्देश्य विरोधी राजा को मात देना है: राजा पर हमला हो और कोई वैध चाल उसे बचा न सके। संभावित चालों का संकेत, इंटरैक्टिव सुझाव और बाजी के बाद का विश्लेषण स्थिति समझने में मदद करते हैं। अपनी बारी पर केवल हमला न देखें; मोहरे की सुरक्षा और प्रतिद्वंद्वी की अगली चाल भी सोचें। चालों का इतिहास देखकर बाद में उस फैसले की समीक्षा कर सकते हैं जहां स्थिति बिगड़ी थी।",
+      "instructions": "गेम का प्रकार चुनें और उपलब्ध कठिनाई या समय सेट करें। दोनों खिलाड़ी बारी-बारी अपने मोहरों के नियमों के अनुसार चाल चलते हैं। लक्ष्य विरोधी राजा को मात देना है। दिखाई गई वैध चालें देखें, असुरक्षित मोहरों को बचाएं और चाल तय करने से पहले जवाब की संभावना सोचें। बाजी के बाद चालों के इतिहास और विश्लेषण से गलतियां समझें।",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0866653c0c3c0c02f19babb05c366a6034058ee7740ee3d08827c4dd1a4e1c6e"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "स्क्रू मैच",
+      "description": "स्क्रू मैच में कांच की संरचना पर लगे रंगीन पेंचों को ऊपर रखे डिब्बों में उनके रंग के अनुसार पहुंचाना है। हर पेंच के लिए उसी रंग का डिब्बा देखें। पहेली का आधार रंग पहचानना और सामने उपलब्ध संग्रह स्थानों के हिसाब से अगला पेंच चुनना है।\n\nजब किसी डिब्बे के छेद भर जाते हैं, उसकी जगह नया डिब्बा आता है। इसलिए पहले चुना गया रंग अगली बार भी सही होगा, यह मानकर न चलें। प्रत्येक भरे डिब्बे के बाद ऊपर की स्थिति फिर जांचें और बाकी पेंचों के रंगों से मिलान करें। इसी क्रम को जारी रखकर संरचना से पेंच हटाते जाएं।",
+      "instructions": "पहले ऊपर के डिब्बों का रंग देखें, फिर कांच की संरचना से उसी रंग का पेंच चुनकर संबंधित डिब्बे में रखें। बचे हुए स्थानों पर ध्यान दें। डिब्बा भरने और नया डिब्बा आने के बाद अगला पेंच चुनने से पहले रंग दोबारा जांचें। एक-एक मेल खाते पेंच को हटाते हुए पहेली आगे बढ़ाएं।",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the screws",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6bfc38f60deec88274b78a1b827dea3fb306a30c7ae2dcbd115e251f55eee100"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "तहखाने से बच निकलो",
+      "description": "इस पहेली में हर कमरे से बाहर निकलना है, जबकि मृतकों को जगाने वाले जादूगर आपका पीछा करते हैं। वे आपसे तेज चलते हैं, इसलिए केवल उनसे दूर भागते रहना पर्याप्त नहीं है। कमरे में रखी रुकावटें ही बचाव का मुख्य साधन हैं, क्योंकि पीछा करने वाले उन्हें समझदारी से पार नहीं करते।\n\nचलने से पहले अपना रास्ता और दुश्मन के संभावित रास्ते को साथ देखें। उसे ऐसी बंद गली की ओर खींचना उपयोगी है जहां रुकावट उसे रोक दे, जबकि आपके पास अगले कमरे तक पहुंचने का मार्ग बचा हो। गलत कदम को वापस लेने का विकल्प योजना सुधारने देता है। रास्ता समझ न आए तो संकेत लें और देखें कि कमरे की बनावट को अपने पक्ष में कैसे इस्तेमाल कर सकते हैं।",
+      "instructions": "कंप्यूटर पर तीर वाले बटनों से पात्र चलाएं। Backspace पिछली चाल वापस लेता है और H संकेत देता है। मोबाइल पर स्क्रीन का दिशा-पैड और दिए गए बटन इस्तेमाल करें। पहले बंद रास्ते और रुकावटें पहचानें, फिर जादूगर को बंद गली में फंसाने वाला मार्ग चुनें। अपनी निकलने की राह खुली रखें; खराब चाल पर वापस लौटकर दूसरा क्रम आजमाएं।",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "509e6013e75ca875108efc20058c973582fd293fc6ea9dfe9762d74352309c47"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "पसंदीदा चित्र पहेलियां",
+      "description": "चित्र के टुकड़े जोड़कर पूरी तस्वीर बनाएं। कठिनाई छह से बारह सौ टुकड़ों तक बदली जा सकती है, इसलिए छोटे चित्र से शुरुआत करके अधिक बारीक पहेली तक बढ़ सकते हैं। चाहें तो टुकड़े घुमाने का विकल्प चुनें। Classic और Realistic मोड में टुकड़ों की व्यवस्था अलग होती है; Realistic में वे खेल क्षेत्र में बिखरे रहते हैं।\n\nपहचानने योग्य रंगों और किनारों से हिस्सा बनाना शुरू करें, फिर मिलते-जुलते टुकड़ों के लिए दृश्य बड़ा करें। नमूना चित्र, संकेत और वैकल्पिक ग्रिड अधूरे हिस्सों का स्थान समझने में मदद करते हैं। उपलब्ध चित्र श्रेणियों के अलावा अपनी तस्वीर से भी पहेली बना सकते हैं। पृष्ठभूमि और इंटरफेस को बदलकर काम करने की जगह अपने अनुकूल रखें।",
+      "instructions": "कंप्यूटर पर बायां माउस बटन दबाकर टुकड़ा पकड़ें और खींचें। माउस व्हील से दृश्य छोटा-बड़ा करें या टुकड़ों की पट्टी में आगे जाएं। मोबाइल पर उंगलियों से टुकड़े खिसकाएं और दृश्य का आकार बदलें। पहले कठिनाई चुनें, फिर खास रंग या किनारे वाले हिस्से जोड़ें। जरूरत पर नमूना चित्र और ग्रिड से स्थान जांचें।",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "13c334966f71fc41ed2dc2c9a23365a7f4c3462c26faea6ded6377bb89b7ac53"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "परफेक्ट मैच: बिल्लियों का मेल",
+      "description": "आश्रय की बिल्लियों को घर पहुंचाने के लिए पास-पास की बिल्लियों की जगह बदलकर एक जैसे तीन का मेल बनाएं। हर स्तर का लक्ष्य अलग हो सकता है: किसी खास तरह की बिल्लियां जुटाना, बक्से तोड़ना, बर्फ में फंसी बिल्लियां छुड़ाना या केवल विस्फोट से टूटने वाले पत्थर हटाना। सीमित चालों के खत्म होने से पहले सभी लक्ष्य पूरे करने हैं।\n\nचार का मेल रॉकेट बनाता है, मुड़े हुए आकार में पांच का मेल बम और सीधी पंक्ति में पांच का मेल Paw बनाता है, जो एक रंग की बिल्लियां हटाता है। लगातार छह मिलने पर चमकता Paw अधिक क्षेत्र साफ करता है और दोगुने अंक देता है। साठ स्तरों में नए तत्व जुड़ते हैं। कठिन स्तर से पहले दूध की बोतलों से बूस्टर लें; अधिकतर स्तरों में समय सीमा नहीं है, इसलिए चाल चुनने से पहले बोर्ड देख सकते हैं।",
+      "instructions": "कंप्यूटर पर एक बिल्ली और फिर उसके पड़ोसी पर बाएं बटन से क्लिक करें, या बिल्ली को पड़ोसी तक खींचें। मोबाइल पर टैप या स्वाइप से यही करें। विशेष बिल्ली पर क्लिक या टैप उसे उसी जगह सक्रिय करता है। शुरुआत की स्क्रीन पर बूस्टर चुनें। शेष चालें और लक्ष्य देखें; चार, मुड़े हुए पांच, सीधे पांच और सीधे छह के मेल से अलग विशेष बिल्लियां बनती हैं।",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of ",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4b44da8a6863f93b14a22da75df69770295d67961009e7def632b8ee7e614801"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "हेयर सैलून 3डी",
+      "description": "ग्राहक के बताए बालों के स्टाइल को देखकर सैलून के औजारों से उसे तैयार करें। बॉब, मोहॉक, अंडरकट और लंबी परतों जैसी कटिंग के लिए कैंची, क्लिपर, रेजर और रंग लगाने वाला ब्रश अलग काम करते हैं। मांग के जितना करीब परिणाम होगा, उतने अधिक सितारे और टिप मिलेंगे।\n\nबाल काटने से पहले दाईं ओर के अनुरोध कार्ड का त्रिआयामी नमूना देखें। लंबाई और छोटे विवरण पहचानें, फिर उस हिस्से के लिए सही औजार चुनें। कैमरा घुमाकर दूसरी तरफ की कटिंग भी जांचें और जरूरत हो तो रंग लगाएं। कमाई से नए औजार और रंग खरीदे जा सकते हैं; आगे बढ़ने पर जटिल हेयरकट और अतिरिक्त ग्राहक खुलते हैं। काम पूरा करने से पहले तैयार स्टाइल की नमूने से तुलना करें।",
+      "instructions": "दाईं ओर अनुरोध कार्ड पर टैप करके स्टाइल देखें। बारीक कटिंग के लिए कैंची, बराबर ट्रिम के लिए क्लिपर और विवरण के लिए रेजर चुनें। सिर पर स्वाइप करके बाल काटें; दो उंगलियों से कैमरा घुमाएं या दृश्य समायोजित करें। रंग चाहिए तो ब्रश और रंग चुनें। अंत में नमूने से मिलान करके Done दबाएं और रेटिंग लें।",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "14cba0379b5557d72a304d2dfcaeb2b070b3b80a0b42fcbd66bfc2d67e968ad9"
+    },
+    "red--blue-online-build-destroy-fight": {
+      "sourceHash": "45f27f11b16f6e232a08a6da8f0f82cfa69d38e2c3c074673949431b167603db",
+      "title": "लाल और नीला: ऑनलाइन बनाओ, तोड़ो, लड़ो",
+      "description": "इस ऑनलाइन टीम शूटर में ब्लॉक की इमारतें बनाना और तोड़ना लड़ाई का हिस्सा है। जमीन से संपर्क खोने वाले ब्लॉक गिरकर टूट जाते हैं, इसलिए सहारा हटाने से इमारत ढह सकती है। आधार और किलेबंदी बनाएं, नए रास्ते खोदें और बदलते मलबे को ध्यान में रखकर आगे बढ़ें।\n\nCapture the Flag में दुश्मन का झंडा अपने आधार तक लाना है, जबकि Team Deathmatch में विरोधी टीम से अधिक खिलाड़ियों को हराना है। Sandbox निर्माण और विनाश के प्रयोग के लिए है। मैचमेकिंग या कस्टम कमरे से सत्र चुनें, फिर अपने मोड का लक्ष्य समझें। सीधी गोलीबारी के साथ दीवार और उसके सहारों का उपयोग करना भी महत्वपूर्ण है, क्योंकि एक नई सुरंग लड़ाई का रास्ता बदल सकती है।",
+      "instructions": "WASD से चलें, SPACE से कूदें और C से झुकें। बायां माउस बटन गोली चलाता या निर्माण करता है; दायां निशाना लगाता या खोदता है, चुनी वस्तु के अनुसार। 1–5 से वस्तु चुनें और R से गोली भरें। J मिनीमैप का आकार बदलता है, M नक्शा, T चैट और TAB विराम मेनू खोलता है। खुदाई के समय ऊपर के ब्लॉक का सहारा देखें ताकि गिरते मलबे का अनुमान रहे।",
+      "referenceHash": "c7a273b8eb5166ec334022a28c77693a8d63fa587fd0482e4009a4e95e22692f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Red & Blue: Online. Build! Destroy! Fight! — is a fast-paced voxel multiplayer shooter with fully destructible, physics-",
+        "instructionsQuote": "The world is fully destructible with realistic physics: any block that loses its connection to the ground will fall and break apart. Game Mo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "32ce15f9ae92b8df18768fa32fe661ca4c90ab8b482939237cac47e4fa7856ff"
+    },
+    "archer-trial-by-fate": {
+      "sourceHash": "9158285628e782304ba3af336cfc540d406fb282994857ab2e90efefa111c3bb",
+      "title": "तीरंदाज: भाग्य की परीक्षा",
+      "description": "ऊपर से दिखाई देने वाले कमरों में तीरंदाज को चलाकर राक्षसों और बड़े दुश्मनों से लड़ें। नायक रुकने पर निकटतम दुश्मन को अपने आप निशाना बनाकर तीर चलाता है। इसलिए लड़ाई का क्रम बचने के लिए चलना और सुरक्षित मौका मिलने पर रुककर हमला करना है। सभी चरण पार करके अंतिम बड़े दुश्मन तक पहुंचना लक्ष्य है।\n\nहर प्रयास में कमरे और लहरों का क्रम बदलता है। उछलकर लगने वाले तीर, बंटे हुए तीर, उल्काएं, बर्फ और आग के तीर तथा आत्मिक साथी जैसी क्षमताएं अलग संयोजन बनाती हैं। दुश्मनों के व्यवहार को देखकर रुकने की जगह चुनें। प्रयासों के बीच नए नायक खोल सकते हैं, Forge में उपकरण सुधार सकते हैं और सिक्कों से स्थायी गुण बढ़ा सकते हैं, ताकि अगली यात्रा में बेहतर तैयारी हो।",
+      "instructions": "वर्चुअल जॉयस्टिक या कंप्यूटर पर WASD अथवा तीर वाले बटनों से तीरंदाज चलाएं। चलने पर हमलों से बचें; रुकते ही नायक निकटतम दुश्मन पर अपने आप तीर चलाता है। अलग से गोली चलाने का बटन दबाने की जरूरत नहीं है। सुरक्षित जगह पर थोड़ी देर रुकें, फिर खतरा पास आए तो दोबारा चलें। प्रयास के बाद Forge और स्थायी सुधार देखें।",
+      "referenceHash": "7d40fc1ce7176f841620df5be03ee1cfd5fdba7e004f45c2728cc1ef79d5a6bc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Archer: Trial by Fate is a dynamic top-down action game. You control an archer who fights through dozens of rooms filled",
+        "instructionsQuote": "To control your character, use the virtual joystick or the WASD keys / arrow keys on your keyboard. Shooting is automatic: when the hero sta",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e628986dab9edafe34b7b28c70b12febdce5542f235a288babef31245c3d6406"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "कार स्टंट रेसिंग गेम 3डी",
+      "description": "ऊंचे और संकरे रास्तों पर कार चलाकर रैंप, छलांगों और चलती बाधाओं को पार करें। लक्ष्य बिना टकराए या ट्रैक से गिरे अंतिम रेखा तक पहुंचना है। समय वाले स्तरों में निर्धारित अवधि के भीतर पहुंचना भी जरूरी है, इसलिए गति और नियंत्रण के बीच संतुलन रखें।\n\nकैमरे के अलग दृश्य संकरे मोड़ और उतरने की जगह पहचानने में मदद करते हैं। छलांग लगाने से पहले कार को रैंप की दिशा में सीधा करें और आगे की बाधा की चाल देखें। चेकपॉइंट तक पहुंचने पर गिरने के बाद रास्ते के बीच से प्रयास फिर शुरू किया जा सकता है। स्तर आगे बढ़ने पर कठिनाई बढ़ती है, इसलिए समय बचाने के साथ कार को रास्ते पर टिकाए रखना भी महत्वपूर्ण है।",
+      "instructions": "कंप्यूटर पर ऊपर का तीर गति बढ़ाता है, नीचे का तीर कार पीछे ले जाता है और बाएं-दाएं तीर मोड़ते हैं। Spacebar से ब्रेक लगाएं। मोबाइल पर बाएं-दाएं मोड़ने के बटन, एक्सेलरेटर और ब्रेक पैडल इस्तेमाल करें। रैंप के सामने कार सीधी करें, चलती बाधा को देखकर आगे बढ़ें और समय सीमा में अंतिम रेखा तक पहुंचें।",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The provider description repeatedly promotes a downloadable offline app. This guide omits those unsupported delivery claims and uses only the explicit driving controls, timed finish, obstacles, camera views and checkpoint behavior."
+      },
+      "reviewedTextHash": "17064b5c2c3e3a5ffa250ad1e659583ce876ffcdae45026c33151d9337d9c6c2"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "टाइनी स्पोर्ट्स एम्पायर आइडल",
+      "description": "छोटी बास्केटबॉल टीम से शुरुआत करके कई खेलों वाला क्लब बनाएं। बास्केटबॉल के बाद हॉकी, फुटबॉल, रग्बी, वॉलीबॉल और बेसबॉल तक विस्तार कर सकते हैं। मैच अपने आप खेले जाते हैं; आपका काम खिलाड़ियों की भर्ती, प्रशिक्षण, उपकरण और कौशल पर फैसले लेकर टीम की ताकत और जीत की संभावना बढ़ाना है।\n\nकमाई को सुधारों में लगाएं और नए खेल खोलते जाएं। Sports बटन से खेल बदलकर लीग में प्रगति देख सकते हैं, जबकि दूसरे टैब भर्ती, सामान, कौशल और पुरस्कार संभालते हैं। सीजन और विशेष आयोजन अतिरिक्त लक्ष्य देते हैं। लौटने पर अनुपस्थिति में जमा पुरस्कार लें और अगली खरीद से पहले टीम की जरूरत देखें, ताकि आय और प्रदर्शन दोनों में सुधार हो।",
+      "instructions": "कंप्यूटर पर बाएं माउस बटन से इंटरफेस के बटन दबाएं; मोबाइल पर टैप करें और पैनल स्क्रॉल करें। पहले आय से टीम के सुधार खरीदें, फिर खिलाड़ी भर्ती करके उपकरण लगाएं। Sports से खेल और लीग की स्थिति देखें। कौशल और आयोजन कार्ड खोलें तथा उपलब्ध पुरस्कार लें। मैच स्वतः चलते हैं, इसलिए खिलाड़ियों की सीधी चाल के बजाय प्रबंधन विकल्पों पर ध्यान दें।",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketba",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using sk",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "df7ac28a03da4f4bb5ad76b28ac006ab28eb3741617c61a52f54c79e0f8ff24d"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "ओबी क्राफ्ट: विमान बनाओ",
+      "description": "अलग-अलग हिस्से जोड़कर अपना विमान तैयार करें और बाधाओं वाले उड़ान मार्ग पर आजमाएं। विमान के पास निर्माण क्षेत्र में जाकर नीचे की सूची से भाग चुनें और उसे डिजाइन में लगाएं। हर ब्लॉक उड़ान को प्रभावित करता है, इसलिए उड़ान में मिली कमाई से नए हिस्से लेकर अगला निर्माण सुधार सकते हैं।\n\nउड़ान शुरू कराने वाली गुलेल को उन्नत करने पर विमान अधिक तेज और ऊंचा जाता है। हवा में सिक्के बटोरें और बाधाओं से बचें, फिर दुकान में नए ब्लॉक और सुधार देखें। दो मुफ्त रूप उपलब्ध हैं, और अधिकतम चार डिजाइन सुरक्षित रखे जा सकते हैं। बोनस चक्र भी सामान या सिक्के दे सकता है। पहले जोड़ने और लॉन्च करने का क्रम समझें, फिर कमाई से अगले प्रयास की तैयारी करें।",
+      "instructions": "विमान के पास निर्माण क्षेत्र में पहुंचें। नीचे की इन्वेंटरी से भाग चुनकर क्लिक करें और विमान के पास स्थापित करें; भाग कम हों तो दुकान से लें। उड़ान से पहले गुलेल में सिक्के लगाकर सुधार करें। फिर विमान लॉन्च करें, हवा में दिशा संभालें, सिक्के जुटाएं और बाधाओं से बचें। लौटकर नए हिस्से खरीदें और अपने डिजाइन को फिर सुधारें।",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "sourceIssueResolution": "The description once calls the vehicle a car, while its title and detailed construction and flight instructions consistently describe an airplane. The guide omits that stray car reference and retains the documented aircraft construction, launch and coin collection steps."
+      },
+      "reviewedTextHash": "91548a5db1021b04d1fdbcf23e78e7008355a1ad728af98b86d9e4958d389193"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "कैन्यन ड्रिफ्टर",
+      "description": "दो आयामों वाले कठिन रास्तों पर मोटरसाइकिल चलाकर चढ़ाई और छलांगें पूरी करें। तेज चलना ही काफी नहीं है: शरीर आगे या पीछे झुकाने से बाइक का संतुलन बदलता है और सामने का पहिया ऊपर या नीचे होता है। रास्ते की ढलान देखकर थ्रॉटल और झुकाव का समय चुनें, फिर कम समय में पूरा करने की कोशिश करें।\n\nबाइक की बनावट और सेटिंग को मिट्टी तथा इलाके के अनुसार बदल सकते हैं। जिस ट्रैक पर बार-बार गिर रहे हों, वहां केवल वही प्रयास दोहराने के बजाय गैराज में सेटअप भी जांचें। संतुलन किस जगह टूटता है, यह देखकर अगली कोशिश में झुकने का समय बदलें। लीडरबोर्ड बेहतर समय का लक्ष्य देता है, लेकिन कठिन हिस्से को नियंत्रित ढंग से पार करना पहले जरूरी है।",
+      "instructions": "W या ऊपर का तीर थ्रॉटल है; S या नीचे का तीर ब्रेक और पीछे जाने के लिए है। A या बायां तीर पीछे झुकाकर आगे का पहिया उठाता है, D या दायां तीर आगे झुकाता है। R से फिर शुरू करें और Esc या P से विराम लें। फोन पर पहली छुअन के बाद थ्रॉटल, ब्रेक और आगे-पीछे झुकने के चार बटन मिलते हैं; ऊपर दाईं ओर विराम और रीस्टार्ट हैं।",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "76d7d6006d24f61452b6c1f89dac4648b37fdc711b05c5af3c7fe97301ca9f95"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "सुडोकू ऑनलाइन",
+      "description": "नौ गुणा नौ खाने वाली सुडोकू में दिए अंकों से तार्किक क्रम निकालें। हर पंक्ति, स्तंभ और तीन गुणा तीन खंड में एक से नौ तक हर अंक ठीक एक बार होना चाहिए। क्लासिक मोड में चार कठिनाइयां हैं; अधिक भरे हुए पड़ोसी खाने वाली जगह से शुरू करने पर विकल्प कम मिलते हैं और अगला अंक पहचानना आसान होता है।\n\nअतिरिक्त मोड नियम बदलते हैं। X-Sudoku में दोनों मुख्य विकर्णों पर भी अंक नहीं दोहरते, Windoku में अतिरिक्त चिह्नित क्षेत्र यही नियम मानते हैं, और Killer Sudoku में खानों के समूह का जोड़ तय संख्या होना चाहिए। Kropki का सफेद बिंदु एक के अंतर वाले अंक जोड़ता है, जबकि काला बिंदु बताता है कि एक अंक दूसरे का ठीक दोगुना है। नोट्स में संभावित अंक लिखकर आगे मिलने वाले संकेतों से उन्हें हटाते जाएं।",
+      "instructions": "पहले मोड और कठिनाई चुनें। हर पंक्ति, स्तंभ और 3×3 खंड में 1–9 बिना दोहराव भरें। जिन खानों के कम विकल्प हों उनसे शुरू करें और नोट्स में उम्मीदवार अंक रखें। विशेष मोड में विकर्ण, अतिरिक्त क्षेत्र या समूह का जोड़ भी जांचें। Kropki में सफेद बिंदु का अंतर 1 और काले का अनुपात दोगुना है; अंक तय करने से पहले सभी लागू नियम मिलाएं।",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers fou",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5a7b087246df79c5f7f8ae3d9108f0a4dde5821032ce991cbcce5e2836704ae0"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "3डी शतरंज: आर्केन संस्करण",
+      "description": "रहस्यमय बगीचे में तांबे और सोने जैसे मोहरों के साथ शतरंज खेलें। कंप्यूटर की आसान, मध्यम और कठिन तीन सेटिंग उपलब्ध हैं। उद्देश्य सामान्य शतरंज की तरह विरोधी राजा को मात देना है। चमकते बिंदु चुने गए मोहरे की वैध चालें दिखाते हैं, इसलिए बोर्ड की स्थिति देखकर सुरक्षित चाल चुन सकते हैं।\n\nकैमरा घुमाने और दृश्य छोटा-बड़ा करने से बोर्ड को अलग कोण से देख सकते हैं। बल्ब वाला Hint बटन एक बाजी में अधिकतम तीन सुझाव देता है; एकल मोड में यह पुरस्कार वाली सुविधा है। दोस्त के साथ खेलने के लिए Play a Friend से निजी कमरा बनाकर कोड साझा करें। कमरे अस्थायी हैं और सभी के निकलने पर बाजी तथा उसका इतिहास समाप्त हो जाता है। सेटिंग में कठिनाई, चाल संकेत और ध्वनि बदल सकते हैं।",
+      "instructions": "मोहरे पर क्लिक या टैप करें, फिर चमकते खाने को चुनकर चाल चलें। विरोधी मोहरे के खाने पर पहुंचकर उसे लें और राजा को मात देने की कोशिश करें। खींचकर कैमरा घुमाएं; पिंच या स्क्रॉल से दृश्य छोटा-बड़ा करें। बल्ब से उपलब्ध संकेत और गियर से सेटिंग खोलें। दोस्त के लिए आरंभिक स्क्रीन का Play a Friend चुनकर कमरे का कोड दें।",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7ad56930ff4e2aed062107718bff5b9679b3df62e02a2b50aca8986563d1f5f0"
+    },
+    "city-chase-escape-police": {
+      "sourceHash": "dcc99e6ab5ca8b950e2e9cc67342669f96473b31c08335668beaa2fac26e1c89",
+      "title": "शहर में पीछा: पुलिस से बचो",
+      "description": "शहर की सड़कों पर पुलिस की कारों से बचकर जितनी देर संभव हो पीछा जारी रखें। लंबे समय तक बचना बेहतर स्कोर का आधार है, लेकिन बढ़ता Wanted Level मुश्किल भी बढ़ाता है। सिक्के नए वाहनों को खोलते हैं, स्वास्थ्य वाले पिकअप कार की हालत में मदद करते हैं और Ram Bar पुलिस कारों को जोर से धकेलने देता है।\n\nडिफॉल्ट नियंत्रण में कार अपने आप गति पकड़ती है, इसलिए ध्यान रास्ता चुनने और सही समय पर मुड़ने पर रहता है। बंद जगह में फंसने के बजाय सामने निकलने का रास्ता देखें और उपयोगी पिकअप लेते हुए दिशा बदलें। चाहें तो बटन मोड चुनकर गति पैडल से नियंत्रित करें। फंसी कार को रीसेट करने का बटन दौड़ समाप्त किए बिना उसे छुड़ाता है, जिससे पीछा जारी रखा जा सकता है।",
+      "instructions": "कंप्यूटर पर A/D या बाएं-दाएं तीर से मोड़ें और S या नीचे के तीर से पीछे जाएं। बटन मोड में W, ऊपर का तीर या Spacebar गति बढ़ाते हैं; सामान्य मोड में गति स्वचालित है। R फंसी कार छुड़ाता है और Esc विराम देता है। मोबाइल पर बायां या दायां हिस्सा पकड़कर मोड़ें, दोनों पकड़कर पीछे जाएं; चाहें तो तीर और GO/REVERSE पैडल वाला मोड चुनें।",
+      "referenceHash": "630d5147f158d65e45acfdc7fd833a71c1b637f8b4c007dddfe659b7f74c3fc7",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Race through the city and survive the police chase for as long as you can! Dodge cops, collect coins, grab HP boosts, an",
+        "instructionsQuote": "Dodge the police cars and survive as long as you can to achieve the highest score. Collect coins to fill the garage with cars. Mobile Contro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "32009db634861c91c34b5a08826f0560a3c1e91853c64d4ba6d69e84933688e6"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "title": "स्काई रश",
+      "description": "विमान को लगातार उड़ाते हुए दुश्मनों और आती मिसाइलों से बचें। शुरुआत में सुनहरे सितारे जुटाने की जगह मिलती है, लेकिन जितनी देर हवा में रहते हैं गति और कठिनाई उतनी बढ़ती है। लक्ष्य हर प्रयास में कुछ अधिक दूर जाना और अपने पिछले रिकॉर्ड को बेहतर करना है।\n\nविमान कर्सर या उंगली की जगह का अनुसरण करता है, इसलिए रास्ता देखते हुए छोटे और सोच-समझकर किए बदलाव काम आते हैं। खतरे और सितारों के बीच सुरक्षित जगह पहचानें; केवल संग्रह के लिए बंद मार्ग में न जाएं। उड़ान की कमाई दुकान में सहायक सुधार या विमान के नए रूप लेने में लग सकती है। बढ़ती रफ्तार के साथ अगली बाधा पर पहले नजर डालें और निकलने का रास्ता खुला रखें।",
+      "instructions": "माउस बटन दबाकर रखें या स्क्रीन को छूकर उंगली चलाएं; विमान कर्सर या उंगली के पीछे जाता है। सितारे जुटाते हुए दुश्मनों और मिसाइलों से बचें। रफ्तार बढ़ने पर सुरक्षित खाली जगह की ओर दिशा बदलें। प्रयास के बाद दुकान में कमाए सिक्कों से सहायक सुधार या नया रूप चुनें और अगली उड़ान में बेहतर दूरी का लक्ष्य रखें।",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen any",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "01fce2db21bb4b42580bc56fdffaf694387d1ceda018d05175699c810c0a2a1c"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "टर्नलाइन: रेखाएं जोड़ने की पहेली",
+      "description": "टाइलें घुमाकर उनकी रेखाओं को एक पूरा नेटवर्क बनाएं। हर हिस्से का सही रुख ऐसा होना चाहिए कि पास की टाइलों के रास्ते जुड़ें। केवल एक दिखती रेखा मिल जाना पर्याप्त नहीं है; स्तर पूरा करने के लिए सभी जरूरी हिस्सों का संपर्क पूरा करना होता है। सही जुड़े रास्ते आगे बढ़ते समय उभरकर दिखाई देते हैं।\n\nशुरुआती स्तर नियम समझाते हैं, जबकि बाद की पहेलियों में बड़ी व्यवस्था, शाखाएं और कई रास्ते आते हैं। समय सीमा नहीं है, इसलिए अगली टाइल घुमाने से पहले उसके पड़ोसियों को देख सकते हैं। उलझन में उपलब्ध संकेत लें। प्रगति सुरक्षित रहती है और धीरे बढ़ती कठिनाई के साथ छोटे अभ्यास से लंबे नेटवर्क तक पहुंच सकते हैं।",
+      "instructions": "कंप्यूटर पर माउस से टाइल क्लिक करें; फोन या टैबलेट पर टैप करें। हर क्लिक या टैप टाइल को घुमाता है। देखें कि उसके खुले सिरे पड़ोसी टाइलों से मिलते हैं या नहीं, फिर जरूरी हिस्सों को क्रम से जोड़ें। उभरे हुए जुड़े रास्ते देखकर बाकी खाली संपर्क खोजें। रास्ता न समझ आए तो संकेत का उपयोग करें और पूरा नेटवर्क जोड़कर स्तर समाप्त करें।",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6c707d4634f30c837af7172b4e165b4ba1bd02d2f43ac95336e52ad9193cb3eb"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "ऐश ऑफ द डेप्थ्स",
+      "description": "Sorrow-IV कॉलोनी से संपर्क टूटने के बाद गहराई में उतरें और हर स्तर के निकास तक जीवित पहुंचें। इस विज्ञान-कथा शूटर में चट्टान गिर सकती है, रेत बहती है, पानी फैलता है और गैस चिंगारी से फट सकती है। इसलिए दुश्मन के साथ आसपास की सामग्री का व्यवहार भी रास्ता और खतरा तय करता है।\n\nछह अध्यायों और सौ स्तरों वाले अभियान में अलग इलाके, दुश्मन और बड़े मुकाबले आते हैं। हथियार और प्राचीन कवच तैयारी बदलते हैं, जबकि प्लाज्मा कटर चट्टान काटकर अपना मार्ग बनाने देता है। कटर दुश्मनों को बहुत कम नुकसान पहुंचाता है, इसलिए उसे मुख्य हथियार न समझें। सोना Arsenal में ड्रोन, सुरक्षा पोशाक और दूसरे उपकरणों पर खर्च कर सकते हैं। लक्ष्य बताने वाला किनारे का तीर देखकर नीचे के रास्ते पर आगे बढ़ें।",
+      "instructions": "कंप्यूटर पर A/D से चलें, W से कूदें और Space से जेटपैक चलाएं। माउस से निशाना लगाकर गोली चलाएं, दायां बटन ग्रेनेड फेंकता है, 1–4 हथियार चुनते हैं, F कटर और Esc विराम है। फोन पर बायां स्टिक चलने-कूदने और दायां निशाना व गोली के लिए है; दाईं ओर ग्रेनेड, कटर और हथियार बदलने के बटन हैं। लक्ष्य का तीर देखें और विराम या स्तर के बाद Arsenal में सोना खर्च करें।",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something anci",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7f5542594f447d0afdcc4da47d447db8629912b5cd86ef0f5ed6650c8b3fef4e"
+    },
+    "football-free-kick": {
+      "sourceHash": "9a283751c2c0f1a78450844c44f84da33e0a9c52b328f65cb11943be99ff5333",
+      "title": "फुटबॉल फ्री किक",
+      "description": "फ्री किक की तैयारी करें, गेंद को रक्षकों की दीवार के ऊपर या बगल से मोड़ें और गोलकीपर को छकाकर गोल करें। सात स्टेडियमों में हवा, उछलती रक्षा दीवार और अधिक सतर्क गोलकीपर चुनौती बदलते हैं। सफल शॉट चरण की प्रगति भरते हैं और लगातार गोल करने से अतिरिक्त अंक मिलते हैं।\n\nहर शॉट से पहले दीवार की जगह और हवा देखें, फिर ऊंचाई तथा घुमाव का तरीका चुनें। गेंदों की सीमित संख्या खत्म न होने दें; स्पष्ट रास्ता चुनना बिना सोचे लगातार शॉट लगाने से बेहतर है। चरणों के बीच सुविधाएं चुन सकते हैं, मिशन पूरे कर सकते हैं और पुरस्कार पेटियां खोल सकते हैं। इससे नई गेंदें और उनके पीछे दिखने वाले दृश्य प्रभाव मिलते हैं, जबकि मुख्य लक्ष्य अगला चरण गोल करके पार करना रहता है।",
+      "instructions": "माउस से गेंद के पास से खींचकर छोड़ें, या टचस्क्रीन पर गेंद से ऊपर की ओर स्वाइप करें। तेज स्वाइप गेंद ऊंची भेजता है और मुड़ा स्वाइप दीवार के आसपास घुमाव देता है। कीबोर्ड पर तीर वाले बटन निशाना, A/D घुमाव और Space या Enter शॉट के लिए हैं। गेंदों की शेष संख्या देखें और लगातार गोल की श्रृंखला बनाए रखने की कोशिश करें।",
+      "referenceHash": "fb1a28e833656881f906cfb9114c19c2d01ed30d8e17d01b0691f74876b53ea9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Football Free Kick is a 3D arcade soccer game. Swipe to shoot, curl the ball over the defensive wall and beat a diving g",
+        "instructionsQuote": "Swipe up from the ball to shoot: a faster swipe kicks it higher and a curved swipe bends it around the wall. Score to fill each stage, keep ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d04646fa192e9eb0628f3251dc8da22786abea5cfd41b5c7d8797b133a88bb23"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "लूपिक्स",
+      "description": "चमकती पूंछ वाले धूमकेतु को मोड़कर जीवों के समूह के चारों ओर बंद घेरा बनाएं। घेरा बंद होने पर उसके भीतर की चीजें पकड़ी जाती हैं; बड़े घेरे से बड़ा कॉम्बो मिलता है और आपका धूमकेतु बढ़ता है। दूसरे धूमकेतुओं की पूंछ छूने पर बाहर हो जाते हैं, लेकिन उन्हें अपने घेरे में फंसाने पर उनके अंक मिलते हैं।\n\nहर दुनिया के Guardian को हराकर ब्लैक होल से अगली दुनिया में जाएं। साथ चलने वाले साथी बोनस देते हैं, और नए रूप, टोपियां तथा स्थायी सुधार खोले जा सकते हैं। बूस्ट तेजी से निकलने या घेरा तुरंत बंद करने में मदद करता है, पर इससे थोड़ा आकार घटता है। इसलिए खतरे में गति बढ़ाने और अधिक आकार बचाने के बीच फैसला करें। दैनिक उपहार और मिशन अतिरिक्त लक्ष्य देते हैं।",
+      "instructions": "माउस से धूमकेतु की दिशा बदलें, या तीर वाले बटन अथवा A-D इस्तेमाल करें। बायां माउस बटन या Space दबाकर रखने पर बूस्ट लगता है और थोड़ा आकार घटता है। मोबाइल पर उंगली खींचकर दिशा बदलें; दो बार टैप करके दबाए रखें तो बूस्ट मिलता है। जीवों के चारों ओर घेरा पूरा करें, दूसरों की पूंछ न छुएं और Guardian के बाद ब्लैक होल से आगे जाएं।",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f5145eba36de5e4fd12b09bb973097f630fcdfd171d858f209e895dd34671f3f"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "सॉकरलैट: 3डी फुटबॉल ऑनलाइन",
+      "description": "वास्तविक समय में दूसरे खिलाड़ियों के साथ तीन आयामों वाले फुटबॉल मैदान पर अपनी जगह चुनें। एक के विरुद्ध एक से लेकर ग्यारह के विरुद्ध ग्यारह तक मैच हो सकते हैं। फाउल, फ्री किक, कॉर्नर और पेनल्टी खेल का हिस्सा हैं; पूरा समय बराबर रहने पर पेनल्टी शूटआउट होता है। जरूरत पर गोल के लिए बॉट गोलकीपर भी लगा सकते हैं।\n\nइनडोर स्टेडियम या सड़क के मैदान का चुनाव करें और खिलाड़ी की पोशाक, नाम तथा नंबर बदलें। गेंद का रास्ता केवल निशाने पर नहीं, शॉट के समय आपके हिलने और कैमरे की ऊंचाई पर भी निर्भर है। बगल में चलते हुए शॉट गेंद को घुमाता है, जबकि कैमरा ऊपर करके ऊंची गेंद भेज सकते हैं। देर से किया स्लाइड टैकल फाउल हो सकता है, इसलिए गेंद छीनने से पहले दूरी और समय देखें।",
+      "instructions": "WASD से चलें, Shift से दौड़ें और Space से कूदें। माउस से देखें; बायां बटन दबाकर ड्रिबल और दायां दबाकर पास या शॉट चार्ज करें, फिर छोड़ें। हवा में बायां क्लिक बाइसिकल किक है। C स्लाइड टैकल, F गोलकीपर के लिए गेंद रखना, E गेंद मांगना, B भाव सूची, 1 प्रथम व्यक्ति दृश्य और Esc विराम है। मोबाइल पर जॉयस्टिक, बटन और देखने के लिए ड्रैग करें; Settings में बटन बदले जा सकते हैं।",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fd6bbe2b72e3c8abf669123f6fdce17cc2d86c71e8cf5b82d4ab8d8b0d366053"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "title": "नीला ट्रैक्टर",
+      "description": "धूप वाले ग्रामीण इलाके में नीला ट्रैक्टर चलाकर गांववालों के काम पूरे करें। तीर का पीछा करके पात्र तक पहुंचें, फिर पनीर, घास, अंडे और पार्सल पहुंचाने या खोए जानवर खोजने के काम करें। रास्ते में छिपे खजाने भी मिल सकते हैं। खुली दुनिया में समय का दबाव नहीं है, इसलिए खोज और डिलीवरी की गति अपने अनुसार रख सकते हैं।\n\nकाम से मिले सिक्के गैराज में तेज इंजन, बड़ा ईंधन टैंक, कीचड़ वाले टायर, रंग और सजावट पर खर्च होते हैं। यात्रा के दौरान ईंधन पट्टी और पहियों का ध्यान रखें तथा गहरे पानी से बचें। दुकान में ईंधन और मरम्मत मिलती है; टैंक खाली होने या पहिया टूटने पर थोड़ी प्रतीक्षा के बाद खेत के लोग मदद भी करते हैं। विराम मेनू में लंबी सवारी और खेत में बिताए समय का रिकॉर्ड देखें।",
+      "instructions": "कंप्यूटर पर W/A/S/D या तीर वाले बटनों से चलाएं और मोड़ें; Space से ब्रेक लगाएं। फोन पर स्क्रीन का जॉयस्टिक खींचें। तीर के अनुसार पात्र तक पहुंचकर उसकी डिलीवरी या खोज पूरी करें और सिक्के लें। ईंधन कम हो तो दुकान जाएं, टूटे पहिये की मरम्मत कराएं और गहरे पानी से दूर रहें। कोने का विराम बटन रिकॉर्ड दिखाता है।",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villag",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7e90286b7a4b0a409802fca006232b6bfb1d1d48f884a20c0e3cd99530c5e63a"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "सिटी पॉप ड्राइव",
+      "description": "अस्सी के दशक जैसे हल्के रंगों वाले शहर में कार चलाकर समय खत्म होने से पहले हर चेकपॉइंट तक पहुंचें। कार अपने आप तेज होती है, इसलिए आपका मुख्य काम ट्रैफिक के बीच दिशा संभालना है। रास्ता बंटने पर सुंदर नजारों वाला मार्ग या तेज सड़क चुनें; चुने रास्ते के साथ संगीत भी बदलता है।\n\nदूसरी कार के करीब से बिना टकराए गुजरना समय बढ़ाता है और Breeze मीटर भरता है। पूरा मीटर Boost शुरू करता है, जो गाड़ियों को रास्ते से धकेल देता है। पांच नक्शों में समुद्र किनारा, रात का एक्सप्रेसवे और बर्फ वाला रिसॉर्ट जैसे इलाके हैं। मंजिल तक पहुंचकर कुल पच्चीस रिकॉर्ड-कवरों में से उसका कवर लें, और Miles से सुधार, नई कारें तथा नक्शे खरीदें।",
+      "instructions": "टैप करके शुरू करें और बाएं-दाएं खींचकर मोड़ें। कंप्यूटर पर माउस ड्रैग, तीर वाले बटन या A और D इस्तेमाल कर सकते हैं; P विराम देता है। ट्रैफिक के करीब से सुरक्षित गुजरकर समय और Breeze भरें। समय रहते चेकपॉइंट पहुंचें, हर दोराहे पर रास्ता चुनें और मंजिल का कवर लें। Miles को सुधार और नए वाहनों पर खर्च करें।",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7e5bd7080ae4c15ebe0cb393683edf9f2c703fda41c20f4edd268b3dc8400bd7"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1: जॉम्बी से बचाव",
+      "description": "हर सेकंड एक शक्ति अंक पाते हुए जॉम्बी की भीड़ का सामना करें। प्रशिक्षण मैदान के बाद पांच बड़े शहरों में प्रत्येक की दस रातें बचकर निकालनी हैं। आप स्वयं अगली रात शुरू करते हैं और सभी जॉम्बी खत्म होने पर रात समाप्त होती है। बढ़ती शक्ति हर गोली को अधिक मजबूत बनाती है।\n\nमकान और दुकानों के कमरों में शरण लें, दरवाजे तथा जाल लगाएं और कुदाल से दीवार में रास्ता या फायरिंग की जगह बनाएं। खड़ी कारों में बैठकर सामान्य भीड़ को टक्कर मार सकते हैं, लेकिन बड़े दुश्मन को इस तरह नहीं हराया जा सकता। ग्यारह हथियार खुलते हैं, जिनमें आगे ब्लैक होल गन भी है। बड़े दुश्मनों को हराकर पुनर्जन्म से स्थायी गुणक लें और अगली रात से पहले मरम्मत तथा सुधार पूरे करें।",
+      "instructions": "WASD से चलें, माउस से देखें, बाएं क्लिक से गोली और दाएं से निशाना लगाएं। Space कूदना, Shift दौड़ना, R गोली भरना, 1–0 या व्हील हथियार बदलना है। B निर्माण नक्शा, E दरवाजा या कार में आना-जाना, F मरम्मत, U सुधार, G रात शुरू और Esc विराम है। कार में W/S गति-ब्रेक और A/D मोड़ते हैं। मोबाइल पर बायां स्टिक, दाईं ओर देखने का ड्रैग और दिए फायर, हथौड़े तथा इंटरैक्शन बटन इस्तेमाल करें।",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f7da16671c0dc9d7bacc5431381e57e304b00367911e2e7437fb6431303c2e2a"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "रोल टाइकून",
+      "description": "त्रिआयामी बोर्ड पर पासों का समूह फेंकें और ऊपर आए अंकों के अनुसार कमाई लें। चार से बीस मुखों वाले पासों की पांच श्रेणियां खुलती हैं। किसी पासे पर उसकी अधिकतम संख्या आए तो JACKPOT मिलता है और FEVER मीटर भरता है। पूरा मीटर आठ सेकंड के लिए कमाई दोगुनी करता है; कुछ विशेष वस्तुएं इसकी अवधि बढ़ाती हैं।\n\nअगला लक्ष्य CONTRACT चिह्न दिखाता है। कुल तीस अनुबंध, बाईस ट्रॉफियां और दैनिक-साप्ताहिक मिशन अलग पुरस्कार देते हैं। कमाई को अधिक पासे, भाग्य, विशेष वस्तुओं और रहस्य पेटियों पर लगाएं; पेटियों से आय बढ़ाने वाली मूर्तियां मिल सकती हैं। एक प्रयास में दस लाख कमाने पर Rebirth से स्थायी गुणक वाले सितारे मिलते हैं। सात दिन के Daily Drop और लौटने पर उपलब्ध बोनस भी जांचें।",
+      "instructions": "बोर्ड पर क्लिक या टैप करें, अथवा Space या ROLL दबाकर तैयार पासे फेंकें। उनके रुकने के बाद कमाई लें और अगला अनुबंध देखें। दुकान में सुधार खरीदें; MISSIONS के लक्ष्य पूरे करके CLAIM दबाएं। अधिकतम अंक FEVER भरते हैं। एक प्रयास में दस लाख पर चाहें तो Rebirth करें। धीमा प्रदर्शन हो तो दुकान की Graphics पंक्ति से हल्की सेटिंग चुन सकते हैं।",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "77e029339f2dc83a636083bc9c215c818f37b9006428a3ce6b61750a37e7c0a3"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "बैटलक्रॉस",
+      "description": "ऐसा नायक बनाएं जो एक ही वर्ग तक सीमित रहने के बजाय अलग शिक्षकों से क्षमताएं सीखे। शूरवीर की ढाल, आग का जादू, रक्षक बुलाना या समय रोकना जैसे विकल्प युद्ध शैली बदलते हैं। पास पहुंचने पर नायक अपने आप हमला करता है, जबकि कौशल और स्वास्थ्य की औषधि का समय आपको चुनना होता है।\n\nहर क्षेत्र की सभी टोलियां और अंतिम नेता हराकर आगे बढ़ें; हारने पर भी अनुभव और लूट बचते हैं। हर स्तर तीन गुण अंक देता है, जिनसे अलग उपकरण और कौशल उपलब्ध होते हैं। कस्बों में सामान खरीदें, उपचारक से औषधि बेल्ट बढ़ाएं और सोलह वर्गों से आठ सक्रिय तथा चार निष्क्रिय खानों के लिए क्षमताएं सीखें। कुछ क्षेत्रांत निर्णय वापस नहीं लिए जा सकते और वे कस्बों, दुकानों, शिक्षकों तथा अंत को बदलते हैं।",
+      "instructions": "दुश्मन के पास जाकर स्वचालित हमला शुरू करें, फिर जरूरत पर कौशल और स्वास्थ्य औषधि इस्तेमाल करें। क्षेत्र की सभी टोलियां और नेता हराएं। मिले तीन गुण अंक अपनी पसंद के उपकरण और क्षमताओं के अनुसार बांटें। कस्बे में बेल्ट, सामान और प्रशिक्षण जांचें। बड़े कहानी निर्णय की जानकारी पढ़कर ही चुनें, क्योंकि कुछ विकल्प स्थायी हैं और उपलब्ध सेवाएं बदल देते हैं।",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b19d4f83c0cf70467ab7aa6b418b500b5b773ea49ec56e64a62a39a235ea4103"
+    }
+  }
+}

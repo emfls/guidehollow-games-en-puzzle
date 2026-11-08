@@ -182,6 +182,22 @@
       },
       "reviewedTextHash": "e95c1e1790abbc9af75b82f38e8c6abd10eab2ca31662a72d1e5110d749e24e5"
     },
+    "imposter-3d-online-horror": {
+      "sourceHash": "44ede643d2dc109079cb310f0d5c525121aae8925850bbca07ebbb502f500d2b",
+      "title": "Imposter 3D: Online-Horror",
+      "description": "Rette kleine Besatzungsmitglieder vor dem Verräter oder übernimm selbst die Rolle des Imposters. Du kannst allein, online oder mit Freunden in einem eigenen Raum spielen. In Mafia sieht der Verräter zunächst wie die anderen aus und kann sich verwandeln; Abstimmungen helfen bei seiner Entlarvung. PvE stellt die Gruppe einem computergesteuerten Imposter gegenüber.\n\nDie Ziele hängen vom Modus ab: Beim Versteckspiel musst du als Astronaut bis zum Rundenende überleben, ohne zwingend die Kleinen zu sammeln. Im Zombie-Modus werden Gefangene selbst zu Impostern; im Lava-Modus musst du vor steigender Lava auf höheres Gelände fliehen. Die Rolle bestimmt außerdem, was E und R auslösen, während Bewegung und Kamerasteuerung gleich bleiben.",
+      "instructions": "WASD bewegt die Figur, die Maus dreht die Kamera, Tab zeigt oder verbirgt den Mauszeiger und die Leertaste springt. Als Besatzungsmitglied nutzt du E zur Interaktion, F für die Taschenlampe, G zum Werfen von Batterien und R zum Aufladen mit Batterien. Als Imposter löst R einen Schrei aus; E dient zur Interaktion, zum Fangen oder zum Verstecken im Lüftungsschacht. In Mafia verwandelt sich der Imposter mit 2.",
+      "referenceHash": "3961e74b7335ac2b74499c8969c3c479512054395a4124f34b564c0a4a47993b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Save all the mini-crewmates from the traitor in single player or online. Play online with other players, or with friends by creating your own",
+        "instructionsQuote": "For the imposter and crewmate: WASD keys - player control. Mouse - camera rotation \"Tab\" - hide/show cursor Space - to jump Playing as an crewmate: \"E\" - use. \"F\" - turn",
+        "sourceIssueResolution": "The provider claims seven online modes but enumerates eight. This reviewed guide omits the disputed total and describes only explicitly documented mode rules and role-specific controls."
+      },
+      "reviewedTextHash": "cf7edd5483224c7a20bb8471d3d79fc30bf0ab29170c7da06ecd5a68815c4a95"
+    },
     "burger-restaurant-simulator-3d": {
       "sourceHash": "e1304192a56efc9dff943f4ab1d87e671536cdc8dde719b3c7e2e48ad330a266",
       "title": "Burger-Restaurant-Simulator 3D",
@@ -313,7 +329,8 @@
         "reviewedAt": "2026-11-08",
         "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
         "descriptionQuote": "Welcome to +1 Speed per Step | Obby Mode. Every step makes you faster! Complete obstacles to earn wins! Rebirth to gain bonuses! Upgrade your",
-        "instructionsQuote": "PC: WASD – movement Hold Right Mouse Button to control the camera Run to gain experience and level up Mobile: Joystick in the bottom-left corner for movement Swipe on"
+        "instructionsQuote": "PC: WASD – movement Hold Right Mouse Button to control the camera Run to gain experience and level up Mobile: Joystick in the bottom-left corner for movement Swipe on",
+        "sourceIssueResolution": "The provider unexpectedly mentions a prison-time leaderboard unrelated to the speed obstacle game. This guide omits that unsupported leaderboard and retains the explicit five courses, movement, camera, speed training and trophy progression."
       },
       "reviewedTextHash": "7032ea5f99edd5579b44961029420c6ad7ebc378a5b3d6983bdd4b54d1b92f20"
     },
@@ -331,22 +348,6 @@
         "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and they're yours to keep — clear"
       },
       "reviewedTextHash": "9289f01785c0abe82f23522121e95b366787cd1ff9ba686cd66ca965abe657f2"
-    },
-    "imposter-3d-online-horror": {
-      "sourceHash": "44ede643d2dc109079cb310f0d5c525121aae8925850bbca07ebbb502f500d2b",
-      "title": "Imposter 3D: Online-Horror",
-      "description": "Rette kleine Besatzungsmitglieder vor dem Verräter oder übernimm selbst die Rolle des Imposters. Du kannst allein, online oder mit Freunden in einem eigenen Raum spielen. In Mafia sieht der Verräter zunächst wie die anderen aus und kann sich verwandeln; Abstimmungen helfen bei seiner Entlarvung. PvE stellt die Gruppe einem computergesteuerten Imposter gegenüber.\n\nDie Ziele hängen vom Modus ab: Beim Versteckspiel musst du als Astronaut bis zum Rundenende überleben, ohne zwingend die Kleinen zu sammeln. Im Zombie-Modus werden Gefangene selbst zu Impostern; im Lava-Modus musst du vor steigender Lava auf höheres Gelände fliehen. Die Rolle bestimmt außerdem, was E und R auslösen, während Bewegung und Kamerasteuerung gleich bleiben.",
-      "instructions": "WASD bewegt die Figur, die Maus dreht die Kamera, Tab zeigt oder verbirgt den Mauszeiger und die Leertaste springt. Als Besatzungsmitglied nutzt du E zur Interaktion, F für die Taschenlampe, G zum Werfen von Batterien und R zum Aufladen mit Batterien. Als Imposter löst R einen Schrei aus; E dient zur Interaktion, zum Fangen oder zum Verstecken im Lüftungsschacht. In Mafia verwandelt sich der Imposter mit 2.",
-      "referenceHash": "3961e74b7335ac2b74499c8969c3c479512054395a4124f34b564c0a4a47993b",
-      "provenance": {
-        "method": "assistant-source-review",
-        "reviewedAt": "2026-11-08",
-        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
-        "descriptionQuote": "Save all the mini-crewmates from the traitor in single player or online. Play online with other players, or with friends by creating your own",
-        "instructionsQuote": "For the imposter and crewmate: WASD keys - player control. Mouse - camera rotation \"Tab\" - hide/show cursor Space - to jump Playing as an crewmate: \"E\" - use. \"F\" - turn",
-        "sourceIssueResolution": "The provider claims seven online modes but enumerates eight. This reviewed guide omits the disputed total and describes only explicitly documented mode rules and role-specific controls."
-      },
-      "reviewedTextHash": "cf7edd5483224c7a20bb8471d3d79fc30bf0ab29170c7da06ecd5a68815c4a95"
     },
     "obby-saves-brainrots-from-tsunami": {
       "sourceHash": "65b9fd247787de68a31cafdf65f9db9ff154bc11c66437f79b7cb34b5910c6f1",
@@ -734,7 +735,8 @@
         "reviewedAt": "2026-11-08",
         "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
         "descriptionQuote": "Break a Lucky Egg Brainrots is a fast and rewarding collection game where action, risk, and strategy come together. Your mission is to break",
-        "instructionsQuote": "Start breaking eggs to collect Brainrot characters. Carry the Brainrots to your base before their timer expires. Avoid skeleton enemies while carrying Brainrots. Earn"
+        "instructionsQuote": "Start breaking eggs to collect Brainrot characters. Carry the Brainrots to your base before their timer expires. Avoid skeleton enemies while carrying Brainrots. Earn",
+        "sourceIssueResolution": "The provider leaves the storage capacity phrase unfinished as up to many Brainrots. This guide omits any numerical storage-capacity promise and retains the explicitly stated three floors, egg retrieval timer and exact keyboard controls."
       },
       "reviewedTextHash": "094419d1ac5fe11a2557c12e818ff1df36b3c9c96668992a9534b3e7d611e70b"
     },
@@ -895,7 +897,7 @@
       "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
       "title": "Obby Craft: Baue ein Flugzeug",
       "description": "Baue ein Flugzeug aus einzelnen Blöcken und teste es im Flug. Jeder verbaute Teil beeinflusst das Verhalten der Maschine. In der Werkstatt wählst du Teile aus dem Inventar und setzt sie neben dem Flugzeug ein. Später sammelst du während des Flugs Münzen auf der Karte.\n\nDiese Spielwährung finanziert weitere Bauteile und Verbesserungen der Startschleuder. Eine stärkere Schleuder startet das Flugzeug höher und schneller. Bauteilladen, Skins und ein Belohnungsrad ergänzen die Entwicklung; bis zu vier Bauplätze speichern deine Entwürfe. Weiche beim Fliegen den Hindernissen der Obby-Strecke aus.",
-      "instructions": "Gehe zum Baubereich neben dem Flugzeug, wähle unten ein Inventarteil und klicke, um es einzusetzen. Kaufe fehlende Teile im Laden und verbessere die Startschleuder mit Münzen. Starte, sammle während des Flugs weitere Münzen und weiche Hindernissen aus. Die Quelle nennt keine genauen Tasten für die Steuerung in der Luft; erfinde daher keine zusätzliche Tastenbelegung.",
+      "instructions": "Gehe zum Baubereich neben dem Flugzeug, wähle unten ein Inventarteil und klicke, um es einzusetzen. Kaufe fehlende Teile im Laden und verbessere die Startschleuder mit Münzen. Starte, sammle während des Flugs weitere Münzen und weiche Hindernissen aus. Die Anbieteranleitung nennt keine genauen Tasten für die Steuerung in der Luft.",
       "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
       "provenance": {
         "method": "assistant-source-review",
@@ -904,7 +906,7 @@
         "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assemble an airplane from parts",
         "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next to it) Select a part in the"
       },
-      "reviewedTextHash": "5e02d8cb8d0b108bed872a5e2121ce820723dc26e3c5364157729391f81f75b7"
+      "reviewedTextHash": "6e1ff575909614f6faec5a4cca7c16be083e0c5f6ea3d5c9a93b9cf1b5ae6e21"
     },
     "jurassic-merge-dino-evolution": {
       "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
@@ -950,6 +952,1373 @@
         "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward (drop the nose) — Right"
       },
       "reviewedTextHash": "856f74ab9689a023b4d928ac93b79b29423614dd6823a5a667d2ba3a23fd18ab"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "Sudoku online",
+      "description": "Fülle ein Sudoku-Gitter mit neun Zeilen und neun Spalten. Jede Zahl von 1 bis 9 muss pro Zeile, Spalte und 3×3-Kasten genau einmal vorkommen. Der klassische Modus hat vier Schwierigkeitsstufen; Notizen helfen dir, mehrere mögliche Zahlen in einem Feld festzuhalten.\n\nWeitere Varianten verändern die Regeln: X-Sudoku ergänzt die Hauptdiagonalen, Windoku zusätzliche Regionen und Killer Sudoku vorgegebene Gruppensummen. Kropki verwendet weiße Punkte für einen Unterschied von eins und schwarze Punkte für das Verhältnis eins zu zwei. Prüfe vor dem Lösen, welche Zusatzbedingungen gelten.",
+      "instructions": "Trage 1–9 ohne Wiederholung in jede Zeile, Spalte und jeden 3×3-Kasten ein. Beginne bei Feldern mit wenigen Möglichkeiten und notiere Kandidaten. Beachte je nach Modus die Diagonalen, zusätzlichen Regionen oder Gruppensummen. Bei Kropki verbindet ein weißer Punkt aufeinanderfolgende Zahlen; ein schwarzer bedeutet, dass eine Zahl doppelt so groß ist wie die andere.",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers four difficulty levels:",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells are pre-filled — these are"
+      },
+      "reviewedTextHash": "353a7dd03df813804fcb3196da8ef96360f341e74c9876b71f7de7d7e983193b"
+    },
+    "void-shot": {
+      "sourceHash": "484782163baf4a8bb1908c7d316742e5d1c034943774a995cda20f70f6e769f0",
+      "title": "Void Shot: Wellen im Neonraum",
+      "description": "Bewege einen automatisch feuernden Geschützturm am unteren Bildschirmrand und zerstöre Wellen leuchtender Ringe. Alle Ringe einer Welle müssen verschwinden, um weiterzukommen. Jede fünfte Welle endet mit einem Boss, dessen Verhalten sich von anderen Bossen unterscheidet.\n\nZufällige Veränderungen wie Seitenwind oder geringe Schwerkraft verändern einen Versuch. Fange Münzen, Herzen und zeitweilige Verstärkungen auf, etwa Schild oder schnelleres Feuer. Zwischen Versuchen verbessern Münzen Schaden, Feuerrate und Münzertrag und schalten den Doppelschuss frei. Deine beste Welle wird in der Bestenliste erfasst.",
+      "instructions": "Mobil berührst und ziehst du den Bildschirm, um den Turm zu bewegen. Am Computer nutzt du Maus, Pfeiltasten oder A/D; Esc oder P pausiert. Das Schießen läuft automatisch. Zerstöre alle Ringe, besiege in jeder fünften Welle den Boss und fange Münzen, Herzen und Verstärkungen. Verwende Münzen anschließend im Verbesserungsmenü.",
+      "referenceHash": "8b35ca9697602cf8ca27a1a504e5defecd73f31b9fdf947901e5c989f3c18f72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Void Shot is a one-hand neon arcade shooter set in the glowing depths of space. Slide your turret along the bottom of the screen — it fires on",
+        "instructionsQuote": "Goal: survive as many waves as you can. Destroy every ring in a wave to advance; beat the boss on every fifth wave. Your best wave goes to the leaderboard. Controls —"
+      },
+      "reviewedTextHash": "4c458c3adb9936a2949d81d0268fff21703f67fb2d81af2ec77c7ca3907d2deb"
+    },
+    "eat-blobs-simulator": {
+      "sourceHash": "26d0b0140eb310b7da9be5ce38d1a02c950652e59b6d7db21a57f748de666378",
+      "title": "Blob-Simulator: Fressen und wachsen",
+      "description": "Sammle kleine Schleimstücke in einer Arena, um deinen Blob wachsen zu lassen. Sobald du größer als ein anderer Blob bist, kannst du ihn verfolgen und fressen. Größere Gegner sind dagegen gefährlich und können deinen eigenen Versuch beenden. Ziel ist, zum größten Blob der Arena zu werden.\n\nMünzen und leistungsabhängige Belohnungen schalten weitere Gestaltungen frei. Du kannst allein oder lokal zu zweit an einem Gerät spielen. Im Solomodus lassen sich Kamera und Zoom steuern. Vergleiche die Größen in deiner Umgebung, bevor du eine Verfolgung beginnst, und achte darauf, ob sich von hinten ein größerer Gegner nähert.",
+      "instructions": "Spieler 1 bewegt sich mit WASD, Spieler 2 mit den Pfeiltasten. Im Solomodus hältst du die linke Maustaste und bewegst die Maus zur Kameradrehung; das Mausrad zoomt. Mobil verwendest du den Bildschirmjoystick. Friss kleine Schleimstücke und kleinere Blobs zum Wachsen und halte Abstand zu größeren Gegnern.",
+      "referenceHash": "f32e4acdaede233332d908dfc48f5263346e427d52d88b68be29a7e8ff3d13c0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Enter the Colorful Blob Arena Eat Blobs Simulator is a competitive growing game where tiny slimes can become enormous arena champions. Choose",
+        "instructionsQuote": "Player 1: W, A, S, D Player 2: Arrow Keys In single-player mode: Rotate the Camera: Hold the Left Mouse Button and move the mouse Zoom In or Out: Mouse Wheel On mobile"
+      },
+      "reviewedTextHash": "3cb0c062b70eed4dcf1155941b75c842b45ff94d7bc2dfc1505458878a036be4"
+    },
+    "cat-box-merge": {
+      "sourceHash": "ea3565954511996165fe33f0d72f06870d4f6893b5d410ffc511ab9a53d2e6be",
+      "title": "Katzen aus Kisten kombinieren",
+      "description": "Öffne Kisten, entdecke Katzen und kombiniere gleiche Tiere zu einer Katze der nächsten Stufe. Auf Katzenbetten helfen die Tiere und bringen nach und nach weitere Kisten. So verbindet das Spiel Sammeln, Kombinieren und Nachschub für den nächsten Fortschritt.\n\nMit Münzen kaufst du zusätzliche Kisten. Entdecke alle zehn Katzen einer Welt, um die nächste Welt mit anderer Gestaltung und weiteren Figuren zu öffnen. Neue Katzen, Belohnungen und Verstärkungen ergänzen die Sammlung. Der grundlegende Ablauf bleibt Kisten öffnen, passende Paare erkennen und höhere Katzenstufen herstellen.",
+      "instructions": "Klicke Kisten an, um Katzen, Münzen und Belohnungen zu erhalten. Ziehe identische Katzen aufeinander, um sie zur nächsten Stufe zu kombinieren. Kaufe Kisten mit Münzen und sammle den Nachschub von Katzenbetten. Entdecke alle zehn Katzen einer Welt für die nächste. Am Computer nutzt du die Maus, mobil Tippen und Ziehen.",
+      "referenceHash": "3b10f36bf12c81ced55a2872dd22848002da826d0b2c120e8d8dd06ab047232f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Cat Box Merge is a cozy casual game about cats, boxes, and merging. Open boxes, discover adorable cats, and combine identical ones to get new,",
+        "instructionsQuote": "Click on boxes to open them and receive cats, coins, and rewards. Drag identical cats onto each other to merge them into a cat of the next level. Buy new boxes with"
+      },
+      "reviewedTextHash": "1155f1e5b2189902eb276cfebcd8bdac6f8688b3ae60f21cd5a7d91f0d71470d"
+    },
+    "boxing-stars": {
+      "sourceHash": "8aeb9edb991d898cb04e3385de0bfc5e38e4cfa9b1c5f3fb50da3e66c26b18f3",
+      "title": "Boxstars",
+      "description": "Führe einen Boxer von kleineren Untergrundkämpfen zu Meisterschaftsturnieren. Dein unmittelbares Ziel im Ring ist, den Gegner durch einen Knock-out zu besiegen. Dafür stehen Bewegung, verschiedene Angriffe und Blocken zur Verfügung.\n\nBelohnungen fließen in das Training deiner Fähigkeiten und bereiten auf anspruchsvollere Wettbewerbe vor. Verbinde Schutz und Angriff, statt nur Schläge zu wiederholen. Eine passende Position hilft dir, eine gegnerische Aktion abzufangen und eine eigene Gelegenheit zu nutzen. Die Entwicklung zwischen den Begegnungen ergänzt damit die Entscheidungen im aktuellen Kampf.",
+      "instructions": "Nutze Bewegung, Blocken und die verfügbaren Angriffe gemeinsam. Schütze dich vor Schlägen und suche eine Gelegenheit für den Gegentreffer. Gewinne die Begegnung durch einen Knock-out. Investiere erhaltene Belohnungen in die Fähigkeiten des Boxers, bevor du in stärkeren Turnieren antrittst. Die Quelle benennt keine konkreten Tasten für die einzelnen Aktionen.",
+      "referenceHash": "e7aa88029074e3c29b9d986a171c4d48962afb44ec00a16483e0a703af4a6d51",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Rise from the box underground to the championship and become a boxing star. Improve your skills with rewards to compete in better",
+        "instructionsQuote": "Win matches by knocking out your opponent. Use various attacks, blocking and movement to create your own strategy and form your own story. Train your abilities to"
+      },
+      "reviewedTextHash": "d19439dfdc4bbcae137a28b06ff4d65c60e6efc6b1151f888da3c60ec75335d0"
+    },
+    "clickdom": {
+      "sourceHash": "30de28c49093261c264128779c1d58d1e33fee1e167152f31b13d74fea5e1927",
+      "title": "Clickdom: Dein Klick-Königreich",
+      "description": "Tippe umherwandernde Dorfbewohner an, um Münzen zu erhalten. Im Laden kaufst du Lose und rubbelst sie frei. Als Belohnungen werden magische Schriftrollen oder neue Gebäude beschrieben. Schriftrollen dienen im Verbesserungsmenü dem Ausbau deines Königreichs.\n\nGebäude automatisieren unterschiedliche Aufgaben: Der Turm sammelt Dorfbewohner, der Glockenturm zieht mehr Bewohner an und das Labor erzeugt im Laufe der Zeit Münzen. Setze die Gebäude in deinem Reich ein und investiere Belohnungen in weitere Entwicklung. Ziel ist, alle Verbesserungen freizuschalten und das Königreich vollständig auszubauen.",
+      "instructions": "Tippe Dorfbewohner für Münzen an. Kaufe im Laden Lose und rubble sie frei, um Schriftrollen oder Gebäude zu finden. Verwende Schriftrollen im Verbesserungsmenü. Platziere Turm, Glockenturm und Labor, um Bewohner zu sammeln, mehr anzuziehen oder Münzen zu erzeugen. Investiere die erhaltenen Belohnungen in weitere Erweiterungen.",
+      "referenceHash": "a1a8adbfbb0d7086847fdb9617699b9cf6df7ed9e6eb6bdd54b8b3c3ef491163",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to Clickdom — a charming clicker where every tap brings your kingdom one step closer to glory! Wander through your realm, tap busy",
+        "instructionsQuote": "Tap wandering villagers to earn coins. Visit the shop to buy lottery tickets, then scratch each ticket to reveal prizes — magical scrolls or even brand-new buildings."
+      },
+      "reviewedTextHash": "807503593ad2083bcd0356f01fcecc33c74967084650145d8a849770919ba596"
+    },
+    "toy-soccer-cup": {
+      "sourceHash": "77b72faa265fbc368dab4c00a15e7389c78423c85848c3e468d3ece92d1a0e11",
+      "title": "Spielzeug-Fußballpokal",
+      "description": "Spiele Fußball auf einem Tischspielfeld mit schnippbaren Miniaturfiguren. Ziehe eine eigene Figur zum Zielen und lasse los, damit sie den Ball trifft. Gewonnen hat, wer vor Ablauf der Zeit mehr Tore als der Gegner erzielt.\n\nTurniere und Weltligen bilden den Fortschritt; Online-Duelle stellen zwei echte Spieler direkt gegenüber. Siege bringen Münzen für weitere Teams und Ausrüstung. Trikots, Bälle und Spielfelder verändern das Aussehen. Plane nach jedem Kontakt neu, welche Figur den Ball aus seiner jetzigen Position am besten zum Tor schicken kann.",
+      "instructions": "Klicke am Computer eine eigene Figur an und ziehe sie zum Zielen; mobil berührst und ziehst du sie. Lasse los, um sie gegen den Ball zu schnippen. Eine Tastatur ist nicht nötig. Erziele vor dem Zeitende mehr Tore als dein Gegner. Nutze Siege zum Freischalten von Teams und Ausrüstung und tritt bei Bedarf in Online-Duellen eins gegen eins an.",
+      "referenceHash": "526398837d9b70c1cffb63e6084afb361dcef23a058d5b3b7e3d05c0b0e188ea",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Toy Soccer Cup is a fast, pick-up-and-play table football game where you flick toy players to smash the ball into the net. Battle through",
+        "instructionsQuote": "Drag any of your toy players to aim, then release to flick them and strike the ball — score more goals than your rival before the timer runs out. On mobile, touch and"
+      },
+      "reviewedTextHash": "3aaad6532c279e8f9cefd16d6f2c6e6118258c2fa548b1c02c7c2c55c03c3091"
+    },
+    "eternal-dance": {
+      "sourceHash": "360811704c0b340881a7e35a52bcfa79eea17255f2ea758ae4991452f39663b3",
+      "title": "Ewiger Tanz der Koi",
+      "description": "Zwei Koi kreisen um eine blaue Kugel und schützen sie vor herantreibender Tinte. Der schwarze Fisch löst schwarze Tinte auf, der weiße weiße Tinte. Ein Fisch der falschen Farbe hält den Angriff nicht auf: Die Tinte trifft die Kugel, die schließlich zerbrechen kann.\n\nIm Levelmodus musst du bis zum Ablauf der Zeit überleben. Im Endlosmodus zählt eine möglichst lange Überlebenszeit für die Bestenliste. Schild, Verlangsamung, Reinigung und Heilung werden im Fortschritt freigeschaltet. Durch Gedrückthalten und Loslassen steuerst du die Drehung, damit jeweils der passende Fisch die Tinte erreicht.",
+      "instructions": "Halte am Computer die Leertaste oder Pfeil nach oben gedrückt, um die Koi zu drehen. Lasse los, damit sie langsamer werden. Mobil hältst du irgendwo auf dem Bildschirm den Finger gedrückt und löst ihn zum Abbremsen. Führe schwarze Tinte zum schwarzen und weiße Tinte zum weißen Koi. Schütze die Kugel bis zum Levelende oder möglichst lange im Endlosmodus.",
+      "referenceHash": "946a00d67482797efacc5b44f24646a030000c40522a9af9fec1a833d7ff8015",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Eternal Dance is a calm, meditative arcade game about keeping balance. Two koi — one black, one white — endlessly circle a glowing orb in a",
+        "instructionsQuote": "Goal: Protect the blue orb at the center. Two koi orbit it — spin them so each koi meets the ink of its own color: • Black koi dissolves black ink • White koi dissolves"
+      },
+      "reviewedTextHash": "a424f65f7baa269345c66856615e6fe254ac22f779fcfbe2f673aaecc7bfb2cf"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "3D-Schach: Arcane Edition",
+      "description": "Spiele Schach in einem magischen Garten mit kupfer- und goldfarbenen 3D-Figuren. Setze den gegnerischen König schachmatt, um zu gewinnen. Der Computer bietet drei Stufen: leicht, mittel und schwer. Markierte Felder zeigen die legalen Züge einer ausgewählten Figur.\n\nDu kannst die Kamera um das Brett drehen und die Ansicht vergrößern. Über das Zahnrad änderst du Schwierigkeit, Zughinweise und Ton. Für eine Partie mit einem Freund erstellst du unter Play a Friend einen privaten Raum und teilst den Code. Diese Räume sind vorübergehend: Wenn alle gegangen sind, verschwinden Partie und Verlauf.",
+      "instructions": "Klicke oder tippe eine Figur und danach ein markiertes Zielfeld an. Ziehe auf dem Bildschirm zum Drehen der Kamera und nutze Pinch oder Scrollen zum Zoomen. Schlage gegnerische Figuren durch einen Zug auf ihr Feld und setze den König schachmatt. Einstellungen erreichst du über das Zahnrad; Play a Friend erstellt einen Raum für eine gemeinsame Partie.",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic strategy game to life with",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto their square. Put the"
+      },
+      "reviewedTextHash": "974e682eb76fb3678ca0641dacefbd7759b3e96eaf398fb96866bac4569afc58"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "Blockschütze: Zerstöre die Insel",
+      "description": "Zerlege Häuser, Wälder und Türme einer Blockinsel durch Schüsse. Alle Blöcke müssen verschwinden, um einen Ort abzuschließen. Dynamit- und Blitzblöcke können Kettenreaktionen auslösen und die Zerstörung auf weitere Bereiche ausdehnen.\n\nDie Munition ist begrenzt, aber bereits entfernte Blöcke bleiben verschwunden. Du kannst den Laden besuchen, Waffen verbessern und zurückkehren, um die Arbeit fortzusetzen. Münzen kaufen Waffen, Verbesserungen und Artefakte. Erreicht eine Waffe Level zehn, feuert sie selbstständig. Kameraansichten helfen dir, die verbliebenen Blöcke zu finden.",
+      "instructions": "Halte links zum Schießen. A/D dreht die Kamera, W/S neigt sie, +/− zoomt und F setzt sie zurück. 1–9, Q/E oder das Mausrad wechselt Waffen; Esc pausiert. Mobil hältst du den Finger auf Blöcken zum Feuern und nutzt zwei Finger zum Drehen und Zoomen oder die Kameratasten unten rechts. Zerstöre jeden Block; Fortschritt bleibt bei Munitionsmangel erhalten.",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, and towers, one block at",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and try again Out of ammo?"
+      },
+      "reviewedTextHash": "bd425a0f72dfaabce0520d0dc5621f9539bd90d02900377b204fde11e97fdf18"
+    },
+    "microgic-89": {
+      "sourceHash": "5ac52f328174bfcec9aed4dd26023871af565ca67d7975bb4e0f9b92a16393ef",
+      "title": "Microgic 89: Datenchip-Rätsel",
+      "description": "Als Kurier BYTE bewegst du dich durch einen Mikrochip im Stil der 1980er-Jahre. Sammle sämtliche Datenchips, betritt den freigeschalteten Sockel und erreiche den Ausgang, bevor die Zeit endet. Die 50 Level kombinieren Eis, Förderböden, Teleporter, Klonmaschinen, Falltüren, Bomben und patrouillierende Gegner.\n\nWasser und Feuer sind ohne passende Stiefel tödlich. Blöcke können Wasser überbrücken, farbige Türen brauchen passende Schlüssel. Du kannst zwischen Draufsicht und 3D wechseln und mit dem Editor eigene Karten erstellen. Ein abgeschlossenes Level bringt seine Nummer mal 500 Punkte plus zehn Punkte pro verbleibender Sekunde.",
+      "instructions": "Nutze Pfeiltasten oder WASD oder klicke und ziehe zur gewünschten Richtung. Mobil wischst oder ziehst du und zoomst per Pinch. P pausiert, R startet neu und eine beliebige Taste schließt die Levelkarte. Sammle alle Chips, öffne den Sockel und erreiche rechtzeitig den Ausgang. Eis bewegt dich bis zur Wand; Förderfelder schieben entlang der Pfeile. Warte bei patrouillierenden Gegnern auf eine Lücke.",
+      "referenceHash": "8ae5654f4b88716bd4bcee8c4d9229243b676f13d8b67e3307a1add9df37cafe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "MICROGIC 89 is a retro tile puzzle set inside a 1980s microchip. You play BYTE, a courier who has to collect every data chip on the board,",
+        "instructionsQuote": "GOAL: collect every data chip on the board, step onto the socket to open it, then reach the exit before TIME reaches zero. CONTROLS - Desktop: arrow keys or WASD. You"
+      },
+      "reviewedTextHash": "f97ec00d91f3c58fc74e175e4c51d9e7da218849a6b05f550a459944185d5dd0"
+    },
+    "basket-sport-stars": {
+      "sourceHash": "d326c33dab308265ec11a9de26967556804cdba1749820be09b11421c44b538b",
+      "title": "Basketball-Sportstars",
+      "description": "Tritt gegen den Computer oder lokal gegen einen Freund im Basketball an. Im schnellen Spiel gewinnt nach 90 Sekunden die höhere Punktzahl. Turnier und Training ergänzen diese Begegnungen. Zum Werfen hältst du die Eingabe, beobachtest die Flugbahn und lässt im passenden Moment los.\n\nNahe Angriffe können den Gegner zum Ballverlust zwingen. Geschenkboxen liefern Raketen, die ihn kurz betäuben; gegnerischen Raketen kannst du durch Springen ausweichen. Position, Wurftiming und die Entscheidung zwischen Angriff und Verteidigung bestimmen damit den Verlauf einer kurzen Partie.",
+      "instructions": "Spieler 1 bewegt sich mit A/D, springt mit W und hält W zum Zielen, bevor Loslassen den Wurf auslöst. S greift an, G nutzt ein Geschenk. Spieler 2 verwendet links/rechts, Pfeil oben für Sprung und gehaltenes Zielen mit Loslassen, Pfeil unten für Angriff und L für Geschenke. Erziele vor dem Zeitende mehr Punkte und beachte die angezeigte Flugbahn.",
+      "referenceHash": "14d05aba60812f8aa4e841b8b44c7a6f78421f0f5e5e5be8d23b0c451dc6a9bd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Basket Sport Stars brings fast, playful basketball matches to colorful courts filled with unpredictable moments. Choose a character, challenge a",
+        "instructionsQuote": "Player 1 Move: A and D Jump: W Aim and Shoot: Hold W and release Attack: S Use Gift: G Player 2 Move: Left and Right Arrow Keys Jump: Up Arrow Aim and Shoot: Hold Up"
+      },
+      "reviewedTextHash": "f146fbf63c98821c3116feaee9ab54279767a60611acaddbfa7b588e222e87e5"
+    },
+    "obby-parkour-crazy-descent": {
+      "sourceHash": "f1df7e063cf511d89368e99c382386abd5ec67466199027f801d6d448d9e8be1",
+      "title": "Obby-Parkour: Rasante Abfahrt",
+      "description": "Steige über erzeugte Plattformen möglichst tief hinab und meide bewegliche Hindernisse. Ein falscher Weg kann dich in den Abgrund führen. Mit jeder überwundenen Plattform erhöht sich die Geschwindigkeit, sodass die weitere Abfahrt schnellere Richtungsentscheidungen verlangt.\n\nSammle Goldmünzen direkt auf den Plattformen und lege Strecke zurück, um neue Abschnitte zu öffnen. Ein Laden bietet Haustiere, Meme-Figuren und Zubehör wie Brillen oder Umhänge. Die Steuerung trennt Figurenbewegung und Kamera, damit du die nächste Landefläche und mögliche Gefahren während der Abfahrt betrachten kannst.",
+      "instructions": "Bewege dich mit WASD oder den Pfeiltasten. Halte die rechte Maustaste gedrückt und bewege die Maus zum Umschauen. Auf Telefonen und Tablets ziehst du den virtuellen Joystick und wischst über den Bildschirm zur Kameradrehung. Finde den nächsten sicheren Weg nach unten, meide Hindernisse und sammle die Münzen auf den Plattformen.",
+      "referenceHash": "f5e8b5a6254cd784921b847cb258c5a8dadc8fdd54fc15bacb540d223c200c05",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "👋 Welcome to \"Obby Parkour: Crazy Descent\" — a fast-paced 3D parkour testing your speed and reactions! Your main goal is to descend through",
+        "instructionsQuote": "💻 PC Controls: WASD or Arrow Keys — move character. Hold Right Mouse Button (RMB) and move mouse — rotate camera and look around. 📱 Phone & Tablet Controls: Virtual"
+      },
+      "reviewedTextHash": "4a48008c9df73c8e86c9ad3afc7b20c37cf60f059ff2c1e9ee8791f55c5e8fe4"
+    },
+    "animal-clinic-anomaly": {
+      "sourceHash": "b4eebede1e7fb2f77154231b3fccd57f3a700ba2d5bd26444e3fa880f8eb9996",
+      "title": "Tierklinik der Anomalien",
+      "description": "In dieser Tierklinik verbindet sich eine Arbeitsschicht mit der Suche nach Anomalien. Nimm Patienten an, stemple Formulare, fotografiere und registriere sie, bevor du sie behandelst. Unter gewöhnlich wirkenden Tieren können ungewöhnliche Details verborgen sein.\n\nDie Arbeitsquote erfordert, die Routine und die verdächtigen Vorgänge zugleich zu beachten. Sicherheitskameras geben einen weiteren Blick in die Klinik. Bei Angriffen musst du dich befreien und die geistige Stabilität deiner Figur schützen. Untersuche Auffälligkeiten sorgfältig, während du Patienten durch Registrierung, Zimmer und Behandlung begleitest.",
+      "instructions": "WASD bewegt, gehaltene rechte Maustaste schaut um, Leertaste springt, E interagiert und 1–9 wählt Inventargegenstände. Linksklick nutzt ein Objekt oder befreit bei einem Anomalieangriff. In Kameras wechselt Q/E die Ansicht; Leertaste oder Esc verlässt sie. Mobil nutzt du Joystick, rechten Wischbereich und Aktionsknöpfe. Erledige Formular, Foto, Computer und Ausweis, dann Tests und Behandlung.",
+      "referenceHash": "eabac0a3d031a6b9d3f4bd0a4d43c29816a0f6f1211b85ca6a10340d2809ad1a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🏥 Welcome to Anomaly Animal Clinic — a vet clinic where no shift feels normal. 🐾 Check in patients, stamp forms, take photos, and treat them",
+        "instructionsQuote": "🖥 PC controls • WASD — move • Hold RMB — look around • Space — jump • E — interact (or press the on-screen prompt) • 1–9 — select inventory item • LMB — use item /"
+      },
+      "reviewedTextHash": "7aee4394fe18c80c9a729a49b0243fb5e157a3829319a668c60901ec9df83710"
+    },
+    "solitaire-8-collection": {
+      "sourceHash": "7d7af8f3283ce5fa0d091ab088e800a3a65ff8bdfe90458042eee0ad8ace1dd0",
+      "title": "Solitaire-Sammlung mit acht Varianten",
+      "description": "Diese Sammlung enthält Klondike, Spider, FreeCell, TriPeaks, Pyramid, Golf, Yukon und Scorpion. Wähle eine Variante und lerne deren angezeigte Regeln. Rückgängig und erklärende Hinweise unterstützen dich beim Untersuchen einer schwierigen Kartenlage.\n\nTriPeaks und Golf räumen Karten über Folgen mit jeweils einem Rang höher oder niedriger ab. In Pyramid entfernst du Paare mit der Summe dreizehn. Statistik, Verlauf sowie tägliche und wöchentliche Herausforderungen ergänzen die Partien. Du kannst Karten automatisch spielen lassen oder selbst an eine gültige Stelle ziehen und die Sammlung auch vollständig per Tastatur bedienen.",
+      "instructions": "Klicke oder tippe eine Karte für einen automatischen Zug oder ziehe sie selbst zum Ziel. Der Nachziehstapel gibt weitere Karten aus. Pfeiltasten wählen Karten und Stapel; Enter oder Leertaste nimmt auf, legt ab oder spielt. Z macht rückgängig, P gibt einen Hinweis, N teilt neu aus, M öffnet das Spielmenü und Esc schließt ein Fenster. Beachte jeweils die Regeln der gewählten Variante.",
+      "referenceHash": "481215e903ef5de92267bd412f9a3514d08a31c06fd9d8d1455791120c6767fe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Eight solitaire classics in one collection: Klondike, Spider, FreeCell, TriPeaks, Pyramid, Golf, Yukon and Scorpion. No download, no sign-up —",
+        "instructionsQuote": "The goal — Each solitaire has its own, and the game explains it the first time you open one. In Klondike, FreeCell, Spider, Yukon and Scorpion you build the four",
+        "sourceIssueResolution": "The source overgeneralizes foundation rules across variants including Spider and Scorpion and advertises unverified ad and solvability guarantees. This guide omits those claims, retains the unambiguous Pyramid/TriPeaks/Golf rules and directs players to each variant's displayed rules."
+      },
+      "reviewedTextHash": "b45f16d963d8b5fd01834c873fc14f6d2709abb772d99020d6df0cc2c224497e"
+    },
+    "tall-grass": {
+      "sourceHash": "a695188df834b578d622b552d514c1b77c971472f481c4efe3ccafaeff8d97a7",
+      "title": "Hohes Gras",
+      "description": "Im hohen Gras können Splitter, Herzen oder Monster verborgen sein. Ein betretenes Feld wird freigelegt und zeigt, wie viele versteckte Monster sich auf den acht Nachbarfeldern befinden. Der rundenbasierte Ablauf wartet auf deine Bewegung, sodass du vor jedem Schritt die Zahlen vergleichen kannst.\n\nEin Tor kann schon vor dem vollständigen Erkunden aufgehen. Entscheide, ob du mit dem Gesammelten gehst oder für weitere Splitter und Verbesserungen bleibst, bevor der Pumpking erwacht. Das täglich wechselnde Wetter beeinflusst Sicht und Tempo. Ein erwachtes Monster greifst du durch das Betreten seines Feldes an.",
+      "instructions": "Bewege dich mit WASD oder Pfeiltasten, mobil per Richtungstipp oder Wischen. Betritt Gras zum Schneiden und erwachte Monster zum Angreifen. Zahlen zählen versteckte Monster in acht Nachbarfeldern. 1/2 oder links/rechts wählt eine Gabe, P pausiert, M schaltet stumm und Enter oder Leertaste startet beziehungsweise startet neu. Wäge weiteres Erkunden gegen das offene Tor ab.",
+      "referenceHash": "b5936dd93e59341f352016cccb1ee767cd9b91ced09e218f1081d74362fbe3ab",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Every blade of tall grass hides something: a shard, a heart or a monster. Trample it and find out. Cleared tiles reveal how many monsters lurk",
+        "instructionsQuote": "Move: Arrow keys or WASD. On mobile, tap a direction or swipe. Step into tall grass to cut it. Step into a woken monster to strike it. A number counts the hidden"
+      },
+      "reviewedTextHash": "77560f8e6d8fb57f5405a39864fbf168bf2f696aafe1e3fe901d4456c79032fb"
+    },
+    "stormhawk": {
+      "sourceHash": "dac7912e136d97be2a822e1286e25d39c7c5b133a0cf4f4c7a57eab91cbc30e0",
+      "title": "STORMHAWK: Pazifik-Luftkämpfe",
+      "description": "STORMHAWK ist ein vertikaler Arcade-Shooter mit 32 Missionen über dem Pazifik. Überlebe die Mission, besiege ihren Boss und lande, um Gesammeltes zu sichern. Mehrere Abschüsse ohne Fehlschuss erhöhen den Punktemultiplikator für die Bestenliste.\n\nIm Hangar investierst du Belohnungen und schaltest zwölf unterschiedlich fliegende Maschinen frei. Während eines Versuchs wählst du Karten, die den Aufbau verändern. Sechs Modi umfassen unter anderem eine identische Tagesmission für alle und einen Boss-Rush gegen alle 32 Bosse. Eine Rolle hilft beim Ausweichen und kann nahe Geschosse in Punkte verwandeln.",
+      "instructions": "Mobil ziehst du zum Fliegen; die Maschine feuert automatisch. Tippe mit einem zweiten Finger für eine kurze unverwundbare Rolle. Halte den zweiten Finger, um langsamer zu werden und den Schuss zu bündeln. Per Tastatur fliegst du mit Pfeiltasten oder WASD, feuerst mit Z, rollst mit X und nutzt C für den Spezialangriff. P oder Esc pausiert; Tasten sind in den Einstellungen änderbar.",
+      "referenceHash": "f48cc7fff60c8a3cadd5b719bf4aae18653c054ed3a3a586cfe9f894774e42b4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "STORMHAWK is a vertical arcade shooter — a shmup — built to be played with one hand. Fly 32 hand-built missions over the Pacific, dodge with a",
+        "instructionsQuote": "Goal: survive each mission, beat its boss, and land to bank what you collected. Chain kills without missing to raise the multiplier — the score is what puts you on the"
+      },
+      "reviewedTextHash": "15295e67105e1cacbf4009e354b7b1bc9f4123a86e9dac41709ad0a1aa65819a"
+    },
+    "collect-brainrot-arena": {
+      "sourceHash": "51016e3f98c182d0eab47f83c2436496d723093a8f02fed3c347888bf2c614da",
+      "title": "Brainrots in der Arena sammeln",
+      "description": "Sammle und stehle Brainrots, baue deine Sammlung aus und schütze die Basis vor Rivalen. Ein Portal in der Kartenmitte erzeugt Glücksblöcke unterschiedlicher Seltenheit. Kaufe einen Block, trage ihn zur Basis und öffne ihn, um eine der 86 beschriebenen Figuren zu entdecken.\n\nSeltenere Blöcke bieten bessere Chancen auf hochwertige Brainrots. Gleichzeitig suchen Gegner nach Möglichkeiten, deine wertvollen Figuren zu stehlen. Kämpfen, Sprinten und Verbesserungen ergänzen das Sammeln. Auf Mobilgeräten wird ausschließlich der Einspielermodus unterstützt; für zwei Personen gibt es getrennte Tastaturbelegungen.",
+      "instructions": "Spieler 1 nutzt WASD zum Bewegen, Leertaste zum Springen, E zum Kaufen/Stehlen, F oder Linksklick zum Schlagen, linkes Shift zum Sprinten und Q zum Verbessern. Spieler 2 nutzt entsprechend Pfeiltasten, L, O, K, J und U. Mobil stehen Touch-Bedienelemente nur für einen Spieler zur Verfügung. Bringe Glücksblöcke zur Basis und verteidige deine Sammlung.",
+      "referenceHash": "10ca854308d37d8c3934b89c5c133c20b46cb4f4560c0adb07291bfde9496d2b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Collect Brainrot Arena is a chaotic multiplayer collecting and stealing game where luck, strategy, and timing are equally important. Enter the",
+        "instructionsQuote": "Player 1 Move: W, A, S, D Jump: Space Buy or Steal: E Hit: F or Left Mouse Button Sprint: Left Shift Upgrade Brainrot: Q Player 2 Move: Arrow Keys Jump: L Buy or Steal:"
+      },
+      "reviewedTextHash": "5dfab0ab72430339c2dc48aa7216322ab6b36708c95e075b1dc5dd2c40a9418d"
+    },
+    "ragdoll-runner-run-but-dont-break": {
+      "sourceHash": "4a2c61aac9cfaf64bc4713526b2d5544857a0ea2226fbe44ddd4f3cbf4624b5b",
+      "title": "Ragdoll-Runner: Lauf ohne zu zerbrechen",
+      "description": "Führe ein unbeholfenes Ragdoll-Strichmännchen durch Hindernisse und Fallen und überhole den Gegner. Ziel ist, zuerst die Ziellinie zu erreichen. Die physikalischen Reaktionen der Figur können nach Berührungen für unvorhersehbare Situationen sorgen.\n\nDie Level verbinden Rennen mit dem Ausweichen vor Hindernissen. Sammle unterwegs Boni und passe deine seitliche Bewegung an die nächste Passage an. Die Quelle nennt eine Bestenliste für Ergebnisse. Am Computer startest du mit der linken Maustaste, während die Mausbewegung die Richtung bestimmt; mobil werden Tippen und seitliches Wischen verwendet.",
+      "instructions": "Benutze am Computer die linke Maustaste, um loszulaufen. Bewege die Maus nach links und rechts, um zu lenken und Hindernissen auszuweichen. Mobil tippst du zum Laufen und wischst seitlich zur Richtungssteuerung. Sammle Boni, vermeide Fallen und erreiche vor deinem Gegner die Ziellinie.",
+      "referenceHash": "f50ecf8d550f89f8c32458887003aae9b4d3bd33d9958b9ac9bee068294f4e71",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "⚡ Welcome to the world of \"Ragdoll Runner: Run, but Don't Break!\" — where every run turns into an exciting adventure! Control the clumsy ragdoll",
+        "instructionsQuote": "🎯 Objective: Overcome obstacles and outrun your opponent to become the champion! Control the ragdoll stickman and avoid traps to reach the finish line first! 🕹️"
+      },
+      "reviewedTextHash": "5d39506cd0276232467cce82275f3aefbad1952ee35e0233e50bac82e165b774"
+    },
+    "sniper-for-brainrots": {
+      "sourceHash": "49615a3927a0ef4d6c756d281e7fd98f4fb5c0273c392987da3b763cb7b27999",
+      "title": "Brainrots mit dem Scharfschützengewehr sammeln",
+      "description": "Triff den Ballon über einem Brainrot und verwandle dich sofort in die Figur. Anschließend musst du die Sicherheitszone vor dem Tsunami erreichen. Je weiter du schießt, desto seltener kann der Brainrot sein; zugleich wird die verfolgende Welle schneller.\n\nDie Sammlung umfasst 87 Figuren. Erweitere deine Basis, schalte stärkere Gewehre frei und passe deine Spielfigur an. Bewegung und Schießen wechseln hier zwischen Sammeln und Flucht. Die Tastaturbelegung unterscheidet Aktionen im normalen Zustand und beim Zielen durch das Zielfernrohr. Mobil ist nur ein Spieler möglich.",
+      "instructions": "Spieler 1: WASD bewegen, Leertaste springen, Shift sprinten, F/Rechtsklick Zielfernrohr, Mausrad oder Shift beim Zielen zoomen, Linksklick oder Leertaste beim Zielen schießen; E interagieren, Q verbessern, T Wiedergeburt. Spieler 2: Pfeiltasten bewegen, L springen beziehungsweise beim Zielen schießen, K sprinten beziehungsweise zoomen, rechtes Shift Zielfernrohr, O interagieren, U verbessern. Mobil nutzt du Touch-Steuerung im Einspielermodus.",
+      "referenceHash": "f7bcad752fac95e4913ac53f489bde18ccdd5a573bf92072e4b301543b70787f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Sniper for Brainrots is an action-packed collection and survival game where every successful shot unlocks a brand-new Brainrot. Use your sniper",
+        "instructionsQuote": "Player 1 Move: WASD Jump: Space Sprint: Shift Scope: F or Right Mouse Button Zoom: Mouse Wheel or Shift while scoped Shoot: Left Mouse Button or Space while scoped"
+      },
+      "reviewedTextHash": "888fddc2c974c632a1eca2b250bd5a08162b7ba8c3a56bb0fe6f7f424ecfdefc"
+    },
+    "ashfall-industries": {
+      "sourceHash": "e7fb0f0c2799b887e54f39e10f74e44b3e5555fed5915b8f20fe6a05ebf3fc76",
+      "title": "Ashfall Industries: Industrie im Ödland",
+      "description": "Entwickle eine beschädigte Ödlandschaft zu einem industriellen Netzwerk. Beginne mit einer Wasserpumpe und produziere Scrap, die Ressource für weitere Betriebe und Verbesserungen. Die 15 Anlagen reichen über Gewächshäuser, Funkstationen und Raffinerien bis zum Horizon-Reaktor.\n\nCrew Chiefs automatisieren die Produktionszyklen. Retrofits verbessern Ertrag, Tempo, Kosten und besondere Funde. Mit Reclamation setzt du den Betrieb strategisch zurück, erhältst Reaktorkerne und kaufst dauerhafte Recovery-Protokolle. So verbindet sich der laufende Ausbau mit einem stärkeren Neustart.",
+      "instructions": "Kaufe einen Betrieb und klicke Run, um Scrap zu erzeugen. Investiere Scrap in höhere Stufen und weitere Anlagen. Stelle Crew Chiefs zur Automatisierung ein und kaufe Retrofits. Sammle Lucky Finds für zusätzliche Erträge. Nutze Reclamation für Reaktorkerne und einen Neustart. Bediene Schaltflächen per Linksklick oder auf Touchscreens per Tippen.",
+      "referenceHash": "a51019fb2ba84b6d9e7a862eb69462f787b01b1ed9ceb1b3cf43a035faee92e9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Ashfall Industries is a comic atompunk idle management game about turning a battered wasteland into a thriving industrial frontier. Start with a",
+        "instructionsQuote": "How to Play 1. Buy an operation and click its Run button to begin producing Scrap. 2. Spend Scrap to level up operations, unlock more businesses, and improve your"
+      },
+      "reviewedTextHash": "62bacaefb4a142b7569272fabb3d3ce32aa2e845d84d2097699447fca7ad0b56"
+    },
+    "the-biggest-number": {
+      "sourceHash": "2c04ae445f107cb8e343a1c812121c727065614567f6e356403d9bfef168f96e",
+      "title": "Die größte Zahl",
+      "description": "In diesem Zahlenspiel läufst du durch Hindernisse und sammelst Werte, die höchstens so groß wie dein eigener sind. Größere rote Zahlen beenden den Versuch. Rechentore verändern den Wert: Addition und Multiplikation erhöhen ihn, Subtraktion und Division verringern ihn.\n\nErreiche das Ziel mit einer möglichst großen Zahl und durchbrich dort möglichst viele Wände. Sägen, Lücken und Fallen gefährden die Strecke. Schilde schützen, Magnete ziehen nützliche Zahlen an. Mit Münzen verbesserst du Ausgangszahl und Einkommen für spätere Versuche. Vergleiche die verfügbaren Tore, bevor du deine Bahn wählst.",
+      "instructions": "Lenke mit A/D, links/rechts oder bei gedrückter linker Maustaste durch Ziehen. Mobil wischst du seitlich. Sammle gleiche oder kleinere Werte und meide größere rote Zahlen sowie Sägen und Lücken. Wähle Rechentore nach ihrer Wirkung. Nutze Schilde und Magnete und erreiche das Ziel mit möglichst hohem Wert für die abschließenden Wände.",
+      "referenceHash": "2db675bc08e1ffffc57658a58425b2f0134638ff2ec3600d5e5290c2f663bfd1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🔢 The Biggest Number is a fast-paced 3D number runner and casual math game where every choice can make you stronger—or end your run! Collect",
+        "instructionsQuote": "🎯 Goal Reach the finish with the biggest number possible and smash through as many walls as you can! 🎮 Controls On desktop, use A/D or the Left/Right arrow keys. You"
+      },
+      "reviewedTextHash": "4984fd7a576336c357895918a7123bedc9bfcf72af5bf65d0c0577c23e97d5af"
+    },
+    "obby-prison-craft-escape": {
+      "sourceHash": "ee542d9857e87315808992137d3429fca96634e399c6cfbc95913353c074de4c",
+      "title": "Obby-Gefängnis: Flucht in die Freiheit",
+      "description": "Entkomme einem Gefängnis mit Wachen, anderen Insassen und zahlreichen Fallen. Die blockartige Umgebung enthält ein verwinkeltes Wegenetz, durch das du einen Ausgang finden musst. Vermeide Polizeiwachen und nutze die beschriebenen Möglichkeiten zum Ausschalten von Sicherheitssystemen.\n\nDie konkrete Steuerung verbindet Bewegung und Sprünge mit einer frei drehbaren Ansicht. Beobachte den nächsten Abschnitt, bevor du eine Falle überquerst oder an Wachen vorbeigehst. Das Ziel ist, die Hindernisse des Gefängnisses zu überwinden und die Freiheit zu erreichen.",
+      "instructions": "Bewege dich mit WASD und nutze die Maus zum Umschauen. Die Leertaste lässt dich springen; P pausiert. Suche einen Weg durch das Gefängnis, meide Wachen und überwinde die Fallen. Beobachte vor einem Sprung die Umgebung und folge den im Spiel verfügbaren Möglichkeiten, Sicherheitssysteme auszuschalten und zu entkommen.",
+      "referenceHash": "9a142fb722c64c59045940c4047d010ea03eee0fe45de59c55b97775a1c57cf2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Obby Prison: Craft Escape is an exciting survival adventure in which you need to escape from a prison full of dangers. Once behind bars, you",
+        "instructionsQuote": "Obby Prison: Craft Escape - escape from prison, show your skills and skills, show what you are capable of, go through all the traps and become free. Control of the game:"
+      },
+      "reviewedTextHash": "a2c85555533d0822352ef73a587fa4d2b238893507778a98a27cb3be7a1ae198"
+    },
+    "city-chase-escape-police": {
+      "sourceHash": "dcc99e6ab5ca8b950e2e9cc67342669f96473b31c08335668beaa2fac26e1c89",
+      "title": "Stadtjagd: Flucht vor der Polizei",
+      "description": "Überlebe eine Verfolgungsjagd durch die Stadt möglichst lange. Weiche Polizeiautos aus, sammle Münzen für weitere Fahrzeuge und nimm Gesundheitsboni mit. Der Rammbügel erlaubt dir, Polizeiwagen wegzustoßen. Mit fortgesetzter Flucht steigt die Fahndungsstufe.\n\nStandardmäßig beschleunigt das Auto selbstständig. Ein alternativer Tastenmodus bietet eine eigene Gaseingabe. Zum Überleben musst du Richtungswechsel so wählen, dass dein Wagen nicht zwischen Hindernissen und Verfolgern feststeckt. Eine Rücksetztaste befreit ein blockiertes Fahrzeug, ohne den Versuch zu beenden.",
+      "instructions": "A/D oder links/rechts lenkt, S oder Pfeil unten fährt rückwärts. Im Tastenmodus geben W, Pfeil oben oder Leertaste Gas. R befreit ein festgefahrenes Auto, Esc pausiert. Mobil hältst du links/rechts zum Lenken und beide Seiten zum Rückwärtsfahren; Loslassen richtet das automatisch beschleunigende Auto aus. Alternativ nutzt du die eingeblendeten Lenk- und Pedaltasten.",
+      "referenceHash": "630d5147f158d65e45acfdc7fd833a71c1b637f8b4c007dddfe659b7f74c3fc7",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Race through the city and survive the police chase for as long as you can! Dodge cops, collect coins, grab HP boosts, and pick up the Ram Bar to",
+        "instructionsQuote": "Dodge the police cars and survive as long as you can to achieve the highest score. Collect coins to fill the garage with cars. Mobile Controls: Hold Left Side of Screen:"
+      },
+      "reviewedTextHash": "c96cbda8fae8b30949fcb951656af404d60f7987f602c78708fa11924cce9992"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "title": "Sky Rush: Endlosflug",
+      "description": "Sky Rush ist ein endloser Flug mit steigender Geschwindigkeit. Dein Flugzeug folgt dem Mauszeiger oder Finger, während du goldene Sterne sammelst und Feinden sowie ankommenden Raketen ausweichst. Je länger du fliegst, desto anspruchsvoller wird der Luftraum.\n\nIm Laden sind Verbesserungen und neue Flugzeuggestaltungen verfügbar. Gesammelte Spielwährung dient den beschriebenen Verstärkungen. Suche eine freie Route durch die Gegner und versuche, die Strecke deines vorherigen Flugs zu übertreffen. Die Bestenliste bietet einen Vergleich für neue Rekorde.",
+      "instructions": "Klicke und halte die Maustaste oder berühre den Bildschirm, um das Flugzeug dem Zeiger beziehungsweise Finger folgen zu lassen. Sammle goldene Sterne und weiche Gegnern und Raketen aus. Nutze den Laden für die angebotenen Verstärkungen oder Gestaltungen. Fliege möglichst weit und passe deine Route an das zunehmende Tempo an.",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels like a masterpiece. At",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen anywhere. Your plane will follow"
+      },
+      "reviewedTextHash": "64cb4b0977be58defaa160105d772368746ad13f6c6710d952199c342c8d88a1"
+    },
+    "crush-hour": {
+      "sourceHash": "ee6fbb8733078e56ad51116d3d1a144e640947b225707e699fb6fa943dfa1f0f",
+      "title": "Crush Hour: Zombie-Verkehr",
+      "description": "Dein Lastwagen fährt von selbst über eine endlose Autobahn voller Zombies und Verkehr. Wechsle die Spur oder fahre auf den Gehweg, um Hindernissen auszuweichen. Getroffene Zombies bringen Punkte und Kombinationen; knappe Vorbeifahrten belohnen sauberes Fahren.\n\nAutos und Lastwagen kosten bei Kollisionen Lebensenergie, wobei schwere Fahrzeuge mehr Schaden und Punkte bringen. Sammle Benzinkanister, bevor der Tank leer ist, und nutze den orangefarbenen Rampage-Bonus für eine Zerstörungsserie. Es gibt keine Ziellinie: Überlebe möglichst lange und verbessere deinen Punktrekord.",
+      "instructions": "Pfeil links oder A wechselt nach links bis auf den linken Gehweg; Pfeil rechts oder D entsprechend nach rechts. Nach einem Unfall startet die Leertaste neu. Mobil wischst du links oder rechts für dieselben Spurwechsel. Sammle Treibstoff und Zombies für Punkte, meide schädliche Kollisionen und halte den automatisch fahrenden Lastwagen möglichst lange in Bewegung.",
+      "referenceHash": "1e16778ee293f869fe1440230c744c2faee20f32400233820e612d38d7742e48",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Crush Hour is an endless arcade runner set in a zombie rush hour. Your truck drives itself — swipe to change lanes, hop the sidewalk, and smash",
+        "instructionsQuote": "Rush hour belongs to the dead — and you are the truck. Your rig drives itself down an endless highway. Smash zombies for score and combos, weave past cars, and hop onto"
+      },
+      "reviewedTextHash": "258a128447485c6a3b5c38061db247ead8bf0d8f37e960ee90544ac5558c8992"
+    },
+    "swat-cats": {
+      "sourceHash": "65d212adf25b4406a341ddca36b3263c799c70501e556ee6910e00a1de001e78",
+      "title": "SWAT-Katzen",
+      "description": "SWAT-Katzen ist ein Online-Shooter mit bewaffneten Katzen als Einsatzkräften. Vier Figuren sind beschrieben, vom einfachen Soldaten bis zum Captain. Du beginnst als Private und kannst in späteren Online-Partien andere Kämpfer wählen.\n\nSchnelle Karten, gemeinsame Partien mit Freunden und ein Spielchat bilden den Rahmen der Gefechte. Unterschiedliche Ausrüstungsplätze erlauben Hauptwaffe, Pistole, Messer, Bombe und Heilung. Bewegung, Zielen, Nachladen und Aufnehmen von Waffen haben eigene Eingaben. Nutze diese Aktionen, um dich im Teamkampf zu bewegen und auf Gegner zu reagieren.",
+      "instructions": "WASD bewegt die Katze. Linke Strg-Taste oder Linksklick feuert, Rechtsklick zielt und R lädt nach. 1 wählt die Hauptwaffe, 2 die Pistole, 3 das Messer, 4 die Bombe und 5 Heilung. T öffnet den Chat, C lässt dich hinsetzen, Leertaste springt, M zeigt Karten, Tab pausiert und F nimmt eine Waffe auf. Wähle die Ausrüstung passend zur Gefechtssituation.",
+      "referenceHash": "95c737f8a6721bd8765d7614423d39e24907226dfd98a4ab5bff81d313954841",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "SWAT Cats is an online shooter set in a world where every hero is a battle cat. Ready for purr-fect battle with wild action? Jump in, grab your",
+        "instructionsQuote": "Controls W = move forward A = move left S = move backward D = move right Lctrl = fire R = recharge Right mouse = aim mode Left mouse = fire 1 = switch to general gun 2 ="
+      },
+      "reviewedTextHash": "46173d3e7a556e9c3443b3a183b381126400f5168a59d3c15c4a278bedfe6c30"
+    },
+    "putt-party": {
+      "sourceHash": "40069efe238f1d4c528c64c908afd9856d79fa4f2ebf38a57021f6742acfdce6",
+      "title": "Putt-Party",
+      "description": "Putt-Party macht Minigolf zu einem Rätsel aus Winkeln und dosierter Schlagkraft. Erreiche das Loch mit möglichst wenigen Schlägen. Wände, Kurven, Trichter, Wasser und Sand verändern die sinnvolle Route; Verstärker und Portale kommen auf weiteren Bahnen hinzu.\n\nGute Ergebnisse bringen bis zu drei Sterne und schalten neue Bälle frei. Ziehe vom Ball zurück und bestimme durch die Länge die Kraft. Ball Back nimmt den letzten Schlag zurück, während Aim Line eine längere Flugbahnvorschau zeigt. Beide Werkzeuge helfen, eine schwierige Route vor dem nächsten Versuch genauer einzuschätzen.",
+      "instructions": "Ziehe mit Maus oder Finger vom Ball nach hinten und lasse los. Je weiter du ziehst, desto kräftiger wird der Putt. Berücksichtige Banden und Hindernisse und versenke den Ball mit wenigen Schlägen für bis zu drei Sterne. Ball Back spult den letzten Schlag zurück; Aim Line verlängert die angezeigte Bahn zur Planung komplizierter Wege.",
+      "referenceHash": "1f7a6de9db930a17511ece823e4d3fe5c19cdc47d8f2b89a436fd542e4c6feb2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Putt Party is a laid-back mini-golf puzzler with a bold retro-poster look. Line up your shot, pull back, and let it fly — then watch the ball",
+        "instructionsQuote": "Drag back from the ball and release to putt — the farther you pull, the harder the hit. Reach the hole in as few strokes as you can to earn up to three stars, and mind"
+      },
+      "reviewedTextHash": "3907cd93590706d533890270b774d5cea6e7a6f75d1f3aadb057c7a369c24531"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "title": "Live-Runde: Städte verteidigen",
+      "description": "Acht Städte stehen um eine Arena, deren Kern Meteore in alle Richtungen schleudert. Lenke ankommende Geschosse von deiner Stadt weg und auf andere Bereiche. Ziel dieses Spiels für acht Teilnehmer ist, als letzter Spieler zu überleben.\n\nZwischen Runden wählst du Verbesserungen. Selbst nach der Zerstörung deiner Stadt kannst du verbleibende Spieler sabotieren. Online-Partien, Bots und private Räume sind in den fünf Modi Defence, Paddle, Vault, Invaders und Belt vorgesehen. Welche Aktionen verfügbar sind, hängt davon ab, ob der Modus einen Schläger und Schüsse erlaubt.",
+      "instructions": "In Modi mit Schläger bewegst du die Maus, um ihn zu versetzen. Wo Schüsse erlaubt sind, klickst du zum Abfeuern von Raketen und achtest auf die Munition. Lenke Meteore von deiner Stadt weg. Nach dem Ausscheiden wählst du eine Sabotage und legst ihren Einsatzort mit der Maus fest. Nutze zwischen Runden die angebotenen Verbesserungen.",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple: make sure they hit",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. (Watch your ammo!) When"
+      },
+      "reviewedTextHash": "6d5fc7430890b98d943f09e958490cf3f917b45ebd73fdc6edc69ea09e6be3df"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "Turnline: Entspannt Linien verbinden",
+      "description": "Drehe Kacheln, um ihre Linien zu einem vollständigen Netz zu verbinden. Sobald sämtliche erforderlichen Wege zusammenpassen, ist das Rätsel gelöst. Richtig verbundene Abschnitte werden während der Arbeit hervorgehoben und helfen bei der Orientierung.\n\nDie ersten Level erklären die Regel mit einfachen Anordnungen. Später kommen größere Netze, Verzweigungen und mehrere Wege hinzu. Die Quelle nennt Tausende Level, gespeicherten Fortschritt und Hinweise bei Schwierigkeiten. Es gibt kein Zeitlimit, sodass du die Verbindungen in deinem eigenen Tempo untersuchen kannst.",
+      "instructions": "Klicke am Computer eine Kachel an oder tippe sie auf Telefon und Tablet an, um sie zu drehen. Vergleiche die Linien mit den benachbarten Kacheln und verändere die Ausrichtung, bis alle erforderlichen Abschnitte verbunden sind. Beachte die hervorgehobenen richtigen Wege und nutze bei Bedarf einen Hinweis.",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the correct position for",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines connect to nearby tiles. Keep"
+      },
+      "reviewedTextHash": "a23352021e4c261d3987925fe541f874aa3654d7d851d1e617a1fcec49bed13a"
+    },
+    "freekick-hero": {
+      "sourceHash": "bba7f19c34c577cf7610659baeb8045973fbf554dfe54412a11fd7ffa9fe0514",
+      "title": "Freistoßheld",
+      "description": "Schlage Freistöße an Abwehrmauer und Torwart vorbei ins Tor. Im Karrieremodus spielst du Saisons und steigst in Ligen auf; in der Freistoß-Herausforderung sammelst du Punkte, bevor deine Leben aufgebraucht sind. Entfernung, Winkel und Wind verlangen jeweils angepasste Schüsse.\n\nDie Eingabe erfolgt in zwei Schritten: zuerst Richtung und Kraft, danach der Treffpunkt auf dem Ball für Höhe und Kurve. Verbesserungen steigern Kraft und Drall. Besondere Bälle besitzen etwa zielsuchende Wirkung, Windresistenz oder einen Meteorangriff. Trefferfolgen und das Freischalten weiterer Bälle ergänzen den Fortschritt.",
+      "instructions": "Ziehe den Ball mit linker Maustaste oder Finger zurück, um Richtung und Kraft festzulegen. Lasse los und wähle anschließend durch Klick oder Tipp einen Treffpunkt auf dem vergrößerten Ball, um zu schießen. Das Ballsymbol öffnet die Auswahl, Info zeigt oder verbirgt die Treffpunkthilfe. Berücksichtige den Wind und die Position von Mauer und Torwart.",
+      "referenceHash": "b8172ee035a3ad358cc62309f3a3cff6736730a56affc5e7ccc0dfcec3c17613",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Freekick Hero is a 3D arcade football game about bending spectacular free kicks past defensive walls and goalkeepers. Play a Career season by",
+        "instructionsQuote": "Become a Freekick Hero! Step onto the pitch and score spectacular free kicks past defensive walls and goalkeepers. Choose between two modes: Career, where you play"
+      },
+      "reviewedTextHash": "822714e15aec6e210308cdf0e452c25454ac0451bb56eef80a05b1b748184288"
+    },
+    "avocado-yard-ragdoll-sandbox": {
+      "sourceHash": "9307a6d2989396cb5c72f55c4170dd65a09be4fc68296864ca47a21d590e3d64",
+      "title": "Avocado-Hof: Ragdoll-Sandbox",
+      "description": "Baue einen Spielplatz mit beweglichen Avocados, Kisten, Brettern, Seilen und physikalischen Geräten. Greife, wirf und verbinde Objekte oder löse Explosionen aus. Die Avocados können laufen, tanzen, springen und Rückwärtssaltos machen; ein Zauberstab verändert Figuren und Gegenstände.\n\nDie Quelle nennt 46 Herausforderungen und acht Karten mit unterschiedlichen Bedingungen. Missionen geben Ziele bei begrenzten Zügen, während Rampage in 60 Sekunden eine hohe Schadenspunktzahl verlangt. Sterne und die Spielressource Kerne schalten weitere Inhalte frei. So kannst du frei experimentieren oder konkrete Aufgaben in einer aufgebauten Szene lösen.",
+      "instructions": "Wähle ein Spielzeug im Regal und klicke oder tippe auf das Feld zum Platzieren. Drücke ein Objekt, ziehe und lasse zum Werfen los. Moves steuert Avocado-Aktionen, der Zauberstab wendet einen gewählten Effekt an. Nail und Rope verbinden zwei gewählte Ziele. Leertaste pausiert, S aktiviert Zeitlupe, G Gravitation, C leert, R setzt zurück, T startet Rampage, D löscht, M wählt Avocado und Esc Greifen.",
+      "referenceHash": "090614bb6e30754020870f349473885d6aae2ecf43ca54ec955618fb4d965ea3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Avocado Yard: Ragdoll Sandbox is a free ragdoll physics game where floppy avocados are your toys. Drop them into the yard, make them dance, run,",
+        "instructionsQuote": "Build a scene, play with physics and complete challenges to earn stars. - Place items: pick a toy on the shelf (Avocado, Crate, Rock, Plank, Bomb, Barrel, Anvil,"
+      },
+      "reviewedTextHash": "0b74898274b497820179f7a273294c7734126ee2107c10bc7c98124e639b2ba7"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "Asche der Tiefen",
+      "description": "Steige zur verstummten Kolonie Sorrow-IV hinab, finde die Ausgänge und überlebe die Bosse. Die Spielwelt reagiert physikalisch: Felsen stürzen ein, Sand und Wasser fließen, Magma wird zu Stein und Gas kann explodieren. Die Geschichte umfasst 100 Level, sechs Kapitel und zwei Enden.\n\nEin Plasmaschneider öffnet Wege durch Fels, verletzt Gegner aber kaum. Der Pfeil am Bildschirmrand zeigt zum Ziel; oben rechts stehen das Levelziel und der Rift-hungers-Zähler. Gold finanziert Ausrüstung und Verbesserungen im Arsenal. Sieben Lebensräume verändern die Umgebung, durch die du Bewegung und Kämpfe koordinierst.",
+      "instructions": "A/D bewegt, W springt, Leertaste nutzt das Jetpack. Die Maus zielt und feuert; Rechtsklick wirft eine Granate, 1–4 wählt Waffen, F nutzt den Schneider und Esc pausiert. Mobil steuert links Bewegung und Sprung, rechts Zielen und Feuer mit standardmäßig aktivem Auto-Zielen. Rechts liegen Granate, Schneider und Waffenwechsel. Folge dem Zielpfeil und investiere Gold im Arsenal.",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something ancient and hungry has",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim and fire (auto-aim is on by"
+      },
+      "reviewedTextHash": "5a1837ba82875323b3895a94a9d3fa7d3d88a3163753c777801e26de8bbc73db"
+    },
+    "fleet-merge": {
+      "sourceHash": "263388e9cf1685e3ab6bd3cf40e833191f5930214fa5de23c1090ac05823a5be",
+      "title": "Flotte kombinieren und kämpfen",
+      "description": "Kaufe Raumschiffverbände, kombiniere gleiche Schiffe und ordne sie im Dock an. Die Anordnung wird genau als Kampfformation übernommen; die oberste Reihe ist die Front. Höhere Stufen und passende Konter sind beide wichtig für die automatischen Gefechte.\n\nLinienschiffe schlagen Lanzenjäger, diese schlagen Artillerie und Artillerie schlägt Linienschiffe. Halte Artillerie hinten und nutze seitliche oder rückwärtige Angriffe der Lanzenjäger. Die Sternenkarte führt zu Sektoren, Bossen und riesigen Archen. Helden, Verteidigung und Konvoiüberfälle ergänzen die Flottenentwicklung.",
+      "instructions": "Tippe einen Schiffstyp zum Kaufen an. Ziehe Schiffe gleichen Typs und gleicher Stufe zusammen, um sie zu verbessern. Ordne die Front oben an und prüfe den Feindradar. Konter: Linie schlägt Lanze, Lanze Artillerie, Artillerie Linie. Lanzenjäger verursachen seitlich 1,25-fachen und hinten 1,5-fachen Schaden. FIGHT startet den automatischen Kampf; Tippen ändert das Tempo. Kredite und Kerne kaufen Verbesserungen.",
+      "referenceHash": "df193f8cf0434718299ddb7b7bb9bed09e91797cf81f60d3c2052708bb2b2acd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Command a fleet of starships in this merge auto-battler. Buy Line ships, Artillery and Lancers, then merge identical ships to build stronger",
+        "instructionsQuote": "Tap a ship type to buy a squadron. It flies into your dock. Drag a ship onto an identical ship (same type, same tier) to merge it into a higher tier. Drag ships to"
+      },
+      "reviewedTextHash": "0413a98e53713402796bbdfef7b43166ef78a99c075246495cf9effd62a8fb71"
+    },
+    "busy-bites-tycoon": {
+      "sourceHash": "7b802676367ca63a0ffc0d9fff325528fadacec7d9ec9275438019f2d1b00c25",
+      "title": "Busy Bites: Restaurant-Tycoon",
+      "description": "Beginne mit einer leeren Theke und hungrigen Gästen. Trage Zutaten, bereite Speisen zu, bediene und sammle das hinterlassene Spielgeld. Maschinen, Förderbänder und Personal automatisieren nach und nach den Betrieb. Gehen genügt für Aufnehmen und Abgeben in Reichweite.\n\nEine Welttour führt durch vier Restaurants in den USA, Mexiko, der Türkei und Indien. Ein abgeschlossenes Restaurant bleibt erhalten und gibt einen Passstempel, der Preise an allen Standorten erhöht. Ausbauten kannst du in Teilbeträgen bezahlen; markierte Kaufbereiche behalten bereits eingezahltes Geld. Erst die Automatisierung, dann der nächste Standort bilden das Entwicklungsziel.",
+      "instructions": "Bewege dich mit WASD oder Pfeiltasten; per Maus oder Touch ziehst du den Bildschirmjoystick. Gehe zu Palette oder Maschine zum Aufnehmen und zur nächsten Maschine oder Ablage zum Abgeben. Stehe auf Preisfeldern zum Bauen und an der Kasse zum Bedienen. Sammle hinterlassenes Geld. Esc oder P pausiert. Folge dem Tutorialpfeil und öffne Maschinen, Personal und Räume bis zur nächsten Reise.",
+      "referenceHash": "c6bd4dad863edc6bf3f2d7db6e39ec278868d93e2a7e84b8be59f210dde44058",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Busy Bites Tycoon is a cozy restaurant tycoon game. You start with one empty counter and a line of hungry customers. Carry ingredients, cook,",
+        "instructionsQuote": "Move: WASD or arrow keys. On touch screens (or with the mouse), drag anywhere to use the on-screen joystick. Carry: walk up to a pallet or machine to pick items up, and"
+      },
+      "reviewedTextHash": "cde64690449f28094ba4073b77a9df82c669304476148e912c1bd089a2b1570b"
+    },
+    "merge-wall-last-stand": {
+      "sourceHash": "ca52fa4eb5c31e10da1b3ef4d1b87666018725cd6693c8605bf6e13b7c69a798",
+      "title": "Kombinierte Helden: Die letzte Mauer",
+      "description": "Verteidige eine Burgmauer gegen Goblins, Wölfe, Skelette, Oger und Drachen. Beschwöre Kämpfer und kombiniere gleichartige Helden derselben Stufe zu stärkeren Einheiten. Die Armee greift automatisch an, während du ihre Entwicklung und Zauber steuerst.\n\nZehn Heldenstufen und unterschiedliche Gegnerfähigkeiten prägen die Verteidigung. Zwischen Wellen wählst du einen von drei Segen. Meteor, Einfrieren, Mauerreparatur und Wut unterstützen den Kampf. Die Kampagne umfasst 60 Missionen; ein Endlosmodus folgt als weitere Herausforderung. Überlebe alle Wellen für bis zu drei Sterne pro Mission.",
+      "instructions": "Tippe SUMMON, um gegen Gold einen Kämpfer aufs Feld zu rufen. Ziehe zwei gleiche Kämpfer derselben Stufe aufeinander. Halte die Monster von der Mauer fern, während deine Armee automatisch angreift. Wähle zwischen Wellen einen der drei Segen und nutze Zaubertasten für Meteor, Einfrieren, Reparatur oder Wut. Gesteuert wird mit Maus oder Touch durch Wählen und Ziehen.",
+      "referenceHash": "dd0c62d25fb1e65442b102de55fc850c617bdfbba926715ab9cb24e528331590",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Merge Wall: Last Stand is a bright merge tower-defense game. Hordes of goblins, wolves, skeletons, ogres and fire-breathing dragons march on",
+        "instructionsQuote": "Tap SUMMON to call a fighter onto the grid - it costs gold, which you earn by defeating monsters. Drag a fighter onto another fighter of the same level to merge them"
+      },
+      "reviewedTextHash": "520088ff3c0b5543013b7351f066148566ba24d78a76e8709522399c008c2a5b"
+    },
+    "car-wash-idle": {
+      "sourceHash": "103863131d9fa5dbd883ab55eab53ec155c75adc2451067ecdec16f2ea2d4d78",
+      "title": "Deine wachsende Autowaschanlage",
+      "description": "Wasche verschmutzte Autos, sammle Spielgeld und erweitere eine kleine Waschbucht zu einer größeren Autopflegeanlage. Der Arbeitsablauf führt von Seife über das Abspülen mit Wasser bis zum Kassieren. Weitere Stationen kümmern sich um Fußmatten und Sitze im Innenraum.\n\nEinnahmen und Erfahrung ermöglichen neue Bereiche und Verbesserungen. Helfer können die Reinigung automatisieren, während du den Betrieb weiterentwickelst. Bodenmarkierungen dienen zum Bezahlen von Stationen und Ausbauten. Die Aufgabenliste führt durch den Einstieg und zeigt, welche Arbeit als Nächstes ansteht.",
+      "instructions": "Bewege dich mit WASD oder Pfeiltasten. Stelle dich auf blaue oder grüne Bodenfelder, um Geld für Stationen und Verbesserungen einzuzahlen. Betritt die Waschfläche mit Schlauch, um Seife oder Wasser auf die Autos zu sprühen. Sammle die Geldstapel und folge der Aufgabenliste des Tutorials. Nutze Einnahmen für weitere Stationen und Helfer.",
+      "referenceHash": "ac721643f5aff5d5e9524e55f4a5cb18df1731e538f8b483f3205f6df99b2ab2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Build your own car detailing empire! Wash muddy cars, expand your shop, hire helpers, and turn a tiny bay into a full idle arcade car wash",
+        "instructionsQuote": "- WASD / Arrow keys = move - Walk onto blue/green floor pads = unlock stations or upgrade (stand to deposit cash). - Walk onto the wash pad with a hose = spray soap or"
+      },
+      "reviewedTextHash": "97f30027e633ad1016b6014dc1c7a41b8ec3cba2fe27abaf0938a084da703ba7"
+    },
+    "football-free-kick": {
+      "sourceHash": "9a283751c2c0f1a78450844c44f84da33e0a9c52b328f65cb11943be99ff5333",
+      "title": "Fußball-Freistöße",
+      "description": "Schieße Freistöße über Abwehrmauern und an Torhütern vorbei. Sieben Stadien führen vom Park bis zum Mond; Wind, springende Mauern und stärkere Torhüter verändern die Bedingungen. Treffer füllen den Fortschritt einer Etappe, während Torserien zusätzliche Punkte bringen.\n\nZwischen Abschnitten wählst du Vorteile und erledigst Missionen. Belohnungstruhen und neue Bälle oder Flugspuren ergänzen die Entwicklung. Die Wischgeschwindigkeit bestimmt die Höhe, eine gekrümmte Bewegung die Kurve des Balls. Behalte den verbleibenden Ballvorrat im Blick und plane eine Route um die Mauer.",
+      "instructions": "Wische vom Ball nach oben oder ziehe ihn mit der Maus und lasse los, um zu schießen. Schnellere Wischbewegungen schicken ihn höher, gekrümmte geben Drall. Per Tastatur zielst du mit Pfeiltasten, ergänzt Kurve mit A/D und schießt mit Leertaste oder Enter. Erziele Tore, bevor die Bälle ausgehen, und beachte Wind und Abwehrmauer.",
+      "referenceHash": "fb1a28e833656881f906cfb9114c19c2d01ed30d8e17d01b0691f74876b53ea9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Football Free Kick is a 3D arcade soccer game. Swipe to shoot, curl the ball over the defensive wall and beat a diving goalkeeper in the top",
+        "instructionsQuote": "Swipe up from the ball to shoot: a faster swipe kicks it higher and a curved swipe bends it around the wall. Score to fill each stage, keep your streak alive for bonus"
+      },
+      "reviewedTextHash": "bd8422abec782a7d82cc197c2990ebf0429c201931fe6f9e1de9be95e45e5db6"
+    },
+    "night-lake": {
+      "sourceHash": "998ec8cf82a9c367dd6a140c9613e77b4d333af8587fd34f76a6bc26a14d6183",
+      "title": "Nachtsee: Angeln im Dunkeln",
+      "description": "Angle auf einem dunklen See im Licht deiner Laterne. Wirf aus und warte, bis die Pose tatsächlich untertaucht. Jeder Fisch wehrt sich: Du musst die Schnurspannung kontrollieren und die Rute gegen seinen Zug lehnen, um ihn zum Boot zu bringen.\n\nVerkaufe den Fang am Steg und kaufe passende Köder und stärkere Ausrüstung für weitere Gewässer und Nachtaufgaben. Ungewöhnliche Kreaturen benötigen eigene Köder und können das Boot über das Wasser ziehen. Verschiedene Seen und Fischarten verbinden die ruhige Beobachtung eines Bisses mit dem Ausbau deiner Angelausrüstung.",
+      "instructions": "Halte Linksklick auf dem Wasser zum Zielen und lasse zum Auswerfen los. Klicke oder drücke Leertaste beim Untertauchen der Pose, dann halte zum Einholen. Halte die Spannung aus dem roten Bereich und lehne mit A/D gegen den Fisch. W/S und A/D oder Pfeiltasten rudern; Rechtsklick fährt zum gewählten Wasserpunkt. E öffnet am Steg den Laden, H weitere Tasten. Mobil steuert links das Boot, rechts Auswerfen, Anschlag und Einholen.",
+      "referenceHash": "5c9ed1156a17eecbc3c6c8a5e2a56bbb3a8878fa89436f963aa50574f361883b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Row out onto a dark lake with a lantern, a rod and the feeling that something below is watching. Night Lake is a calm, eerie fishing game. Cast",
+        "instructionsQuote": "Computer: Hold Left Click on the water to aim, release to cast. Click or Space when the float really goes under, then hold to reel in. In a fight, keep the tension out"
+      },
+      "reviewedTextHash": "2d5feadfa0484775f2b2775493d570e8b03045153c5168127fe9c358c02062cb"
+    },
+    "hatch-that-egg-tap--crack": {
+      "sourceHash": "cc5717544570831b35587c3f209663d5e6899be7672ec209a22fafde001a0d2b",
+      "title": "Knack das Ei: Tippen und schlüpfen",
+      "description": "Knacke ein Ei durch schnelle Klicks oder Berührungen, bevor die Zeit endet. Auf jedes geöffnete Ei folgt ein widerstandsfähigeres. Die Anzahl geschlüpfter Eier eines Versuchs bildet deinen Punktestand; Eierschalen und Edelsteine dienen als Belohnungen.\n\nZwischen Versuchen kaufst du im eiförmigen Fähigkeitsbaum stärkere Klicks, selbstständige Einnahmen, Glücksboni und mehr Zeit. Haustiere helfen beim Picken, Hämmer verändern die Treffer. Nach allen 30 Kampagneneiern öffnet New Game+ endlose Eier mit 60 weiteren Gestaltungen sowie Waffenkammer und Wiedergeburt für dauerhafte Entwicklung.",
+      "instructions": "Klicke oder tippe das Ei möglichst schnell an, um es vor Ablauf der Uhr zu knacken. Sammle Eierschalen und Edelsteine und investiere sie zwischen Versuchen in den Fähigkeitsbaum. Schließe alle 30 Eier für New Game+ ab. Esc oder die Pausentaste unterbricht einen Versuch. Dein Ergebnis ist die Anzahl geöffneter Eier.",
+      "referenceHash": "624ea4789bbc38bcf2ee006874527136647e17194dca32f4de9574e0ede276c5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hatch That Egg: Tap & Crack is a bright, cozy clicker about the simplest joy there is: smashing eggs open. Every run is a race against the",
+        "instructionsQuote": "Tap or click the egg as fast as you can to crack it before the clock runs out. Each cracked egg opens the next, tougher one; the eggs you hatch in one run are your"
+      },
+      "reviewedTextHash": "4f3a064eb34e6efa29236e03e6b230b3452d2de632a54325ea962a53953704f2"
+    },
+    "math-crosswords": {
+      "sourceHash": "0c48aa30068b8bf6d608456c6ce74b18c929329458e4bb846b3a58dac5a88804",
+      "title": "Mathe-Kreuzworträtsel",
+      "description": "In diesem Kreuzworträtsel stehen Zahlen statt Wörter. Waagerechte und senkrechte Gleichungen teilen sich Felder, sodass eine Zahl an einer Kreuzung zu beiden Rechnungen passen muss. Addition, Subtraktion, Multiplikation und Division bilden die Aufgaben.\n\nKorrekte Gleichungen werden grün, falsche rot. Das ganze Brett ist gelöst, wenn jede Rechnung stimmt. Ein tägliches Rätsel und eine Bestenliste ergänzen die Level. Schnellere Lösungen ohne Hinweise bringen mehr Punkte; die Glühbirne setzt bei Schwierigkeiten eine richtige Zahl ein. Beginne an Kreuzungen, um mehrere Bedingungen zugleich zu nutzen.",
+      "instructions": "Ziehe eine Zahl aus dem Seitenfeld in eine freie Zelle oder wähle erst Zahl und danach Ziel. Eine gefüllte Zelle gibt ihre Zahl durch Antippen zurück. Prüfe grüne und rote Gleichungen und korrigiere so lange, bis alle stimmen. Die Glühbirne setzt eine richtige Zahl ein. Am Computer steuerst du mit der Maus, mobil per Berührung.",
+      "referenceHash": "692223e34cd9607ff88e2398202a492d700e5c19fe1dc7e352312e3d9171fcf4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "A crossword where numbers take the place of words. Equations cross each other, so a single number has to fit two of them at once - get it right",
+        "instructionsQuote": "Numbers wait in the panel next to the board; the board holds equations with empty cells. Drag a number into an empty cell, or tap the number first and then the cell. Tap"
+      },
+      "reviewedTextHash": "2f60bb39a4ffe44ad49ea0dd0cac67fb3316947f981ac49099a91b5abc33f04f"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "Loopix: Kometenschleifen",
+      "description": "Steuere einen Kometen und umkreise Gruppen von Kreaturen mit seiner leuchtenden Spur. Schließt du die Schleife, fängst du alles im Inneren. Größere Schleifen ergeben größere Kombinationen und lassen den Kometen wachsen. Andere Kometen in deiner Schleife geben dir ihre Punkte.\n\nBerührst du dagegen die Spur eines anderen Kometen, scheidest du aus. Ein Boost hilft bei Flucht oder schnellem Schließen, kostet aber etwas Größe. Besiege den Wächter jeder Welt und reise durch das schwarze Loch weiter. Begleiter, Skins, Hüte und dauerhafte Verbesserungen ergänzen die Entwicklung.",
+      "instructions": "Lenke mit der Maus, den Pfeiltasten oder A/D. Halte Linksklick oder Leertaste für einen Boost auf Kosten etwas Größe. Mobil ziehst du zum Lenken und tippst zweimal, wobei du beim zweiten Mal für den Boost gedrückt hältst. Schließe Schleifen um Kreaturen und meide fremde Kometenspuren. Nach dem Wächter führt ein schwarzes Loch zur nächsten Welt.",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade game. Steer your comet,",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jump to the next world through"
+      },
+      "reviewedTextHash": "fd4dfe65360a8f55fd95d97430cfd918a0ed4790b90a103eeb3850e7a67bd44c"
+    },
+    "iron-defense": {
+      "sourceHash": "c51bec692c82518f4f2ff19651901ae9ecb3ee880feab10a0409cc6aa4e6162d",
+      "title": "Eiserne Verteidigung",
+      "description": "Verteidige eine Schrottmauer mit einem Geschützturm gegen Roboterwellen von rechts. Du steuerst das Feuer und setzt Feuer-, Eis- oder Blitzfähigkeiten auf dem Feld ein. Jede Stufe ist gewonnen, wenn sämtliche Wellen zerstört sind, bevor die Mauer fällt.\n\nGeborgenes Gold und Kristalle verbessern zwischen Stufen Turm, Mauer, elektrischen Boden und unterstützende Geschützpylone. Fähigkeiten verbrauchen Energie, die mit der Zeit zurückkehrt. Nach der 100. Kampagnenstufe wird der Endlosmodus freigeschaltet. Beobachte die Verteidigungslücke einer Welle und investiere anschließend in die betroffenen Anlagen.",
+      "instructions": "Halte die Maustaste oder den Finger auf dem Schlachtfeld zum Schießen. Ziehe einen Fähigkeitsknopf aufs Feld und lasse zum Wirken los; Loslassen auf einem Knopf bricht ab. Energie regeneriert sich, die Plustaste füllt sie gegen Kristalle. Besiege alle Wellen vor dem Fall der Mauer und nutze UPGRADES zwischen Stufen. Stufe 100 öffnet den Endlosmodus.",
+      "referenceHash": "dc9b7c21eb0e5cda9c385ba756cc8f1478121af1fad5827bd60aac38aa11d17c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Iron Defense is a one-screen defense shooter set in an industrial scrapyard. Hold a turret on a scrap wall while waves of junk robots march in",
+        "instructionsQuote": "Hold the mouse button or your finger on the field to fire at the robots. Drag the fire, ice or lightning button onto the field and release to cast it; release on a"
+      },
+      "reviewedTextHash": "275be414d2a29f1e84ddbce565587908cf83aba4c8e945a0544bc89ad6dacd98"
+    },
+    "wingy-wheels": {
+      "sourceHash": "afbbb8d090cdcd9f931849b674abe5fdee054465de2f7b4d6afe9bc4a5027119",
+      "title": "Flügelautos über die Hügel",
+      "description": "Tauche mit einem geflügelten Auto Hänge hinunter, baue Geschwindigkeit auf und gleite von Hügelkuppen durch die Luft. Perfekte Rutschpassagen in Folge starten den Fever-Modus. Lande wieder auf abfallenden Hängen, um das Tempo zu erhalten.\n\nErreiche neue Inseln vor Sonnenuntergang und erhalte zusätzliche Tageszeit. Münzen kaufen fünf Verbesserungen, etwa längeren Tag, Flügel und Motorleistung, und schalten sechs Autos frei. Drei abgeschlossene Missionen erhöhen Level und Punktemultiplikator. Jeder Versuch hat eine neue Strecke; die tägliche Herausforderung gibt allen dieselbe Anordnung.",
+      "instructions": "Halte Maustaste, Bildschirm oder Leertaste gedrückt, um einen Hang hinabzutauchen. Lasse los, um von der Kuppe abzuheben und zu gleiten. Lande auf abfallenden Hängen und meide steile Aufwärtslandungen, die Tempo kosten und den Versuch beenden können. Erreiche die nächste Insel vor Sonnenuntergang für zusätzliche Zeit.",
+      "referenceHash": "501b3a922b7f0e4ff9a3b92ff9489c550fde73e8c93230ff862923f8e9280024",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Wingy Wheels is a cozy hill-sliding game with winged cars. Dive down the slopes to build speed, launch off the hilltops and glide through the",
+        "instructionsQuote": "Hold the mouse button, tap and hold the screen, or hold Space to dive down a hill. Release to fly off the hilltop and glide. Land on downward slopes to keep your speed."
+      },
+      "reviewedTextHash": "78661264edcdce59e20314a3e4316a6cd46e15ae2ca2db609cef5e1bb06c4d84"
+    },
+    "tangle-tails": {
+      "sourceHash": "a0ad326a5105586db1bfc6c47c48ca1882257803793f8a28053152fd1702e9b3",
+      "title": "Tangle Tails: Körper und Schleifen",
+      "description": "Steuere eine Kreatur aus biegsamen Gelenken und kämpfe gegen Schwärme. Der Kopf trifft Gegner; umkreist du sie mit dem Körper und berührst ihn wieder mit dem Kopf, schließt du eine Schleife, die alles darin zerquetscht. Ziel ist langes Überleben und das Besiegen der Bosse.\n\nEssenzsteine führen zum Levelaufstieg, bei dem eine von drei Mutationen Körper und Kampf verändert. Die Quelle nennt 14 Kreaturen, sechs Karten und zwölf Bosse, die bei halber Lebensenergie aggressiver werden. Aufgaben, Relikte, Schreine und dauerhafte Verbesserungen ergänzen die einzelnen Versuche.",
+      "instructions": "Bewege dich mit WASD, Pfeiltasten oder gehaltenem Mausklick in Richtung des Zeigers. Esc oder P pausiert. Mobil ziehst du auf der linken Bildschirmseite. Triff mit dem Kopf, umkreise Gegner und schließe durch Kopfkontakt mit deinem Körper die Schleife. Sammle Essenz und wähle beim Levelaufstieg eine von drei Mutationen.",
+      "referenceHash": "da74e850c9ef5e482b9fb4ef4d0e5c394327f374e0c87d000679c1ffc0b44d25",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Tangle Tails is a top-down arcade roguelite about a creature made of bendy joints. Hit swarms with your head, then circle them with your body",
+        "instructionsQuote": "Goal: survive as long as you can and defeat the bosses. Desktop: move with WASD or the arrow keys, or hold the mouse button to steer toward the cursor; Esc or P pauses."
+      },
+      "reviewedTextHash": "dbe132a6f5ba6d766cf726cb406c65dcdeec039ce4530d7ce5910f9ae05e924f"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "title": "SWAT OPS: Einsatz durch die Körperkamera",
+      "description": "Dieser taktische Shooter zeigt Gefechte durch eine Körperkamera mit Linsenverzerrung und Kamerabewegung. Kämpfe auf vier Karten gegen Bots oder echte Spieler. Dreiminütige Begegnungen und die genannten Deathmatch- beziehungsweise Zombie-Varianten bilden den Rahmen.\n\nIm Deathmatch gewinnt der erste Spieler mit 15 Abschüssen, im Team-Deathmatch das erste Team mit 30. Münzen aus Partien öffnen Kisten für Waffenlooks und Anhänger; ein Saisonpass ergänzt den Fortschritt. Bewegung, Zielen und Ausrüstungswechsel sind getrennt bedienbar, mobil über Joystick und Bildschirmtasten.",
+      "instructions": "WASD bewegt, Maus schaut um, Linksklick schießt, Rechtsklick zielt und R lädt nach. Q oder Mausrad wechselt Waffen, Shift sprintet, Strg duckt und Leertaste springt. Tab oder Esc zeigt PDA-Menü und Punktestand. Mobil lenkst du links, schaust durch Ziehen rechts und nutzt Feuer-, Ziel- und Aktionstasten. Erziele innerhalb von drei Minuten möglichst viele Abschüsse und beachte die Modusgrenzen von 15 beziehungsweise 30.",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera shake and a gritty retro",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. DESKTOP WASD: move. Mouse:"
+      },
+      "reviewedTextHash": "e70bdaca1d42feeaf17d6e66750ae2c565f96d662fb9d734b356114b4caa4b78"
+    },
+    "reversi-classic": {
+      "sourceHash": "d98e4e68e0cdafa94d4938232f92503d5fd416a61c28100b2e28375ac6378ea0",
+      "title": "Reversi-Klassiker",
+      "description": "Lege Scheiben so, dass gegnerische zwischen der neuen und einer eigenen Scheibe in gerader oder diagonaler Linie eingeschlossen sind. Alle eingeschlossenen Scheiben wechseln zu deiner Farbe. Gewonnen hat, wer am Ende mehr Scheiben besitzt.\n\nFünf Computerstufen, gewertete Online-Partien und Freundschaftsspiele per Raumcode oder an einem Bildschirm bieten verschiedene Gegner. Ein tägliches Rätsel ergänzt das Training. Eckfelder sind besonders wertvoll, weil dort gelegte Scheiben nicht zurückgedreht werden können. Markierungen zeigen legale Züge und eine Trainingsvorschau ihre Wirkung.",
+      "instructions": "Klicke oder tippe ein erlaubtes Feld an. Dein Zug muss mindestens eine gegnerische Scheibe zwischen zwei eigenen einschließen. Im Training zeigt Darüberfahren oder Gedrückthalten eine Vorschau. Wer keinen legalen Zug hat, setzt aus; wenn beide nicht mehr ziehen können, endet das Spiel. Esc öffnet das Menü. Ziel sind mehr Scheiben deiner Farbe als des Gegners.",
+      "referenceHash": "dbcd1f18addefca533a22d6fdd0f8e2b204df375041aa3a4ded59606d781e3c0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Reversi (Othello) in beautiful 3D — the classic strategy game where one move can turn the whole board. Sandwich your opponent's discs between",
+        "instructionsQuote": "Goal: have more discs of your color on the board when the game ends. Players take turns placing one disc. A move is only allowed where it sandwiches at least one"
+      },
+      "reviewedTextHash": "4fc911ff0ed2d0ce78801e36147662e6f5b7b5f2d7f050606a06a368b1dc216e"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "SoccerLat: Fußball online in 3D",
+      "description": "Spiele Fußball in Echtzeit gegen andere Menschen, von Eins-gegen-eins bis elf gegen elf. Fouls, Freistöße, Ecken und Elfmeterschießen gehören zur beschriebenen Partie. Bei fehlenden Spielern können Bot-Torhüter die Tore besetzen. Ein Hallenstadion und ein Straßenplatz bieten zwei Umgebungen.\n\nDu steuerst Position, Dribbling und die Stärke von Pass oder Schuss. Seitliche Bewegung beim Schlagen gibt dem Ball Drall, eine höher gerichtete Kamera lässt ihn steigen. Passe Tacklings zeitlich an, denn spätes Einsteigen führt zum Foul. Spielerlook und Teamdaten lassen sich gestalten, die Tastenbelegung in den Einstellungen ändern.",
+      "instructions": "WASD bewegt, Shift sprintet, Leertaste springt. Halte Linksklick zum Dribbeln und Rechtsklick zum Laden eines Schusses oder Passes; Loslassen schlägt den Ball. C grätscht, F legt als Torwart den Ball ab, E fordert den Ball, B öffnet gehalten das Emote-Rad, 1 wechselt zur Egoansicht und Esc pausiert. Linksklick in der Luft löst einen Fallrückzieher aus. Mobil nutzt du Joystick, Aktionstasten und Ziehen zum Umschauen.",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position, take the pitch and play",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, release to strike Bicycle kick"
+      },
+      "reviewedTextHash": "a14762be7e5b2103cfd40345255a448ffaf859dd1b7715993ffb9ad730584905"
+    },
+    "plumby": {
+      "sourceHash": "662049ef102900a7210d651b6ffb854323caf99a370857f241d0989c7ca484e2",
+      "title": "Plumby: Wasser und Dampf verbinden",
+      "description": "Drehe Rohre, um Flüssigkeit vom Tank zu allen Kolben zu führen. Jeder Kolben verlangt entweder Wasser oder Dampf. Kessel verwandeln Wasser in Dampf, dieser schmilzt Eis wieder zu Wasser. Ventilatoren und Generatoren treiben weitere Rohrmechanismen an.\n\nDampfventilatoren bewegen Motorrohre und öffnen gleichfarbige Ventile; Wassergeneratoren versorgen gleichfarbige Öfen und Gefriergeräte. Schraubenzieher lösen verschraubte Rohre, Spitzhacken entfernen Felsen. Fünf Welten mit je 100 Leveln, acht Schwierigkeitsstufen und eine tägliche Zehner-Herausforderung ergänzen den Endlosmodus.",
+      "instructions": "Klicke oder tippe ein Rohr für eine Vierteldrehung an. Verbinde den Tank mit allen Kolben im jeweils gezeigten Zustand Wasser oder Dampf. Tippe verschraubte Rohre für den Schraubenzieher und Felsen für die Spitzhacke. Weniger Züge bringen mehr Sterne. R startet neu, H gibt einen Hinweis, Enter öffnet das nächste Level und Esc schließt ein Fenster.",
+      "referenceHash": "7dce02aa2f04feec5984331fb39d9e75244711c6fbcd108ecb14cafb17bab5f5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "PLUMBY is a pipe-rotation puzzle where water changes state on its way. Rotate the pipes to lead the water from the tank to every flask in the",
+        "instructionsQuote": "Tap or click a pipe to rotate it a quarter turn. Connect the tank to every flask so each flask gets the state drawn on it: a water drop or a steam cloud. Steam spins"
+      },
+      "reviewedTextHash": "a755e32384c20b3098c023d8b76548b7738d308ff6997a7ff1a28bc52043570d"
+    },
+    "slime-loop": {
+      "sourceHash": "d48d31fbebeae5cce47fb61d675aa02c5fecdade1d10adf6eff75ece3e6e845d",
+      "title": "Schleimschleife: Pixel räumen",
+      "description": "Schicke farbige Schleimfiguren auf einen Rundkurs, auf dem sie Pixel ihrer eigenen Farbe beschießen. So räumst du nach und nach ein Pixelbild. Die Zahl auf einer Figur zeigt die verbleibenden Schüsse; wartende Figuren belegen begrenzte Parkplätze.\n\nWähle deshalb nicht nur die nächste Farbe, sondern berücksichtige auch den verfügbaren Abstellraum. Geparkte Figuren können erneut auf die Runde geschickt werden, sobald ihre Farbe nützlich ist. Die Quelle nennt 450 Level mit weiteren Mechaniken und unterstützenden Boostern. Vollständig entfernte Pixel schließen das aktuelle Level ab.",
+      "instructions": "Klicke eine Schleimfigur mit der linken Maustaste an oder tippe sie auf dem Touchscreen an. Sie fährt los und schießt auf Pixel derselben Farbe. Prüfe ihre Schusszahl und schicke geparkte Figuren bei passender Farbe erneut los. Halte Parkplätze frei und entferne jedes Pixel für den Abschluss. Booster helfen bei schwierigen Bildern; eine Tastatur ist nicht erforderlich.",
+      "referenceHash": "bb40d565999efa89a66f3f4584648bfc2f7eb90ab85901f27578162b14218755",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Slime Loop is a colorful puzzle game where cute slimes travel around a loop and clear matching pixels. Choose which slime to send next, manage",
+        "instructionsQuote": "Tap a slime on a touchscreen, or click it with the left mouse button, to send it onto the loop. The slime shoots pixels of its own color as it moves; the number on it"
+      },
+      "reviewedTextHash": "600b53b978488be0d80b12c75bb6e001c40eb4ee5db081a6cc47199055b007ec"
+    },
+    "aura-clicker": {
+      "sourceHash": "c70e25e81c1b19b88cc267bd379dd65491eff377d16775164f7bc12da99012a1",
+      "title": "Aura-Clicker",
+      "description": "Verdiene Aura durch Klicks und entwickle einen Helden vom Noob bis zum GOAT. Sechs Ränge verändern Erscheinung und Aura; sechs Helden und 52 Haustiere in fünf Regionen ergänzen die Sammlung. Jedes besessene Tier gibt einen dauerhaften Bonus, auch ohne aktiver Begleiter zu sein.\n\nKlickkraft, automatische Klicks, Multiplikator und kritische Treffer sind Verbesserungen. Automatische Einnahmen entstehen nur bei geöffnetem Spiel. Die erste Wiedergeburt erfordert 300 Millionen während eines Versuchs verdiente Aura. Sie setzt Aura, Rang und Verbesserungen zurück, behält aber Tiere, freigeschaltete Helden und Prestige für dauerhafte Boni.",
+      "instructions": "Wähle einen Helden und klicke oder tippe um ihn herum. Kaufe Verbesserungen; Gedrückthalten einer Kauftaste erwirbt mehrere Stufen. Ausgaben senken den aus verdienter Aura berechneten Rang nicht. Beschwöre Tiere im Laden, sammle Truhen und tägliche Belohnungen. Prüfe auf der Wiedergeburtstaste die aktuelle Anforderung und nutze Prestige für weitere Regionen.",
+      "referenceHash": "c408c7c4f4ec749a704338beda7335803bc0e11fdd2c3f3e48f93cae1c95e6ef",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "How much aura can you farm? Start as a Noob and work your way up to GOAT in Aura Clicker, a colorful idle clicker packed with glowing",
+        "instructionsQuote": "1. Choose your starting hero, then click or tap around them to earn aura. 2. Spend aura on Click Power, Auto Click, Aura Multiplier, and Crit Chance. Hold a purchase"
+      },
+      "reviewedTextHash": "af714c5df3cb2c10cb83ff11439062982fccc549cf29ee91585afcc61ca98c38"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "title": "Blauer Traktor",
+      "description": "Erkunde mit einem blauen Traktor eine ländliche 3D-Welt und hilf den Dorfbewohnern. Liefere Käse, Heu, Eier oder Pakete aus, sammle verlorene Tiere und suche verborgene Schätze. Ein Pfeil führt dich zu den Figuren mit Aufgaben.\n\nMünzen aus Aufträgen finanzieren Motor, größeren Tank, Geländereifen, Lackierung und andere Anpassungen. Beobachte den Treibstoff und meide tiefes Wasser. Kraftstoff und Reparaturen gibt es im Laden; bei leerem Tank oder kaputten Rädern hilft nach einer Wartezeit auch das Farmpersonal. Es gibt keinen Zeitdruck bei den beschriebenen Erkundungsaufgaben.",
+      "instructions": "Fahre mit WASD oder Pfeiltasten und bremse mit der Leertaste. Mobil ziehst du den Bildschirmjoystick. Folge dem Pfeil, erledige Liefer- und Sammelaufträge und kaufe Verbesserungen mit Münzen. Achte auf den Tank und repariere Räder im Laden oder warte auf Hilfe. Vermeide tiefes Wasser; die Pausentaste befindet sich in der Ecke.",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villagers: bring cheese to",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S/D or arrow keys — drive and"
+      },
+      "reviewedTextHash": "4d6deea3c77a13e3cfa331a43e4084938757162818b7bcb610739e3e69721ec5"
+    },
+    "hex-hamlet": {
+      "sourceHash": "38e9937498e66bb8fe87d5dbbdb5a7af7fd5270f628eb9776e32d29c6009fbd1",
+      "title": "Hex-Dorf: Inseln besiedeln",
+      "description": "Baue auf bewaldeten Sechseckinseln ein Dorf vom Siedlerlager bis zum Schloss. Fälle Bäume, stelle Dorfbewohner ein und sammle Holz, Nahrung, Stein und Gold. Gebäude erhalten Boni, wenn sie neben passenden Nachbarn stehen. Relikte und Händleraufträge ergänzen den Ausbau.\n\nRäume die Insel und baue am Strand ein Schiff für die Weiterreise. Drei Inselziele bringen bis zu drei Sterne. Unterschiedliche Bedingungen wie Winter, Gewitter oder Vulkanaktivität verändern spätere Karten. Expertenvarianten und eine gemeinsame Insel der Woche bieten weitere Aufgaben für die Siedlungsplanung.",
+      "instructions": "Bewege den Zeiger am Waldrand über Bäume, um ohne Klick zu fällen; mobil tippst du. Stelle im Rathaus Arbeiter ein und kaufe Gebäude über die Karten unten. Klicke ein Gebäude zum Verbessern. Ziehen bewegt die Kamera, Rechtsziehen oder Q/E dreht, Mausrad oder zwei Finger zoomt. Fälle alle Bäume, baue das Strandschiff und erfülle die drei Ziele für Sterne.",
+      "referenceHash": "446659333b1879ca37fa98e179a4fc4130fe9fd736704c96115932ac8b06616c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "A cozy 3D village builder on a hexagon island covered in forest. Move your pointer over the trees to chop them, hire villagers who chop, farm",
+        "instructionsQuote": "Move the mouse over the edge of the forest to chop trees (no click needed), or tap a tree on mobile. Hire villagers at the town hall: they chop on their own and carry"
+      },
+      "reviewedTextHash": "422f123b76bd3644576ff417c97a94662a49b8e4078d2c8f43e89474f91bf2c6"
+    },
+    "hexa-bloom": {
+      "sourceHash": "fa804244534f19aabaccdd0b4c003a98d54e300a729c9fba54f87b0e9706a298",
+      "title": "Hexa-Blüte",
+      "description": "Sortiere bunte Plättchenstapel auf einem Wabenbrett. Stimmen die obersten Farben benachbarter Stapel überein, bewegen sich Plättchen automatisch zusammen und können Kettenreaktionen auslösen. Zehn gleichfarbige Plättchen auf einem Stapel blühen auf und verschwinden.\n\nDie 160 Level führen durch acht Gärten mit Steinen, gesperrten Feldern und besonderen Farbzielen. Erfülle das oben angezeigte Ziel, bevor der Platz ausgeht, und beachte die jeweiligen Zuggrenzen. Hammer, Mischen und Rückgängig helfen bei schwierigen Anordnungen. Sterne, Stile und ein Endlosmodus ergänzen die Level.",
+      "instructions": "Ziehe einen Stapel aus der unteren Ablage auf ein freies Sechseck oder wähle Stapel und danach Feld. Gleiche obere Farben vereinigen sich automatisch; zehn gleichfarbige Plättchen räumen einen Stapel. Erreiche das Levelziel, bevor das Brett voll ist. Hammer zerstört einen Stapel, Shuffle liefert neue Ablagestapel und Undo nimmt den letzten Zug zurück. Maus und Touch werden unterstützt.",
+      "referenceHash": "f5a28502eea8ea413325d44aace1ad26c36bfeff841dd8a55a6c78ffed9acc85",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hexa Bloom is a relaxing, oddly satisfying hexagon stack-sorting puzzle. Drop colorful tile stacks onto a honeycomb board and watch matching",
+        "instructionsQuote": "Drag a stack from the tray at the bottom onto any empty hexagon (or tap a stack, then tap a cell). When the top colors of neighbouring stacks match, the tiles slide"
+      },
+      "reviewedTextHash": "869ec9fbb65aefa45585e35ada470d40aabee168b828d171ea5422db1592cc78"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "City-Pop-Fahrt",
+      "description": "Fahre durch pastellfarbene Landschaften im Stil der 1980er-Jahre. Das Auto beschleunigt selbstständig und muss jeden Kontrollpunkt vor Ablauf der Zeit erreichen. An Gabelungen wählst du zwischen landschaftlicher Route und Schnellstrecke; die Musik passt sich dem Weg an.\n\nKnappes Vorbeifahren an anderen Autos gibt zusätzliche Zeit und füllt den Breeze-Balken. Ist er voll, startet ein Boost, der Fahrzeuge zur Seite stößt. Fünf Karten und 25 Schallplattencover zum Sammeln bilden die beschriebenen Ziele. Meilen finanzieren Verbesserungen, Autos und weitere Karten.",
+      "instructions": "Tippe zum Start und ziehe links oder rechts zum Lenken. Am Computer funktionieren auch Pfeiltasten oder A/D; P pausiert. Beschleunigung erfolgt automatisch. Passiere Verkehr knapp für Zeit und Breeze, erreiche die Kontrollpunkte rechtzeitig und wähle an jeder Gabelung eine Seite. Am Ziel erhältst du ein Cover und verwendest Meilen für Fahrzeuge und Ausbau.",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze meter and boost, reach",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass close to traffic for near"
+      },
+      "reviewedTextHash": "8dc7987a90f1a4a848cf2ca44a7c623ab6c9561a6ff1a9db3722631dc9f590aa"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "title": "Beuteloch: Schätze im Garten",
+      "description": "Grabe im Vorgarten nach vergrabenen Schätzen und bringe Funde zum Verkaufsstand an der Oberfläche. Münzen finanzieren bessere Schaufeln, Spitzhacken und Bohrer sowie größere Rucksäcke und weitere Hilfsmittel. Die Gesteinsschichten werden auf dem Weg zum 1.000 Meter tiefen Boden härter.\n\nEin Sammelbuch hält die Entdeckungen fest, Nachbarn fragen nach bestimmten Fundstücken. Du kannst allein oder mit insgesamt bis zu vier Personen in einem gemeinsamen Garten graben. Private Räume und Raumcodes verbinden Freunde; offene Gärten und ein Nachbarschaftsrennen bieten weitere Spielmöglichkeiten.",
+      "instructions": "WASD bewegt, die Maus schaut und gehaltenes Linksklicken gräbt am Zielpunkt. Nähe zu einem Fund sammelt ihn ein. H bringt dich zur Oberfläche; gehe zum Verkaufsstand. Leertaste springt oder nutzt das Jetpack, B/I öffnet den Rucksack, C die Sammlung, X wirft Sprengstoff und Q wechselt dessen Art. P öffnet Play together. Mobil nutzt du Stick, Tasten und gehaltene Berührung zum Graben.",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up and sell it at your yard",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpack is full, press H to go"
+      },
+      "reviewedTextHash": "7f934ba41da264da728f2bdaf0b26c9cffbd9d493131df70c949811055ec7dd0"
+    },
+    "catcha": {
+      "sourceHash": "fdd03fa85e87986bca6444f215ec2ea0d6139a240c4084a8f0d84a841ebe6d1b",
+      "title": "Catcha: Katzen und Geschenkkisten",
+      "description": "Sammle Pixelkatzen und vervollständige dein Album. Wenn zwei liebesbereite Katzen nahe beieinander sind, entsteht eine Geschenkbox. Daraus kommen neue Katzen in sechs Seltenheitsstufen und verschiedenen Sammelkartenstilen. Herzen über den Köpfen zeigen die Bereitschaft an.\n\nKatzen und Kisten lassen sich über die Auktion kaufen und verkaufen. Mehr als 100 Katzenlooks, ein im Tagesverlauf wechselnder Raum und ein Garten ergänzen die Sammlung. Ziehe Tiere umher, stelle passende Paare zusammen und öffne ihren Nachschub, um weitere Entdeckungen zu machen und aufzusteigen.",
+      "instructions": "Öffne Geschenkboxen und Menüs mit Linksklick oder Tippen. Ziehe eine Katze zum Aufnehmen und Bewegen und lasse sie zum Ablegen los; eine schnelle Bewegung kann sie werfen. Stelle zwei Katzen mit Herzen über dem Kopf nahe zusammen für eine Box. Öffne diese, handle bei der Auktion und sammle weitere Tiere für das Album.",
+      "referenceHash": "d17e5382d3cd3610e10e7e6899631964c2b04f14bf586a10b5000d4e0b0cbea6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Catcha is a cozy pixel-art cat collecting game. Fill your room with cats, and when two of them fall in love they leave you a mystery gift box.",
+        "instructionsQuote": "Collect as many cats as you can and complete the Album. Left click / tap to open gift boxes, buttons and menus. Drag a cat to pick it up and move it; release to drop it,"
+      },
+      "reviewedTextHash": "addfff19c501f7594c1ffe4eac7d6d65058b5ec425a28e80f198399fa12f0cc1"
+    },
+    "snackrab": {
+      "sourceHash": "1bbe9d7f52a1696c02d62293c02caa90a4cbbd16264783c2435aeba716e3206b",
+      "title": "Snackrab: Strandimbiss kombinieren",
+      "description": "Erzeuge Eis, Obst, Getränke und Kuchen an Maschinen und kombiniere gleiche Snacks zur nächsten Stufe. Tiergäste zeigen ein Bild ihrer Bestellung. Bringe ihnen das fertige Produkt, bevor der Geduldsring leer ist; frühes Bedienen bringt zusätzlich Trinkgeld.\n\nMünzen erweitern den Strandstand. Maschinen brauchen nach einigen Ausgaben eine Pause, sodass die Ablage und Reihenfolge wichtig bleiben. Überflüssige Snacks füttern die Krabbe: Ist sie satt, tanzt sie und stellt die Geduld aller Gäste wieder her. Fünf Strände mit bis zu drei Sternen verbinden Ausbau mit neuen Gästetypen und Bedingungen.",
+      "instructions": "Tippe eine Maschine für einen Snack an und ziehe gleiche Produkte aufeinander oder wähle sie nacheinander. Ziehe eine Bestellung zum passenden Gast. Der Korb kauft Ausbauten, die Krabbe nimmt Reste. Ablageplätze bewahren Snacks auf, der Rundpfeil macht den letzten Zug rückgängig und das Buch zeigt Kombinationen. Maus oder Touch steuert; Esc/P pausiert. In Menüs wählen Pfeile/Tab, Enter/Leertaste bestätigt.",
+      "referenceHash": "781c06fab75d3a9e85a6124d54b7a11d0380e21f3a283b11e7c35f10f4d6db80",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Snackrab is a cosy merge game on the beach. Tap your machines to make ice cream, fruit, drinks and cakes, drag two of the same together to merge",
+        "instructionsQuote": "Tap a machine to make a snack. Drag a snack onto an identical one to merge them, or tap one and then the other. Drag a snack to the guest whose bubble shows it. Watch"
+      },
+      "reviewedTextHash": "75eb18628d6756c537ecd9d09e4fd1a0a658e4037fc8ea71dcdd94427a626b0d"
+    },
+    "smashsite-io": {
+      "sourceHash": "7ee2852bb3865b7b11b8b764a2fc3a5087670d80a2ac1e8b5f24c947efe7e406",
+      "title": "SmashSite.io: Baustellenkampf",
+      "description": "Kämpfe auf einer Baustelle mit Schaufeln und anderen schweren Werkzeugen. Schläge können Gegner sofort ausschalten, gleichzeitige Treffer lösen eine Waffenparade aus. Sammle verstreute Snacks und Münzen besiegter Gegner, um über sechs Stufen zu einer größeren Figur zu wachsen.\n\nDie sichere Zone schrumpft und zwingt die verbleibenden Kämpfer näher zusammen. Kisten können Nahrung, Schilde oder Magnete enthalten; andere setzen Sicherheitsdrohnen frei. Rutschige Dosen und Verstecke verändern die Gefahren. Bewahre deinen Sprint für Flucht oder einen passenden Angriff und nutze die Reichweite der Waffe.",
+      "instructions": "Die Maus lenkt und zielt. Linksklick, J oder F greift an; Rechtsklick, Leertaste, Shift oder Q sprintet beim Halten. E zeigt eine Emote, Leertaste startet nach Game Over neu. Mobil lenkst du den linken Joystick, tippst rechts Smash zum Angriff und hältst Boost zum Sprinten. Meide die schrumpfende Gefahrenzone und sammle Nahrung zum Wachsen.",
+      "referenceHash": "d4d9034ddc2fc0f09e599c84d0b981adb61ce0a043b18a79e9f712c0c7d54d72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "SmashSite.io — SMASH. GROW. DOMINATE THE SITE. Welcome to SmashSite.io, the craziest 3D slapstick combat battleground set in a high-stakes",
+        "instructionsQuote": "DESKTOP (PC / MAC): - Mouse Movement: Aim and steer your character (360-degree direction) - Left Mouse Button / J / F: Smash / Attack (Tap or hold to strike) - Right"
+      },
+      "reviewedTextHash": "f3dd1b00800d2266286bb774667a7e24b1e9cddf4568bb9b2fc1e281562a06bd"
+    },
+    "cube-rivals": {
+      "sourceHash": "6f2f54883b6d0b2f8e8512369364b1e5456450bd3787ee946d24b10febcb5ca7",
+      "title": "Würfelrivalen: Arena-Shooter",
+      "description": "Wähle Waffen und ein Gadget und tritt in einer Arena gegen Rivalen an. Bewegung umfasst hohe Sprünge, Dash und Rutschen mit erhaltenem Schwung. Kopftreffer verursachen mehr Schaden; nach einigen Sekunden ohne Treffer regeneriert sich deine Gesundheit.\n\nVier Modi umfassen Team-Deathmatch mit vier gegen vier bis 50, freie Gefechte für acht Spieler bis 25, ein Duell und Gun Game mit 15 Waffen und abschließendem Messer. Drei Karten, Münzen, Erfahrung und freischaltbare Ausrüstung ergänzen den Fortschritt. Online-Spieler können laufende Partien betreten und Bots ersetzen.",
+      "instructions": "WASD bewegt, Maus schaut, Linksklick schießt, Rechtsklick zielt, Leertaste springt und Shift dasht. Strg/C beim Laufen rutscht. 1/2/3 wechselt Waffen, Q die vorige, G nutzt das Gadget, R lädt nach, Tab zeigt Punkte und Esc pausiert. Mobil nutzt du linken Joystick, rechten Blickbereich und Aktionstasten; automatisches Feuer ist in den Einstellungen wählbar.",
+      "referenceHash": "cf111938186de4c9896ade335139fe7a77744756bb8d95df63c97356c69ef4f2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Cube Rivals is a fast arena shooter for everyone. Pick your loadout - an assault rifle, SMG, shotgun, sniper, burst rifle, LMG, rocket launcher",
+        "instructionsQuote": "Desktop: WASD to move, mouse to look, left click to shoot, right click to aim, Space to jump, Shift to dash, Ctrl or C while running to slide, 1 / 2 / 3 to switch"
+      },
+      "reviewedTextHash": "6e216c9f09122fceedc4ce605eb9fbd8a5ddd5a9b10235ded9cd252557368d0c"
+    },
+    "goblin-defense-merge": {
+      "sourceHash": "6a54a8844ae0af490c5a3d23e140e4b7b71e15c2c32706204acb96a14f51833a",
+      "title": "Goblin-Verteidigung: Kombinierte Armee",
+      "description": "Menschen greifen dein Dorf an und du stellst eine Goblin-Armee zur Verteidigung auf. Wähle Einheiten auf dem Raster und kombiniere zwei Goblins gleichen Rangs zu einem stärkeren Kämpfer. Anschließend weist du ihnen ihren Platz für den Kampf zu.\n\nDer Ablauf verbindet Verstärkung und Einsatz gegen die ankommenden Wellen. Vergleiche die Ränge vorhandener Goblins, bevor du ein Paar zusammenführst, und verwende die weiterentwickelten Einheiten in der Verteidigung. Ziel ist, die Invasion abzuwehren und das Dorf durch eine stärker werdende Armee zu schützen.",
+      "instructions": "Klicke auf das Raster, um Goblins auszuwählen. Kombiniere zwei Einheiten desselben Rangs zu einem stärkeren Goblin. Weise deine Kämpfer dem Schlachtfeld zu und setze die Armee gegen die herannahenden menschlichen Gegner ein. Verbessere und kombiniere weitere Einheiten, um dein Dorf gegen die Wellen zu verteidigen.",
+      "referenceHash": "bbf1f4a3c36c3d0750cf340d7864aa26f1b44dbcf27aa869495f602adba2a5e1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Merge, Evolve, and Defend Your Village! The humans are invading, and it's time for the goblins to fight back! In Goblin Defense Merge, you'll",
+        "instructionsQuote": "Select Goblins: Click on the grid to select your goblin units. Merge & Evolve: Combine two goblins of the same rank to create a stronger goblin. Deploy Your Army: Assign"
+      },
+      "reviewedTextHash": "b7f918468c5acb3db0417f1ec3ae9f9377e06961d048ea2d3b39ca7694a6c9bc"
+    },
+    "hlbina": {
+      "sourceHash": "7d0264d63e8396b6de6f87dbe77ce284037561078f4f03e5a4128ed618c92e6b",
+      "title": "Hlbina: Risiko in der Tiefe",
+      "description": "Senke einen Angelhaken in immer tiefere Wasserzonen. Tiefere Fische sind mehr wert, doch Fanggewicht und Tiefe belasten die Schnur. Reißt sie, verlierst du den aktuellen Fang. Hole rechtzeitig ein, um die gefangenen Tiere sicher zum Markt zu bringen.\n\nBeim Biss zählt Rhythmus: Tippe nur im grünen Moment und nicht bei Rot. Einnahmen bauen das Fischerdorf mit Werkstatt, Köderladen, Wetterstation und Leuchtturm aus. Wetter, Tageszeit und Mond beeinflussen die Fische. Besondere Kreaturen, ein weiterer Angelplatz und die endlose Tiefe ergänzen die Jagd nach wertvolleren Fängen.",
+      "instructions": "S/Pfeil unten oder gehaltenes Linksklicken senkt den Haken, W/Pfeil oben hebt ihn. A/D oder Maus bewegt seitlich. Leertaste oder Linksklick kämpft bei grüner Anzeige, nie bei Rot. E oder UP holt den Fang sicher ein, H nutzt die Harpune gegen Haie, P/Esc pausiert. Mobil hältst du zum Senken und Lenken, tippst bei Grün zum Kampf und nutzt UP zum Einholen.",
+      "referenceHash": "4cf106a57da855122b8bfea5d5277426556a9779f1a2255086002d832f9423e6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hlbina (Slovak for \"the deep\") is a push-your-luck fishing game in cozy pixel art. Lower your hook from a small fishing village into ever darker",
+        "instructionsQuote": "Goal: catch fish, sell them at the Market and rebuild your fishing village, then hunt the legendary creatures of the deep. On every dive, sink your hook, fight the fish"
+      },
+      "reviewedTextHash": "2843b12a560186f6a68ecdb40f67df17b48d85210c64ee52e14961a6d90ab25b"
+    },
+    "slowmo-sniper": {
+      "sourceHash": "81a6a638d137acd52dae709da3a26f6c7dc09bdd0b1d9c851baefa9a0e6d0522",
+      "title": "Zeitlupen-Scharfschütze",
+      "description": "Jede Mission ist ein einzelner Sprung in Zeitlupe. Dein Scharfschütze verlässt die Deckung und muss alle Gegner ausschalten, bevor er landet oder die Munition ausgeht. Explosive Fässer und hängende Fracht können mit einem Schuss eine ganze Gruppe treffen.\n\nHelme fallen nach einem ersten Treffer ab und verlangen einen weiteren eingeplanten Schuss. Verträge führen über unterschiedliche Orte; verdientes Spielgeld verbessert Schaden, Zoom, Munition und Nachladen. Sterne füllen eine Belohnungsanzeige. Höchstens ein Fehlschuss bringt drei Sterne, während das Ziel jedes Versuchs das rechtzeitige Ausschalten aller Gegner bleibt.",
+      "instructions": "Halte die linke Maustaste im Zielkreis oder halte die Leertaste, bewege die Maus zum Zielen und lasse zum Schießen los. Mobil gilt Halten, Ziehen und Loslassen im Kreis. Ziehen außerhalb dreht die Kamera. Nutze Fässer und Fracht, plane zusätzliche Treffer für Helme und besiege alle Gegner vor der Landung. Verbessere bei Bedarf Schaden oder Munitionsvorrat.",
+      "referenceHash": "89728ce2aea9104274b0bba38fb4feedd8e30a92d3f642f21a914b8fb2eda377",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "SlowMo Sniper is a 3D sniper game where you leap out of cover in bullet time and take down every enemy before you hit the ground. Line up your",
+        "instructionsQuote": "Your sniper sprints out from cover and leaps sideways, and time almost stops. Take down every enemy before you touch the ground. If you land first or run out of bullets,",
+        "sourceIssueResolution": "The source's broad one-shot headshot statement is qualified elsewhere by helmets requiring a first hit to remove. This guide omits the universal one-shot promise and explicitly preserves the helmet exception, limited bullets and landing deadline."
+      },
+      "reviewedTextHash": "286c0c25ff096f81ad79e64ac28131a11986301c73581efb201b01476751c2ad"
+    },
+    "sir-shiba-monster-island": {
+      "sourceHash": "7fa186c8cae009753bd3e2d28ab39e09869dcdd595903115d146c9f5e237ab2b",
+      "title": "Sir Shiba: Monsterinseln",
+      "description": "Bewege einen kleinen Shiba-Inu-Ritter über schwebende Inseln. Er greift nahe Monster automatisch an, und verschiedene Monster hinterlassen unterschiedliche Schätze. Verkaufe diese am Markt für Münzen und erschließe damit weitere Landflächen.\n\nVerbesserungen und angeheuerte Jäger erweitern die Produktion; die Jäger besiegen Monster und füllen das Lager auch während deiner Abwesenheit. Vier Bereiche führen von der Insel über Berg und Höhle zur Frostspitze. Auftragsbretter, tägliche Geschenke, Trophäen und Outfits ergänzen das Ziel, die Gebiete schrittweise auszubauen.",
+      "instructions": "Nutze WASD, Pfeiltasten oder Klicken und Ziehen zum Bewegen. Angriffe erfolgen automatisch in Monsternähe. Mobil ziehst du den Joystick und tippst Menüknöpfe für Karte, Aufgaben und Kleidung. Betritt die Matte eines Gebäudes für dessen Menü. Verkaufe Schätze am Markt, kaufe Land, Jäger und Rathausverbesserungen und folge dem Ziel am oberen Bildschirmrand.",
+      "referenceHash": "17e2770220080d1ce1d05c1a9c2c35ec679706104f23c1b151c8f95416eb3770",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Sir Shiba: Monster Island is an idle-arcade game about a small Shiba Inu knight who clears monsters from a group of floating islands. The player",
+        "instructionsQuote": "Grow your own monster island! Guide Sir Shiba, a brave little Shiba Inu knight, as he defeats cute monsters and collects their treasure. Sell the treasure at the market,"
+      },
+      "reviewedTextHash": "20fb32a6de01cbd245bbcc5c67676c22a9a495b164d6da60f3a15c5dd012b9a2"
+    },
+    "frostport": {
+      "sourceHash": "c40a8027bec1cf56cf4a2c912906a961a7ee1b0721a0a45dee1154ff5dfd2555",
+      "title": "Frostport: Winterabenteuer",
+      "description": "Kai Holm kehrt im Winter in die Hafenstadt Frostport zurück. Sprengungen der Bergbaufirma NorrCo bedrohen Berg und See, während die Wolfpack-Schneemobilgruppe Bewohner einschüchtert. Die 21 Storymissionen führen durch Verfolgungen, Snowboardabfahrten und Auseinandersetzungen mit der Firma.\n\nZwischen Missionen erkundest du Hafenstadt und Skidorf, erledigst Nebenaufgaben und kaufst Fahrzeuge oder Einrichtungen. Snowboard, Schneemobil, Kletteraxt und Seilrutschen bieten unterschiedliche Fortbewegung. Die Tasten ändern ihre Bedeutung je nach Fahrzeug oder Board, etwa beim Springen und Bremsen.",
+      "instructions": "WASD, Pfeile oder ZQSD bewegt und lenkt. Shift rennt oder duckt auf dem Board für Tempo. Leertaste springt, macht einen Ollie beziehungsweise als gehaltene Eingabe einen Grab oder bremst im Fahrzeug. Maus schaut, E/Enter interagiert, B schaltet das Board, X wirft die Axt, F schlägt, C ruft ein Fahrzeug, H hupt und R richtet es auf. M zeigt Karte, Tab/T Telefon, P Pause. Mobil nutzt du Joystick und Aktionstasten.",
+      "referenceHash": "2fae27f221b944731a9ab7e0fe0c78bfd832208dc55caf4f8d5c28da175a9e88",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Kai Holm comes home to Frostport for the winter: a harbour town under a ski mountain, a frozen lake, a fjord full of ice and a ski village at",
+        "instructionsQuote": "**PC** - WASD / arrows (ZQSD works too) — move, steer, carve - Shift — run; on the board, tuck for speed - Space — jump; on the board, ollie (hold for a grab); in a"
+      },
+      "reviewedTextHash": "f525f714117f271763985b4c1d1052ad6c6e8c46b6c044e989beb0c9333214d7"
+    },
+    "vizavi": {
+      "sourceHash": "0becf8356444b08c2314a9cc37ffe0fb96f828232f4fb9567fe8f10485f56520",
+      "title": "VIZAVI: Würfelprotokoll",
+      "description": "VIZAVI ist ein Würfelrätsel in der fiktiven Oberfläche eines Kontaktprogramms. Du stehst auf einem Würfel und rollst ihn über das Brett, wodurch eine andere Seite oben liegt. Benachbarte gleiche Augenzahlen bilden eine Kombination, wenn ihre Anzahl genau der Augenzahl entspricht: zwei Zweien, drei Dreien oder sechs Sechsen.\n\nWährend eine fertige Gruppe verschwindet, kannst du passende Würfel für eine Kette anschließen. Einsen bilden selbst keine Gruppe, lassen sich aber an eine verschwindende Kombination anschließen und entfernen dann die anderen Einsen. Der Levelmodus umfasst 42 Bretter in sieben Kapiteln ohne Zeitlimit; Protocol lässt selbstständig neue Würfel erscheinen, bis das Brett voll bleibt.",
+      "instructions": "Bewege dich mit Pfeiltasten oder WASD, mobil durch Wischen. Enter bestätigt, Esc pausiert. Rolle Würfel in freie Felder oder steige auf Nachbarwürfel; vom Boden schiebst du Würfel ohne Drehung. Schließe während des Verschwindens passende Augenzahlen oder eine Eins an. Im Levelmodus räumst du alle Würfel, Z nimmt einen Zug zurück und R startet neu. In Protocol hältst du Platz frei und bildest Ketten für Punkte.",
+      "referenceHash": "f4abe387561e98992e5570ccc50b8f64a6c07d6f40e2057e3a0ac7ae32683d13",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "VIZAVI CORE 2.06. Previous start: H13.03.21. Link device: NOT FOUND. The program runs in emulation mode. VIZAVI is the operating program of a",
+        "instructionsQuote": "OPERATING PROCEDURE 1. Roll. You stand on a die and roll it: a side face comes up on top. Into an empty cell the die rolls with you. Onto a die next to you, you simply"
+      },
+      "reviewedTextHash": "9f80eedd18310befad6570a93c4a59081ff9664d639cb6fa39b382b7e05eae74"
+    },
+    "terrablox": {
+      "sourceHash": "bb48cb5a5598ab2ccd89ba855cbcfdeae48309bf034a42c8250f44bbfed9024a",
+      "title": "TerraBlox: Graben und überleben",
+      "description": "TerraBlox ist eine Pixel-Sandbox mit neu erzeugten Welten aus Wäldern, Wüsten, Schneegipfeln, Höhlen und weiteren Regionen. Grabe nach Erz, schmelze Barren, fertige Werkzeuge und baue ein Haus für Bewohner. Angeln und Tränkebrauen ergänzen das Überleben.\n\nNachts erscheinen Monster, und unter den einzelnen Lebensräumen warten Bosse. Unterschiedliche Waffen wie Schwert, Bogen, Schusswaffen, Magie oder Bumerangs erlauben eigene Kampfstile. Verbessere die Ausrüstung und besiege die Bosse; der letzte Boss öffnet das Finale. Bau, Rohstoffsuche und Kämpfe sind damit miteinander verbunden.",
+      "instructions": "A/D oder Pfeile bewegt, W/Leertaste/Pfeil oben springt, S/Pfeil unten lässt durch Plattformen fallen. Linksklick gräbt, greift an und setzt Blöcke; Rechtsklick öffnet Truhen und Türen. E zeigt Inventar und Herstellung, Tab Karte, Esc Menü. Mausrad oder 1–0 wählt die Schnellleiste, Shift setzt eine Fackel. Mobil bewegt links der Joystick, rechts wird gezielt und gehandelt; Tasten springen und öffnen Inventar.",
+      "referenceHash": "56285be6e488274f25d01308f5d37ce757a1fc2c33a13d294c4266434e70e3af",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "TerraBlox is a pixel sandbox about survival and mining. Every world is generated anew: forests, deserts, snowy peaks, crystal caves, a",
+        "instructionsQuote": "Explore a generated world, dig for ore, craft better gear and defeat the bosses of every biome. Beat the final boss to reach the finale. Desktop: A/D or arrows to move,"
+      },
+      "reviewedTextHash": "0c6203f6bd5f8d5a3cc5c19442420497f406c9fde43b017afa3c05f0fb02d527"
+    },
+    "sketchy-levels": {
+      "sourceHash": "5baba4c3f2c64843da16155ad801519bc5991d9ab6446a8f808cc76241df40ae",
+      "title": "Skizzenlevel voller Fallen",
+      "description": "Diese Plattformlevel sehen wie Seiten eines Notizbuchs aus und täuschen sichere Wege vor. Böden brechen ein, Flaggen bewegen sich und Stacheln erscheinen überraschend. Erreiche die Flagge oder die eingerollte Seitenecke, um die aktuelle Seite abzuschließen.\n\n200 Level in zehn Welten enthalten auch Bosse. Nach einem Fehlversuch kannst du beobachten, welche Falle ausgelöst wurde, und die nächste Route daran anpassen. Ein Editor, tägliche Fallen, versteckte Radierer und Outfits ergänzen die Seiten. Bei Schwierigkeiten stehen das Aufdecken der Fallen oder das Überspringen eines Levels zur Verfügung.",
+      "instructions": "Bewege dich mit Pfeiltasten oder A/D und springe mit Leertaste, W oder Pfeil oben. P pausiert. Mobil nutzt du getrennte Bewegungs- und Sprungtasten. Untersuche nach einem Fehlschlag die ausgelöste Falle und ändere Richtung oder Timing. Erreiche Flagge oder Seitenecke; bei Bedarf kannst du Fallen zeigen oder das Level überspringen lassen.",
+      "referenceHash": "df4d6b7531193ac9dcd9f4aa0b33caf8a52d4bd204aa0f6d619d1e953552dd30",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Troll platformer. Every level lies to you. The sign says \"EASY LEVEL\". It isn't. Floors fall, flags run away, spikes pop out of nowhere and the",
+        "instructionsQuote": "Reach the flag (or the curled page corner) to finish each page. Every level hides a trap: when you die, look at what got you and try again. Desktop: arrow keys or A/D to"
+      },
+      "reviewedTextHash": "cdfd9461a2240dae1e266d71bdaf3ef862eb4be02b611de6f49725abcaf7b2e4"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1 Zombie-Überleben",
+      "description": "In diesem blockartigen Ego-Shooter wächst deine Angriffskraft jede Sekunde um eins. Überlebe zehn Nächte in jeder von fünf Städten. Du startest eine Nacht selbst; sie endet, wenn die Horde beseitigt ist. Gebäude bieten Räume zum Verbarrikadieren, Fallen und durchbrochene Wände für Schussöffnungen.\n\nDu kannst geparkte Autos übernehmen und Zombies rammen, laut Quelle jedoch keine Bosse. Elf Waffen bis zur Schwarzes-Loch-Waffe, Bosskämpfe und Wiedergeburten ergänzen die Entwicklung. Türen, Reparaturen und Verbesserungen gehören zur Vorbereitung, bevor du die nächste Horde auslöst.",
+      "instructions": "WASD bewegt, Maus schaut, links schießt und rechts zielt. Leertaste springt, Shift sprintet, R lädt nach, 1–0/Mausrad/Waffenleiste wechselt Waffen. B öffnet den Bauplan, E nutzt Tür oder Fahrzeug, F repariert, U verbessert, G startet die Nacht und Esc pausiert. Im Auto gibt W/S Gas und Bremse, A/D lenkt. Mobil nutze linken Stick, rechten Blickbereich sowie Feuer-, Bau-, Fahrzeug- und Interaktionstasten.",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teaches everything by doing,",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and makes every shot stronger. PC:"
+      },
+      "reviewedTextHash": "4f7fd0c317831f6e5ca345c8eec12643ef5ab28816530a8bec26b87d58a95030"
+    },
+    "jelly-pop-defense": {
+      "sourceHash": "aff86e17d3d0191af3b45760f90b354c9b2c423a5ae776b1c499068410dc2f2a",
+      "title": "Katzen gegen hüpfende Gelees",
+      "description": "Stelle Katzen neben eine Strecke, um ihr Zuhause gegen Geleewellen zu schützen. 16 Katzentypen besitzen unterschiedliche Angriffe und zwei Verbesserungswege. Wird eine äußere Geleeschicht zerstört, kann die innere weiterlaufen, sodass die Verteidigung mehrere Trefferstufen berücksichtigen muss.\n\nPartnerkatzen nebeneinander schalten gemeinsame Kräfte frei. Alle paar Runden wählst du eines von drei Spielzeugen, die den Versuch verändern. Acht Karten, drei Schwierigkeitsgrade, vier große Bosse und Endlosspiel ergänzen die Verteidigung. Münzen aus zerstörten Gelees finanzieren weitere Katzen und Verbesserungen.",
+      "instructions": "Ziehe eine Katze aus dem Laden aufs Gras oder wähle Katze und dann Gras. Play schickt die nächste Welle. Eine platzierte Katze öffnet Verbesserungen, Zielwahl, Fähigkeit oder Verkauf. Lass Gelees nicht das Streckenende erreichen, sonst verlierst du Leben. Leertaste startet/beschleunigt, 1–9, 0, − und = wählen Katzen, Esc bricht ab oder pausiert. Maus und Touch werden unterstützt.",
+      "referenceHash": "51dffae93faeadc54d25a8957189a62c6ae7b6a05677bdecfcc5f0825504b201",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Jelly Pop Defense is a colorful tower defense game where brave cats protect their home from waves of bouncy jellies. Drag 16 kinds of cats next",
+        "instructionsQuote": "Drag a cat from the shop onto the grass next to the track (or tap a cat, then tap the grass). Press Play to send the next wave of jellies. Popping jellies earns coins:"
+      },
+      "reviewedTextHash": "34caea3a639f91985cc769861ae65cad8b7dddfc55c618dbee78cb608ebba080"
+    },
+    "hatch-or-steal-online": {
+      "sourceHash": "23295ab666a3c44da6090a0aa0dbab965fedcde6d38eb180aca7921ca72643c7",
+      "title": "Haustiere ausbrüten oder stehlen: Online",
+      "description": "Kaufe Eier, brüte Tiere aus oder stehle sie von anderen Spielern und NPCs. Baue eine Farm mit mehr als 40 beschriebenen Tieren aus acht Eier-Seltenheiten. Bis zu sechs Teilnehmer oder Freunde in einem privaten Raum können die Welt gemeinsam nutzen.\n\nVerschließe die Farm und verfolge Diebe mit einem Knüppel. Ein Portal führt in die Drachenhöhle, wo Hindernisse vor einem seltenen Ei liegen. Farmverbesserungen, Geschwindigkeitstraining und Wiedergeburten geben weiteren Fortschritt. Kleidung, Flügel und Bewegungsspuren verändern das Aussehen der Figur.",
+      "instructions": "WASD/Pfeile bewegt, Leertaste springt, E kauft Eier, nimmt auf, platziert oder stiehlt. G legt Getragenes ab, 1 zieht den Knüppel und Linksklick schlägt. Gehaltenes Rechtsklicken dreht die Kamera, Mausrad zoomt. Tab wechselt den Mauszeiger, M Kleidung, B Emotes, Enter Chat, Esc schließt Fenster und H zeigt die Steuerung. Mobil nutzt du linken Joystick, rechten Wischbereich, Pinch und Aktionsknöpfe; der untere Knüppelplatz aktiviert die Waffe.",
+      "referenceHash": "97f072dc9386dab38ea38ffeaed6be6e9b256f9d186efface97e21e2420d7b72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Buy eggs, hatch or steal cute pets and build the richest farm in Hatch or Steal: Online! Play with up to 6 players or invite friends to a",
+        "instructionsQuote": "Keyboard and mouse: - TAB - lock or on coursor - WASD / Arrow keys - move - Space - jump - E - action: buy an egg, pick up, place, steal - G - drop what you carry - 1 -"
+      },
+      "reviewedTextHash": "4c7c346d504cc38972d44b646189ba935c8fb97f81fe73c8325b1811a59dbdad"
+    },
+    "chameleon-sniper": {
+      "sourceHash": "13ee18b8d7cce08d96517851364c549d5b02ea7bdfd5a16ac203db93a156f2da",
+      "title": "Chamäleon-Scharfschütze",
+      "description": "Drehe eine kleine Insel und suche Gegner, deren Farbe genau zu Wand, Dach oder Fels passt. Nur die Form verrät sie: etwa ein herausstehender Kopf oder Arm. Jeder Treffer genügt zum Ausschalten; leere Munition oder abgelaufene Zeit beendet das Level als Niederlage.\n\nKopftreffer und übrige Patronen bringen zusätzliche Münzen. Verbessere Munitionszahl und Gegnergröße oder verwende Markierung, Strahlen, Umfärben und Nachtsicht als Hilfen. Unterschiedlich geformte Inseln, Tagesmissionen und Spezialaufträge verändern die Suche. Höchstens ein Fehlschuss bringt drei Sterne.",
+      "instructions": "Bewege die Maus zum Umschauen und drehe die Insel mit A/D oder Pfeiltasten. Rechtsklick oder Leertaste zoomt, Mausbewegung zielt und Linksklick schießt. Mobil ziehst du zum Umschauen, hältst die Pfeile zum Drehen und hältst AIM, verschiebst zum Zielen und lässt zum Schießen los. Suche Formen statt Farben und beseitige alle Gegner innerhalb von Zeit und Munition.",
+      "referenceHash": "15287ba811fe2e365c2447360c2fef227cbc724bd21d42d08cadc28748c28ee2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Chameleon Sniper is a 3D sniper game where you turn a tiny island floating in the ocean and take down enemies hiding in plain sight. Every enemy",
+        "instructionsQuote": "Somewhere on the island, enemies are hiding, painted to match the surface they're stuck to. Turn the island, scan every wall, roof and rock, zoom in with your scope and"
+      },
+      "reviewedTextHash": "91ab00f009ae6718caa7ca938f1fc1547f53f97d6f7d246f62ccd2baf29dc0f2"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "Würfel-Tycoon",
+      "description": "Wirf physikalisch simulierte Würfel auf eine Ablage und erhalte den Wert ihrer oberen Seite als Spielgeld. Fünf Würfelstufen von d4 bis d20, Artefakte und Statuen verändern den Ertrag. Ein Maximalwurf bringt einen Jackpot und lädt die Fever-Anzeige auf.\n\nEine volle Anzeige verdoppelt die Auszahlungen für acht Sekunden, mit passendem Artefakt länger. 30 Verträge, 22 Trophäen und tägliche sowie wöchentliche Aufgaben geben Ziele. Nach einer Million Spielgeld in einem Versuch kannst du eine Wiedergeburt auslösen und Sterne für dauerhafte Multiplikatoren erhalten.",
+      "instructions": "Tippe oder klicke aufs Brett oder drücke Leertaste beziehungsweise ROLL, um alle wartenden Würfel zu werfen. Erfülle das aktuelle CONTRACT-Ziel und fordere Aufgabenbelohnungen mit CLAIM an. Investiere Spielgeld in weitere Würfel, Stufen, Glück, Artefakte und Truhen. Beachte Fever für doppelte Erträge und nutze die Wiedergeburt nach Erreichen ihrer Anforderung.",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces and bank the payouts.",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out their top face value; every die"
+      },
+      "reviewedTextHash": "53fa607ba9a4f2e85e253bc843a3643bb279b73b40c2edcf8a54a474ea272bf1"
+    },
+    "nest-heist": {
+      "sourceHash": "3bc1a5e550e7b627c20916765c905d4f12abf86626409966ecd2cf27df4f6642",
+      "title": "Nestraub: Tiere aufziehen und schützen",
+      "description": "Teile eine Insel mit bis zu acht Teilnehmern und ziehe Kreaturen im eigenen Nest auf. Kaufe Eier am Förderband, trage sie heim und versorge die Tiere nach dem Schlüpfen mit Nahrung und Streicheleinheiten. Erwachsene Tiere sind beim Verkauf mehr wert.\n\nRivalen können Tiere stehlen, deshalb gehören Schilde, Verfolgung und Gegenwehr zum Farmalltag. 92 Arten, zwei Welten und Nester mit bis zu acht Etagen ergänzen die Sammlung. Der Begleiter kann weder verkauft noch gestohlen werden. Private Räume enthalten nur verbundene Freunde. Die Farm verdient während deiner Abwesenheit nur weiter, solange Nahrung vorhanden ist.",
+      "instructions": "WASD/Pfeile bewegt, Mausziehen oder Q/E dreht, Leertaste springt. F führt die angezeigte Aktion aus, R streichelt, G schlägt, X verkauft schnell, C wechselt Kamera, B öffnet Bestiarium und T das Brett. Mobil nutzt du Joystick und kontextbezogene Tasten. Kaufe ein Ei, bringe es zum Nest, liefere Futter und verkaufe Tiere an Besucher. Erfülle Zoo-Aufträge und verteidige die Farm.",
+      "referenceHash": "de7166e33452940b263710f1e6b388e7d652ad0151c1a5fc69a0e0dec9d5be6d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Nest Heist is a free online multiplayer game where up to eight participants share an island and every nest is a target. Grab eggs from the",
+        "instructionsQuote": "Goal: raise your creatures, complete each world’s grand zoo order, discover species and gain enough fame to rebirth and unlock the next stage. 1. Walk to the conveyor in"
+      },
+      "reviewedTextHash": "e8df824a40dc7253f1956e71076c14fba15d3860bdc6f68853907d72bce2e828"
+    },
+    "gunslayer": {
+      "sourceHash": "1589dcb17324e2b79f6645e09d1e5d2130400406ac3ebeda899930af124884f4",
+      "title": "Gunslayer: Verschmolzene Waffen",
+      "description": "Kämpfe dich in diesem Top-down-Shooter durch Monsterräume und verschmelze zwei Waffen zu einer elementaren Kombination. Fünf Lebensräume mit 15 Etagen, 46 Waffen und 27 Gegnertypen bilden die beschriebenen Möglichkeiten. Räume, Belohnungen und Bosse werden bei jedem Versuch neu zusammengestellt.\n\nNach jeder Etage wählst du eines von drei Relikten. Besiege auf Etage 15 den letzten Boss. Beim Tod bleiben gesammelte Münzen erhalten und finanzieren dauerhafte Verbesserungen oder neue Helden. Eine tägliche Herausforderung setzt allen dieselben Bedingungen, während neue Versuche andere Ausrüstungs- und Reliktkombinationen bieten.",
+      "instructions": "WASD oder Pfeile bewegt, Maus zielt und Linksklick schießt. Leertaste nutzt die Heldenfähigkeit, Shift dasht, R lädt nach, E nimmt auf oder interagiert, Q wechselt Waffen und Esc pausiert. Mobil bewegt der linke Stick, rechts wird gezielt und gefeuert; Tasten aktivieren Fähigkeit und Dash. Räume alle Monster, wähle Relikte und erreiche den Boss auf Etage 15.",
+      "referenceHash": "8edf34287114fd0652c19a92359adfae0117864917eb647c7a9f9be980a0c45e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Gunslayer is a fast top-down roguelite shooter with a twist: you can melt two weapons into one. Clear room after room of monsters, fuse guns",
+        "instructionsQuote": "Fight your way down through the dungeon: clear every room of monsters, pick up the weapons they drop and choose one of three relics after each floor. Reach floor 15 and"
+      },
+      "reviewedTextHash": "148c12f694dbfb5b5ca424ceb9c7428a13a9f411ccc89cf98fd298dec0618a46"
+    },
+    "clankmates": {
+      "sourceHash": "3a812d2a17d39d183218a448da601f84e7a56ffeaeca9841d15a80bba6f5247f",
+      "title": "Clankmates: Roboter bauen und kämpfen lassen",
+      "description": "Baue einen Roboter aus Sägen, Lasern, Tesla-Spulen, Raketen, Rädern und weiteren Teilen. Zwischen Runden investierst du Scrap in neue Komponenten und Verbesserungen. Danach kämpft der Roboter selbstständig; deine Konstruktion und Marken-Setboni bestimmen die Möglichkeiten.\n\nFünf Rundensiege gewinnen das Match. Verlierer einer Runde erhalten zusätzliches Scrap zum Aufholen. Ranglistenpartien, private Online-Räume, Turniere sowie Computergegner und lokales Spiel zu zweit bieten verschiedene Begegnungen. Wähle Teile, verbessere gleiche Komponenten durch erneuten Kauf und bestätige dann deine fertige Zusammenstellung.",
+      "instructions": "Klicke oder tippe eine Teilekarte zum Kauf an, kaufe dieselbe erneut zum Verbessern und erneuere Angebote per Reroll. READY startet den automatischen Kampf. Lokal nutzt Spieler 1 WASD zum Auswählen, Leertaste zum Kaufen, R zum Neuwürfeln und E für bereit. Spieler 2 verwendet Pfeiltasten, Enter, P und O. Maus und Touch funktionieren ebenfalls.",
+      "referenceHash": "9c35ef6e3cd84b94dde7f3ffe7ac1354002f87480d34aa49097b515d9ebe3cb0",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Clankmates is an online robot auto-battler. Between rounds you spend scrap on parts like saws, lasers, tesla coils, rockets, wheels and",
+        "instructionsQuote": "Build, then watch. Each round you get scrap: tap a part card to buy it, buy the same part again to upgrade it, reroll the shop for new offers, then press READY. Your"
+      },
+      "reviewedTextHash": "b981884871bb4a0d600dc3d1f7739b9390ee17f1e69754cc48e2e4d1d7d2d501"
+    },
+    "geometry-vibes-2-online": {
+      "sourceHash": "fefdc7b82f49e77e1aae81e18d6ecc7f01b9f01b48d30004404cecc9cdfe68f7",
+      "title": "Geometry Vibes 2 Online",
+      "description": "Steuere einen geometrischen Pfeil durch enge Passagen, ohne Stacheln, Wände oder andere Hindernisse zu berühren. Gedrückthalten lässt ihn steigen, Loslassen sinken. Kurze Impulse und längere Haltephasen bestimmen seine Höhe auf dem Weg zum Levelende.\n\nDer klassische Modus umfasst 20 Level; Infinity und Online-Mehrspieler erweitern das Angebot. Mit Münzen schaltest du 24 Pfeilgestaltungen und 16 Spuren frei und kombinierst sie mit eigenen Farben. Für mehrere Personen gibt es getrennte Eingaben, sodass alle ihre Flugbahn unabhängig steuern können.",
+      "instructions": "Halte linke Maustaste oder Leertaste zum Steigen und lasse zum Sinken los. Verwende kurze Eingaben für kleine Höhenänderungen und längeres Halten für größere Anstiege. Spieler 1 nutzt Linksklick/Leertaste, Spieler 2 Pfeil oben, Spieler 3 H und Spieler 4 L. Erreiche das Ende, ohne Hindernisse zu berühren.",
+      "referenceHash": "1a4905ac038c0b3d4661646b674f858796e51926bd0895c5e0c0131836e0996c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Geometry Vibes 2 Online takes the fast, precise and addictive gameplay of the original Geometry Vibes and expands it into a much bigger",
+        "instructionsQuote": "Geometry Vibes 2 Online is easy to learn, but mastering the movement and timing takes practice. Your goal is to reach the end of the level without touching any spikes,"
+      },
+      "reviewedTextHash": "3ff137d7064c8732ae5edfc45c6bffdcf40dad0dd8637ad022a8b783e27439ec"
+    },
+    "1-wings-escape": {
+      "sourceHash": "1a79c4ff554d581fb054be24d46976c15d8cdd60ad483320db52e2f72e23abe6",
+      "title": "+1 Flügelflucht",
+      "description": "Springe zwischen Plattformen und nutze zusätzliche Flügelschläge, um entfernte Kontrollpunkte zu erreichen. Flug oder Training über Ventilatoren gibt Power und Level. Jedes neue Level erhöht die verfügbare Anzahl der Flügelschläge, nicht die Höhe eines einzelnen Sprungs.\n\nLandungen stellen die Schläge wieder her. Gelbe Trophäenfelder geben die Kontrollpunktbelohnung und bringen dich zur Zentrale zurück. Trophäen kaufen bessere Flügel und neue Welten. Eine Wiedergeburt setzt den Level für einen dauerhaften Power-Multiplikator zurück, behält aber Flügel, Trophäen und Bewegungsspuren.",
+      "instructions": "WASD bewegt, Leertaste oder E springt beziehungsweise schlägt in der Luft mit den Flügeln. Ziehen dreht die Kamera, R kehrt zur Zentrale zurück. Mobil ziehst du unten links zum Bewegen, rechts zum Umschauen und tippst die Flügeltaste. Trainiere über Ventilatoren und lande zum Auffüllen der Schläge. Betritt gelbe Trophäenfelder und investiere in Flügel und Welten.",
+      "referenceHash": "4d4026483ab882a8838fb72959c1fc432bb213b2411cbd8897d75d8ae5cc3822",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Spread your wings and take on a colorful sky-high obstacle course in +1 Wings Escape! Jump between platforms, dodge moving obstacles, and use",
+        "instructionsQuote": "Jump from platform to platform and press jump again while airborne to flap your wings. Landing restores your available flaps. Your jump height stays the same, so gain"
+      },
+      "reviewedTextHash": "db885626f85db3fc9a31e817d167ede0d54cfb292e9c83f956e56aebf08bd854"
+    },
+    "dont-die-kitty": {
+      "sourceHash": "1c24478277b9502a3599d8f3fe42505f4a72659cdd5855c266f43b36f5cd6638",
+      "title": "Stirb nicht, Kätzchen",
+      "description": "Ein grüner Drache hat den Lieblingsmenschen deiner Katze in einem Käfig entführt. Kämpfe mit Schwert und rotem Schal durch das Königreich, um sie zu befreien. Räume voller Goblins, Schweine, Schafe und Ziegen stellen sich auf den Weg.\n\nNach Kämpfen wählst du eine von drei Kräften und kombinierst unterschiedliche Effekte. Das aufgeladene Große Miau schleudert Gegner durch eine Schockwelle fort. Bosse, Schatztruhen und geheime Falltüren verändern Versuche. Ausrüstung, der Ausbau des Häuschens und neue Katzenhelden ergänzen die Entwicklung zwischen den Läufen.",
+      "instructions": "WASD/Pfeile bewegt, J oder Linksklick greift an, Leertaste/Shift/Rechtsklick rollt ausweichend. Q nutzt das geladene Große Miau, 1/2 Spielzeuge, E interagiert, I öffnet Ausrüstung, P pausiert und M schaltet Ton. Mobil ziehst du links; die Katze greift automatisch an, bis AUTO abgeschaltet wird. Tasten für Rolle, Miau und Spielzeuge lösen die jeweiligen Aktionen aus.",
+      "referenceHash": "6f1d00ce2a3ebeecdd5ded06934e2385ab04f96359550c61994bf6f8ea1fc9fa",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Don’t Die, Kitty! is a cute action roguelite about one very brave cat. A grumpy green dragon has stolen your favourite human and flown off with",
+        "instructionsQuote": "Computer WASD / Arrow keys: move J or Left click: attack Space, Shift or Right click: roll (dodge) Q: Big Meow (when charged) 1 / 2: use toys E: use / interact I: gear"
+      },
+      "reviewedTextHash": "80e8a3acf2c54f48ca5c90455fc66d21f47095848d50b14ead1abb23158f1b4e"
+    },
+    "style-senpai-anime-dress-up": {
+      "sourceHash": "c5216e4a1ed08f30ef38fad60be2bf6cc7f8d8118c3180ff1abf68f707132662",
+      "title": "Style Senpai: Anime-Outfits",
+      "description": "Gestalte eine Anime-Figur mit mehr als 350 Kleidungs-, Zubehör- und Gesichtsoptionen. Frisuren, Röcke, Kleider, Schuhe, Flügel und Brillen lassen sich zu einem Look verbinden. Eine Palette färbt Haare und Kleidung um, während Augen, Brauen, Lippen und Hintergrund die Darstellung ergänzen.\n\nMit VS beginnt ein Modewettbewerb zu einem vorgegebenen Thema. Baue das Outfit Schritt für Schritt und lass es vom Publikum gegen den Look eines Rivalen bewerten. Siege steigern den Stylistenrang und bringen neue Gegenstände und Herzen. Aufgaben und Minispiele im Spielzimmer ergänzen die Modekollektion.",
+      "instructions": "Klicke oder tippe Kleidung im Schrank an, um sie anzulegen, und wähle zum Umfärben eine Palettenfarbe. Mausrad oder Wischen blättert durch den Schrank. VS startet einen Wettbewerb: Beachte das Thema und stelle deinen Look zusammen. Gewinne Bewertungen gegen Rivalen, um Rang, neue Kleidungsstücke und Herzen für den Laden zu erhalten.",
+      "referenceHash": "9fa3607d6ddfdc37e71ff804547948db114b9de470320eae37e4d87f3b18877c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Style Senpai: Anime Dress Up is a cute anime fashion game where you create your dream look and then prove your style in fashion battles. Choose",
+        "instructionsQuote": "Tap or click clothes in the wardrobe to put them on, and pick a color in the palette to recolor them. Press VS to start a fashion battle: you get a theme, build your"
+      },
+      "reviewedTextHash": "06e7b2bea0682212d4b4208f76b4b9bea02dd51993d23e1d2daaae4da60d2a36"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "title": "Seltsame Tierhandlung",
+      "description": "Öffne eine Tierlieferung und vergleiche die Tiere mit dem Handbuch. Ein zusätzliches Auge, fehlender Schatten, drittes Ohr oder Mund am Bauch kann eine Anomalie sein. Die Quelle nennt 24 Tierarten und 15 Anomalien, teils nur an Verhalten oder mit einem Scanner erkennbar.\n\nGesunde Tiere werden gepflegt und verkauft. Im Chat nimmst du ein Angebot an, hältst den Preis oder verlangst mehr; übertriebene Forderungen vertreiben Käufer. Nachts musst du auffällige Bewegungen in Käfigen beachten. Nach der Schicht finanzieren Münzen Verbesserungen, während du die Sammlung und den Laden weiterentwickelst.",
+      "instructions": "Klicke oder tippe Start shift und öffne die Lieferung. Vergleiche vor dem Zeitende mit dem Guide. Wähle Looks normal oder Anomaly! und markiere dann das auffällige Detail. Reibe gesunde Tiere mit Maus oder Finger zur Pflege und verhandle im Chat. Klicke nachts rechtzeitig auf den Käfig mit Bewegung. Prüfe nach der Schicht das Ergebnis und kaufe Verbesserungen.",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each animal against the Guide",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks normal\". If something is wrong,"
+      },
+      "reviewedTextHash": "4318df06af1b09183d340a7bcd81fde2875a4113a43ff0c1cd4b47bd6f89028c"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "Battlecross",
+      "description": "Kombiniere Fähigkeiten verschiedener Lehrer statt dich auf eine einzelne Klasse festzulegen. Ritterschild, Feuermagie, beschworene Wachen und Zeitstopp gehören zu den beschriebenen Möglichkeiten. Besiege Gegnergruppen und ihren Anführer, um eine Zone abzuschließen.\n\nJeder Level gibt drei Attributpunkte. In Städten kaufst du Ausrüstung, erweiterst den Trankgürtel und lernst Fähigkeiten aus 16 Klassen für acht aktive und vier passive Plätze. Einige Entscheidungen am Zonenende sind unwiderruflich und verändern Städte, Händler, Lehrer und das Ende. Auch bei einer Niederlage bleiben Erfahrung und Beute erhalten.",
+      "instructions": "Gehe an einen Gegner heran, damit der Held automatisch angreift. Nutze Fähigkeiten und Heiltränke nach Bedarf. Besiege alle Gruppen und den Anführer einer Zone. Verteile die drei Attributpunkte pro Level und kaufe in Städten Ausrüstung, Gürtelkapazität und Fähigkeiten. Prüfe wichtige Entscheidungen sorgfältig, da sie nicht rückgängig gemacht werden können.",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summon royal guards, stop",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every enemy group and the leader at"
+      },
+      "reviewedTextHash": "834364d68f0e4b95b23476659e1cce39e2df381dcaf3cae09774b309a03a4180"
+    },
+    "orbital": {
+      "sourceHash": "6a89af2afa8b82efef9b81c6bc9a7ef4f975c741b3a54792d393828c89d4bc9e",
+      "title": "Orbital: Lücken im Ring",
+      "description": "Steuere einen Funken um einen leuchtenden Kern und schlüpfe durch Lücken der einwärts laufenden Ringe. Kristalle liegen in riskanten Öffnungen; mehrere hintereinander bilden eine Kombination. Überleben bringt Sterne und öffnet die Welten Neon, Lava und Eis.\n\nKristalle finanzieren Verbesserungen und neue Gestaltungen. Tägliche Aufgaben und eine tägliche Truhe ergänzen die Versuche. Nach einer passenden Verbesserung kann Fokus die Zeit verlangsamen. Die Bewegung bleibt eine Entscheidung zwischen links und rechts um den Kern, während du die nächste freie Ringöffnung suchst.",
+      "instructions": "Steuere mit links/rechts, A/D oder linker/rechter Maustaste. Shift aktiviert nach der entsprechenden Verbesserung den verlangsamenden Fokus. Mobil hältst du die linke oder rechte Bildschirmhälfte; zwei Finger dienen dem Fokus. Leertaste startet einen neuen Versuch, Esc öffnet das Menü und M schaltet stumm. Sammle Kristalle und durchquere die Lücken der Ringe.",
+      "referenceHash": "148e9a2820cd44032e546f3905681c337cd61b7eabd176c679fd3708a5a8f7a9",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Orbital is a fast reflex game. Rings close in on the glowing core from every side, and you steer a spark around it to slip through the gaps.",
+        "instructionsQuote": "- Move: Left / Right arrow keys, A / D, or left / right mouse button - Focus (slow time, after upgrade): Shift - Mobile: touch and hold the left or right half of the"
+      },
+      "reviewedTextHash": "b18547b15e287e160274e6c32f8343b973e365f6e051f1c6622515c0a39c57d7"
+    },
+    "explainable-minesweeper": {
+      "sourceHash": "37d1ee18a0b617d862593fa1747511e5fc88a017283c1617e316134f24254fee",
+      "title": "Minesweeper mit erklärten Lösungen",
+      "description": "Finde versteckte Igel anhand der Zahlen und öffne alle Felder ohne Igel. Jede Zahl zählt die Igel in ihren acht Nachbarfeldern. Ein aufgedeckter Igel oder eine falsche Flagge kostet ein Herz; pro Brett stehen drei Herzen zur Verfügung.\n\nHinweise von Erdmännchen Pip zeigen einen sicheren Zug und erklären die begründenden Zahlen. Die Quelle beschreibt 16 Brettgrößen von 5×5 bis 20×20 mit jeweils 200 Anordnungen, insgesamt 3.200. Ein Tagesfeld mit gespeichertem Fortschritt und der wachsende Lagerplatz ergänzen die Sammlung gelöster Bretter.",
+      "instructions": "Linksklick öffnet ein Feld, Rechtsklick setzt eine Flagge. Mobil öffnest du durch Tippen und wechselst zum Markieren in den Flaggenmodus. Tippe oder rechtsklicke eine Zahl, deren Igel bereits korrekt markiert sind, um ihre übrigen Nachbarn gemeinsam zu öffnen. Hint zeigt einen sicheren Zug samt Erklärung. Pinch oder Mausrad zoomt auf großen Brettern.",
+      "referenceHash": "db6294e0ae0c8f086a2dde3139659fbe317d166c54a75abf12ab84475ac52e53",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Explainable Minesweeper is a minesweeper you can always solve with logic. No guessing, ever. Hedgehogs are sleeping hidden in the field. Read",
+        "instructionsQuote": "• Each number shows how many hedgehogs are in the 8 cells around it. • Open every cell that has no hedgehog to clear the board. • Mobile: tap a cell to open it. Switch"
+      },
+      "reviewedTextHash": "e67a53d63e23891c2a8bb5c321b355be714eafe40a2c7c755319120b4992656f"
+    },
+    "pickle-rally": {
+      "sourceHash": "3bc4e633bcb3d5601c58b9ef818e4ceba997f61d056f40d0e15bc274c21747ad",
+      "title": "Pickle-Rallye",
+      "description": "Spiele Pickleball mit der Wahl zwischen weichem Dink, kräftigem Drive und hohem Lob. Normalerweise läuft die Figur automatisch zum Ball, sodass du Schlagart und Richtung bestimmst. Im freien Bewegungsmodus kannst du auch die Position selbst steuern.\n\nSpiele gehen bis sieben, elf oder 15 Punkte und benötigen zwei Punkte Vorsprung. Die Welttour durch zehn Länder öffnet Elite-, Endlos- und Champion-Tour. Acht Essensbosse, Edelsteine, Schläger und Outfits ergänzen die Entwicklung. Wähle eine Platzierung, die der Gegner nicht zurückspielen kann, statt jeden Ball gleich zu behandeln.",
+      "instructions": "J spielt einen Dink, K einen Drive beziehungsweise bei hohem Ball einen Smash, L einen Lob. Halte beim Schlag A/D oder links/rechts zum Zielen; P pausiert. Mobil tippe für Dink, wische hoch für Drive/Smash und herunter für Lob. Seitlicher Tipp oder diagonales Wischen richtet den Schlag. FREE in Einstellungen aktiviert eigene Bewegung mit WASD/Pfeilen oder mobilem linken Joystick.",
+      "referenceHash": "67bcd1d196430eb0d73b850bf7d9c71c6b96d38348451d089310c4be4d8cf4c1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Pickle Rally is a bright, cute 3D pickleball game you can pick up in seconds. Time your shots, place the ball where your rival can’t reach and",
+        "instructionsQuote": "Win each rally by landing the ball where your rival can’t return it. A game is played to 7, 11 or 15 points and you must win by 2. Clear the World Tour to unlock Elite,"
+      },
+      "reviewedTextHash": "de7380c264ed6e8786199e9fb8fa189a6b0a2260f54985524260bf05dac5db5b"
+    },
+    "idle-train-empire": {
+      "sourceHash": "6c9cba71e13db5460db7c4df74f600aced3939d9a1f6a53098f12a2c5eff18d7",
+      "title": "Eisenbahn-Tycoon",
+      "description": "Verwalte einen Bahnhof mit Reisenden, Zügen und neuen Verbindungen. Kaufe und verbessere Züge, passe ihre Routen an und öffne weitere Bahnsteige und Ziele. Wartesäle und andere eingerichtete Bereiche gehören ebenso zum Ausbau wie die Fahrzeuge.\n\nEinnahmen aus Fahrkarten finanzieren den nächsten Entwicklungsschritt. Technologiepunkte verbessern Bahnhof und Züge, tägliche und reguläre Aufgaben geben Belohnungen. Neue Ziele erweitern die möglichen Routen. Prüfe daher Verbindungen und Kapazitäten erneut, wenn du zusätzliche Bahnsteige oder Fahrzeuge freischaltest.",
+      "instructions": "Bediene die Oberfläche mit der linken Maustaste. Plus und Minus verändern die Kameragröße. Investiere Fahrkarteneinnahmen in Züge, Anlagen und neue Bahnsteige. Passe Routen an neue Ziele an und verteile Technologiepunkte auf gewünschte Verbesserungen. Folge täglichen und regulären Aufgaben, während du Sammlung und Bahnhof ausbaust.",
+      "referenceHash": "b516e2ac65b98686ca20b288d059ef88793f1f67e9b5b0c3a509853c35867a47",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Embark on a captivating journey to build and manage your own railway station with Idle Train Empire Tycoon. This immersive free online game",
+        "instructionsQuote": "Develop your railway station by purchasing and upgrading trains, as well as customizing routes! Acquire and furnish various spaces and waiting halls! Unlock access to"
+      },
+      "reviewedTextHash": "8602634ba3fe430629d6f5440cbb816f5f72fc531fd8d882e088fff46d826a99"
+    },
+    "tile-farm-story": {
+      "sourceHash": "a17b2fb404ec3afa70fc442137c455f0373010cfd372c9fd9218d0b9a09007ac",
+      "title": "Tile Farm Story: Dreiergruppen sammeln",
+      "description": "Sammle gleiche Spielsteine vom Feld in die Ablage darunter. Sobald dort drei identische Steine liegen, verschwinden sie. Ziel ist, das gesamte Spielfeld zu räumen, ohne sämtliche Ablageplätze zu füllen und dadurch den Versuch zu verlieren.\n\nDie Geschichte folgt den Schwestern Stone durch unterschiedliche Orte und Begegnungen mit Tieren. Hunderte Level verbinden diese Reise mit dem Sammelpuzzle. Unterstützende Booster helfen bei schwierigeren Anordnungen. Entscheidend bleibt, die nächste Auswahl mit dem begrenzten Platz in der Ablage abzustimmen.",
+      "instructions": "Klicke oder tippe einen Stein auf dem Feld an, um ihn in die untere Ablage zu nehmen. Sammle dort drei identische Steine, damit sie entfernt werden. Halte genügend Platz für kommende Gruppen frei: Sind alle Plätze belegt, scheitert der Versuch. Entferne sämtliche Steine vom Spielfeld, um zu gewinnen.",
+      "referenceHash": "d8eefde35ad07769f9ae01234b168f985c2da53879f68e097dbcf54a6eb9eb82",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "The game \"Tile Farm Story\" is an exciting and challenging adventure that you won't be able to put down! This chip collecting game will allow you",
+        "instructionsQuote": "The goal of the game is to find identical chips on the field and collect them. The collected chips are collected in the cells below. When there are 3 identical chips in"
+      },
+      "reviewedTextHash": "71fa8e99acd2e52f6fa78d090e31bfab89b48fce3f4667c4b865e4efb3617048"
+    },
+    "abandoned-mansion": {
+      "sourceHash": "35e2f8ef28e6d1ca46c649ebb69c55f3c9121afb01bf644fd98c131afbd0e43d",
+      "title": "Verlassenes Herrenhaus",
+      "description": "Ein Notruf führt dich in ein verlassenes Herrenhaus. Dort warten verborgene Räume, Gegenstände, Rätsel und feindliche Kreaturen. Aus der Egoperspektive erkundest du das Gebäude und versuchst, seine Geheimnisse zu verstehen, während verschiedene Gegnertypen den Weg bedrohen.\n\nMehrere Level und Bosskämpfe ergänzen die Untersuchung. Sammle nützliche Objekte und betrachte ihre Verbindung zu verschlossenen Wegen oder Rätseln. Bewegung, Ducken, Springen und Inventar sind ebenso Teil der Steuerung wie Angriff und Nachladen. Die Suche nach einem Weg durch das Haus und der Umgang mit seinen Bewohnern bilden den Fortschritt.",
+      "instructions": "WASD bewegt, E interagiert, C duckt und die Leertaste springt. Tab öffnet das Inventar. Linksklick greift an oder schießt, R lädt nach. Untersuche Räume nach Objekten und Rätselhinweisen und prüfe dein Inventar, wenn ein Hindernis einen Gegenstand verlangt. Bereite dich auf Gegner vor, während du weitere Bereiche des Hauses erkundest.",
+      "referenceHash": "f17613a6b07e2a215f9174a4e2475daea9f019917247320e929b262ecf9ea32e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Abandoned Mansion is a first-person horror game set in an abandoned mansion, where a distress call leads you to investigate. Upon arrival, you",
+        "instructionsQuote": "W, A, S, D - Move E - Interact R - Reload C - Crouch Tab - Open inventory Space - Jump Left mouse button -"
+      },
+      "reviewedTextHash": "93c647ff904230a47ec6fbfbad6511fff1a45ba3b6a49b0f8dc1c4072d54cafe"
+    },
+    "idle-supermarket-tycoon": {
+      "sourceHash": "04a2c77c3f39649dda4faac024eb70bf6f9beb3399316a561cfa5bc887192093",
+      "title": "Einkaufszentrum-Tycoon",
+      "description": "Verwalte ein Einkaufszentrum, eröffne Geschäfte und richte die Innen- und Außenbereiche ein. Besucher bringen Geld und Ansehen, das du wieder in den Ausbau investierst. Lege bevorzugte Kunden pro Laden fest und verteile Ansehenspunkte auf Besucher.\n\nLieferfahrzeuge verdienen zusätzlich bei abgeschlossenen Fahrten. Auch laufende Einrichtungen brauchen Aufmerksamkeit: Mülleimer und Automaten in den Korridoren können verstopfen. Aufgaben liefern konkrete Ziele und Belohnungen. Verbinde neue Geschäfte mit Verbesserungen des vorhandenen Betriebs, um das Einkaufszentrum weiterzuentwickeln.",
+      "instructions": "Nutze die linke Maustaste für die Oberfläche und +/− für die Kameragröße. Kaufe und verbessere Läden, verteile Ansehenspunkte und weise bevorzugte Kunden zu. Investiere Einnahmen in Anlagen oder Lieferfahrzeuge. Kontrolliere Korridore und Einrichtungen und sieh in die Missionsliste, wenn du ein nächstes Ziel suchst. Abgeschlossene Aufgaben geben weitere Ausbauhilfen.",
+      "referenceHash": "873efb873224ebf1ebcf2a20ca4f49b8519f8566525b1f37d105462bb17fe132",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Embark on a journey to become a retail mogul with Idle Supermarket Tycoon. This engaging online simulation game lets you transform a modest",
+        "instructionsQuote": "You have a Shopping mall at your disposal, which you need to develop by acquiring new shops and outfitting them, as well as improving the exterior and interior of the"
+      },
+      "reviewedTextHash": "31ab64840cd01df6f0c1b8b8df9a4b242d6462f28510799ec7c32a54c819933b"
+    },
+    "money-ping-pong-fe04-1": {
+      "sourceHash": "a7b6a3645c57b2657a9544f2c995c04610acf07b2f8e83629bd721ca8fb3228f",
+      "title": "Money Pong: Blöcke und springende Bälle",
+      "description": "Platziere Geldblöcke auf einem Feld und lass Bälle dagegenprallen. Jeder Treffer erzeugt Spielgeld. Gleiche Blöcke lassen sich zu stärkeren kombinieren, zusätzliche Bälle erhöhen die Zahl der Kontakte und Verbesserungen stärken die weitere Entwicklung.\n\nKritische Treffer, Kombinationen und Ereignisse wie Münzregen oder Golden Rush erweitern die Belohnungen. Geschenke enthalten Diamanten und Rubine; fünf Welten führen von der sonnigen Wiese zum gefrorenen See. Ein Sparschwein liefert den beschriebenen weiteren Ertrag während deiner Abwesenheit. Das Ziel ist, das Zusammenspiel aus Ballzahl und Blockstärke auszubauen.",
+      "instructions": "Klicke oder tippe, um Geldblöcke zu platzieren. Die Bälle springen über das Feld und erzeugen bei Treffern Spielgeld. Ziehe gleiche Blöcke zusammen, kaufe weitere Bälle und nutze Verbesserungen. Nimm an Ereignissen wie Coin Rain und Golden Rush teil und investiere die Belohnungen in die weitere Entwicklung des Felds.",
+      "referenceHash": "114ae01880a7ebf3cd059255a3ee0803af00af129af60e46223649ffc5b4c5e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Bounce balls, make money! In Money Pong you place money blocks on the field and let the balls bounce – every hit pays cash. Merge equal blocks",
+        "instructionsQuote": "Tap or click to place money blocks. Balls bounce around the field and every hit earns cash. Drag equal blocks together to merge them into stronger ones, add more balls"
+      },
+      "reviewedTextHash": "d11451b5db4752bd9410324bbe89bd75b590265ad22380bdf02e74eb4114a28e"
+    },
+    "aod--art-of-defense": {
+      "sourceHash": "7d84c9ea4797727c34f53f85132b2261bd37d592ac8054c73b11dfe7033be3e4",
+      "title": "AOD: Die Kunst der Verteidigung",
+      "description": "Kommandiere eine Verteidigungstruppe in einer postapokalyptischen Welt. Der Gegner sucht das verlorene Projekt Inola; deine Aufgabe ist, die Basis mit Türmen, Fahrzeugwaffen und Helden zu schützen. Die Orte reichen von kleinen Siedlungen bis zu Großstädten.\n\nPanzer, Miniguns und Flugabwehr gehören zu den Verteidigungsoptionen. Turmkarten, zahlreiche Verbesserungen und sechs Helden verändern den Aufbau. Flucht-, Nebel- und Überlebensmodi ergänzen die Bedingungen. Schwere Unterstützungsangriffe wie Satellitenbeschuss und Raketen geben weitere Mittel gegen stärkere Feinde und Bosse.",
+      "instructions": "Platziere einen Turm mit der linken Maustaste. Mausrad oder Pinch auf dem Touchpad verändert den Zoom. Baue die Verteidigung gegen herankommende Gegner auf, verbessere wichtige Türme und setze Helden ein. Nutze verfügbare Unterstützungsangriffe und halte die Basis gegen die zunehmenden Gegner und Bosse geschützt.",
+      "referenceHash": "55cd9da741187a3bf20785fc7e11d048f8303ca2c975c726fd6279ab8d67f996",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "AOD - Art Of Defense is a dynamic tower defense game with elements of strategy and RPG in a post-apocalyptic",
+        "instructionsQuote": "AOD - Art Of Defense is a dynamic tower defense game set in a post-apocalyptic world. As the commander of the A.O.D squad, you lead the fight against the ruthless"
+      },
+      "reviewedTextHash": "92f11ba221250a23ca15fd2ee0762c7d32918bbb4aafa8424ac3be5a7336eca8"
     }
   }
 }
