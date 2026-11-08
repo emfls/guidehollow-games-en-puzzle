@@ -58,4 +58,48 @@ assert.ok(catalog.every(game => typeof game.summary==='string' && game.summary.l
 const sample=catalog.find(game=>game.id==='pocket-universe');
 assert.equal(sample?.title,'포켓 유니버스');
 assert.ok(sample?.summary.includes('광물') && sample?.summary.includes('세계'), 'Pocket Universe summary should describe resource gathering and world expansion');
+
+const metadata = JSON.parse(file('portal/locales/game-metadata.json'));
+const newLocales = ['ja','zh','es','fr','de','ru'];
+const reviewedIds = [
+  'car-destruction-king','pocket-universe','domino-online-multiplayer',
+  'chess-online-multiplayer','escape-from-the-crypt','dead-frequency',
+  'fruit-fusion','favorite-puzzles'
+];
+for(const locale of newLocales) {
+  assert.ok(localeIds.includes(locale), 'Missing translated portal language '+locale);
+  for(const id of reviewedIds) {
+    const game=byId.get(id);
+    assert.ok(game, 'Game missing from accepted catalog: '+id);
+    const title=metadata.titles?.[locale]?.[id];
+    const summary=metadata.summaries?.[locale]?.[id];
+    assert.ok(title && title.trim(), locale+'/'+id+': missing reviewed title');
+    assert.ok(summary?.length >= 35 && summary.length <= 240, locale+'/'+id+': missing gameplay-specific summary');
+    assert.equal(titleFor(game,locale),title,'Manual title should override glossary fallback: '+locale+'/'+id);
+    assert.equal(summaryFor(game,locale),summary,'Manual summary should override genre fallback: '+locale+'/'+id);
+    assert.doesNotMatch(summary,/\{(?:genre|devices|count)\}/, 'Unexpanded placeholder in '+locale+'/'+id);
+  }
+}
+for(const locale of localeIds) {
+  const horrorIntro=metadata.genreIntros?.[locale]?.horror;
+  assert.ok(horrorIntro?.length >= (locale === 'zh' ? 45 : 55), 'Missing informative horror introduction: '+locale);
+  assert.ok(locale === 'ko' || !horrorIntro.includes('{count}'), 'Generic horror intro remains for '+locale);
+}
+for(const group of [
+ 'puzzle','racing','sports','arcade','action','adventure','strategy','simulation',
+ 'horror','shooting','rpg','platform','idle','card-board','multiplayer','creative'
+]) {
+  assert.ok(metadata.genreIntros?.en?.[group]?.length >= 65, 'Missing English genre context: '+group);
+}
+const foreignHorror=file('dist-portal/ja/horror/index.html');
+assert.match(foreignHorror,/不気味な地下墓地/, 'Japanese horror page must show a meaningful intro');
+const translatedCatalog=JSON.parse(file('dist-portal/assets/catalog/ja.json'));
+for (const id of reviewedIds) {
+  const game=byId.get(id);
+  if(!game?.locales.includes('ja'))continue;
+  const entry=translatedCatalog.find(item=>item.id===id);
+  assert.equal(entry?.title,metadata.titles.ja[id],'Japanese search catalog title mismatch: '+id);
+  assert.equal(entry?.summary,metadata.summaries.ja[id],'Japanese search catalog summary mismatch: '+id);
+}
+
 console.log(JSON.stringify({status:'passed',supportedLanguages:localeIds.length,coverage},null,2));
