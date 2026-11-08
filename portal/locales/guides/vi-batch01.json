@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "vi",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "Trò chơi bắt đầu bằng một nút bấm: mỗi lần nhấp tạo ra tiền trong game, rồi số tiền đó được dùng để mua nâng cấp. Các lựa chọn gồm tăng tiền nhận được sau mỗi lần nhấp, tăng thu nhập thụ động và tăng số con trỏ. Vì vậy, nhấp liên tục và chờ khoản thu nhập nhàn rỗi tích lũy đều là một phần của quá trình phát triển.\n\nNhững nội dung mở khóa còn thay đổi hình ảnh và âm thanh, với nút bấm, con trỏ, phông nền cùng nhạc mới. Bạn cần mở khóa trước khi chọn chúng để tùy chỉnh trò chơi. Hãy bắt đầu bằng nguồn thu cơ bản, sau đó cân nhắc muốn cải thiện khoản thu nào ở lần mua kế tiếp. Vòng lặp chính là kiếm tiền, mua nâng cấp rồi hướng tới lựa chọn tùy chỉnh tiếp theo.",
+      "instructions": "Nhấp nút chính để kiếm tiền trong game. So sánh nâng cấp tiền mỗi lần nhấp, thu nhập thụ động và số con trỏ, rồi mua lựa chọn phù hợp với số tiền hiện có. Tiếp tục nhấp hoặc chờ thu nhập nhàn rỗi tích lũy. Khi mở khóa phông nền, nhạc, con trỏ hay nút mới, dùng tùy chọn tùy chỉnh để chọn chúng.",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Nhấp, nhấp, clicker",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "092bec8c58e382fe7ff00a7eb323879c1ee4f2c45e95e5d1f0de83d6729618ba"
+    },
+    "build-and-run-playgama": {
+      "description": "Trò chơi hành động này kết hợp vượt màn với việc xây những phần còn thiếu của đường đi. Quan sát hình dạng đoạn đường chưa hoàn chỉnh, rồi chọn bệ, dốc lên hoặc mặt dốc thích hợp để nối tuyến đường. Trong màn còn có kẻ địch và vũ khí, nên xây đường và xử lý đối thủ là những hành động riêng biệt.\n\nTrên máy tính, ba lệnh xây dựng được gán cho ba phím khác nhau, tách khỏi phím dùng vũ khí. Ghi nhớ vị trí các phím giúp bạn chuyển từ nhận ra chỗ thiếu sang chọn đúng thao tác. Phần giới thiệu còn nêu trang bị thay đổi ngoại hình nhân vật và hai chế độ chơi. Trên điện thoại, các hành động được thực hiện bằng nút trên màn hình. Điểm bắt đầu rõ ràng vẫn là hoàn thiện đường đi và dùng vũ khí khi đối mặt với kẻ địch.",
+      "instructions": "Trên máy tính, nhấn Q để xây bệ, W để xây dốc lên và E để xây mặt dốc. Xem phần đường còn thiếu rồi chọn kiểu xây phù hợp. Nhấn R để sử dụng vũ khí khi gặp kẻ địch. Trên điện thoại, dùng các nút trên màn hình và làm theo hướng dẫn di chuyển mà trò chơi hiển thị.",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Xây dựng và chạy",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "94d93e185c5767969bac8dd40f956ab6ce9ad051081906152f4a3e9a619c39a6"
+    },
+    "samurai-survivor": {
+      "description": "Câu chuyện diễn ra tại Nhật Bản cổ đại, khi một cánh cổng bí ẩn mở ra và thả những đàn quái vật vào thế giới. Các samurai trở thành tuyến phòng thủ cuối cùng của quê hương, sử dụng kỹ năng được truyền qua nhiều thế hệ. Đóng cổng và khôi phục hòa bình là mục tiêu của câu chuyện; còn tiến trình được hướng dẫn cụ thể là sống sót trước hàng trăm kẻ địch, tăng cấp và nâng kỹ năng.\n\nDi chuyển là phần điều khiển được nguồn mô tả rõ. Bạn có thể dùng phím mũi tên, giữ chuột trái rồi kéo, hoặc chạm màn hình trên thiết bị di động. Trước tiên hãy làm quen với việc đổi vị trí của nhân vật, sau đó phát triển kỹ năng khi tăng cấp. Tài liệu không nêu nút tấn công riêng, vì vậy nên bắt đầu từ cách di chuyển đã được cung cấp và vòng lặp sinh tồn, tăng cấp, nâng kỹ năng.",
+      "instructions": "Dùng ↑ để đi lên, ↓ để đi xuống, ← sang trái và → sang phải. Cách khác là giữ nút chuột trái rồi kéo để di chuyển theo mọi hướng. Trên điện thoại, chạm màn hình để điều khiển hướng đi. Cố sống sót trước các nhóm kẻ địch, tăng cấp và nâng kỹ năng; hướng dẫn không nêu phím tấn công riêng.",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Samurai sinh tồn",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "828212d9a5a5d8138baf169100f26f7cc208eb2d63febf7d219ea7107cbdfc65"
+    },
+    "pow-2889-1": {
+      "description": "Bạn chăm sóc thú cưng ảo Pow bằng cách cho ăn, làm sạch và chơi cùng, đồng thời theo dõi nó lớn lên và tăng cấp. Mỗi phòng hiển thị nhu cầu qua các thanh dọc ở phía trên màn hình. Hãy xem các thanh này trước, tương tác với đồ vật thích hợp trong phòng, rồi kiểm tra việc chăm sóc có giúp lấp đầy nhu cầu hay chưa.\n\nPhòng trò chơi nối hoạt động vui chơi với việc nuôi thú cưng. Bạn thu thập xu qua các hoạt động ở đó, sau đó dùng xu mua thức ăn hoặc đồ trang trí phòng. Thức ăn phục vụ nhu cầu của Pow, còn đồ trang trí thay đổi không gian sống. Cân nhắc mục đích trước khi chi xu đã kiếm được. Các tương tác dùng chuột hoặc cảm ứng, kết hợp hướng dẫn trong từng phòng với việc kiểm tra lại thanh nhu cầu giữa các công việc.",
+      "instructions": "Dùng chuột hoặc chạm màn hình để tương tác với Pow và đồ vật xung quanh. Kiểm tra các thanh nhu cầu dọc phía trên phòng, rồi làm theo hướng dẫn để cho ăn, làm sạch hoặc chơi cùng. Đến phòng trò chơi kiếm xu, dùng chúng cho thức ăn hay đồ trang trí. Tiếp tục theo dõi thanh nhu cầu khi đổi hoạt động chăm sóc.",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Chăm sóc Pow",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "d3a75735cce82b1a35509368ba7309c9fb5f83870323b644ca58ec7fc5c33afb"
+    },
+    "slides-and-climbs": {
+      "description": "Đây là cuộc đua trên bàn cờ, nơi bạn tung xúc xắc để đưa quân có màu của mình tới đích. Trên bàn có rắn, nên vị trí dừng có thể ảnh hưởng tới đường đi thay vì tiến thẳng đều đặn qua mọi lượt. Theo dõi vị trí các quân và kết quả lần tung kế tiếp là nhịp chính của trò chơi, với mục tiêu xuyên suốt là tới cuối tuyến đường.\n\nCó thể thiết lập tối đa sáu người tham gia tổng cộng, mỗi người chọn một màu riêng. Trò chơi hỗ trợ đối thủ máy tính và chơi cùng bạn bè tại chỗ. Một luật cần nhớ là tung được số 6 sẽ nhận thêm một lần tung. Khi cơ hội đó xuất hiện, hãy thực hiện lượt tung thêm trước khi coi lượt của mình đã kết thúc. Sau mỗi bước, xem kết quả được hiển thị trên bàn để tiếp tục cuộc đua.",
+      "instructions": "Chọn màu của người tham gia và cách bố trí đối thủ, tối đa sáu người chơi tổng cộng. Dùng nút tung xúc xắc trong game để đưa quân tiến lên, rồi xem nó dừng ở đâu. Nếu được số 6, thực hiện lần tung thêm. Tiếp tục hướng tới đích và để ý ô có rắn; bạn cũng có thể chọn đối thủ máy tính.",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Cầu trượt và thang",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "7ed73930bd6b28dfa0c0b4b06eaa23c08cb08cccf35a54f87395dacea35d902e"
+    },
+    "pathfinder": {
+      "description": "Trò giải đố hai chiều này yêu cầu đào đường hầm để dẫn bóng có màu vào những đường ống dưới mặt đất. Bạn tạo lối đi thay vì điều khiển một nhân vật, vì vậy cần xem vị trí ban đầu của bóng, phần đất sẽ đào và ống đích trước khi bắt đầu. Game có 30 màn với bố cục ngày càng phức tạp.\n\nKhối kim loại và gai là những chướng ngại được nguồn giới thiệu. Hãy tính tới vị trí của chúng khi lên kế hoạch đào hầm, thay vì lập tức đào một đường thẳng tới ống. Một cách tiếp cận hữu ích là tìm đích trước, lần theo đường có thể nối ngược tới bóng, rồi mới đào. Trên máy tính dùng thao tác nhấp, còn điện thoại và máy tính bảng dùng cảm ứng. Mỗi màn mới cần được quan sát lại vì bố cục và đường đi phù hợp thay đổi theo các chướng ngại.",
+      "instructions": "Trên máy tính, nhấp để đào lối đi; trên điện thoại hoặc máy tính bảng, chạm bề mặt để đào. Tìm bóng có màu, ống đích, khối kim loại và gai trước khi bắt đầu. Vạch đường tránh chướng ngại rồi đào để dẫn bóng về ống. Quan sát lại từng bố cục trong chuỗi 30 màn, vì các câu đố sẽ phức tạp dần.",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Người tìm đường",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "b5e46be7eb7c126cc196ccd0219b0d7a067ec3597cee69f779d1f198d30a404a"
+    }
+  }
+}

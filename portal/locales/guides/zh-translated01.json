@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 1,
+  "locale": "zh",
+  "games": {
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "汽车破坏之王",
+      "description": "这是一款把驾驶挑战与车辆破坏结合起来的游戏。玩家可以更换汽车和地图，参加比赛争取新纪录，也可以观察车辆面对旋转锤、压力机、弹射器等装置时的反应。慢动作能让碰撞过程放慢，便于查看车辆怎样受到冲击。\n\n游戏提供不同模式，开始前先决定要挑战竞速还是体验场地中的破坏装置。电脑操作区分驾驶、手刹、氮气、视角、重置与修复，尤其要留意重置车辆和恢复车况并非同一个按键。可以在同一障碍前更换车辆、切换相机，再观察不同尝试的结果。手机端则通过游戏界面完成操作，重点仍是选好车辆与场景后进行驾驶和碰撞实验。",
+      "instructions": "用WASD驾驶，空格键拉手刹，Shift使用氮气，C切换相机。R重置车辆，K修复车辆，N更换汽车，B开启慢动作，Tab或Escape打开暂停菜单。手机端使用游戏界面上的控制。先选模式，再结合视角、重置和换车操作观察不同驾驶尝试。",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0470586edef88a9ebc5c9d2840aec878565f78bca4f89feaa66af659c74c4b6f"
+    },
+    "buggy-simulator-sandbox-3d": {
+      "sourceHash": "d4ec83f4a9fa20bc52ea7f2c8426c3e608957a10432d077de5d086880a9aad7d",
+      "title": "越野车模拟器沙盒 3D",
+      "description": "这是一款以越野车物理表现为重点的自由驾驶沙盒。玩家可以在不同地图中观察车身、车轮和悬挂的反应，随时切换可选车辆。城市与桥梁地图提供探索空间，也可驶过山丘、从桥上冲下，看看车辆在不同地形中的运动。\n\n测试区可以撞倒金字塔形物体，并观察悬挂怎样应对路面。游戏明确的目标是按自己的想法驾驶，并未要求必须完成某条比赛路线。可以先选择一个小跳跃或崎岖路段，驶过后切换相机，再换车比较同一地形上的表现。重置操作方便重复尝试，手机端通过屏幕上显示的操作界面控制。",
+      "instructions": "电脑上用WASD驾驶和转向，空格键拉手刹，Shift使用氮气，C切换相机，R重置车辆，N选择下一辆车，Tab打开菜单。手机端使用游戏界面。选择地形进行跳跃或悬挂测试，随时重置、换视角或换车，再比较车辆反应。",
+      "referenceHash": "d2fe25eee0ad2e1bc469dca737efdde05ec4cc5adda724fbeff71f8e917183d6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "This is a buggy physics simulator, ride on various maps and observe the behavior of cars and their wheels. There are sev",
+        "instructionsQuote": "Controls: \"WASD\" - driving/steering \"SPACE\" - handbrake \"C\" - change camera \"Shift\" - nitro \"R\" - reset car \"N\" - next car \"Tab\" - menu The ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a2f73359b9b952a6813b4d6572aa9740455409193110a3a0e2721a88cc59fb96"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "在线国际象棋",
+      "description": "这款国际象棋游戏提供电脑、在线玩家、朋友对局和同屏对战等形式。电脑对手有21个难度等级，时间设置包括无限、Bullet、Blitz、Rapid与Classic，可先选择适合自己的节奏，再研究每步棋对双方王的安全有什么影响。\n\n可走位置高亮、互动提示、悔棋和赛后分析帮助理解局面。目标是将死对方的王，让它受到攻击且没有合法方式脱困。行动前除了看自己的进攻，还要检查对方能够吃掉哪些棋子，并预想其回应。对局结束后，可以通过历史记录和分析回顾关键选择，逐渐认识棋子保护与中心控制之间的关系。",
+      "instructions": "先选择对局形式，设置电脑难度或时间选项。双方轮流按棋子规则走棋，目标是将死对方的王。参考高亮的合法位置，检查棋子是否会被吃掉，再决定落子。需要时使用提示或悔棋，结束后查看棋谱与赛后分析，回顾可以改进的选择。",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "dfa82b0c2a45420d550cc1d5eea199e85ac5252358d7775690b1381d703ed7a3"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "逃离地下墓穴",
+      "description": "这是一款逐个房间逃离地下墓穴的解谜游戏，死灵法师会追赶角色。敌人的移动速度比你快，但不会主动绕开障碍，因此利用房间布局将它们引入死胡同，比单纯沿直线逃跑更关键。目标是在被抓住前继续穿过房间。\n\n规划路线时，需要同时考虑自己的出口和追赶者接下来会走的位置。先查看不能通过的区域，再寻找能把敌人引向障碍、同时给自己留下通道的移动顺序。电脑端提供撤回一步与提示，走错后可以重新考虑路线；手机端使用方向键盘和画面按钮。应把这些辅助操作用于理解地形关系，逐步找出可以脱身的路径。",
+      "instructions": "电脑端用方向键移动，Backspace撤回一步，H获取提示。手机端使用屏幕方向键盘和按钮。先检查房间障碍，把死灵法师引向死胡同，同时保留通向下个房间的道路。路线不理想时撤回重想，需要线索时再使用提示。",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a0b7860401e45c7e968d32ff5f5d9b5f63ac68ca0c1aa88a94b1fe6987f49c4b"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "title": "骑士传奇",
+      "description": "玩家扮演逐渐成长的骑士，穿过有怪物的关卡，通过战斗赚钱、改善装备并解锁新区域。金币可以购买更强的防具，也能购买陪伴作战的宠物，因此成长同时包含骑士自身的保护和伙伴提供的帮助。\n\n准备下一场战斗时，可以查看防具与宠物选项，考虑怎样运用已经获得的资源。核心流程是战斗、收集金币、检查升级，再挑战新的关卡。电脑支持方向键、WASD与ZQSD等移动方式，确认和暂停也有独立操作。手机端则使用屏幕摇杆及确认按钮。先掌握移动与菜单确认，再将装备和伙伴的提升结合起来，为之后的敌人做好准备。",
+      "instructions": "电脑端用方向键、WASD或ZQSD移动，Enter确认选择，Escape暂停或关闭菜单。手机端拖动屏幕摇杆移动，需要确认时点按确认按钮。继续战斗并收集金币，查看防具及宠物的购买选项，借助装备与伙伴提升逐步解锁新的关卡。",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels.",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, up",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "aa6dcced02b3500ffa5b93033d321836bdc29ec6ea2ac8b3c3f0e42bfdfc2e5e"
+    },
+    "catch-the-snowmen": {
+      "sourceHash": "6218b516cb71db823a464116ec738513a67f1808c5ef3c19453f254ff4981744",
+      "title": "抓住雪人！",
+      "description": "收集礼物、招募雪人并带领队伍完成冬日冒险。战斗要先比较等级：可以攻击比自己等级低的敌人，遇到更高等级的对手则应逃开。雪人数量还会影响排行榜位置，因此增加伙伴也是明确的推进目标。\n\n每次完成关卡，都能继续增强雪人的能力并取得新的队伍成员。关卡结束时还可能得到新年玩具，用来装饰圣诞树。收集魔法物品、解锁特殊能力后，可以为巨人与邪恶圣诞老人等首领挑战做准备。电脑用WASD或方向键，手机点击屏幕会出现虚拟摇杆。前进时兼顾礼物位置、队伍成长及敌我等级，再决定接近还是避开对方。",
+      "instructions": "电脑端使用WASD或方向键移动。手机端点击屏幕，出现虚拟摇杆后控制方向。收集礼物招募新雪人，攻击等级低于自己的敌人，遇到更高等级的敌人及时逃开。完成关卡后查看能力提升和新伙伴，并把得到的新年玩具挂到圣诞树上。",
+      "referenceHash": "7d1e1dc122cd7d5e7cb56b972a05d62f0ba74d6346d6f0605cb66f3160ba65ce",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🎅🌨️ Touch the winter magic in the game \"Catch the Snowmen!\" 🎁🎅You can feel like a real Santa Claus, creating nice and cu",
+        "instructionsQuote": "Recruit new snowmen by collecting gifts. Enemies below your level can be attacked. If the enemy is higher than you, run away! At the end of ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "94e758f65618e9b77a18efc8444d507b960ca9a7414b5c152a60e62485e78b37"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "立方门",
+      "description": "这是一款发生在科幻测试室里的平台解谜游戏。发光方块放到压力板上，可以为门、桥梁和电梯供电。有的房间需要多个方块，有的要求特定顺序，还有的必须先跳到某处，再改变供电状态才能继续。\n\n地面标记、电缆和能量线能帮助理解机关怎样连接。搬运方块前先确定目标位置，再考虑启动一个机关是否会改变另一条路线。跳跃准确度、动作顺序和供电距离都影响通关。远处平台需要先冲刺再从边缘起跳；卡住时可在菜单中重开关卡，尝试另一种摆放次序。目标是让标记板上的方块驱动逻辑机关，并打开通向下一区域的门。",
+      "instructions": "用WASD、Q、Z或方向键移动；E或鼠标左键拿起、放下方块，空格键或右键跳跃，Shift冲刺，Escape打开菜单及重开选项。沿地面标记和电缆寻找压力板，先规划搬运与跳跃路线，再按合适顺序放置方块，为出口供电。",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "67a01c59b50f4fd29ea0b15e49ffcd8b4c27baf42823245eadc641c89c5cc00b"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "最爱的拼图",
+      "description": "这是一款可调整拼块数量和工作区域的拼图合集。图片可分为6至1200块，并可选择是否需要旋转。经典模式与写实模式改变拼块的呈现方式，写实模式会将碎片散放在场地中。参考图、提示和可选网格能帮助辨认不熟悉的部分。\n\n游戏提供48个图片分类，也可以使用自己的照片制作拼图。选择难度后，可以先找边缘、特殊颜色或明显图案，再把这些区域与完整图片对照。电脑上用鼠标拖动拼块，滚轮用于缩放或浏览碎片栏；手机用手指移动和调整视图。另有成就、排行榜与每周比赛，可按自己的目标选择较小的图片练习，或挑战更多碎片的完整作品。",
+      "instructions": "开始前选择图片、碎片数量和模式。电脑上按住鼠标左键拖动拼块，用滚轮缩放画面或滚动碎片栏；手机和平板用手指移动与缩放。先拼明显的边缘或图案，遇到相似碎片时放大并查看完整参考图和辅助网格，逐步把局部组合成完整图片。",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gal",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll thro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "49494bd389ab5eefd5f9d8276c4dfe620939e712cf0e57caecb4119e820358bc"
+    },
+    "nonogram": {
+      "sourceHash": "621a497ba9b82dc8a580a0b64502581e661f4c4960b90e6c61f646fe13610449",
+      "title": "数织",
+      "description": "数织是一种依靠数字线索还原图像的逻辑谜题。玩家不需要移动拼块，而是决定哪些方格应当填色。每行左侧和每列上方的数字都限制该条线的填色方式，行与列的要求必须同时成立，因此确定一部分也会为交叉方向提供信息。\n\n一个数字表示一组连续填色格子的长度；多个数字表示依次出现的多组，中间至少隔一个空格。例如“3 1”代表连续三格、至少一格空白，再连续一格。选好难度后，可以比较相交行列的条件，通过确认完整组和必要间隔逐步完成图案。关键是依据线索推理，填写前检查两个方向是否一致，而不是只满足单独一行就立即认定答案。",
+      "instructions": "从左到右读行线索，从上到下读列线索。数字代表连续填色组的长度，不同组之间至少留一格空白。“3 1”就是三格填色、空格、再一格填色。比较交叉行列后再确定不明格子，每确认一组就重新检查相交方向，直到完成隐藏图像。",
+      "referenceHash": "f11d886dbefdbc35dc9001f47fcf56f4b949927554d10393e3fcfd6cb48208c6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Nonogram is a captivating picture cross puzzle with a vast collection of griddlers. Challenge your mind with this easy-t",
+        "instructionsQuote": "The Goal: - Fill in the correct squares to form a picture, using only the number clues - no guessing. Understanding the Clues: - Numbers app",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "13ab17ce6c5e2d7081da10b1bf0e98a6a25446f235f35bf3f13296ae4a63daa3"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "猫咪三消：完美领养",
+      "description": "这是一款以领养收容所小猫为主题的三消游戏。交换相邻小猫，凑齐同类并在步数用尽前完成目标。六十个手绘关卡包含收集指定猫、打开木箱、融化冰笼，以及用爆炸破坏石块等不同要求。\n\n四只同类能产生火箭，弯折排列的五只产生炸弹，直线五只产生清除同色猫的肉球。直线六只则得到发光肉球，范围更大且得分翻倍。特殊猫可以直接点按触发，牛奶瓶可用于关卡开始前的助推道具。游戏还有每日任务、成就和排行榜。多数关卡没有计时，但仍需留意剩余步数，判断是先处理障碍还是先收集目标猫，再利用特殊组合打开局面。",
+      "instructions": "点击一只猫再点邻居，或直接拖向邻居交换；手机上可点按或滑动。特殊猫点击后在原地触发效果，需要的助推道具在开始前选择。按关卡要求凑齐同类，处理木箱、冰和石块，并在步数用完前完成所有目标。暂停按钮可打开菜单、重开或调低音乐。",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of ",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5338fc5885352b1517d05024a3d17def3445e80976f1a61f1f51bbebb8034fe0"
+    },
+    "cyberpunk-block-puzzle": {
+      "sourceHash": "164100f70a1fc79e9386f51f9e815f0ce01a4e801a31165b3c726f26aed0d162",
+      "title": "赛博朋克方块拼图",
+      "description": "在霓虹电路板上滑动发光方块，把它们送到边缘同色连接口。每块只能沿自己的轴线移动，因此一次操作可能为其他方块让路，也可能堵住它们。目标是让全部方块到达对应出口，完成整个棋盘。\n\n游戏有七十多个关卡，网格从5×5到8×9，并逐渐加入墙、冰块和锁。先看每块能移动的方向，再考虑应该先腾出哪一条通路，避免只处理眼前最近的出口。通关可获得芯片并提升黑客等级，还有每天的新谜题。卡住时稍等数秒，内置提示会高亮下一步。鼠标或触屏都采用拖动后松开的操作，重点在于顺序规划与空间让位。",
+      "instructions": "电脑上点击并拖住方块，沿其轴线滑动后松开；手机上触摸并横向或纵向拖动，抬手放置。把所有方块送到边缘同色连接口。移动前查看会不会挡住另一块，先考虑后续通路；找不到方向时等待几秒，观察系统高亮的下一步提示。",
+      "referenceHash": "a3ddc678dc6fb880fc5bb7ea981983ed19887ae9d4b3f71f2bdf01eef276e150",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Cyberpunk Block Puzzle is a stylish logic game set on a neon circuit board. Slide glowing blocks across the grid to deli",
+        "instructionsQuote": "Slide your way through the neon grid! Your goal is to move all glowing blocks into their matching colored connectors on the edges of the boa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c3084c679a990a56b43c74c69b98a1517c02ddd12570538f845e303bc01843a3"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "美发沙龙3D",
+      "description": "这款美发模拟游戏要求根据客人的请求，用不同工具完成相应发型。波波头、莫西干、底部剃短和长层次等造型各有不同轮廓，需要先研究右侧请求卡的三维预览，再决定从哪里修剪、哪些细节最后处理。\n\n剪刀适合精细剪发，推剪用于整齐修短，剃刀处理细部，刷子和染料负责上色。结果越接近要求，星级和小费越高；所得游戏货币可购买工具与染料。游戏列出二十三种发型、五种工具，并有更复杂的发型、贵宾和每日挑战。操作时可以旋转相机查看其他角度，完成后再与请求比较，确认整体长度和局部细节是否一致。",
+      "instructions": "点右侧请求卡看三维预览，用剪刀精剪、推剪整齐修短、剃刀修细节，沿头部滑动来剪发。用双指旋转、调整相机，检查不同角度。需要染色时选择刷子与颜色。对照客人要求完成造型，再点Done获得评分，并用收入购买后续工具和染料。",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0e284d92c614886ac66ba4216b5cd03f529fd384cfbfcc2a6c1f265c37c6c136"
+    },
+    "mahjong-chef": {
+      "sourceHash": "bc3d7be75776b7e4bf0dd3a2d0d884c9cce29606ddc04c624d2ba9d7aaf1bee6",
+      "title": "麻将厨师",
+      "description": "在厨房主题的麻将接龙里，选择两张相同且可用的牌进行配对，清空棋盘即可完成阶段。可用牌上方不能压着别的牌，左右至少一边畅通。每次通关获得食材，用来完成包含五类风味、共五十道中餐的食谱。\n\n游戏共有一千五百个阶段，每十关有首领阶段，还会出现岩石和背面朝上的牌。背面牌先翻开，岩石不能直接选中，需通过相邻牌的配对破坏。随着进度可解锁二十一种牌面，每周厨师联赛也提供目标。金币可购买撤销、提示、洗牌和磁铁；磁铁会自动找到并移除一对。观察拿走一对后能释放哪些牌，比只看当前相同图案更有帮助。",
+      "instructions": "依次点选两张相同的可用牌，检查上方覆盖与左右通路。背面牌先点开，岩石通过消除相邻牌破坏。需要时用撤销恢复上一对、提示显示配对、洗牌重排剩余牌，或磁铁自动移除一对。清空棋盘后领取食材与金币，继续完成食谱。",
+      "referenceHash": "b1b096aa53557a0858809510af53aa47cf0dd477a7657a57850f127b1d30cc1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Mahjong Chef is a relaxing tile-matching puzzle inspired by Mahjong Solitaire, set in a cozy Chinese kitchen. Tap two ma",
+        "instructionsQuote": "How to play: - Tap a tile to select it. Tap another tile of the same type to make a match. - A tile is \"free\" when its left or right side is",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1cdb5ba99499f76104227712286cb1a8310007331d9b50cc5a8f9c96ff76d696"
+    },
+    "redblue-forge": {
+      "sourceHash": "c3168d8006f60ff176ac1a72df2002b7c32a8e0734c84c7a0e4b5d8ee5c766bf",
+      "title": "红蓝熔炉",
+      "description": "旋转中央核心，让其颜色与飞来的火星一致，尽可能长时间坚持。开始使用红蓝双色核心，之后可解锁红、蓝、绿、黄四色模式，得分倍率提升到三倍。每轮需先按Ready，因此可以准备好再开始反应挑战。\n\n火星到达中心前要完成转向，连续正确匹配能够积累分数，错配则结束本轮。每轮获得的材料可以投入持续保留的Forge Tree，用于改善控制、稳定性和得分奖励。短期目标是判断眼前的颜色与时机，长期则是选择强化并解锁四色。两者相互衔接：先用当前能力完成挑战，再用得到的材料为下一轮改善条件，而不是把所有进度都理解为单次得分。",
+      "instructions": "按Ready开始，点按或点击左、右侧旋转核心，在火星撞到中心前匹配颜色。连续匹配争取高分，错误会结束本轮。之后把材料投入Forge Tree升级，再继续挑战。后续解锁四色核心时，要同时处理四种颜色，并使用其三倍得分规则。",
+      "referenceHash": "c5889f3773b2276d15af4453a9ae7923da654da1bed0ea29514ec962a9cb88dc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Red-Blue Forge is a fast reaction arcade game where you rotate core orbs to match incoming embers and survive as long as",
+        "instructionsQuote": "Tap/click left or right to rotate your core and match the color of incoming embers before they hit the center. Press Ready to start each run",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d59270ad850c6316a8a8f43ec505d9d2406a9a19ee0706ddbce2c7691b0292c7"
+    },
+    "red--blue-online-build-destroy-fight": {
+      "sourceHash": "45f27f11b16f6e232a08a6da8f0f82cfa69d38e2c3c074673949431b167603db",
+      "title": "红与蓝：在线建造、破坏与战斗",
+      "description": "这是一款在可破坏方块世界中进行的在线团队射击游戏。玩家能建造基地、防御工事，也能挖出通路。失去与地面连接的方块会掉落并崩解，所以拆掉支撑点可能改变整个建筑和战场，环境本身也能成为战术的一部分。\n\n夺旗模式要求把敌旗带回基地，团队死亡竞赛比拼击败对手数量，沙盒则用于自由建设实验。可通过匹配或自建房间加入。先认清当前模式目标，再决定要修筑掩体、切开路线还是直接交火。鼠标动作随所持物品变化：左键射击或建造，右键瞄准或挖掘。切换工具后应重新确认用途，同时留意附近结构是否失去支撑。",
+      "instructions": "WASD移动，空格键跳跃，C蹲下，左键射击或建造，右键瞄准或挖掘。1至5选择物品，R换弹，J切换小地图大小，M开地图，T开聊天，Tab开暂停菜单。按当前模式执行夺旗或击败对手等目标，挖掘时留意支撑，避免忽略结构倒塌。",
+      "referenceHash": "c7a273b8eb5166ec334022a28c77693a8d63fa587fd0482e4009a4e95e22692f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Red & Blue: Online. Build! Destroy! Fight! — is a fast-paced voxel multiplayer shooter with fully destructible, physics-",
+        "instructionsQuote": "The world is fully destructible with realistic physics: any block that loses its connection to the ground will fall and break apart. Game Mo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e384a0142e9e308f5a9736b1156a171f8396a2c69aa0d23ca0bbae73f4aae0e1"
+    },
+    "spaceball-jump": {
+      "sourceHash": "8717dda4ad5594015c44cbeb997a987209e9513999e9491e4f7f8763dac0d9e1",
+      "title": "太空球跳跃",
+      "description": "控制发光的宇航员球从一颗行星跳向另一颗，收齐星星后打开传送门前往下一区域。每关需要三颗星，整个流程共有二十五关，难度逐步提升。行星的旋转会影响起跳轨迹，因此时机与所在位置同样重要。\n\n场景包含移动平台、密集行星和精确跳跃，还要躲避旋转尖刺墙、危险星体及无尽太空。操作只有一个跳跃动作，但不能把每次跳跃都当成相同的直线位移。先观察当前行星的转速与方向，再选择出发时刻，借助旋转动量到达目标。收集星星的同时也要确认下一个落点，之后通过已经开启的出口继续挑战。",
+      "instructions": "电脑上按空格键或↑跳跃，也可在游戏画面任意位置左键点击；手机和平板直接点屏幕跳跃。先观察行星的旋转方向与速度以及移动平台，再决定起跳时机，躲开尖刺和危险区域。每关收集三颗星以开启传送门，然后从出口前往下一关。",
+      "referenceHash": "5779afb7ed1f8c9e4f96530e274771699c1f16377f176e3bb1a66f15654944da",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Spaceball Jump is a thrilling, physics-based arcade game where you must navigate a glowing astronaut ball through a trea",
+        "instructionsQuote": "Features Orbital Physics: Use the spin of the planets to slingshot yourself across space. Hazards & Collectibles: Dodge spinning spike walls",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "84ad65ef580a9d3873a4e65db4cef8c88df66114853b3610c2166ebab369f7f6"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "汽车特技赛车游戏 3D：汽车游戏",
+      "description": "驾驶汽车穿过高空特技赛道，利用坡道完成跳跃，并避开移动障碍。目标是在不撞毁、不掉出道路的情况下到达终点，限时关卡还要求保持足够进度。检查点可在跌落后帮助从途中继续，多相机视角便于观察狭窄路段与落地点。\n\n接近坡道前，先将车身对正，再控制进入速度，让落地仍然留在道路上。遇到移动障碍时，观察其位置变化后再通过，兼顾时间限制与路线安全。电脑用方向键和刹车，手机用左右转向及油门、制动踏板。这里的重点是车身姿态、转向和节奏配合；每次进入新路段，都应重新确认道路宽度、下一次跳跃与可用检查点。",
+      "instructions": "电脑上↑加速、↓倒车、←和→转向，空格键刹车。手机使用左右转向按钮、油门踏板和制动踏板。坡道前先对正车辆，控制速度并保持落地平衡；观察移动障碍后通过，在时间内到达终点。若从高空道路掉落，可利用已到达的检查点继续尝试。",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp Ca",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "041c5e3e3ecb1fd780d656d437695736bea6c9e1ac9bd9f1fdd8ef6a3da98e66"
+    },
+    "arrow-cube-3d": {
+      "sourceHash": "319b9ac06b6029545e5ab839d79a55736ff6dcc0050d758d13b9723f11997cba",
+      "title": "箭头立方体 3D",
+      "description": "这是围绕六面立方体展开的空间顺序谜题。方块表面的箭头只有在前方没有阻挡时才能移出，目标是最终移走所有箭头。某一面看起来可以行动，并不意味着从其他角度看也没有障碍，因此需要转动整个立方体进行检查。\n\n先找路线已经畅通的箭头，再看移除后留下的空位是否释放了另一条路线。每次操作都可能改变后续顺序，应重新检查隐藏面、指向和前方空间，而不是始终只处理正面。玩法核心是点击移除与旋转观察的配合：通过完整空间关系安排先后，逐步让更多箭头获得出口，直到六个面上的箭头全部清空。",
+      "instructions": "旋转立方体查看各面，确认箭头指向及前方是否被其他部分挡住，再点击要移走的箭头。先处理路径畅通者，移除后重新观察空位和其他面的变化，继续安排下一步。不要只看正面，反复检查方向与通路，清除全部箭头即可完成关卡。",
+      "referenceHash": "9fd011e1130d37040554032f227151b511cfe10108848b325f6bbce6b7c10907",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Remove every arrow from the six-sided cube by finding the perfect order. Arrow Cube Escape is a calm 3D logic puzzle tha",
+        "instructionsQuote": "Tap an arrow to remove it from the cube. An arrow can move only when nothing blocks its path. Rotate and inspect the cube, choose the correc",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "aef44c0cd00ce5eb58308768e1109d254ab5d373f4eb81a283d336d67309e74e"
+    },
+    "stonks": {
+      "sourceHash": "d17b0b7c7f33631a51b39594de9b988fc7e13d873bab22078e431ed5666e2b32",
+      "title": "斯托克斯！",
+      "description": "扮演一只不断向上跳的变形虫，在平台之间攀升并避开下方深渊。高度增加后，平台形状会变化，路线更紧凑，对落点和起跳判断的要求也提高。每轮可以尝试刷新高度、时间和收集生物质的个人纪录。\n\n生物质用于强化跳跃并解锁新的进化阶段。跳跃通过按住、向某方向拖动、再松开完成，拖动长度与角度决定力度和方向。解锁空中跳跃后，可以在离地时额外推动一次，用来调整轨迹或补足到平台的距离。先看下个落点，再决定拉动方向，既要继续升高，也要保证有平台承接下一次跳跃，逐步应对更复杂的路线。",
+      "instructions": "用手指或鼠标左键按住游戏区域，向一个方向拖动后松开跳跃。拖动角度和长度影响方向与力度。确认下一处平台的落点后继续向上，收集能强化跳跃的生物质。解锁空中跳跃后，可在空中再推动一次，用于修正轨迹或到达较远的平台。",
+      "referenceHash": "0d701cf5c6dc27657c45ec7da9b7417ddef92f806d50ecd0a184d9e1710f34ec",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "An arcade game about an amoeba with huge evolutionary ambitions and a very questionable plan: keep jumping higher until ",
+        "instructionsQuote": "Press and hold with your finger or the left mouse button on the game field, pull in a direction, and release to jump. Jump direction and pow",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ac4f64659a381345d004f5e2d05609044da0b9d4de7e63e2902b209a76e913b8"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "奥比工艺：建造一架飞机",
+      "description": "用不同零件组装飞机，再发射出去进行试飞。每个方块都会影响飞行表现，空中收集的金币用于购买新部件和升级。起飞前的弹弓也能强化，强化后可以把飞机发射得更高、更快，因此机体构成与发射条件都需要考虑。\n\n靠近制作区域后，从底部物品栏选择零件并点击安装，缺少的部件可去商店补充。飞行时收集地图金币并避开障碍路线，再回到制作与升级环节。游戏还提供转盘奖励、两个免费外观，以及最多四个设计保存槽。可以保存不同组合，观察调整后的试飞表现，再将金币投入下一次改进，逐步完成障碍挑战。",
+      "instructions": "走到飞机旁的制作区，在底部物品栏选零件并点击安装，不足时去商店购买。用金币强化起飞弹弓，发射后控制飞机收集空中金币并避开障碍。回到商店补充部件，继续组装与试飞；最多四个保存槽可用于保留设计，另有两个免费外观。",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "bcf52e1d513c74b4858c3da54a7b05818fad83e21cde91b565dee7d4cf07913c"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "侏罗纪合并：恐龙进化",
+      "description": "通过合并相同恐龙，创造更强生物并组建军队的策略游戏。玩家在战前调整恐龙的位置，把部队送入自动战斗；胜利获得的水晶和金币用于解锁新角色或增强现有恐龙，形成合并、布阵、战斗和升级的循环。\n\n操作重点在拖动角色进行合并与排列，而不是在战斗中反复点按每次攻击。面对更强敌人之前，先查看哪些同类可以结合，再考虑剩余部队该放在哪里。恐龙的强度与站位都在资料中被强调，因此不要只关注是否能再合成一次，也应观察整支军队的布局。电脑使用鼠标左键拖放，手机使用滑动，准备好后再观察自动对战结果。",
+      "instructions": "电脑上按住鼠标左键拖动角色，手机上滑动角色。把相同恐龙合并成更强个体，再安排战场位置并进入自动战斗。胜利后用水晶和金币解锁角色或升级现有部队。继续挑战前检查可合并的同类和整体站位，为更强的敌军重新准备阵容。",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. 🛡️",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "cca6628497f7c6a1f6be710a3e017befe77614b96ab03e277ec5991412daaf34"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "空中缠斗",
+      "description": "驾驶战斗机进行空中交战，通过转弯、翻滚和回环等机动调整攻击位置。速度与机身姿态会影响瞄准，因此不能只追着目标移动准星，还要控制飞机本身的飞行方向。主武器和副武器提供不同攻击选项。\n\n普通左右转向与急转有独立按键，抬头和翻滚也分别操作。先理解这些动作对航向的影响，再尝试连续组合机动，避免尚未掌握方向变化就同时使用多项操作。电脑通过键盘控制飞行和武器，手机采用摇杆及射击、抬头、翻滚按钮。接近目标时调整速度与位置，开火后也要预留转向空间，继续维持能够观察和攻击对方的姿态。",
+      "instructions": "W加速、S减速，A/D左右转向，Q/E分别向左、右急转。空格键抬头，Shift翻滚，J发射主武器，K使用副武器，R装填。手机用屏幕摇杆和射击、抬头、翻滚按钮。先分清普通转弯与急转，再组合动作调整位置，对准目标射击。",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers li",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "cc681e9474c6707dec2cadeb57d1ab2a0b2ee567e07a03a8e4124600becaa643"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "峡谷摩托试炼",
+      "description": "这是一款二维摩托试炼游戏，重点是通过陡峭地形，并为路线调整车辆配置。爬坡和跳跃不能只靠加速，前后倾身会改变车身平衡；地面突然抬升或落下时，骑手动作与油门节奏都影响能否继续前进。\n\n遇到一直过不去的路段，可以回车库重新调校摩托，再尝试相同地形。失败既能帮助认识路线，也能提醒你改变配置。电脑使用油门、制动倒车、前倾和后倾四种基本动作，手机首次触摸会显示对应按钮。观察从哪里失去平衡，再调整倾身时机或回车库修改，逐步完成路线并争取排行榜上更好的时间。",
+      "instructions": "W或↑加油，S或↓刹车或倒车，A或←后倾并抬起前轮，D或→前倾。R重开，Escape或P暂停。手机用油门、刹车及前后倾四个按钮，右上角还有暂停和重开。观察陡坡与跳跃处的平衡变化，必要时回车库调校后再挑战。",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "380a764334abf564f53f8868454b4685db1637eb1a839675a49e39cc62be5abc"
+    },
+    "sudoku-online": {
+      "sourceHash": "ab34d9cd7b25c4bb52bb7dd15e43a782473d72725d82394a2d0841054dade3cf",
+      "title": "在线数独",
+      "description": "在线数独以9×9网格为基础，每行、每列及每个3×3宫都必须包含1至9且不重复。经典模式有四种难度，也有X数独、Windoku、杀手数独和Kropki等变体。不同模式增加不同限制，熟悉普通规则后仍需先认清额外条件。\n\nX数独要求两条主对角线也不重复，Windoku对额外高亮区域应用唯一性规则，杀手数独要求指定格组满足给定总和。Kropki的白点表示两数相差1，黑点表示一数恰好为另一数两倍。可以从候选最少的格子开始，用笔记记录可能数字，并随着其他格子确定逐步排除。目标是让所有相关限制同时成立，通过连贯推理完成唯一解。",
+      "instructions": "在每行、每列及3×3宫填入1至9，不能重复。先检查线索较多的区域，用笔记保存候选数。变体要额外检查对角线、Windoku区域或杀手数独格组总和；Kropki白点差1、黑点为两倍关系。填写前核对所有关联条件，再继续排除候选。",
+      "referenceHash": "f3e085d40bdb445fde620b015dafc8772bece1ecff35a4c863d4e5ea497f3aac",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Sudoku Puzzle is a free online Sudoku game. No registration, play instantly in your browser. The classic mode offers fou",
+        "instructionsQuote": "The goal is to fill a 9×9 grid with digits from 1 to 9 so that each digit appears exactly once in every row, column, and 3×3 box. Some cells",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "3478d6751dbc22fe536123490c38781c2e1ced8082d16ca5bc1346eee51c92a4"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "3D国际象棋 - 奥术版",
+      "description": "在魔法花园主题的三维棋盘上进行国际象棋对局，铜色与金色棋子构成童话风格的场景。电脑对手提供简单、中等、困难三档，设置可在单人对局前或过程中调整。朋友模式则通过Play a Friend建立临时房间并分享代码。\n\n选择棋子后，发光位置显示合法走法；目标是将死对方的王。可以旋转棋盘、缩放画面来查看局面。电灯泡提示每局最多三次，单人模式使用奖励式提示时需要留意短广告与冷却。房间中所有人离开后，对局及历史会消失，因此这是临时对局空间。游戏支持二十一种语言，触屏也可选择或拖动棋子，操作时先检查高亮落点再行动。",
+      "instructions": "点按或点击棋子，再选高亮格子移动并吃子。拖动旋转相机，双指捏合或滚轮缩放。齿轮设置可改电脑难度、走法提示和声音；灯泡每局最多提供三次建议。朋友对局先建立房间并分享代码，按照棋子规则轮流落子，目标是将死对方的王。",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "65961512f4058a46f5b003b5050e7e97c9e62830463cac828b44340cbee01ce4"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "射击方块",
+      "description": "这款三维破坏射击游戏要求把岛上的房屋、森林和塔楼逐块摧毁，清空所有方块才能完成地点。弹药有限，射击前需要考虑命中位置；炸药和闪电方块能引发连锁反应，把破坏扩散到岛上其他部分。\n\n弹药耗尽后，已经毁掉的方块仍保持消失，可以到商店升级武器再回来处理剩余区域。金币用于新枪、强化和神器，枪升到十级后会开始自动射击。视角可旋转、倾斜和缩放，便于寻找残留方块及有利目标。先观察岛屿结构与可连锁的物体，再决定射击顺序；不要把每次重新挑战理解为必须重建全部破坏进度。",
+      "instructions": "按住鼠标左键射击，A/D转相机，W/S调倾角，＋/－缩放，F重置相机。1至9、Q/E或滚轮切换武器，Esc暂停。触屏长按方块射击，双指或右下相机按钮调整视图。清空全部方块，弹药用完可升级武器后回来完成剩余破坏。",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, a",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and try ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "34a86c384c5f6010d7d8be93ef5030bf322fc0a21f69bb4eff3a3885c5f2258a"
+    },
+    "the-biggest-number": {
+      "sourceHash": "2c04ae445f107cb8e343a1c812121c727065614567f6e356403d9bfef168f96e",
+      "title": "最大的数字",
+      "description": "这款换道跑酷把角色的数字大小作为收集与成长条件。收集小于或等于自己的数字可以继续变大，碰到更大的红色数字则会结束奔跑。途中还要躲避旋转锯、缺口和陷阱，不能只顾数字而忽略路线上的危险。\n\n加法和乘法门提高数值，减法和除法门降低数值，因此进入前应比较可选路径。终点需要用积累的数字撞开尽可能多的墙，较大的安全数值是主要目标。盾牌能保护角色，磁铁会吸来有用数字；金币可提升初始数字和收入，为之后尝试提供更好的起点。根据当前大小决定可收集对象，再结合算术门与障碍安排换道。",
+      "instructions": "电脑用A/D、左右方向键，或按住鼠标左键拖动换道；手机左右滑动。收集不大于自己的数字，躲开更大的红数、锯片、缺口和陷阱。比较加乘门与减除门，利用盾牌和磁铁，在保留尽量大数值的情况下到达终点，撞开更多墙。",
+      "referenceHash": "2db675bc08e1ffffc57658a58425b2f0134638ff2ec3600d5e5290c2f663bfd1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🔢 The Biggest Number is a fast-paced 3D number runner and casual math game where every choice can make you stronger—or e",
+        "instructionsQuote": "🎯 Goal Reach the finish with the biggest number possible and smash through as many walls as you can! 🎮 Controls On desktop, use A/D or the L",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "768b93a0247ade6938cfccbfe1b337aab80b8623746908a312aa8b9b115731ac"
+    },
+    "city-chase-escape-police": {
+      "sourceHash": "dcc99e6ab5ca8b950e2e9cc67342669f96473b31c08335668beaa2fac26e1c89",
+      "title": "城市追逐：逃离警察",
+      "description": "驾驶汽车在城市里躲避警车，尽可能延长逃脱时间。途中收集金币解锁不同特性的车辆，取得生命补给，并利用Ram Bar撞开追赶者。追逐持续时通缉等级会提高，需要不断观察出口，避免被障碍与警车夹住。\n\n默认模式下汽车会自动加速，玩家主要负责方向与倒车；按钮模式可改用油门控制。电脑和手机都提供重置，让卡住的车脱困且不中断本轮。手机还可切换到方向键与GO、REVERSE踏板，并保存该选择。先弄清当前控制模式，再沿空旷路线移动，关注金币、生命与冲撞道具，在越来越密集的追逐中争取更好的生存成绩。",
+      "instructions": "电脑A/D或←/→转向，S或↓倒车；默认自动加速，按钮模式用W、↑或空格键加速。R让卡住的车脱困，Esc暂停。手机按住左或右侧转向，同时按两侧倒车，松开后回正；也可切换屏幕踏板。收集补给并找清晰出口，避免困在警车中间。",
+      "referenceHash": "630d5147f158d65e45acfdc7fd833a71c1b637f8b4c007dddfe659b7f74c3fc7",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Race through the city and survive the police chase for as long as you can! Dodge cops, collect coins, grab HP boosts, an",
+        "instructionsQuote": "Dodge the police cars and survive as long as you can to achieve the highest score. Collect coins to fill the garage with cars. Mobile Contro",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b27cdb44320313aae21d36c540fc0e9ffee1effa2896210385664d7f986c2224"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "title": "天空冲刺",
+      "description": "飞机会跟随手指或鼠标位置移动，玩家在无尽飞行中收集金色星星，并躲避敌人与导弹。飞得越久，速度越高，也会出现新敌人，因此要在收集目标之外，持续观察前方可以通过的空间。\n\n所得游戏货币可在商店购买强化或新外观。每次重新开始都是刷新个人飞行纪录、提高排行榜成绩的机会。控制方式不需要分别按左右方向，而是按住并移动，让飞机追随输入位置。先熟悉机体与指针的对应关系，再在速度增加时减少不必要的来回移动，优先寻找安全路线。强化与外观可在不同尝试之间查看，核心目标仍是在变化的节奏中尽可能飞得更远。",
+      "instructions": "电脑上按住鼠标并移动，手机上触摸屏幕并移动，飞机会跟随光标或手指。收集金色星星，避开敌机与来袭导弹，随着速度提高持续寻找安全通路。得来的货币可在商店购买强化和外观。每次飞行都可尝试超过自己的纪录，并查看排行榜成绩。",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen any",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7b58ef94362aad90f62213fd4fd9cb898cdbc3826dca33a35dc7183f63fd05f8"
+    },
+    "crush-hour": {
+      "sourceHash": "ee6fbb8733078e56ad51116d3d1a144e640947b225707e699fb6fa943dfa1f0f",
+      "title": "僵尸撞击高峰",
+      "description": "驾驶自动前进的卡车，在僵尸占据的高峰车流里尽可能坚持。撞击僵尸能获得分数与连击，汽车和其他卡车也能提供额外分数，但会损伤生命值，其中卡车造成的伤害更多。擦身而过的险避则奖励更干净的驾驶。\n\n燃料耗尽前要拾取油罐，橙色Rampage道具可进入猛烈破坏状态。玩家负责左右换道，也能移上左右人行道，遇到拥堵时需要查看替代路线。这里没有固定终点，车辆撞毁才结束本轮，因此高分与生存时间都依赖持续补给和位置选择。不要把所有碰撞都当成相同结果，而应结合剩余生命、燃料和道具决定下一步。",
+      "instructions": "电脑用←或A向左换道、进入左侧人行道，→或D向右操作；手机左右滑动。卡车自动前进，注意油罐、僵尸和车辆的位置，利用Rampage并避免不必要损伤。车辆撞毁后可按空格键再试，持续生存并刷新高分，而不是寻找固定终点。",
+      "referenceHash": "1e16778ee293f869fe1440230c744c2faee20f32400233820e612d38d7742e48",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Crush Hour is an endless arcade runner set in a zombie rush hour. Your truck drives itself — swipe to change lanes, hop ",
+        "instructionsQuote": "Rush hour belongs to the dead — and you are the truck. Your rig drives itself down an endless highway. Smash zombies for score and combos, w",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ab61b8bc88f206236f4b1fa732c6be99084333ee2f2d563d30a8b22f815d70f7"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "title": "陨石偏转战",
+      "description": "八座城市围绕竞技场，中央核心不断向各方向发射陨石。玩家需要移动偏转装置，把来袭陨石从自己的城市前方拨开，并设法送向对手。目标是保护城市、坚持到最后，而不是让陨石停留在自己的防线上。\n\n游戏支持在线、机器人和私人房间，包含Defence、Paddle、Vault、Invaders、Belt五种模式。模式决定能否使用挡板或发射导弹，射击时还要关注弹药。回合之间可以选择改变玩法的升级。即使城市已被摧毁，也能留下来对幸存者部署破坏行动。先弄清本轮可用操作，再结合陨石进路调整挡板；被淘汰后则切换到选择妨害类型与投放位置。",
+      "instructions": "有挡板的模式中，移动鼠标改变挡板位置；允许射击的模式中，点击发射导弹，并检查剩余弹药。把陨石从自己的城市偏转出去，尽可能留到最后。被淘汰后选择一种破坏行动，再用鼠标指定投放地点。回合之间还可根据情况选择升级。",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. (",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f24c80fff448f17ac0b682861d182748a6da9b433ef8cbaced15f06eeeff9b0e"
+    },
+    "swing-hero": {
+      "sourceHash": "4e8f0d1db6dedfeeff2b56b000e724948a7b3cbc0a4ca2e6c8f09fed62778353",
+      "title": "摇摆英雄",
+      "description": "控制粉红色方块在紫色背景的路线中摆荡，借助动量从一个位置到达另一个位置。目标是越过障碍并抵达终点，摆动时机和持续时间会改变接近下一段道路的方式，因此操作虽直接，仍需要观察运动弧线。\n\n电脑点击后按住鼠标，手机触摸后持续按住，用输入时长控制摆荡。先查看角色当前的轨迹与下一个障碍，再决定维持多久；下一次尝试可有意识地改变持续时间，比较路线随之出现的差异。简洁画面把注意力集中在方块、摆动与障碍之间的关系上。每完成一段，都可以据此判断后续需要的节奏，逐步把短暂尝试连接成通往终点的完整路线。",
+      "instructions": "电脑点击鼠标开始摆荡，并持续按住控制时长；手机触摸屏幕后按住，作用相同。观察方块摆动弧线和下一处障碍，再决定保持输入多久。不同尝试中调整持续时间，比较它对前进路线的影响，逐步掌握动量并以到达终点为目标。",
+      "referenceHash": "5e0711cf2bc0462bbebbaeaf713ddf31655420f3bc63d393910208ce09eed301",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Get ready to unleash your inner acrobat in Swingers, an exhilarating adventure that will test your reflexes and timing l",
+        "instructionsQuote": "Reach the finish line by swinging your character. Desktop: Use mouse click to start swinging and then hold to control the duration. Mobile: ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c4dbf78f5d2a60ec7398a588deb74cf79dfa6de00dc035127960d75e3f4c62b4"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "转线：放松连线谜题",
+      "description": "旋转带有线段的方块，把必须连接的路径全部接通，即可完成这一关。玩家改变的是方块朝向，需查看边缘线段怎样与邻居相接。已经正确连接的路径会高亮，可作为继续调整剩余部分的依据。\n\n初期关卡介绍基本规则，之后网格扩大、分支和多条路径增加，整体关系也更加复杂。游戏有数千关、进度保存及困难谜题提示，没有计时限制，可以按自己的速度推理。先观察需要连接的区段，再转动相关方块，并检查这次改变是否影响另一侧连接。短时间可处理一小段，也可以继续思考更大的布局，重点是让所有要求的网络同时接通。",
+      "instructions": "电脑用鼠标、手机或平板点按方块进行旋转。比较它与相邻方块的线段，不断调整朝向，直到所有要求的路径接通。注意高亮显示的正确区段，再检查未完成部分。若一处改动影响另一条线，要重新核对；卡住时可使用提示继续推理。",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a6805f60110f24eb2db643029f850d605d661b85732f67d2bc7145f958668898"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "深渊灰烬",
+      "description": "深入失联殖民地Sorrow-IV的底层，在黑暗科幻环境中寻找各关出口并面对首领。岩石会坍塌，沙会倾泻，水会流动，岩浆冷却成石，气体可被火花引爆，场地物质的反应同时影响路线与战斗。\n\n流程包含一百关、六章故事、两个结局，七种环境与十五类敌人和首领。五种武器之外还有等离子切割器，用来切开岩石，但对敌人的伤害很小；另有十件古代装甲及Arsenal装备升级。查看右上目标与屏幕边缘箭头，确认下一段下降方向。获得金币后，在暂停菜单或关后进入Arsenal，为更深区域选择装备，再根据地形决定战斗还是开辟通道。",
+      "instructions": "A/D移动，W跳跃，空格键用喷气背包，鼠标瞄准和射击，右键投手榴弹，1至4换武器，F用切割器，Esc暂停。手机左摇杆移动与跳跃，右摇杆瞄准射击，右侧按钮用手榴弹、切割器和换枪。按箭头前往出口，岩石用切割器处理，敌人用武器应对。",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something anci",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b1ff0f2a574de078c5a5472216d8d0d300a4e68f9d53ca84f9aef610bcfc8037"
+    },
+    "fleet-merge": {
+      "sourceHash": "263388e9cf1685e3ab6bd3cf40e833191f5930214fa5de23c1090ac05823a5be",
+      "title": "舰队合并",
+      "description": "这款太空自动战斗游戏把船坞同时作为战斗阵型。购买舰队、合并同种同阶战舰，再拖动安排位置；出战时每艘船会出现在所摆的位置，最上排就是前线。看懂敌方雷达与克制关系，是准备阶段的重要部分。\n\nLine克制Lancer，Lancer克制Artillery，Artillery又克制Line。炮舰适合后排，Lancer从侧面攻击为1.25倍、背后为1.5倍。星图包含区域、首领和巨型Ark，还有英雄、防御、货运袭击与舰队对战模式。按FIGHT后战斗自动进行，可点按改变速度。把信用点和核心投入升级，同时检查阵型匹配，而不只是合成更高阶战舰。",
+      "instructions": "点舰种购买，把同类型、同阶的两艘船拖到一起合并。布阵时上方为前线，查看敌方雷达后安排克制目标，炮舰留后，Lancer争取侧后攻击。按FIGHT开始自动战斗，点按可调速度。战后用信用点和核心升级，再为下一场调整阵型。",
+      "referenceHash": "df193f8cf0434718299ddb7b7bb9bed09e91797cf81f60d3c2052708bb2b2acd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Command a fleet of starships in this merge auto-battler. Buy Line ships, Artillery and Lancers, then merge identical shi",
+        "instructionsQuote": "Tap a ship type to buy a squadron. It flies into your dock. Drag a ship onto an identical ship (same type, same tier) to merge it into a hig",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "38ecb93c22198b8af317827aa275381c02a8601f4dca9cc1d1553ddf993bc21d"
+    },
+    "math-crosswords": {
+      "sourceHash": "0c48aa30068b8bf6d608456c6ce74b18c929329458e4bb846b3a58dac5a88804",
+      "title": "数学填字游戏",
+      "description": "这是一种把填字内容换成数字的交叉算式谜题。横向与纵向计算共享格子，因此一个数字必须同时满足穿过它的算式。随着关卡推进，会遇到加、减、乘、除和更大的网格，每关都有唯一解。\n\n数字位于棋盘旁的面板，可以拖进空格，也可先选数字再选位置；点已填格会把数字退回。正确算式变绿，错误变红，所有算式正确才完成棋盘。交叉点同时受到两个条件限制，通常更适合作为起点。每日谜题、连续完成记录、成就和排行榜提供其他目标，解得快且少用提示能获得更多分数。灯泡提示会直接放入一个正确数字，使用后仍可继续核对相交关系。",
+      "instructions": "将面板数字拖入空格，或先点数字再点目标格。点已占用格子可退回数字。先看两条算式相交处，用加减乘除条件缩小选择；绿色为正确、红色为错误，需使全部算式正确。卡住时灯泡可填入一个正确数字，速度更快且少用提示得分更高。",
+      "referenceHash": "692223e34cd9607ff88e2398202a492d700e5c19fe1dc7e352312e3d9171fcf4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A crossword where numbers take the place of words. Equations cross each other, so a single number has to fit two of them",
+        "instructionsQuote": "Numbers wait in the panel next to the board; the board holds equations with empty cells. Drag a number into an empty cell, or tap the number",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "a70f6ff248ae537343ec27c1a464269d90ab680a39c15b258e781d8abb20df30"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "卢比克斯",
+      "description": "控制彗星，用发光尾迹画出闭合圈，把里面的生物捕获。圈越大，组合奖励越高，彗星也逐渐成长。其他彗星同样在狩猎，碰到它们的尾迹会出局，但若把对手圈进自己的环内，就能取得其分数。\n\n每个世界有不同守护首领，击败后可通过黑洞前往下一个世界。还可孵化跟随并提供奖励的伙伴，解锁外观、帽子和永久升级，参与每日任务等内容。加速能帮助逃脱或及时闭合圈，但会消耗少量体积。因此需要在圈的大小、闭合路线和附近尾迹之间权衡，先确保能安全完成回环，再决定是否使用加速扩大收益。",
+      "instructions": "电脑用鼠标、方向键或A/D控制方向，按住左键或空格键加速；手机拖动手指转向，双击后按住加速。用尾迹围住生物并闭合圈，避开其他彗星尾迹。注意加速会减少一点体积，击败当前世界守护者后再通过黑洞进入下一世界。",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6698c17ecf545d7096bd964076e86edc0bde4f4e24cb9ee9d7ea2e6cdd754a46"
+    },
+    "time-stop": {
+      "sourceHash": "c7b9222687f9800a207ea69d2688a57a8521cd8f662aba636e2e964ae6a1cf16",
+      "title": "时间停止",
+      "description": "这款漫画风格第一人称竞技射击允许暂停时间，把冻结在空中的子弹抓住再扔回去，也可趁敌人无法反应时安排射击。时间停止只持续数秒，并需要重新充能，因此它是要选择时机使用的核心能力。\n\n清除竞技场每波敌人后，选一个能力，再从出口进入下一场。敌人包含自爆者、盾兵和Chrono Boss，场地还会随机加入黑暗或枪械卡壳等修正条件。盾兵能挡住正面子弹，应从侧面处理；自爆者则适合远距离应对。击败敌人获得分数与连击，并可到升级商店购买永久加成，把每场能力选择与长期强化组合起来，争取生存更久。",
+      "instructions": "WASD移动，鼠标看周围，左键射击或投掷，F或右键停止时间，E捡武器与子弹，Q扔出手持物。手机用摇杆移动，右侧拖动看向，画面按钮负责射击、停时和拾取。清完敌人后选能力并走出口，留意停时充能、盾兵侧面和自爆敌人距离。",
+      "referenceHash": "6ca97ce9e7994ee49453ec4ad84149f8a72162db651d96d0e3fa0756f6c3eb9e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Stop time. Catch the bullets. Throw them back. TIME STOP is a fast first-person arena shooter in a manga comic style. Yo",
+        "instructionsQuote": "Goal: Survive as long as you can. Clear every wave in the arena, pick a perk, then go through the exit to the next arena. Kill enemies to ea",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f2fa1d9ea0ab4fdc345169b75824ce112e4600109ce6a2e8ca84c11b77d2eb34"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "title": "SoccerLat：3D 足球在线",
+      "description": "在共享三维球场参加实时足球比赛，人数从1对1到11对11，可以按需要启用机器人守门员。比赛包含犯规、任意球、点球、角球、界外球和裁判；全场结束仍平局时进入点球大战。场地有室内球场与围栏街头球场。\n\n移动位置与射门同样重要。按住左键带球，右键蓄力后松开发射传球或射门；击球时侧移能改变弧线，提高相机朝向可踢高球。铲球要把握时机，过晚会被判犯规。角色的肤色、球衣、鞋帽、姓名号码和球队标识可自定义，也能切换第一人称。电脑、手柄与手机都受支持，按键可在设置重映射，先确认控制再配合场上位置推进。",
+      "instructions": "WASD移动，Shift冲刺，空格键跳跃，左键按住带球，右键蓄力后松开传射。空中左键倒钩，C铲球，守门员F放球，E举手要球，B表情，1第一人称，Esc暂停。手机用摇杆、按钮及拖动视角；侧移射弧线，提高视角踢高球，晚铲会犯规。",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "91be8635d4fddd2e7c92bf3adc168338edf59caa2349bc5b885f60a34a6a99fb"
+    },
+    "slime-loop": {
+      "sourceHash": "d48d31fbebeae5cce47fb61d675aa02c5fecdade1d10adf6eff75ece3e6e845d",
+      "title": "史莱姆循环",
+      "description": "选择史莱姆进入环形路线，让它边行进边射击同色像素，逐步清空像素画。每只史莱姆的射击次数有限，身上的数字就是剩余弹数；等待的角色会占用停车位，所以颜色选择与空间管理同样重要。\n\n游戏有四百五十个关卡，并会介绍新的谜题机制。先看当前画面需要哪种颜色，再决定派谁出发，已停放角色的颜色再次有用时可送回环路。不要没有计划地连续放出角色，而应给后续选择保留停车空间。困难棋盘可以使用助推道具，目标始终是移除所有像素。电脑左键点击或触屏点按即可操作，不需要键盘；每次派出前都可检查颜色、余弹和可用位置。",
+      "instructions": "左键点击或触屏点按史莱姆，把它送上环路，查看身上数字了解剩余射击次数。选择能清除当前像素的颜色，并在需要时将停车位里的角色再次派出。保持停车空间可用，逐步清掉全部像素；困难时使用助推道具，整个过程无需键盘输入。",
+      "referenceHash": "bb40d565999efa89a66f3f4584648bfc2f7eb90ab85901f27578162b14218755",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slime Loop is a colorful puzzle game where cute slimes travel around a loop and clear matching pixels. Choose which slim",
+        "instructionsQuote": "Tap a slime on a touchscreen, or click it with the left mouse button, to send it onto the loop. The slime shoots pixels of its own color as ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8a2e860997c906866b86f3c7acc03f7608419cc01f72aaadf840c0a5a390c1f4"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "城市复古驾驶",
+      "description": "在粉彩风格的八十年代城市景色中驾驶，赶在计时结束前到达每个检查点。车辆自动加速，分岔处可选观景路线或快速道路。与车流近距离擦身而过会增加时间并积累Breeze，满槽后触发能撞开汽车的加速状态。\n\n游戏有海边、深夜高速、交叉城市、枫叶山路和雪地度假区五张地图，音乐会随所走路线变化。到达目标可收集唱片封套，共有二十五种；Miles可购买升级、车辆与地图。先观察交通与分岔，再决定为了补时间接近车流，还是保持路线稳定。掌握拖动转向后，可继续探索不同道路与对应音乐，把检查点推进和封套收集结合起来。",
+      "instructions": "点按开始，左右拖动转向；电脑也可用鼠标拖动、方向键或A/D，P暂停。车会自行加速，近距离避开交通来增加时间并填Breeze。满槽触发Boost后继续前进，在每个分岔选路，时间内通过检查点，到达目标收集封套，再用Miles升级。",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "bcf262371f08bbf76da99259824c75a4f10b3a11944b03beb2ced8354be9661b"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "title": "战利品洞",
+      "description": "从自家前院向下挖掘，穿过越来越坚硬的地层，把发现的宝物背回地面摊位出售。金币用于更好的铲子、镐和钻头、更大背包、喷气背包及爆炸物，再继续向一千米深的底部推进。每层尽头有隐藏地标及稀有发现。\n\n收藏册记录所得物，邻居还会提出需要特定物品的请求。背包满时先返回地面出售，再到工具棚更新装备，让下一次开采更有效。游戏可以单人，也可在共享庭院最多四人合作，通过私人房间代码或开放庭院加入；Neighbours还提供挖掘竞赛。规划时兼顾背包空间、地层硬度和升级需求，逐次把挖掘收益投入更深的探索。",
+      "instructions": "WASD移动，鼠标看向，按住左键对准挖掘；靠近发现物自动收入背包。H回地面并走入摊位出售，B/I开背包，C看收藏，Space跳跃或喷气，X投爆炸物，Q换种类。P开一起玩，合作庭院最多四人。手机用摇杆与按钮，触摸长按挖掘。",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "db4f43cdaadf1e52015700c1c0c5971c2d8c97e9b609e5c23e28e3ee0fd49a38"
+    },
+    "slowmo-sniper": {
+      "sourceHash": "81a6a638d137acd52dae709da3a26f6c7dc09bdd0b1d9c851baefa9a0e6d0522",
+      "title": "慢动作狙击手",
+      "description": "每个任务浓缩为一次从掩体跃出的慢动作跳跃，玩家必须落地前击败所有敌人。提前落地或耗尽子弹都会失败，射击前要看清每个目标与环境。红色油桶能炸伤成群敌人，打断绳索可让重物掉落，头盔则要预留额外命中。\n\n世界地图包括城市、雪地、西部小镇、公路与空降场景，每第三个任务会改用双枪、火箭筒或机枪。完成契约赚取资金，升级步枪的伤害、缩放、弹数和装填，收集星星推进奖励。最多失误一次才能拿三颗星。操作采用瞄准圈内按住、拖动、松开发射，圈外拖动转相机，先安排射击顺序再花掉有限弹药。",
+      "instructions": "在瞄准圈内按住鼠标左键或空格键，移动鼠标瞄准，松开发射；触屏同样在圈内按住、拖动、松开。圈外拖动转相机。落地前消灭全部敌人，留意油桶、悬挂货物和头盔。若弹数或伤害不足，先提升对应步枪属性，再重新安排射击。",
+      "referenceHash": "89728ce2aea9104274b0bba38fb4feedd8e30a92d3f642f21a914b8fb2eda377",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "SlowMo Sniper is a 3D sniper game where you leap out of cover in bullet time and take down every enemy before you hit th",
+        "instructionsQuote": "Your sniper sprints out from cover and leaps sideways, and time almost stops. Take down every enemy before you touch the ground. If you land",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "63330d7b7c9ce13e3541145f9257466c2ac2e0be88325c04a6551fd38899167c"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1 僵尸生存",
+      "description": "这款方块风第一人称僵尸射击每秒增加一点力量，使射击逐步变强。先在训练场学习，再到五座大城各生存十夜。每夜由玩家主动开始，所有街道涌来的僵尸群被清除后才结束，开战前有必要查看据点准备。\n\n房屋、商店和商场都有内部空间，可以设门、布置陷阱，并用镐打通墙面形成射击口。停放车辆能用于冲撞大群，但资料明确提醒不要用它撞首领。共有十一种可解锁武器，还能通过击败首领与转生获得永久倍率。把防御布置、修理、升级和武器选择结合起来，在力量持续增长的同时维持住夜间防线。",
+      "instructions": "WASD移动，鼠标视角，左键射击、右键瞄准，Space跳，Shift跑，R换弹，1至0或滚轮换枪。B开蓝图，E开关门或上下车，F修理，U升级，G开始夜晚，Esc暂停。驾驶W/S油门刹车、A/D转向；手机用屏幕摇杆和按钮。清掉当夜僵尸群才能结束。",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4b72d8f21bb508165b3eccc3ec3d260b6b7340f3a9635fa092aa2a14e0f4d9b0"
+    },
+    "chameleon-sniper": {
+      "sourceHash": "13ee18b8d7cce08d96517851364c549d5b02ea7bdfd5a16ac203db93a156f2da",
+      "title": "变色龙狙击手",
+      "description": "敌人被涂成与墙、屋顶或岩石完全相同的颜色，需要寻找凸出的头、手臂和不规则轮廓。转动海上小岛检查不同角度，再用瞄准镜放大射击。任何命中都能击败目标，爆头和剩余子弹则带来额外金币。\n\n子弹或时间用尽会失败，最多打空一次才可得到三颗星。Bullets增加弹数，Size使敌人更大、更容易发现；Mark标出一人，Beams显示敌人位置，Recolor改成亮色，Night Vision改变环境显示。每日任务、无辅助的小目标特别行动和奖励关提供不同挑战。观察形状后再开枪，用星星与金币获取瞄准镜、步枪和外观，逐步提升狙击等级。",
+      "instructions": "鼠标移动查看，A/D或方向键转动岛屿，右键或空格键放大，移动瞄准后左键射击。触屏拖动查看，长按箭头转岛，按住AIM滑动瞄准，松手开火。检查远侧墙面和屋顶轮廓，在弹数与时间用尽前击败所有敌人，需要时使用标记或改色等辅助。",
+      "referenceHash": "15287ba811fe2e365c2447360c2fef227cbc724bd21d42d08cadc28748c28ee2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Chameleon Sniper is a 3D sniper game where you turn a tiny island floating in the ocean and take down enemies hiding in ",
+        "instructionsQuote": "Somewhere on the island, enemies are hiding, painted to match the surface they're stuck to. Turn the island, scan every wall, roof and rock,",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fd9396ba5abda36784eac77e4f012b871b34b73a9819f9284c4430be9b7314c9"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "骰子大亨",
+      "description": "将一批立体骰子掷入托盘，按停稳后的顶面点数取得游戏内收益。骰子从d4到d20分五个层级，可购买更多骰子、神器与奖励雕像。掷出各骰子的最大面会触发JACKPOT，并为FEVER计量条充能。\n\nFEVER满后收益翻倍八秒，特定神器可延长。游戏有三十个契约、二十二个奖杯、每日四项目标、每周三项目标和七日签到奖励。单轮赚到游戏内一百万美元可转生，获得永久提高收益的星星倍率。先看当前CONTRACT要求，再把收入投入骰子、运气或神器。任务完成后需按CLAIM领取，长期升级与当前投掷结果共同推进下一阶段。",
+      "instructions": "点击或点按托盘，或按Space、ROLL投出全部待用骰子。最大点数给JACKPOT并积累FEVER，满槽后享八秒两倍收益。完成CONTRACT和MISSIONS目标并按CLAIM领取，用钱买骰子、层级和升级。单轮游戏内收入达到一百万美元时，可选择转生换永久星星倍率。",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "52ad5b847c94b6663b88899f6b27251ad35a1fa1fd6e23d0b1b5189434313a2c"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "title": "奇怪的宠物店",
+      "description": "每天拆开配送箱，对照指南检查宠物是否有异常，再照顾正常动物并向买家出售。多一只眼、没有影子、第三只耳朵或肚子上的嘴都可能是线索。二十四种宠物包含仓鼠、龙和凤凰，十五种异常中有些需要观察行为或扫描。\n\n正常宠物可以用手指或鼠标抚摸，良好照顾能提高价格。销售通过聊天进行，可以接受报价、坚持原价或要求更多，但过度抬价会让买家离开。白天漏掉异常，夜里笼子就可能出现动静，要及时点按。班次结束后看结果并用金币改善商店，继续收集不同宠物与稀有颜色。重点是先认真核验，再处理照顾、议价与夜间观察。",
+      "instructions": "点Start shift打开配送箱，计时内对照Guide。正常选Looks normal，异常选Anomaly!后点击异常细节。抚摸正常宠物，再在聊天里接受、坚持或提高报价；夜间及时点有动静的笼子。电脑用鼠标，手机用触屏，班次后用金币升级店铺。",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each ",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks nor",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "b491e2b95ce2513033365c88648cd0517c184e6a05d4c469ed68a8a0e5d4ce13"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "Battlecross：跨职业冒险",
+      "description": "英雄可以向不同老师学习能力，自由组合骑士盾牌、火焰、召唤或停止时间等技能，不必整段冒险只跟随一种职业。装备、属性、主动和被动技能共同决定战斗方式，城镇提供商店、治疗与训练服务。\n\n接近敌人会自动攻击，必要时用技能和生命药水。清除区域所有敌群及末尾首领即可完成，即使倒下也保留经验和战利品。每级获得三个属性点，可从十六个职业安排八个主动、四个被动技能槽。在城里还能扩大药水腰带。部分区域末的决定无法撤销，会改变城镇、商店、老师和结局，因此角色成长之外，也要认真阅读故事选项再确认。",
+      "instructions": "靠近敌人自动攻击，配合技能与生命药水清除全部敌群及区域首领。升级时分配三个属性点，到城里买装备、扩充药水腰带并学习能力。八个主动与四个被动槽可组合十六职业技能。区域末的重要选择有些不可撤销，确认前阅读它对人物和城镇的影响。",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9c0203911b8f6b06a23434cfa9c378b0a458e50ed7cf9387942e4951d4218a78"
+    },
+    "explainable-minesweeper": {
+      "sourceHash": "37d1ee18a0b617d862593fa1747511e5fc88a017283c1617e316134f24254fee",
+      "title": "会讲解的扫雷",
+      "description": "这款扫雷式逻辑谜题把隐藏目标换成睡着的刺猬。数字表示周围八格中的刺猬数量，打开全部无刺猬格即可完成。Hint会让狐獴Pip指出安全格，并说明哪些数字证明它安全，帮助理解两组条件的共同区域。\n\n棋盘有十六种尺寸，从5×5到20×20，每种二百题，共三千二百题，另有每日谜题与保存进度。每盘三颗心，打开刺猬格或插错旗都会扣心，耗尽后还有复活选项。可解锁八种场景主题，随着更多天完成棋盘，营地逐渐增添设施。玩法重在比较线索和理解理由，先确定旗帜，再利用数字格一次打开其余相邻格，避免把未经验证的猜测当成结论。",
+      "instructions": "电脑左键开格、右键插旗；手机点按开格，切到旗帜模式标刺猬。数字周围刺猬已全标出时，点按或右键数字可打开其他邻格。错开刺猬或插错旗会扣一颗心，每盘三心。卡住点Hint看安全格与推理，双指捏合或滚轮可放大大棋盘。",
+      "referenceHash": "db6294e0ae0c8f086a2dde3139659fbe317d166c54a75abf12ab84475ac52e53",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Explainable Minesweeper is a minesweeper you can always solve with logic. No guessing, ever. Hedgehogs are sleeping hidd",
+        "instructionsQuote": "• Each number shows how many hedgehogs are in the 8 cells around it. • Open every cell that has no hedgehog to clear the board. • Mobile: ta",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c18c7388b51e07b45dfbd7c6b40ee12263a6e5899d51be6dba6539453d3ad861"
+    },
+    "pickle-rally": {
+      "sourceHash": "3bc4e633bcb3d5601c58b9ef818e4ceba997f61d056f40d0e15bc274c21747ad",
+      "title": "匹克球拉力赛",
+      "description": "这是一款以击球选择与落点为核心的三维匹克球游戏。角色默认自动跑向球，玩家决定打轻放球、强力抽球还是高吊球。球高时还能扣杀，目标是把球送到对方无法接回的位置，赢下连续回合。\n\n每局可采用七、十一或十五分制，必须领先两分获胜。世界巡回横跨十个国家，完成后解锁精英、无尽及冠军巡回，另有八个食物首领。宝石、球拍、服装和奖杯提供成长与收集目标。想自己控制位置，可在设置把Movement切成FREE。先掌握不同球种和方向输入，再根据来球高度与对方位置选择落点，而不是每次都只用同一种击球。",
+      "instructions": "J轻放、K抽球，遇高球K扣杀，L高吊；击球时按A/D或左右键瞄方向，P暂停。触屏点按轻放、上滑抽球或高球扣杀、下滑吊球，左右点位或斜滑调方向。FREE模式电脑WASD或方向键移动，手机左半摇杆、右半击球。七、十一或十五分制都须领先两分获胜。",
+      "referenceHash": "67bcd1d196430eb0d73b850bf7d9c71c6b96d38348451d089310c4be4d8cf4c1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Pickle Rally is a bright, cute 3D pickleball game you can pick up in seconds. Time your shots, place the ball where your",
+        "instructionsQuote": "Win each rally by landing the ball where your rival can’t return it. A game is played to 7, 11 or 15 points and you must win by 2. Clear the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7fd2cf8be3294be63abe861a5617e8f472db00784cdc669a44171e47585fcf36"
+    },
+    "aod--art-of-defense": {
+      "sourceHash": "7d84c9ea4797727c34f53f85132b2261bd37d592ac8054c73b11dfe7033be3e4",
+      "title": "AOD-- 防御的艺术",
+      "description": "在末日后的世界指挥防御部队，用塔防网络阻挡追寻Project Inola的敌军。战场从小村庄延伸到大城市，战车、机枪、对空武器与英雄、重型支援攻击一起构成基地防线，目标是在战斗中保护据点。\n\n内容列出五百多个区域、一千多种塔升级和六名可培养英雄，各塔还有升级卡。逃脱、迷雾和生存模式会改变守卫条件，不能把所有战斗都按同一种节奏处理。先查看来敌方向与威胁，再布置防御、强化主力，并利用英雄及弹道攻击、卫星打击等支援。面对后续首领时，既要检查塔的成长，也应查看已经可用的辅助能力，持续调整防线。",
+      "instructions": "鼠标左键放置防御塔，滚轮或触摸板捏合调整缩放。根据来袭敌人建立防线，使用战车、机枪、火箭与英雄保护基地。随战斗升级主要塔和英雄，查看可用卡牌与支援能力；强敌出现时，可考虑弹道打击或卫星攻击等方式加强防御。",
+      "referenceHash": "55cd9da741187a3bf20785fc7e11d048f8303ca2c975c726fd6279ab8d67f996",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "AOD - Art Of Defense is a dynamic tower defense game with elements of strategy and RPG in a post-apocalyptic world.",
+        "instructionsQuote": "AOD - Art Of Defense is a dynamic tower defense game set in a post-apocalyptic world. As the commander of the A.O.D squad, you lead the figh",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "10ab325c253d00b44cd7a4cccab3c7448f8fcfa7dd3eddd003aa386a1ab7aee1"
+    }
+  }
+}

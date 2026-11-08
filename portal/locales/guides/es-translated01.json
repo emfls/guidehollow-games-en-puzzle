@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "locale": "es",
+  "games": {
+    "school-escape-obby": {
+      "sourceHash": "72fe6c468e62e1d90b0d85d3b5a695d2073196bdccaeac836ef04d67c3e2d75d",
+      "title": "Escape escolar Obby",
+      "description": "Recorre un circuito de obstáculos y busca la salida de la escuela mientras intentas completar la fuga a tiempo. Los escenarios pasan de pasillos escolares a zonas de mazmorras, y combinan saltos, obstáculos y pequeños rompecabezas.\n\nAdemás de moverte, puedes interactuar con objetos y empujar enemigos. Conviene distinguir qué parte del recorrido exige saltar y cuál requiere utilizar algo del escenario. Los controles de pausa y cursor permiten revisar la interfaz, mientras que las apariencias sirven para personalizar al personaje.",
+      "instructions": "En PC, usa WASD para moverte y Space para saltar. Pulsa E o haz clic para interactuar con objetos, F para empujar enemigos, Shift para mostrar el cursor y Tab para pausar. En el móvil, utiliza los controles de pantalla y busca la salida sin perder de vista el tiempo.",
+      "referenceHash": "bd6cddd9186001dc351244ecccf65ebab1341329542337a5ef58910106d6f168",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dive into the thrilling world of School Escape Obby — a vibrant online game in roblox style with stunning graphics and d",
+        "instructionsQuote": "Escape from school, play for time Controls on PC: Shift - show cursor WASD - move. Space - jump. TAB - pause. F - push enemy E - interact wi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9a789d32c6a916c2092c3d3ab5f4c915d0adf15a249eca491fbc6719cc84c4e2"
+    },
+    "organize-it": {
+      "sourceHash": "4020b81bc4adc8189e0c3b5d2002370205c73b896d283a061455f395e7a11e0f",
+      "title": "Ordena la habitación",
+      "description": "Ordena habitaciones colocando cada objeto donde corresponde. La escena solo termina cuando todo está en su sitio: completar una parte del mobiliario no basta para pasar al siguiente espacio. Una vez ordenada la habitación, el juego avanza automáticamente a otra.\n\nLa interacción consiste en seleccionar un objeto, arrastrarlo al lugar adecuado y soltarlo; las instrucciones también indican volver a hacer clic para liberarlo. Empieza por los objetos cuyo destino reconozcas y utiliza la distribución de la habitación para decidir dónde colocar los demás.",
+      "instructions": "Haz clic sobre un objeto para sujetarlo y arrástralo hasta el lugar que le corresponde. Vuelve a hacer clic para liberarlo según la interacción indicada. Continúa con los demás objetos hasta ordenar toda la habitación; entonces pasarás automáticamente a la siguiente. Observa el espacio completo antes de decidir la ubicación de cada pieza.",
+      "referenceHash": "cfaff3d619ed78a24f27b6c19a65e74f1cbca4a8530b2471fe978a7335383948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Clutter Master is a handcrafted casual cozy game where you organize a messy room by placing each item where it belongs. ",
+        "instructionsQuote": "Organize the messy room by placing each item where it belongs. Click on an object to grab it, then drag and drop it into the correct spot. C",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0afb4e01f128dc4028fe47e8f608352a7e3ebb9d8742b78a6d27fe14ca8bb082"
+    },
+    "the-road-home-granny-escape": {
+      "sourceHash": "eaf3398c2900801fa73c39af966aa5a0de59eeaf187a8095664a66baf73adeb4",
+      "title": "El camino a casa: escapa de Granny",
+      "description": "Granny y Grandpa te han encerrado en una casa tras interrumpir tu viaje por el bosque. Debes explorar habitaciones oscuras, encontrar objetos y resolver rompecabezas para abrir una ruta de escape. Tus captores reaccionan al sonido y al movimiento, por lo que buscar una llave también exige prestar atención a su presencia.\n\nLos recursos permiten fabricar objetos útiles y abrir pasajes. Alterna la exploración con momentos de cautela, observa las trampas y decide cuándo atravesar una zona expuesta. La libertad depende de aprovechar lo que encuentras y descubrir una salida de la casa.",
+      "instructions": "Muévete con WASD, agáchate con C y salta con Space. Busca llaves, objetos y materiales, resuelve los rompecabezas y combina recursos cuando sea necesario para abrir caminos. Vigila a Granny y Grandpa, que reaccionan al ruido, y utiliza los objetos encontrados para escapar sin que te atrapen.",
+      "referenceHash": "d6050c141d1b56637e78b59435c090694f51e1ceb381c143e504843778eac49f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "The Road Home: Granny Escape is a terrifying 3D horror survival game where your only goal is to escape a haunted house f",
+        "instructionsQuote": "WASD — Move C — Crouch Space — Jump The main goal is to escape from the old people's house. Find useful items and use them to your advantage",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8af7ee5e51dd2f1ef9a1778c20955e591549eee38503991aeaeae79b9e30c808"
+    },
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "Rey de la destrucción de coches",
+      "description": "Combina carreras con un escenario para poner a prueba la resistencia de distintos coches. Puedes cambiar de mapa y vehículo, competir por un nuevo récord o comprobar qué ocurre al atravesar martillos giratorios, prensas y catapultas.\n\nLa cámara lenta permite observar mejor los choques. Antes de empezar, elige el modo que quieras probar y distingue los controles para reiniciar la posición del coche y restaurarlo. Cambiar de cámara o repetir un obstáculo con otro vehículo ayuda a comparar sus reacciones en el mismo escenario.",
+      "instructions": "Conduce con WASD, usa Space para el freno de mano y Shift para el nitro. C cambia la cámara, R reinicia el coche, K lo restaura, N cambia de vehículo y B activa la cámara lenta. Tab o Escape abre la pausa. En móvil, utiliza los botones de la interfaz para realizar las acciones.",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore ca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "92b3b04c1a254d9a93ab6e43877756ee07ad61088e4b85c1be04fcb7194d918d"
+    },
+    "buggy-simulator-sandbox-3d": {
+      "sourceHash": "d4ec83f4a9fa20bc52ea7f2c8426c3e608957a10432d077de5d086880a9aad7d",
+      "title": "Simulador de buggies: conducción libre 3D",
+      "description": "Explora un entorno de conducción libre y observa cómo responden los buggies, sus ruedas y la suspensión. Hay varios vehículos disponibles y puedes cambiar entre ellos para comparar su comportamiento en los mismos terrenos.\n\nEl mapa de ciudad y puente permite recorrer colinas y probar saltos, mientras que la zona de pruebas incluye pirámides que puedes derribar. El objetivo es conducir a tu manera. Elige un tramo, observa la respuesta del coche y cambia de cámara o vehículo antes de repetirlo. El reinicio permite volver a intentar los obstáculos.",
+      "instructions": "Usa WASD para conducir, Space para el freno de mano y Shift para el nitro. Pulsa C para cambiar la cámara, R para reiniciar el coche, N para elegir el siguiente vehículo y Tab para abrir el menú. En móvil, utiliza la interfaz del juego. Prueba el terreno y repite los saltos cuando quieras observar otra reacción.",
+      "referenceHash": "d2fe25eee0ad2e1bc469dca737efdde05ec4cc5adda724fbeff71f8e917183d6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "This is a buggy physics simulator, ride on various maps and observe the behavior of cars and their wheels. There are sev",
+        "instructionsQuote": "Controls: \"WASD\" - driving/steering \"SPACE\" - handbrake \"C\" - change camera \"Shift\" - nitro \"R\" - reset car \"N\" - next car \"Tab\" - menu The ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "451a22ca808135b5a323d17c9412c260f14e8ba6753357abc108068b5d8d1bf3"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "Ajedrez multijugador en línea",
+      "description": "Juega al ajedrez contra el ordenador, otros jugadores en línea o un amigo, incluso compartiendo pantalla. El rival informático ofrece 21 niveles de dificultad y puedes elegir controles de tiempo desde partidas sin límite hasta Bullet, Blitz, Rapid o Classic.\n\nLas casillas legales resaltadas y las pistas ayudan a estudiar la posición antes de mover. También puedes revisar el historial y el análisis posterior. El objetivo es dar jaque mate al rey rival, así que considera tanto tus amenazas como las piezas que el oponente puede capturar.",
+      "instructions": "Elige el tipo de partida y ajusta la dificultad o el tiempo disponible. Mueve por turnos siguiendo las reglas de cada pieza y busca un jaque mate sin escapatoria legal. Revisa las casillas resaltadas, protege tus piezas y considera la respuesta rival. Al terminar, consulta el historial o el análisis para revisar tus decisiones.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "7d0ae91b51991fdb9f97eb20fcc011d0ce5682faefe3df3a00c656572027c30a"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "Clasifica los tornillos",
+      "description": "Clasifica los tornillos de colores de una estructura de cristal y envíalos a las cajas del mismo color situadas arriba. La capacidad de cada caja marca el avance: cuando sus huecos se llenan, aparece una caja nueva para continuar la recogida.\n\nMira qué colores están disponibles antes de elegir el siguiente tornillo. Tras completar una caja, comprueba su sustituta, porque el color que necesitas puede cambiar. La tarea consiste en atender los destinos actuales y seguir retirando los tornillos que coincidan con ellos.",
+      "instructions": "Observa los colores de las cajas superiores y mueve cada tornillo a una caja de su mismo color. Comprueba los huecos restantes antes de elegir otra pieza. Cuando una caja se complete, revisa la nueva caja y adapta la siguiente elección a los destinos que aparezcan.",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the screws",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9a7bb6b1b719ea09642e2b3ae0005722ce3f4a435ea7edcd4b8752f73f2f0077"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "Escapar de la cripta",
+      "description": "Escapa de la cripta avanzando de habitación en habitación antes de que te alcancen los nigromantes. Se mueven más rápido que tú, pero no evitan los obstáculos: esa debilidad permite atraerlos hacia callejones sin salida.\n\nExamina tanto la ruta de escape como el camino que seguirá el perseguidor. Una buena secuencia conserva una salida para tu personaje mientras dirige al enemigo contra una obstrucción. Puedes deshacer un movimiento y pedir una pista para reconsiderar la situación cuando una ruta no funciona.",
+      "instructions": "En PC, muévete con las flechas, usa Backspace para deshacer un movimiento y H para pedir una pista. En móvil, utiliza la cruceta y los botones de pantalla. Revisa los obstáculos y atrae a los enemigos a zonas sin salida sin bloquear tu propio camino hacia la siguiente habitación.",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "77e8268ca0cf592444a01969ef4b2abb5e22cd0098eb33d3dcc36fdeec777a99"
+    },
+    "ludo-legend": {
+      "sourceHash": "af03d3c21404e1b666b1c39d862818fd45626cad62324000517f19352efa3d2d",
+      "title": "Leyenda del ludo",
+      "description": "Lleva todas tus fichas desde la salida hasta la zona segura antes que los demás. Para sacar una ficha necesitas obtener un 6; después eliges qué ficha mover con cada tirada. Si un rival cae en una casilla ocupada por una de tus fichas, puede enviarla de vuelta al inicio.\n\nPuedes jugar solo o compartir un dispositivo con amigos. La elección de ficha importa tanto como la tirada, porque avanzar una pieza puede exponerla a un rival. Observa las posiciones del tablero, reparte el progreso entre tus fichas y completa todo el recorrido para ganar.",
+      "instructions": "Tira el dado y elige una ficha que pueda moverse. Usa un 6 para sacar una ficha y continúa acercando todas a la zona segura. Antes de decidir, revisa qué rivales pueden alcanzarlas. Si compartís dispositivo, pásalo al cambiar de turno. Gana quien coloque primero todas sus fichas en la meta.",
+      "referenceHash": "bb8662468f70fa727b05facbf0ede7873c0bc6bb244c1b35170e0478ccd9e88b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play a game of Ludo! Everyones favourite board game! Play alone or with your friends on one device! Just pass it on! Col",
+        "instructionsQuote": "Get your tokens from start to finish with rolls of a die. First, release them on the roll of 6. Roll a die and decide which token you move. ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e341b0dd702effd6ae7f7422b22d888165880b88fb070ecefcfda37cb1abb102"
+    },
+    "tall-io": {
+      "sourceHash": "6ac1ea15f898ce626fce6c54a0a561ba38b9eac4cdde38654059793f6d479f76",
+      "title": "Tall.io",
+      "description": "Controla una figura de palitos en una arena donde recoger materiales aumenta su altura y fuerza. Los ladrillos, cubos, monedas y orbes forman parte del recorrido de crecimiento, mientras otros participantes compiten por dominar las distintas islas.\n\nMuévete por la arena para reunir recursos y mejorar tu tamaño antes de enfrentarte a los oponentes. La descripción también menciona espadas y armaduras para apoyar los combates. El espacio sirve para atacar o golpear: combina esa acción con el movimiento y presta atención a lo que puedes recoger en cada zona.",
+      "instructions": "Usa las flechas o WASD para moverte por la arena y recoger cubos, monedas y ladrillos que aumentan la altura. Pulsa Space para atacar o golpear a los rivales. Revisa los recursos cercanos y utiliza las espadas y armaduras adquiridas mientras intentas crecer y competir en las islas.",
+      "referenceHash": "322ae579d42971c0798ee28b61a29fd12319da5f039114bcb682816642f5fbeb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Tall.io is an engaging and addictive browser-based HTML5 game that combines elements of growth strategy and battle-arena",
+        "instructionsQuote": "Understanding the &controls& in Tall.io is crucial for success. Players use the arrow keys or WASD keys to navigate their &stickman& through",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c834078266a1c2150912fb08f757e8481cc0f74c11bd7fc741c6472dbd2fc084"
+    },
+    "edgefire-2-667e-1": {
+      "sourceHash": "8a809924f8cda065c49221b73eb5208d5df8349f327e3897b897aed8ebbbf6d8",
+      "title": "EdgeFire 2",
+      "description": "EdgeFire 2 plantea combates de disparos con énfasis en la precisión, el movimiento y la cooperación. Su presentación combina una estética inspirada en los clásicos del género con enfrentamientos competitivos donde la coordinación del equipo forma parte de la estrategia.\n\nLos controles indicados cubren desplazamiento, disparo, recarga y pausa. Antes de atacar, observa tu posición y considera la respuesta de los rivales. Mantener el control de la puntería y elegir cuándo recargar son las acciones concretas con las que empezar a familiarizarte con el combate.",
+      "instructions": "Muévete con WASD y dispara con LMB, el botón izquierdo del ratón. Pulsa R para recargar y Esc para abrir el menú de pausa. Ajusta tu posición antes de disparar, presta atención a los rivales y combina precisión con decisiones de movimiento durante los enfrentamientos.",
+      "referenceHash": "218b2e582a640c0ade3d9366f4937dbffed836a18c20eb305859ce0ee18275af",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "EdgeFire 2 is a large—scale and multifaceted game universe offering a deep reinterpretation of the classic formulas of t",
+        "instructionsQuote": "WASD - movement R - recharge LMB - shot Esc - pause menu To rise to the top and put your name in the pantheon of legends of this game, it's ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "2e7c08dcf6cd2ddd097e62e004126a246cda9c4e0b69227fc2204e9b0e91a430"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "title": "Leyenda del caballero",
+      "description": "Recorre niveles llenos de monstruos mientras mejoras a tu caballero y desbloqueas nuevas zonas. El dinero obtenido permite comprar armaduras y mascotas que ayudan en los combates, de modo que el progreso combina la protección del héroe con el apoyo de sus compañeros.\n\nEntre enfrentamientos, revisa las opciones disponibles antes de seguir avanzando. Reunir oro, mejorar el equipo y preparar a las mascotas forman parte del mismo ciclo. Los controles ofrecen varias alternativas de movimiento en PC y una palanca virtual con confirmación en móvil.",
+      "instructions": "Muévete con las flechas, WASD o ZQSD. Enter confirma selecciones y Escape pausa o cierra menús. En móvil, arrastra la palanca de pantalla y toca el botón de confirmación. Combate, reúne oro y revisa las armaduras y mascotas para prepararte antes de continuar hacia los nuevos niveles.",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels.",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, up",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "fd2217e7792d6265aeef2df58ba318f1bec0d7177916911f1a875d1afbe4d6f1"
+    }
+  }
+}

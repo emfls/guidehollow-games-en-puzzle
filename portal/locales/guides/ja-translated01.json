@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 1,
+  "locale": "ja",
+  "games": {
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "オンラインチェス対戦",
+      "description": "キングを詰ませることを目指すチェスです。コンピューター、オンラインの相手、友達、同じ画面を使う対戦から形式を選べます。コンピューターの難易度は21段階で、持ち時間も無制限からBullet、Blitz、Rapid、Classicまで設定できます。\n\n動かせる場所の表示やヒントを利用し、各手が自分と相手のキングの安全にどう影響するか考えます。手の取り消し、棋譜の確認、対局後の分析もあるため、指し終えた手を振り返ることができます。自分に合った速さを選び、駒を守ることと相手への攻撃を両立させます。",
+      "instructions": "対戦形式、難易度、持ち時間を選んで開始します。交互に駒を動かし、相手のキングが攻撃から逃れられないチェックメイトを目指します。表示される合法手と相手の取りを確認して指してください。終了後は棋譜や分析を見て、判断を振り返れます。",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "670c325dfa2fdf2f46ce6532e631640a2c7ab361e1d29127c0ed2cbdbb9eb95d"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "地下墓地からの脱出",
+      "description": "追ってくるネクロマンサーに捕まる前に、地下墓地の部屋を順番に脱出するパズルです。敵は自分より速く動きますが、障害物を避けないという弱点があります。速さで引き離すだけでなく、部屋の地形を利用して行き止まりへ誘い込むことが攻略の中心です。\n\n自分の逃げ道と、敵が進んでくる道を一緒に考えます。通れない場所を確認し、敵を障害物へ向かわせながら、自分は次の部屋へ進める経路を探してください。PCには手を戻す操作とヒントがあるため、失敗した移動を考え直したり、行き詰まった場面の手がかりを得たりできます。",
+      "instructions": "PCでは矢印キーで移動し、Backspaceで1手戻し、Hでヒントを表示します。モバイルでは画面上の方向パッドとボタンを使います。部屋の障害物を確認し、敵を行き止まりへ誘導しながら逃げ道を確保してください。困ったら手を戻し、別の順序を考えます。",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "eb9ab0ce1b91a72a5d5eb26169af2a6506759569ee1fbb1e76d9f64daa5f236f"
+    },
+    "knight-legend": {
+      "sourceHash": "14a059786693b7a0ce3f507aab18b5aff5d97bc08b3a567acd4bb5263f010f7b",
+      "title": "ナイトレジェンド",
+      "description": "騎士を育てながら、モンスターが待つステージを進む冒険です。戦ってお金を獲得し、装備を強化して新しいレベルを解放します。集めたお金は防具だけでなく、一緒に戦ってくれるペットの購入にも使えます。\n\n騎士自身の守りと仲間の支援という、二つの成長要素を確認しながら進めます。次の戦いへ向かう前に、防具やペットの選択肢を見ることが大切です。移動方法は矢印キー、WASD、ZQSDから選べ、決定と一時停止も別のキーで操作します。モバイルではジョイスティックを使い、確認が必要な場面では決定ボタンを押します。",
+      "instructions": "PCでは矢印キー、WASDまたはZQSDで移動し、Enterで決定、Escapeで一時停止やメニューを閉じます。モバイルでは画面上のジョイスティックをドラッグし、決定ボタンをタップします。敵との戦いでお金を集め、防具とペットを見直しながら新しいレベルを目指します。",
+      "referenceHash": "b4df60e3485cdd33c002892cc024fc4574980e48165059f86610244b3041c67e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Knight Legend invites you to dive into an epic quest where you fight monsters, upgrade your gear, and unlock new levels.",
+        "instructionsQuote": "Embark on a Legendary Adventure! Step into the world of Knight Legend, where courage and skill define your fate. Battle vicious monsters, up",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "064c03f3a11efc232a3581d521ca79eaf62ff9c925519243698b689b3ab03774"
+    },
+    "catch-the-snowmen": {
+      "sourceHash": "6218b516cb71db823a464116ec738513a67f1808c5ef3c19453f254ff4981744",
+      "title": "雪だるまを捕まえよう！",
+      "description": "プレゼントを集めて雪だるまを仲間にし、冬の冒険を進めるゲームです。自分よりレベルが低い敵には攻撃でき、高い敵からは逃げるという判断が重要です。雪だるまの数がランキングにも関係するため、仲間を増やすことが進行の目標になります。\n\nレベルを終えると、雪だるまの能力を強化したり、新たなヒーローを迎えたりできます。クリスマスツリーに飾るおもちゃも手に入り、冒険と飾り付けがつながっています。魔法のアイテムや固有の能力を集め、巨人や悪いサンタとのボス戦へ備えます。目の前の敵とのレベル差を確かめ、戦うか離れるかを選びます。",
+      "instructions": "PCではWASDまたは矢印キーで移動します。スマートフォンでは画面をタップすると仮想ジョイスティックが現れます。プレゼントを集めて仲間を増やし、自分より低レベルの敵に挑み、高レベルの敵からは逃げてください。レベル終了時のおもちゃはツリーに飾れます。",
+      "referenceHash": "7d1e1dc122cd7d5e7cb56b972a05d62f0ba74d6346d6f0605cb66f3160ba65ce",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🎅🌨️ Touch the winter magic in the game \"Catch the Snowmen!\" 🎁🎅You can feel like a real Santa Claus, creating nice and cu",
+        "instructionsQuote": "Recruit new snowmen by collecting gifts. Enemies below your level can be attacked. If the enemy is higher than you, run away! At the end of ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6b38c18d666962d3bb46742773167d0e98cfa3e9d11653d26fadec8da3301df7"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "キューブゲート",
+      "description": "光るキューブを感圧板に置き、扉、橋、エレベーターへ電力を送るパズルアクションです。部屋ごとに、必要なキューブの数や装置を動かす順序が変わります。先に足場へ飛び移ってから電源を切り替えるなど、移動と仕組みを合わせて考える必要があります。\n\n床の印、ケーブル、光の線が、部屋のつながりを知る手がかりです。キューブを運ぶ前に行き先を確認し、ある装置への給電が別の場所への移動を変えないか考えます。遠い足場では助走して端から跳びます。行き詰まったらメニューからレベルを再開し、別の順序を試せます。",
+      "instructions": "WASD、Q、Zまたは矢印キーで移動します。Eか左クリックでキューブを持つ・置く操作、Spaceか右クリックでジャンプ、Shiftでダッシュです。Escapeから再開などのメニューを開きます。床の印と配線を見て感圧板にキューブを置き、出口までの経路を作ります。",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5acbb7b5289fe1a06b433f1d21c96209c16df2c69cba5a56cad9759937266c73"
+    },
+    "epic-sword-battle-fight-in-the-ragdoll-arena": {
+      "sourceHash": "51289d1027ef886b9eba9a14736ea40aa34c8ecb32a745ebeddfe56143aa4b4c",
+      "title": "壮大な剣の戦い!ラグドールアリーナで戦おう！",
+      "description": "騎士や剣闘士が剣を手に戦う、3Dのアリーナゲームです。自分の動きで戦士を導き、剣を振って相手との決闘に勝つことを目指します。ラグドール物理による体の反応があり、攻撃が当たった際の動きも戦いの特徴になっています。\n\nさまざまな剣、敵、レベルが用意され、ランキングで成績を比べられます。戦いでは剣を振るだけでなく、相手の位置と攻撃にも注意します。PCは左ボタンを押したままマウスを動かし、モバイルは指を滑らせます。小さな動きから剣がどう追従するか確かめ、相手の攻撃に合わせて動きを調整すると操作を理解しやすくなります。",
+      "instructions": "PCでは左マウスボタンを押したままポインターを動かし、戦士の移動と剣の攻撃を行います。スマートフォンやタブレットでは指を画面上で滑らせます。相手の位置を見ながら剣を振り、向かってくる攻撃に応じて動きを変えてください。決闘での勝利を目指します。",
+      "referenceHash": "576e29f25eeb8b2d9cdbd57cd3fcb257fbde50e0f90bc54ab64dbb00dda68ffc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "⚔️ Welcome to \"Epic Sword Battle! Fight in the Ragdoll Arena!\" - an exciting 3D game where knights and gladiators fight ",
+        "instructionsQuote": "⚔️ Game Objective Engage in an epic duel with your enemies! Fight in the arena with your sword, fend off attacks, and win ragdoll battles to",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8dde173c93c489478d2ab43946cf73f257583d014f455ec6c923bec2bf163542"
+    },
+    "burger-restaurant-simulator-3d": {
+      "sourceHash": "e1304192a56efc9dff943f4ab1d87e671536cdc8dde719b3c7e2e48ad330a266",
+      "title": "バーガー レストラン シミュレーター 3D",
+      "description": "注文を受けて料理を作り、店を大きくしていく経営シミュレーターです。バーガー、ポテト、ナゲット、飲み物、コーヒーを提供し、さらにメニューを増やします。満足した客から得るチップや評判も、店の運営につながります。\n\n利益は厨房設備の改善、従業員の採用や訓練、内装の変更に使えます。支店、カフェ、フードトラックという展開もあり、料理と経営判断を行き来しながら成長させます。PCでは移動、物への操作、店のメニュー、日々の課題などに別々のキーが割り当てられています。まず注文と調理の流れを把握し、次にどこを改善するか選びます。",
+      "instructions": "WASDで移動し、マウスでカメラを回し、Eで操作します。Mはショップ、Jはデイリー課題、Hは毎日の報酬、Tabはカーソル表示切替、Pは一時停止です。注文を受けて料理を作り、利益で厨房を改良したり、スタッフを採用・訓練したりして店を発展させます。",
+      "referenceHash": "508a8f9c188720a0d70c812524eccdd3953e962e92947c31fa51dec5716ddcbe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Lead your own burger adventure! Dive into the exciting world of restaurant management, where you will cook delicious dis",
+        "instructionsQuote": "Desktop: WASD - move; E - interact; Mouse - camera rotate; M - shop; J - daily tasks; H - daily reward; Tab - show/hide cursor; P - pause; O",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8e886a7594661537c8fcaa0c6719d504f5b43ebb369e822710818e26a0310492"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "パーフェクトマッチ：猫のパズル",
+      "description": "保護施設の猫を家へ迎えることを題材にしたマッチ3パズルです。隣り合う猫を交換して3匹そろえ、手数がなくなる前に目標を達成します。全60レベルで、特定の猫の回収、木箱の破壊、氷からの救出、爆発で壊す石などに取り組みます。\n\n4匹でロケット、曲がった形の5匹で爆弾、一直線の5匹で同色を集める肉球ができます。6匹なら光る肉球となり、消す範囲が広がり得点が2倍になります。牛乳瓶を使って開始前にブースターを選べ、デイリー課題や実績もあります。多くのレベルに制限時間はありませんが、手数には注意して進めます。",
+      "instructions": "猫をクリックして隣の猫を選ぶか、ドラッグして交換します。モバイルではタップかスワイプです。特殊な猫を選ぶと、その場所で効果が発動します。必要なブースターは開始前に選びます。3匹以上をそろえ、木箱、氷、石への対処と目標達成を手数内に終えてください。",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of ",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "303955a960b383c87c77e125520104cc2b74937ea833e36a32b61bda952115e2"
+    },
+    "cyberpunk-block-puzzle": {
+      "sourceHash": "164100f70a1fc79e9386f51f9e815f0ce01a4e801a31165b3c726f26aed0d162",
+      "title": "サイバーパンクブロックパズル",
+      "description": "ネオンの基板を舞台に、光るブロックを同じ色の接続口へ動かす論理パズルです。ブロックは決められた一方向の軸に沿ってしか滑らないため、一つを動かすと別の通り道が開いたり塞がったりします。すべてを接続口へ届けるとレベル完了です。\n\n70以上のレベルがあり、5×5から8×9の盤面に壁、氷、ロックが加わります。数手先の配置を考え、先にどの通路を空けるべきかを見極めます。クリアでチップを獲得してハッカーのランクを上げられ、毎日の新しい課題もあります。手が止まった場合は、少し待つと次の動きを示すヒントが表示されます。",
+      "instructions": "PCではブロックをクリックしてドラッグし、軸に沿って滑らせて離します。モバイルでは触れて横または縦へ動かし、指を離して置きます。色の合う端の接続口へすべて届けてください。他のブロックの道も確認し、困ったら数秒待ってヒントを見ます。",
+      "referenceHash": "a3ddc678dc6fb880fc5bb7ea981983ed19887ae9d4b3f71f2bdf01eef276e150",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Cyberpunk Block Puzzle is a stylish logic game set on a neon circuit board. Slide glowing blocks across the grid to deli",
+        "instructionsQuote": "Slide your way through the neon grid! Your goal is to move all glowing blocks into their matching colored connectors on the edges of the boa",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9e143b695c0c51d6972ff2a9dbd6cd74f52fbc00f858532504d97f21beb2a711"
+    },
+    "hide-from-school": {
+      "sourceHash": "0b937e5b3ae362aaf89f18d761b2c83ce357387dfdd06b084bd8f891789999e2",
+      "title": "学校脱出かくれんぼ",
+      "description": "先生に捕まらず学校から出ることを目指す、かくれんぼと脱出のゲームです。教室や廊下を調べ、壁に紛れたり物に変装したりして注意を避けます。部屋のパズルを解き、扉を開け、出口へ続く道を探します。\n\n場面によっては、物を拾う、隠れる、装置を動かすといった操作ができます。影や周囲の物を利用し、先生の追跡をかわしながら進むことが重要です。トラップに使える物もあるため、単に走るだけでなく、何に働きかけられるか確認します。PCではWASDか左ボタンを押したままのマウス移動、モバイルでは指を滑らせて操作します。",
+      "instructions": "PCではWASD、または左マウスボタンを押したままマウスを動かして操作します。モバイルでは指を画面上で滑らせます。先生を避けながら部屋を調べ、使える物を拾う、隠れる、作動させるなどの行動で出口を探してください。目的は捕まらず学校を脱出することです。",
+      "referenceHash": "8d614565170240ec004869b6945e47041e1b86273001f54a88cbe4c4db27eba1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🏫\"Hide from School \": A free online game combining popular genres such as: hide and seek, escape and quests. Help a youn",
+        "instructionsQuote": "🎯Your main task is to get out of the school and not let the evil teacher catch you. You can interact with some items(hide, pick up, activate",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9d69b02ef263f34201ffb1062648850d50e469a303813fea6f58d8dc95c6a9d7"
+    },
+    "poppy-4-cut-monsters-with-sword-in-arena": {
+      "sourceHash": "03849feec3d1cf15bc9243d33ad4c3c2a853bdfc5ea927088be9be8c6652d2e3",
+      "title": "ポピー4！アリーナで剣でモンスターを斬ろう！",
+      "description": "剣でモンスターの集団に立ち向かう、3Dのアリーナアクションです。目標はその場にいる敵をすべて倒すことで、先へ進むほど難しくなります。異なる敵やレベル、剣の見た目が用意され、ランキングで成績を比べることもできます。\n\nPCでは左ボタンを押したままカーソルを動かし、モバイルでは画面をスワイプして剣を振ります。敵の動きを見て先に攻撃し、攻撃を組み合わせることが案内されています。進行に合わせて剣の強化も確認してください。次の相手を見ながら入力の方向を調整し、剣の振り方と相手との距離を把握して戦います。",
+      "instructions": "PCでは左マウスボタンを押したままカーソルを動かして攻撃します。スマートフォンでは指を画面上で滑らせ、剣を振ってください。敵の動きを見て攻撃を組み合わせ、アリーナのモンスターを倒します。先へ進む際は剣の強化も確認して次の戦いに備えます。",
+      "referenceHash": "e32184bc3adac4e820347de8e4999d34c5538cb39096798e3372ce77eff17144",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Welcome to \"Poppy 4! Cut Monsters with Sword in Arena!\" - an exciting action game with a sword, where you fight against ",
+        "instructionsQuote": "🎯 Your goal is to defeat all the monsters in the arena using your sword! Cut down your enemies and stop the monster invasion. The further yo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c2d29016cc630bb3cc3a39c40e203171d780ca180773491732cd8f55f2e53bdb"
+    },
+    "figure-skating-on-ice": {
+      "sourceHash": "4bd6abf5bca7598c489b10ef488d4c564832a12b1af165398205e2a441236c78",
+      "title": "フィギュアスケート：氷の上で！",
+      "description": "氷上で滑る選手のポーズを、色の付いた目盛りで変えていくゲームです。衣装や回転する姿を楽しみながら、カーソルの位置と演技の関係を確かめます。複雑なキー操作を覚える形式ではなく、マウスか指で目盛りを上下させる操作が中心です。\n\n操作するカーソルがどの色の場所にあるかによって、選手の姿勢が変わります。まず目盛りの色を確認し、必要な位置へカーソルを合わせてください。選手のポーズを見ながら位置を調整すると、どの入力にどの姿勢が対応するか理解しやすくなります。PCとスマートフォンでは入力方法が違いますが、色に合わせる目的は同じです。",
+      "instructions": "PCでは左マウスボタン、スマートフォンでは画面へのタッチで操作します。カーソルを目盛りに沿って上または下へ動かし、必要な色の位置へ合わせてください。その位置に応じて選手のポーズが変化します。目盛りと選手の両方を見て調整します。",
+      "referenceHash": "74dc532ca5c127a2c9b00240ce158c8b37823272b57ac7623535fa2def30cabc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "“Figure skating: On ice!” — an easy game for girls 💃🏽. Plunge into the world of figure skating with beautiful outfits, b",
+        "instructionsQuote": "It's easy to play, like 1,2,3: 1. Click on the left mouse button, or with your finger on the smartphone screen. 2. Move the cursor up or dow",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9080637d2c33d98912d4fe8679c9644485f6d74d24be160823c2fb234b814c94"
+    },
+    "ragdoll-battle-royale-throw-down-the-enemy": {
+      "sourceHash": "cb778bc87740c09cbbeb3fed1d47134f4792db3323fda5e7964b46094da7cf42",
+      "title": "ラグドールバトルロイヤル！敵を投げ倒せ！",
+      "description": "高い足場のアリーナで相手を押し落とし、最後まで残ることを目指す物理アクションです。ラグドールの柔らかい体と衝突が位置関係を変えるため、相手に接触するだけでなく、自分が安全な場所にとどまることも重要です。\n\n短いレベルの中で相手を押し、投げ、足場の外へ追いやります。端に近づきすぎると自分も落ちるため、衝突の後は残りの足場を確認してください。ランキングもあり、一戦の勝利以外に成績を比べる目標があります。操作はPCのマウス移動かモバイルの仮想ジョイスティックで行い、周囲の戦士を見ながら位置を取り直します。",
+      "instructions": "PCでは左マウスボタンを押したままマウスを動かします。モバイルでは仮想ジョイスティックを指で操作します。相手へ近づいて足場の外へ押し出し、自分は端から離れて最後まで残ってください。衝突で位置が変わったら、近くの縁と周囲の敵を確認します。",
+      "referenceHash": "5f46a8088d555fdf1bc518a4200e0be04f2276eb2315436d940cecffd2d6cf70",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "⚔️ Welcome to \"Ragdoll Battle Royale! Throw Down the Enemy!\" - a fun 3D physics arena where ragdoll opponents fight in f",
+        "instructionsQuote": "🕹️Controls: - 💻 On PC: Move the mouse while holding the left button to move the character. - 📱 On mobile devices: Use the virtual joystick -",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "1275028081c13deaf2049d3aff11b61a4fa85ecc0647aa2c1a51d9c55662b1dd"
+    },
+    "no-shorts": {
+      "sourceHash": "466fa7b4e1c4e30767539459b52bc341345df35d9349d11ab3b24e929771d075",
+      "title": "ノー・ショーツ",
+      "description": "大砲や道具で棒人間と周囲の物に働きかけ、ラグドールの反応を楽しむ物理サンドボックスです。狙う場所をクリックして発射し、場面の棒人間や環境へできるだけ大きなダメージを与えます。短い動画のように、上下へのスワイプで別のレベルへ切り替えられます。\n\n用意された場面を遊ぶほか、レベル作成機能で自分の遊び場や展開を組み立てることもできます。ほかの場面に「いいね」を付ける操作もあり、遊ぶことと作ることがつながっています。まず発射位置と物の反応を確認し、別の配置やレベルではどう変わるかを見ながら試します。PCとモバイルの両方で操作できます。",
+      "instructions": "狙いたい場所をクリックして大砲を発射し、棒人間や周囲の物へ働きかけます。上下にスワイプするか仮想ボタンを使うと、レベルをすばやく切り替えられます。自分で場面を作りたい場合はレベル作成機能を使い、物理的な反応や配置を試してください。",
+      "referenceHash": "9f405d7a1e0d7b5b646adb83cc1a2bd5b73df8ae03b16dbc6878c23bfab6e9ee",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🌟 Welcome to the exciting world of ragdoll physics and creative fun in the style of short videos in the game No Shorts! ",
+        "instructionsQuote": "🎯 Your task is to cause as much damage to stickmen and the environment as possible by shooting from a cannon. You can quickly switch between",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "dd4a68ecdc8e594e42d77a089afef625f20e2707c2b86adefe2747266b054a70"
+    },
+    "mine-fight-cut-mob-army": {
+      "sourceHash": "ae20eddd2b771b4e804898cb22c9850eafafb41a3656f297c33718ba499bd7b6",
+      "title": "マインファイト！モンスター軍団を斬れ！",
+      "description": "ゾンビ、スケルトン、クリーパーの大群を剣で倒すアクションです。目標は各レベルの敵を倒して先へ進むことで、ヒーローと剣を強化しながら、さらに大きな集団に挑みます。ブロック風の3D世界にラグドールの反応が組み込まれています。\n\n連続して敵を斬ると多くの得点につながり、周囲の地形や物も戦いに利用できます。敵を罠へ押し込む、障害物を爆発させるといった方法が案内されています。PCではマウス移動とボタン操作、スマートフォンではスワイプで攻撃します。敵の集まり方を確認し、剣の強化と環境の利用を組み合わせて攻略します。",
+      "instructions": "PCではマウスを動かし、ボタンを押して攻撃します。スマートフォンでは画面をスワイプして剣を振ります。敵を連続して倒すことや、罠と爆発する障害物の利用も考えてください。剣を強化しながら、そのレベルのモンスターを倒して先へ進みます。",
+      "referenceHash": "a75825f6ad8d5525d82b6156a2150fd76e07a153918198881bb8ba60cbe87e6b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into the world of Minecraft-style battles and become a master of the sword! ⚔️ In \"Mine Fight! Cut Mob Army!\", you’",
+        "instructionsQuote": "🎯 Your goal is to cut all the mobs with a sword and complete all the levels! Fight hordes of zombies, skeletons and creepers, become stronge",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "65abb8f68b9a586e8bd659f83107d42b26587b2b6fe3c96aacc3d518ad07e67e"
+    },
+    "draw-action": {
+      "sourceHash": "d588ec92614ce52a35d2e5e5d7a99c9b60bf06410b5827a4f5a204a27f27b696",
+      "title": "ドローアクション",
+      "description": "青い戦士の腕や脚を選び、線を描いて攻撃の動きを作る格闘ゲームです。決まった攻撃ボタンを押す代わりに、描いた形が技につながります。相手の体力をゼロにするか、足場の外へ押して水に落とすと倒せます。\n\nすべての敵を倒すことがレベルの目標です。進むにつれて敵は強く、素早く、数も多くなるため、描く動きと能力の強化を見直します。後にはさらに強力な連続攻撃も使えるようになります。相手の体力だけでなく端までの距離を見て、直接攻撃するか押し出すかを考えてください。自分の描いた線と実際の技を見比べながら操作を覚えます。",
+      "instructions": "青いキャラクターの腕か脚をタップし、その部位を動かしたい形に線を描きます。相手の体力を減らすか、場外の水へ押し出して倒してください。異なる線の形で攻撃を試し、敵の位置に合う動きを選びます。進行に応じてキャラクターの能力も強化します。",
+      "referenceHash": "54b3987aeb0635f960efa6dc940cbbfc2295b40119b67b278b3295d9439abf5b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Draw lines and defeat enemies effortlessly! The game is best suited for those who want to let off steam and relax now. V",
+        "instructionsQuote": "Goal: defeat all enemies on the level. To win, beat the enemy until his health is reduced to zero. Or you can push the enemy out of the loca",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "61af5821ffff3f7875996cbb6b641e9b561035cd024e487014180531f6c6b11f"
+    },
+    "crazy-downhill-ragdoll-fall-down": {
+      "sourceHash": "b375ee54cd8aaeff78ade9ca77d94043dccb68494e50f8f7c53597546a9b5574",
+      "title": "クレイジーダウンヒル！ラグドールが倒れる！",
+      "description": "ラグドールのキャラクターを転がし、坂を下ってゴールへ向かうゲームです。体が回転したり障害物にぶつかったりする物理的な動きが特徴で、進行方向を調整しながら最後まで到達することを目指します。\n\n漫画風の3D表現や、転倒に合わせたアニメーションがあります。スキンショップではHagi Wagi、Stickman、Noob、Obbyなどの見た目を選べ、ランキングで結果を比べられます。PCでは矢印キーかマウス、モバイルでは左右のスワイプを使います。下りながら前方の障害物を見て方向を変え、転がる体の動きに合わせて経路を調整してください。",
+      "instructions": "PCでは矢印キーまたはマウスで操作します。スマートフォンでは左右へスワイプして進行方向を変えます。下り坂の障害物を見ながらキャラクターの方向を調整し、ゴールまで転がってください。転倒や衝突の後も現在の向きを確認して進めます。",
+      "referenceHash": "1fb33efefe72eb81ebf5712a1a9d766fbde95db75ff088e1919d57d7092b9d1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🌟 Welcome to \"Crazy Downhill! Ragdoll Fall Down!\" — an exciting online game with ragdoll physics, where every descent tu",
+        "instructionsQuote": "🤪 Control the fall of a ragdoll hero who rolls, tumbles and crashes into everything! Your goal is to roll to the finish line. 📱On mobile, sw",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "6e5112972958bc850178dead8cd820b4942e83eace44afeef9dbd418218f4ddf"
+    },
+    "ragdoll-gun-shooter-cannon-spinner-playground": {
+      "sourceHash": "c62e593fec686f505d370d390ff37442d737ae68548145564e90b86d6c126802",
+      "title": "ラグドールガンシューター！キャノンスピナー遊び場",
+      "description": "回転する銃の向きとタイミングを見て発射し、黄色い棒人間を倒す3Dシューティングです。狙いの方向を向いた瞬間に操作し、レベル内の敵をすべて倒すことを目指します。ラグドール物理による反応と、柔らかい棒人間の動きが特徴です。\n\n拳銃から強力な銃まで異なる武器が用意され、場面ごとの物も攻撃に使えます。爆発する樽などを利用すると、周囲の敵へ大きなダメージを与えられます。PCでは左クリック、モバイルではタップで発射します。連続して押す前に銃の回転と敵の位置を観察し、当たるタイミングや周囲の物を巻き込む位置を考えます。",
+      "instructions": "PCでは左マウスボタンを、モバイルでは画面を、狙ったタイミングで押して発射します。回転する銃が敵を向いた時を見て撃ち、レベル内の棒人間をすべて倒してください。爆発する樽やほかの物も確認し、敵へ追加のダメージを与える位置を狙います。",
+      "referenceHash": "1ddf2a83cd338732aca6604c41ac73115fbfb2fd2b7ee500d9d9ab5f0f1eaa2a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🎯 Ready for some fun action with ragdoll stickmen? The game \"Ragdoll Gun Shooter! Cannon Spinner Playground\" will hook y",
+        "instructionsQuote": "🔥 Game Goal: Shoot the ragdoll stickmen and destroy them all on the level! Clear the level of mobs and become the best shooter in the playgr",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c44f237e74ed5211d497ad5de899a93c76ca7d90a50ce5b8cc03084f31260546"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "ヘアサロン3D",
+      "description": "客の希望する髪形を、道具を使って再現する美容室シミュレーターです。ボブ、モヒカン、アンダーカット、長いレイヤーなどがあり、ハサミ、バリカン、カミソリ、カラー用ブラシを使い分けます。希望に近づけるほど星やチップを獲得できます。\n\n全23種類の髪形と5種類の道具があり、得たゲーム内通貨で道具や染料を購入します。進行に伴って複雑な髪形やVIP客も登場します。まず右の注文カードで3Dの見本を確認し、全体の形と細部を分けて考えます。カメラを回して見えにくい部分も確認し、仕上がりを希望の髪形と比較して完了します。",
+      "instructions": "右の注文カードをタップして見本を確認します。精密なカットはハサミ、均等な長さはバリカン、細部はカミソリを選び、頭の上をスワイプして切ります。2本指でカメラを回転・調整できます。必要ならブラシと色で染め、完成したらDoneを押して評価を受けます。",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8297a84acb94361a49221e03bd5831426ca31c4b0c3e53bb5f8b7443b96c3b1b"
+    },
+    "mahjong-chef": {
+      "sourceHash": "bc3d7be75776b7e4bf0dd3a2d0d884c9cce29606ddc04c624d2ba9d7aaf1bee6",
+      "title": "麻雀シェフ",
+      "description": "同じ牌を2枚ずつ取り除く、料理を題材にした麻雀ソリティアです。上に牌がなく、左右の少なくとも片方が空いている牌を組み合わせます。すべて取り除くとクリアとなり、食材を集めて5つの料理分野の中華料理50品を作ります。\n\n1500ステージがあり、10レベルごとにボスが登場します。裏向きの牌は先に表にし、岩は隣の牌を組み合わせて壊します。進むと21種類の牌デザインが解放され、週ごとのシェフリーグもあります。取り消し、ヒント、シャッフル、自動で1組を消す磁石をコインで使えるため、残る牌と空く場所を見ながら進めます。",
+      "instructions": "選べる同じ種類の牌を順にタップし、2枚を取り除きます。上の重なりと左右の空きを確認してください。裏向きの牌は先にタップして表にし、岩は隣の牌を消して壊します。必要なら取り消し、ヒント、シャッフル、磁石を使い、盤面を空にして食材とコインを集めます。",
+      "referenceHash": "b1b096aa53557a0858809510af53aa47cf0dd477a7657a57850f127b1d30cc1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Mahjong Chef is a relaxing tile-matching puzzle inspired by Mahjong Solitaire, set in a cozy Chinese kitchen. Tap two ma",
+        "instructionsQuote": "How to play: - Tap a tile to select it. Tap another tile of the same type to make a match. - A tile is \"free\" when its left or right side is",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "0d0b4e832f327763504b40df12847b3a7e8b8968af043d811bea9f09a2d919da"
+    },
+    "redblue-forge": {
+      "sourceHash": "c3168d8006f60ff176ac1a72df2002b7c32a8e0734c84c7a0e4b5d8ee5c766bf",
+      "title": "赤青の鍛造術",
+      "description": "中央のコアを回転させ、飛んでくる火の粉と色を合わせて長く生き残る反射ゲームです。最初は赤と青の2コアで始まり、後に赤、青、緑、黄の4コアを解放できます。4コアでは得点倍率が3倍になり、扱う色も増えます。\n\nReadyを押すとその回が始まり、正しく合わせ続けて得点を伸ばします。色を間違えると終了するため、火の粉が中心へ届く前に向きを変えます。集めた素材は、次の回にも続くForge Treeの育成に使います。操作、安定性、得点ボーナスに関わる強化を選び、短い挑戦と長期的な成長を組み合わせて進めます。",
+      "instructions": "Readyを押して開始します。左か右をタップまたはクリックしてコアを回転させ、火の粉が中央に着く前に色を合わせます。間違えるとその回は終了です。獲得した素材をForge Treeへ使って強化し、後に4色と得点3倍の4コアモードを解放します。",
+      "referenceHash": "c5889f3773b2276d15af4453a9ae7923da654da1bed0ea29514ec962a9cb88dc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Red-Blue Forge is a fast reaction arcade game where you rotate core orbs to match incoming embers and survive as long as",
+        "instructionsQuote": "Tap/click left or right to rotate your core and match the color of incoming embers before they hit the center. Press Ready to start each run",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "715777c9da0fb5316c4d3fdab68969323ac43c6522a78cb2f817277145f0994f"
+    },
+    "red--blue-online-build-destroy-fight": {
+      "sourceHash": "45f27f11b16f6e232a08a6da8f0f82cfa69d38e2c3c074673949431b167603db",
+      "title": "赤と青: オンライン。建てる！破壊する！戦い！",
+      "description": "建設と破壊で戦場が変わる、ブロック世界のオンライン対戦シューティングです。地面とのつながりを失ったブロックは落下して崩れるため、建物の支えや新しく掘る通路にも戦術上の意味があります。基地や防御施設を作り、地形を利用して戦います。\n\n旗を持ち帰るCapture the Flag、敵チームより多く倒すTeam Deathmatch、建設を試すSandboxがあります。マッチングやカスタムルームから参加し、先にそのモードの勝利条件を確認してください。選んだアイテムによってマウス操作が射撃と照準、または建設と掘削に変わるので、装備と周辺の構造を見ながら進めます。",
+      "instructions": "WASDで移動、Spaceでジャンプ、Cでしゃがみます。左クリックは射撃か建設、右クリックは照準か掘削です。1～5でアイテム選択、Rでリロード、Jでミニマップの大きさ変更、Mで地図、Tでチャット、Tabで一時停止メニューを開きます。支えを掘ると上の構造が崩れることに注意します。",
+      "referenceHash": "c7a273b8eb5166ec334022a28c77693a8d63fa587fd0482e4009a4e95e22692f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Red & Blue: Online. Build! Destroy! Fight! — is a fast-paced voxel multiplayer shooter with fully destructible, physics-",
+        "instructionsQuote": "The world is fully destructible with realistic physics: any block that loses its connection to the ground will fall and break apart. Game Mo",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "113e7d699ded357196507afe05453248640c4332d1bd0d9f41b3266416c22e6f"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "タイニー スポーツ エンパイア アイドル",
+      "description": "小さなバスケットボールチームから、複数競技を持つクラブへ育てる放置型のスポーツ経営です。バスケットボール、ホッケー、サッカー、ラグビー、バレーボール、野球があり、資金を使って練習、選手、装備などを整えます。\n\n試合は自動で進むため、選手を直接動かすのではなく、勝率、チーム力、収入、リーグ進行を改善する判断が中心です。競技の解放や選手の募集、スキルの使用、特別報酬の受け取りを確認します。放置中の収入やオフライン報酬、イベント、シーズン進行も成長につながります。Sportsボタンでは競技の確認と切り替えができ、各競技の状況を把握できます。",
+      "instructions": "PCでは左クリック、モバイルではタップでメニューを操作します。練習やチームの強化、選手募集、装備、スキル、報酬を選びます。Sportsから競技を切り替え、リーグ進行を確認してください。試合は自動なので、得た資金と報酬を次の育成へ使います。",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketba",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using sk",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f23bbf8523b75224d3d674ba2483846991e700d3249e7c4a78ffa25bba2983eb"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "オビー・クラフト: 飛行機を作ろう",
+      "description": "部品を組み合わせて飛行機を作り、発射して飛ばすクラフトゲームです。取り付ける各ブロックが飛行に影響し、空中でコインを集めて新しい部品や強化に使います。発射用のスリングショットを育てると、より高く速く飛び出せます。\n\n作業場所で部品を選んで配置し、飛行と調整を繰り返します。障害物コースでは進路を選んで障害を避けます。部品とスキンの店、ボーナスを得るルーレットがあり、無料のスキンは2種類です。設計の保存枠は最大4つなので、組み方を変えた機体を保存できます。まず機体の構成と発射装置を確認し、集めたコインで次の改善を考えます。",
+      "instructions": "機体のそばの作業場所へ行き、下の持ち物から部品を選んでクリック配置します。不足した部品は店で購入できます。コインでスリングショットを強化し、発射後は空中のコインを集めながら障害物を避けてください。部品の追加と試験飛行を繰り返します。",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "239317f077efee7db93864889792cf8508644134b6d065bbb927b14fce01117b"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "ジュラシック マージ: ディノ エボリューション",
+      "description": "同じ恐竜を合体させ、より強い個体を作って軍隊を育てる戦略ゲームです。戦場に恐竜を配置して自動戦闘へ送り出し、勝利で得るクリスタルやゴールドを新しいキャラクターの解放と強化に使います。\n\n操作の中心は、恐竜をドラッグして組み合わせたり配置したりすることです。戦闘中に毎回直接攻撃する形式ではなく、事前の合体と並べ方が重要になります。強い敵へ挑む前に、どの恐竜をまとめるか、どこに配置するかを見直してください。勝利、資源獲得、強化、次の戦いという流れを繰り返し、軍隊の力と戦術を発展させます。",
+      "instructions": "PCでは左マウスボタンでキャラクターをドラッグし、モバイルではスワイプします。同じ恐竜を合体させ、戦場へ配置して自動戦闘に進みます。勝利で得たクリスタルとゴールドは新しいキャラクターや強化に使い、次の敵に合わせて編成を見直してください。",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. 🛡️",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "5ce17baee2de610733499f6d81ba56d59f36c535164ce5e427378f059b69c0af"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "ドッグファイト",
+      "description": "戦闘機を操り、旋回や宙返り、ロールを組み合わせて空中戦を行うゲームです。機体の速度と姿勢を変えて攻撃位置を作るため、照準を追うだけでなく、飛び方そのものが重要です。主武器と補助武器を使い分けて戦います。\n\n通常の旋回と急旋回には別のキーがあり、上昇とロールも独立しています。まず各操作で機体がどう向きを変えるかを確認し、複数の機動を組み合わせます。PCではキーボード、モバイルではジョイスティックと射撃、機首上げ、ロールのボタンを使います。攻撃後に方向を変える余地も考え、速度と位置を調整しながら相手を狙います。",
+      "instructions": "Wで加速、Sで減速、A/Dで左右旋回、Q/Eで左右の急旋回です。Spaceで機首を上げ、Shiftでロールし、Jで射撃、Kで補助武器、Rでリロードします。モバイルではジョイスティックと射撃・機首上げ・ロールの各ボタンで操縦してください。",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers li",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon S",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "740281f2ce1a26fffe59952c0c0888adb0ce4f2644486ef1c0dbaa5656a0e0d2"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "title": "3Dチェス：アーケイン・エディション",
+      "description": "魔法の庭を舞台に、銅や金の色の駒で対戦する3Dチェスです。コンピューターの難易度は3段階で、設定から変更できます。友達と遊ぶ場合はPlay a Friendで一時的な部屋を作り、コードを共有します。全員が退出すると、その部屋と棋譜は失われます。\n\n駒を選ぶと、光る点が合法手を示します。相手のキングをチェックメイトすることが勝利条件です。盤面を回転したり拡大したりして位置を確認でき、電球ボタンのヒントは1局最大3回です。ソロのヒントには報酬型広告が関係するため、利用時の案内を確認してください。21言語に対応し、タッチでも駒を選べます。",
+      "instructions": "駒をタップまたはクリックし、光る移動先を選びます。ドラッグでカメラ回転、ピンチかスクロールで拡大縮小します。設定の歯車で難易度、移動先表示、音を変更できます。電球は1局最大3回のヒントです。相手のキングに逃げ道のない攻撃を作って勝ちます。",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4978dd942f30f482865ff4d7b9f36a5b8cdc3e5ee0b8c87bb4e0f974034e43bf"
+    },
+    "block-shooter-shoot-the-blocks": {
+      "sourceHash": "b3a1c8ffeede553754b932a71592da966d9a26491926cad2c9444800978fbe04",
+      "title": "シュート・ザ・ブロックス",
+      "description": "ブロックでできた島の家、森、塔を壊し、すべてのブロックをなくす3Dシューティングです。弾数には限りがあるため、ダイナマイトや稲妻のブロックによる連鎖も利用します。一発でどこまで壊せるかを見て狙います。\n\n弾が切れても壊したブロックは戻りません。ショップで武器を強化して島へ戻り、残りを片づけられます。コインで銃、強化、アーティファクトを購入でき、銃がレベル10に達すると自動で撃つようになります。カメラの角度と距離を変え、隠れた部分や残ったブロックを確認しながら破壊を進めます。",
+      "instructions": "左ボタンを押し続けて射撃します。A/Dでカメラ回転、W/Sで傾き、＋/－で拡大縮小、Fでカメラを戻します。1～9、Q/E、ホイールで武器変更、Escで一時停止です。タッチは長押しで射撃、2本指か右下ボタンでカメラ操作です。全ブロックを破壊してください。",
+      "referenceHash": "b43b6403a289baabc4aa736b3f3732eac0c1aa6c3b0b725abd2d4eba05df8e3e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "🏝️ Turn block islands into rubble! Shoot The Blocks is a casual 3D destruction shooter. Blast through houses, forests, a",
+        "instructionsQuote": "🎯 Clear the island Destroy every block to complete a location and move on. Your ammo is limited, so make each shot count! 🛒 Upgrade and try ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "68be1dc62bde8247e6331026f96198fb20b9c37d1c935cd08a8c9a37b014a9f8"
+    },
+    "microgic-89": {
+      "sourceHash": "5ac52f328174bfcec9aed4dd26023871af565ca67d7975bb4e0f9b92a16393ef",
+      "title": "マイクロロジック89",
+      "description": "1980年代のマイクロチップを舞台に、配達役BYTEがデータチップを集めるパズルです。盤面のチップをすべて回収し、ソケットを開いて、制限時間内に出口へ到達します。50レベルに氷、強制移動床、転送装置、複製機、落とし戸、爆弾、巡回する敵が登場します。\n\n水や火には対応するブーツが必要で、色付き扉には同色の鍵を使います。水へブロックを押すと橋を作れます。氷と強制移動の方向、敵の巡回を読んで順序を決めます。得点はレベル番号×500に残り1秒ごと10点が加算されます。見下ろしと3Dの切替や、自作マップを作る機能もあります。",
+      "instructions": "PCは矢印キー、WASD、クリックしてドラッグで移動します。モバイルはスワイプかドラッグ、ピンチで拡大縮小です。Pで一時停止、Rで再開、任意のキーでレベルカードを閉じます。必要な装備と鍵を集め、全チップ、ソケット、出口の順に進んでください。",
+      "referenceHash": "8ae5654f4b88716bd4bcee8c4d9229243b676f13d8b67e3307a1add9df37cafe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "MICROGIC 89 is a retro tile puzzle set inside a 1980s microchip. You play BYTE, a courier who has to collect every data ",
+        "instructionsQuote": "GOAL: collect every data chip on the board, step onto the socket to open it, then reach the exit before TIME reaches zero. CONTROLS - Deskto",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "58ac1ad25110149b99e5c49ad4c76c2b7860ea787addfbee7a88fb82b7a64dff"
+    },
+    "tall-grass": {
+      "sourceHash": "a695188df834b578d622b552d514c1b77c971472f481c4efe3ccafaeff8d97a7",
+      "title": "背の高い草",
+      "description": "背の高い草を踏んで刈り、破片、ハート、怪物を見つけるターン制の探索ゲームです。開いたマスの数字は周囲8マスに隠れた怪物の数を示します。自分が動くまで状況が進まないため、数字と地形を読んで次の一歩を選べます。\n\nすべて調べる前に門が開くことがあり、手にした物を持って出るか、さらに破片や強化を探すかを判断します。パンプキングが目覚める前の準備も重要です。朝ごとに天候が変わり、目覚めの速さや読み取れる範囲などに影響します。安全な退出と追加の探索を比較し、目覚めた敵にはそのマスへ進んで攻撃します。",
+      "instructions": "矢印キーかWASDで移動し、モバイルでは方向をタップまたはスワイプします。草へ進むと刈り、目覚めた怪物へ進むと攻撃します。恩恵は1/2か左右で選択、Pで一時停止、Mで消音、EnterかSpaceで開始・再開です。周囲8マスの数字を比べて道を選びます。",
+      "referenceHash": "b5936dd93e59341f352016cccb1ee767cd9b91ced09e218f1081d74362fbe3ab",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Every blade of tall grass hides something: a shard, a heart or a monster. Trample it and find out. Cleared tiles reveal ",
+        "instructionsQuote": "Move: Arrow keys or WASD. On mobile, tap a direction or swipe. Step into tall grass to cut it. Step into a woken monster to strike it. A num",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "39ee403cee8b036bbcc4a036ddba7185888853cf06538579a6b2d0aff4e2f82c"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "title": "スカイラッシュ",
+      "description": "飛行機を指やカーソルへ追従させ、敵やミサイルを避けて長く飛ぶエンドレスゲームです。飛行が続くほど速度が上がり、新しい敵が現れます。画面の金色の星を集めながら、安全に通れる場所を探します。\n\n集めたゲーム内のお金は、ショップで飛行を助ける強化や新しいスキンに使えます。長く飛ぶほど忙しくなるので、星の位置だけでなく、敵と飛来物の方向も確認します。PCではマウスを押したまま動かし、モバイルでは画面に触れて動かします。毎回の飛行で自分の記録を更新し、ランキングを上げることが目標になります。",
+      "instructions": "マウスをクリックしたまま動かすか、画面に指で触れて動かすと、機体がその位置に追従します。敵とミサイルを避け、金色の星を集めてください。得たお金でショップの強化やスキンを選べます。速度が上がる中で安全な経路を取り、飛行記録の更新を目指します。",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen any",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "d719d11078a10cd29921645a186a204c3e6d943f1c53a487c2106f70104ebce5"
+    },
+    "crush-hour": {
+      "sourceHash": "ee6fbb8733078e56ad51116d3d1a144e640947b225707e699fb6fa943dfa1f0f",
+      "title": "クラッシュアワー",
+      "description": "自動で走るトラックの車線を変え、ゾンビだらけの渋滞を進むエンドレスランナーです。ゾンビをはねると得点やコンボになり、車やトラックへの衝突でも得点を得られます。ただし車はHPを減らし、トラックはさらに大きな損傷を与えます。\n\n燃料が尽きる前に缶を拾い、オレンジのRampageを取って激しく破壊する状態を利用します。ぎりぎりで避ける運転にも報酬があり、ぶつかる場面と避ける場面を判断します。車線だけでなく歩道へ移れるため、混雑した先の空きを確認してください。決まったゴールはなく、壊れるまで生き残り高得点を目指します。",
+      "instructions": "←かAで左、→かDで右へ車線変更し、左右の歩道にも移れます。モバイルでは左右へスワイプします。トラックは自動走行するので、燃料と障害物を確認して方向を選びます。事故後はSpaceで再挑戦できます。ゾンビ、車、燃料、Rampageの位置を見て走り続けます。",
+      "referenceHash": "1e16778ee293f869fe1440230c744c2faee20f32400233820e612d38d7742e48",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Crush Hour is an endless arcade runner set in a zombie rush hour. Your truck drives itself — swipe to change lanes, hop ",
+        "instructionsQuote": "Rush hour belongs to the dead — and you are the truck. Your rig drives itself down an endless highway. Smash zombies for score and combos, w",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9af17d7a619f54cdb0f6941c85e6d9b300d5f55fd5d257946b014691907d5be8"
+    },
+    "live-round": {
+      "sourceHash": "6a91b60b7195eea233741e11993cf0a6d44e87f596e1d30b4b4c282cbe3f5579",
+      "title": "ライブラウンド",
+      "description": "8つの都市が囲むアリーナで、中央から飛ぶ隕石をはね返す8人用アーケードです。自分の都市へ来る隕石をそらし、相手の方向へ送りながら最後まで残ります。位置を変える反射板と、利用できるモードでの射撃を組み合わせて守ります。\n\nオンライン、ボット、プライベートルームがあり、Defence、Paddle、Vault、Invaders、Beltの5モードから選べます。ラウンド間には強化を選びます。都市が破壊されても終了ではなく、生き残ったプレイヤーへ妨害を仕掛けられます。現在のモードで反射板やミサイルが使えるかを確認し、弾薬と隕石の進路を見ながら戦います。",
+      "instructions": "反射板のあるモードではマウスを動かして位置を変えます。射撃できるモードではクリックでミサイルを撃ち、残弾に注意します。隕石を自分の都市からそらしてください。脱落後は妨害の種類を選び、マウスで配置先を指定して残る相手へ働きかけます。",
+      "referenceHash": "8d0c125b6f0c86a49ee40b0e4c2bc94b00fe0cfb48ff27b1a2c6856837d60948",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "ATTENTION, COMMANDER. Eight cities surround the arena. The Core is firing meteors in every direction. Your job is simple",
+        "instructionsQuote": "In Game modes that include Paddles simply move your mouse to move the paddle, in modes that allow it you can also click to shoot missiles. (",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "959a11ba5f70ea1f1ae98811cd08d1ee11cb7317e3ba387d1f9e062ead477e32"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "title": "ターンライン: リラックスできるパズル",
+      "description": "線の描かれたタイルを回し、必要な経路をすべてつなぐパズルです。タイル自体を移すのではなく向きを変え、隣の線とつながる位置を探します。正しく接続した部分は光るので、完成した区間を確かめながら残りを考えます。\n\n最初のレベルでは基本を覚え、後になると盤面が大きくなり、枝分かれや複数の道が増えます。数千のレベルと進行保存があり、短い時間でも続きから遊べます。制限時間がないため、周辺の接続を比較して自分のペースで解けます。難しい場合はヒントを使い、一つの回転が隣の経路にどう影響するかを確認します。",
+      "instructions": "PCではマウス、スマートフォンやタブレットではタップでタイルを回します。隣のタイルの線と接続する向きを探し、必要な経路をすべて完成させてください。正しくつながった部分の強調表示を見て、残る区間を調整します。行き詰まったらヒントを利用できます。",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "00fbd79f7f72968ab856dcd2a5e2549441a7359fe4c807a11f30e17165a57f2c"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "title": "深淵の灰",
+      "description": "通信が途絶えた植民地Sorrow-IVの深部へ降りる、暗いSFシューティングです。岩の崩落、砂、水、冷えて石になるマグマ、引火するガスなど、物質の動きが経路と戦闘に影響します。各レベルの出口へ到達し、ボスを生き延びることが目標です。\n\n100レベル、6章、2つの結末があり、7種類の環境と15種類の敵やボスが待っています。5種類の武器と道を切り開くプラズマカッター、10の古代装甲が用意されています。カッターは岩を切れますが敵への効果は小さいため、戦闘と掘削を使い分けます。ゴールドはArsenalで装備や強化に使い、画面端の矢印で目的地を確認します。",
+      "instructions": "PCはA/Dで移動、Wでジャンプ、Spaceでジェットパック、マウスで照準と射撃、右クリックで手榴弾、1～4で武器、Fでカッター、Escで一時停止です。モバイルは左スティックで移動とジャンプ、右で照準と射撃、右側ボタンで手榴弾などを使います。矢印を頼りに出口へ進みます。",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something anci",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim ",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4b47697fb0a1dc14feef3da0058bcc600bdcff099452acc51b4ce3af7481a0d7"
+    },
+    "fleet-merge": {
+      "sourceHash": "263388e9cf1685e3ab6bd3cf40e833191f5930214fa5de23c1090ac05823a5be",
+      "title": "フリート・マージ",
+      "description": "同じ艦を合体させ、宇宙艦隊の編成を作る自動戦闘ゲームです。購入した艦はドックへ入り、その配置のまま戦場へ出ます。前列はドックの上側なので、敵のレーダーを見て、どの相手にどの艦を向けるか考えます。\n\nLineはLancerに、LancerはArtilleryに、ArtilleryはLineに有利という三すくみです。砲撃艦は後ろに置き、Lancerは側面で1.25倍、背後で1.5倍の攻撃を狙えます。Star Mapのボスや巨大Ark、ヒーロー、防衛や輸送船襲撃などのモードがあります。クレジットとコアで強化し、艦の段階と相性の両方を整えます。",
+      "instructions": "艦種をタップして購入し、同じ種類・同じ段階の艦へドラッグして合体します。上側が前線になるよう配置し、敵の編成を確認してFIGHTを押します。戦闘は自動で、タップで速度を変更できます。戦いの合間にクレジットやコアで強化してください。",
+      "referenceHash": "df193f8cf0434718299ddb7b7bb9bed09e91797cf81f60d3c2052708bb2b2acd",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Command a fleet of starships in this merge auto-battler. Buy Line ships, Artillery and Lancers, then merge identical shi",
+        "instructionsQuote": "Tap a ship type to buy a squadron. It flies into your dock. Drag a ship onto an identical ship (same type, same tier) to merge it into a hig",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "c9fb3a163a8f01ef77d01bee67ae1daba34a1f94f2b9c480cb53cb743e56effe"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "title": "ルーピクス",
+      "description": "彗星の光る軌跡で生き物を囲み、輪を閉じて中の相手を捕まえるアーケードです。大きな輪ほどコンボが大きくなり、小さな火花から巨大な存在へ育ちます。他の彗星の軌跡に触れると脱落しますが、相手ごと囲めばその得点を得られます。\n\n各世界のガーディアンを倒すと、ブラックホールから次の世界へ進めます。ついてくる仲間、スキン、帽子、恒久強化、毎日の贈り物や課題もあります。ブーストは逃げる時や輪を閉じる時に役立つ一方、体の大きさを少し消費します。周囲の軌跡を見て、囲む範囲と安全に戻る方向を決めます。",
+      "instructions": "PCはマウス、矢印キー、A/Dで方向を操作し、左クリックかSpaceを押したままにするとブーストします。モバイルは指をドラッグし、2回タップして押し続けるとブーストです。生き物の周りで輪を閉じ、他の彗星の軌跡には触れないでください。",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ff8aae994581bf4fc5e5f82be4af274a89d9f1ef97268c7fee387d3aec039114"
+    },
+    "soak-and-squeeze": {
+      "sourceHash": "e6fca702b2f439a1626aba78d13ca5d3e77996f157d43e84cca3a88747ed7d32",
+      "title": "浸して絞る",
+      "description": "水を吸ったスポンジをスリングショットのように飛ばし、浮島を渡る3D物理ゲームです。画面を押して引き、離すと逆方向へ飛びます。水が残っていれば空中でも再度飛べ、青いOASISの島へ着地すると自動で補給できます。\n\nトランポリン、大砲、水の滑り台、リングを使って大きな隙間を越えます。落下や水切れで最初へ戻りますが、進んで得た雫は容量、威力、収入などの強化に使えます。翼、雨雲、救助の泡もあり、GOALへ着くと次の世界を解放します。世界ごとに新しいスポンジを育てるため、その場所の仕掛けと補給地点を確かめて進みます。",
+      "instructions": "画面を押して引き、離すと逆方向へ発射します。長く引くほど遠くへ飛び、水があれば空中で追加の発射ができます。青いOASISで補給し、雫で強化してGOALを目指します。キーボードではSpaceを押してため、矢印で向きを変え、離して飛びます。",
+      "referenceHash": "bb2a0b54719a751737f2641d77c4f7a96c473d614bb5c45765893df6e3cad2e4",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Soak & Squeeze is a bouncy 3D physics slingshot game starring a cute, squishy sponge. Soak up water, then squeeze it out",
+        "instructionsQuote": "Press anywhere, pull back and let go: your sponge flies the opposite way (like a slingshot). The longer you pull, the farther you fly. While",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "56425806042bbcb6d3b4b6ecf737eb5436faf0f7e38f118f8ee2255553771edc"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "title": "SWAT OPS: ボディカメラ",
+      "description": "隊員のボディカメラ視点で戦う、一人称シューティングです。レンズのゆがみや揺れを伴う画面で、4つのマップのボットや実際のプレイヤーと対戦します。3分間のDeathmatchやZOMBIE MODEがあり、近距離と遠距離で照準の使い方を考えます。\n\nDeathmatchは先に15キル、Team Deathmatchはチームで先に30キルを目指します。試合でコインを得てケースを開き、100以上の武器スキンやチャームを解放し、シーズンのバトルパスも進められます。遠い相手には照準をのぞいて精密に狙い、移動、弾の補充、武器変更を使い分けます。モバイルは横画面で操作します。",
+      "instructions": "WASDで移動、マウスで視点、左クリックで射撃、右で照準、Rでリロード、Qかホイールで武器変更です。Shiftで走り、Ctrlでしゃがみ、Spaceでジャンプ、TabかEscでメニューと得点表です。モバイルは左スティックと右側ドラッグ、各画面ボタンを使います。",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera sh",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. D",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "44eb3559ecb37ccfd696505a78a589706fe48d56c1820f97edf60ee97da74e8e"
+    },
+    "time-stop": {
+      "sourceHash": "c7b9222687f9800a207ea69d2688a57a8521cd8f662aba636e2e964ae6a1cf16",
+      "title": "タイムストップ",
+      "description": "時間を止め、空中で凍った弾を拾って投げ返せる、漫画風のアリーナシューティングです。停止中は反応できない敵を狙うこともできます。ただし停止は数秒で、再充填が必要なため、いつ使うかを考えます。\n\n各アリーナの敵を倒し、能力を選んで出口から次へ進みます。自爆する敵、盾を持つ兵士、Chrono Bossが登場し、暗闇や銃の不調などの条件もランダムに加わります。盾の正面は弾を防ぐので側面へ回り、自爆する敵は遠くから対処します。得点で恒久的な強化を購入し、その回の能力選択と合わせて長く生き残ることを目指します。",
+      "instructions": "WASDで移動、マウスで視点、左クリックで射撃・投げ、Fか右クリックで時間停止、Eで武器や弾を拾い、Qで持ち物を投げます。モバイルはジョイスティック、右側のドラッグ、射撃・停止・回収ボタンを使います。各波を倒し、能力を選んで次のアリーナへ進みます。",
+      "referenceHash": "6ca97ce9e7994ee49453ec4ad84149f8a72162db651d96d0e3fa0756f6c3eb9e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Stop time. Catch the bullets. Throw them back. TIME STOP is a fast first-person arena shooter in a manga comic style. Yo",
+        "instructionsQuote": "Goal: Survive as long as you can. Clear every wave in the arena, pick a perk, then go through the exit to the next arena. Kill enemies to ea",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "15f2300046c15e54d5a458646789d9b069ea1d739364ea5aeaa7127a809ae8ae"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "title": "シティポップドライブ",
+      "description": "1980年代のシティポップ風の景色を、自動加速する車で走るアーケードです。制限時間内にチェックポイントへ到達し、分岐では景色の道か高速の道を選びます。車の近くをすれ違うと時間が増え、Breezeメーターもたまります。\n\nメーターが満ちると、周囲の車を押しのけるBoostが始まります。海辺、深夜の高速、街、峠、雪のリゾートという5つのマップがあり、選ぶ道で音楽も変化します。ゴールでレコードジャケットを集め、全25種類の収集を目指せます。獲得したMilesは強化、車、新しいマップに使い、分岐と交通の位置を見ながら進みます。",
+      "instructions": "タップして開始し、左右へドラッグして操舵します。PCはマウスドラッグ、矢印キー、A/Dでも操作でき、Pで一時停止します。車は自動で加速します。交通の近くを通って時間とBreezeをため、分岐を選び、時間内にチェックポイントとゴールへ到達してください。",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4d0e360fa661b464a268c9ec202183573b297f9ceacb38a7a1951b3211bddd17"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "title": "+1 ゾンビサバイバル",
+      "description": "1秒ごとにパワーが＋1され、射撃が強くなるブロック風のゾンビシューティングです。訓練場で操作を覚え、5つの街それぞれで10夜を生き残ります。夜は自分で開始し、その夜の大群を倒すと終了します。\n\n建物の室内にこもり、扉や罠を置き、つるはしで壁に射撃口を作れます。停車中の車で大群へ突っ込むこともできますが、ボスには使わないよう案内されています。11種類の武器を解放し、ボスの撃破や転生による恒久倍率で成長します。まず夜を始める前に拠点と装備を整え、修理や強化で防衛を維持してください。",
+      "instructions": "WASDで移動、マウスで視点、左で射撃、右で照準、Spaceでジャンプ、Shiftで走り、Rで装填します。1～0かホイールで武器、Bで設計、Eで扉と乗降、Fで修理、Uで強化、Gで夜開始、Escで停止です。運転はW/Sで加減速、A/Dで操舵。モバイルは画面のスティックと各ボタンを使います。",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "9bebfad15bc802b66a019ae1e82e677de5f92def08227dfeb4dcd3aa54afacbc"
+    },
+    "hatch-or-steal-online": {
+      "sourceHash": "23295ab666a3c44da6090a0aa0dbab965fedcde6d38eb180aca7921ca72643c7",
+      "title": "ふ化する？盗む？オンライン",
+      "description": "卵を購入してペットをふ化させたり、ほかのプレイヤーやNPCから盗んだりして農場を育てるゲームです。最大6人で遊べ、リンクで友達を専用ルームへ招待できます。8段階のレア度の卵から40種類以上のペットを見つけ、離れている間も収入を得ます。\n\n自分の農場をロックし、こん棒で盗人を追い払う防衛も必要です。ドラゴンの巣では障害物を越えて珍しい卵を狙えます。農場や速度を強化し、転生で恒久ボーナスを得て、衣装、翼、軌跡で外見を変えられます。何を持ち運んでいるかと農場の安全を確認し、購入、運搬、防衛を進めます。",
+      "instructions": "WASDか矢印で移動、Spaceでジャンプ、Eで購入・回収・設置・盗み、Gで持ち物を落とします。1でこん棒、左クリックで攻撃、右ボタンを押して視点回転、ホイールで拡大縮小です。Tabでカーソル切替、Mで衣装、Bでエモート、Enterでチャット、Hで操作表示、Escで窓を閉じます。モバイルは画面操作です。",
+      "referenceHash": "97f072dc9386dab38ea38ffeaed6be6e9b256f9d186efface97e21e2420d7b72",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Buy eggs, hatch or steal cute pets and build the richest farm in Hatch or Steal: Online! Play with up to 6 players or in",
+        "instructionsQuote": "Keyboard and mouse: - TAB - lock or on coursor - WASD / Arrow keys - move - Space - jump - E - action: buy an egg, pick up, place, steal - G",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "61f956d8301376608a85cc9c9f94406cf26a6cc9f749605b00d4bd9da063b625"
+    },
+    "chameleon-sniper": {
+      "sourceHash": "13ee18b8d7cce08d96517851364c549d5b02ea7bdfd5a16ac203db93a156f2da",
+      "title": "カメレオンスナイパー",
+      "description": "壁、屋根、岩と同じ色に隠れた敵を探す3D狙撃ゲームです。色ではなく、頭や腕の形、平らな面から出た部分を手がかりにします。島を回転して裏側も調べ、照準を拡大して敵を倒します。どこに当てても倒せますが、ヘッドショットには追加コインがあります。\n\n弾や時間が尽きると失敗し、3つ星には外す回数を最大1回に抑える必要があります。Bulletsで弾数、Sizeで敵の大きさを強化でき、Mark、Beams、Recolor、Night Visionが探索を助けます。日々の課題、ボーナス、補助なしで小さい敵を探すSpecial Opsもあり、命中や残弾で得たコインと星で装備を充実させます。",
+      "instructions": "マウスで見回し、A/Dか矢印で島を回します。右クリックかSpaceで拡大し、マウスで狙って左クリックで撃ちます。タッチではドラッグで見回し、矢印を長押しして島を回します。AIMを押したまま滑らせて狙い、離すと射撃します。形の違いを探し、弾数と時間内にすべて倒してください。",
+      "referenceHash": "15287ba811fe2e365c2447360c2fef227cbc724bd21d42d08cadc28748c28ee2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Chameleon Sniper is a 3D sniper game where you turn a tiny island floating in the ocean and take down enemies hiding in ",
+        "instructionsQuote": "Somewhere on the island, enemies are hiding, painted to match the surface they're stuck to. Turn the island, scan every wall, roof and rock,",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8ace14e167418d4169cbb9ca675fca7a486f12096814703ee5fdcf3f118ed42a"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "title": "ロールタイクーン",
+      "description": "サイコロをまとめて振り、上の面の数でゲーム内のお金を得る3D放置経営です。d4からd20まで5段階のサイコロを増やし、アーティファクトや宝箱の像で収入を改善します。最大の目はJACKPOTとなり、FEVERメーターもたまります。\n\nメーターが満ちると8秒間の報酬2倍が始まり、対応するアーティファクトで延長できます。契約は30件、トロフィーは22個あり、日次4件、週次3件の課題や7日間の贈り物もあります。1回の進行でゲーム内100万ドルに達すると転生でき、星による恒久倍率を得ます。報酬と次の契約を確認し、サイコロや運の強化へ再投資します。",
+      "instructions": "盤面をタップまたはクリックするか、SpaceやROLLで待機中のサイコロを振ります。最大の目でFEVERをため、契約の目標を達成してください。MISSIONSの課題を終えたらCLAIMで受け取ります。資金でサイコロ、段階、運、アーティファクトを強化し、ゲーム内100万ドルで転生を選べます。",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "8fc9b467f5feddd078218917bab32e1efde5036f80b11e15e71757238f14242b"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "title": "奇妙なペットショップ",
+      "description": "届いたペットをガイドと比較し、異常を見つけてから世話と販売を行う店のゲームです。余分な目、消えた影、3つ目の耳、お腹の口など、見た目や行動に違いがあります。24種類のペットと15の異常があり、スキャナーが必要なものも登場します。\n\n正常なペットはなでて価格を上げ、チャットで客と交渉します。提示額を受ける、価格を維持する、さらに求める選択がありますが、強欲すぎると客は帰ります。異常を見逃すと夜の檻に変化が起きるため、夜勤では動く檻を素早く選びます。勤務後に成績を確認し、コインで店を強化して次の仕入れへ備えます。",
+      "instructions": "Start shiftから箱を開け、時間内にガイドと比較します。正常ならLooks normal、異常ならAnomaly!を選んで該当箇所を押します。正常なペットを指やマウスでなで、客の価格交渉に答えます。夜は動く檻をタップしてください。PCはマウス、モバイルはタッチで操作します。",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each ",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks nor",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "e0dfd2f5eb53d31d1ba25a3d8caf2a27e946bacd8974bf0307176181011d6847"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "title": "バトルクロス",
+      "description": "異なる先生から学んだ能力を組み合わせ、自分の英雄を作る冒険です。騎士の盾や炎、召喚、時間停止などを一つの職業に縛られず選べます。街では装備を買い、回復役にポーションベルトを広げてもらい、訓練役から技を学びます。\n\n敵へ近づくと自動で攻撃し、必要に応じてスキルと回復薬を使います。区域の敵集団と最後のリーダーを倒せば完了し、敗れても経験値と戦利品は残ります。レベルごとに能力ポイントが3つ増え、16クラスから8つの能動・4つの受動スキル枠を構成します。区域末の選択には取り消せないものがあり、街、店、先生、結末が変わります。",
+      "instructions": "敵へ近づいて自動攻撃し、スキルと回復薬で支援します。区域のすべての敵集団とリーダーを倒してください。成長時は3ポイントを配分し、街で装備と技を整えます。8つの能動枠と4つの受動枠を使い、取り消せない物語の選択は内容をよく読んで決めます。",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "ceb5865bd2aa64574196634d4f9cd4f2a0ee6fe8d7e774fa83c3ddc0737ca879"
+    },
+    "explainable-minesweeper": {
+      "sourceHash": "37d1ee18a0b617d862593fa1747511e5fc88a017283c1617e316134f24254fee",
+      "title": "理由がわかるマインスイーパー",
+      "description": "地雷の代わりに眠るハリネズミを探す、理由を説明するマインスイーパーです。数字は周囲8マスのハリネズミ数を示し、いないマスをすべて開くとクリアです。ヒントではミーアキャットのPipが安全な場所と、その根拠になる数字を教えます。\n\n5×5から20×20まで16サイズ、それぞれ200面で合計3200面があります。各盤面のハートは3つで、ハリネズミを開くか間違った旗を置くと減ります。毎日の問題や進行保存、8つのテーマ、キャンプの成長もあります。推測で急ぐより数字を比較し、二つの数字の共通範囲など、ヒントが示す考え方を学びながら進めます。",
+      "instructions": "PCは左クリックで開き、右クリックで旗を置きます。モバイルはタップで開き、旗モードで印を付けます。周囲のハリネズミをすべて旗で示した数字を押すと、残りの隣接マスを一度に開けます。Hintで理由を確認し、ピンチかホイールで拡大できます。",
+      "referenceHash": "db6294e0ae0c8f086a2dde3139659fbe317d166c54a75abf12ab84475ac52e53",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Explainable Minesweeper is a minesweeper you can always solve with logic. No guessing, ever. Hedgehogs are sleeping hidd",
+        "instructionsQuote": "• Each number shows how many hedgehogs are in the 8 cells around it. • Open every cell that has no hedgehog to clear the board. • Mobile: ta",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "4b838c0e7815ffd1b5abb11143d4b4108dd4517023201e839d681834213068e4"
+    },
+    "aod--art-of-defense": {
+      "sourceHash": "7d84c9ea4797727c34f53f85132b2261bd37d592ac8054c73b11dfe7033be3e4",
+      "title": "AOD - アート オブ ディフェンス",
+      "description": "終末後の世界で防衛部隊を指揮し、基地を守るタワーディフェンスです。失われたProject Inolaを狙う敵へ対抗し、村から大都市までさまざまな場所で戦います。戦車、機関銃、対空兵器に加え、ヒーローや強力な支援攻撃を利用できます。\n\n500を超える区域、1000を超えるタワー強化、6人のヒーローがあり、カードや育成で防衛を発展させます。escape、fog、survivalのモードは守る際の条件を変えます。敵の進行を見てタワーを置き、主力の強化とヒーローの成長を確認してください。難敵やボスには、弾道攻撃や衛星攻撃といった選択肢もあります。",
+      "instructions": "左マウスボタンでタワーを配置します。ホイール、またはタッチパッドのピンチで表示を拡大縮小します。迫る敵に合わせて防衛を作り、戦車、機関銃、ロケットなどとヒーローを使って基地を守ります。戦いに合わせてタワーの強化と支援能力も確認してください。",
+      "referenceHash": "55cd9da741187a3bf20785fc7e11d048f8303ca2c975c726fd6279ab8d67f996",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "AOD - Art Of Defense is a dynamic tower defense game with elements of strategy and RPG in a post-apocalyptic world.",
+        "instructionsQuote": "AOD - Art Of Defense is a dynamic tower defense game set in a post-apocalyptic world. As the commander of the A.O.D squad, you lead the figh",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8"
+      },
+      "reviewedTextHash": "f5cdb8aa7d4baacdf611f52531e0eacd4aeb2e7d912b58e24081711058c3474a"
+    }
+  }
+}

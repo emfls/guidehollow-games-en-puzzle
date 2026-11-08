@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "pl",
+  "games": {
+    "click-click-clicker-playgama": {
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Klik, klik, kliker",
+      "description": "Klik, klik, kliker opiera postęp na jednym przycisku: każde naciśnięcie daje pieniądze w grze, które można wydać na ulepszenia. Dostępne kierunki rozwoju obejmują większy zarobek za kliknięcie, lepszy dochód pasywny oraz dodatkowe kursory. Przed zakupem zastanów się, czy chcesz wzmocnić własne klikanie, czy stopniowe gromadzenie środków.\n\nOdblokowywane elementy zmieniają też wygląd i dźwięk gry. Nowe przyciski, tła, kursory oraz muzyka stanowią widoczne cele kolejnych zakupów. Zacznij od podstawowego przycisku, sprawdź ulepszenia i wybierz element, na który chcesz uzbierać. Źródło opisuje zarobek pasywny, ale nie podaje dokładnych cen ani zasad dochodu poza grą; kieruj się wartościami widocznymi w interfejsie.",
+      "instructions": "Naciskaj główny przycisk, aby zdobyć pierwsze pieniądze w grze. Otwórz ulepszenia i porównaj dochód za kliknięcie, zarobek pasywny oraz liczbę kursorów. Kup dostępne ulepszenie, po czym dalej klikaj lub zbieraj dochód pasywny. Gdy odblokujesz nowe tło, muzykę, kursor albo przycisk, wybierz je w opcjach wyglądu.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click "
+      },
+      "reviewedTextHash": "f84e11781c17a7285cdfe6c02891120acd123f74e9cf45f83e4f5140353de411"
+    },
+    "build-and-run-playgama": {
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Buduj i biegnij",
+      "description": "Buduj i biegnij łączy pokonywanie trasy z uzupełnianiem brakujących fragmentów poziomu. Platforma, rampa i pochylnia mają osobne polecenia, dlatego najpierw obejrzyj przerwę w drodze i wybierz konstrukcję odpowiadającą jej kształtowi. Na trasie pojawiają się również przeciwnicy, a do walki z nimi służy oddzielna akcja użycia broni.\n\nNajważniejsze jest rozróżnienie budowania i atakowania. Przycisk broni nie zastępuje konstrukcji, a każda z trzech części drogi ma własny klawisz. Warto zapamiętać ich położenie, zanim dotrzesz do trudniejszego odcinka. Opis wspomina także wyposażenie postaci i dwa tryby, ale nie wyjaśnia różnic między ich zasadami; pewnym punktem wyjścia są podane polecenia budowy i walki.",
+      "instructions": "Na komputerze Q tworzy platformę, W rampę, a E pochylnię. Sprawdź, jakiej części poziomu brakuje, i użyj odpowiedniego klawisza, aby uzupełnić trasę. Naciśnij R, żeby użyć broni przeciw przeciwnikowi. Na telefonie korzystaj z przycisków ekranowych. Źródło nie określa osobnego klawisza poruszania się, więc wykonuj wskazówki wyświetlane przez grę.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use wea"
+      },
+      "reviewedTextHash": "8c0eb937680b93b7d0063269069267f0f83802d270c36fd5aff492cd590c8bba"
+    },
+    "samurai-survivor": {
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Przetrwanie samuraja",
+      "description": "Przetrwanie samuraja rozgrywa się w dawnej Japonii, gdzie tajemniczy portal wypuszcza potwory. Bezpośredni cel to przeżycie starć z licznymi wrogami, zdobywanie poziomów i rozwijanie umiejętności wojownika. Historia przedstawia samurajów jako obrońców ojczyzny, natomiast opisany postęp polega przede wszystkim na przetrwaniu i wybieraniu ulepszeń.\n\nŹródło najdokładniej wyjaśnia ruch: możesz używać strzałek, przeciągać mysz z wciśniętym lewym przyciskiem albo sterować dotykiem na telefonie. Najpierw opanuj wygodny sposób zmieniania pozycji, a następnie zapoznawaj się z dostępnymi zdolnościami przy awansie. Różne umiejętności wojowników są wymienione, ale nie ma ustalonej najlepszej kolejności rozwoju ani osobno opisanej komendy ataku.",
+      "instructions": "Strzałki ↑, ↓, ← i → przesuwają wojownika w górę, w dół, w lewo oraz w prawo. Możesz też przytrzymać lewy przycisk myszy i przeciągać ją w wybranym kierunku. Na urządzeniu mobilnym poruszaj się, dotykając ekranu. Zmieniaj pozycję wśród wrogów, a po zdobyciu poziomu przeczytaj dostępne opcje i wybierz ulepszenie umiejętności.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move"
+      },
+      "reviewedTextHash": "30c025ee9b90fb9750a05e9f875ea1f2c4184cd1ec414498ef493953f4a61a45"
+    },
+    "pow-2889-1": {
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow — opieka nad pupilem",
+      "description": "Opieka nad Powem polega na karmieniu, myciu i zabawianiu wirtualnego zwierzaka, który rośnie oraz zdobywa poziomy. Pionowe paski u góry ekranu pokazują potrzeby w każdym pokoju. Najpierw sprawdź te wskaźniki, potem użyj odpowiednich przedmiotów i obserwuj, czy wykonywane czynności pomagają je wypełniać.\n\nPokój gier łączy zabawę z dalszą opieką. Jego aktywności pozwalają zbierać monety na jedzenie oraz dekoracje pokoju. Jedzenie służy trosce o Powa, a ozdoby zmieniają otoczenie, więc przed wydaniem monet zdecyduj, jaki jest twój bieżący cel. Sterowanie opiera się na myszy lub dotyku, a wskazówki na ekranie prowadzą przez czynności dostępne w danym pomieszczeniu.",
+      "instructions": "Klikaj myszą albo dotykaj ekranu, aby wchodzić w interakcje z Powem i przedmiotami. Sprawdź pionowe paski potrzeb u góry ekranu aktualnego pokoju, następnie wykonaj czynności zgodnie ze wskazówkami. Odwiedzaj pokój gier, by zbierać monety na jedzenie i dekoracje. Przy przechodzeniu między pokojami ponownie kontroluj stan potrzeb zwierzaka.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can s"
+      },
+      "reviewedTextHash": "308422c77ea926a4693cc86db0f9741ac24217e430e22f83f93415823ee75f0b"
+    },
+    "slides-and-climbs": {
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Zjeżdżalnie i drabiny",
+      "description": "Zjeżdżalnie i drabiny to wyścig planszowy, w którym rzut kostką przesuwa kolorowy pionek w stronę mety. Na planszy znajdują się węże, więc niekorzystne pole może zmienić przebieg drogi do celu. Po rzucie zwracaj uwagę nie tylko na liczbę oczek, lecz także na miejsce, w którym zatrzymał się pionek, oraz wynik tego ruchu.\n\nPodczas przygotowania wybierasz kolory uczestników i dostępny układ przeciwników, w tym rywali komputerowych. Przy stole może być łącznie najwyżej sześciu uczestników. Wyrzucenie szóstki daje dodatkowy rzut, który należy wykonać przed zakończeniem kolejki. Źródło nie opisuje szczególnego warunku ostatniego rzutu przy mecie, dlatego stosuj się do możliwości pokazanych na planszy.",
+      "instructions": "Wybierz kolory i skład stołu, który mieści maksymalnie sześciu uczestników łącznie. Użyj przycisku rzutu, przesuń pionek zgodnie z wynikiem i sprawdź pole, na którym się zatrzymał. Jeśli wypadnie 6, wykonaj dodatkowy rzut. Kontynuuj drogę do mety, obserwując węże oraz zmiany położenia pionka po każdym ruchu.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to "
+      },
+      "reviewedTextHash": "f28442ecb59b1756f9208755e8f9c43a5aa6fcac128c443fb5de3e367b4aba90"
+    },
+    "pathfinder": {
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Znajdź drogę",
+      "description": "Znajdź drogę to łamigłówka o kopaniu tuneli, którymi kolorowe kulki mają dotrzeć do rur pod powierzchnią. Nie sterujesz bohaterem, lecz kształtem przejścia. Zanim zaczniesz usuwać ziemię, znajdź kulki oraz docelowe rury i zastanów się, jak połączyć ich pozycje w danym układzie.\n\nWśród przeszkód źródło wymienia metalowe bloki i kolce. Uwzględnij je podczas planowania: prosta linia do celu nie wystarczy, jeżeli przechodzi przez przeszkodę. Pomocne jest rozpoczęcie oględzin od rur i prześledzenie możliwej trasy wstecz, ku kulkom. Gra obejmuje 30 poziomów o rosnącej złożoności, dlatego przy każdym nowym układzie ponownie sprawdź cały obszar przed kopaniem.",
+      "instructions": "Na komputerze klikaj, aby kopać ścieżkę; na telefonie lub tablecie dotykaj powierzchni. Najpierw znajdź kolorowe kulki, rury, metalowe bloki i kolce. Zaplanuj połączenie omijające przeszkody, a następnie wykop tunel prowadzący kulki do rur. Oglądaj układ od nowa przed każdym z 30 poziomów, ponieważ kolejne zagadki stają się bardziej złożone.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—"
+      },
+      "reviewedTextHash": "f6b0ade79697bf3447d40d0b0097b3a671559990d4dc25c1a728ef2440dcfaed"
+    }
+  }
+}

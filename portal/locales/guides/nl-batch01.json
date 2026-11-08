@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "games": {
+    "click-click-clicker-playgama": {
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Klik, klik, klikker",
+      "description": "In Click Click Clicker draait de voortgang om één knop. Elke druk levert spelgeld op waarmee je verbeteringen koopt. Je kunt de opbrengst per klik verhogen, je passieve inkomsten verbeteren of meer cursors krijgen. Bedenk vóór een aankoop welk deel van je inkomsten je wilt versterken: actief klikken of geleidelijk geld verzamelen.\n\nJe ontgrendelt daarnaast nieuwe knoppen, achtergronden, cursors en muziek. Daardoor heb je ook zichtbare doelen om voor te sparen. Begin met de gewone knop, bekijk de beschikbare verbeteringen en kies daarna de vormgeving die je wilt vrijspelen. De bron beschrijft passieve inkomsten, maar geeft geen exacte prijzen of regels voor inkomsten buiten het spel; gebruik daarvoor de informatie in het spel zelf.",
+      "instructions": "Druk op de hoofdknop om je eerste spelgeld te verdienen. Open de verbeteringen en vergelijk de opbrengst per klik, de passieve inkomsten en het aantal cursors. Koop een beschikbare verbetering en blijf klikken of laat de beschreven passieve inkomsten oplopen. Kies nieuwe achtergronden, muziek, cursors en knoppen zodra die in de vormgevingsopties beschikbaar zijn.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click "
+      },
+      "reviewedTextHash": "76d58103bf8aeb802909b5cc828343d464e6469fe4fcd3131ed6255c3d506c6b"
+    },
+    "build-and-run-playgama": {
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Bouwen en rennen",
+      "description": "Bouwen en rennen combineert een parcours afleggen met het aanvullen van ontbrekende stukken. Een platform, een oprit en een schuin weggedeelte hebben elk een eigen bouwopdracht. Bekijk dus eerst de vorm van de onderbreking voordat je een onderdeel plaatst. Onderweg zijn er ook vijanden waarvoor je een afzonderlijke wapenactie kunt gebruiken.\n\nHet gaat om het afwisselen van bouwen en omgaan met tegenstanders. De wapenknop vervangt de bouwacties niet, en de drie constructies zitten op verschillende toetsen. Leer hun plaats zodat je na het bekijken van een obstakel meteen de juiste keuze kunt maken. De bron noemt ook uitrusting voor je personage en twee spelstanden, maar beschrijft geen verschillende regels voor die standen.",
+      "instructions": "Druk op de computer op Q om een platform te bouwen, op W voor een oprit en op E voor een schuin weggedeelte. Bekijk welk deel ontbreekt en gebruik de bijbehorende bouwopdracht. Met R gebruik je wapens tegen vijanden. Op een telefoon gebruik je de knoppen op het scherm. Een afzonderlijke bewegingstoets staat niet in de bron; volg de aanwijzingen in het spel.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use wea"
+      },
+      "reviewedTextHash": "e2e59fd37cfe3d398ece9126ad17de14896d7e81f2a4365083d71591a01d9c3a"
+    },
+    "samurai-survivor": {
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Overleven als samoerai",
+      "description": "Samurai Survivor speelt zich af in het oude Japan, waar monsters uit een geheimzinnig portaal komen. Je directe doel is grote groepen vijanden te overleven, niveaus te stijgen en de vaardigheden van je krijger te verbeteren. Het verhaal verklaart de verdediging van het thuisland; de concreet beschreven voortgang bestaat uit overleven en verbeteringen kiezen.\n\nDe bron legt vooral de besturing van de beweging uit. Je kunt de pijltjestoetsen gebruiken, met ingedrukte linkermuisknop slepen of op een telefoon via aanraking bewegen. Oefen eerst de manier die je het prettigst vindt, zodat je tussen de vijanden van positie kunt veranderen. Lees bij het stijgen in niveau de aangeboden vaardigheden voordat je kiest. Een aparte aanvalstoets en een vaste beste volgorde van verbeteringen worden niet gegeven.",
+      "instructions": "Gebruik ↑, ↓, ← en → om omhoog, omlaag, naar links en naar rechts te bewegen. Je kunt ook de linkermuisknop ingedrukt houden en de muis in de gewenste richting slepen. Op een mobiel apparaat beweeg je door het scherm aan te raken. Blijf je verplaatsen tussen de vijanden en kies vaardigheidsverbeteringen wanneer je een niveau stijgt, nadat je de opties hebt gelezen.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move"
+      },
+      "reviewedTextHash": "efaab60f93ebdfbb1277207a9ea0a931bb9fe0ddf759fb3c43f0668d6e13fc5d"
+    },
+    "pow-2889-1": {
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow",
+      "description": "In Pow verzorg je een virtueel huisdier door het te voeren, schoon te maken en ermee te spelen. Het groeit en stijgt in niveau terwijl je de verzorging voortzet. Boven in het scherm tonen verticale balken in elke kamer de behoeften. Bekijk die eerst, gebruik daarna de passende voorwerpen en controleer of je handelingen de balken aanvullen.\n\nDe speelkamer verbindt activiteiten met de verzorging. Je verzamelt er munten waarmee je eten en versieringen voor de kamer kunt kopen. Eten helpt bij de zorg voor Pow, terwijl decoraties de omgeving veranderen; kies dus op basis van wat je op dat moment wilt bereiken. Je bedient het huisdier en de voorwerpen met de muis of via aanraking en volgt de aanwijzingen van de huidige kamer.",
+      "instructions": "Gebruik de muis of raak het scherm aan om met Pow en de voorwerpen te werken. Controleer de verticale behoeftebalken boven in het scherm van de huidige kamer en volg de aanwijzingen om die behoeften te verzorgen. Ga naar de speelkamer om munten te verzamelen. Gebruik ze voor eten en decoraties en blijf de behoeften controleren wanneer je naar een andere kamer gaat.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can s"
+      },
+      "reviewedTextHash": "49be12d382a482c660803499a87063eb333fedd15ccb2a51528652cffcc29d5d"
+    },
+    "slides-and-climbs": {
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Glijden en klimmen",
+      "description": "Glijbanen en beklimmingen is een bordspel waarin een dobbelsteenworp je gekleurde pion richting de finish verplaatst. Er liggen slangen op het bord, zodat een ongunstige landing je voortgang kan onderbreken. Let na de worp daarom ook op het vak waar je pion terechtkomt en op de verplaatsing die het spel vervolgens laat zien.\n\nBij de voorbereiding kies je de kleuren en de beschikbare tegenstanders, waaronder computergestuurde spelers. Er kunnen maximaal zes deelnemers in totaal aan tafel zitten. Een belangrijke beurtregel is dat een zes een extra worp oplevert: handel die af voordat je de beurt als voltooid beschouwt. De bron geeft geen bijzondere regel voor de laatste worp bij de finish, dus volg de mogelijkheden die het bord aanbiedt.",
+      "instructions": "Kies de kleuren en de bezetting van de tafel, met maximaal zes deelnemers in totaal. Gebruik de dobbelsteenknop om je pion te laten opschuiven en bekijk het vak waarop deze landt. Gooi je 6, neem dan de extra worp. Blijf naar de finish bewegen en let op slangen en op het resultaat van elke verplaatsing. De bron noemt geen sneltoets voor het gooien.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to "
+      },
+      "reviewedTextHash": "a62412f3e591dfc06b18a4027307fea63a4fbdc1bb30b548db9ad614f7468bdb"
+    },
+    "pathfinder": {
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "PathFinder",
+      "description": "PathFinder is een graafpuzzel waarin gekleurde ballen via ondergrondse tunnels naar buizen moeten rollen. Je bestuurt geen personage, maar maakt de doorgang zelf. Bekijk vóór het graven waar de ballen beginnen en waar de buizen liggen, zodat je weet welke verbinding je in de grond wilt maken.\n\nMetalen blokken en doornen zijn de hindernissen die de bron noemt. Houd er bij het plannen rekening mee: een rechte lijn naar de buis werkt niet als er een obstakel op ligt. Een bruikbare aanpak is eerst de bestemming te zoeken en de mogelijke tunnel in gedachten terug te volgen naar de bal. Er zijn 30 niveaus met steeds ingewikkeldere indelingen, dus onderzoek bij ieder nieuw bord opnieuw de volledige route.",
+      "instructions": "Klik op de computer om een pad te graven; raak op een telefoon of tablet de grond aan. Zoek eerst de gekleurde ballen, buizen, metalen blokken en doornen. Plan een verbinding om de hindernissen heen en graaf vervolgens de tunnel die de ballen naar de buizen leidt. Bekijk elk van de 30 niveaus opnieuw voordat je begint, omdat de puzzels ingewikkelder worden.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—"
+      },
+      "reviewedTextHash": "9fe3c4213740f439bc8b6a3a08170c3d3fda19127d88ca983f66d5d25f1aa879"
+    }
+  }
+}

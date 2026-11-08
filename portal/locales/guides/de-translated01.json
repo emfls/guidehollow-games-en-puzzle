@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "locale": "de",
+  "games": {
+    "the-road-home-granny-escape": {
+      "sourceHash": "eaf3398c2900801fa73c39af966aa5a0de59eeaf187a8095664a66baf73adeb4",
+      "title": "Der Heimweg: Flucht vor Granny",
+      "description": "Granny und Grandpa haben dich auf dem Heimweg gefangen genommen. Du erwachst in einem verschlossenen Haus mit verbarrikadierten Fenstern, versteckten Gegenständen und gefährlichen Fallen. Dein Ziel ist die Flucht. Die beiden Entführer reagieren auf Geräusche und Bewegung, sodass bereits die Suche nach einem Schlüssel eine Verfolgung auslösen kann.\n\nErkunde die Räume, löse Rätsel und kombiniere gefundene Materialien zu nützlichen Gegenständen. Es gibt mehrere Fluchtwege und geheime Ausgänge der Geschichte. Neue Durchgänge entstehen durch das Zusammenspiel von Erkundung, Gegenständen und Rätsellösungen. Achte dabei darauf, wo sich die Entführer befinden und welche Geräusche du verursachst.",
+      "instructions": "Bewege dich mit WASD, ducke dich mit C und springe mit der Leertaste. Suche nach Schlüsseln, Materialien und anderen brauchbaren Gegenständen. Löse Rätsel oder kombiniere Ressourcen, um Durchgänge zu öffnen. Granny und Grandpa reagieren auf Geräusche und Bewegung: Bleibe unbemerkt, vermeide Fallen und nutze die gefundenen Gegenstände, um das Haus zu verlassen.",
+      "referenceHash": "d6050c141d1b56637e78b59435c090694f51e1ceb381c143e504843778eac49f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "The Road Home: Granny Escape is a terrifying 3D horror survival game where your only goal is to escape a haunted house filled with danger,",
+        "instructionsQuote": "WASD — Move C — Crouch Space — Jump The main goal is to escape from the old people's house. Find useful items and use them to your"
+      },
+      "reviewedTextHash": "e82f38751e50dbb170d543dbfeec8a2678609784709b97cbdaf679326c945404"
+    },
+    "car-destruction-king": {
+      "sourceHash": "f42360ffab8573fa2c9298266d38e21ab59c627be8573d1d45367de8ba2324b6",
+      "title": "König der Autozerstörung",
+      "description": "Car Destruction King verbindet Autorennen mit einer Umgebung für Zerstörungsexperimente. Fahre unterschiedliche Fahrzeuge und teste, wie sie auf rotierende Hämmer, Pressen, Katapulte und andere Hindernisse reagieren. Mehrere Karten und Spielmodi erlauben sowohl Rennversuche mit neuen Rekorden als auch das Ausprobieren von Zusammenstößen.\n\nMit der Zeitlupe kannst du einen Unfall genauer betrachten. Kamerawahl, Fahrzeugwechsel und das Zurücksetzen oder Wiederherstellen des Autos geben dir unterschiedliche Möglichkeiten für einen neuen Versuch. Wähle eine Strecke oder ein Hindernis und vergleiche, wie die verfügbaren Fahrzeuge darauf reagieren, oder arbeite im Rennmodus an deinem Ergebnis.",
+      "instructions": "Fahre mit WASD. Die Leertaste betätigt die Handbremse, Shift aktiviert Nitro und C wechselt die Kamera. R setzt das Auto zurück, K stellt es wieder her und N wechselt das Fahrzeug. B aktiviert die Zeitlupe. Tab oder Esc öffnet das Pausenmenü. Auf Mobilgeräten verwendest du die Bedienelemente der Spieloberfläche. Wähle eine Karte und einen Modus für Rennen oder Fahrzeugtests.",
+      "referenceHash": "654cde22ff716feb21a7526290b3df5538e38bfd1ea4d65067b14bbcf69950f3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Drive different cars, test your strength with rotating hammers, presses, catapults and other obstacles! Take part in the races and set new",
+        "instructionsQuote": "Controls: TAB - pause menu (or Escape) Driving - WASD. Spacebar - handbrake. Shift - nitro. C - change camera. R - reset car. K - restore car. N - switch car. B - slow"
+      },
+      "reviewedTextHash": "7f50f4c784eb390b701d2e6fc64d4a655268c28c654862f6372fa4531ac55bd3"
+    },
+    "buggy-simulator-sandbox-3d": {
+      "sourceHash": "d4ec83f4a9fa20bc52ea7f2c8426c3e608957a10432d077de5d086880a9aad7d",
+      "title": "Buggy-Simulator: 3D-Sandbox",
+      "description": "Dieser Buggy-Simulator ist eine offene Fahrumgebung zum Ausprobieren von Fahrzeugphysik. Erkunde die Karte mit Stadt und Brücke, springe über Hügel oder fahre von der Brücke. Im Testbereich kannst du Pyramiden umstoßen und beobachten, wie Federung und Räder auf das Gelände reagieren.\n\nMehrere Fahrzeuge stehen zur Wahl und lassen sich jederzeit wechseln. Dadurch kannst du denselben Sprung oder dieselbe Bodenwelle mit einem anderen Auto vergleichen. Das vorgegebene Ziel ist freies Fahren nach deinen eigenen Vorstellungen. Kamerawechsel und Fahrzeugrücksetzung helfen dir, einen Versuch aus einer anderen Perspektive zu betrachten oder erneut zu starten.",
+      "instructions": "WASD dient zum Fahren und Lenken, die Leertaste zur Handbremse und Shift zu Nitro. C wechselt die Kamera, R setzt das Auto zurück und N wählt das nächste Fahrzeug. Tab öffnet das Menü. Weitere Funktionen und die mobile Steuerung findest du in der Spieloberfläche. Fahre frei über die Karten und beobachte bei Sprüngen und Hindernissen das Verhalten des Fahrzeugs.",
+      "referenceHash": "d2fe25eee0ad2e1bc469dca737efdde05ec4cc5adda724fbeff71f8e917183d6",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "This is a buggy physics simulator, ride on various maps and observe the behavior of cars and their wheels. There are several cars to choose from",
+        "instructionsQuote": "Controls: \"WASD\" - driving/steering \"SPACE\" - handbrake \"C\" - change camera \"Shift\" - nitro \"R\" - reset car \"N\" - next car \"Tab\" - menu The rest is through the game"
+      },
+      "reviewedTextHash": "5f8241ae1058b137c95b91e271545e790ddda4df7fa794eb49417acaabb83582"
+    },
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "title": "Online-Schach gegen andere",
+      "description": "Spiele Schach gegen den Computer, online gegen andere Spieler oder gemeinsam mit einem Freund an einem Bildschirm. Ziel ist es, den gegnerischen König schachmatt zu setzen. Der Computer bietet 21 Schwierigkeitsstufen vom Anfänger bis zum Weltmeister. Bei der Bedenkzeit stehen unbegrenztes Spiel sowie Bullet, Blitz, Rapid und Classic zur Auswahl.\n\nAngezeigte legale Züge und interaktive Hinweise helfen dir, eine Stellung zu verstehen. Nach der Partie kannst du den Verlauf und die Analyse betrachten, um Fehler und bessere Fortsetzungen zu erkennen. Brett und Figuren lassen sich anpassen. Wähle einen passenden Gegner und ein angenehmes Tempo und achte darauf, wie jeder Zug die Sicherheit beider Könige verändert.",
+      "instructions": "Wähle die Spielart und die verfügbaren Einstellungen für Schwierigkeit und Bedenkzeit. Beide Seiten ziehen abwechselnd nach den Bewegungsregeln ihrer Figuren. Setze den gegnerischen König schachmatt: Er muss angegriffen sein und darf dem Angriff mit keinem legalen Zug entkommen können. Nutze die Zuganzeige und Hinweise und prüfe nach der Partie den Verlauf und die Analyse.",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Chess Multiplayer is the",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a position where it is under threat"
+      },
+      "reviewedTextHash": "2bbe0e06f007d7e11d10e506d537809029105e34d5fe502d663dd67d2c428702"
+    },
+    "screw-match": {
+      "sourceHash": "513d56f2123817f4c6b3a18c35458b498b31f5e56b615a3f7c441dd71a184383",
+      "title": "Schrauben-Match",
+      "description": "Schrauben-Match ist ein Farbsortierpuzzle mit Schrauben in einer Glaskonstruktion. Bringe jede Schraube in die oben angezeigte Sammelbox derselben Farbe. Entscheidend ist die Übereinstimmung zwischen Schraubenfarbe und Box, nicht das beliebige Entfernen eines Teils.\n\nSobald die Schraubenplätze einer Box gefüllt sind, wird sie durch eine neue Box ersetzt. Prüfe deshalb nach jedem abgeschlossenen Behälter erneut die aktuell benötigte Farbe. Der Ablauf besteht darin, passende Schrauben aus der Konstruktion zuzuordnen und die wechselnden Sammelboxen zu füllen.",
+      "instructions": "Prüfe die Farben der Sammelboxen am oberen Bildschirmrand. Ordne eine Schraube der Box mit derselben Farbe zu. Sind alle Plätze dieser Box gefüllt, erscheint eine neue. Kontrolliere deren Farbe, bevor du die nächste Schraube auswählst, und setze die Zuordnung mit den jeweils angezeigten Boxen fort.",
+      "referenceHash": "cb935f9bda768719eb909d6ef51b2ddfcb8b706d762683f3f8380c07a63e769e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Screw Match - Nuts and Bolts. Your task is to put screws of different colors on the glass nut to the box on the top with the same color as the",
+        "instructionsQuote": "Put screws of different colors on the glass nut to the box on the top with the same color as the"
+      },
+      "reviewedTextHash": "bea655603bdd2b08588e12e9abc1f438a97034d7450a1992de934b35c7123ba2"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "title": "Flucht aus der Gruft",
+      "description": "Flucht aus der Gruft ist ein Rätselspiel, in dem du Raum für Raum vor Nekromanten entkommst. Sie bewegen sich schneller als deine Figur, umgehen Hindernisse aber nicht selbstständig. Dadurch werden Wände und Sackgassen zu Werkzeugen: Du musst einen Verfolger in eine ungünstige Richtung locken und zugleich deinen eigenen Fluchtweg freihalten.\n\nBetrachte deshalb nicht nur das nächste Feld deiner Figur, sondern auch den Weg, den der Gegner dadurch einschlagen wird. Eine passende Bewegungsfolge führt den Nekromanten an ein Hindernis oder in eine Sackgasse und lässt dich zum nächsten Raum gelangen. Mit der Rückgängig-Funktion kannst du einen Zug überprüfen; ein Hinweis hilft, wenn die Lösung unklar bleibt.",
+      "instructions": "Am Computer bewegst du die Figur mit den Pfeiltasten. Backspace macht einen Zug rückgängig und H fordert einen Hinweis an. Auf Mobilgeräten nutzt du das eingeblendete Steuerkreuz und die Bildschirmtasten. Prüfe Hindernisse und Sackgassen und locke die schnelleren Nekromanten dorthin, ohne deinen eigenen Weg zum nächsten Raum zu versperren.",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they won't avoid obstacles:",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the on-screen"
+      },
+      "reviewedTextHash": "7883cfe7394628ccfd2d960c8f06d2c0117b30e964abeeda797eaa29674ef6e4"
+    },
+    "ludo-legend": {
+      "sourceHash": "af03d3c21404e1b666b1c39d862818fd45626cad62324000517f19352efa3d2d",
+      "title": "Ludo-Legende",
+      "description": "Ludo-Legende ist ein Würfelspiel, das du allein oder mit Freunden an einem Gerät spielen kannst. Bringe alle deine Figuren aus dem Startbereich ins sichere Zielhaus. Eine Sechs bringt eine Figur ins Spiel; bei weiteren Würfen entscheidest du, welche zulässige Figur du vorrücken lässt.\n\nLandet eine gegnerische Figur auf dem Feld einer deiner Figuren, wird deine Figur zurück zum Start geschickt. Deshalb kann eine gute Führung durch die Positionen auf dem Brett schnell wechseln. Vergleiche vor dem Ziehen die Möglichkeiten deiner Figuren und die Reichweite der Gegner. Gewonnen hat, wer zuerst seine gesamten Figuren ins Zielhaus gebracht hat.",
+      "instructions": "Würfle und wähle eine Figur, die du mit dem Ergebnis bewegen darfst. Mit einer Sechs bringst du eine Figur aus dem Startbereich ins Spiel. Bewege danach alle Figuren Richtung Zielhaus und beachte, dass Gegner sie durch Landen auf demselben Feld zurückschicken können. Beim gemeinsamen Spiel gibst du das Gerät nach deinem Zug weiter. Wer alle Figuren zuerst ins Ziel bringt, gewinnt.",
+      "referenceHash": "bb8662468f70fa727b05facbf0ede7873c0bc6bb244c1b35170e0478ccd9e88b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Play a game of Ludo! Everyones favourite board game! Play alone or with your friends on one device! Just pass it on! Colorful design and easy",
+        "instructionsQuote": "Get your tokens from start to finish with rolls of a die. First, release them on the roll of 6. Roll a die and decide which token you move. Get all of them into a"
+      },
+      "reviewedTextHash": "1a6c30442be2bd4bdc2282ce06ca35f08decaa3c63b07cf15da50363331cf2b5"
+    },
+    "tall-io": {
+      "sourceHash": "6ac1ea15f898ce626fce6c54a0a561ba38b9eac4cdde38654059793f6d479f76",
+      "title": "Tall.io: Wachse in der Arena",
+      "description": "In Tall.io steuerst du ein Strichmännchen durch eine Arena und sammelst Gegenstände, um größer und stärker zu werden. Ziegel, Würfel, Münzen und Regenbogenkugeln gehören zu den beschriebenen Sammelobjekten. Auf verschiedenen Inseln trittst du gegen andere Spieler an und versuchst, dir durch Wachstum einen Vorteil zu verschaffen.\n\nNeben dem Sammeln gibt es Angriffe gegen andere Figuren. Die Leertaste löst einen Angriff oder einen Schlag aus, während erworbene Schwerter und Rüstungen zu deiner Ausrüstung gehören. Der Spielablauf verbindet somit Bewegung durch die Arena, das Aufnehmen der verteilten Gegenstände und Auseinandersetzungen mit anderen Teilnehmern.",
+      "instructions": "Bewege dein Strichmännchen mit den Pfeiltasten oder WASD durch die Arena. Sammle die verteilten Würfel, Münzen und Ziegel sowie die beschriebenen Regenbogenkugeln, um zu wachsen. Mit der Leertaste greifst du Gegner an. Nutze die erworbenen Schwerter und Rüstungen bei den Kämpfen und sammle weiter, um Größe und Stärke zu verbessern.",
+      "referenceHash": "322ae579d42971c0798ee28b61a29fd12319da5f039114bcb682816642f5fbeb",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Tall.io is an engaging and addictive browser-based HTML5 game that combines elements of growth strategy and battle-arena action. Players control",
+        "instructionsQuote": "Understanding the &controls& in Tall.io is crucial for success. Players use the arrow keys or WASD keys to navigate their &stickman& throughout the arena. The goal is to"
+      },
+      "reviewedTextHash": "ef34b0d022e63e950aaafc9bd47098aa41e233b733018a55898eb8c623698a80"
+    },
+    "edgefire-2-667e-1": {
+      "sourceHash": "8a809924f8cda065c49221b73eb5208d5df8349f327e3897b897aed8ebbbf6d8",
+      "title": "EdgeFire 2",
+      "description": "EdgeFire 2 ist ein kompetitives Actionspiel, dessen Beschreibung taktische Gefechte und das Zusammenspiel im Team betont. Der Anbieter orientiert sich an klassischen Taktik-Shootern und verbindet deren vertraute Atmosphäre mit neuen Ideen. Im Mittelpunkt stehen Kämpfe gegen andere Gegner, bei denen Bewegung, Reaktion und präzise Schüsse zusammenwirken.\n\nDie konkreten Grundaktionen sind Fortbewegung, Schießen und Nachladen. Nutze sie, um deine Position im Gefecht zu verändern und gezielt auf Gegner zu reagieren. Die Quelle hebt neben Waffenbeherrschung auch taktisches Vorgehen hervor: Beobachte die Situation und stimme dein Handeln auf den Verlauf der Begegnung ab.",
+      "instructions": "Bewege dich mit WASD. Die linke Maustaste feuert, R lädt nach und Esc öffnet das Pausenmenü. Setze Bewegung und Schüsse bewusst ein und achte auf die Position der Gegner. Die Anbieterbeschreibung betont präzises Zielen und taktisches Zusammenspiel im Team als Grundlagen der Gefechte.",
+      "referenceHash": "218b2e582a640c0ade3d9366f4937dbffed836a18c20eb305859ce0ee18275af",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "EdgeFire 2 is a large—scale and multifaceted game universe offering a deep reinterpretation of the classic formulas of the genre. If you are",
+        "instructionsQuote": "WASD - movement R - recharge LMB - shot Esc - pause menu To rise to the top and put your name in the pantheon of legends of this game, it's not enough just to destroy"
+      },
+      "reviewedTextHash": "a1d7251af0a36f41cce066a11858afc1c74aa13d50207fb4c80eeb7ceab2cf03"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "title": "CubeGate",
+      "description": "CubeGate verbindet Plattformpassagen mit Logikrätseln in futuristischen Testkammern. Leuchtende Würfel auf Druckplatten versorgen Türen, Brücken und Aufzüge mit Energie. Manche Räume benötigen mehrere Würfel oder eine bestimmte Reihenfolge; in anderen musst du zuerst springen und erst danach ein Tor aktivieren.\n\nBodenmarkierungen, Kabel und Energielinien zeigen die Verbindungen zwischen den Geräten. Überlege vor dem Tragen eines Würfels, welche Position du anschließend noch erreichen kannst. Das Ziel ist, die markierten Platten zu versorgen und die Tür zum nächsten Bereich zu öffnen. Bei einem Fehlversuch lässt sich der Raum über das Menü neu starten.",
+      "instructions": "Bewege dich mit W, A, S, D, Q, Z oder den Pfeiltasten. E oder die linke Maustaste nimmt einen Würfel auf beziehungsweise legt ihn ab. Leertaste oder rechte Maustaste springt, Shift sprintet. Esc öffnet das Menü für Neustart und Ton. Folge Markierungen und Kabeln; für entfernte Plattformen sprintest du zuerst und springst von der Kante ab.",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and place them on pressure",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precise jumping matter. W, A, S, D,"
+      },
+      "reviewedTextHash": "183798b938e16bcfbf72437384f993107d2d128159bdc009c7f6939f330e61a6"
+    },
+    "idle-airport-tycoon": {
+      "sourceHash": "c8b35ac92f5ffe90daafa8970764548c5f7c5efee5be2eb30a8384d9b84eb4d0",
+      "title": "Flughafen-Tycoon: Wachstum im Leerlauf",
+      "description": "Idle Airport Tycoon beginnt mit einer kleinen Landebahn, aus der du einen großen Flughafen entwickelst. Flugzeuge, Terminals und zusätzliche Einnahmequellen gehören zu den angebotenen Ausbaumöglichkeiten. Deine Aufgabe ist es, den Betrieb durch Verbesserungen schrittweise zu einem größeren Verkehrsknotenpunkt zu machen.\n\nDie Entscheidungen erfolgen über die Verwaltungsoberfläche. Prüfe die verfügbaren Verbesserungen und wähle, welchen Teil des Flughafens du als Nächstes ausbaust. Die Kameragröße lässt sich verändern, damit du die Anlage aus einem anderen Maßstab betrachten kannst. Wiederholte Erweiterungen und Verbesserungen bilden den beschriebenen Fortschritt.",
+      "instructions": "Benutze die linke Maustaste, um mit der Spieloberfläche zu interagieren. Mit den Tasten + und − veränderst du die Kameragröße. Prüfe die angebotenen Verbesserungen für Flugzeuge und Terminals und wähle einen verfügbaren Ausbau. Nutze neu freigeschaltete Einnahmequellen und entwickle den Flughafen über die angezeigten Verwaltungsoptionen weiter.",
+      "referenceHash": "15004f320b6ad1c03c42b3e96be381658d66f5291a3229ce61f197f139a70ed2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Idle Airport Tycoon is a casual simulation game that puts you in charge of building and managing your very own bustling airport. Start with a",
+        "instructionsQuote": "Controls: Use the left mouse button = interact with the in-game UI+/- keys = change the size of the"
+      },
+      "reviewedTextHash": "280a1114d96930f0436a234342d79086bbb9b4a40364d82dfbe8cb02fc575c33"
+    },
+    "epic-sword-battle-fight-in-the-ragdoll-arena": {
+      "sourceHash": "51289d1027ef886b9eba9a14736ea40aa34c8ecb32a745ebeddfe56143aa4b4c",
+      "title": "Epischer Schwertkampf in der Ragdoll-Arena",
+      "description": "In dieser 3D-Arena treten Ritter und Gladiatoren mit Schwertern gegeneinander an. Du bewegst deinen Kämpfer und führst zugleich Schläge aus, während die Ragdoll-Physik die Reaktionen auf Treffer bestimmt. Ziel ist es, das jeweilige Duell zu gewinnen und mit den Angriffen des Gegners umzugehen.\n\nDie Quelle beschreibt verschiedene Schwerter, Gegner und Level sowie eine Bestenliste zum Vergleich von Ergebnissen. Bewegung und Schlagführung sind in derselben Eingabe verbunden. Beobachte daher, wie dein Schwert der Maus oder dem Finger folgt, und passe deine Bewegung an die Position und die Schläge des anderen Kämpfers an.",
+      "instructions": "Halte am Computer die linke Maustaste gedrückt und bewege die Maus, um deinen Kämpfer zu führen und mit dem Schwert anzugreifen. Auf Mobilgeräten bewegst du einen Finger über den Bildschirm. Achte auf die Stellung des Gegners, weiche seinen Schlägen aus und führe gezielte Bewegungen aus, um das Duell zu gewinnen.",
+      "referenceHash": "576e29f25eeb8b2d9cdbd57cd3fcb257fbde50e0f90bc54ab64dbb00dda68ffc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "⚔️ Welcome to \"Epic Sword Battle! Fight in the Ragdoll Arena!\" - an exciting 3D game where knights and gladiators fight with swords in the",
+        "instructionsQuote": "⚔️ Game Objective Engage in an epic duel with your enemies! Fight in the arena with your sword, fend off attacks, and win ragdoll battles to become an arena legend! 💻"
+      },
+      "reviewedTextHash": "e95c1e1790abbc9af75b82f38e8c6abd10eab2ca31662a72d1e5110d749e24e5"
+    },
+    "burger-restaurant-simulator-3d": {
+      "sourceHash": "e1304192a56efc9dff943f4ab1d87e671536cdc8dde719b3c7e2e48ad330a266",
+      "title": "Burger-Restaurant-Simulator 3D",
+      "description": "Dieser Restaurant-Simulator verbindet Kochen mit der Verwaltung eines wachsenden Betriebs. Nimm Bestellungen auf und bereite Burger, Pommes, Nuggets, Getränke und Kaffee zu. Später kommen weitere Speisen hinzu. Zufriedene Gäste bringen Trinkgeld und verbessern den Ruf des Restaurants.\n\nInvestiere die Einnahmen in Küchengeräte, Mitarbeiter und die Gestaltung des Innenraums. Du kannst Köche einstellen und das Personal schulen. Der Ausbau führt zu weiteren Filialen, einem Café oder einem Imbisswagen. So wechselst du zwischen dem Bedienen der Gäste und Entscheidungen darüber, welche Ausstattung oder Arbeitskraft den Betrieb als Nächstes verbessert.",
+      "instructions": "Bewege dich mit WASD und drehe die Kamera mit der Maus. E dient zur Interaktion, M öffnet den Laden und Tab zeigt oder verbirgt den Mauszeiger. J öffnet tägliche Aufgaben, H die tägliche Belohnung und P pausiert. Nimm Bestellungen an, koche die gewünschten Gerichte und verwende Einnahmen für Küche, Personal und Schulungen.",
+      "referenceHash": "508a8f9c188720a0d70c812524eccdd3953e962e92947c31fa51dec5716ddcbe",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Lead your own burger adventure! Dive into the exciting world of restaurant management, where you will cook delicious dishes, expand your",
+        "instructionsQuote": "Desktop: WASD - move; E - interact; Mouse - camera rotate; M - shop; J - daily tasks; H - daily reward; Tab - show/hide cursor; P - pause; Open a restaurant and create a"
+      },
+      "reviewedTextHash": "d1489376fda669117068da9d79836c00f65bebae40ad23e00f735634c465d464"
+    },
+    "squid-game": {
+      "sourceHash": "1cb2bc40550d76ee1277c65e333acafbcb5f8800d9b5b0f588d63f66efd3ce6f",
+      "title": "Squid Game: Sieben Prüfungen",
+      "description": "Dieses Spiel vereint mehrere Prüfungen nach dem Vorbild von Squid Game. Insgesamt gibt es sieben Level; vor jedem Level werden die jeweiligen Regeln erklärt. Das übergeordnete Ziel ist, die Prüfungen zu überstehen, bis am Ende nur ein Gewinner übrig bleibt.\n\nDie verfügbaren Eingaben unterscheiden sich nach Prüfung. Bewegung erfolgt mit WASD, während die Maus für Aktionen dient. Springen ist nicht überall vorgesehen, und das Erstarren mit der linken Shift-Taste gehört ausdrücklich nur zu Red Light – Green Light. Lies deshalb die Regeln des aktuellen Levels, bevor du eine aus einer anderen Prüfung bekannte Aktion verwendest.",
+      "instructions": "Bewege dich mit WASD und benutze die Maus für Aktionen. Die Leertaste lässt dich springen, sofern die aktuelle Prüfung diese Aktion nutzt. Mit der linken Shift-Taste erstarrst du nur in Red Light – Green Light. Esc pausiert. Beachte in jedem der sieben Level die eingeblendeten Regeln und überstehe die Prüfungen bis zum Ende.",
+      "referenceHash": "491a8ca4d0d68528c11c890b4cf76621233de661766bcde786c2fb359d629489",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "In this game you will find the fun of all the games. We have collected the best and combined them into one whole. You will have to play all the",
+        "instructionsQuote": "The game has 7 levels, in each level you will be explained the rules of the game. Control in the game: WASD-move. Space — jump (not used everywhere). Left Shift — freeze"
+      },
+      "reviewedTextHash": "353cb7ec830af9679aba55fcdeca81dee353b20ea7e89f28d732ec59ed4885db"
+    },
+    "snow-rush-3d": {
+      "sourceHash": "b3750efe6a29dcc91fa35aa8628b882d182151a9f5ea51ad17381ebdd7910211",
+      "title": "Schneerausch 3D",
+      "description": "Snow Rush 3D schickt deinen Schlitten über endlose verschneite Strecken. Weiche Bäumen, Schneemännern und Absperrungen aus und fahre möglichst weit, ohne zu kollidieren. Mit zunehmender Geschwindigkeit werden Reaktion und Timing wichtiger. Unterwegs gesammelte Geschenke schalten neue Schlitten frei.\n\nAm Computer kannst du allein oder mit einem Freund an einem Gerät spielen. Beide Personen haben eigene Tasten für Seitwärtsbewegung und Sprünge. Auf Mobilgeräten steht ausschließlich der Einspielermodus zur Verfügung. Dort lenkst du durch Berührungen links oder rechts und springst mit zwei Fingern.",
+      "instructions": "Spieler 1 lenkt mit A und D und springt mit W oder der Leertaste. Spieler 2 lenkt mit der linken und rechten Pfeiltaste und springt mit der Pfeiltaste nach oben. Auf Mobilgeräten ist nur ein Spieler möglich: Tippe links oder rechts zum Lenken und mit zwei Fingern zum Springen. Weiche Hindernissen aus und sammle Geschenke für neue Schlitten.",
+      "referenceHash": "76e4294d43c6cfbc88de1c0544b1aaf25c61483a5228589ba08794022498d419",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Snow Rush 3D is a fast-paced winter action game where your reflexes and timing are put to the test on icy tracks. Ride your sled through endless",
+        "instructionsQuote": "PLAYER 1: A,D: Left/Right Movements W or SPACE: Jump PLAYER 2: RIGHT / LEFT ARROWS: Left / Right Movements UP ARROW: Jump On Mobile Devices: Only 1 Player mode is"
+      },
+      "reviewedTextHash": "01935e1c3e0aee99efdcadcc0af700c5b68a1e4af97ff126a1419848509d4d80"
+    },
+    "summer-rider-3d": {
+      "sourceHash": "68195269b91509f95435ddb76ed5b072142a2ada180b1321af1685a1c334dd77",
+      "title": "Sommer-Surfer 3D",
+      "description": "Summer Rider 3D ist eine rasante Fahrt über sommerliche Wellen. Auf Surfbrett oder Jetski weichst du Felsen, Wasserfällen und weiteren Hindernissen aus. Die Geschwindigkeit steigt mit der zurückgelegten Strecke, sodass du Sprünge und Richtungswechsel zunehmend genauer abstimmen musst.\n\nSammle Seesterne, um neue Bretter oder Jetskis freizuschalten. Auf Felsen liegen Boni mit fünf Seesternen, für die ein passend getimter Sprung nötig ist. Auch Kleidung und Brettgestaltungen gehören zu den Anpassungen. Im Mittelpunkt steht die Fahrt ohne Zusammenstoß; eine fortlaufende Handlung ist laut Anbieter nicht vorgesehen.",
+      "instructions": "Verwende am Computer die Pfeiltasten oder WASD, um seitlich auszuweichen und zu springen. Auf Mobilgeräten tippst du links oder rechts zum Lenken und auf beide Seiten zum Springen. Sammle Seesterne und achte auf die Fünferboni auf Felsen. Passe deine Sprünge an Hindernisse und die mit der Strecke steigende Geschwindigkeit an.",
+      "referenceHash": "e69f2b3ffcfc073380ef7aeb151e754e40e4838c2d9ffd9fa257f58557706130",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hit the waves in Summer Rider 3D, a sun-soaked surf adventure inspired by high-speed endless runners. Glide over water on a surfboard or",
+        "instructionsQuote": "ARROW KEYS or WASD: Move left, right, or jump to navigate waves and obstacles. On MOBILE, tap left/right to steer, both sides to jump! Collect starfish to unlock new"
+      },
+      "reviewedTextHash": "e9eac6ec9343f8a556ab1df9019ddf51748fb189c6c0ae233710ba2ff290affd"
+    },
+    "favorite-puzzles": {
+      "sourceHash": "057e723b34b23ee585519e51b5d6c2c767302efaa06283900679e6c52ab7c035",
+      "title": "Lieblingspuzzles",
+      "description": "Lieblingspuzzles ist eine Sammlung von Bildpuzzles mit einstellbarem Umfang von 6 bis 1.200 Teilen. Du kannst mit oder ohne Drehung spielen. Im klassischen und im realistischen Modus werden die Teile unterschiedlich präsentiert; im realistischen Modus liegen sie über die Spielfläche verteilt.\n\nVorlagenbild, Hinweise und ein optionales Raster unterstützen dich beim Zusammensetzen. Neben 48 Bildkategorien gibt es die Möglichkeit, eigene Bilder oder Fotos als Puzzle zu verwenden. Oberfläche und Hintergrundfarbe lassen sich anpassen. Bestenliste, Erfolge und wöchentliche Turniere ergänzen das Ziel, jedes Bild aus seinen Teilen wiederherzustellen.",
+      "instructions": "Greife am Computer ein Teil mit der linken Maustaste und ziehe es an seinen Platz. Mit dem Mausrad zoomst du oder blätterst durch die Teileleiste. Auf Mobilgeräten bewegst du Teile und veränderst die Ansicht mit den Fingern. Wähle vorher die Teilezahl und bei Bedarf die Drehoption. Nutze Vorlagenbild, Raster oder Hinweise, um die Position eines Abschnitts zu prüfen.",
+      "referenceHash": "be59f79bf6803db0f8d5a38ddb4b949896b0394f2dd07074cd9a76bf86ddf7cf",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Meet Favorite Puzzles, your new favorite jigsaw puzzles! This addictive puzzle game will delight you with an endless gallery of beautiful images",
+        "instructionsQuote": "On PC: - Use the cursor and left mouse button to grab and move the puzzle element - Use the mouse wheel to zoom in or out and to scroll through the elements feed On"
+      },
+      "reviewedTextHash": "789184fdc5d2853afe4820132de7673ae43599107dadf83a62c415398323269b"
+    },
+    "my-fast-brainrot": {
+      "sourceHash": "3c6b5d7c85850c525f2c8fd57935af42fa56e50e71887535466aaaead3129d8c",
+      "title": "Mein schneller Brainrot",
+      "description": "In diesem Renn-Clicker steuerst du eine italienische Brainrot-Figur und erhöhst durch Klicken ihre Geschwindigkeit. Ziel ist, andere Brainrots im Rennen hinter dir zu lassen. Verbesserungen steigern die Klickstärke und das Lauftempo, sodass Training und Rennen miteinander verbunden sind.\n\nSiege bringen Haustiereier. Du kannst Tiere sammeln, verbessern und kreuzen; stärkere Begleiter verbessern wiederum deinen Brainrot. Die Spielwährung Cups wird für Verbesserungen und Haustiere verwendet. Tägliche Belohnungen liefern weitere Tiere oder Cups. Der Fortschritt verbindet damit häufiges Klicken, schnellere Rennen und den Aufbau einer Begleitersammlung.",
+      "instructions": "Bewege dich am Computer mit WASD und schaue dich durch Mausbewegung um. Die linke Maustaste erhöht die Geschwindigkeit. Auf dem Telefon dient die linke Bildschirmseite zum Bewegen, die rechte zum Umschauen; Tippen erhöht das Tempo. Gewinne Rennen, sammle Haustiereier und verwende Cups für Tiere und Verbesserungen deiner Klickstärke und Laufgeschwindigkeit.",
+      "referenceHash": "9b0a017fa302fec02670695fdf00a3fcd6465acaa95c1c2d90e2e5a245ec752a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "My Fast Brainrot is a crazy clicker where memes come to life! You control a real Italian Brainrot - a funny little animal with a thirst for",
+        "instructionsQuote": "For PC: W A S D - move Left mouse button - gain speed Mouse movement - look around For phone: Left side of the screen - move Right side of the screen - look around Tap"
+      },
+      "reviewedTextHash": "b8a1bf4204c920dcdc82913c755495af6541077c2221276282183327bc4755f2"
+    },
+    "chess-online-playing": {
+      "sourceHash": "7a5608fb14a83d0296cb9760c09b2ec5db89cf374baf59f741c008527df9b982",
+      "title": "Schach online spielen",
+      "description": "Diese Schachversion bietet Partien gegen echte Online-Gegner, gegen den Computer oder mit Freunden. Für das Training lässt sich die Computerstärke vom Anfänger- bis zum Meisterniveau wählen. Freunde können einen privaten Online-Raum verwenden oder an einem Telefon abwechselnd ziehen.\n\nDas Ziel ist, den gegnerischen König schachmatt zu setzen oder über die Bedenkzeit zu gewinnen. Du wählst eine Figur und anschließend ihr Zielfeld. Im Bereich Themes lassen sich Figurenform und Brettgestaltung verändern. So kannst du Gegner, Spielweise und Darstellung vor einer Partie an deine Wünsche anpassen.",
+      "instructions": "Klicke im Hauptmenü auf Play und wähle Online-Spiel, Computer oder Freund. Für einen Zug klickst du zuerst auf deine Figur und danach auf das Zielfeld. Setze den gegnerischen König schachmatt oder gewinne über die Zeit. Öffne zur Gestaltung Themes und wähle in Shape type und Board type die gewünschten Figuren und das Brett aus.",
+      "referenceHash": "512b0a48e6ba2461cb0c9770032e503999396b07f7e7560c3eaf63ed479e4ae2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Chess Online Playing\" is the best free online chess with a computer with full functionality for amateurs and professionals. A classic chess",
+        "instructionsQuote": "Click \"Play\" in the main menu and select the mode: online, with a computer or with a friend. To make a move, click on your piece and then on the destination square. The"
+      },
+      "reviewedTextHash": "c376df4981ebf37175c42031f56449e72d85aac1c24830a2fd4a4666910aab08"
+    },
+    "escape-school-duel": {
+      "sourceHash": "82986a7bcf22e00ca14dac49ad9144d0708627502e3165947cf09ede735e941b",
+      "title": "Schulflucht-Duell",
+      "description": "Im Schulflucht-Duell versuchst du, eine Schule möglichst schnell zu verlassen. Fallen, Lehrer und ein Direktor versperren die Flure; auch ein Trainer kann den Weg durch die Turnhalle blockieren. Spiele allein auf eine bessere Zeit oder zu zweit und mache die Flucht zu einem Rennen.\n\nDie Steuerung bietet Sprint und Doppelsprung, um die Hindernisse zu überwinden. Sammle unterwegs Tickets und Geld für neue Skins und andere Anpassungen. Nach der Flucht sind weitere Minispiele im Hof verfügbar. Eine zeitbasierte Bestenliste macht das Verbessern der Route und das Kennenlernen der Fallen zu einem längerfristigen Ziel.",
+      "instructions": "Spieler 1 bewegt sich mit WASD, springt mit der Leertaste und rennt mit der linken Shift-Taste. Spieler 2 bewegt sich mit den Pfeiltasten, springt mit L und rennt mit K. Drücke die jeweilige Sprungtaste zweimal für einen Doppelsprung. Beobachte die Fallen, suche einen Weg an den Lehrkräften vorbei und entkomme möglichst schnell. Sammle Tickets und Geld für Anpassungen.",
+      "referenceHash": "99696a24e7a091b79f953a4e0613ea501e4aa727f5ede4b6141dd7165e268a26",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Escape School Duel is a fast, funny, and tense escape challenge set inside a school that does not want to let you leave. Play solo to chase your",
+        "instructionsQuote": "How to Play? Player 1 Move: W, A, S, D Jump: Space (Press twice for double jump) Run: Left Shift Player 2 Move: Arrow Keys Jump: L (Press twice for double jump) Run: K"
+      },
+      "reviewedTextHash": "7e603ed935d3af7d285f2cef1e9198a66ca633c4231e597b013b9168f04aabc9"
+    },
+    "1-speed-per-step-obby-mode": {
+      "sourceHash": "e4dd8693bb739624542156e31f53e20c8fca3ae3a9843851e6d0052a878b8919",
+      "title": "+1 Geschwindigkeit pro Schritt: Obby-Modus",
+      "description": "In diesem Hindernisspiel macht dich jeder Schritt schneller. Durch Laufen gewinnst du Erfahrung, steigst im Level auf und kannst größere Strecken bewältigen. Am Ende der fünf verschiedenen Level erhältst du Trophäen. Schritte lassen sich durch Training sammeln und im weiteren Fortschritt verbessern.\n\nDas Wiedergeburtssystem gewährt Boni, während Verbesserungen und Laufbänder das Tempo erhöhen. Farbige Spuren verändern das Aussehen deiner laufenden Figur. Der zentrale Ablauf bleibt Training durch Bewegung, mehr Geschwindigkeit und das Bewältigen der Hindernisstrecken. Trophäen und Schritte sind die beiden in der Quelle genannten Spielwährungen.",
+      "instructions": "Bewege dich am Computer mit WASD. Halte die rechte Maustaste gedrückt, um die Kamera zu steuern. Auf Mobilgeräten verwendest du den Joystick unten links und wischst zur Kamerasteuerung über den Bildschirm. Laufe, um Erfahrung und Geschwindigkeit zu gewinnen, und erreiche das Ende der fünf Strecken für Trophäen. Nutze Training und verfügbare Verbesserungen für den nächsten Versuch.",
+      "referenceHash": "4c08e8826398fc95213669a75f51ff0af820dbb3ce6eaf83e6e780a0fb8bfea1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to +1 Speed per Step | Obby Mode. Every step makes you faster! Complete obstacles to earn wins! Rebirth to gain bonuses! Upgrade your",
+        "instructionsQuote": "PC: WASD – movement Hold Right Mouse Button to control the camera Run to gain experience and level up Mobile: Joystick in the bottom-left corner for movement Swipe on"
+      },
+      "reviewedTextHash": "7032ea5f99edd5579b44961029420c6ad7ebc378a5b3d6983bdd4b54d1b92f20"
+    },
+    "purrfect-match": {
+      "sourceHash": "5ce31517d3b224c59e0e8d725979b198acdecb5825b3557f83bb55f08d898485",
+      "title": "Purrfect Match: Katzenpuzzle",
+      "description": "Purrfect Match ist ein 3-Gewinnt-Puzzle über Katzen aus einem Tierheim. Tausche benachbarte Katzen und erfülle die Ziele, bevor deine Züge aufgebraucht sind. In 60 Leveln sammelst du bestimmte Katzen, öffnest Kisten, befreist Tiere aus Eis oder sprengst Steine, die nur durch Explosionen zerbrechen.\n\nVier gleiche Katzen erzeugen eine Rakete, fünf in einer geknickten Form eine Bombe und fünf in einer Reihe eine Pfote, die eine Farbe entfernt. Sechs in einer Reihe erzeugen eine leuchtende Pfote mit größerer Wirkung und doppelten Punkten. Vor dem Start kannst du Milchflaschen für Booster einsetzen; tägliche Aufgaben und Erfolge ergänzen die Level.",
+      "instructions": "Klicke eine Katze und danach ihre Nachbarin an oder ziehe sie mit der linken Maustaste aufeinander, um sie zu tauschen. Auf Mobilgeräten tippst du beide an oder wischst zur Nachbarkatze. Klicke oder tippe Spezialkatzen an, um sie auszulösen. Vier ergeben eine Rakete, eine geknickte Fünfergruppe eine Bombe, eine Fünferreihe eine Pfote und eine Sechserreihe eine leuchtende Pfote. Wähle Booster vor dem Level auf dem Startbildschirm.",
+      "referenceHash": "51e558af3dfbbe33a560faee8acf0c6f1d4bf5b389902538977608ae6cbd9049",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Purrfect Match is a cozy match‑three puzzle about taking cats from a shelter home with you. Every level is a roomful of kittens hoping to be",
+        "instructionsQuote": "Take Every Cat Home! A whole shelter of kittens is waiting to be picked, and you're the one they're waiting for. Match three of a kind and they're yours to keep — clear"
+      },
+      "reviewedTextHash": "9289f01785c0abe82f23522121e95b366787cd1ff9ba686cd66ca965abe657f2"
+    },
+    "imposter-3d-online-horror": {
+      "sourceHash": "44ede643d2dc109079cb310f0d5c525121aae8925850bbca07ebbb502f500d2b",
+      "title": "Imposter 3D: Online-Horror",
+      "description": "Rette kleine Besatzungsmitglieder vor dem Verräter oder übernimm selbst die Rolle des Imposters. Du kannst allein, online oder mit Freunden in einem eigenen Raum spielen. In Mafia sieht der Verräter zunächst wie die anderen aus und kann sich verwandeln; Abstimmungen helfen bei seiner Entlarvung. PvE stellt die Gruppe einem computergesteuerten Imposter gegenüber.\n\nDie Ziele hängen vom Modus ab: Beim Versteckspiel musst du als Astronaut bis zum Rundenende überleben, ohne zwingend die Kleinen zu sammeln. Im Zombie-Modus werden Gefangene selbst zu Impostern; im Lava-Modus musst du vor steigender Lava auf höheres Gelände fliehen. Die Rolle bestimmt außerdem, was E und R auslösen, während Bewegung und Kamerasteuerung gleich bleiben.",
+      "instructions": "WASD bewegt die Figur, die Maus dreht die Kamera, Tab zeigt oder verbirgt den Mauszeiger und die Leertaste springt. Als Besatzungsmitglied nutzt du E zur Interaktion, F für die Taschenlampe, G zum Werfen von Batterien und R zum Aufladen mit Batterien. Als Imposter löst R einen Schrei aus; E dient zur Interaktion, zum Fangen oder zum Verstecken im Lüftungsschacht. In Mafia verwandelt sich der Imposter mit 2.",
+      "referenceHash": "3961e74b7335ac2b74499c8969c3c479512054395a4124f34b564c0a4a47993b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Save all the mini-crewmates from the traitor in single player or online. Play online with other players, or with friends by creating your own",
+        "instructionsQuote": "For the imposter and crewmate: WASD keys - player control. Mouse - camera rotation \"Tab\" - hide/show cursor Space - to jump Playing as an crewmate: \"E\" - use. \"F\" - turn",
+        "sourceIssueResolution": "The provider claims seven online modes but enumerates eight. This reviewed guide omits the disputed total and describes only explicitly documented mode rules and role-specific controls."
+      },
+      "reviewedTextHash": "cf7edd5483224c7a20bb8471d3d79fc30bf0ab29170c7da06ecd5a68815c4a95"
+    },
+    "obby-saves-brainrots-from-tsunami": {
+      "sourceHash": "65b9fd247787de68a31cafdf65f9db9ff154bc11c66437f79b7cb34b5910c6f1",
+      "title": "Obby rettet Brainrots vor dem Tsunami",
+      "description": "In diesem Fluchtspiel entkommst du riesigen Wellen und sammelst dabei Brainrots. Laufe durch gefährliche Bereiche, überwinde Hindernisse und erreiche Sicherheit, bevor dich der Tsunami einholt. Der Anbieter verbindet dieses Laufspiel mit längerfristigen Verbesserungen und einer wachsenden Brainrot-Sammlung.\n\nBrainrots sind die zentrale Ressource und lassen sich in Spielgeld umwandeln. Sammeln und Herstellen sollen zu selteneren Figuren und zum Aufbau deines Reichs führen. Neben den Fluchtabschnitten gibt es damit einen Fortschritt durch Ressourcen und Ausbau. Die dokumentierten Tasten unterscheiden Bewegung, Interaktion und das Werfen eines getragenen Brainrots.",
+      "instructions": "Bewege dich am Computer mit WASD. E dient zur Interaktion mit Gegenständen, G wirft einen Brainrot und F blendet den Mauszeiger ein. Auf Mobilgeräten verwendest du die Spieloberfläche. Entkomme den Wellen, sammle Brainrots und nutze die beschriebenen Herstellungs- und Ausbaumöglichkeiten für seltenere Figuren und weiteres Wachstum.",
+      "referenceHash": "e03ebb793e67c2ce76e3ce2ad94a212c5abab19c743ce0aa2e5579dea02665ad",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to Obby Saves Brainrots from Tsunami! A fast-paced escape game that blends tsunami runner, idle game, and idle tycoon mechanics into one",
+        "instructionsQuote": "Collect brainrots, craft them, and get the rarest brainrots by building an empire! Computer controls: WASD - to move E - interact with objects G - throw brain rot F -"
+      },
+      "reviewedTextHash": "52e5a735fb222f43da0ef635e214f4880a8ce057111524ac738896211a80b203"
+    },
+    "animals-battle": {
+      "sourceHash": "ad6c853c5bcb69825d03b3e422fee272f62977f1c8d364d3492452886402610d",
+      "title": "Tierkampf: Erobere die Inseln",
+      "description": "Tierkampf ist ein Strategiespiel mit einer Armee tierischer Kämpfer. Erobere Inseln mit unterschiedlichen Lebensräumen und immer stärkeren Gegnern. In den Kämpfen entsteht Nahrung automatisch; mit dieser Ressource rufst du Einheiten herbei, die gegen die gegnerische Basis antreten. Ihre Zerstörung schließt das Level ab.\n\nNach den Kämpfen investierst du verdiente Münzen in neue Einheiten und bessere Basiswerte. Artefaktkarten geben der Armee dauerhafte Boni, die auch in späteren Gefechten gelten. Der Fortschritt verbindet daher die Nahrungswirtschaft im aktuellen Kampf mit dem langfristigen Ausbau für die nächste Insel.",
+      "instructions": "Nutze die während des Kampfes automatisch erzeugte Nahrung, um Tierkämpfer zu beschwören. Baue eine Armee auf und zerstöre die gegnerische Basis, um das Level abzuschließen. Verwende anschließend verdiente Münzen für neue Einheiten und bessere Basiswerte. Sammle Artefaktkarten, deren dauerhafte Boni deine Truppen auch in weiteren Kämpfen stärken.",
+      "referenceHash": "e09ad2e3e2186b3c03d1fa5e88eff7c1a27d6f08624c88a3a35afb1adbab6122",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Are you attracted to adorable animals, and do you have the talent of a great commander? The new game combines these two passions, giving you the",
+        "instructionsQuote": "In combat, everything is based on resource economics: food for your creatures is produced automatically. Use it to summon units to build your army and crush enemy bases"
+      },
+      "reviewedTextHash": "930c452aceff7cd767d665acf668379ff8936882b51feb8edc3d41951f56459a"
+    },
+    "cyberpunk-block-puzzle": {
+      "sourceHash": "164100f70a1fc79e9386f51f9e815f0ce01a4e801a31165b3c726f26aed0d162",
+      "title": "Cyberpunk-Blockpuzzle",
+      "description": "Schiebe leuchtende Blöcke zu den gleichfarbigen Anschlüssen am Rand einer Neonplatine. Jeder Block bewegt sich nur entlang seiner festgelegten Achse und kann anderen den Weg versperren. Ein Level ist abgeschlossen, wenn du alle Blöcke ihren Anschlüssen zugeordnet und das Brett geleert hast.\n\nMehr als 70 Level reichen von Gittern mit 5×5 bis 8×9 Feldern. Wände, Eisblöcke und Sperren machen die Planung anspruchsvoller. Durch abgeschlossene Level verdienst du Chips und steigst vom Noob zum Hack Guru auf. Tägliche Rätsel ergänzen die Aufgaben; wenn du feststeckst, markiert das Hinweissystem nach einigen Sekunden einen nächsten Zug.",
+      "instructions": "Klicke einen Block an und ziehe ihn mit gedrückter Maustaste entlang seiner Achse. Lasse los, um ihn abzulegen. Auf Mobilgeräten berührst und verschiebst du den Block horizontal oder vertikal und hebst dann den Finger ab. Bringe alle Blöcke zu ihren gleichfarbigen Randanschlüssen. Beachte, ob ein Zug einen anderen Weg blockiert, und warte bei Bedarf auf den eingeblendeten Hinweis.",
+      "referenceHash": "a3ddc678dc6fb880fc5bb7ea981983ed19887ae9d4b3f71f2bdf01eef276e150",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Cyberpunk Block Puzzle is a stylish logic game set on a neon circuit board. Slide glowing blocks across the grid to deliver them to matching",
+        "instructionsQuote": "Slide your way through the neon grid! Your goal is to move all glowing blocks into their matching colored connectors on the edges of the board. Plan each move carefully"
+      },
+      "reviewedTextHash": "592e0b7a8590b932bf1dfc81550ed73d796d55b45a45da2fccbb483bff036e75"
+    },
+    "hide-from-school": {
+      "sourceHash": "0b937e5b3ae362aaf89f18d761b2c83ce357387dfdd06b084bd8f891789999e2",
+      "title": "Versteckt aus der Schule",
+      "description": "Hilf einem Schüler, aus der Schule zu entkommen, ohne von der Lehrkraft gefangen zu werden. Dieses Spiel verbindet Verstecken, Tarnung und Rätsel. Du kannst dich in die Umgebung einfügen oder als Gegenstand tarnen, um beim Durchqueren der Räume und Flure weniger aufzufallen.\n\nInteraktive Gegenstände lassen sich aufnehmen, aktivieren oder als Versteck verwenden. Erkunde die Räume, löse Rätsel und öffne Türen, um den Ausgang zu finden. Auch Schatten und Gegenstände zum Aufstellen von Fallen werden beschrieben. Das Ziel bleibt die Flucht; geschicktes Verbergen und das Nutzen der Umgebung gehören zum Weg dorthin.",
+      "instructions": "Bewege die Figur am Computer mit WASD oder indem du die Maus bei gedrückter linker Maustaste bewegst. Auf Mobilgeräten bewegst du deinen Finger über den Bildschirm. Nutze die verfügbaren Gegenstände zum Verstecken, Aufnehmen oder Aktivieren. Löse die Rätsel der Räume und entkomme aus der Schule, ohne dich fangen zu lassen.",
+      "referenceHash": "8d614565170240ec004869b6945e47041e1b86273001f54a88cbe4c4db27eba1",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🏫\"Hide from School \": A free online game combining popular genres such as: hide and seek, escape and quests. Help a young schoolboy escape from",
+        "instructionsQuote": "🎯Your main task is to get out of the school and not let the evil teacher catch you. You can interact with some items(hide, pick up, activate, etc). 🕹️Control"
+      },
+      "reviewedTextHash": "3eb02d6df1d8c4b520d802f714bb5dc3c43bfc6fc28e1edf28d7fda3d14278b6"
+    },
+    "bomb-royale-online": {
+      "sourceHash": "d625cda5e8dd9f8ff3a9d51f9f52c296a9d969d6be3ea834b2087f4b0b56134f",
+      "title": "Bomb Royale Online",
+      "description": "Bomb Royale Online lässt Bärenfiguren in labyrinthartigen Arenen gegeneinander antreten. Platziere Bomben, zerstöre Blöcke und versuche, als letzter Teilnehmer zu überleben. Fallen und Kettenreaktionen können sichere Wege schnell in gefährliche Bereiche verwandeln.\n\nEine Explosion verändert nicht nur die Position der Gegner, sondern auch die verfügbaren Durchgänge. Öffne Wege für deine eigene Bewegung oder schränke gegnerische Ausgänge ein. Bevor du eine Bombe platzierst, solltest du einen Fluchtweg bedenken und weitere Explosionen entlang dieser Route beachten. Überleben und das Anpassen an die veränderte Arena bestimmen den Verlauf der Partie.",
+      "instructions": "Bewege dich durch das Labyrinth und platziere Bomben, um Blöcke zu zerstören oder Gegner einzuschließen. Plane vor der Explosion einen Ausweg und meide gegnerische Detonationen sowie Kettenreaktionen. Nutze freigelegte Wege zur Positionsänderung. Überlebe länger als die anderen Teilnehmer, um die Partie zu gewinnen und in der Bestenliste aufzusteigen.",
+      "referenceHash": "e20567b771cdfa3232facd17962c65830b40b9727c78f45d5c113fba49f77095",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Enter an explosive online battle royale inspired by classic bomber-style arcade games. Fight inside dangerous maze arenas where players compete",
+        "instructionsQuote": "Move through the maze using your controls and strategically place bombs to destroy blocks and trap enemies. Clear paths, block escape routes, and eliminate opponents"
+      },
+      "reviewedTextHash": "fe5dc2f348ad1809cc2f7b92bcc6a233b68a9f8eb8a4a981cc93873e95ecf3cd"
+    },
+    "poppy-4-cut-monsters-with-sword-in-arena": {
+      "sourceHash": "03849feec3d1cf15bc9243d33ad4c3c2a853bdfc5ea927088be9be8c6652d2e3",
+      "title": "Poppy 4: Schwertkampf gegen Monster",
+      "description": "In Poppy 4 kämpfst du mit einem Schwert gegen Monster in einer Arena. Ziel ist, sämtliche Gegner zu besiegen und die Invasion aufzuhalten. Im weiteren Verlauf werden die Kämpfe schwieriger. Unterschiedliche Gegner, Level und Schwertgestaltungen sorgen für Abwechslung.\n\nDie Angriffe entstehen durch Maus- beziehungsweise Fingerbewegungen. Beobachte die Bewegungen der Monster, führe gezielte Schläge aus und kombiniere Angriffe. Der Anbieter nennt außerdem Schwertverbesserungen im Spielverlauf und eine Bestenliste zum Vergleich mit Freunden. Der Schwerpunkt liegt auf dem Überleben im Monsterversteck und dem Besiegen der aktuellen Gegner.",
+      "instructions": "Halte am Computer die linke Maustaste gedrückt und bewege den Mauszeiger, um mit dem Schwert anzugreifen. Auf dem Telefon wischst du über den Bildschirm. Beobachte die Gegner und kombiniere deine Angriffe. Verbessere das Schwert im Verlauf und besiege alle Monster der Arena, um die zunehmend schwierigen Kämpfe zu überstehen.",
+      "referenceHash": "e32184bc3adac4e820347de8e4999d34c5538cb39096798e3372ce77eff17144",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Welcome to \"Poppy 4! Cut Monsters with Sword in Arena!\" - an exciting action game with a sword, where you fight against an army of monsters! Get",
+        "instructionsQuote": "🎯 Your goal is to defeat all the monsters in the arena using your sword! Cut down your enemies and stop the monster invasion. The further you go, the harder it gets! ⚔️"
+      },
+      "reviewedTextHash": "5318340d445f3ed9cf6862d8645b8e7ebf1187143c2154148fb275885c74b7b9"
+    },
+    "figure-skating-on-ice": {
+      "sourceHash": "4bd6abf5bca7598c489b10ef488d4c564832a12b1af165398205e2a441236c78",
+      "title": "Eiskunstlauf: Auf dem Eis",
+      "description": "Dieses Eiskunstlaufspiel verbindet eine Darstellung auf dem Eis mit der Auswahl von Posen über eine Farbskala. Die Position des Mauszeigers auf dieser Skala bestimmt, welche Haltung die Eiskunstläuferin einnimmt. So steuerst du die Figur durch das Verschieben der Anzeige nach oben oder unten.\n\nDie Beschreibung betont Pirouetten, Tanz und verschiedene Outfits. Die konkrete Aufgabe ist, den Zeiger auf die benötigte Farbe zu bringen und dadurch die passende Pose auszulösen. Die Bedienung erfolgt mit einer Mausberührung oder direkt auf dem Smartphone-Bildschirm.",
+      "instructions": "Klicke mit der linken Maustaste oder berühre den Smartphone-Bildschirm. Verschiebe den Zeiger auf der Skala nach oben oder unten, bis er die gewünschte Farbe erreicht. Die Eiskunstläuferin wechselt ihre Pose abhängig von dieser Position. Beobachte die Verbindung zwischen Skalenfarbe und Haltung, während du den Tanz steuerst.",
+      "referenceHash": "74dc532ca5c127a2c9b00240ce158c8b37823272b57ac7623535fa2def30cabc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "“Figure skating: On ice!” — an easy game for girls 💃🏽. Plunge into the world of figure skating with beautiful outfits, beautiful cavaliers,",
+        "instructionsQuote": "It's easy to play, like 1,2,3: 1. Click on the left mouse button, or with your finger on the smartphone screen. 2. Move the cursor up or down the scale so that it"
+      },
+      "reviewedTextHash": "b5baaec0c663c24ab0ae7813ce7fa4ed06b7f655e5b03dbdcbcad51a8194bfa4"
+    },
+    "ragdoll-battle-royale-throw-down-the-enemy": {
+      "sourceHash": "cb778bc87740c09cbbeb3fed1d47134f4792db3323fda5e7964b46094da7cf42",
+      "title": "Ragdoll Battle Royale: Wirf die Gegner hinaus",
+      "description": "In dieser 3D-Arena drängst und wirfst du Ragdoll-Gegner von einer Plattform. Ziel ist, als einziger Kämpfer stehen zu bleiben. Körperliche Zusammenstöße und flexible Figuren sorgen dafür, dass sich die Position nach jedem Kontakt verändern kann und auch dein eigener Abstand zum Rand wichtig bleibt.\n\nDie Level sind kurz und konzentrieren sich auf das direkte Gerangel. Behalte die Gegner und die nächste Kante im Blick, bevor du einen Stoß versuchst. Eine sichere Bewegung schützt dich davor, nach einer Kollision selbst hinunterzufallen. Eine Online-Bestenliste bietet einen zusätzlichen Vergleich für die erzielten Ergebnisse.",
+      "instructions": "Halte am Computer die linke Maustaste gedrückt und bewege die Maus, um deine Figur zu führen. Auf Mobilgeräten nutzt du den virtuellen Joystick mit dem Finger. Dränge Gegner von der Plattform und halte selbst Abstand zum Rand. Prüfe nach jedem Zusammenstoß deine neue Position und bleibe als letzter Kämpfer in der Arena.",
+      "referenceHash": "5f46a8088d555fdf1bc518a4200e0be04f2276eb2315436d940cecffd2d6cf70",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "⚔️ Welcome to \"Ragdoll Battle Royale! Throw Down the Enemy!\" - a fun 3D physics arena where ragdoll opponents fight in funny fights! Push, throw",
+        "instructionsQuote": "🕹️Controls: - 💻 On PC: Move the mouse while holding the left button to move the character. - 📱 On mobile devices: Use the virtual joystick - just move your finger"
+      },
+      "reviewedTextHash": "d8739fd1434dd8cebf5f7d8f8aed6edf01d0afb224ebe93d6ad62b83697e3edb"
+    },
+    "no-shorts": {
+      "sourceHash": "466fa7b4e1c4e30767539459b52bc341345df35d9349d11ab3b24e929771d075",
+      "title": "No Shorts: Ragdoll-Szenen",
+      "description": "No Shorts ist eine Physik-Sandbox mit kurzen, schnell wechselbaren Ragdoll-Szenen. Schieße mit einer Kanone auf Strichmännchen und Umgebung, um möglichst viel Schaden zu verursachen. Werkzeuge und aktivierbare Objekte beeinflussen, was auf der Bühne passiert.\n\nZwischen den Leveln wechselst du durch Wischen wie zwischen kurzen Videos. Im Leveldesigner kannst du eigene Spielplätze und kleine Geschichten erstellen und andere Szenen mit einem Like versehen. Das Spiel verbindet damit das Ausprobieren vorhandener Physikszenen mit dem Aufbau eigener Anordnungen.",
+      "instructions": "Klicke an die gewünschte Stelle, um mit der Kanone zu schießen. Wechsle mit einer Wischbewegung nach oben oder unten oder über die virtuelle Taste zum nächsten Level. Nutze Gegenstände in der Szene, um Ragdolls und Umgebung zu beeinflussen. Im Leveldesigner erstellst du eigene Anordnungen und kannst andere Szenen bewerten.",
+      "referenceHash": "9f405d7a1e0d7b5b646adb83cc1a2bd5b73df8ae03b16dbc6878c23bfab6e9ee",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🌟 Welcome to the exciting world of ragdoll physics and creative fun in the style of short videos in the game No Shorts! 📱 Quickly switch",
+        "instructionsQuote": "🎯 Your task is to cause as much damage to stickmen and the environment as possible by shooting from a cannon. You can quickly switch between levels, like and create"
+      },
+      "reviewedTextHash": "4b886813f419314ea73bdbff0d31754368f3baf10e40fed8156c84f49ea051be"
+    },
+    "mine-fight-cut-mob-army": {
+      "sourceHash": "ae20eddd2b771b4e804898cb22c9850eafafb41a3656f297c33718ba499bd7b6",
+      "title": "Mine Fight: Schwert gegen die Monsterarmee",
+      "description": "Mine Fight ist ein Schwertkampfspiel in einer blockartigen Welt mit Zombies, Skeletten und Creepern. Besiege die Gegnerwellen und schließe alle Level ab. Die Ragdoll-Physik bestimmt dabei die Reaktionen der Monster auf deine Treffer.\n\nDu kannst Gegner in Fallen drängen und Hindernisse zur Explosion bringen, um die Umgebung in den Kampf einzubeziehen. Mehrere nacheinander getroffene Gegner bringen zusätzliche Punkte. Verbesserungen für Held und Schwert stärken deine Möglichkeiten für die kommenden Wellen; im Mittelpunkt stehen das Führen der Klinge und das vollständige Besiegen der Gegner.",
+      "instructions": "Bewege am Computer die Maus und drücke die Angriffstaste, um zuzuschlagen; die Quelle benennt keine bestimmte Taste. Auf dem Telefon wischst du über den Bildschirm. Besiege alle Gegner eines Levels. Nutze Fallen und explosive Hindernisse, verbinde Treffer für mehr Punkte und verbessere dein Schwert im weiteren Verlauf.",
+      "referenceHash": "a75825f6ad8d5525d82b6156a2150fd76e07a153918198881bb8ba60cbe87e6b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Step into the world of Minecraft-style battles and become a master of the sword! ⚔️ In \"Mine Fight! Cut Mob Army!\", you’ll face hordes of",
+        "instructionsQuote": "🎯 Your goal is to cut all the mobs with a sword and complete all the levels! Fight hordes of zombies, skeletons and creepers, become stronger and prove that you are a"
+      },
+      "reviewedTextHash": "32e948566612d31b8f98afd5591ed90de0dcfcc732b6856f3bc4cc6a4941f885"
+    },
+    "jumping-bottle-3d": {
+      "sourceHash": "117affb31e568ae30141258081d0255104bfd188071a8d3caaffe33c634b7148",
+      "title": "Springende Flasche 3D",
+      "description": "Führe eine springende Flasche über Hindernisse und Gegenstände, ohne dass sie den Fußboden berührt. Jeder Sprung lässt sie zugleich rotieren. Das Ziel ist, auf diesem Weg die Level zu absolvieren; der Anbieter nennt mehr als 200 Aufgaben.\n\nUnterwegs sammelst du goldene Verschlüsse, um neue Flaschengestaltungen freizuschalten. Dazu gehören Milch-, Limonaden- und Giftflaschen. Die verfügbare Sprungeingabe ist einfach, doch für die Route musst du die umliegenden Objekte berücksichtigen und die Flasche vom Boden fernhalten.",
+      "instructions": "Tippe auf den Bildschirm, um die Flasche springen und sich drehen zu lassen. Doppeltes Tippen lässt sie höher steigen und schneller rotieren. Überwinde die Hindernisse, ohne mit der Flasche den Fußboden zu berühren. Sammle goldene Verschlüsse und verwende sie für neue Flaschengestaltungen, während du die Level abschließt.",
+      "referenceHash": "f98b6a98e37c8cf611101ac8f73c3cc7b2c115738a368ee6b5277fd4c4c1cd7c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "📦Welcome to Jumping Bottle 3D - a game where every bottle throw is fun! 🚀 -🎮Easy and addictive gameplay: once you try it, you won't want to",
+        "instructionsQuote": "🚀 In \"Jumping Bottle 3D\" your task is to complete all levels by throwing the bottle over obstacles. The main rule is not to touch the floor with the bottle! 📱 The"
+      },
+      "reviewedTextHash": "aa29289e0e603ed599e235283cf9fbeb79271c0fb991f5a03031e427607230e2"
+    },
+    "draw-action": {
+      "sourceHash": "d588ec92614ce52a35d2e5e5d7a99c9b60bf06410b5827a4f5a204a27f27b696",
+      "title": "Zeichne deinen Angriff",
+      "description": "In Draw Action entsteht ein Angriff aus der Bewegung, die du für Arm oder Bein deiner blauen Figur zeichnest. Verschiedene Muster führen zu unterschiedlichen Schlägen. Ziel ist, alle Gegner eines Levels zu besiegen, entweder durch das Senken ihrer Lebensenergie auf null oder durch einen Sturz ins Wasser.\n\nBeobachte deshalb neben der Lebensanzeige auch die Position zum Rand. Ein passender Stoß kann einen Kampf beenden, bevor die Lebensenergie aufgebraucht ist. Mit dem Fortschritt kannst du die Werte deiner Figur verbessern und weitere Kombinationen einsetzen. Gleichzeitig werden die Gegner stärker, beweglicher und zahlreicher.",
+      "instructions": "Tippe einen Arm oder ein Bein der blauen Figur an und zeichne ein Muster für den Angriff. Probiere verschiedene Formen und beobachte die resultierenden Bewegungen. Besiege Gegner durch Schaden oder indem du sie aus dem Bereich ins Wasser stößt. Verbessere deine Figurenwerte und passe die Kombinationen an die nächsten Gegnergruppen an.",
+      "referenceHash": "54b3987aeb0635f960efa6dc940cbbfc2295b40119b67b278b3295d9439abf5b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Draw lines and defeat enemies effortlessly! The game is best suited for those who want to let off steam and relax now. Various attack schemes",
+        "instructionsQuote": "Goal: defeat all enemies on the level. To win, beat the enemy until his health is reduced to zero. Or you can push the enemy out of the location so that he falls into"
+      },
+      "reviewedTextHash": "21c786d1ab5a624cb3a7cb6f86919752f72471b51e29aebb62ac124c493e4317"
+    },
+    "crazy-downhill-ragdoll-fall-down": {
+      "sourceHash": "b375ee54cd8aaeff78ade9ca77d94043dccb68494e50f8f7c53597546a9b5574",
+      "title": "Verrückte Abfahrt: Ragdoll-Stürze",
+      "description": "Bei dieser Abfahrt rollt und überschlägt sich deine Ragdoll-Figur auf dem Weg zum Ziel. Lenke ihren Fall, weiche Hindernissen aus und beobachte die durch Zusammenstöße ausgelösten Bewegungen. Das Ziel ist, bis zur Ziellinie zu rollen.\n\nDie Darstellung verbindet Cartoon-Grafik mit übertriebenen physikalischen Stürzen. Ein Skin-Laden bietet verschiedene Figuren, darunter Strichmännchen, Noob und Obby. In der Bestenliste kannst du dein Ergebnis vergleichen. Auf Mobilgeräten veränderst du die Richtung durch seitliches Wischen, am Computer stehen Pfeiltasten oder Maus zur Verfügung.",
+      "instructions": "Wische auf Mobilgeräten nach links oder rechts, um die Richtung deiner rollenden Figur zu verändern. Am Computer verwendest du die Pfeiltasten oder die Maus. Steuere durch die Abfahrt, weiche Hindernissen aus und erreiche die Ziellinie. Achte darauf, wie Zusammenstöße die weitere Rollrichtung beeinflussen.",
+      "referenceHash": "1fb33efefe72eb81ebf5712a1a9d766fbde95db75ff088e1919d57d7092b9d1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🌟 Welcome to \"Crazy Downhill! Ragdoll Fall Down!\" — an exciting online game with ragdoll physics, where every descent turns into a real",
+        "instructionsQuote": "🤪 Control the fall of a ragdoll hero who rolls, tumbles and crashes into everything! Your goal is to roll to the finish line. 📱On mobile, swipe left or right to change"
+      },
+      "reviewedTextHash": "45f4d272cee66c319f104853a9e8500b6137941d46b30f8b15c61f60cf7bdf4b"
+    },
+    "bowling-stars": {
+      "sourceHash": "b8e73ec2736f9188d8674adce98fad5295823dd968b032195459a786c93f5290",
+      "title": "Bowling-Stars",
+      "description": "Bowling-Stars verbindet klassisches Bowling mit der Verbesserung deiner Kugeln. Gewinne Begegnungen und verdiene Trophäen durch Siege und Strikes, um hochwertigere Kugeln freizuschalten. Im weiteren Verlauf trittst du gegen erfahrenere und anspruchsvollere Gegner an.\n\nMit Spielgeld verbesserst du Gewicht, Geschwindigkeit, Drall und Drallkontrolle. Diese Werte verändern die Eigenschaften deiner Würfe. Unterschiedliche Kugelgestaltungen bieten zusätzliche optische Auswahl. Beobachte die verbleibenden Pins und passe Richtung und Kurve des nächsten Wurfs an, um eine bessere Punktzahl als dein Gegner zu erreichen.",
+      "instructions": "Wische über den Bildschirm, um Flugbahn und Kurve der geworfenen Kugel festzulegen. Wirf nach den üblichen Bowlingregeln möglichst viele Pins um und übertriff den Gegner. Betrachte vor dem nächsten Wurf die verbleibenden Pins. Nutze Spielgeld für Kugelverbesserungen und Trophäen zum Freischalten besserer Kugeln.",
+      "referenceHash": "7e0d0deeb4df7b4a34aa6dd07ff5809525cb054e9527a5470911c877a3a96962",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Enjoy a classic game of bowling with simple and fun gameplay. Earning trophies will unlock better bowling balls and help you win against more",
+        "instructionsQuote": "Classic bowling rules apply. Swipe across the screen to set the trajectory and curve to the ball you throw. Defeat your opponents and upgrade your bowling"
+      },
+      "reviewedTextHash": "15f6d097aed2ba8145ea2e87cc585bbd13efac40c72e50d6ca3a7020713a430e"
+    },
+    "ragdoll-gun-shooter-cannon-spinner-playground": {
+      "sourceHash": "c62e593fec686f505d370d390ff37442d737ae68548145564e90b86d6c126802",
+      "title": "Ragdoll-Schütze: Die rotierende Kanone",
+      "description": "In diesem 3D-Schießspiel feuert eine rotierende Kanone auf gelbe Ragdoll-Gegner. Dein Ziel ist, alle Strichmännchen eines Levels zu beseitigen. Statt die Waffe beliebig auszurichten, kommt es auf den passenden Moment für den Schuss an.\n\nExplosive Fässer und andere Gegenstände helfen, zusätzlichen Schaden auszulösen. Die Quelle nennt unterschiedliche Waffen von einer Pistole bis zu stärkeren Geschützen. Beobachte die Drehung und die Anordnung der Gegner, bevor du schießt. Die physikalischen Reaktionen der Figuren machen die Folgen jedes Treffers sichtbar.",
+      "instructions": "Klicke am Computer im richtigen Moment mit der linken Maustaste, um die rotierende Kanone abzufeuern. Auf Mobilgeräten tippst du dazu auf den Bildschirm. Besiege alle Gegner des Levels und nutze explosive Fässer oder andere Objekte, um mehr Schaden zu verursachen. Stimme den Schuss auf die aktuelle Richtung der Kanone ab.",
+      "referenceHash": "1ddf2a83cd338732aca6604c41ac73115fbfb2fd2b7ee500d9d9ab5f0f1eaa2a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "🎯 Ready for some fun action with ragdoll stickmen? The game \"Ragdoll Gun Shooter! Cannon Spinner Playground\" will hook you from the first",
+        "instructionsQuote": "🔥 Game Goal: Shoot the ragdoll stickmen and destroy them all on the level! Clear the level of mobs and become the best shooter in the playground shooter! 🕹️Controls:"
+      },
+      "reviewedTextHash": "1e43e74e9a1d8b5c1835576685dc1cbcda0a9deb24343a98029add9914e4383f"
+    },
+    "idle-magic-academy-tycoon": {
+      "sourceHash": "51eda273d285436b6c757e9bdb16e623e7c4f38422c0d42631e2817361b66fb9",
+      "title": "Zauberakademie-Tycoon",
+      "description": "Leite eine wachsende Zauberakademie, baue Unterrichtsräume und bilde Schüler aus. Magister und Artefakte gestalten den Unterricht, während die Schüler von einfachen Theorien zu fortgeschrittener Kampfmagie gelangen. Einnahmen finanzieren weitere Gebäude und Verbesserungen.\n\nGoldmünzen werden unter anderem für mehr Schülerplätze, schnelleres Training und bessere Unterrichtsqualität verwendet. Du entwickelst die Infrastruktur, sammelst Arcanum-Sphären und erforschst magische Technologien. Tägliche Aufgaben und Belohnungen ergänzen den Ausbau. Der Fortschritt entsteht durch die Auswahl von Verbesserungen, die weitere Ausbildung und zusätzliche Erweiterungen ermöglichen.",
+      "instructions": "Klicke auf den Bereich eines Raums, um Kosten und Kaufoption zu sehen. Bei bereits gekauften Räumen öffnet sich die Verwaltung mit den jeweiligen Inhalten. Wähle dort den gewünschten Gegenstand und klicke auf Upgrade. Das Einführungstutorial erklärt Kauf und Ausbau; die wesentlichen Funktionen erreichst du vom Hauptbildschirm aus.",
+      "referenceHash": "aef98e6df096014892ac0acc1bbbc274a443a5468816ba4db156a04b19422da5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Idle Magic Academy Tycoon is a charming management simulator that puts you in charge of a growing academy of sorcery. You design classrooms,",
+        "instructionsQuote": "The introductory tutorial will familiarize you with the core game mechanics, including purchasing and upgrading rooms. To buy or upgrade a room, click on the area where"
+      },
+      "reviewedTextHash": "9d09c7d40e3b03bb450de8be595d2b3bc3b1d3bbe9060c532c9d52e63869181d"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "title": "Friseursalon 3D",
+      "description": "Im Friseursalon 3D setzt du die Wünsche deiner Kundschaft mit Schere, Haarschneider, Rasiermesser und Farbe um. Zu den 23 Frisuren gehören Bob, Irokesenschnitt, Undercut und lange Stufenschnitte. Eine 3D-Vorschau auf der rechten Wunschkarte zeigt dir die gewünschte Form.\n\nJe genauer das Ergebnis passt, desto mehr Sterne und Trinkgeld erhältst du. Mit der Spielwährung kaufst du Werkzeuge und Färbemittel, während komplexere Schnitte und VIP-Kunden hinzukommen. Die Werkzeuge haben verschiedene Aufgaben: präzises Schneiden, gleichmäßiges Kürzen, Detailarbeit und Färben.",
+      "instructions": "Tippe rechts auf die Wunschkarte für die 3D-Vorschau. Wähle Schere, Haarschneider oder Rasiermesser und wische zum Schneiden über den Kopf. Mit zwei Fingern drehst du die Kamera und veränderst den Zoom. Wähle bei Bedarf Pinsel und Farbe. Tippe zum Abschluss auf Done, erhalte die Bewertung und kaufe mit dem verdienten Spielgeld neue Werkzeuge und Farben.",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, undercuts, long layers,",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clippers for even trimming, a"
+      },
+      "reviewedTextHash": "d7008e0f3a6626e4c39b02da891ecef0d28fad917d6d4c899de0c04623fa02b5"
+    },
+    "supermarket-manager": {
+      "sourceHash": "1d76f4a10d8c4f23503f63953e5445c3979f344f1946fb0c249e846810c65a7b",
+      "title": "Supermarktmanager",
+      "description": "Entwickle einen Supermarkt, indem du Warenregale kaufst und zu Beginn selbst befüllst. Hole Produkte im Lager ab und trage sie zum passenden Regal. Durch das Bedienen der Kunden verdienst du Spielgeld, das du unter anderem in Auffüllkräfte und Kassenpersonal investierst.\n\nAm Computer im Lager öffnet sich die Geschäftsverwaltung. Dort verbesserst du die Produktqualität oder stellst Personal ein. Höhere Qualität steigert das Ansehen des Markts; teurere Regale ermöglichen ein breiteres Sortiment. So wechselt dein Alltag zwischen Warentransport, Kundenservice und dem weiteren Ausbau des Geschäfts.",
+      "instructions": "Bewege dich am Computer mit der linken Maustaste oder WASD. Auf dem Smartphone hältst du den Finger auf dem Bildschirm und ziehst in die gewünschte Richtung. Stelle dich zum Kauf eines Regals oder einer Kasse auf die markierte Fläche. Hole Waren im Lager und trage sie zum richtigen Regal. Am Lagercomputer verwaltest du Qualität und Personal.",
+      "referenceHash": "575273b373e17153d18dfcb98c367b9e86f471ae006462151a93be013d4d8797",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Try your hand as a Supermarket Manager! Develop your store by purchasing shelves for products, which you will need to stock yourself at the",
+        "instructionsQuote": "For PC Controls = Use the left mouse button or the WASD keys to move your character For Smartphone Controls = Hold your finger on the screen and drag it in the direction"
+      },
+      "reviewedTextHash": "cf014bb802a06d9725e2ce90ce335f6748358d82ed0aaaebbb51c6c75f9109ef"
+    },
+    "idle-hotel-empire-tycoon": {
+      "sourceHash": "19a2d0f8778dd0b737ee170480f00318f802d1ce4e5dc7847ba52f3273494ba9",
+      "title": "Hotelimperium-Tycoon",
+      "description": "Baue ein kleines Hotel durch neue Zimmer, Restaurants, Cafés und Freizeitbereiche aus. Mitarbeiter kümmern sich um die Zimmer, während Parkplätze und die Gestaltung von Innen- und Außenbereichen weitere Teile der Entwicklung bilden. Einnahmen der Gäste fließen wieder in den Ausbau.\n\nDer Fortschritt besteht darin, zusätzliche Bereiche zu eröffnen und bestehende Anlagen zu verbessern. Wer aktiv eingreifen möchte, kann die Fortschrittsbalken über Empfang und Kassen antippen, um den Service zu beschleunigen. Die zentralen Verwaltungsfunktionen sind vom Hauptbildschirm aus erreichbar.",
+      "instructions": "Bediene die Spieloberfläche mit der linken Maustaste. Öffne verfügbare Zimmer und Einrichtungen, verbessere bestehende Bereiche und stelle Personal ein. Tippe auf die Fortschrittsbalken über Empfang und Kassen, um deren Bedienzeit zu verkürzen. Verwende die Einnahmen für weitere Hotelbereiche und prüfe die Verwaltungsoptionen auf dem Hauptbildschirm.",
+      "referenceHash": "941b398271274791aee8b1392789481fa7f1b44dd6bb2f6eb8bfa841e0d9505a",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Step into the role of a manager for a small Hotel. Open and upgrade rooms, restaurants, leisure areas, and various cafes. Embellish the exterior",
+        "instructionsQuote": "Access to all main game mechanics is available from the main screen. Use the left mouse button to interact with the in-game"
+      },
+      "reviewedTextHash": "2ff88ad671ba12e60dd417943ed08a783da7566ceb133fc380645cec366132cd"
+    },
+    "mahjong-chef": {
+      "sourceHash": "bc3d7be75776b7e4bf0dd3a2d0d884c9cce29606ddc04c624d2ba9d7aaf1bee6",
+      "title": "Mahjong-Koch",
+      "description": "Mahjong-Koch verbindet das Entfernen gleicher Spielsteine mit einer chinesischen Rezeptsammlung. Ein Stein ist auswählbar, wenn er nicht von oben bedeckt ist und links oder rechts frei liegt. Entferne passende Paare, bis das Brett leer ist, und erhalte Münzen und Zutaten.\n\nDie Sammlung umfasst 50 Gerichte aus fünf kulinarischen Bereichen. Bei 1.500 Stufen erscheint alle zehn Level eine Bossaufgabe. Verdeckte Steine müssen aufgedeckt und Felsen durch benachbarte Paare zerbrochen werden. Rückgängig, Hinweis, Mischen und Magnet helfen beim Lösen; eine wöchentliche Kochliga ergänzt den Fortschritt.",
+      "instructions": "Tippe einen freien Stein und danach einen gleichartigen freien Stein an, um beide zu entfernen. Decke verdeckte Steine zuerst auf. Felsen kannst du nicht auswählen; sie brechen beim Entfernen eines benachbarten Paares. Münzen kaufen Rückgängig, Paarhinweis, Mischen oder einen Magneten zum automatischen Entfernen eines Paares. Leere das Brett, um die Stufe abzuschließen.",
+      "referenceHash": "b1b096aa53557a0858809510af53aa47cf0dd477a7657a57850f127b1d30cc1d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Mahjong Chef is a relaxing tile-matching puzzle inspired by Mahjong Solitaire, set in a cozy Chinese kitchen. Tap two matching free tiles to",
+        "instructionsQuote": "How to play: - Tap a tile to select it. Tap another tile of the same type to make a match. - A tile is \"free\" when its left or right side is not blocked by another tile."
+      },
+      "reviewedTextHash": "7b64bc7fa3460a8dacc903c2f1295af3f6d89eb0905eaeee3fda9b7b60831733"
+    },
+    "dashmash-io": {
+      "sourceHash": "2d69b257edddf95b2e429322ca49f81d4cf846ee9f1843655ae438f5bebd55ab",
+      "title": "DashMash.io: Hindernisrennen",
+      "description": "DashMash.io ist ein Hindernisrennen für bis zu zehn Teilnehmer in Echtzeit. Laufe über bewegliche Plattformen und weiche schwingenden Hämmern, zerbröckelnden Blöcken und Stacheln aus. Wer zuerst das Ziel erreicht, sichert sich den Spitzenplatz der Runde.\n\nJede Runde wechselt auf eine neue Karte, sodass du dich auf eine andere Anordnung einstellen musst. Doppelsprung und Dash geben dir neben der seitlichen Bewegung weitere Möglichkeiten zum Überwinden der Strecke. Auf Mobilgeräten sind Sprung und Dash zwei getrennte Schaltflächen, während du mit dem Joystick lenkst.",
+      "instructions": "Bewege dich am Computer mit links/rechts oder A/D. Pfeil nach oben, W oder Leertaste springt; Doppelsprünge sind möglich. Shift löst den Dash nach vorn aus. Auf Mobilgeräten bewegst du den Joystick seitlich, tippst J zum Springen und D für den Dash. Weiche den Gefahren aus und erreiche vor den bis zu neun anderen Spielern das Ziel.",
+      "referenceHash": "a08a633ae05f09717b2445b5b388b346ec3906c19aa4c6cbaa78b48c748570ab",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "DashMash.io is a chaotic multiplayer obstacle race where up to 10 players battle it out in real time! Jump, dash, and dodge your way through",
+        "instructionsQuote": "Race to the finish in this frantic multiplayer platformer! Navigate through obstacle-filled stages alongside up to 9 other players in real time. Dodge hazards, ride"
+      },
+      "reviewedTextHash": "523bb77a9c7b066f326f1e443b24244a787385595332f66a3887d7d9796ef01b"
+    },
+    "red--blue-online-build-destroy-fight": {
+      "sourceHash": "45f27f11b16f6e232a08a6da8f0f82cfa69d38e2c3c074673949431b167603db",
+      "title": "Rot und Blau: Bauen, Zerstören, Kämpfen",
+      "description": "Dieser Mehrspieler-Shooter verbindet Teamkämpfe mit einer zerstörbaren Blockwelt. Baue Befestigungen oder grabe taktische Durchgänge. Verliert ein Block seine Verbindung zum Boden, fällt er herunter und zerbricht; dadurch können ganze Gebäudeteile die Form des Schlachtfelds verändern.\n\nIn Capture the Flag bringst du die gegnerische Flagge zur eigenen Basis. Team Deathmatch verlangt mehr Ausschaltungen als das andere Team. Die Sandbox dient dem Experimentieren mit Bau und Zerstörung. Spielsuche und eigene Räume führen zu Partien, in denen die Umgebung neben den direkten Schüssen eine wichtige Rolle spielt.",
+      "instructions": "WASD bewegt, Leertaste springt und C duckt die Figur. Links klicken schießt oder baut, rechts klicken zielt oder gräbt. Wähle Gegenstände mit 1–5 und lade mit R nach. J ändert die Minikartengröße, M öffnet die Karte, T den Chat und Tab das Pausenmenü. Beachte das aktuelle Modusziel und die tragenden Blöcke, bevor du ein Bauwerk untergräbst.",
+      "referenceHash": "c7a273b8eb5166ec334022a28c77693a8d63fa587fd0482e4009a4e95e22692f",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Red & Blue: Online. Build! Destroy! Fight! — is a fast-paced voxel multiplayer shooter with fully destructible, physics-driven maps — buildings",
+        "instructionsQuote": "The world is fully destructible with realistic physics: any block that loses its connection to the ground will fall and break apart. Game Modes: • Sandbox: Experiment"
+      },
+      "reviewedTextHash": "fce86e336aca836fc892f77d3d371904eba6a9df40e077c4f75937fd9a92109d"
+    },
+    "mahjong-classic": {
+      "sourceHash": "d8e9d82a90c8ce4f261dffb47be50592593e9e648620d89eac5b5875eb478e53",
+      "title": "Mahjong-Klassiker",
+      "description": "Mahjong-Klassiker ist ein Solitaire-Spiel, in dem du ein Brett durch das Entfernen passender Paare leerst. Verfügbar sind Anordnungen wie Schildkröte, Festung, Krebs, Spinne, Katze und Drache. Ein Stein kann nur gewählt werden, wenn andere ihn nicht blockieren.\n\nDie meisten Paare benötigen gleiche Symbole. Blumen dürfen jedoch mit anderen Blumen und Jahreszeiten mit anderen Jahreszeiten kombiniert werden. Jede Entfernung kann neue Steine öffnen. Sind keine auswählbaren Paare mehr vorhanden, ist der Versuch verloren. Rückgängig, Hinweis und Spotlight helfen, frühere Züge oder mögliche Steine zu prüfen.",
+      "instructions": "Wähle zwei nicht blockierte Steine mit passenden Symbolen, um sie zu entfernen. Blumen bilden untereinander Paare, ebenso Jahreszeiten. Prüfe nach einem Zug die neu zugänglichen Bereiche. Undo bringt das letzte Paar zurück, Hint zeigt ein Paar und Spotlight erleichtert die Suche nach auswählbaren Steinen. Leere das Brett; ohne verfügbare Paare ist der Versuch verloren.",
+      "referenceHash": "e1b128196d455e91ecee370933d9c96b24fa410a8e2b75f0c4963fa8babac3e5",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Mahjong Classic\" is a classic mahjong solitaire with a unique algorithm for generating levels - a random layout of chips always has a solution!",
+        "instructionsQuote": "The goal of the game is to clear the field of chips. Choose chips with the same symbols to remove them. Special chips \"flowers\" are considered paired, and \"seasons\" are"
+      },
+      "reviewedTextHash": "cdfc04169d74aeaa6c40e0e4ef144e867bf42a132315dcab9a07a6969734b784"
+    },
+    "football--soccer": {
+      "sourceHash": "1c4b0cf765d5cc7562583a70250f36c61be835df4ff70d8d73bc8ee3229cf0b5",
+      "title": "Fußball: Meisterschaften und Turniere",
+      "description": "Wähle eine Mannschaft und tritt in Meisterschaften und Turnieren gegen andere Teams an. Dieser Fußballsimulator zeigt die Begegnungen in 3D-Stadien. Du steuerst die Bewegung eines Spielers und wählst Aktionen, deren Bedeutung davon abhängt, welches Team gerade den Ball besitzt.\n\nMit eigenem Ballbesitz passen, schießen oder beschleunigen die Pfeiltasten. Hat der Gegner den Ball, wechseln dieselben Tasten den ausgewählten Spieler oder unterstützen die Balleroberung und Verfolgung. Auf Mobilgeräten trennen Joystick und beschriftete Aktionstasten diese Aufgaben. Ziel ist, dein Team zum Meistertitel zu führen.",
+      "instructions": "WASD bewegt deinen Spieler. Bei eigenem Ballbesitz passt Pfeil links, Pfeil oben schießt und Pfeil rechts beschleunigt. Bei gegnerischem Ballbesitz wechselt links den Spieler, oben versucht die Balleroberung und rechts folgt dem ballführenden Gegner für den Zweikampf. Mobil steuerst du mit dem Joystick und den beschrifteten Aktionstasten.",
+      "referenceHash": "701eb00e6c21b7cc5094b9aca9fa70d7ce94268a55d336489959e8dd50c15a91",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "The game \"Football - Soccer\" is an exciting online football simulator that allows players to plunge into the world of professional sports and",
+        "instructionsQuote": "On PC: WASD - controlling the movement of a football player on the playing field. The arrows on the keyboard control the player's actions. If the ball belongs to a"
+      },
+      "reviewedTextHash": "9b90424dc8cc83240fa4f279d7d5cff7a6d041e2f1bb7a01f387c63593dffee2"
+    },
+    "shape-transform-race": {
+      "sourceHash": "ec56726f4c68d28f0fa51d24657564c32215c55285b231fffed00be97d15443c",
+      "title": "Verwandlungsrennen",
+      "description": "Wähle im Rennen die Fahrzeugform, die zum nächsten Untergrund passt. Ein Boot überquert Wasser, ein Auto fährt auf Straßen und ein Flugzeug bewegt sich durch die Luft. Rechtzeitiges Verwandeln erhält die Geschwindigkeit und hilft dir, Hindernisse zu überwinden.\n\nDu kannst allein gegen Bots oder zu zweit gegen einen Freund antreten. Wer zuerst das Ziel erreicht, gewinnt. Mit den im Rennen verdienten Münzen schaltest du weitere Fahrzeuge und Figuren frei. Die verschiedenen Strecken verlangen schnelle Entscheidungen darüber, wann eine Form nicht mehr zum kommenden Abschnitt passt.",
+      "instructions": "Wechsle Fahrzeuge mit der Maus oder per Berührung. Im Zweispielermodus dienen A/S/D und J/K/L als Kürzel für den Fahrzeugwechsel. Nutze Boot für Wasser, Auto für Straße und Flugzeug für die Luft. Verändere die Form rechtzeitig, behalte dein Tempo bei und erreiche vor dem Gegner die Ziellinie.",
+      "referenceHash": "baae76c6051881e3981a41738f12e433d2c43a47fa676cba0c4e12e7ade59077",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Shape Transform Race is a fun racing game that can be played in reaction-based 1 and 2 player game modes. You can play the game against bots or",
+        "instructionsQuote": "You can use \"MOUSE\" or touch controls to change vehicles. For 2 player mode, you can use \"A,S,D\" and \"J,K,L\" keys for shortcuts to change vehicles. How to Play? Your"
+      },
+      "reviewedTextHash": "47194a718404e0145da5e3612748a753bab48bdbe6b7833469e669df4f166941"
+    },
+    "break-a-lucky-egg-brainrots": {
+      "sourceHash": "b15c010ba0f405f9f14eb339cd9298ad6b3e160d7a22c3e3504f891eb21177ef",
+      "title": "Glückseier öffnen und Brainrots sammeln",
+      "description": "Zerbrich Brainrot-Eier und bringe die gefundenen Figuren zur Basis, bevor ihr Zeitlimit abläuft. Unterwegs verfolgen dich Skelette. Schaffst du eine Figur nicht rechtzeitig in Sicherheit, verschwindet sie. Das Spiel bietet einen Ein- und Zweispielermodus.\n\nIn der Basis erzeugen gesammelte Brainrots Spielgeld. Damit verbesserst du Spitzhacken und Hämmer und erreichst höherwertige Eier. Die Basis lässt sich auf bis zu drei Etagen ausbauen. Tickets dienen Anpassungen, Haustieren und besonderen Aktionen wie dem Stehlen anderer Brainrots. Eine Wiedergeburt erhöht den Einkommensmultiplikator für weiteren Fortschritt.",
+      "instructions": "WASD bewegt, linkes Shift lässt dich rennen und die Leertaste springen. Mit linkem Mausklick oder F schlägst du, mit E nimmst du auf oder verkaufst. T öffnet die Wiedergeburt, H den Eierindex. Öffne Eier und trage die Brainrots vor Ablauf ihrer Zeit zur Basis. Meide Skelette und investiere die Einnahmen in Werkzeuge und zusätzliche Kapazität.",
+      "referenceHash": "d7acac1fe12e601584596b44290c822fe39baff82e7cdb84f49f763a0aa4944d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Break a Lucky Egg Brainrots is a fast and rewarding collection game where action, risk, and strategy come together. Your mission is to break",
+        "instructionsQuote": "Start breaking eggs to collect Brainrot characters. Carry the Brainrots to your base before their timer expires. Avoid skeleton enemies while carrying Brainrots. Earn"
+      },
+      "reviewedTextHash": "094419d1ac5fe11a2557c12e818ff1df36b3c9c96668992a9534b3e7d611e70b"
+    },
+    "archer-trial-by-fate": {
+      "sourceHash": "9158285628e782304ba3af336cfc540d406fb282994857ab2e90efefa111c3bb",
+      "title": "Bogenschütze: Schicksalsprüfung",
+      "description": "Dieser Top-down-Actiontitel führt einen Bogenschützen durch Räume voller Monster und Bosse. Die Raum- und Wellenreihenfolge wird zufällig zusammengestellt. Abpraller, geteilte Pfeile, Meteore, Eis- und Feuerpfeile sowie Begleiter ermöglichen unterschiedliche Fähigkeitskombinationen pro Versuch.\n\nEine besondere Regel bestimmt den Kampf: Der Held schießt selbstständig auf den nächsten Gegner, wenn er stillsteht. Bewegung dient zum Ausweichen, Anhalten zum Angriff. Zwischen Versuchen schaltest du Helden frei, verbesserst Ausrüstung in der Schmiede und investierst Münzen in dauerhafte Werte. Ziel ist, alle Etappen und den letzten Boss zu besiegen.",
+      "instructions": "Bewege den Helden mit dem virtuellen Joystick, WASD oder den Pfeiltasten. Weiche durch Bewegung aus und bleibe zum Angreifen stehen: Dann zielt er automatisch auf den nächsten Gegner und schießt. Kombiniere die angebotenen Fähigkeiten und nutze zwischen den Versuchen Schmiede, Heldenfreischaltungen und dauerhafte Verbesserungen.",
+      "referenceHash": "7d40fc1ce7176f841620df5be03ee1cfd5fdba7e004f45c2728cc1ef79d5a6bc",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Archer: Trial by Fate is a dynamic top-down action game. You control an archer who fights through dozens of rooms filled with monsters and",
+        "instructionsQuote": "To control your character, use the virtual joystick or the WASD keys / arrow keys on your keyboard. Shooting is automatic: when the hero stands still, he aims at the"
+      },
+      "reviewedTextHash": "0c74704cb941187897a11acfe9220f4502d2f50f9082c82d24a2e15d2c4dba5d"
+    },
+    "obby-sword-hero-adventure": {
+      "sourceHash": "4e2a4bc874d582e4bc979b7e3fb8209556d4c650589b8ebe549995dfdfb3e1f7",
+      "title": "Obby: Abenteuer des Schwerthelden",
+      "description": "In diesem Obby-Abenteuer besiegst du Gegner und Bosse mit dem Schwert. Steigere die Angriffskraft, sammle seltenere Klingen und erkunde weitere Spielwelten. Trophäen und Fähigkeitspunkte gehören zum beschriebenen Fortschritt.\n\nNeben der Ausrüstung kannst du Begleiter rekrutieren und eine Sammlung aufbauen. Die Fähigkeiten des Helden lassen sich verbessern, um auf weitere Kämpfe hinzuarbeiten. Bewegung, Kamerasteuerung und Angriff sind getrennte Aktionen. Dein langfristiges Ziel ist, die Welten zu öffnen und die vorhandenen Gegner mit einem stärker werdenden Helden zu bewältigen.",
+      "instructions": "Am Computer bewegst du dich mit WASD, springst mit der Leertaste und steuerst die Kamera mit der rechten Maustaste. Die linke Maustaste greift an. Mobil bewegst du den Joystick, hältst den Finger zur Kamerasteuerung auf dem Bildschirm und tippst für einen Angriff. Sammle Schwerter und Begleiter und verbessere deine Fähigkeiten für Gegner und Bosse.",
+      "referenceHash": "889da4dd3dacd1b3d33cd96da89c129a5987bbc8de60b363c3f6cfbdbbc18758",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Obby: Sword Hero Adventure is an exciting game where you’ll master your sword skills. Increase your attack power, obtain and use rarer swords.",
+        "instructionsQuote": "PC Controls: WASD - Move your character Space - Jump Right Mouse Button - Camera control Left Mouse Button - Attack Mobile Controls: Joystick - Move your character Hold"
+      },
+      "reviewedTextHash": "6998071118af6e344d6ef19e582cac125767a12a9f627360ee3e712877128047"
+    },
+    "flows": {
+      "sourceHash": "2fc81344bdeaf040c340b27425579745db132f824d2d512d8e458d56c2ff96cf",
+      "title": "Flows: Farben umfüllen",
+      "description": "Flows ist ein Sortierpuzzle mit farbigen Flüssigkeiten in Kolben. Gieße jeweils die oberste Farbe von einem Gefäß in ein anderes. Das ist nur erlaubt, wenn das Ziel leer ist oder oben bereits dieselbe Farbe enthält. Am Ende muss jeder Kolben einfarbig oder leer sein.\n\nDie 40 Level werden schrittweise schwieriger. Unter anderen Farben liegende Schichten sind erst erreichbar, nachdem du die oberen umgefüllt hast. Plane deshalb auch freien Platz für Zwischenzüge ein. Die Quelle beschreibt keine Zeitbegrenzung, bietet aber Zeitbestenlisten pro Level für möglichst schnelle Lösungen.",
+      "instructions": "Klicke am Computer einen Kolben und anschließend das Zielgefäß an; auf Mobilgeräten tippst du beide an. Gieße nur in leere Gefäße oder auf dieselbe oberste Farbe. Bewege obere Schichten, um darunterliegende Farben zugänglich zu machen. Das Level endet, wenn alle Kolben nur eine Farbe enthalten oder leer sind. Bei Schwierigkeiten steht eine Hinweisfunktion zur Verfügung.",
+      "referenceHash": "7e8a2cb08e57605c2260b994d86b4fba654a76072a6f99282f0dfc2c690fa058",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Flows is a cozy logic puzzle about sorting colored liquids between flasks. Tap one flask, then another, to pour the top color — your goal is to",
+        "instructionsQuote": "Tap a flask, then tap another flask to pour the top-most color into it. You can pour only when the destination flask is empty or its top color matches. The level is"
+      },
+      "reviewedTextHash": "54bb96335980054815aeca76c34a44e6ea0962b901b3b4ed4a1faf70926eba11"
+    },
+    "lucky-brainrot-blocks-online": {
+      "sourceHash": "d07bd29f95025b20cd85e33cb37534df1421d7287f68f9087379d7f4ce39c39c",
+      "title": "Glücksblöcke und Brainrots online",
+      "description": "Erkunde verschiedene Zonen, öffne Glücksboxen und bringe gefundene Brainrots sicher zur Basis. Weiter entfernte Bereiche bieten bessere Belohnungen, aber auch höhere Risiken. Die Quelle beschreibt 14 Bereiche, über 75 Sammelfiguren und 14 Seltenheitsklassen.\n\nVerkaufe Figuren für Spielwährung und verbessere Bewegungsgeschwindigkeit, Boxen und Basiskapazität. Eine Wiedergeburt steigert die Einkommensrate. Du kannst online mit Chat und Raumeinladungen spielen oder zu zweit an einem Gerät. Kleidung, Flügel und Taschen verändern deine Figur; Ereignisse bieten zusätzliche Gelegenheiten zum Sammeln.",
+      "instructions": "Allein: WASD bewegt, E interagiert, Leertaste springt, Maus und Rechtsklick steuern die Kamera. R öffnet die Tasche, T den Laden, Y die Wiedergeburt, C den Chat; 1–7 wählt Brainrots. Zu zweit nutzt Spieler 1 WASD/E/Leertaste/R/T/Y und 1–4. Spieler 2 nutzt Pfeiltasten/J/L/U/I/O und 7–9 entsprechend für Bewegung, Interaktion, Sprung, Tasche, Laden, Wiedergeburt und Auswahl.",
+      "referenceHash": "65e9a232b87a08b655e6c2b0d5ecd5d564d5869d4a965ff2ab92ca2411466b3b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Lucky Brainrot Blocks Online is a fast-paced reward adventure that mixes movement, progression, and collection mechanics. Instead of standing",
+        "instructionsQuote": "1 Player Mode Move: W, A, S, D Interact: E Jump: SPACE Camera: MOUSE and RIGHT-CLICK Bag: R Shop: T Rebirth: Y Chat: C Pick Brainrots: 1, 2, 3, 4, 5, 6, 7 2 Player Mode"
+      },
+      "reviewedTextHash": "56d94cee3fa8dceb515085bdd8126d3cd28daf36786c52c97da172ff769c4f5b"
+    },
+    "geometry-vibes-monster": {
+      "sourceHash": "b0a2622b9831dfab2e9dc77ff6eacd507f760fb07b72d78a1318074d571c0c87",
+      "title": "Geometry Vibes: Monsterflug",
+      "description": "Steuere ein Raumschiff möglichst weit durch Hindernisse und Monsterangriffe. Acht unterschiedliche Monster haben eigene Angriffsmuster, die du erkennen und vermeiden musst. Stacheln und andere Hindernisse verlangen präzise Höhenwechsel.\n\nGedrückthalten lässt das Schiff steigen, Loslassen lässt es sinken. Diese einfache Eingabe bestimmt die gesamte Flugbahn. Die Quelle nennt außerdem Rennmodi für zwei, drei oder vier Personen an einem Gerät. Beobachte die Muster, passe die Höhe an und versuche, den Angriffen über eine möglichst lange Strecke zu entkommen.",
+      "instructions": "Halte die Maustaste oder die Leertaste gedrückt, um aufzusteigen. Lasse los, um nach unten zu fliegen. Meide Hindernisse und achte auf das Angriffsmuster des jeweiligen Monsters. In den Rennmodi für zwei, drei oder vier Spieler werden Pfeil nach oben, Leertaste, H und L als Steuerung verwendet.",
+      "referenceHash": "761b50206d8c29d4b6d3edf4ee8da18cc66d2989b88e196df27a7d9ebbf66a24",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Geometry Vibes Monster is a reaction-based arcade game where you must dodge incoming obstacles, spikes, and battle against a variety of unique",
+        "instructionsQuote": "Keep your spaceship on course and avoid hitting obstacles. Stay alert for the specific attack patterns of each monster. Click and hold the \"MOUSE\" or press and hold the"
+      },
+      "reviewedTextHash": "4eaa65282ab7e8baf39bca022c94f3db3ec207721b03c9de92c0c848a6206354"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "title": "Auto-Stuntrennen 3D",
+      "description": "Fahre über erhöhte Strecken mit Rampen, großen Sprüngen und beweglichen Hindernissen. Ziel ist die Ziellinie, ohne einen Unfall zu verursachen oder von der Strecke zu fallen. Die Level haben ein Zeitlimit, sodass sich kontrolliertes Fahren und ausreichendes Tempo ergänzen müssen.\n\nVerschiedene Kameraperspektiven helfen beim Einschätzen enger Passagen und bevorstehender Landungen. Kontrollpunkte ermöglichen einen Wiedereinstieg nach einem Sturz. Der Anbieter nennt Zeitrennen und weitere Stuntvarianten. Richte das Auto vor einer Rampe aus und beobachte bewegliche Hindernisse, bevor du eine riskante Passage anfährst.",
+      "instructions": "Pfeil nach oben beschleunigt, Pfeil nach unten fährt rückwärts und links/rechts lenkt. Mit der Leertaste bremst du. Mobil verwendest du Lenktasten sowie Gas- und Bremspedal. Halte das Auto bei Sprüngen auf Kurs, vermeide Abstürze und erreiche das Ziel innerhalb des Zeitlimits. Nutze Kontrollpunkte für einen neuen Versuch.",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp Car Games 3D 🚘 All the",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply brake Mobile Left Button –",
+        "sourceIssueResolution": "The provider repeatedly advertises offline play and asks for a download. This reviewed browser guide removes those unverified delivery claims and retains the documented track objective, checkpoints and keyboard/touch controls."
+      },
+      "reviewedTextHash": "91d1dfc793bdda154cc9da885b34d6d3aeb49f01e75a480b297ba0bb52a990c7"
+    },
+    "kick-lucky-blocks-online": {
+      "sourceHash": "a15bab4f5d5ce19a3acd1dd6a08ee041097f1a6dc27a5c060e9f83c37d766112",
+      "title": "Glücksblöcke weit kicken: Online",
+      "description": "Kicke Glücksblöcke durch größer werdende Arenen und hole ihre Belohnungen zurück, bevor Tsunamis die Karte überfluten. Größere Entfernung eröffnet Chancen auf seltenere Brainrots, führt aber auch in gefährlichere Bereiche. Die Quelle nennt 14 Zonen und mehr als 75 Sammelfiguren.\n\nMit Gewichten verbesserst du die Kickweite; weitere Verbesserungen erhöhen Lauftempo und Basiskapazität. Wiedergeburten steigern die Einkommensrate. Online kannst du Räume betreten und chatten, während der lokale Zweispielermodus ein gemeinsames Gerät nutzt. Kleidung, Flügel und Taschen dienen der Anpassung.",
+      "instructions": "Allein: WASD bewegt, E interagiert beziehungsweise kickt, Linksklick kickt ebenfalls, Leertaste springt. Maus und Rechtsklick steuern die Kamera; R öffnet die Tasche, T den Laden, Y die Wiedergeburt und C den Chat. Zu zweit nutzt Spieler 1 WASD/E/Leertaste/R/T/Y. Spieler 2 nutzt Pfeiltasten/J/L/U/I/O für dieselben Aktionen. Hole Belohnungen vor der Welle zur Basis.",
+      "referenceHash": "85a1db43f61bdb4d9951b401e128ddf56611b1fa8c6fe02d52741eefc085cac2",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Kick Lucky Blocks Online is a colorful progression adventure built around distance, upgrades, and reward hunting. Your objective is to kick",
+        "instructionsQuote": "1 Player Mode Move: W, A, S, D Interact: E Jump: SPACE Hit / Kick: LEFT-CLICK or E Update: F Camera Control: MOUSE / RIGHT-CLICK Bag: R Shop: T Rebirth: Y Chat: C 2",
+        "sourceIssueResolution": "The source labels an extra shortcut as Update without explaining its action and shares E with interaction in two-player mode. The guide omits that optional ambiguous shortcut while preserving the explicit movement, kick, jump and management controls."
+      },
+      "reviewedTextHash": "c53bca804b4bddbb4f4c86b197af8300236ffbcf2c0cfe84ffcce68a6a6041cc"
+    },
+    "arrow-cube-3d": {
+      "sourceHash": "319b9ac06b6029545e5ab839d79a55736ff6dcc0050d758d13b9723f11997cba",
+      "title": "Pfeilwürfel 3D",
+      "description": "Entferne alle Pfeile von einem Würfel mit sechs Seiten. Ein Pfeil kann nur herausgleiten, wenn kein anderes Teil seinen Weg blockiert. Die Herausforderung liegt in der Reihenfolge: Eine Entfernung schafft Platz und kann damit den Ausgang eines anderen Pfeils freigeben.\n\nDrehe den Würfel und prüfe auch die zunächst verdeckten Seiten. Eine von vorn frei wirkende Richtung kann aus einem anderen Blickwinkel noch blockiert sein. Suche einen freien Ausgang, entferne den passenden Pfeil und beurteile die neue Anordnung. Das Level ist beendet, wenn auf keiner Seite mehr ein Pfeil übrig ist.",
+      "instructions": "Drehe den Würfel zur Untersuchung seiner Seiten und tippe einen Pfeil an, um ihn zu entfernen. Achte auf die Richtung seiner Spitze und mögliche Hindernisse auf diesem Weg. Prüfe nach jeder Entfernung, welche anderen Pfeile nun frei liegen. Leere alle sechs Seiten, um das Level abzuschließen.",
+      "referenceHash": "9fd011e1130d37040554032f227151b511cfe10108848b325f6bbce6b7c10907",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Remove every arrow from the six-sided cube by finding the perfect order. Arrow Cube Escape is a calm 3D logic puzzle that challenges your focus,",
+        "instructionsQuote": "Tap an arrow to remove it from the cube. An arrow can move only when nothing blocks its path. Rotate and inspect the cube, choose the correct order, and clear all arrows"
+      },
+      "reviewedTextHash": "46e2688aa47116dd510a9595aeb9da57a72b1e21bee1e94edebd01e7cdf53da7"
+    },
+    "my-castle-merge--story": {
+      "sourceHash": "4404d2d376924deccf99a46bc97b2d320b46b714f597d3e33590b2fe61170a4d",
+      "title": "Mein Schloss: Kombinieren und Geschichte",
+      "description": "Eine junge Prinzessin verlässt den Hof ihres Vaters und reist zu einem verlassenen Schloss ihres Großvaters. Du restaurierst und dekorierst das alte Gebäude und verfolgst die Geschichte über ihren Neuanfang und die Gründe für ihre Abreise.\n\nDie Rätsel verwenden ein Zwei-Objekte-System: Identische Gegenstände werden zu besseren Werkzeugen oder Ressourcen kombiniert. Versteckte Gegenstandsketten und seltene mittelalterliche Objekte eröffnen weitere Herstellungsmöglichkeiten. Der Ausbau des Schlosses verbindet diese Entdeckungen auf dem Spielfeld mit der fortschreitenden Erneuerung des Gebäudes.",
+      "instructions": "Kombiniere zwei identische Gegenstände, um verbesserte Werkzeuge oder Ressourcen zu erzeugen. Betrachte vorhandene Paare und verfolge die Gegenstandsketten, während du das Schloss restaurierst und gestaltest. Neue Objekte erweitern die Herstellungsmöglichkeiten. Die beschriebenen Kombinationsaufgaben haben kein Zeitlimit.",
+      "referenceHash": "163f419511316d41d7b644178043624691951efac4e3e04a1a9479f231025801",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "My Castle: Merge & Story is a relaxing merge 2 puzzle game set in a warm and atmospheric medieval world of renewal, mystery, and self-discovery.",
+        "instructionsQuote": "At its core, My Castle: Merge & Story offers intuitive and satisfying merge 2 mechanics designed for relaxation: Merge identical items to create upgraded tools and",
+        "sourceIssueResolution": "The original description promotes an offline adventure, which is not verified for this browser embed. The reviewed guide removes the offline claim and retains the explicit merge-two rules, restoration goal and story premise."
+      },
+      "reviewedTextHash": "1d28ec24a80d6ce525d9a4499fdf61edde2eded414c07f36c2f0a059b01a1e13"
+    },
+    "tiny-sports-empire-idle": {
+      "sourceHash": "3c33db35b5216230cf0bd74afeb7ee8336e7fb8002357b5c51eb89b9017ea2cd",
+      "title": "Dein wachsendes Sportimperium",
+      "description": "Beginne mit einem kleinen Basketballteam und entwickle einen Verein für Basketball, Hockey, Fußball, Rugby, Volleyball und Baseball. Gewinne Spielgeld, verbessere Trainingspläne, rekrutiere Spieler und lege Ausrüstung an. Die Begegnungen werden automatisch simuliert.\n\nDu verwaltest daher die Voraussetzungen der Spiele: Siegchance, Teamstärke, Einkommen und Ligafortschritt. Weitere Sportarten, Fähigkeiten, Ereignisse und Saisonfortschritt ergänzen die Entwicklung. Über die Sports-Schaltfläche wechselst du die Sportart und prüfst die Liga. Verbesserungen und neue Spieler verbinden sich so mit dem Ausbau des gesamten Vereins.",
+      "instructions": "Klicke am Computer mit der linken Maustaste auf Verbesserungen, Sportarten, Ausrüstung, Spieler, Fähigkeiten und Belohnungen. Sports zeigt die Sportarten und den Ligafortschritt. Mobil tippst du auf dieselben Schaltflächen und Ereigniskarten und scrollst durch die Menüs. Rüste das Team auf und fordere verfügbare Belohnungen an, während die Spiele automatisch ablaufen.",
+      "referenceHash": "fb1109507fdb67ace3ab3f45afb8b651179da5c81b000d6cd15c5cfe4723902e",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Tiny Sports Empire Idle is a sports management idle game where you build a growing multi-sport franchise across basketball, hockey, soccer,",
+        "instructionsQuote": "Build and manage your sports empire by earning cash, upgrading your team, unlocking new sports, recruiting players, equipping gear, using skills, and claiming special"
+      },
+      "reviewedTextHash": "ed9fa71ab4ab511e6ae6f22f7c19fd6d1e63af2801f1445ca186eb6ab30bffc5"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "title": "Obby Craft: Baue ein Flugzeug",
+      "description": "Baue ein Flugzeug aus einzelnen Blöcken und teste es im Flug. Jeder verbaute Teil beeinflusst das Verhalten der Maschine. In der Werkstatt wählst du Teile aus dem Inventar und setzt sie neben dem Flugzeug ein. Später sammelst du während des Flugs Münzen auf der Karte.\n\nDiese Spielwährung finanziert weitere Bauteile und Verbesserungen der Startschleuder. Eine stärkere Schleuder startet das Flugzeug höher und schneller. Bauteilladen, Skins und ein Belohnungsrad ergänzen die Entwicklung; bis zu vier Bauplätze speichern deine Entwürfe. Weiche beim Fliegen den Hindernissen der Obby-Strecke aus.",
+      "instructions": "Gehe zum Baubereich neben dem Flugzeug, wähle unten ein Inventarteil und klicke, um es einzusetzen. Kaufe fehlende Teile im Laden und verbessere die Startschleuder mit Münzen. Starte, sammle während des Flugs weitere Münzen und weiche Hindernissen aus. Die Quelle nennt keine genauen Tasten für die Steuerung in der Luft; erfinde daher keine zusätzliche Tastenbelegung.",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assemble an airplane from parts",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next to it) Select a part in the"
+      },
+      "reviewedTextHash": "5e02d8cb8d0b108bed872a5e2121ce820723dc26e3c5364157729391f81f75b7"
+    },
+    "jurassic-merge-dino-evolution": {
+      "sourceHash": "8849aa24f59a7e3c31517915127eaab280fcdbee5d143bf53e7648df645ce1a0",
+      "title": "Jurassic Merge: Dinosaurier entwickeln",
+      "description": "Kombiniere identische Dinosaurier zu stärkeren Kreaturen und stelle daraus eine Armee zusammen. Die Kämpfe gegen gegnerische Truppen laufen automatisch ab. Deine Entscheidungen liegen im Zusammenführen der Figuren, ihrer Verbesserung und der Anordnung auf dem Schlachtfeld.\n\nSiege bringen Kristalle und Gold. Damit schaltest du weitere Figuren frei oder stärkst vorhandene Dinosaurier. Verwende die Belohnungen für die Vorbereitung auf mächtigere Gegner. Der Ablauf verbindet das direkte Verschieben und Kombinieren der Figuren mit dem Beobachten der anschließenden automatischen Gefechte.",
+      "instructions": "Ziehe am Computer Figuren mit gedrückter linker Maustaste; auf Mobilgeräten verschiebst du sie per Wischbewegung. Kombiniere identische Dinosaurier und stelle die Armee auf dem Schlachtfeld auf. Schicke sie in automatische Kämpfe. Verwende Kristalle und Gold aus Siegen für neue Figuren und Verbesserungen vor der nächsten Begegnung.",
+      "referenceHash": "ddf3b6624cbe24b0648ba7651049c46b5253ff5773b457c41498d1351f18fd6c",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "\"Jurassic Merge: Dino Evolution\" is an exciting game where you can create and upgrade dinosaurs by merging them to reach their maximum power!",
+        "instructionsQuote": "🕹️ Drag characters with the left mouse button on PC or swipe on mobile devices. 🦖 Merge identical dinosaurs to create stronger creatures. 🛡️ Arrange your army on the"
+      },
+      "reviewedTextHash": "e6dc18fc58aa854450665c1052e7ae3ce2edce1f2e4ace67c109873dea6d5fb2"
+    },
+    "dogfight": {
+      "sourceHash": "e0140fc994f014e385d9f0d456c7e2fef48a0c7208cd2a4e16d055f741216e02",
+      "title": "Luftkampf",
+      "description": "Steuere ein Kampfflugzeug durch Luftgefechte und nutze Kurven, Loopings und Rollen zur Positionsänderung. Geschwindigkeit und Fluglage gehören ebenso zur Steuerung wie der Schuss. Gewöhnliche und scharfe Kurven haben getrennte Tasten, sodass du verschiedene Manöver kombinieren kannst.\n\nNeben dem Feuern steht eine Sekundärwaffe zur Verfügung. Ziehe die Nase hoch oder rolle, um deine Fluglage zu verändern und einen Gegner ins Schussfeld zu bringen. Am Computer ist eine vollständige Tastaturbelegung angegeben; mobil lenkst du mit einem Joystick und separaten Tasten für Feuer, Hochziehen und Rollen.",
+      "instructions": "W beschleunigt, S verlangsamt. A/D dreht links/rechts, Q/E führt scharfe Kurven aus. Leertaste zieht die Nase hoch, Shift rollt, J feuert, K nutzt die Sekundärwaffe und R lädt nach. Mobil steuerst du den Bildschirmjoystick und verwendest Feuer-, Hochzieh- und Rolltaste. Passe Flugrichtung und Tempo an, bevor du schießt.",
+      "referenceHash": "f635d6f388ed67cff3bf07ef934ac4fe7639a501066ecbd576ea977d90a7f00b",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "Dogfight is a thrilling air combat game where you control a battle plane in intense aerial battles. Perform maneuvers like looping, rolling, and",
+        "instructionsQuote": "Desktop Controls: W = speed up S = slow down A = left turn D = right turn Q = sharp left turn E = sharp right turn J = fire K = sub-weapon Space = pull up Shift = roll R"
+      },
+      "reviewedTextHash": "129f534768d9e2e2ebd37ab1c00f1d1c51953a2b4906f89ae3b0238b5a08a5b4"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "title": "Canyon Drifter: Motorrad-Trial",
+      "description": "Canyon Drifter ist ein 2D-Motorrad-Trial über steile Anstiege und Sprünge. Die Gewichtsverlagerung verändert die Balance und ist neben Gas und Bremse wichtig, um das Gelände zu bewältigen. Du kannst das Motorrad in der Garage auf eine schwierige Strecke abstimmen.\n\nEin gescheiterter Versuch ist damit nicht nur Anlass für eine andere Fahrlinie, sondern auch für eine veränderte Einstellung des Motorrads. Beobachte, wo du die Balance verlierst, und passe Lehnen und Tempo an. Die Bestenliste setzt einen zusätzlichen Anreiz, eine bereits bewältigte Strecke schneller zu fahren.",
+      "instructions": "W oder Pfeil oben gibt Gas, S oder Pfeil unten bremst beziehungsweise fährt rückwärts. A oder Pfeil links lehnt zurück und hebt das Vorderrad, D oder Pfeil rechts lehnt vor. R startet neu, Esc oder P pausiert. Auf dem Telefon nutzt du die vier Tasten für Gas, Bremse und beide Lehnebewegungen. Passe bei Bedarf das Motorrad in der Garage an.",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "modelRevision": "06bd83294674f3737eb929e501aa5beafaa229d8",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep climbs and jumps by",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward (drop the nose) — Right"
+      },
+      "reviewedTextHash": "856f74ab9689a023b4d928ac93b79b29423614dd6823a5a667d2ba3a23fd18ab"
+    }
+  }
+}

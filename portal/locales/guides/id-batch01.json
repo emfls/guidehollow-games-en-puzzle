@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "Permainan clicker ini dimulai dari satu tombol. Setiap klik menghasilkan uang dalam permainan, lalu uang tersebut dipakai untuk membeli peningkatan. Pilihannya mencakup pendapatan per klik, kemampuan memperoleh uang secara pasif, dan jumlah kursor. Karena itu, mengeklik langsung dan menunggu pendapatan pasif sama-sama menjadi bagian dari perkembangan permainan.\n\nHal yang dibuka juga mengubah tampilan dan suara: ada tombol, kursor, latar belakang, serta musik baru. Semuanya perlu dibuka sebelum dapat dipilih untuk menyesuaikan permainan. Mulailah dengan mengumpulkan pendapatan, kemudian pertimbangkan bagian penghasilan yang ingin ditingkatkan sebelum membeli. Siklusnya berlanjut dari memperoleh uang, membeli peningkatan, lalu menuju pilihan penyesuaian berikutnya.",
+      "instructions": "Klik tombol utama untuk memperoleh uang dalam permainan. Bandingkan peningkatan pendapatan per klik, pendapatan pasif, dan jumlah kursor, lalu beli pilihan yang tersedia. Terus mengeklik atau tunggu hasil pendapatan pasif untuk pembelian berikutnya. Setelah latar, musik, kursor, atau tombol baru terbuka, pilih melalui pengaturan penyesuaian.",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Klik Klik Clicker",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "f115c492a29672ccbd3537a9639ed33420b5e5722170b4c2815c2a3c098223bd"
+    },
+    "build-and-run-playgama": {
+      "description": "Permainan arkade ini menggabungkan perjalanan melewati level dengan membangun bagian jalur yang hilang. Perhatikan bentuk bagian yang belum lengkap, kemudian pilih platform, tanjakan, atau bidang miring yang sesuai. Musuh dan senjata juga menjadi bagian permainan, sehingga membangun jalur dan menghadapi lawan memerlukan tindakan yang berbeda.\n\nPada komputer, ketiga jenis bangunan memiliki tombol sendiri, terpisah dari tombol senjata. Mempelajari letaknya membantu menghubungkan bentuk celah yang terlihat dengan tindakan yang tepat. Deskripsi penyedia juga menyebut perlengkapan untuk mengubah penampilan karakter dan dua mode permainan. Pada ponsel, tindakan dilakukan melalui tombol di layar. Dasar untuk mulai bermain tetap sama: lengkapi rute dan gunakan senjata ketika menghadapi musuh.",
+      "instructions": "Pada komputer, tekan Q untuk membangun platform, W untuk membuat tanjakan, dan E untuk membuat bidang miring. Periksa bagian jalur yang hilang lalu pilih bentuk yang sesuai. Tekan R untuk menggunakan senjata. Pada ponsel, gunakan tombol di layar dan ikuti petunjuk gerakan yang ditampilkan permainan.",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Bangun dan Jalankan",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "d9e9f75cd32f78b9b79554acaf2485fd5e2d21150b92f63bc02060fed18a3922"
+    },
+    "samurai-survivor": {
+      "description": "Cerita permainan berlangsung di Jepang kuno ketika sebuah portal misterius melepaskan gerombolan makhluk mengerikan. Para samurai menjadi pertahanan terakhir bagi tanah air mereka dengan kemampuan yang diwariskan turun-temurun. Menutup portal dan memulihkan kedamaian menjadi tujuan ceritanya, sedangkan perkembangan yang dijelaskan dalam petunjuk adalah bertahan menghadapi ratusan musuh sambil menaikkan level serta keterampilan.\n\nGerakan menjadi kontrol yang dijelaskan secara terperinci. Anda dapat memakai tombol panah, menyeret tetikus sambil menahan tombol kiri, atau menyentuh layar pada perangkat seluler. Biasakan mengubah posisi karakter, lalu kembangkan keterampilan saat level meningkat. Petunjuk tidak memberikan tombol serangan tersendiri, jadi mulailah dari metode gerakan yang memang dijelaskan dan tujuan bertahan hidupnya.",
+      "instructions": "Gunakan ↑ untuk bergerak ke atas, ↓ ke bawah, ← ke kiri, dan → ke kanan. Alternatifnya, tahan tombol kiri tetikus lalu seret untuk bergerak ke segala arah. Pada ponsel, sentuh layar untuk mengarahkan karakter. Bertahanlah menghadapi kelompok musuh sambil meningkatkan level dan keterampilan; petunjuk tidak menetapkan tombol serangan terpisah.",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Samurai yang Selamat",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "3da30872f5ddb49d240a06a16e6b9067b39c0bd6475e26dd30bb677e7379573f"
+    },
+    "pow-2889-1": {
+      "description": "Rawat hewan virtual Pow dengan memberinya makan, membersihkannya, dan mengajaknya bermain sambil mengikuti pertumbuhan serta kenaikan levelnya. Setiap ruangan menampilkan kebutuhan melalui batang vertikal di bagian atas layar. Periksa batang tersebut terlebih dahulu, lakukan interaksi yang sesuai dengan benda di ruangan, lalu lihat apakah kebutuhan hewan sudah terisi kembali.\n\nRuang permainan menghubungkan kegiatan bermain dengan perawatan. Aktivitas di sana menghasilkan koin yang dapat dipakai membeli makanan dan dekorasi ruangan. Makanan memenuhi kebutuhan Pow, sedangkan dekorasi mengubah tampilan tempat tinggalnya. Tentukan tujuan belanja sebelum memakai koin yang telah dikumpulkan. Interaksi dilakukan dengan tetikus atau sentuhan, mengikuti petunjuk setiap ruangan dan memeriksa kembali batang kebutuhan di sela kegiatan.",
+      "instructions": "Gunakan tetikus atau sentuh layar untuk berinteraksi dengan Pow dan benda di sekitarnya. Lihat batang kebutuhan vertikal di bagian atas ruangan, lalu ikuti petunjuk untuk memberi makan, membersihkan, atau bermain. Kumpulkan koin di ruang permainan dan gunakan untuk makanan atau dekorasi. Periksa kembali kebutuhan selama merawatnya.",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "kekuatan",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "5f8c4846448be916a1598b3126dec48226bd6d90ac1c4c856ce349b1f221ac50"
+    },
+    "slides-and-climbs": {
+      "description": "Ini adalah perlombaan di papan permainan: lempar dadu untuk memajukan bidak berwarna menuju garis akhir. Papan memiliki ular, sehingga tempat bidak berhenti dapat mengubah perjalanan menuju tujuan. Ikuti perubahan posisi setiap bidak dan hasil lemparan berikutnya; sasaran utamanya tetap mencapai ujung jalur.\n\nPermainan dapat diatur untuk maksimal enam peserta secara keseluruhan, masing-masing dengan warna pilihannya. Anda dapat menghadapi lawan komputer atau bermain bersama teman secara lokal. Satu aturan penting adalah hasil dadu 6 memberikan satu lemparan tambahan. Saat kesempatan itu muncul, lakukan lemparan tambahan sebelum menganggap giliran selesai. Setelah setiap perpindahan, perhatikan hasil yang ditampilkan papan untuk mengikuti jalannya permainan.",
+      "instructions": "Pilih warna peserta dan susunan lawan, dengan maksimal enam pemain seluruhnya. Gunakan kontrol lempar dadu dalam permainan untuk memajukan bidak, lalu perhatikan tempatnya berhenti. Jika memperoleh angka 6, ambil lemparan tambahan. Terus menuju garis akhir sambil memperhatikan ular; lawan komputer juga dapat dipilih.",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Perosotan dan Pendakian",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "d3d8b1ce43e11396da9cd9b1cf5cc6acba90383bde211418997b4f1396b50f31"
+    },
+    "pathfinder": {
+      "description": "Teka-teki dua dimensi ini meminta Anda menggali terowongan untuk mengarahkan bola berwarna ke pipa di bawah permukaan. Yang dikendalikan adalah jalurnya, bukan karakter yang berjalan. Karena itu, hubungan antara posisi awal bola, ruang yang digali, dan pipa tujuan perlu dipahami sebelum mulai. Ada 30 level dengan susunan yang semakin rumit.\n\nBalok logam dan duri termasuk rintangan yang disebut dalam sumber. Perhitungkan letaknya ketika merencanakan terowongan agar tidak sekadar menggali garis langsung menuju pipa. Pendekatan yang berguna adalah mencari tujuan terlebih dahulu, menelusuri kemungkinan jalur kembali ke bola, lalu mulai menggali. Komputer memakai klik, sedangkan ponsel dan tablet memakai sentuhan. Periksa susunan baru pada setiap level karena jalur yang sesuai akan berubah mengikuti rintangannya.",
+      "instructions": "Pada komputer, klik untuk menggali jalur; pada ponsel atau tablet, sentuh permukaan untuk menggali. Temukan bola berwarna, pipa tujuan, balok logam, dan duri sebelum memulai. Rencanakan jalur yang menghindari rintangan, lalu gali untuk mengarahkan bola ke pipa. Periksa lagi tata letak setiap level selama rangkaian 30 level.",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Penemu Jalur",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "99f88b60ac02d3cf7625fae6cd2d25780d05bb144f68a7fb353d844a7ce63db3"
+    }
+  }
+}

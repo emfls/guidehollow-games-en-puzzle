@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "es",
+  "games": {
+    "click-click-clicker-playgama": {
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "Clic Clic: juego de clics",
+      "description": "Este juego incremental comienza con un botón: cada clic produce dinero del juego, que sirve para comprar mejoras. Puedes aumentar la cantidad obtenida por clic, mejorar los ingresos pasivos o conseguir más cursores. El progreso consiste en reunir dinero y reinvertirlo para cambiar el ritmo de las siguientes compras, tanto mediante clics activos como con las ganancias de la modalidad inactiva.\n\nLas recompensas también permiten cambiar el aspecto y el sonido del juego. A medida que avanzas se desbloquean botones, cursores, fondos y música. Antes de gastar, decide si buscas mejorar la producción de dinero o conseguir una opción de personalización concreta. Empieza con el botón básico y utiliza los precios y las opciones que aparezcan en pantalla para elegir el siguiente desbloqueo.",
+      "instructions": "Pulsa el botón principal para ganar dinero del juego. Compra mejoras para aumentar los ingresos por clic, los ingresos pasivos o el número de cursores. Sigue haciendo clic o acumulando las ganancias inactivas para financiar nuevas compras. Cuando desbloquees un botón, un fondo, un cursor o música, utiliza las opciones de personalización para seleccionarlos.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicking a button. As you",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade your abilities, and get shiny"
+      },
+      "reviewedTextHash": "b667da4c59a761665a82205d69bca6cef28871e153f4f14de79d787ebe4ed7c6"
+    },
+    "build-and-run-playgama": {
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "Construye y corre",
+      "description": "Este juego de arcade combina avanzar por un nivel con construir los tramos que faltan en el recorrido. Dispones de tres acciones distintas: crear una plataforma, una rampa o una pendiente. Cada una tiene su propia tecla en el ordenador, de modo que debes observar el hueco y elegir la pieza que permita continuar. También hay enemigos y una acción independiente para utilizar armas contra ellos.\n\nLa partida alterna la construcción del camino con los enfrentamientos. Usar un arma no sustituye a los comandos de construcción, y las tres piezas se seleccionan por separado. El proveedor también menciona equipamiento para personalizar al personaje y dos modos de juego, aunque no detalla sus diferencias. Para empezar, lo concreto es reconocer las partes que faltan y asociar cada construcción y el uso de armas a su control correspondiente.",
+      "instructions": "En el ordenador, pulsa Q para construir una plataforma, W para una rampa y E para una pendiente. Completa con estas piezas los tramos que faltan en el nivel. Pulsa R para usar armas contra los enemigos. En el móvil utiliza los botones de la pantalla. La guía del proveedor no indica una tecla adicional para correr o dirigir el movimiento; sigue las indicaciones del propio juego.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices without downloads or",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on screen"
+      },
+      "reviewedTextHash": "180041b62ae18c3d8b40ebf0f97ece70d4eab132f09e9d9c2173130707d0b082"
+    },
+    "samurai-survivor": {
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "Superviviente samurái",
+      "description": "Un portal misterioso ha liberado hordas de criaturas en el Japón antiguo. Los samuráis son la última defensa de su tierra y luchan para recuperar la paz. Tu objetivo inmediato consiste en sobrevivir a cientos de enemigos mientras subes de nivel y mejoras tus habilidades. La historia sitúa ese ciclo de supervivencia y crecimiento dentro de la lucha contra las fuerzas que salen del portal.\n\nEl movimiento es la acción que la fuente explica con detalle. Puedes usar las flechas, arrastrar el ratón mientras mantienes pulsado el botón izquierdo o tocar la pantalla en dispositivos móviles. Aprende a desplazar al guerrero mientras te enfrentas a los grupos de enemigos y aprovecha las subidas de nivel para mejorar habilidades. La descripción menciona capacidades distintas entre los guerreros, pero no identifica un botón de ataque independiente ni una combinación fija de mejoras.",
+      "instructions": "Usa las flechas arriba, abajo, izquierda y derecha para moverte en esas direcciones. También puedes mantener pulsado el botón izquierdo del ratón y arrastrarlo para desplazarte. En el móvil, controla el movimiento tocando la pantalla. Sobrevive a los enemigos y mejora tus habilidades al subir de nivel. Las instrucciones del proveedor no especifican una acción de ataque separada.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. As the last line of",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left Arrow): Move left. → (Right"
+      },
+      "reviewedTextHash": "b57c931bea1c1b516a39008b28103d6bb99895490997e51aec7ef2b1c37c9666"
+    },
+    "pow-2889-1": {
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "Pow: tu mascota virtual",
+      "description": "Pow es una mascota virtual a la que debes alimentar, limpiar y acompañar mientras juega. Al cuidarla puedes verla crecer y subir de nivel. En cada habitación, unas barras verticales situadas en la parte superior de la pantalla muestran sus necesidades. Consulta esos indicadores para identificar qué atención necesita y comprobar si tus acciones van llenando las barras.\n\nLa sala de juegos conecta el cuidado con las monedas del juego. Participa en sus actividades para reunir monedas y comprar comida o decoraciones para la habitación. La comida sirve para alimentar a Pow, mientras que los adornos permiten personalizar su espacio. Todo se maneja con el ratón o mediante toques y siguiendo las indicaciones de cada sala. El proveedor también presenta tres minijuegos en los que puedes desafiar a tus amigos.",
+      "instructions": "Utiliza el ratón o toca la pantalla para interactuar con Pow y con los objetos. Revisa las barras verticales de necesidades en la parte superior de cada habitación y sigue las instrucciones para mantenerlas llenas. Juega en la sala de juegos para conseguir monedas y compra comida para alimentar a Pow. También puedes usar las opciones de decoración para personalizar su habitación.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all possible is this brand",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progression of the Pow in the"
+      },
+      "reviewedTextHash": "703d76c8651a250bc5e766c288afdba9b872c2d87ed8a94522550e631c5712d2"
+    },
+    "slides-and-climbs": {
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "Toboganes y subidas",
+      "description": "Este juego de tablero propone una carrera hasta la meta en la que las tiradas del dado hacen avanzar tu ficha de color. Las serpientes pueden interrumpir el recorrido, así que el progreso no consiste únicamente en sumar casillas. Después de cada tirada, observa dónde cae tu ficha y el movimiento que aplica el juego. El objetivo de toda la partida es alcanzar el final del tablero.\n\nLa partida admite hasta seis participantes en total, cada uno con su propio color. Puedes jugar con amigos en el mismo dispositivo o enfrentarte a oponentes controlados por la IA. Hay una regla de turno concreta: sacar un 6 concede una tirada adicional. Completa esa tirada cuando se ofrezca. La fuente no describe una condición especial para la última tirada, por lo que debes seguir el resultado que muestre el tablero al avanzar.",
+      "instructions": "Elige los colores y los oponentes disponibles para una partida de un máximo de seis participantes en total. Tira el dado para mover tu ficha y observa la casilla de llegada. Si sacas un 6, vuelve a tirar gracias al turno adicional. Sigue el recorrido hacia la meta y presta atención a las serpientes. Utiliza el control de tirar del juego; la fuente no indica un atajo de teclado.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served as an inspiration for",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, and rolling a 6 gives you an"
+      },
+      "reviewedTextHash": "ec00863de2ee0742eaceb349e8b263490c1a6ee5001817016a73edfdd4c1fafe"
+    },
+    "pathfinder": {
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "Buscador de rutas",
+      "description": "Este rompecabezas en 2D consiste en excavar túneles para guiar bolas de colores hasta tuberías situadas bajo la superficie. No diriges a un personaje: creas el recorrido que une la posición de las bolas con los conductos de destino. Hay 30 niveles y sus disposiciones se vuelven cada vez más complejas, por lo que conviene examinar el conjunto antes de empezar a excavar.\n\nEntre los obstáculos que menciona la fuente están los bloques metálicos y las espinas. Ten en cuenta dónde se encuentran al planificar el túnel y busca una conexión que permita llegar a las tuberías. Puedes localizar primero los destinos, después las bolas y finalmente el espacio que los separa. El control es un clic o un toque para excavar. La descripción se centra en los caminos y las bolas, sin detallar herramientas adicionales ni un sistema de puntuación.",
+      "instructions": "En un ordenador, haz clic para excavar un camino. En un teléfono o una tableta, toca la superficie. Localiza las bolas de colores, las tuberías y los obstáculos, como bloques metálicos y espinas. Planea una ruta y excava la conexión para guiar las bolas hacia las tuberías. Revisa cada nueva disposición a lo largo de los 30 niveles, porque los rompecabezas aumentan en complejidad.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the surface. Each level",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or click to dig"
+      },
+      "reviewedTextHash": "901ea388e80bc57a519d1568ea18fec7646e2222a77401cdca15bd865219830e"
+    }
+  }
+}

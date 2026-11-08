@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { JSDOM } from 'jsdom';
-import { games, localeGames, listGames, gamePath, allRoutes, config, titleFor, isIndexable, localeIds } from '../portal/catalog.mjs';
+import { games, localeGames, listGames, gamePath, allRoutes, config, titleFor, isIndexable, localeIds,hasGamePage } from '../portal/catalog.mjs';
 import { renderPortal } from '../portal/render.mjs';
 
 const partial={id:'unreviewed-title-fixture',title:'Build And Run',locales:['en']};
@@ -13,7 +13,7 @@ for(const game of games){
   const path=gamePath('ko',game);
   assert.ok(routes.has(new URL(path,'https://games.guidehollow.com').pathname),'Every global card needs a real detail route: '+path);
   assert.ok(path.startsWith('/ko/play/'),'The player must preserve the selected UI language: '+game.id);
-  if(!game.locales.includes('ko'))assert.equal(new URL(path,'https://games.guidehollow.com').searchParams.get('game'),game.id);
+  if(!hasGamePage('ko',game))assert.equal(new URL(path,'https://games.guidehollow.com').searchParams.get('game'),game.id);
 }
 assert.ok(routes.has('/ko/page/'+Math.ceil(games.length/config.pageSize)+'/'),'The final global page must exist');
 const document=new JSDOM(renderPortal(entry)).window.document;
@@ -43,5 +43,5 @@ for(const locale of localeIds){
     reachableGuides++;
   }
 }
-console.log(`PASS ${reachableGuides} authored guides reachable within two indexable clicks`);
+console.log(`PASS ${reachableGuides} qualified game guides reachable within two indexable clicks`);
 console.log('PASS global catalog, valid supported routes, complete pagination and explicit native-language filter');

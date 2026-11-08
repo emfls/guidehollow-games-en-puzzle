@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "games": {
+    "click-click-clicker-playgama": {
+      "description": "इस क्लिकर गेम में शुरुआत एक बटन से होती है। उसे दबाने पर खेल के भीतर पैसा मिलता है और वही पैसा आगे के सुधार खरीदने में काम आता है। सुधारों में हर क्लिक की कमाई बढ़ाना, निष्क्रिय आय बढ़ाना और कर्सर की संख्या बढ़ाना शामिल है। इस तरह लगातार क्लिक करना और निष्क्रिय कमाई जमा होने की प्रतीक्षा करना, दोनों प्रगति के हिस्से हैं।\n\nआगे बढ़ने पर नए बटन, कर्सर, पृष्ठभूमि और संगीत भी खुलते हैं। ये विकल्प पैसे के आँकड़े के अलावा रूप और आवाज़ बदलने का लक्ष्य देते हैं। पहले इन्हें अनलॉक करना पड़ता है, फिर अपनी पसंद का रूप चुन सकते हैं। शुरुआत में कमाई जुटाएँ और उपलब्ध सुधारों में से तय करें कि अगली खरीद से आय का कौन सा हिस्सा बढ़ाना है।",
+      "instructions": "मुख्य बटन पर क्लिक करके खेल का पैसा कमाएँ। उपलब्ध सुधारों में प्रति क्लिक कमाई, निष्क्रिय आय और कर्सर की संख्या की तुलना करें, फिर खरीद सकने वाला सुधार चुनें। अगली खरीद के लिए क्लिक जारी रखें या निष्क्रिय कमाई जमा होने दें। नया बटन, कर्सर, संगीत या पृष्ठभूमि खुलने पर उसे चुनें।",
+      "sourceHash": "fa3c07648ff482f800bc06b5c07e8176ee7b3a7c4f48016e0243072b2aa94bfb",
+      "title": "क्लिक क्लिकर पर क्लिक करें",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Click Click Clicker defines the idle clicker genre, offering engaging gameplay where players accumulate wealth by clicki",
+        "instructionsQuote": "Click Click Clicker is as true to the clicker genre as it gets. You’re clicking a button to click another button. Click the button, upgrade "
+      },
+      "reviewedTextHash": "bd79229b97e95d297d4eb9bf9d07e9f00e2adb0bdccade1e096dba0bc230dc27"
+    },
+    "build-and-run-playgama": {
+      "description": "इस आर्केड गेम में आगे बढ़ने के साथ रास्ते के अधूरे हिस्से भी बनाने होते हैं। हर खाली जगह का आकार देखकर प्लेटफ़ॉर्म, ऊपर चढ़ने वाला रैंप या ढलान चुनना पड़ता है। स्तर में दुश्मन और हथियार भी हैं, इसलिए रास्ता बनाने और सामने आए विरोधी से निपटने के लिए अलग कार्रवाइयाँ उपयोग करनी होती हैं।\n\nकंप्यूटर पर निर्माण के तीनों कामों के अलग बटन हैं और हथियार का बटन भी अलग है। इनका स्थान याद रखना उपयोगी है, ताकि अधूरा रास्ता देखते ही सही निर्माण चुना जा सके। विवरण में पात्र के पहनावे को बदलने वाले उपकरण और दो मोड भी बताए गए हैं। मोबाइल पर इन्हीं कार्रवाइयों के लिए स्क्रीन पर दिखने वाले बटन उपयोग किए जाते हैं।",
+      "instructions": "कंप्यूटर पर Q से प्लेटफ़ॉर्म, W से ऊपर चढ़ने वाला रैंप और E से ढलान बनाएँ। रास्ते के गायब हिस्से को देखकर सही निर्माण चुनें। हथियार उपयोग करने के लिए R दबाएँ। मोबाइल पर स्क्रीन के बटनों से कार्रवाई करें और आगे बढ़ने के लिए खेल में दिख रहे निर्देशों का पालन करें।",
+      "sourceHash": "0b03cd1b0b0d3e46aa783be32df71367ba6b21c5bd42411a29a3fd5616f22397",
+      "title": "बनाएं और चलाएं",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Build And Run is an exciting arcade game where you navigate, construct, and triumph! Play instantly on various devices w",
+        "instructionsQuote": "Build the missing parts of the level. PC/Desktop Q to build a platform W to build a ramp E to build a slope R to use weapons Mobile Use on s"
+      },
+      "reviewedTextHash": "0ffe457f8459695706ff58c55b163dedc3153c0861a3d9aa7b36fa74480ba63a"
+    },
+    "samurai-survivor": {
+      "description": "कहानी प्राचीन जापान में खुलने वाले एक रहस्यमय द्वार से शुरू होती है, जिससे राक्षसों की भीड़ बाहर आती है। समुराई अपने देश की रक्षा के लिए पीढ़ियों से मिली क्षमताओं का उपयोग करते हैं। द्वार बंद कर शांति लौटाना कहानी का उद्देश्य है, जबकि दिए गए खेलने के निर्देश सैकड़ों दुश्मनों के बीच बचने, स्तर बढ़ाने और कौशल सुधारने पर केंद्रित हैं।\n\nचलना सीखना पहला उपयोगी कदम है। कंप्यूटर पर दिशा वाले तीर या माउस का बायाँ बटन दबाकर खींचने की विधि चुन सकते हैं। मोबाइल पर स्क्रीन छूकर दिशा नियंत्रित होती है। दुश्मनों का सामना करते समय अपनी स्थिति बदलना और स्तर बढ़ने पर क्षमताएँ विकसित करना खेल की मुख्य प्रगति है। स्रोत अलग से हमला करने का बटन नहीं बताता।",
+      "instructions": "↑ से ऊपर, ↓ से नीचे, ← से बाएँ और → से दाएँ चलें। इसके बजाय माउस का बायाँ बटन दबाए रखकर खींचने से भी हर दिशा में जा सकते हैं। मोबाइल पर स्क्रीन छूकर चलें। दुश्मनों की भीड़ के बीच जीवित रहने की कोशिश करें और स्तर बढ़ाकर कौशल सुधारें। अलग हमले का बटन निर्देशों में नहीं दिया गया है।",
+      "sourceHash": "c88c0abe3b9d28d358418c2a11fe084447d044de242728a74b23759d740ff907",
+      "title": "समुराई उत्तरजीवी",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In the land of ancient Japan, a mysterious portal has opened, unleashing hordes of monstrous creatures into the world. A",
+        "instructionsQuote": "Survive hundreds of enemies while leveling up and upgrading your skills. ↑ (Up Arrow): Move upward. ↓ (Down Arrow): Move downward. ← (Left A"
+      },
+      "reviewedTextHash": "1390e64ab87a8bede2b9add5253f1383b5a9c7d164645eb32f3eaae11baefbaf"
+    },
+    "pow-2889-1": {
+      "description": "इस आभासी पालतू की देखभाल में खाना देना, सफाई करना और साथ खेलना शामिल है। देखभाल करते हुए उसके बढ़ने और स्तर बढ़ने को देखते हैं। हर कमरे की स्क्रीन के ऊपर खड़ी पट्टियाँ उसकी ज़रूरतों की स्थिति दिखाती हैं। पहले इन्हें देखें, फिर कमरे की वस्तुओं से उचित काम करें और जाँचें कि ज़रूरत की पट्टी भर रही है या नहीं।\n\nखेल वाले कमरे में अलग गतिविधियों से सिक्के मिलते हैं। इन सिक्कों से पालतू के लिए खाना और कमरे की सजावट खरीद सकते हैं। खाना देखभाल की ज़रूरत पूरी करता है और सजावट कमरे का रूप बदलती है, इसलिए खरीद से पहले अपना उद्देश्य तय करना उपयोगी है। बातचीत और वस्तुओं के उपयोग के लिए माउस या स्पर्श का सहारा लें और हर कमरे के स्क्रीन निर्देशों के अनुसार काम करें।",
+      "instructions": "माउस या स्क्रीन पर स्पर्श करके Pow और आसपास की वस्तुओं से बातचीत करें। कमरे के ऊपर की खड़ी ज़रूरत पट्टियाँ देखें और स्क्रीन निर्देशों के अनुसार खाना, सफाई या खेल की ज़रूरत पूरी करें। खेल वाले कमरे में सिक्के जुटाएँ, फिर उनसे खाना या सजावट खरीदें। देखभाल के बीच पट्टियों की स्थिति दोबारा जाँचें।",
+      "sourceHash": "b2f630ee4d9fa7fbf4627c063ffa36280b4199f83f1cde579c4e96591527c366",
+      "title": "पाउ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Have you ever taken care your pet!? Feed it, clean it, play with it and watch it grow up while leveling up? This is all ",
+        "instructionsQuote": "Use the mouse or touch the screen to interact with Pow and the objects. Follow the instructions on the screen. You can see the needs progres"
+      },
+      "reviewedTextHash": "1361394d97d242a58e35738ee4ec59d506dbc73e5e2043019c4b5397ebb00ce2"
+    },
+    "slides-and-climbs": {
+      "description": "यह बोर्ड पर खेली जाने वाली दौड़ है, जिसमें पासे की संख्या के अनुसार अपनी रंगीन गोटी आगे बढ़ाते हैं। लक्ष्य अंत तक पहुँचना है। बोर्ड पर साँप भी हैं, इसलिए हर बारी के बाद गोटी कहाँ रुकी है, यह देखना ज़रूरी है। अगली चाल का असर पासे पर निर्भर रहता है और गोटियों की बदलती स्थिति खेल की गति तय करती है।\n\nकुल अधिकतम छह खिलाड़ी हिस्सा ले सकते हैं और हर खिलाड़ी अपनी गोटी का रंग चुन सकता है। कंप्यूटर के विरुद्ध खेलना और पास बैठे मित्रों के साथ खेलना भी उपलब्ध है। एक खास नियम याद रखें: पासे पर 6 आने से एक अतिरिक्त बार पासा फेंक सकते हैं। यह मौका मिलने पर अतिरिक्त फेंक पूरी करें, फिर बोर्ड पर दिखाई गई आगे की स्थिति के अनुसार खेल जारी रखें।",
+      "instructions": "खिलाड़ियों के रंग और प्रतिद्वंद्वी की व्यवस्था चुनें; कुल अधिकतम छह खिलाड़ी हो सकते हैं। खेल में पासा फेंकने वाले नियंत्रण का उपयोग करें और गोटी के नए स्थान को देखें। 6 आने पर मिलने वाली अतिरिक्त फेंक लें। साँप वाले स्थानों पर ध्यान रखते हुए अंत की ओर बढ़ें। चाहें तो कंप्यूटर प्रतिद्वंद्वी चुन सकते हैं।",
+      "sourceHash": "f8b4dc4173dd1d70fc104e8e54d828ff07683a696cfb74c28cd12088c21c77c8",
+      "title": "स्लाइड और चढ़ना",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Slides And Climbs is a laid-back online game based on the traditional English board game of the same name, which served ",
+        "instructionsQuote": "You have the option to play with as many as six players, where each player can choose their own color. Roll the dice to advance your piece, "
+      },
+      "reviewedTextHash": "56904a5f1251dd0415e50b525c2c01512bb87156f1bd9115d7241a40a6bba137"
+    },
+    "pathfinder": {
+      "description": "इस दो आयामी पहेली में रंगीन गेंदों को जमीन के नीचे मौजूद पाइपों तक पहुँचाने के लिए सुरंग खोदते हैं। यहाँ किसी पात्र को चलाने के बजाय रास्ता बनाया जाता है। इसलिए गेंद का शुरुआती स्थान, लक्ष्य पाइप और उनके बीच की जमीन देखना सबसे पहले आता है। कुल 30 स्तर हैं और आगे बढ़ने पर रास्तों की बनावट अधिक जटिल होती जाती है।\n\nधातु के ब्लॉक और काँटे रास्ते की रुकावटों में शामिल हैं। सीधे खोदना शुरू करने से पहले देखें कि वे कहाँ हैं और उनसे बचते हुए गेंद को पाइप तक कैसे ले जा सकते हैं। पहले मंज़िल पहचानना, फिर गेंद तक जुड़ने वाला रास्ता सोचना एक उपयोगी तरीका है। कंप्यूटर पर क्लिक और फ़ोन या टैबलेट पर स्पर्श से खुदाई होती है; हर नए स्तर में रास्ता फिर से सोचना पड़ता है।",
+      "instructions": "कंप्यूटर पर क्लिक करके और फ़ोन या टैबलेट पर सतह छूकर रास्ता खोदें। पहले रंगीन गेंदें, उनके पाइप और धातु के ब्लॉक या काँटों जैसी रुकावटें पहचानें। उनसे बचता हुआ रास्ता सोचें, फिर सुरंग खोदकर गेंद को पाइप की ओर भेजें। 30 स्तरों में हर नई बनावट देखें, क्योंकि पहेलियाँ आगे अधिक जटिल होती हैं।",
+      "sourceHash": "5cdb3595b718fa1f67f98b4d97ceb004a5cdc89cdbe31fdeea4da3c2b7549602",
+      "title": "पाथफाइंडर",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "PathFinder is an engaging 2D puzzle game where players dig tunnels to guide colored balls to fit into pipes beneath the ",
+        "instructionsQuote": "The game is accessible on various devices, including mobile phones, tablets, and computers, offering intuitive controls—simply touch or clic"
+      },
+      "reviewedTextHash": "51ee1a5f4514db96120a30fdb9357497724a8e1b36c6a45f363b3ff39331af63"
+    }
+  }
+}

@@ -34,6 +34,8 @@ jobs:
         run: node scripts/sync-portal-localizations.mjs
       - name: Verify complete output before saving a catalog change
         run: npm run build
+      - name: Check source review and deployment budget gates
+        run: node scripts/test-portal-guide-quality.mjs && node scripts/test-portal-budget.mjs
       - name: Verify translations against synchronized source text
         run: node scripts/test-portal-translations.mjs
       - name: Verify detailed game information against the synchronized catalog
