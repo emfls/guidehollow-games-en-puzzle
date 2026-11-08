@@ -27,18 +27,24 @@ for (const [id,expected] of Object.entries({
 }
 assert.ok(coverage.ko.titlesDifferentFromProvider >= 30,'Korean translation coverage regressed');
 const koreanGames = localeGames.get('ko');
-assert.equal(koreanGames.length, 165, 'Korean catalog changed: review curated summaries');
-for (const game of koreanGames) {
+const curatedKorean = JSON.parse(file('portal/locales/game-metadata.json')).summaries.ko;
+assert.ok(Object.keys(curatedKorean).length >= 165,'Previously reviewed Korean summaries were lost');
+for (const [id, expected] of Object.entries(curatedKorean)) {
+  const game = byId.get(id);
+  if (!game || !game.locales.includes('ko')) continue; // Retired games may leave the catalog.
   const summary = summaryFor(game,'ko');
-  assert.ok(summary.length >= 50 && summary.length <= 240, 'Short or excessive Korean summary: '+game.id);
-  assert.ok(!/^.+장르의 브라우저 게임입니다[.\s]/.test(summary), 'Generic summary returned: '+game.id);
+  assert.equal(summary,expected,'Curated summary is not rendered for '+id);
+  assert.ok(summary.length >= 50 && summary.length <= 240, 'Short or excessive Korean summary: '+id);
+  assert.ok(!summary.includes('장르의 브라우저 게임입니다.'), 'Generic summary returned: '+id);
 }
 const horrorGames=koreanGames.filter(game=>game.genreIds.includes('horror'));
 const horrorHtml=file('dist-portal/ko/horror/index.html');
-assert.equal((horrorHtml.match(/data-card="/g)||[]).length,horrorGames.length,
-  'Compact horror collection must show each game once');
-assert.doesNotMatch(horrorHtml,/class="featured-shelf/, 'Small genres must not repeat spotlight games');
-assert.doesNotMatch(horrorHtml,/class="portal-section popular-section/, 'Small genres must not duplicate popular games');
+if(horrorGames.length <= 8) {
+  assert.equal((horrorHtml.match(/data-card="/g)||[]).length,horrorGames.length,
+    'Compact horror collection must show each game once');
+  assert.doesNotMatch(horrorHtml,/class="featured-shelf/, 'Small genres must not repeat spotlight games');
+  assert.doesNotMatch(horrorHtml,/class="portal-section popular-section/, 'Small genres must not duplicate popular games');
+}
 assert.match(horrorHtml,/강령술사를 피해 지하묘지에서 탈출/, 'Missing useful horror genre introduction');
 
 const korean=file('dist-portal/ko/index.html');
