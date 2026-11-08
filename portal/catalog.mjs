@@ -34,14 +34,13 @@ export function editorial(game, locale) {
   return { title: text.title || game.title, description: text.description, instructions: text.instructions };
 }
 const localizedMetadata = readJson('portal/locales/game-metadata.json');
-const safeRegExp = value => value.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\export const titleFor = (game, locale) => editorial(game, locale)?.title || game.title;');
 function translateCommonTitle(source, locale) {
   if (locale === 'en') return source;
   const words = localizedMetadata.glossary?.[locale] || {};
   let title = source;
   for (const word of Object.keys(words).sort((a,b) => b.length - a.length)) {
-    const expression = new RegExp(`(?<![A-Za-z0-9])${safeRegExp(word)}(?![A-Za-z0-9])`, 'gi');
-    title = title.replace(expression, words[word]);
+    const pattern = '(?<![A-Za-z0-9])' + word.replaceAll(' ', '\\s+') + '(?![A-Za-z0-9])';
+    title = title.replace(new RegExp(pattern, 'gi'), words[word]);
   }
   return title;
 }
@@ -50,8 +49,8 @@ export const titleFor = (game, locale) => {
   if (manual) return manual;
   const written = editorial(game, locale)?.title;
   if (written) {
-    if (['ko','ja','zh'].includes(locale) && /[^\\x00-\\x7f]/.test(written))
-      return written.replace(/\\s*\\([A-Za-z][^)]{1,80}\\)\\s*$/, '').trim();
+    if (['ko','ja','zh'].includes(locale) && /[^\x00-\x7f]/.test(written))
+      return written.replace(/\s*\([A-Za-z][^)]{1,80}\)\s*$/, '').trim();
     return written;
   }
   return translateCommonTitle(game.title, locale);
@@ -62,15 +61,16 @@ export const summaryFor = (game, locale) => {
   const guide = editorial(game, locale);
   const original = guide?.description || (locale === 'en' ? game.description : '');
   if (original) {
-    const plain = original.replace(/<[^>]+>/g, ' ').replace(/\\s+/g,' ').trim();
-    const sentence = plain.match(/^.{20,160}?[.!?。！？](?=\\s|$)/u)?.[0];
-    return sentence || (plain.length > 137 ? plain.slice(0,136).replace(/\\s+\\S*$/, '')+'…' : plain);
+    const plain = original.replace(/<[^>]+>/g, ' ').replace(/\s+/g,' ').trim();
+    const sentence = plain.match(/^.{20,160}?[.!?。！？](?=\s|$)/u)?.[0];
+    return sentence || (plain.length > 137 ? plain.slice(0,136).replace(/\s+\S*$/, '')+'…' : plain);
   }
   const copy = copies.get(locale);
   const genre = game.genreIds.map(id => copy.genreNames[id]).find(Boolean) || copy.allGames;
   const devices = [...new Set(game.platforms.map(device => device === 'Desktop' ? copy.desktop : ['Android','iOS','Mobile'].includes(device) ? copy.mobile : '').filter(Boolean))].join(' · ');
   return format(localizedMetadata.templates[locale] || localizedMetadata.templates.en, {genre, devices:devices || copy.desktop});
 };
+
 export function listGames(entry) {
   return entry.genre ? collections.get(entry.locale).get(entry.genre) : localeGames.get(entry.locale);
 }
