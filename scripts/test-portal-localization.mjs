@@ -57,5 +57,5 @@ assert.ok(catalog.length > 100);
 assert.ok(catalog.every(game => typeof game.summary==='string' && game.summary.length > 0),'Search results lack localized descriptions');
 const sample=catalog.find(game=>game.id==='pocket-universe');
 assert.equal(sample?.title,'포켓 유니버스');
-assert.ok(sample?.summary.includes('자원'));
+assert.ok(sample?.summary.includes('광물') && sample?.summary.includes('세계'), 'Pocket Universe summary should describe resource gathering and world expansion');
 console.log(JSON.stringify({status:'passed',supportedLanguages:localeIds.length,coverage},null,2));
