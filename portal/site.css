@@ -2557,3 +2557,14 @@ body.portal {
   .portal .spotlight-summary {font-size: 12px; margin-block: -6px 15px;}
   .portal .pick-summary {font-size: 10px;}
 }
+
+.portal .launch-language-notice {
+  max-width: 80ch;
+  margin-block-start: 9px;
+  padding: 9px 12px;
+  border-inline-start: 2px solid #b6a4ff;
+  color: #bac6d9;
+  background: #b6a4ff0b;
+  font-size: 11px;
+  line-height: 1.65;
+}
