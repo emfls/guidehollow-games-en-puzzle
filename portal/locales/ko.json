@@ -90,5 +90,6 @@
   "genreTitle": "{genre} 게임 무료 플레이",
   "gameTitle": "{title} 무료 온라인 게임",
   "guidesTitle": "게임별 플레이 가이드",
-  "guidesNote": "게임의 목표와 조작법을 확인하고 시작할 게임을 골라보세요."
+  "guidesNote": "게임의 목표와 조작법을 확인하고 시작할 게임을 골라보세요.",
+  "translationNotice": "일부 게임 제목과 소개는 기계 번역이며, 원문 이름으로도 검색할 수 있습니다."
 }

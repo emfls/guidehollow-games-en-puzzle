@@ -90,5 +90,6 @@
   "genreTitle": "Bepul onlayn oʻyinlar: {genre}",
   "gameTitle": "{title} — bepul onlayn oʻynash",
   "guidesTitle": "Oʻyin qoʻllanmalari",
-  "guidesNote": "Oʻynashdan oldin oʻyin maqsadi va boshqaruvini oʻrganing."
+  "guidesNote": "Oʻynashdan oldin oʻyin maqsadi va boshqaruvini oʻrganing.",
+  "translationNotice": "Ayrim oʻyin nomlari va tavsiflari avtomatik tarjima qilingan. Asl nomlari bilan ham qidirish mumkin."
 }

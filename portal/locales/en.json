@@ -90,5 +90,6 @@
   "genreTitle": "Free {genre} Games Online",
   "gameTitle": "{title} — Play Free Online",
   "guidesTitle": "Game guides",
-  "guidesNote": "Read about game objectives and controls before you play."
+  "guidesNote": "Read about game objectives and controls before you play.",
+  "translationNotice": "Some game titles and descriptions are machine translated. Original names remain searchable."
 }

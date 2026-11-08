@@ -90,5 +90,6 @@
   "genreTitle": "無料{genre}ゲーム",
   "gameTitle": "{title} — 無料オンラインゲーム",
   "guidesTitle": "ゲームの遊び方ガイド",
-  "guidesNote": "ゲームの目的と操作方法を確認してから遊びましょう。"
+  "guidesNote": "ゲームの目的と操作方法を確認してから遊びましょう。",
+  "translationNotice": "一部のゲーム名と紹介文は機械翻訳です。原題でも検索できます。"
 }

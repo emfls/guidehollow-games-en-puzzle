@@ -130,6 +130,10 @@ async function verify() {
   const { config, groups, games, byId, localeIds, copies, localeGames, collections, editorial, titleFor,
     isIndexable, allRoutes, routeFile, alternatives, preview, provider, listGames, gamePath } = catalog;
   const { buildFingerprint } = await import('../portal/assets.mjs');
+  const {catalogTranslation}=await import('../portal/localization.mjs');
+  for(const locale of localeIds.filter(locale=>locale!=='en'))for(const game of games){
+    expect(Boolean(catalogTranslation(game,locale)),'catalog-translation',locale+'/'+game.id,'Missing or stale localized title/summary.');
+  }
   const origin = new URL(config.origin);
   expect(origin.protocol === 'https:' && origin.hostname === 'games.guidehollow.com' &&
     origin.pathname === '/' && !origin.search && !origin.hash, 'origin', 'portal/config.json', 'Expected the HTTPS unified portal origin.');
@@ -342,8 +346,8 @@ async function verify() {
         if (entry.type === 'game') {
           const supported = byId.get(entry.id).locales.includes(target.entry.locale);
           expect(supported ? target.entry.type === 'game' && target.entry.id === entry.id :
-            target.entry.type === 'language' && target.entry.page === 1,
-            'game-language-switch', file, 'Use the same game when supported; otherwise use that language home.');
+            target.entry.type === 'player' && target.url.searchParams.get('game') === entry.id,
+            'game-language-switch', file, 'Use the same game and preserve UI language through the localized player when unsupported.');
         }
       }
     }

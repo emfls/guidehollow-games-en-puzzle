@@ -49,10 +49,41 @@
   document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const menu=menus.find(menu=>menu.open);if(menu){menu.open=false;$('summary',menu)?.focus();return;}if(frame&&!document.fullscreenElement)closeGame();});
   addEventListener('pagehide',()=>closeGame(false));
 
-  // Catalog data is fetched for search or an explicit support filter, never on game detail pages.
+  // Native game pages need no catalog fetch; language-preserving player shells do.
   const normalize=text=>String(text||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase(config.locale);
   let catalogPromise=null,searchVersion=0,visibleResults=[],shown=0;
   function searchCatalog(){return catalogPromise ||= fetch(`/assets/catalog/${config.locale}.json`).then(response=>{if(!response.ok)throw new Error('Catalog request failed');return response.json();}).then(data=>{if(!Array.isArray(data))throw new Error('Invalid catalog data');return data;}).catch(error=>{catalogPromise=null;throw error;});}
+  async function loadPlayer(){
+    const error=$('[data-player-error]');
+    try{
+      const id=new URLSearchParams(location.search).get('game');
+      if(!id){error.textContent=copy.notFound;return;}
+      $$('.language-panel a').forEach(a=>a.href=`/${a.lang}/play/?game=${encodeURIComponent(id)}`);
+      const catalog=await searchCatalog(),game=catalog.find(game=>game.id===id);
+      if(!game){error.textContent=copy.notFound;return;}
+      for(const field of ['embedUrl','affiliateUrl']){
+        const url=new URL(game[field]);
+        if(url.protocol!=='https:' || url.username || url.password || !config.providerOrigins[field].includes(url.origin) || url.searchParams.getAll('clid').length!==1 || url.searchParams.get('clid')!==config.publisherClid)throw new Error('Invalid provider URL');
+      }
+      config.game=game;config.canonical=new URL(game.path,location.origin).href;
+      document.title=copy.gameTitle.replace('{title}',()=>game.title)+' | GuideHollow';
+      $('meta[name="description"]').content=game.summary;
+      $('meta[property="og:title"]').content=document.title;
+      $('meta[property="og:description"]').content=game.summary;
+      $$('[data-player-title]').forEach(node=>node.textContent=game.title);
+      $('[data-shell-genres]').textContent=game.genres.map(genre=>config.genreNames[genre]).join(' · ');
+      $('[data-shell-summary]').textContent=game.summary;
+      $('[data-shell-platforms]').textContent=game.platformsLabel;
+      $('[data-shell-orientation]').textContent=game.orientationLabel;
+      const image=$('[data-shell-image]');image.src=game.thumbnail;image.alt=game.title;image.dataset.gameImage='';
+      const favorite=$('[data-shell-favorite]');favorite.dataset.favorite=game.id;favorite.dataset.gameTitle=game.title;
+      $$('[data-shell-source]').forEach(a=>a.href=game.affiliateUrl);
+      const path=locale=>game.languages.some(language=>language.locale===locale)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
+      $('[data-shell-languages]').replaceChildren(...game.languages.map(language=>{const a=document.createElement('a');a.href=path(language.locale);a.lang=language.locale;a.textContent=language.name;return a;}));
+      $$('.language-panel a').forEach(a=>a.href=path(a.lang));
+      error.hidden=true;$('[data-player-content]').hidden=false;updateFavorites();watchImages(preview);
+    }catch{error.textContent=copy.catalogLoadError;}
+  }
   function cardIcon(name){
     const namespace='http://www.w3.org/2000/svg',svg=document.createElementNS(namespace,'svg');
     for(const [key,value] of Object.entries({class:`icon icon-${name}`,'aria-hidden':'true',viewBox:'0 0 24 24',fill:'none',stroke:'currentColor','stroke-width':'1.7','stroke-linecap':'round','stroke-linejoin':'round'}))svg.setAttribute(key,value);
@@ -124,5 +155,6 @@
     input?.form?.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);update();});
     $('[data-more-results]')?.addEventListener('click',showMore);runSearch();
   }
+  if(config.type==='player')loadPlayer();
   updateFavorites();watchImages();
 })();

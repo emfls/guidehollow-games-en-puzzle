@@ -90,5 +90,6 @@
   "genreTitle": "Trò chơi trực tuyến miễn phí: {genre}",
   "gameTitle": "{title} — Chơi trực tuyến miễn phí",
   "guidesTitle": "Hướng dẫn chơi game",
-  "guidesNote": "Tìm hiểu mục tiêu và cách điều khiển trước khi chơi."
+  "guidesNote": "Tìm hiểu mục tiêu và cách điều khiển trước khi chơi.",
+  "translationNotice": "Một số tên và mô tả trò chơi được dịch tự động. Bạn cũng có thể tìm theo tên gốc."
 }

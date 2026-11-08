@@ -29,13 +29,18 @@ jobs:
       - run: npm ci
       - name: Fetch every official catalog page atomically
         run: npm run sync
+      - name: Prepare missing localized titles and descriptions
+        # shortcut: failed hosted runs retain committed translations only; add candidate caching if large source updates exceed the job budget.
+        run: node scripts/sync-portal-localizations.mjs
       - name: Verify complete output before saving a catalog change
         run: npm run build
+      - name: Verify translations against synchronized source text
+        run: node scripts/test-portal-translations.mjs
       - name: Check client behavior against the synchronized catalog
         run: npm run test:client
       - name: Save only validated catalog changes
         run: |
-          git add data/portal/catalog.json data/portal/sync-state.json
+          git add data/portal/catalog.json data/portal/sync-state.json portal/locales/catalog/
           if git diff --cached --quiet; then
             exit 0
           fi

@@ -90,5 +90,6 @@
   "genreTitle": "免费在线游戏：{genre}",
   "gameTitle": "{title} — 免费在线玩",
   "guidesTitle": "游戏玩法指南",
-  "guidesNote": "开始前先了解游戏目标与操作方法。"
+  "guidesNote": "开始前先了解游戏目标与操作方法。",
+  "translationNotice": "部分游戏名称和介绍为机器翻译，也可以搜索原名。"
 }

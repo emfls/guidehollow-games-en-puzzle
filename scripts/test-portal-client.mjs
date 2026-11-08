@@ -181,7 +181,10 @@ function openPage(context, path, initialStorage = {}, behavior = {}) {
           report.network.injectedCatalogFailures.push({ test: context.result.name, url: requested.href, reason: 'Intentional local fetch rejection for retry regression' });
           throw new TypeError('Intentional local catalog fetch failure (test fixture)');
         }
-        return { ok: true, status: 200, url: requested.href, json: async () => JSON.parse(fixture.body) };
+        return { ok: true, status: 200, url: requested.href, json: async () => {
+          const data=JSON.parse(fixture.body);
+          return behavior.catalogTransform?behavior.catalogTransform(data):data;
+        } };
       };
       for (const api of ['XMLHttpRequest', 'WebSocket', 'EventSource']) {
         Object.defineProperty(window, api, { configurable: true, value: function (...values) { return forbidden(context, api, values[0]); } });
@@ -283,6 +286,47 @@ async function main() {
   assert.ok(en.length > 48 && ko.length > 48, 'Need real paginated English and Korean catalogs');
   const englishOnly = en.find(item => !runtimeById.get(item.id)?.locales.includes('ko'));
   assert.ok(englishOnly, 'Need an English-only fixture to test Korean native-language filtering');
+  await test('localized player: unsupported game keeps Korean UI and explicit attributed play',async context=>{
+    const selected=catalogFor('ko').data.find(item=>item.id===englishOnly.id);
+    const page=openPage(context,selected.path);
+    equal(context,required(page.document,'.language-panel a[lang="ja"]').getAttribute('href'),'/ja/play/?game='+encodeURIComponent(selected.id),'Language switch preserves identity while metadata is loading');
+    await until(()=>!required(page.document,'[data-player-content]').hidden,'localized player ready');
+    equal(context,page.document.documentElement.lang,'ko','Game UI retains selected language');
+    equal(context,required(page.document,'h1').textContent,selected.title,'Game heading uses the saved localized name');
+    equal(context,required(page.document,'[data-shell-summary]').textContent,selected.summary,'Game description uses the selected UI language');
+    check(context,!required(page.document,'.portal-editorial').textContent.includes('제공업체가 이 게임의 자세한 조작법을 제공하지 않았습니다'),'An untranslated guide must not claim provider controls are absent');
+    equal(context,required(page.document,'.portal-editorial [data-shell-source]').href,selected.affiliateUrl,'Original control instructions remain accessible through the attributed source');
+    equal(context,page.document.querySelectorAll('iframe').length,0,'Loading translated metadata does not start a game or advertisement');
+    equal(context,required(page.document,'.language-panel a[lang="ja"]').getAttribute('href'),'/ja/play/?game='+encodeURIComponent(selected.id),'Language switch retains this unsupported game');
+    const save=required(page.document,'[data-shell-favorite]');click(save,page.window);
+    same(context,stored(page,'favorites'),[selected.id],'Favorite uses original stable identity');
+    click(required(page.document,'[data-play]'),page.window);
+    equal(context,required(page.document,'iframe').src,selected.embedUrl,'Explicit Play retains exact attributed source URL');
+    same(context,stored(page,'recent'),[selected.id],'Translated player records stable recent identity');
+    const copied=[];Object.defineProperty(page.window.navigator,'clipboard',{configurable:true,value:{writeText:async text=>copied.push(text)}});
+    click(required(page.document,'[data-share]'),page.window);
+    await until(()=>copied.length===1,'localized share');
+    equal(context,copied[0],new URL(selected.path,portalConfig.origin).href,'Share retains the selected UI language and game query');
+  });
+  await test('localized player: invalid IDs, rejected fetch and unsafe provider URL fail closed',async context=>{
+    const invalid=openPage(context,'/ko/play/?game='+encodeURIComponent('<img src=x onerror=alert(1)>'));
+    await until(()=>required(invalid.document,'[data-player-error]').textContent===invalid.config.copy.notFound,'invalid game rejection');
+    equal(context,invalid.document.querySelectorAll('iframe').length,0,'Invalid query never creates a frame');
+    const failed=openPage(context,'/ko/play/?game='+encodeURIComponent(englishOnly.id),{},{rejectCatalogFetches:1});
+    await until(()=>required(failed.document,'[data-player-error]').textContent===failed.config.copy.catalogLoadError,'fetch failure');
+    check(context,required(failed.document,'[data-player-content]').hidden,'Fetch failure keeps the player hidden');
+    const unsafe=openPage(context,'/ko/play/?game='+encodeURIComponent(englishOnly.id),{},{catalogTransform:data=>data.map(item=>item.id===englishOnly.id?{...item,embedUrl:'https://example.invalid/export?clid='+expectedClid}:item)});
+    await until(()=>required(unsafe.document,'[data-player-error]').textContent===unsafe.config.copy.catalogLoadError,'provider origin rejection');
+    equal(context,unsafe.document.querySelectorAll('iframe').length,0,'Unknown provider origins never produce a frame');
+  });
+  await test('localized player: official custom provider export host remains playable',async context=>{
+    const selected=catalogFor('ko').data.find(item=>new URL(item.embedUrl).hostname!=='playgama.com' && !item.native);
+    assert.ok(selected,'Need a valid non-Playgama provider origin');
+    const page=openPage(context,selected.path);
+    await until(()=>!required(page.document,'[data-player-content]').hidden,'custom provider metadata');
+    click(required(page.document,'[data-play]'),page.window);
+    equal(context,required(page.document,'iframe').src,selected.embedUrl,'Custom host retains the exact approved export and CLID');
+  });
 
   await test('player: explicit launch, duplicate prevention, close, Escape and recent persistence', async context => {
     const page = openPage(context, gamePath, { [storageKeys.recent]: JSON.stringify([otherEnglish.id, game.id]) });
@@ -414,8 +458,8 @@ async function main() {
     same(context, links.map(link => link.lang).sort(), Array.from(supportedLocales).sort(),
       'Menu contains each portal language exactly once');
     for (const link of links) {
-      const expected = fixture.locales.includes(link.lang) ? '/' + link.lang + '/play/' + fixture.slug + '/' : '/' + link.lang + '/';
-      equal(context, link.getAttribute('href'), expected, 'Language destination preserves this game only when it supports ' + link.lang);
+      const expected = fixture.locales.includes(link.lang) ? '/' + link.lang + '/play/' + fixture.slug + '/' : '/' + link.lang + '/play/?game='+encodeURIComponent(fixture.id);
+      equal(context, link.getAttribute('href'), expected, 'Language destination preserves the selected game and UI language: ' + link.lang);
     }
     const fallback = links.find(link => !fixture.locales.includes(link.lang));
     check(context, Boolean(fallback), 'An unsupported language has an explicit menu entry');
@@ -425,9 +469,9 @@ async function main() {
       clickedDestination = fallback.href;
     }, { once: true });
     click(fallback, page.window);
-    equal(context, new URL(clickedDestination).pathname, '/' + fallback.lang + '/', 'Click resolves to the unsupported language home');
+    equal(context, new URL(clickedDestination).pathname, '/' + fallback.lang + '/play/', 'Click resolves to the selected language player');
     const destination = openPage(context, clickedDestination);
-    equal(context, destination.config.type, 'language', 'Fallback opens a real language-home document');
+    equal(context, destination.config.type, 'player', 'Fallback opens a real localized player document');
     equal(context, destination.config.locale, fallback.lang, 'Fallback document uses the selected language');
     same(context, Array.from(page.document.querySelectorAll('.launch-languages a')).map(link => link.lang).sort(),
       fixture.locales.slice().sort(), 'Game-native language list still excludes unsupported fallback languages');

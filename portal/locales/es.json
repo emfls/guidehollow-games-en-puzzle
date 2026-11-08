@@ -90,5 +90,6 @@
   "genreTitle": "Juegos gratis online: {genre}",
   "gameTitle": "{title} — juega gratis online",
   "guidesTitle": "Guías de juego",
-  "guidesNote": "Consulta los objetivos y controles de cada juego antes de empezar."
+  "guidesNote": "Consulta los objetivos y controles de cada juego antes de empezar.",
+  "translationNotice": "Algunos títulos y descripciones se traducen automáticamente. También puedes buscar los nombres originales."
 }

@@ -90,5 +90,6 @@
   "genreTitle": "Ücretsiz Çevrimiçi Oyunlar: {genre}",
   "gameTitle": "{title} — Ücretsiz Çevrimiçi Oyna",
   "guidesTitle": "Oyun rehberleri",
-  "guidesNote": "Oynamadan önce oyun hedeflerini ve kontrollerini öğrenin."
+  "guidesNote": "Oynamadan önce oyun hedeflerini ve kontrollerini öğrenin.",
+  "translationNotice": "Bazı oyun adları ve açıklamaları makine çevirisidir. Özgün adlarla da arama yapabilirsiniz."
 }

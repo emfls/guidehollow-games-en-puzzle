@@ -90,5 +90,6 @@
   "genreTitle": "Darmowe gry online: {genre}",
   "gameTitle": "{title} — graj za darmo online",
   "guidesTitle": "Poradniki do gier",
-  "guidesNote": "Poznaj cele i sterowanie przed rozpoczęciem gry."
+  "guidesNote": "Poznaj cele i sterowanie przed rozpoczęciem gry.",
+  "translationNotice": "Niektóre tytuły i opisy są tłumaczone maszynowo. Można też wyszukiwać oryginalne nazwy."
 }

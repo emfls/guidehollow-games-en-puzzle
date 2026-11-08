@@ -1,5 +1,6 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { catalogTranslation } from './localization.mjs';
 
 const readJson = path => JSON.parse(readFileSync(resolve(process.cwd(), path), 'utf8'));
 export const config = readJson('portal/config.json');
@@ -26,7 +27,7 @@ export const recommendationsAll = [...new Set(Array.from({length: Math.max(...le
 export const format = (text, values={}) => String(text).replace(/\{(\w+)\}/g, (_, key) => values[key] ?? `{${key}}`);
 export const urlFor = path => new URL(path, config.origin).href;
 export const playLocale = (locale, game) => game.locales.includes(locale) ? locale : game.locales.includes('en') ? 'en' : game.locales[0];
-export const gamePath = (locale, game) => `/${playLocale(locale,game)}/play/${game.slug}/`;
+export const gamePath = (locale, game) => game.locales.includes(locale)?`/${locale}/play/${game.slug}/`:`/${locale}/play/?game=${encodeURIComponent(game.id)}`;
 export const listPath = (locale, genre, page=1) => `/${locale}/${genre ? `${genre}/` : ''}${page > 1 ? `page/${page}/` : ''}`;
 export function editorial(game, locale) {
   if (!game.locales.includes(locale)) return null;
@@ -53,22 +54,29 @@ export const titleFor = (game, locale) => {
   const manual = localizedMetadata.titles?.[locale]?.[game.id];
   if (manual) return manual;
   const written = editorial(game, locale)?.title;
-  if (written) {
+  if (written && (locale==='en' || written!==game.title)) {
     if (['ko','ja','zh'].includes(locale) && /[^\x00-\x7f]/.test(written))
       return written.replace(/\s*\([A-Za-z][^)]{1,80}\)\s*$/, '').trim();
     return written;
   }
+  const translated=catalogTranslation(game,locale)?.title;
+  if(translated)return translated;
   return translateCommonTitle(game.title, locale);
 };
 export const summaryFor = (game, locale) => {
   const manual = localizedMetadata.summaries?.[locale]?.[game.id];
   if (manual) return manual;
   const guide = editorial(game, locale);
-  const original = guide?.description || (locale === 'en' || !game.locales.includes(locale) ? game.description : '');
+  const original = guide?.description || (locale === 'en' ? game.description : '');
   if (original) {
     const plain = original.replace(/<[^>]+>/g, ' ').replace(/\s+/g,' ').trim();
     const sentence = plain.match(/^.{20,160}?[.!?。！？](?=\s|$)/u)?.[0];
     return sentence || (plain.length > 137 ? plain.slice(0,136).replace(/\s+\S*$/, '')+'…' : plain);
+  }
+  const translated=catalogTranslation(game,locale)?.summary;
+  if(translated){
+    const name=game.title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    return translated.replace(/\*\*|__/g,'').replace(new RegExp(`(?<![A-Za-z0-9])${name}(?![A-Za-z0-9])`,'gi'),()=>titleFor(game,locale));
   }
   const copy = copies.get(locale);
   const genre = game.genreIds.map(id => copy.genreNames[id]).find(Boolean) || copy.allGames;
@@ -83,7 +91,7 @@ export function listGames(entry) {
   return entry.genre ? allCollections.get(entry.genre) : games;
 }
 export function isIndexable(entry) {
-  if (preview || ['search', '404'].includes(entry.type) || entry.page > 1) return false;
+  if (preview || ['search', '404','player'].includes(entry.type) || entry.page > 1) return false;
   if (entry.type === 'game') return Boolean(editorial(byId.get(entry.id), entry.locale));
   if (entry.type === 'genre') {
     const selected = collections.get(entry.locale).get(entry.genre);
@@ -139,6 +147,7 @@ export function allRoutes() {
       for (let page=1;page<=Math.ceil(selected.length/config.pageSize);page++) routes.push({type:'genre',locale,genre:group.id,page,path:listPath(locale,group.id,page)});
     }
     for (const type of ['about','privacy','search']) routes.push({type,locale,path:`/${locale}/${type}/`});
+    routes.push({type:'player',locale,path:`/${locale}/play/`});
     for (const game of localeGames.get(locale)) routes.push({type:'game',locale,id:game.id,path:gamePath(locale,game)});
   }
   if (new Set(routes.map(route => route.path)).size !== routes.length) throw new Error('Duplicate portal route');
