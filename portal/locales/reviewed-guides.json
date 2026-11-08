@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "provenance": "Gameplay goals, mechanics and controls paraphrased from the Playgama publisher catalogue text visible in the live game's original-source disclosure on 2026-11-08. Not a claim of independently tested gameplay.",
+  "reviewedOn": "2026-11-08",
+  "ko": {
+    "escape-from-the-crypt": {
+      "description": "강령술사들이 뒤쫓는 지하묘지에서 방을 차례로 통과해 탈출하는 경로 퍼즐입니다. 추격자는 캐릭터보다 빠르지만 장애물을 스스로 피해 가지 못합니다. 그래서 무조건 빨리 움직이기보다 벽과 막다른 길을 살펴 상대가 어느 칸으로 따라오게 될지 예측하는 편이 중요합니다.\n탈출로를 먼저 찾은 다음 강령술사를 장애물 쪽으로 유도해 이동 공간을 확보해 보세요. 같은 방에서도 한 걸음의 순서가 달라지면 다음 방으로 갈 길이 막힐 수 있습니다.",
+      "instructions": "컴퓨터에서는 방향키로 캐릭터를 이동합니다. 잘못 움직였다면 Backspace 키로 한 수를 되돌릴 수 있고, 다음 경로를 모르겠다면 H 키로 힌트를 요청할 수 있습니다.\n휴대폰에서는 화면에 표시되는 방향 패드와 조작 버튼을 사용합니다. 이동을 시작하기 전에 장애물과 출구 위치를 확인한 뒤, 강령술사가 따라올 경로를 예상해 움직이세요. 적이 막다른 길로 향하도록 유인한 후 출구 쪽으로 빠져나가는 순서를 찾는 것이 핵심입니다."
+    },
+    "doodle-halloween-momo-cat--sea-magic": {
+      "description": "마법 고양이 모모가 바닷속에서 해양 생물에 숨어든 유령을 쫓아내는 문양 그리기 게임입니다. 유령의 머리 위에 떠 있는 선이나 기호가 주문의 단서이며, 그 모양을 정확하게 그리면 마법이 발동합니다. 해파리와 아귀가 등장하는 깊은 바다로 내려갈수록 유령 수와 문양 조합이 복잡해집니다.\n이 작품은 길을 찾는 탈출형 공포와 달리, 화면을 빠르게 관찰하고 손으로 문양을 이어 그리는 정확도와 반응 속도가 중요합니다.",
+      "instructions": "컴퓨터에서는 마우스로, 터치 기기에서는 손가락으로 화면에 문양을 그립니다. 각 유령의 머리 위에 표시된 기호를 보고 같은 모양을 입력하세요. 여러 기호가 순서대로 나타나면 해당 순서에 맞춰 이어서 그려야 합니다.\n유령이 모모에게 도달하기 전에 주문을 완성하는 것이 목표입니다. 진행할수록 적이 빨리 접근하고 동시에 여럿 등장할 수 있으므로, 가까운 유령의 문양부터 살펴보세요. 제공업체 안내에는 일부 스테이지의 보스 유령도 등장한다고 설명되어 있습니다."
+    },
+    "madness-online": {
+      "description": "끝없이 생성되는 황폐한 공간에서 좀비와 다른 적을 상대하는 탑다운 시점의 멀티플레이 생존 슈팅입니다. 총을 쏘는 것만으로 끝나지 않고, 자원을 채집해 장비를 제작하고 방어 기지를 세워 살아남는 흐름으로 진행됩니다.\n적이 몰려올 때는 사격과 회피를 번갈아 사용하고, 틈이 생기면 인벤토리의 물자와 장비를 정리해 다음 전투를 준비하세요. 친구와 함께 협동하거나 혼자 생존할 수도 있습니다.",
+      "instructions": "컴퓨터 조작은 WASD 이동, 마우스 조준·발사, 스페이스바 회피, E 상호작용입니다. B는 인벤토리, R은 재장전, Q는 무기 전환, Enter는 채팅에 사용합니다.\n처음에는 이동과 사격뿐 아니라 회피 타이밍을 익히세요. 전투 중 얻은 자원은 필요한 장비와 방어 시설을 만드는 데 사용합니다. 적과 거리가 좁혀지면 스페이스바로 피하고, 탄약을 확인해 R로 재장전하면서 안전한 위치를 확보하세요."
+    },
+    "crush-hour": {
+      "description": "좀비가 뒤섞인 도로를 트럭으로 질주하며 최고 점수를 노리는 자동 주행형 러너입니다. 트럭은 앞으로 저절로 움직이고, 플레이어는 좌우 차선을 바꾸거나 인도로 올라가 장애물을 피합니다. 좀비를 들이받아 연속 점수를 얻고, 연료통을 주워 주행을 이어가는 것이 중요합니다.\n자동차와 트럭에 부딪히면 내구도가 줄어들 수 있습니다. 도로를 스치듯 지나가는 아슬아슬한 회피와 Rampage 아이템을 이용한 연속 충돌도 점수에 영향을 줍니다. 결승선은 없고, 오래 살아남아 자신의 기록을 넘는 것이 목표입니다.",
+      "instructions": "컴퓨터에서는 왼쪽 방향키 또는 A로 왼쪽 차선으로, 오른쪽 방향키 또는 D로 오른쪽 차선으로 이동합니다. 차선을 넘어 양쪽 인도로 올라갈 수도 있습니다. 충돌로 주행이 끝난 다음에는 스페이스바로 재도전할 수 있습니다.\n휴대폰에서는 화면을 왼쪽·오른쪽으로 스와이프해 차선을 변경합니다. 연료가 떨어지지 않도록 연료통 위치를 먼저 확인하고, 큰 차량에 무작정 충돌하기보다 좀비 콤보와 장애물 회피 사이에서 경로를 골라보세요."
+    },
+    "1-zombie-survival": {
+      "description": "시간이 지날수록 공격력이 매초 1씩 커지는 블록형 1인칭 좀비 생존 슈팅입니다. 훈련 구역에서 시작해 서로 다른 마을에서 밤마다 몰려오는 좀비를 막고, 무기를 해금하며 더 강한 적에 도전합니다. 제공업체 설명에 따르면 다섯 마을 각각에서 열 번의 밤을 버티는 진행이 준비되어 있습니다.\n집과 상점 안에 들어가 출입구에 문을 설치하거나 함정을 놓고, 곡괭이로 벽을 부숴 새로운 사격 구멍을 만들 수도 있습니다. 주차된 차로 좀비 무리를 밀어낼 수 있지만 보스에게 무조건 들이받는 방식은 권장되지 않습니다.",
+      "instructions": "컴퓨터에서는 WASD로 이동하고 마우스로 시점을 돌립니다. 마우스 왼쪽 버튼은 사격, 오른쪽 버튼은 조준이며, 스페이스바 점프, Shift 달리기, R 재장전입니다. 숫자키 1~0 또는 마우스 휠로 무기를 전환합니다. B는 건설 설계도, E는 문이나 차량 상호작용, F는 수리, U는 업그레이드, G는 밤 시작, Esc는 일시정지입니다.\n차량 탑승 뒤에는 W/S로 가속·제동하고 A/D로 방향을 조정합니다. 모바일에서는 왼쪽 스틱으로 이동하고 오른쪽 화면을 드래그해 시점을 바꾸며, 사격·무기·건설·차량 탑승·수리 버튼을 사용합니다. 다음 밤을 시작하기 전에 문과 함정, 탄약 상태를 확인해 보세요."
+    }
+  },
+  "en": {
+    "madness-ward-number-6": {
+      "description": "In Madness: Ward 6, battle other psychiatric-ward patients, gain levels and spend points on your character before taking on tougher opponents. The game also offers a rat-race activity and items such as weapons, skins and pets. Critical damage has a random element, and the character's Madness attribute affects how strong those hits can be.\nRather than treating each fight as a separate button press, pay attention to which upgrades you choose after earning a level. Those choices shape later battles against patients and bosses.",
+      "instructions": "Use the game's clickable or tappable buttons to navigate and enter fights. Win battles against patients and bosses to earn experience, then spend the points received on character upgrades.\nThe provider also describes a chance-based rat race and purchasable weapons, skins and pets. Check the relevant in-game panels for those options. Critical hits are not guaranteed: their occurrence is random and their power depends in part on the Madness stat."
+    },
+    "dark-city-multiplayer": {
+      "description": "Choose between the police and bandit factions in a shared, darkened city and capture districts while other players contest control. Police attempt to restore order and protect survivors; bandits take territory and set ambushes. Holding districts yields income at regular intervals, giving each faction a reason to defend its gains.\nThe city is open to encounters with other players, so moving from one occupied zone to another is part of the risk. Capturing territory and surviving attacks are connected objectives rather than separate game modes.",
+      "instructions": "Use WASD to move, Space to jump, E to open your inventory and Enter to use the game chat. After joining the police or bandit faction, move into districts and attempt to capture them for your side.\nAccording to the provider's instructions, the districts under your control generate money every 30 seconds. Stay aware of enemy attacks and the territory already held by your faction; capturing a district matters only if your side can keep it."
+    },
+    "schoolboy-runaway-room-escape": {
+      "description": "Explore a strict family's house in first person as a schoolboy who wants to get outside despite his parents' rules and chores. Inspect rooms and search for hidden objects that may help you escape rather than rushing straight to the door.\nThe focus is a small-scale stealth escape quest: learning the layout of the home and interacting with useful objects matters more than combat. The parents' demands provide the setting for your attempt to sneak away.",
+      "instructions": "On a computer, walk with WASD, turn the camera with the mouse and use the left mouse button to interact with objects. Look around rooms for hidden items and clues that could help you find a way out.\nOn a phone, use the joystick on the left side to walk, swipe on the right side to rotate the camera and tap objects to interact. Examine accessible areas carefully before moving on; the provider describes the game as a first-person escape quest rather than a timed race."
+    },
+    "check-wednesday-phone": {
+      "description": "Investigate Wednesday's gothic phone and dorm room by reading cryptic student messages, checking email and interacting with objects. Phone themes, small eerie games and tasks sit alongside the mysteries you must unravel. Earning coins from activities helps unlock further story elements.\nThis is an exploration-and-clue game: watch for new messages and use the details they contain to understand where to investigate next, rather than expecting a conventional action-horror fight.",
+      "instructions": "Tap or click Wednesday's phone to begin. Read incoming emails and messages, inspect objects around the room and interact with phone features such as wallpapers and mini-games.\nLook for hidden clues and passwords, and complete available tasks to earn coins used for further mysteries. New messages guide the story, so revisit the phone when a lead runs out and compare what it says with the objects available in the room."
+    },
+    "fruitsland-escape-from-the-amusement-park": {
+      "description": "Escape a deserted underground amusement park after falling through an old hatch beneath a cheerful fruit-themed attraction. The abandoned facilities contain the results of experiments intended to bring fruit entertainers to life. Mutated fruit creatures patrol the dark sections, and puzzles and useful objects stand between you and the way out.\nDifferent parts of the park are themed around fruit, including an early area with a wandering apple creature. The objective is not to complete rides but to study each area, avoid threats and solve problems that open the next route.",
+      "instructions": "Use WASD to move, C to crouch and Space to jump. Search the park's abandoned areas for useful items and clues, then apply them to puzzles to keep progressing toward an exit.\nThe provider describes encounters with dangerous fruit creatures, including a blind apple, so pay attention to their surroundings and avoid rushing into occupied passages. Use crouching and the layout where appropriate; surviving and opening a safe route are more important than speed."
+    },
+    "the-road-home-granny-escape": {
+      "description": "Try to escape a locked house after Granny and Grandpa capture you during a journey through the forest. The house contains blocked exits, hidden objects, traps and puzzles that open possible routes to freedom. The two captors respond to sound and movement, so every search for a key or useful object carries a risk.\nThe provider describes item crafting and multiple escape routes. Exploring, combining materials and keeping quiet are linked parts of the experience, not optional tasks added after a chase.",
+      "instructions": "Move with WASD, crouch with C and jump with Space. Explore rooms for keys, usable objects and materials, and solve puzzles or combine resources to open new passages.\nBecause Granny and Grandpa can react to noise, consider when to move through exposed areas and when to stay hidden. The game's stated goal is to leave the house, not defeat the captors; use found items to unlock routes and avoid being caught."
+    },
+    "zombie-monster-survivors": {
+      "description": "Move across randomly generated maps while zombie waves close in, collecting weapons, items and character upgrades to survive longer. The enemies and map layout change between attempts, making movement and upgrade choices important even when you recognize the game's basic loop.\nInstead of a fixed final destination, the provider emphasizes staying alive and gaining experience as you face growing numbers of monsters. Collecting items should support your ability to keep distance from the next wave.",
+      "instructions": "Slide on the screen to control your character's movement and steer away from approaching zombies. Surviving encounters lets you gain experience and level up; use available weapon or ability upgrades to improve your chances in later waves.\nKeep space between your character and dense groups of enemies while moving toward helpful items. The provider's description focuses on movement, avoiding monsters and upgrading; it does not specify a separate keyboard control scheme."
+    }
+  }
+}
