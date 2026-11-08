@@ -127,7 +127,7 @@ function schemaNodes(value) {
 async function verify() {
   if (!existsSync(dist)) throw new Error('Build directory does not exist: ' + dist);
   const catalog = await import('../portal/catalog.mjs');
-  const { config, groups, games, byId, localeIds, copies, localeGames, collections, editorial,
+  const { config, groups, games, byId, localeIds, copies, localeGames, collections, editorial, titleFor,
     isIndexable, allRoutes, routeFile, alternatives, preview, provider } = catalog;
   const { buildFingerprint } = await import('../portal/assets.mjs');
   const origin = new URL(config.origin);
@@ -375,7 +375,7 @@ async function verify() {
     expect(schemas.length > 0, 'json-ld', file, 'Missing structured data.');
     if (entry.type === 'game') {
       const game = byId.get(entry.id), guide = editorial(game, entry.locale);
-      const expectedTitle = guide?.title || game.title;
+      const expectedTitle = titleFor(game, entry.locale);
       if (client) {
         expect(client.game?.id === game.id && client.game?.slug === game.slug &&
           client.game?.embedUrl === game.embedUrl && client.game?.affiliateUrl === game.affiliateUrl,

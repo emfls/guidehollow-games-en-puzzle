@@ -1,6 +1,6 @@
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
-import { config, games, provider, localeIds, localeGames, groups, copies, titleFor, allRoutes, isIndexable, alternatives, urlFor, gamePath, preview } from '../portal/catalog.mjs';
+import { config, games, provider, localeIds, localeGames, groups, copies, titleFor, summaryFor, allRoutes, isIndexable, alternatives, urlFor, gamePath, preview } from '../portal/catalog.mjs';
 import { assets, buildFingerprint } from '../portal/assets.mjs';
 const root=resolve('.generated/portal-public');
 rmSync(root,{recursive:true,force:true});mkdirSync(root,{recursive:true});
@@ -11,7 +11,7 @@ const indexable=routes.filter(isIndexable);
 for(const asset of Object.values(assets))write(asset.path,asset.content);
 write('favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#0c1220"/><path d="m32 10 6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" fill="#d4ee91"/></svg>');
 for(const locale of localeIds){
-  const search=localeGames.get(locale).map(game=>({id:game.id,title:titleFor(game,locale),originalTitle:game.title,path:gamePath(locale,game),thumbnail:game.thumbnail,genres:game.genreIds}));
+  const search=localeGames.get(locale).map(game=>({id:game.id,title:titleFor(game,locale),summary:summaryFor(game,locale),originalTitle:game.title,path:gamePath(locale,game),thumbnail:game.thumbnail,genres:game.genreIds}));
   write(`assets/catalog/${locale}.json`,JSON.stringify(search));
 }
 function sitemap(entries){
