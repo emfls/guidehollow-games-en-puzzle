@@ -90,5 +90,6 @@
   "genreTitle": "Jeux gratuits en ligne : {genre}",
   "gameTitle": "{title} — jouer gratuitement en ligne",
   "guidesTitle": "Guides de jeu",
-  "guidesNote": "Découvrez les objectifs et les commandes des jeux avant de jouer."
+  "guidesNote": "Découvrez les objectifs et les commandes des jeux avant de jouer.",
+  "translationNotice": "Certains titres et descriptions sont traduits automatiquement. Les noms originaux restent recherchables."
 }

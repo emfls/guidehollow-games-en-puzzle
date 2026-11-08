@@ -90,5 +90,6 @@
   "genreTitle": "Kostenlose Online-Spiele: {genre}",
   "gameTitle": "{title} kostenlos online spielen",
   "guidesTitle": "Spielanleitungen",
-  "guidesNote": "Lerne die Spielziele und Steuerung kennen, bevor du startest."
+  "guidesNote": "Lerne die Spielziele und Steuerung kennen, bevor du startest.",
+  "translationNotice": "Einige Spieltitel und Beschreibungen sind maschinell übersetzt. Originaltitel bleiben suchbar."
 }

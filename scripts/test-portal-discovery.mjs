@@ -11,8 +11,9 @@ assert.equal(localeGames.get('ko').length,games.filter(game=>game.locales.includ
 const routes=new Set(allRoutes().map(route=>route.path));
 for(const game of games){
   const path=gamePath('ko',game);
-  assert.ok(routes.has(path),'Every global card needs a real detail route: '+path);
-  assert.ok(game.locales.includes(path.split('/')[1]),'Card must not invent Korean game support: '+game.id);
+  assert.ok(routes.has(new URL(path,'https://games.guidehollow.com').pathname),'Every global card needs a real detail route: '+path);
+  assert.ok(path.startsWith('/ko/play/'),'The player must preserve the selected UI language: '+game.id);
+  if(!game.locales.includes('ko'))assert.equal(new URL(path,'https://games.guidehollow.com').searchParams.get('game'),game.id);
 }
 assert.ok(routes.has('/ko/page/'+Math.ceil(games.length/config.pageSize)+'/'),'The final global page must exist');
 const document=new JSDOM(renderPortal(entry)).window.document;

@@ -21,7 +21,9 @@ Cloudflare Pages Free의 `guidehollow-games`에 배포했으며 **`https://games
 
 ## URL과 분류
 
-경로는 `/`, `/{locale}/`, `/{locale}/{genre}/`, `/{locale}/{genre}/page/2/`, `/{locale}/play/{game-slug}/`, `/{locale}/search/`입니다.
+경로는 `/`, `/{locale}/`, `/{locale}/{genre}/`, `/{locale}/{genre}/page/2/`, `/{locale}/play/{game-slug}/`, `/{locale}/play/?game={game-id}`, `/{locale}/search/`입니다.
+
+게임을 열어도 선택한 화면 언어를 유지합니다. 게임 자체의 지원 언어와 화면 번역은 별개입니다. 직접 작성한 번역을 우선하고 기계 번역 사용을 표시하며, 원문 제목으로도 검색할 수 있습니다. 게임이 화면 언어를 지원하지 않으면 언어별 `noindex` 플레이어를 사용합니다.
 
 언어는 `ar`, `az`, `de`, `en`, `es`, `fr`, `hi`, `id`, `it`, `ja`, `kk`, `ko`, `nl`, `pl`, `pt`, `ru`, `th`, `tr`, `uk`, `uz`, `vi`, `zh`입니다. 지역 언어를 기본 언어로 정규화하고 원래 선언도 보존합니다. `ru-KZ`는 러시아어로 유지하며, 모호한 `kr-ZZ`를 한국어로 임의 변환하지 않습니다. [카탈로그 조사](docs/PORTAL_CATALOG_FINDINGS.md)에 언어별 수량과 근거가 있습니다.
 
@@ -36,12 +38,13 @@ npm ci
 npm run build
 node scripts/test-portal-discovery.mjs
 node scripts/test-portal-localization.mjs
+node scripts/test-portal-translations.mjs
 npm run test:client
 npm run indexnow -- --dry-run
 npm run preview
 ```
 
-`npm run build`는 자산·검색 JSON·사이트맵을 준비하고 Astro로 HTML을 생성한 뒤 **전체 정적 결과를 검사**합니다. 출력은 `dist-portal/`이며 소스 저장소에는 커밋하지 않습니다. 검색용 전체 카탈로그는 검색 화면 또는 지원 언어 필터를 선택할 때 요청합니다. 기본 목록은 정적 HTML로 제공됩니다.
+`npm run build`는 자산·검색 JSON·사이트맵을 준비하고 Astro로 HTML을 생성한 뒤 **전체 정적 결과를 검사**합니다. 출력은 `dist-portal/`이며 소스 저장소에는 커밋하지 않습니다. 전체 카탈로그 JSON은 검색·지원 언어 필터·다른 언어 지원 게임의 플레이어를 열 때 요청합니다. 기본 목록은 정적 HTML로 제공됩니다.
 
 개발은 `npm run dev`, 색인 금지 검증 빌드는 `PORTAL_PREVIEW=1 npm run build`입니다. preview는 모든 페이지와 robots를 차단하고 IndexNow도 거부합니다. 생산 환경에서는 이 값을 제거하거나 `0`으로 설정합니다.
 
@@ -53,10 +56,11 @@ npm run preview
 - `data/portal/genre-overrides.json`: 원문 근거가 기록된 장르 보정.
 - `data/catalog.json`, `data/sites.json`, `shared/`: 기존 원고·선정 목록·디자인 보존과 재사용.
 - `scripts/sync-portal-catalog.mjs`: 공식 API 전체 동기화, 안전한 갱신.
+- `scripts/sync-portal-localizations.mjs`, `portal/locales/catalog/`: 제공업체 제목·짧은 설명의 저장된 기계 번역. 원문 해시가 바뀐 항목만 갱신하고, 요청 제한 시 중단하며 저장된 진행 상태를 재사용합니다.
 - `scripts/verify-portal.mjs`, `scripts/test-portal-client.mjs`: 전수 정적 및 실제 생성 HTML의 DOM 검사.
 - `scripts/notify-portal-indexnow.mjs`: 공개 배포를 확인하고 변경된 색인 적격 URL만 통지.
 
-`npm run sync` 이후 빌드와 DOM 검사를 실행합니다. 전체 API 수집이 성공해야 새 스냅샷을 반영합니다. 누락·중복·총수 변화·잘못된 응답·429에서는 이전 데이터를 보존합니다. 피드에서 사라진 게임은 미등재로 처리하며, API가 제공하지 않는 삭제·비활성 상태를 추측하지 않습니다.
+`npm run sync` 이후 누락 번역 동기화, 번역 범위 검사, 빌드와 DOM 검사를 실행합니다. 전체 API 수집과 검증이 성공해야 새 스냅샷을 커밋합니다. 누락·중복·총수 변화·잘못된 응답·429에서는 이전 운영 데이터를 보존합니다. 피드에서 사라진 게임은 미등재로 처리하며, API가 제공하지 않는 삭제·비활성 상태를 추측하지 않습니다.
 
 원본 피드와 중간 정규화 파일은 임시 검사 자료로 커밋하지 않습니다. 커밋한 source ID 집합·수량·해시로 누락을 검증합니다. [동기화 운영 문서](docs/PORTAL_SYNC.md)에 갱신과 실패 보존 정책이 있습니다.
 
@@ -64,7 +68,7 @@ npm run preview
 
 각 언어에 고유 URL·HTML `lang`·self-canonical을 둡니다. UI와 준비된 원고를 초기 HTML에 렌더링하고, 실제 색인 적격 언어 페이지끼리 reciprocal `hreflang`을 연결합니다. `/sitemap.xml`은 전역 선택 페이지와 언어별 사이트맵을 묶는 인덱스입니다. 페이지네이션·검색·원고 부족 상세는 무조건 색인시키지 않습니다.
 
-홈·장르·검색은 화면 언어와 관계없이 전체 2,846개 게임을 제공합니다. 한국어 지원 165개 등 제공업체의 언어 선언은 별도 필터로 구분합니다. 카드에 실제 게임 언어를 표시하고, 선택한 화면 언어를 지원하지 않는 게임은 영어 또는 실제 지원하는 첫 언어의 기존 상세 주소로 연결합니다. 지원하지 않는 언어의 게임 상세를 만들지 않습니다. 관련 게임과 상세의 언어 전환은 기존 native 지원 조건을 유지합니다. 일부 단어만 바뀐 불완전한 한·일·중 제목은 원래 이름으로 표시하며 미번역 설명을 번역 완료로 기록하지 않습니다. 실제 인기·출시일·플레이 수를 만들지 않습니다.
+홈·장르·검색은 화면 언어와 관계없이 전체 2,846개 게임을 제공합니다. 한국어 지원 165개 등 제공업체의 언어 선언은 별도 필터로 구분합니다. 카드에 실제 게임 언어를 표시하고, 선택한 화면 언어를 지원하지 않는 게임도 해당 화면 언어의 공용 플레이어에서 엽니다. 게임의 언어 지원 자체를 추가했다고 표시하지 않습니다. 제목·짧은 소개에는 원문 해시와 연결한 저장 번역을 사용하며, 원문 게임 이름도 검색할 수 있습니다. 품질 검사를 통과하지 못한 소개는 번역 원문 대신 확인 가능한 장르·기기 사실을 해당 언어로 표시하고 데이터에 구분합니다. 실제 인기·출시일·플레이 수를 만들지 않습니다.
 
 썸네일 지연 로딩, 24개씩 페이지네이션, 즐겨찾기·최근 게임, 검색 재시도, 키보드 닫기·포커스 복원, 모바일 스타일과 아랍어 RTL을 제공합니다. 추가 광고 네트워크·분석기는 없으며, 제공업체 광고·제휴 동작을 변조하지 않습니다.
 
