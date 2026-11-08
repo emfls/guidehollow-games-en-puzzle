@@ -598,22 +598,25 @@ async function main() {
   });
 
   await test('global home: full catalog, support filter, last native page and browser Back', async context => {
+    const number=n=>new Intl.NumberFormat('ko').format(n),nativePages=Math.ceil(ko.length/24);
+    const globalRange='1–24 / '+number(runtimeGames.length),nativeRange='1–24 / '+number(ko.length);
+    const finalRange=number((nativePages-1)*24+1)+'–'+number(ko.length)+' / '+number(ko.length);
     const page=openPage(context,'/ko/');
     equal(context,page.document.querySelectorAll('#collection [data-card]').length,24,'Global home renders its first 24 cards without a fetch');
-    check(context,required(page.document,'[data-range]').textContent.includes('2,846'),'Global range exposes the full catalog count');
+    check(context,required(page.document,'[data-range]').textContent.includes(number(runtimeGames.length)),'Global range exposes the full catalog count');
     click(required(page.document,'[data-native-filter="native"]'),page.window);
     await until(()=>required(page.document,'[data-native-filter="native"]').getAttribute('aria-pressed')==='true','native filter to finish');
-    equal(context,required(page.document,'[data-range]').textContent,'1–24 / 165','Native filter retains the separately measured 165 games');
+    equal(context,required(page.document,'[data-range]').textContent,nativeRange,'Native filter retains the separately measured native games');
     check(context,Array.from(page.document.querySelectorAll('[data-catalog-grid] [data-card]')).every(card=>card.dataset.native==='true'),'Native filter excludes unsupported games');
-    click(required(page.document,'[data-native-page="7"]'),page.window);
-    await until(()=>required(page.document,'[data-range]').textContent==='145–165 / 165','last native page to finish');
-    equal(context,page.document.querySelectorAll('[data-catalog-grid] [data-card]').length,21,'Last native page contains exactly the remaining games');
-    check(context,required(page.document,'.pagination [aria-current="page"]').href.includes('page=7'),'Native pagination retains its current page');
+    click(required(page.document,'[data-native-page="'+nativePages+'"]'),page.window);
+    await until(()=>required(page.document,'[data-range]').textContent===finalRange,'last native page to finish');
+    equal(context,page.document.querySelectorAll('[data-catalog-grid] [data-card]').length,ko.length-(nativePages-1)*24,'Last native page contains exactly the remaining games');
+    check(context,required(page.document,'.pagination [aria-current="page"]').href.includes('page='+nativePages),'Native pagination retains its current page');
     click(required(page.document,'[data-native-filter="all"]'),page.window);
-    await until(()=>required(page.document,'[data-range]').textContent==='1–24 / 2,846','all games to return');
+    await until(()=>required(page.document,'[data-range]').textContent===globalRange,'all games to return');
     equal(context,new URL(page.window.location.href).search,'','Returning to all games clears native paging');
     page.window.history.back();
-    await until(()=>required(page.document,'[data-range]').textContent==='145–165 / 165','Back to restore native scope and page');
+    await until(()=>required(page.document,'[data-range]').textContent===finalRange,'Back to restore native scope and page');
   });
   await test('global Korean search and saved view retain non-Korean games with valid fallback routes', async context => {
     const page=openPage(context,'/ko/search/?view=favorites',{[storageKeys.favorites]:JSON.stringify([englishOnly.id])});
@@ -627,13 +630,17 @@ async function main() {
   });
 
   await test('native filter: unsupported genre has an explicit empty state', async context => {
-    const page=openPage(context,'/az/sports/?native=1');
+    const genres=[...new Set(runtimeGames.flatMap(game=>game.genreIds))];
+    const fixture=[...supportedLocales].flatMap(locale=>genres.filter(genre=>!runtimeGames.some(game=>game.locales.includes(locale)&&game.genreIds.includes(genre))).map(genre=>({locale,genre})))[0];
+    if(!fixture){context.result.details={notApplicable:'Every current language/genre combination has native support'};return;}
+    const {locale,genre}=fixture,total=runtimeGames.filter(game=>game.genreIds.includes(genre)).length;
+    const page=openPage(context,'/'+locale+'/'+genre+'/?native=1');
     await until(()=>required(page.document,'[data-range]').textContent==='0 / 0','zero-supported genre to finish');
     equal(context,page.document.querySelectorAll('[data-catalog-grid] [data-card]').length,0,'No unsupported game is shown in the native filter');
     equal(context,required(page.document,'[data-catalog-pagination]').childElementCount,0,'Empty filter has no invented page number');
     check(context,Boolean(required(page.document,'.catalog-empty').textContent),'Empty filter explains that no matching game exists');
     click(required(page.document,'[data-native-filter="all"]'),page.window);
-    await until(()=>required(page.document,'[data-range]').textContent==='1–24 / 85','global games to return from the empty native filter');
+    await until(()=>required(page.document,'[data-range]').textContent==='1–'+new Intl.NumberFormat(locale).format(Math.min(24,total))+' / '+new Intl.NumberFormat(locale).format(total),'global games to return from the empty native filter');
   });
 
   await test('fullscreen fallback and clipboard sharing', async context => {
