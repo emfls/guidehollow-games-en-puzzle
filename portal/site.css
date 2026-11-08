@@ -2615,3 +2615,93 @@ body.portal {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+
+/* Live site audit 2026-11-08: compare actual game mechanics without repeating cards. */
+.portal .horror-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.portal .horror-choice-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid #34445a;
+  border-radius: 13px;
+  padding: 18px;
+  background: #1b293a;
+}
+.portal .horror-choice-item h3 {
+  margin: 0 0 10px;
+  color: #f1f5ff;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.portal .horror-choice-item p {
+  margin: 0 0 14px;
+  flex: 1 1 auto;
+  color: #c2cedf;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.portal .horror-choice-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.portal .horror-choice-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 40px;
+  padding: 7px 10px;
+  border: 1px solid #54657b;
+  border-radius: 8px;
+  color: #e4edf9;
+  font-size: 13px;
+  font-weight: 650;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.portal .horror-choice-links a:hover,
+.portal .horror-choice-links a:focus-visible {
+  color: #fff;
+  border-color: var(--accent);
+  background: #283e50;
+}
+.portal .horror-choice-links .icon {width: 14px;height: 14px;}
+.portal .launch-languages {
+  max-width: 100%;
+  border: 1px solid #344259;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.portal .launch-languages summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  color: #d8e2f4;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.portal .launch-languages summary:hover,
+.portal .launch-languages summary:focus-visible {
+  background: #203049;
+}
+.portal .launch-language-options {
+  border-top: 1px solid #344259;
+  padding: 9px 14px 13px;
+  line-height: 2.2;
+}
+@media (max-width: 1080px) {
+  .portal .horror-choice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .portal .horror-choice-grid { grid-template-columns: minmax(0, 1fr); }
+  .portal .horror-choice-item { padding: 15px; }
+  .portal .card-summary { font-size: 14px; line-height: 1.6; }
+  .portal .game-grid.compact-game-grid .card-summary { -webkit-line-clamp: 5; }
+  .portal .launch-language-notice { font-size: 12px; }
+}
