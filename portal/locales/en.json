@@ -91,5 +91,38 @@
   "gameTitle": "{title} — Play Free Online",
   "guidesTitle": "Game guides",
   "guidesNote": "Read about game objectives and controls before you play.",
-  "translationNotice": "Some game titles and descriptions are machine translated. Original names remain searchable."
+  "translationNotice": "Some game titles and descriptions are machine translated. Original names remain searchable.",
+  "carouselPause": "Pause rotation",
+  "carouselResume": "Resume rotation",
+  "carouselPosition": "Recommendation {position} of {total}",
+  "detailContents": "On this page",
+  "detailControls": "Controls and input",
+  "detailMechanics": "Gameplay elements",
+  "detailCompatibility": "Devices and languages",
+  "controlsText": "The provider instructions mention these inputs: {controls}. Check the in-game guide for the action assigned to each input.",
+  "mechanicsNote": "These elements are mentioned in the provider’s gameplay instructions. Check the game for the complete rules.",
+  "compatibilityText": "{title} supports {platforms}. Screen layout: {orientation}. The provider lists {count} in-game languages.",
+  "sourceNote": "Game facts and input labels come from Playgama’s catalog. They describe provider information and are separate from our authored guides.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Arrow keys",
+    "space": "Space",
+    "mouse": "Mouse / click",
+    "touch": "Touch input",
+    "screen": "On-screen controls"
+  },
+  "mechanicNames": {
+    "move": "Movement",
+    "jump": "Jumping",
+    "collect": "Collecting",
+    "match": "Matching",
+    "merge": "Merging",
+    "build": "Building",
+    "upgrade": "Upgrades",
+    "survive": "Survival",
+    "shoot": "Shooting",
+    "solve": "Solving puzzles",
+    "avoid": "Avoiding obstacles",
+    "race": "Racing"
+  }
 }

@@ -36,6 +36,8 @@ jobs:
         run: npm run build
       - name: Verify translations against synchronized source text
         run: node scripts/test-portal-translations.mjs
+      - name: Verify detailed game information against the synchronized catalog
+        run: node scripts/test-portal-details.mjs
       - name: Check client behavior against the synchronized catalog
         run: npm run test:client
       - name: Save only validated catalog changes

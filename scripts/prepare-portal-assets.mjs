@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { config, games, provider, localeIds, localeGames, groups, copies, titleFor, summaryFor, allRoutes, isIndexable, alternatives, urlFor, gamePath, playLocale, preview } from '../portal/catalog.mjs';
 import { assets, buildFingerprint } from '../portal/assets.mjs';
 import { languageNameFor } from '../portal/localization.mjs';
+import {detailFor} from '../portal/details.mjs';
 const root=resolve('.generated/portal-public');
 rmSync(root,{recursive:true,force:true});mkdirSync(root,{recursive:true});
 const write=(path,content)=>{const file=resolve(root,path);mkdirSync(dirname(file),{recursive:true});writeFileSync(file,content);};
@@ -13,7 +14,10 @@ for(const asset of Object.values(assets))write(asset.path,asset.content);
 write('favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#121b27"/><path d="m32 10 6 16 16 6-16 6-6 16-6-16-16-6 16-6Z" fill="#68c5ed"/></svg>');
 for(const locale of localeIds){
   const copy=copies.get(locale);
-  const search=games.map(game=>({id:game.id,slug:game.slug,title:titleFor(game,locale),summary:summaryFor(game,locale),originalTitle:game.title,path:gamePath(locale,game),thumbnail:game.thumbnail,genres:game.genreIds,native:game.locales.includes(locale),language:languageNameFor(locale,playLocale(locale,game)),languages:game.locales.map(language=>({locale:language,name:languageNameFor(locale,language)})),embedUrl:game.embedUrl,affiliateUrl:game.affiliateUrl,platformsLabel:game.platforms.map(platform=>platform==='Desktop'?copy.desktop:platform).join(' · '),orientationLabel:game.orientation==='portrait'?copy.portrait:game.orientation==='landscape'?copy.landscape:copy.anyOrientation}));
+  const search=games.map(game=>{
+    const {description,instructions,compatibility,controls,mechanics,hasGuide,sourceMatched}=detailFor(game,locale);
+    return {detail:{description,instructions,compatibility,controls,mechanics,hasGuide,sourceMatched},id:game.id,slug:game.slug,title:titleFor(game,locale),summary:summaryFor(game,locale),originalTitle:game.title,path:gamePath(locale,game),thumbnail:game.thumbnail,genres:game.genreIds,native:game.locales.includes(locale),language:languageNameFor(locale,playLocale(locale,game)),languages:game.locales.map(language=>({locale:language,name:languageNameFor(locale,language)})),embedUrl:game.embedUrl,affiliateUrl:game.affiliateUrl,platformsLabel:game.platforms.map(platform=>platform==='Desktop'?copy.desktop:platform).join(' · '),orientationLabel:game.orientation==='portrait'?copy.portrait:game.orientation==='landscape'?copy.landscape:copy.anyOrientation};
+  });
   write(`assets/catalog/${locale}.json`,JSON.stringify(search));
 }
 function sitemap(entries){

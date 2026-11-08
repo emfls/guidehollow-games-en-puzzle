@@ -91,5 +91,38 @@
   "gameTitle": "{title} — pulsuz onlayn oyna",
   "guidesTitle": "Oyun bələdçiləri",
   "guidesNote": "Oynamazdan əvvəl oyun məqsədlərini və idarəetməni öyrənin.",
-  "translationNotice": "Bəzi oyun adları və təsvirləri maşın tərcüməsidir. Orijinal adlarla da axtarış edə bilərsiniz."
+  "translationNotice": "Bəzi oyun adları və təsvirləri maşın tərcüməsidir. Orijinal adlarla da axtarış edə bilərsiniz.",
+  "carouselPause": "Avtomatik keçidi dayandır",
+  "carouselResume": "Avtomatik keçidi davam etdir",
+  "carouselPosition": "Tövsiyə {position} / {total}",
+  "detailContents": "Bu səhifədə",
+  "detailControls": "İdarəetmə və daxiletmə",
+  "detailMechanics": "Oyun elementləri",
+  "detailCompatibility": "Cihazlar və dillər",
+  "controlsText": "Təchizatçının idarəetmə təlimatında bu daxiletmələr göstərilir: {controls}. Hər birinin funksiyasını oyundakı təlimatdan yoxlayın.",
+  "mechanicsNote": "Bu elementlər təchizatçının oyun təlimatında qeyd olunur. Tam qaydaları oyunda yoxlayın.",
+  "compatibilityText": "{title} üçün cihazlar: {platforms}. Ekran istiqaməti: {orientation}. Təchizatçı oyunda {count} dil göstərir.",
+  "sourceNote": "Oyun məlumatları və daxiletmə adları Playgama kataloquna əsaslanır. Təchizatçının məlumatları müəllif təlimatlarımızdan ayrı təqdim olunur.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Ox düymələri",
+    "space": "Boşluq düyməsi",
+    "mouse": "Siçan və klik",
+    "touch": "Toxunma ilə idarəetmə",
+    "screen": "Ekrandakı idarəetmə"
+  },
+  "mechanicNames": {
+    "move": "Hərəkət",
+    "jump": "Tullanma",
+    "collect": "Toplama",
+    "match": "Uyğunlaşdırma",
+    "merge": "Birləşdirmə",
+    "build": "Tikinti",
+    "upgrade": "Təkmilləşdirmə",
+    "survive": "Sağqalma",
+    "shoot": "Atəş",
+    "solve": "Tapmaca həlli",
+    "avoid": "Maneələrdən yayınma",
+    "race": "Yarış"
+  }
 }

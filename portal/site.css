@@ -1,4 +1,24 @@
 /* Steam-inspired library surfaces, with GuideHollow navigation and browser-game actions. */
+.portal .featured-carousel{margin-bottom:30px}
+.portal .featured-carousel .featured-banner{margin-bottom:0}
+.portal [data-slide][hidden]{display:none}
+.portal .carousel-controls:not([data-ready]){visibility:hidden}
+.portal .carousel-controls{display:flex;align-items:center;justify-content:flex-end;gap:10px;min-height:48px;padding:8px 12px;background:#122538;border:1px solid #3a5b72;border-top:0;color:var(--muted);font-size:12px}
+.portal .carousel-controls button{min-width:36px;min-height:32px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:5px 10px;cursor:pointer}
+.portal .carousel-controls button:hover{border-color:var(--accent);color:var(--accent)}
+.portal [data-carousel-position]{font-variant-numeric:tabular-nums;white-space:nowrap;direction:ltr;min-width:40px;text-align:center}
+.portal [data-carousel-pause]{margin-inline-start:8px}
+.portal .detail-nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px;padding:14px 0;border-block:1px solid var(--line)}
+.portal .detail-nav a{font-size:13px;color:var(--accent)}
+.portal .portal-editorial section{scroll-margin-top:105px;margin-bottom:32px}
+.portal .portal-editorial h3{font-size:16px;margin-top:24px}
+.portal .detail-prose{white-space:pre-line;line-height:1.85}
+.portal .detail-chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none}
+.portal .detail-chips li{padding:6px 11px;background:var(--soft);border:1px solid var(--line);font-size:13px}
+.portal .detail-facts{margin:20px 0}
+.portal .detail-facts dt{color:var(--muted);font-size:13px;margin-bottom:8px}
+.portal .detail-facts dd{margin:0;line-height:1.9}
+.portal .source-note{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px}
 :root{color-scheme:dark}
 body.portal{--bg:#172a3c;--surface:#20384c;--card:#1e3548;--ink:#e8f0f6;--muted:#a3b7c7;--line:#355069;--accent:#68c5ed;--accent-ink:#092331;--soft:#243f55;--radius:4px;background:radial-gradient(ellipse at 70% 0,#254b64 0,transparent 700px),var(--bg);color:var(--ink);font-size:15px}
 .portal .wrap{width:calc(100% - 64px);max-width:1440px}

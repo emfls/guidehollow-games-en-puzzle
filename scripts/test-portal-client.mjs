@@ -154,6 +154,8 @@ function openPage(context, path, initialStorage = {}, behavior = {}) {
   const html = readFileSync(resolve(dist, relativeFile), 'utf8');
   loadedHtml.set(relativeFile, { path: relativeFile, sha256: hash(html) });
   const errors = [];
+  const carouselTimers=new Map();let carouselTimer=0,mediaChange,intersectionChange,hidden=false;
+  const media={matches:Boolean(behavior.reducedMotion),addEventListener:(name,callback)=>mediaChange=callback};
   let remainingCatalogFailures = behavior.rejectCatalogFetches || 0;
   const virtualConsole = new VirtualConsole();
   virtualConsole.on('jsdomError', error => errors.push({ type: error.type, message: error.cause?.message || error.message }));
@@ -166,6 +168,14 @@ function openPage(context, path, initialStorage = {}, behavior = {}) {
     // Deliberately omit "resources": jsdom 31 then never loads stylesheet,
     // image, script or iframe subresources. Only window.eval below runs code.
     beforeParse(window) {
+      window.matchMedia=()=>media;
+      if(behavior.carouselClock){
+        const timeout=window.setTimeout.bind(window),clear=window.clearTimeout.bind(window);
+        window.setTimeout=(callback,ms,...args)=>ms===6000?(carouselTimers.set(++carouselTimer,callback),`carousel:${carouselTimer}`):timeout(callback,ms,...args);
+        window.clearTimeout=id=>typeof id==='string'&&id.startsWith('carousel:')?carouselTimers.delete(Number(id.slice(9))):clear(id);
+        Object.defineProperty(window.document,'hidden',{configurable:true,get:()=>hidden});
+        window.IntersectionObserver=class{constructor(callback){intersectionChange=callback;}observe(){}};
+      }
       window.fetch = async (input, options = {}) => {
         const requested = new URL(typeof input === 'string' ? input : input.url || String(input), window.location.href);
         const method = String(options.method || input?.method || 'GET').toUpperCase();
@@ -215,7 +225,7 @@ function openPage(context, path, initialStorage = {}, behavior = {}) {
     if (!matches && !report.warnings.includes(warning)) report.warnings.push(warning);
   }
   window.eval(clientSource + '\n//# sourceURL=portal/site.js');
-  const page = { dom, window, document, config, errors };
+  const page = { dom, window, document, config, errors,carousel:{pending:()=>carouselTimers.size,tick:()=>{const [id,callback]=carouselTimers.entries().next().value||[];if(callback){carouselTimers.delete(id);callback();}},motion:value=>{media.matches=value;mediaChange?.();},visible:value=>intersectionChange?.([{isIntersecting:value}]),hidden:value=>{hidden=value;document.dispatchEvent(new window.Event('visibilitychange'));}} };
   context.opened.push(page);
   return page;
 }
@@ -286,6 +296,42 @@ async function main() {
   assert.ok(en.length > 48 && ko.length > 48, 'Need real paginated English and Korean catalogs');
   const englishOnly = en.find(item => !runtimeById.get(item.id)?.locales.includes('ko'));
   assert.ok(englishOnly, 'Need an English-only fixture to test Korean native-language filtering');
+  await test('carousel: automatic rotation, wrapping, manual controls and explicit pause',async context=>{
+    const page=openPage(context,'/ko/',{},{carouselClock:true}),slides=[...page.document.querySelectorAll('[data-slide]')];
+    equal(context,slides.length,6,'Home renders six source-backed recommendations');
+    const active=()=>slides.findIndex(slide=>!slide.hidden);
+    equal(context,active(),0,'The first recommendation is visible without waiting');
+    equal(context,page.carousel.pending(),1,'Exactly one six-second timer is scheduled');
+    page.carousel.tick();equal(context,active(),1,'Timer advances to the next game');
+    equal(context,required(page.document,'[data-carousel-position]').textContent,'2 / 6','The compact mobile counter keeps position and total on one line');
+    equal(context,required(page.document,'[data-carousel-position]').getAttribute('aria-label'),page.config.copy.carouselPosition.replace('{position}',2).replace('{total}',6),'The counter retains a descriptive localized accessible name');
+    equal(context,page.carousel.pending(),1,'Automatic rotation keeps one timer');
+    click(required(page.document,'[data-carousel-prev]'),page.window);equal(context,active(),0,'Previous returns to the first game');
+    click(required(page.document,'[data-carousel-prev]'),page.window);equal(context,active(),5,'Previous wraps to the last game');
+    click(required(page.document,'[data-carousel-next]'),page.window);equal(context,active(),0,'Next wraps to the first game');
+    click(required(page.document,'[data-carousel-pause]'),page.window);equal(context,page.carousel.pending(),0,'Explicit pause cancels automatic rotation');
+    equal(context,required(page.document,'[data-carousel-pause]').getAttribute('aria-label'),page.config.copy.carouselResume,'Paused state offers a localized resume label');
+    equal(context,required(page.document,'[data-carousel-controls]').getAttribute('aria-hidden'),null,'Controls are accessible after client initialization');
+    click(required(page.document,'[data-carousel-next]'),page.window);equal(context,active(),1,'Manual browsing works while paused');
+    equal(context,page.carousel.pending(),0,'Manual browsing does not cancel the explicit pause');
+    click(required(page.document,'[data-carousel-pause]'),page.window);equal(context,page.carousel.pending(),1,'Resume restarts a single timer');
+    equal(context,slides.filter(slide=>!slide.hidden).length,1,'Only one slide remains exposed');
+  });
+  await test('carousel: hover, keyboard focus, visibility and reduced-motion pauses',async context=>{
+    const page=openPage(context,'/ko/',{},{carouselClock:true}),root=required(page.document,'[data-carousel]');
+    root.dispatchEvent(new page.window.Event('mouseenter'));equal(context,page.carousel.pending(),0,'Hover pauses rotation');
+    root.dispatchEvent(new page.window.Event('mouseleave'));equal(context,page.carousel.pending(),1,'Leaving resumes rotation');
+    required(page.document,'[data-carousel-next]').focus();equal(context,page.carousel.pending(),0,'Keyboard focus prevents a moving target');
+    required(page.document,'input[name=q]').focus();equal(context,page.carousel.pending(),1,'Leaving carousel focus resumes rotation');
+    page.carousel.hidden(true);equal(context,page.carousel.pending(),0,'A background document does not rotate');
+    page.carousel.hidden(false);equal(context,page.carousel.pending(),1,'Returning to the document resumes rotation');
+    page.carousel.visible(false);equal(context,page.carousel.pending(),0,'An off-screen carousel does not rotate');
+    page.carousel.visible(true);equal(context,page.carousel.pending(),1,'Visible carousel resumes');
+    page.carousel.motion(true);equal(context,page.carousel.pending(),0,'Reduced motion disables automatic rotation');
+    click(required(page.document,'[data-carousel-next]'),page.window);equal(context,page.carousel.pending(),0,'Reduced motion still permits manual browsing');
+    page.carousel.motion(false);equal(context,page.carousel.pending(),1,'Updated motion preference is respected');
+    const reduced=openPage(context,'/ar/',{},{carouselClock:true,reducedMotion:true});equal(context,reduced.carousel.pending(),0,'Reduced-motion preference is honored from initialization');
+  });
   await test('localized player: unsupported game keeps Korean UI and explicit attributed play',async context=>{
     const selected=catalogFor('ko').data.find(item=>item.id===englishOnly.id);
     const page=openPage(context,selected.path);
@@ -293,7 +339,9 @@ async function main() {
     await until(()=>!required(page.document,'[data-player-content]').hidden,'localized player ready');
     equal(context,page.document.documentElement.lang,'ko','Game UI retains selected language');
     equal(context,required(page.document,'h1').textContent,selected.title,'Game heading uses the saved localized name');
-    equal(context,required(page.document,'[data-shell-summary]').textContent,selected.summary,'Game description uses the selected UI language');
+    equal(context,required(page.document,'[data-shell-summary]').textContent,selected.detail.description,'Game description uses the full selected-language detail');
+    equal(context,required(page.document,'[data-shell-instructions]').textContent,selected.detail.instructions,'Game-specific instructions are exposed in the article');
+    check(context,required(page.document,'[data-shell-compatibility]').textContent.includes(selected.title),'Compatibility details identify this game');
     check(context,!required(page.document,'.portal-editorial').textContent.includes('제공업체가 이 게임의 자세한 조작법을 제공하지 않았습니다'),'An untranslated guide must not claim provider controls are absent');
     equal(context,required(page.document,'.portal-editorial [data-shell-source]').href,selected.affiliateUrl,'Original control instructions remain accessible through the attributed source');
     equal(context,page.document.querySelectorAll('iframe').length,0,'Loading translated metadata does not start a game or advertisement');
@@ -326,6 +374,17 @@ async function main() {
     await until(()=>!required(page.document,'[data-player-content]').hidden,'custom provider metadata');
     click(required(page.document,'[data-play]'),page.window);
     equal(context,required(page.document,'iframe').src,selected.embedUrl,'Custom host retains the exact approved export and CLID');
+  });
+  await test('localized detail text: provider markup stays text and malformed details fail closed',async context=>{
+    const path='/ko/play/?game='+encodeURIComponent(englishOnly.id);
+    const page=openPage(context,path,{},{catalogTransform:data=>data.map(item=>item.id===englishOnly.id?{...item,detail:{...item.detail,description:'<img src=x onerror=alert(1)>',instructions:'<script>alert(1)</script>'}}:item)});
+    await until(()=>!required(page.document,'[data-player-content]').hidden,'escaped detail ready');
+    equal(context,required(page.document,'[data-shell-summary]').textContent,'<img src=x onerror=alert(1)>','Provider markup is rendered as literal text');
+    equal(context,page.document.querySelectorAll('.portal-editorial img,.portal-editorial script').length,0,'Detail payloads cannot add active DOM');
+    equal(context,page.document.querySelectorAll('iframe').length,0,'Detail loading does not request a game');
+    const invalid=openPage(context,path,{},{catalogTransform:data=>data.map(item=>item.id===englishOnly.id?{...item,detail:{...item.detail,controls:[{}]}}:item)});
+    await until(()=>required(invalid.document,'[data-player-error]').textContent===invalid.config.copy.catalogLoadError,'malformed detail rejection');
+    check(context,required(invalid.document,'[data-player-content]').hidden,'Invalid detail shape never exposes the player');
   });
 
   await test('player: explicit launch, duplicate prevention, close, Escape and recent persistence', async context => {

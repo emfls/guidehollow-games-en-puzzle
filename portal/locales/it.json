@@ -91,5 +91,38 @@
   "gameTitle": "{title} — gioca gratis online",
   "guidesTitle": "Guide ai giochi",
   "guidesNote": "Scopri gli obiettivi e i comandi dei giochi prima di giocare.",
-  "translationNotice": "Alcuni titoli e descrizioni sono tradotti automaticamente. Puoi cercare anche i nomi originali."
+  "translationNotice": "Alcuni titoli e descrizioni sono tradotti automaticamente. Puoi cercare anche i nomi originali.",
+  "carouselPause": "Sospendi rotazione automatica",
+  "carouselResume": "Riprendi rotazione automatica",
+  "carouselPosition": "Consiglio {position} di {total}",
+  "detailContents": "In questa pagina",
+  "detailControls": "Comandi e input",
+  "detailMechanics": "Elementi di gioco",
+  "detailCompatibility": "Dispositivi e lingue",
+  "controlsText": "Le istruzioni del fornitore indicano questi input: {controls}. Consulta la guida nel gioco per la funzione di ciascuno.",
+  "mechanicsNote": "Questi elementi sono citati nelle istruzioni del fornitore. Consulta le regole complete nel gioco.",
+  "compatibilityText": "{title} supporta {platforms}. Orientamento: {orientation}. Il fornitore indica {count} lingue nel gioco.",
+  "sourceNote": "Le informazioni e i nomi degli input provengono dal catalogo Playgama. I dati del fornitore sono distinti dalle guide scritte da noi.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Tasti freccia",
+    "space": "Barra spaziatrice",
+    "mouse": "Mouse / clic",
+    "touch": "Comandi tattili",
+    "screen": "Comandi sullo schermo"
+  },
+  "mechanicNames": {
+    "move": "Movimento",
+    "jump": "Salti",
+    "collect": "Raccolta",
+    "match": "Abbinamenti",
+    "merge": "Fusioni",
+    "build": "Costruzione",
+    "upgrade": "Miglioramenti",
+    "survive": "Sopravvivenza",
+    "shoot": "Sparo",
+    "solve": "Risoluzione di enigmi",
+    "avoid": "Evitare ostacoli",
+    "race": "Gare"
+  }
 }

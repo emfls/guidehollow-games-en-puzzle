@@ -39,6 +39,7 @@ npm run build
 node scripts/test-portal-discovery.mjs
 node scripts/test-portal-localization.mjs
 node scripts/test-portal-translations.mjs
+node scripts/test-portal-details.mjs
 npm run test:client
 npm run indexnow -- --dry-run
 npm run preview
@@ -51,6 +52,7 @@ npm run preview
 ## 소스와 동기화
 
 - `portal/`: 공통 렌더러, 카탈로그·경로 계산, UI, 22개 언어 문구, Astro 라우트.
+- `portal/details.mjs`, `portal/locales/game-details.json`: 원문에서 확인한 입력·진행 요소와 기기·언어 안내, 원문 해시가 일치할 때만 사용하는 확장 가이드. 기존 작성 원고가 우선합니다.
 - `data/portal/catalog.json`: 전체 피드의 경량 실행 데이터. 게임 소스는 포함하지 않습니다.
 - `data/portal/sync-state.json`: 받은 스냅샷, 변환 전 제공업체 ID 전수 목록, 제거·재등장 이력.
 - `data/portal/genre-overrides.json`: 원문 근거가 기록된 장르 보정.
@@ -71,6 +73,10 @@ npm run preview
 홈·장르·검색은 화면 언어와 관계없이 전체 2,846개 게임을 제공합니다. 한국어 지원 165개 등 제공업체의 언어 선언은 별도 필터로 구분합니다. 카드에 실제 게임 언어를 표시하고, 선택한 화면 언어를 지원하지 않는 게임도 해당 화면 언어의 공용 플레이어에서 엽니다. 게임의 언어 지원 자체를 추가했다고 표시하지 않습니다. 제목·짧은 소개에는 원문 해시와 연결한 저장 번역을 사용하며, 원문 게임 이름도 검색할 수 있습니다. 품질 검사를 통과하지 못한 소개는 번역 원문 대신 확인 가능한 장르·기기 사실을 해당 언어로 표시하고 데이터에 구분합니다. 실제 인기·출시일·플레이 수를 만들지 않습니다.
 
 썸네일 지연 로딩, 24개씩 페이지네이션, 즐겨찾기·최근 게임, 검색 재시도, 키보드 닫기·포커스 복원, 모바일 스타일과 아랍어 RTL을 제공합니다. 추가 광고 네트워크·분석기는 없으며, 제공업체 광고·제휴 동작을 변조하지 않습니다.
+
+언어별 첫 화면의 추천은 최대 6개 게임을 6초마다 전환합니다. 이전·다음·일시정지 버튼을 제공하고, 마우스·키보드 조작 중이거나 탭과 추천 영역이 보이지 않을 때는 전환을 멈춥니다. 동작 줄이기 설정에서는 수동 전환만 사용합니다. JavaScript가 없어도 첫 게임을 볼 수 있고 조작부 높이는 미리 확보합니다.
+
+상세 페이지에는 소개·플레이 방법·확인된 입력·진행 요소·기기와 언어 정보를 제공합니다. 원문과 화면 언어가 일치하면 원문 설명·조작법을 본문에 바로 표시하고, 다른 언어에서는 저장 번역과 확인 가능한 정보를 사용합니다. 설명과 조작법의 원문 언어를 따로 판별하며 불명확하면 `und`로 표시합니다. 기술 SEO 검사는 전체 정적 경로의 metadata·canonical·hreflang·본문 구조와 WebPage/VideoGame/BreadcrumbList 관계를 확인합니다. 구조 보강만으로 색인 허용 원고 수를 늘리지 않습니다. 수동 확장 가이드의 원문 해시가 바뀌면 재검토가 필요합니다.
 
 GitHub Actions의 일일 전체 동기화와 시간별 IndexNow 점검을 기본 브랜치 main에 반영했으며, Cloudflare의 운영 브랜치도 main입니다. 두 워크플로는 기본 브랜치를 체크아웃합니다. `deploymentReady: true` 상태에서도 공개 키와 배포 fingerprint가 소스와 일치해야 전송하며, HTTP 200 수신을 실제 색인·검색 순위·수익 발생의 검증으로 간주하지 않습니다.
 

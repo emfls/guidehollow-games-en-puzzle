@@ -91,5 +91,38 @@
   "gameTitle": "{title} — gratis online spelen",
   "guidesTitle": "Spelgidsen",
   "guidesNote": "Lees over de doelen en besturing voordat je gaat spelen.",
-  "translationNotice": "Sommige speltitels en beschrijvingen zijn automatisch vertaald. Je kunt ook op de oorspronkelijke naam zoeken."
+  "translationNotice": "Sommige speltitels en beschrijvingen zijn automatisch vertaald. Je kunt ook op de oorspronkelijke naam zoeken.",
+  "carouselPause": "Automatisch wisselen pauzeren",
+  "carouselResume": "Automatisch wisselen hervatten",
+  "carouselPosition": "Aanbeveling {position} van {total}",
+  "detailContents": "Op deze pagina",
+  "detailControls": "Bediening en invoer",
+  "detailMechanics": "Spelelementen",
+  "detailCompatibility": "Apparaten en talen",
+  "controlsText": "De instructies van de aanbieder noemen deze invoer: {controls}. Bekijk de handleiding in het spel voor de functie van elke invoer.",
+  "mechanicsNote": "Deze elementen staan in de spelinstructies van de aanbieder. Bekijk de volledige regels in het spel.",
+  "compatibilityText": "{title} ondersteunt {platforms}. Schermrichting: {orientation}. De aanbieder vermeldt {count} talen in het spel.",
+  "sourceNote": "Spelgegevens en invoerlabels komen uit de Playgama-catalogus. Informatie van de aanbieder staat los van onze eigen handleidingen.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Pijltjestoetsen",
+    "space": "Spatiebalk",
+    "mouse": "Muis / klikken",
+    "touch": "Aanraakbediening",
+    "screen": "Schermbediening"
+  },
+  "mechanicNames": {
+    "move": "Bewegen",
+    "jump": "Springen",
+    "collect": "Verzamelen",
+    "match": "Koppelen",
+    "merge": "Samenvoegen",
+    "build": "Bouwen",
+    "upgrade": "Verbeteringen",
+    "survive": "Overleven",
+    "shoot": "Schieten",
+    "solve": "Puzzels oplossen",
+    "avoid": "Obstakels ontwijken",
+    "race": "Racen"
+  }
 }

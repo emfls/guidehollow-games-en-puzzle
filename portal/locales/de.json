@@ -91,5 +91,38 @@
   "gameTitle": "{title} kostenlos online spielen",
   "guidesTitle": "Spielanleitungen",
   "guidesNote": "Lerne die Spielziele und Steuerung kennen, bevor du startest.",
-  "translationNotice": "Einige Spieltitel und Beschreibungen sind maschinell übersetzt. Originaltitel bleiben suchbar."
+  "translationNotice": "Einige Spieltitel und Beschreibungen sind maschinell übersetzt. Originaltitel bleiben suchbar.",
+  "carouselPause": "Automatischen Wechsel pausieren",
+  "carouselResume": "Automatischen Wechsel fortsetzen",
+  "carouselPosition": "Empfehlung {position} von {total}",
+  "detailContents": "Auf dieser Seite",
+  "detailControls": "Steuerung und Eingaben",
+  "detailMechanics": "Spielelemente",
+  "detailCompatibility": "Geräte und Sprachen",
+  "controlsText": "Die Anleitung des Anbieters nennt diese Eingaben: {controls}. Die jeweilige Funktion steht in der Anleitung im Spiel.",
+  "mechanicsNote": "Diese Elemente werden in der Spielanleitung des Anbieters genannt. Die vollständigen Regeln findest du im Spiel.",
+  "compatibilityText": "{title} unterstützt {platforms}. Bildschirmausrichtung: {orientation}. Der Anbieter nennt {count} Sprachen im Spiel.",
+  "sourceNote": "Spielangaben und Eingabebezeichnungen stammen aus dem Playgama-Katalog. Anbieterinformationen werden getrennt von unseren eigenen Anleitungen dargestellt.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Pfeiltasten",
+    "space": "Leertaste",
+    "mouse": "Maus / Klicken",
+    "touch": "Touchbedienung",
+    "screen": "Bildschirmsteuerung"
+  },
+  "mechanicNames": {
+    "move": "Bewegung",
+    "jump": "Springen",
+    "collect": "Sammeln",
+    "match": "Zuordnen",
+    "merge": "Zusammenführen",
+    "build": "Bauen",
+    "upgrade": "Verbesserungen",
+    "survive": "Überleben",
+    "shoot": "Schießen",
+    "solve": "Rätsel lösen",
+    "avoid": "Hindernissen ausweichen",
+    "race": "Rennen"
+  }
 }
