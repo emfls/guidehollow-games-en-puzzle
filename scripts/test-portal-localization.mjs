@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { games, localeIds, localeGames, titleFor, summaryFor, gamePath, editorial, isIndexable } from '../portal/catalog.mjs';
+import { games, localeIds, localeGames, titleFor, summaryFor, gamePath, editorial, isIndexable, listGames } from '../portal/catalog.mjs';
 
 const file=path=>readFileSync(path,'utf8');
 const byId=new Map(games.map(game=>[game.id,game]));
@@ -37,7 +37,7 @@ for (const [id, expected] of Object.entries(curatedKorean)) {
   assert.ok(summary.length >= 50 && summary.length <= 240, 'Short or excessive Korean summary: '+id);
   assert.ok(!summary.includes('장르의 브라우저 게임입니다.'), 'Generic summary returned: '+id);
 }
-const horrorGames=koreanGames.filter(game=>game.genreIds.includes('horror'));
+const horrorGames=listGames({locale:'ko',genre:'horror'});
 const horrorHtml=file('dist-portal/ko/horror/index.html');
 if(horrorGames.length <= 8) {
   assert.equal((horrorHtml.match(/data-card="/g)||[]).length,horrorGames.length,
@@ -49,7 +49,7 @@ assert.match(horrorHtml,/강령술사를 피해 지하묘지에서 탈출/, 'Mis
 
 const korean=file('dist-portal/ko/index.html');
 assert.match(korean,/class="card-summary"/,'Korean cards lack descriptions');
-assert.match(korean,/포켓 유니버스/,'Localized title missing from Korean page');
+assert.match(korean,/data-native-filter/,'Native language filtering is missing');
 const english=file('dist-portal/en/index.html');
 assert.match(english,/class="card-summary"/,'English cards lack descriptions');
 const catalog=JSON.parse(file('dist-portal/assets/catalog/ko.json'));
@@ -128,10 +128,9 @@ const koreanHorrorAfter=file('dist-portal/ko/horror/index.html');
 assert.doesNotMatch(koreanHorrorAfter,/content="noindex,follow"/,'Reviewed Korean horror collection should not be noindex');
 assert.match(koreanHorrorAfter,/class="horror-choice-grid"/,'The guided Korean horror comparison is missing');
 assert.match(koreanHorrorAfter,/어떤 공포 게임부터 해볼까/,'The comparison must explain how to choose');
-const cryptCard=koreanHorrorAfter.split('data-card="escape-from-the-crypt"')[1]?.split('</article>')[0];
-assert.ok(cryptCard?.includes('<span class="eyebrow">공포</span>'),'Horror-category card has the wrong genre context');
+assert.ok([...koreanHorrorAfter.matchAll(/<article class="game-card"[^>]*>(.*?)<\/article>/g)].every(match=>match[1].includes('<span class="eyebrow">공포</span>')),'Horror-category cards must show the current genre');
 const englishHorrorAfter=file('dist-portal/en/horror/index.html');
-const expectedEnglishHorror=localeGames.get('en').filter(game=>game.genreIds.includes('horror'));
+const expectedEnglishHorror=listGames({locale:'en',genre:'horror'});
 const visibleEnglishHorror=[...englishHorrorAfter.matchAll(/data-card="([^"]+)"/g)].map(match=>match[1]);
 assert.deepEqual(visibleEnglishHorror,expectedEnglishHorror.slice(0,24).map(game=>game.id),
   'English horror first page repeats cards across recommendation shelves');

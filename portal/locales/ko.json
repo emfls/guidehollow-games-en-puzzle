@@ -84,5 +84,7 @@
     "multiplayer": "멀티플레이",
     "creative": "옷 입히기·창작"
   },
-  "catalogLoadError": "게임 목록을 불러오지 못했습니다. 다시 검색해 주세요."
+  "catalogLoadError": "게임 목록을 불러오지 못했습니다. 다시 검색해 주세요.",
+  "nativeOnly": "한국어 지원만",
+  "catalogNote": "화면은 한국어로 표시됩니다. 게임 내 언어는 카드의 지원 언어를 확인하세요."
 }

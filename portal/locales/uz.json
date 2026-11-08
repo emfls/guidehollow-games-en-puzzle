@@ -84,5 +84,7 @@
     "multiplayer": "Ko‘p o‘yinchili",
     "creative": "Kiyintirish va ijod"
   },
-  "catalogLoadError": "O‘yinlar ro‘yxatini yuklab bo‘lmadi. Qayta qidirib ko‘ring."
+  "catalogLoadError": "O‘yinlar ro‘yxatini yuklab bo‘lmadi. Qayta qidirib ko‘ring.",
+  "nativeOnly": "O‘zbekcha qo‘llov",
+  "catalogNote": "Barcha o‘yinlar ko‘rsatilgan. O‘yin tili har bir kartada yozilgan."
 }

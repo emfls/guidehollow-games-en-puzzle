@@ -84,5 +84,7 @@
     "multiplayer": "多人游戏",
     "creative": "换装与创意"
   },
-  "catalogLoadError": "无法加载游戏列表，请重新搜索。"
+  "catalogLoadError": "无法加载游戏列表，请重新搜索。",
+  "nativeOnly": "仅支持中文",
+  "catalogNote": "这里展示全部游戏。请查看卡片上的游戏支持语言。"
 }

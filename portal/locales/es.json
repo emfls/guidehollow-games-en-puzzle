@@ -84,5 +84,7 @@
     "multiplayer": "Multijugador",
     "creative": "Vestir y creatividad"
   },
-  "catalogLoadError": "No se ha podido cargar la lista de juegos. Intenta buscar de nuevo."
+  "catalogLoadError": "No se ha podido cargar la lista de juegos. Intenta buscar de nuevo.",
+  "nativeOnly": "Con español",
+  "catalogNote": "Aquí aparecen todos los juegos. Consulta el idioma del juego en cada tarjeta."
 }

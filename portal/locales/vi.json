@@ -84,5 +84,7 @@
     "multiplayer": "Nhiều người chơi",
     "creative": "Thời trang và sáng tạo"
   },
-  "catalogLoadError": "Không thể tải danh sách trò chơi. Vui lòng tìm kiếm lại."
+  "catalogLoadError": "Không thể tải danh sách trò chơi. Vui lòng tìm kiếm lại.",
+  "nativeOnly": "Hỗ trợ tiếng Việt",
+  "catalogNote": "Tất cả trò chơi đều có ở đây. Xem ngôn ngữ được hỗ trợ trên từng thẻ."
 }
