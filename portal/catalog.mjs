@@ -9,6 +9,7 @@ export const games = provider.games;
 export const byId = new Map(games.map(game => [game.id, game]));
 export const bySlug = new Map(games.map(game => [game.slug, game]));
 export const curated = new Map(readJson('data/catalog.json').map(game => [game.id, game]));
+const reviewedGuides = readJson('portal/locales/reviewed-guides.json');
 export const preview = process.env.PORTAL_PREVIEW === '1';
 export const localeIds = [...new Set(games.flatMap(game => game.locales))].sort();
 export const copies = new Map(localeIds.map(locale => {
@@ -28,7 +29,7 @@ export const listPath = (locale, genre, page=1) => `/${locale}/${genre ? `${genr
 export function editorial(game, locale) {
   if (!game.locales.includes(locale)) return null;
   const source = curated.get(game.id);
-  const text = locale === 'en' ? source : source?.translations?.[locale];
+  const text = locale === 'en' ? (source || reviewedGuides.en?.[game.id]) : (source?.translations?.[locale] || reviewedGuides[locale]?.[game.id]);
   if (!text?.description || !text?.instructions) return null;
   if (text.description.trim().length < config.minimumGuideCharacters || text.instructions.trim().length < config.minimumGuideCharacters) return null;
   return { title: text.title || game.title, description: text.description, instructions: text.instructions };
@@ -80,7 +81,14 @@ export function listGames(entry) {
 export function isIndexable(entry) {
   if (preview || ['search', '404'].includes(entry.type) || entry.page > 1) return false;
   if (entry.type === 'game') return Boolean(editorial(byId.get(entry.id), entry.locale));
-  if (entry.type === 'genre') return listGames(entry).length >= config.minimumIndexableCollectionGames;
+  if (entry.type === 'genre') {
+    const selected = listGames(entry);
+    if (selected.length >= config.minimumIndexableCollectionGames) return true;
+    // The five-game Korean horror guide is intentionally authored and fully supported.
+    // Keep other undersized collections out of the index until their content is reviewed.
+    return entry.locale === 'ko' && entry.genre === 'horror' && selected.length === 5
+      && selected.every(game => Boolean(editorial(game, 'ko')));
+  }
   return true;
 }
 export function relatedGames(game, locale, limit=6) {
