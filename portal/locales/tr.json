@@ -84,5 +84,7 @@
     "multiplayer": "Çok oyunculu",
     "creative": "Giydirme ve yaratıcılık"
   },
-  "catalogLoadError": "Oyun listesi yüklenemedi. Lütfen yeniden aramayı deneyin."
+  "catalogLoadError": "Oyun listesi yüklenemedi. Lütfen yeniden aramayı deneyin.",
+  "nativeOnly": "Türkçe destekli",
+  "catalogNote": "Tüm oyunlar burada. Desteklenen oyun dili her kartta belirtilir."
 }

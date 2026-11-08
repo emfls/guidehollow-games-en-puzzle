@@ -279,7 +279,7 @@ async function main() {
   assert.ok(game, 'Need a curated English game with the normal provider embed host');
   const otherEnglish = runtimeGames.find(item => item.id !== game.id && item.locales.includes('en'));
   const gamePath = '/en/play/' + game.slug + '/';
-  const en = catalogFor('en').data, ko = catalogFor('ko').data;
+  const en = catalogFor('en').data, ko = catalogFor('ko').data.filter(game=>game.native);
   assert.ok(en.length > 48 && ko.length > 48, 'Need real paginated English and Korean catalogs');
   const englishOnly = en.find(item => !runtimeById.get(item.id)?.locales.includes('ko'));
   assert.ok(englishOnly, 'Need an English-only fixture to test Korean native-language filtering');
@@ -489,14 +489,14 @@ async function main() {
     const requests = report.network.mockedFetches.slice(beforeFetch);
     equal(context, requests.length, 1, 'Search input and More reuse one fetched catalog');
     equal(context, new URL(requests[0].url).pathname, '/assets/catalog/en.json', 'English search requests its own local catalog');
-    check(context, en.every(item => runtimeById.get(item.id)?.locales.includes('en')), 'Every English search record has native English support');
-    same(context, en.map(item => item.id).sort(), runtimeGames.filter(item => item.locales.includes('en')).map(item => item.id).sort(), 'English search data includes every native-supported game');
+    check(context, en.every(item => item.native === runtimeById.get(item.id)?.locales.includes('en')), 'Every English search record accurately declares native support');
+    same(context, en.map(item => item.id).sort(), runtimeGames.map(item => item.id).sort(), 'English UI includes the complete provider catalog');
     context.result.details = { totalCatalogGames: en.length, deepSearchGameId: target.id, deepSearchIndex: en.indexOf(target) };
   });
 
   await test('Korean search: own catalog, native-only results, final pagination and deep search', async context => {
     const beforeFetch = report.network.mockedFetches.length;
-    const page = openPage(context, '/ko/search/');
+    const page = openPage(context, '/ko/search/?native=1');
     await searchReady(page, 24);
     favoritesLinkName(context, page, 0);
     for (const card of searchCards(page).slice(0, 2)) {
@@ -521,7 +521,7 @@ async function main() {
 
   await test('Korean saved view: excludes unsupported saved games and updates after removal', async context => {
     const chosen = [ko[0], ko.at(-1)];
-    const page = openPage(context, '/ko/search/?view=favorites', {
+    const page = openPage(context, '/ko/search/?view=favorites&native=1', {
       [storageKeys.favorites]: JSON.stringify([englishOnly.id, ...chosen.map(item => item.id)])
     });
     await searchReady(page, 2);
@@ -540,7 +540,7 @@ async function main() {
 
   await test('Korean recent view: preserves played order while excluding unsupported games', async context => {
     const ordered = [ko.at(-1).id, ko[0].id];
-    const page = openPage(context, '/ko/search/?view=recent', {
+    const page = openPage(context, '/ko/search/?view=recent&native=1', {
       [storageKeys.recent]: JSON.stringify([englishOnly.id, ...ordered])
     });
     await searchReady(page, 2);
@@ -578,7 +578,7 @@ async function main() {
 
   await test('cross-tab recent storage: StorageEvent refreshes order and native-language filtering', async context => {
     const first = ko[0].id, last = ko.at(-1).id;
-    const page = openPage(context, '/ko/search/?view=recent', {
+    const page = openPage(context, '/ko/search/?view=recent&native=1', {
       [storageKeys.recent]: JSON.stringify([first, last])
     });
     await searchReady(page, 2);
@@ -595,6 +595,45 @@ async function main() {
     equal(context, searchCards(page).length, 0, 'StorageEvent clears stale recent cards');
     equal(context, required(page.document, '[data-search-heading]').textContent, page.config.copy.recent,
       'Recent heading remains localized after storage refresh');
+  });
+
+  await test('global home: full catalog, support filter, last native page and browser Back', async context => {
+    const page=openPage(context,'/ko/');
+    equal(context,page.document.querySelectorAll('#collection [data-card]').length,24,'Global home renders its first 24 cards without a fetch');
+    check(context,required(page.document,'[data-range]').textContent.includes('2,846'),'Global range exposes the full catalog count');
+    click(required(page.document,'[data-native-filter="native"]'),page.window);
+    await until(()=>required(page.document,'[data-native-filter="native"]').getAttribute('aria-pressed')==='true','native filter to finish');
+    equal(context,required(page.document,'[data-range]').textContent,'1–24 / 165','Native filter retains the separately measured 165 games');
+    check(context,Array.from(page.document.querySelectorAll('[data-catalog-grid] [data-card]')).every(card=>card.dataset.native==='true'),'Native filter excludes unsupported games');
+    click(required(page.document,'[data-native-page="7"]'),page.window);
+    await until(()=>required(page.document,'[data-range]').textContent==='145–165 / 165','last native page to finish');
+    equal(context,page.document.querySelectorAll('[data-catalog-grid] [data-card]').length,21,'Last native page contains exactly the remaining games');
+    check(context,required(page.document,'.pagination [aria-current="page"]').href.includes('page=7'),'Native pagination retains its current page');
+    click(required(page.document,'[data-native-filter="all"]'),page.window);
+    await until(()=>required(page.document,'[data-range]').textContent==='1–24 / 2,846','all games to return');
+    equal(context,new URL(page.window.location.href).search,'','Returning to all games clears native paging');
+    page.window.history.back();
+    await until(()=>required(page.document,'[data-range]').textContent==='145–165 / 165','Back to restore native scope and page');
+  });
+  await test('global Korean search and saved view retain non-Korean games with valid fallback routes', async context => {
+    const page=openPage(context,'/ko/search/?view=favorites',{[storageKeys.favorites]:JSON.stringify([englishOnly.id])});
+    await searchReady(page,1);
+    equal(context,searchIds(page)[0],englishOnly.id,'A saved English game remains accessible from the Korean UI');
+    equal(context,required(page.document,'[data-search-results] a').getAttribute('href'),catalogFor('ko').data.find(game=>game.id===englishOnly.id).path,'Cross-language card uses the actual supported detail route');
+    check(context,Boolean(required(page.document,'.game-language').textContent),'Fallback card announces its game language');
+    click(required(page.document,'[data-native-filter="native"]'),page.window);
+    await until(()=>searchCards(page).length===0,'native filter to exclude the English saved game');
+    same(context,stored(page,'favorites'),[englishOnly.id],'Support filtering preserves saved history');
+  });
+
+  await test('native filter: unsupported genre has an explicit empty state', async context => {
+    const page=openPage(context,'/az/sports/?native=1');
+    await until(()=>required(page.document,'[data-range]').textContent==='0 / 0','zero-supported genre to finish');
+    equal(context,page.document.querySelectorAll('[data-catalog-grid] [data-card]').length,0,'No unsupported game is shown in the native filter');
+    equal(context,required(page.document,'[data-catalog-pagination]').childElementCount,0,'Empty filter has no invented page number');
+    check(context,Boolean(required(page.document,'.catalog-empty').textContent),'Empty filter explains that no matching game exists');
+    click(required(page.document,'[data-native-filter="all"]'),page.window);
+    await until(()=>required(page.document,'[data-range]').textContent==='1–24 / 85','global games to return from the empty native filter');
   });
 
   await test('fullscreen fallback and clipboard sharing', async context => {

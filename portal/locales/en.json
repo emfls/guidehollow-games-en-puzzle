@@ -84,5 +84,7 @@
     "multiplayer": "Multiplayer",
     "creative": "Dress up & creative"
   },
-  "catalogLoadError": "The game list could not be loaded. Please try searching again."
+  "catalogLoadError": "The game list could not be loaded. Please try searching again.",
+  "nativeOnly": "English supported",
+  "catalogNote": "Browse every game here. The language on each card is a supported in-game language."
 }

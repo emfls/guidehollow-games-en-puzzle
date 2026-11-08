@@ -34,6 +34,8 @@ jobs:
       - run: npm ci
       - name: Build and verify every language and game
         run: npm run build
+      - name: Check complete discovery and supported detail routes
+        run: node scripts/test-portal-discovery.mjs
       - name: Validate localized game titles and card summaries
         run: node scripts/test-portal-localization.mjs
       - name: Test actual client DOM interactions without external requests

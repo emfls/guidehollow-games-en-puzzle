@@ -128,7 +128,7 @@ async function verify() {
   if (!existsSync(dist)) throw new Error('Build directory does not exist: ' + dist);
   const catalog = await import('../portal/catalog.mjs');
   const { config, groups, games, byId, localeIds, copies, localeGames, collections, editorial, titleFor,
-    isIndexable, allRoutes, routeFile, alternatives, preview, provider } = catalog;
+    isIndexable, allRoutes, routeFile, alternatives, preview, provider, listGames, gamePath } = catalog;
   const { buildFingerprint } = await import('../portal/assets.mjs');
   const origin = new URL(config.origin);
   expect(origin.protocol === 'https:' && origin.hostname === 'games.guidehollow.com' &&
@@ -335,7 +335,7 @@ async function verify() {
         expect(ids.has(decodeURIComponent(target.url.hash.slice(1))), 'fragment-link', file, 'Missing local fragment: ' + target.url.hash);
       }
       if (tag.name === 'a' && target?.entry?.type === 'game' && !tag.attrs.lang) {
-        expect(target.entry.locale === entry.locale, 'same-language-game-link', file, 'A game card/related link changes language.');
+        expect(target.url.pathname === gamePath(entry.locale,byId.get(target.entry.id)), 'supported-game-link', file, 'A game card must preserve UI language when supported or use its declared fallback language.');
       }
       if (tag.name === 'a' && tag.attrs.lang && target?.entry) {
         expect(tag.attrs.lang === target.entry.locale, 'language-switch', file, 'Language label and target route disagree.');
@@ -348,7 +348,7 @@ async function verify() {
       }
     }
     const navs = blocks(html, 'nav');
-    const genrePaths = groups.filter(group => collections.get(entry.locale).get(group.id).length > 0)
+    const genrePaths = groups.filter(group => games.some(game => game.genreIds.includes(group.id)))
       .map(group => '/' + entry.locale + '/' + group.id + '/');
     for (const [className, expected] of [['portal-genres', ['/' + entry.locale + '/', ...genrePaths]], ['footer-genres', genrePaths]]) {
       const matches = navs.filter(nav => classHas(nav.attrs, className));
@@ -399,7 +399,7 @@ async function verify() {
       if (isIndexable(entry)) { report.indexableGameCounts.total++; increment(report.indexableGameCounts.byLocale, entry.locale); }
     }
     if (['language', 'genre'].includes(entry.type)) {
-      const list = entry.genre ? collections.get(entry.locale).get(entry.genre) : localeGames.get(entry.locale);
+      const list = listGames(entry);
       const page = entry.page || 1, pages = Math.ceil(list.length / config.pageSize);
       const bin = entry.locale + '/' + (entry.genre || '');
       if (!listingBins.has(bin)) listingBins.set(bin, []);
@@ -431,7 +431,7 @@ async function verify() {
   }
   for (const [bin, pages] of listingBins) {
     const [locale, genre] = bin.split('/');
-    const total = genre ? collections.get(locale).get(genre).length : localeGames.get(locale).length;
+    const total = listGames({locale,genre}).length;
     const expected = Array.from({ length: Math.ceil(total / config.pageSize) }, (_, index) => index + 1);
     expect(eqSet(pages, expected), 'pagination-coverage', bin, 'Listing pages do not cover the complete collection.');
   }
@@ -447,12 +447,12 @@ async function verify() {
     const path = 'assets/catalog/' + locale + '.json';
     const data = readJson(resolve(dist, path), path);
     if (!expect(Array.isArray(data), 'search-catalog', path, 'Search data must be an array.')) continue;
-    expect(eqSet(data.map(item => item.id), localeGames.get(locale).map(game => game.id)),
-      'search-coverage', path, 'Search data must include every native game exactly once.');
+    expect(eqSet(data.map(item => item.id), games.map(game => game.id)),
+      'search-coverage', path, 'Search data must include the complete provider catalog exactly once.');
     for (const item of data) {
       const game = byId.get(item.id);
       if (!game) continue;
-      expect(item.path === '/' + locale + '/play/' + game.slug + '/' && item.thumbnail === game.thumbnail &&
+      expect(item.path === gamePath(locale,game) && item.native === game.locales.includes(locale) && item.thumbnail === game.thumbnail &&
         eqSet(item.genres || [], game.genreIds), 'search-entry', path + ':' + item.id, 'Search metadata/path differs from the game.');
       resolveLink(item.path, origin, path);
     }

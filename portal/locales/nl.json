@@ -84,5 +84,7 @@
     "multiplayer": "Multiplayer",
     "creative": "Aankleden en creativiteit"
   },
-  "catalogLoadError": "De spellenlijst kon niet worden geladen. Probeer opnieuw te zoeken."
+  "catalogLoadError": "De spellenlijst kon niet worden geladen. Probeer opnieuw te zoeken.",
+  "nativeOnly": "Met Nederlands",
+  "catalogNote": "Hier staan alle spellen. De ondersteunde speltaal staat op elke kaart."
 }

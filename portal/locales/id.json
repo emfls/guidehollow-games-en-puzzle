@@ -84,5 +84,7 @@
     "multiplayer": "Multipemain",
     "creative": "Berdandan dan berkreasi"
   },
-  "catalogLoadError": "Daftar game tidak dapat dimuat. Silakan coba mencari lagi."
+  "catalogLoadError": "Daftar game tidak dapat dimuat. Silakan coba mencari lagi.",
+  "nativeOnly": "Mendukung Indonesia",
+  "catalogNote": "Semua game ditampilkan. Lihat bahasa yang didukung pada setiap kartu."
 }

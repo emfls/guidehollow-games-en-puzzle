@@ -84,5 +84,7 @@
     "multiplayer": "Wieloosobowe",
     "creative": "Ubieranki i kreatywność"
   },
-  "catalogLoadError": "Nie udało się wczytać listy gier. Spróbuj wyszukać ponownie."
+  "catalogLoadError": "Nie udało się wczytać listy gier. Spróbuj wyszukać ponownie.",
+  "nativeOnly": "Z językiem polskim",
+  "catalogNote": "Tutaj są wszystkie gry. Obsługiwany język gry znajdziesz na karcie."
 }

@@ -84,5 +84,7 @@
     "multiplayer": "Mehrspieler",
     "creative": "Ankleiden und Kreativität"
   },
-  "catalogLoadError": "Die Spieleliste konnte nicht geladen werden. Bitte suche erneut."
+  "catalogLoadError": "Die Spieleliste konnte nicht geladen werden. Bitte suche erneut.",
+  "nativeOnly": "Mit Deutsch",
+  "catalogNote": "Hier findest du alle Spiele. Die unterstützte Spielsprache steht auf der Karte."
 }

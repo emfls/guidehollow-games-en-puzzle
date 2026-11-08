@@ -84,5 +84,7 @@
     "multiplayer": "Multijoueur",
     "creative": "Habillage et créativité"
   },
-  "catalogLoadError": "Impossible de charger la liste des jeux. Veuillez relancer la recherche."
+  "catalogLoadError": "Impossible de charger la liste des jeux. Veuillez relancer la recherche.",
+  "nativeOnly": "Avec français",
+  "catalogNote": "Tous les jeux sont affichés. La langue prise en charge figure sur chaque carte."
 }

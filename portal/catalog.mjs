@@ -19,12 +19,14 @@ export const copies = new Map(localeIds.map(locale => {
 }));
 export const localeGames = new Map(localeIds.map(locale => [locale, games.filter(game => game.locales.includes(locale))]));
 export const collections = new Map(localeIds.map(locale => [locale, new Map(groups.map(group => [group.id, localeGames.get(locale).filter(game => game.genreIds.includes(group.id))]))]));
+export const allCollections = new Map(groups.map(group => [group.id, games.filter(game => game.genreIds.includes(group.id))]));
 const legacySites = readJson('data/sites.json').filter(site => site.locale === 'en');
 export const recommendations = new Map(legacySites.map(site => [site.genre, site.gameIds]));
 export const recommendationsAll = [...new Set(Array.from({length: Math.max(...legacySites.map(site => site.gameIds.length))}, (_, index) => legacySites.map(site => site.gameIds[index]).filter(Boolean)).flat())];
 export const format = (text, values={}) => String(text).replace(/\{(\w+)\}/g, (_, key) => values[key] ?? `{${key}}`);
 export const urlFor = path => new URL(path, config.origin).href;
-export const gamePath = (locale, game) => `/${locale}/play/${game.slug}/`;
+export const playLocale = (locale, game) => game.locales.includes(locale) ? locale : game.locales.includes('en') ? 'en' : game.locales[0];
+export const gamePath = (locale, game) => `/${playLocale(locale,game)}/play/${game.slug}/`;
 export const listPath = (locale, genre, page=1) => `/${locale}/${genre ? `${genre}/` : ''}${page > 1 ? `page/${page}/` : ''}`;
 export function editorial(game, locale) {
   if (!game.locales.includes(locale)) return null;
@@ -43,6 +45,8 @@ function translateCommonTitle(source, locale) {
     const pattern = '(?<![A-Za-z0-9])' + word.replaceAll(' ', '\\s+') + '(?![A-Za-z0-9])';
     title = title.replace(new RegExp(pattern, 'gi'), words[word]);
   }
+  // Preserve the source name when the glossary cannot produce a complete translation.
+  if (['ko','ja','zh'].includes(locale) && /[A-Za-z]{2,}/.test(title)) return source;
   return title;
 }
 export const titleFor = (game, locale) => {
@@ -60,7 +64,7 @@ export const summaryFor = (game, locale) => {
   const manual = localizedMetadata.summaries?.[locale]?.[game.id];
   if (manual) return manual;
   const guide = editorial(game, locale);
-  const original = guide?.description || (locale === 'en' ? game.description : '');
+  const original = guide?.description || (locale === 'en' || !game.locales.includes(locale) ? game.description : '');
   if (original) {
     const plain = original.replace(/<[^>]+>/g, ' ').replace(/\s+/g,' ').trim();
     const sentence = plain.match(/^.{20,160}?[.!?。！？](?=\s|$)/u)?.[0];
@@ -76,13 +80,13 @@ export const genreIntroFor = (locale, genre, count) =>
   format(localizedMetadata.genreIntros?.[locale]?.[genre] || copies.get(locale).genreDescription, {count});
 export const launchLanguageNoticeFor = locale => localizedMetadata.launchLanguageNotices?.[locale] || localizedMetadata.launchLanguageNotices.en;
 export function listGames(entry) {
-  return entry.genre ? collections.get(entry.locale).get(entry.genre) : localeGames.get(entry.locale);
+  return entry.genre ? allCollections.get(entry.genre) : games;
 }
 export function isIndexable(entry) {
   if (preview || ['search', '404'].includes(entry.type) || entry.page > 1) return false;
   if (entry.type === 'game') return Boolean(editorial(byId.get(entry.id), entry.locale));
   if (entry.type === 'genre') {
-    const selected = listGames(entry);
+    const selected = collections.get(entry.locale).get(entry.genre);
     if (selected.length >= config.minimumIndexableCollectionGames) return true;
     // The five-game Korean horror guide is intentionally authored and fully supported.
     // Keep other undersized collections out of the index until their content is reviewed.
@@ -113,7 +117,7 @@ export function counterpart(entry, locale) {
     return game.locales.includes(locale) ? { ...entry, locale, path: gamePath(locale, game) } : null;
   }
   if (entry.type === 'genre') {
-    const count = collections.get(locale).get(entry.genre).length;
+    const count = allCollections.get(entry.genre).length;
     if (!count) return null;
     const page = Math.min(entry.page || 1, Math.ceil(count/config.pageSize));
     return { ...entry, locale, page, path: listPath(locale, entry.genre, page) };
@@ -128,14 +132,14 @@ export function alternatives(entry, indexableOnly=false) {
 export function allRoutes() {
   const routes = [{ type:'selector', locale:'en', path:'/' }];
   for (const locale of localeIds) {
-    const all = localeGames.get(locale);
+    const all = games;
     for (let page=1;page<=Math.ceil(all.length/config.pageSize);page++) routes.push({type:'language',locale,page,path:listPath(locale,null,page)});
     for (const group of groups) {
-      const selected = collections.get(locale).get(group.id);
+      const selected = allCollections.get(group.id);
       for (let page=1;page<=Math.ceil(selected.length/config.pageSize);page++) routes.push({type:'genre',locale,genre:group.id,page,path:listPath(locale,group.id,page)});
     }
     for (const type of ['about','privacy','search']) routes.push({type,locale,path:`/${locale}/${type}/`});
-    for (const game of all) routes.push({type:'game',locale,id:game.id,path:gamePath(locale,game)});
+    for (const game of localeGames.get(locale)) routes.push({type:'game',locale,id:game.id,path:gamePath(locale,game)});
   }
   if (new Set(routes.map(route => route.path)).size !== routes.length) throw new Error('Duplicate portal route');
   return routes;

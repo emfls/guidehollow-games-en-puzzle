@@ -49,7 +49,7 @@
   document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;const menu=menus.find(menu=>menu.open);if(menu){menu.open=false;$('summary',menu)?.focus();return;}if(frame&&!document.fullscreenElement)closeGame();});
   addEventListener('pagehide',()=>closeGame(false));
 
-  // Search data is fetched only on the search utility page, never on every game page.
+  // Catalog data is fetched for search or an explicit support filter, never on game detail pages.
   const normalize=text=>String(text||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase(config.locale);
   let catalogPromise=null,searchVersion=0,visibleResults=[],shown=0;
   function searchCatalog(){return catalogPromise ||= fetch(`/assets/catalog/${config.locale}.json`).then(response=>{if(!response.ok)throw new Error('Catalog request failed');return response.json();}).then(data=>{if(!Array.isArray(data))throw new Error('Invalid catalog data');return data;}).catch(error=>{catalogPromise=null;throw error;});}
@@ -59,10 +59,10 @@
     const path=document.createElementNS(namespace,'path');path.setAttribute('d',name==='heart'?'M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z':'M4 12h16m-6-6 6 6-6 6');svg.append(path);return svg;
   }
   function searchCard(game){
-    const article=document.createElement('article');article.className='game-card';article.dataset.card=game.id;
+    const article=document.createElement('article');article.className='game-card';article.dataset.card=game.id;article.dataset.native=String(game.native);
     const link=document.createElement('a');link.className='card-link';link.href=game.path;
     const art=document.createElement('span');art.className='game-art';const image=document.createElement('img');image.src=game.thumbnail;image.alt=game.title;image.width=720;image.height=480;image.loading='lazy';image.decoding='async';image.dataset.gameImage='';art.append(image);
-    const text=document.createElement('div');text.className='card-copy';const genre=document.createElement('span');genre.className='eyebrow';genre.textContent=config.genreNames[game.genres[0]]||'';const title=document.createElement('h3');title.textContent=game.title;const summary=document.createElement('p');summary.className='card-summary';summary.textContent=game.summary||'';const action=document.createElement('span');action.className='card-action';action.append(document.createTextNode(copy.play+' '),cardIcon('arrow'));text.append(genre,title,summary,action);link.append(art,text);
+    const text=document.createElement('div');text.className='card-copy';const genre=document.createElement('span');genre.className='eyebrow';genre.textContent=config.genreNames[config.listing?.genre||game.genres[0]]||'';const title=document.createElement('h3');title.textContent=game.title;const summary=document.createElement('p');summary.className='card-summary';summary.textContent=game.summary||'';const action=document.createElement('span');action.className='card-action';action.append(document.createTextNode(copy.play+' '),cardIcon('arrow'));const language=document.createElement('span');language.className='game-language';language.textContent=game.language||'';text.append(genre,title,summary,language,action);link.append(art,text);
     const save=document.createElement('button');save.type='button';save.className='favorite-button';save.dataset.favorite=game.id;save.dataset.gameTitle=game.title;const saveText=document.createElement('span');saveText.className='favorite-text';saveText.textContent=copy.save;save.append(cardIcon('heart'),saveText);save.setAttribute('aria-label',copy.save);article.append(link,save);return article;
   }
   function showMore(){const grid=$('[data-search-results]');if(!grid)return;const fragment=document.createDocumentFragment();for(const game of visibleResults.slice(shown,shown+24))fragment.append(searchCard(game));shown+=24;grid.append(fragment);const button=$('[data-more-results]');if(button)button.hidden=shown>=visibleResults.length;updateFavorites();watchImages(grid);}
@@ -73,11 +73,50 @@
     $$('.search-views a').forEach(link=>{const target=new URL(link.href).searchParams.get('view')||'all';if(target===view)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
     try{
       const catalog=await searchCatalog();if(version!==searchVersion)return;
-      const term=normalize(query.trim());visibleResults=catalog.filter(game=>(!term||normalize([game.title,game.originalTitle,game.summary,...game.genres.map(genre=>config.genreNames[genre])].join(' ')).includes(term))&&(view!=='favorites'||favorites.has(game.id))&&(view!=='recent'||recent.includes(game.id)));
+      syncFilters(params.get('native')==='1',catalog);
+      const term=normalize(query.trim());visibleResults=catalog.filter(game=>(params.get('native')!=='1'||game.native)&&(!term||normalize([game.title,game.originalTitle,game.summary,...game.genres.map(genre=>config.genreNames[genre])].join(' ')).includes(term))&&(view!=='favorites'||favorites.has(game.id))&&(view!=='recent'||recent.includes(game.id)));
       if(view==='recent')visibleResults.sort((a,b)=>recent.indexOf(a.id)-recent.indexOf(b.id));
-      status.textContent=visibleResults.length?copy.gameCount.replace('{count}',visibleResults.length):`${copy.noResults}. ${copy.noResultsText}`;shown=0;$('[data-search-results]').replaceChildren();showMore();
+      status.textContent=visibleResults.length?copy.gameCount.replace('{count}',new Intl.NumberFormat(config.locale).format(visibleResults.length)):`${copy.noResults}. ${copy.noResultsText}`;shown=0;$('[data-search-results]').replaceChildren();showMore();
     }catch{if(version!==searchVersion)return;status.textContent=copy.catalogLoadError;visibleResults=[];shown=0;$('[data-search-results]').replaceChildren();$('[data-more-results]').hidden=true;}
   }
+  function syncFilters(native,catalog){
+    $$('[data-native-filter]').forEach(button=>button.setAttribute('aria-pressed',String((button.dataset.nativeFilter==='native')===native)));
+    $$('.portal-genres a,.footer-genres a,.search-views a').forEach(link=>{const url=new URL(link.href);if(native)url.searchParams.set('native','1');else url.searchParams.delete('native');link.href=url;const count=$('.genre-nav-count',link),genre=url.pathname.split('/')[2];if(count&&catalog)count.textContent=new Intl.NumberFormat(config.locale).format(catalog.filter(game=>game.genres.includes(genre)&&(!native||game.native)).length);});
+  }
+  async function runListing(){
+    const params=new URLSearchParams(location.search),native=params.get('native')==='1',version=++searchVersion;
+    const error=$('[data-catalog-error]');error.hidden=true;
+    try{
+      const catalog=await searchCatalog();if(version!==searchVersion)return;
+      const selected=catalog.filter(game=>(!config.listing.genre||game.genres.includes(config.listing.genre))&&(!native||game.native));
+      const pages=Math.ceil(selected.length/24),requested=Number(native?params.get('page')||1:location.pathname.match(/\/page\/(\d+)\//)?.[1]||1);
+      const page=Math.max(1,Math.min(Number.isSafeInteger(requested)?requested:1,pages||1));
+      const grid=$('[data-catalog-grid]'),fragment=document.createDocumentFragment();
+      for(const game of selected.slice((page-1)*24,page*24))fragment.append(searchCard(game));
+      if(!selected.length){const empty=document.createElement('p');empty.className='catalog-empty';empty.textContent=copy.noResults;fragment.append(empty);}
+      grid.replaceChildren(fragment);grid.dataset.count=String(Math.min(24,selected.length-(page-1)*24));
+      const number=n=>new Intl.NumberFormat(config.locale).format(n);
+      $('[data-range]').textContent=selected.length?`${number((page-1)*24+1)}–${number(Math.min(page*24,selected.length))} / ${number(selected.length)}`:'0 / 0';
+      const path=n=>native?`${config.listing.basePath}?native=1&page=${n}`:config.listing.basePath+(n>1?`page/${n}/`:'');
+      const nav=document.createElement('nav');nav.className='pagination';nav.setAttribute('aria-label',copy.pageOf.replace('{page}',page).replace('{pages}',pages));
+      const link=(n,label,rel)=>{const a=document.createElement('a');a.href=path(n);a.textContent=label;if(native)a.dataset.nativePage=String(n);if(rel)a.rel=rel;else{a.setAttribute('aria-label',copy.pageOf.replace('{page}',n).replace('{pages}',pages));if(n===page)a.setAttribute('aria-current','page');}nav.append(a);};
+      if(page>1)link(page-1,copy.previous,'prev');
+      const start=Math.max(1,Math.min(page-2,pages-4)),numbers=[...new Set([1,...Array.from({length:Math.min(5,pages)},(_,i)=>start+i),pages])].filter(n=>n>0).sort((a,b)=>a-b);
+      numbers.forEach((n,i)=>{if(i&&n-numbers[i-1]>1){const gap=document.createElement('span');gap.className='page-gap';gap.setAttribute('aria-hidden','true');gap.textContent='…';nav.append(gap);}link(n,String(n));});
+      if(page<pages)link(page+1,copy.next,'next');
+      const pagination=$('[data-catalog-pagination]');pagination.replaceChildren();
+      if(pages>1){const counter=document.createElement('p');counter.className='page-counter';counter.textContent=copy.pageOf.replace('{page}',page).replace('{pages}',pages);pagination.append(nav,counter);}
+      syncFilters(native,catalog);updateFavorites();watchImages(grid);
+    }catch{if(version===searchVersion){error.textContent=copy.catalogLoadError;error.hidden=false;}}
+  }
+  $$('[data-native-filter]').forEach(button=>button.addEventListener('click',()=>{
+    const url=new URL(config.listing?config.listing.basePath:location.href,location.origin);
+    if(button.dataset.nativeFilter==='native')url.searchParams.set('native','1');else url.searchParams.delete('native');
+    url.searchParams.delete('page');history.pushState(null,'',url);if(config.listing)runListing();else runSearch();
+  }));
+  $('[data-catalog-pagination]')?.addEventListener('click',event=>{const link=event.target.closest('[data-native-page]');if(!link)return;event.preventDefault();history.pushState(null,'',link.href);runListing();});
+  addEventListener('popstate',()=>{if(config.listing)runListing();else if(config.type==='search')runSearch();});
+  if(config.listing&&new URLSearchParams(location.search).get('native')==='1')runListing();
   if(config.type==='search'){
     let timer;const input=$('#site-search');
     const update=()=>{const url=new URL(location.href);if(input.value.trim())url.searchParams.set('q',input.value.trim());else url.searchParams.delete('q');history.replaceState(null,'',url);runSearch();};

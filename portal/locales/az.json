@@ -84,5 +84,7 @@
     "multiplayer": "Çoxoyunçulu",
     "creative": "Geyindirmə və yaradıcılıq"
   },
-  "catalogLoadError": "Oyun siyahısı yüklənmədi. Yenidən axtarmağa cəhd edin."
+  "catalogLoadError": "Oyun siyahısı yüklənmədi. Yenidən axtarmağa cəhd edin.",
+  "nativeOnly": "Azərbaycanca dəstək",
+  "catalogNote": "Bütün oyunlar göstərilir. Oyunun dəstəklədiyi dil kartda qeyd olunur."
 }

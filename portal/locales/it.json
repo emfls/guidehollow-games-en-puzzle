@@ -84,5 +84,7 @@
     "multiplayer": "Multigiocatore",
     "creative": "Moda e creatività"
   },
-  "catalogLoadError": "Impossibile caricare l’elenco dei giochi. Prova a cercare di nuovo."
+  "catalogLoadError": "Impossibile caricare l’elenco dei giochi. Prova a cercare di nuovo.",
+  "nativeOnly": "Con italiano",
+  "catalogNote": "Qui trovi tutti i giochi. La lingua supportata è indicata su ogni scheda."
 }
