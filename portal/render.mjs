@@ -72,12 +72,12 @@ function horrorQuickGuide(entry) {
   const expected=['escape-from-the-crypt','doodle-halloween-momo-cat--sea-magic','madness-online','crush-hour','1-zombie-survival'];
   if (selected.length!==5 || !expected.every(id=>selected.some(game=>game.id===id && editorial(game,'ko')))) return '';
   const options=[
-    {heading:'생각하며 탈출하는 퍼즐',text:'강령술사가 따라올 길을 계산하고 장애물을 이용해 탈출해야 해.',ids:['escape-from-the-crypt']},
-    {heading:'문양을 그리는 반응형',text:'다가오는 유령의 기호를 보고 손가락이나 마우스로 빠르게 그려 물리쳐.',ids:['doodle-halloween-momo-cat--sea-magic']},
-    {heading:'좀비와 오래 버티는 생존형',text:'사격·회피·자원 수집이나 거점 방어가 중심이라 비교적 긴 플레이에 적합해.',ids:['madness-online','1-zombie-survival']},
-    {heading:'순간 판단이 필요한 러너',text:'자동으로 달리는 트럭의 차선을 바꾸고 연료와 충돌을 관리하며 기록에 도전해.',ids:['crush-hour']}
+    {heading:'생각하며 탈출하는 퍼즐',text:'강령술사가 따라올 길을 계산하고 장애물을 이용해 탈출합니다.',ids:['escape-from-the-crypt']},
+    {heading:'문양을 그리는 반응형',text:'다가오는 유령의 기호를 손가락이나 마우스로 빠르게 그려 물리칩니다.',ids:['doodle-halloween-momo-cat--sea-magic']},
+    {heading:'좀비와 오래 버티는 생존형',text:'사격·회피·자원 수집과 거점 방어가 중심이어서 비교적 긴 플레이에 적합합니다.',ids:['madness-online','1-zombie-survival']},
+    {heading:'순간 판단이 필요한 러너',text:'자동으로 달리는 트럭의 차선을 바꾸고 연료와 충돌을 관리하며 기록에 도전합니다.',ids:['crush-hour']}
   ];
-  return `<section class="portal-section horror-choice" aria-label="공포 게임 선택 안내"><div class="section-heading"><div><h2>어떤 공포 게임부터 해볼까?</h2><p class="section-note">공포라는 장르는 같아도 목표와 조작 방식이 달라. 원하는 플레이 방식으로 골라봐.</p></div></div><div class="horror-choice-grid">${options.map(option=>`<div class="horror-choice-item"><h3>${escape(option.heading)}</h3><p>${escape(option.text)}</p><div class="horror-choice-links">${option.ids.map(id=>{const game=byId.get(id);return `<a href="${gamePath('ko',game)}">${escape(titleFor(game,'ko'))} ${icon('arrow')}</a>`}).join('')}</div></div>`).join('')}</div></section>`;
+  return `<section class="portal-section horror-choice" aria-label="공포 게임 선택 안내"><div class="section-heading"><div><h2>어떤 공포 게임부터 해볼까?</h2><p class="section-note">공포 장르라도 게임마다 목표와 조작 방식이 다릅니다. 원하는 플레이 방식으로 골라보세요.</p></div></div><div class="horror-choice-grid">${options.map(option=>`<div class="horror-choice-item"><h3>${escape(option.heading)}</h3><p>${escape(option.text)}</p><div class="horror-choice-links">${option.ids.map(id=>{const game=byId.get(id);return `<a href="${gamePath('ko',game)}">${escape(titleFor(game,'ko'))} ${icon('arrow')}</a>`}).join('')}</div></div>`).join('')}</div></section>`;
 }
 function listing(entry) {
   const copy=ui(entry), all=listGames(entry),page=entry.page || 1, selected=all.slice((page-1)*config.pageSize,page*config.pageSize);
