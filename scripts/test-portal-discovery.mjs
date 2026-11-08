@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { JSDOM } from 'jsdom';
-import { games, localeGames, listGames, gamePath, allRoutes, config, titleFor } from '../portal/catalog.mjs';
+import { games, localeGames, listGames, gamePath, allRoutes, config, titleFor, isIndexable, localeIds } from '../portal/catalog.mjs';
 import { renderPortal } from '../portal/render.mjs';
 
 const partial={id:'unreviewed-title-fixture',title:'Build And Run',locales:['en']};
@@ -23,4 +23,24 @@ assert.ok(document.querySelector('[data-native-filter]'),'Native support must be
 assert.ok(document.querySelector('[data-range]')?.textContent.includes(new Intl.NumberFormat('ko').format(games.length)),'Show the current item range and total');
 const chooser=new JSDOM(renderPortal({type:'selector',locale:'en',path:'/'})).window.document;
 assert.doesNotMatch(chooser.body.textContent,/Each collection includes only games/,'Language selection must not imply native support for the whole global catalog');
+const horror=new JSDOM(renderPortal({type:'genre',locale:'ko',genre:'horror',page:1,path:'/ko/horror/'})).window.document;
+assert.equal(horror.title,'공포 게임 무료 플레이 | GuideHollow Games','Genre titles should describe the game collection');
+assert.ok(document.querySelector('.guide-links a'),'Home should introduce the authored guides');
+assert.equal(new JSDOM(renderPortal({...entry,page:2,path:'/ko/page/2/'})).window.document.querySelector('.guide-links'),null,'Do not repeat the guide directory on every paginated page');
+const indexed=allRoutes().filter(isIndexable);
+const graph=new Map(indexed.map(route=>[route.path,[...renderPortal(route).matchAll(/<a\b[^>]*href="(\/[^"?#]*)"/g)].map(match=>match[1])]));
+let reachableGuides=0;
+for(const locale of localeIds){
+  const home=`/${locale}/`,distance=new Map([[home,0]]),queue=[home];
+  for(let i=0;i<queue.length;i++)for(const target of graph.get(queue[i]) || []){
+    if(target.startsWith(home) && graph.has(target) && !distance.has(target)){
+      distance.set(target,distance.get(queue[i])+1);queue.push(target);
+    }
+  }
+  for(const guide of indexed.filter(route=>route.locale===locale && route.type==='game')){
+    assert.ok((distance.get(guide.path) ?? Infinity)<=2,'Authored guides must be within two crawlable, indexable clicks of their language home: '+guide.path);
+    reachableGuides++;
+  }
+}
+console.log(`PASS ${reachableGuides} authored guides reachable within two indexable clicks`);
 console.log('PASS global catalog, valid supported routes, complete pagination and explicit native-language filter');

@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "O‘yinlar ro‘yxatini yuklab bo‘lmadi. Qayta qidirib ko‘ring.",
   "nativeOnly": "O‘zbekcha qo‘llov",
-  "catalogNote": "Barcha o‘yinlar ko‘rsatilgan. O‘yin tili har bir kartada yozilgan."
+  "catalogNote": "Barcha o‘yinlar ko‘rsatilgan. O‘yin tili har bir kartada yozilgan.",
+  "genreTitle": "Bepul onlayn oʻyinlar: {genre}",
+  "gameTitle": "{title} — bepul onlayn oʻynash",
+  "guidesTitle": "Oʻyin qoʻllanmalari",
+  "guidesNote": "Oʻynashdan oldin oʻyin maqsadi va boshqaruvini oʻrganing."
 }

@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "无法加载游戏列表，请重新搜索。",
   "nativeOnly": "仅支持中文",
-  "catalogNote": "这里展示全部游戏。请查看卡片上的游戏支持语言。"
+  "catalogNote": "这里展示全部游戏。请查看卡片上的游戏支持语言。",
+  "genreTitle": "免费在线游戏：{genre}",
+  "gameTitle": "{title} — 免费在线玩",
+  "guidesTitle": "游戏玩法指南",
+  "guidesNote": "开始前先了解游戏目标与操作方法。"
 }

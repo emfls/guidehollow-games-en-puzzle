@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Không thể tải danh sách trò chơi. Vui lòng tìm kiếm lại.",
   "nativeOnly": "Hỗ trợ tiếng Việt",
-  "catalogNote": "Tất cả trò chơi đều có ở đây. Xem ngôn ngữ được hỗ trợ trên từng thẻ."
+  "catalogNote": "Tất cả trò chơi đều có ở đây. Xem ngôn ngữ được hỗ trợ trên từng thẻ.",
+  "genreTitle": "Trò chơi trực tuyến miễn phí: {genre}",
+  "gameTitle": "{title} — Chơi trực tuyến miễn phí",
+  "guidesTitle": "Hướng dẫn chơi game",
+  "guidesNote": "Tìm hiểu mục tiêu và cách điều khiển trước khi chơi."
 }

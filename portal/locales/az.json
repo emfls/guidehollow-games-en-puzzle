@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Oyun siyahısı yüklənmədi. Yenidən axtarmağa cəhd edin.",
   "nativeOnly": "Azərbaycanca dəstək",
-  "catalogNote": "Bütün oyunlar göstərilir. Oyunun dəstəklədiyi dil kartda qeyd olunur."
+  "catalogNote": "Bütün oyunlar göstərilir. Oyunun dəstəklədiyi dil kartda qeyd olunur.",
+  "genreTitle": "Pulsuz onlayn oyunlar: {genre}",
+  "gameTitle": "{title} — pulsuz onlayn oyna",
+  "guidesTitle": "Oyun bələdçiləri",
+  "guidesNote": "Oynamazdan əvvəl oyun məqsədlərini və idarəetməni öyrənin."
 }

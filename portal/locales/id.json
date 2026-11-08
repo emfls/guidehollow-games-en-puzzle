@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Daftar game tidak dapat dimuat. Silakan coba mencari lagi.",
   "nativeOnly": "Mendukung Indonesia",
-  "catalogNote": "Semua game ditampilkan. Lihat bahasa yang didukung pada setiap kartu."
+  "catalogNote": "Semua game ditampilkan. Lihat bahasa yang didukung pada setiap kartu.",
+  "genreTitle": "Game Gratis Online: {genre}",
+  "gameTitle": "{title} — Main Gratis Online",
+  "guidesTitle": "Panduan game",
+  "guidesNote": "Pelajari tujuan dan kontrol game sebelum bermain."
 }
