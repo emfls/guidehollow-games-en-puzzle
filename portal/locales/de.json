@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Die Spieleliste konnte nicht geladen werden. Bitte suche erneut.",
   "nativeOnly": "Mit Deutsch",
-  "catalogNote": "Hier findest du alle Spiele. Die unterstützte Spielsprache steht auf der Karte."
+  "catalogNote": "Hier findest du alle Spiele. Die unterstützte Spielsprache steht auf der Karte.",
+  "genreTitle": "Kostenlose Online-Spiele: {genre}",
+  "gameTitle": "{title} kostenlos online spielen",
+  "guidesTitle": "Spielanleitungen",
+  "guidesNote": "Lerne die Spielziele und Steuerung kennen, bevor du startest."
 }

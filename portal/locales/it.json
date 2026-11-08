@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Impossibile caricare l’elenco dei giochi. Prova a cercare di nuovo.",
   "nativeOnly": "Con italiano",
-  "catalogNote": "Qui trovi tutti i giochi. La lingua supportata è indicata su ogni scheda."
+  "catalogNote": "Qui trovi tutti i giochi. La lingua supportata è indicata su ogni scheda.",
+  "genreTitle": "Giochi gratis online: {genre}",
+  "gameTitle": "{title} — gioca gratis online",
+  "guidesTitle": "Guide ai giochi",
+  "guidesNote": "Scopri gli obiettivi e i comandi dei giochi prima di giocare."
 }

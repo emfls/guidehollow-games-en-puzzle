@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Nie udało się wczytać listy gier. Spróbuj wyszukać ponownie.",
   "nativeOnly": "Z językiem polskim",
-  "catalogNote": "Tutaj są wszystkie gry. Obsługiwany język gry znajdziesz na karcie."
+  "catalogNote": "Tutaj są wszystkie gry. Obsługiwany język gry znajdziesz na karcie.",
+  "genreTitle": "Darmowe gry online: {genre}",
+  "gameTitle": "{title} — graj za darmo online",
+  "guidesTitle": "Poradniki do gier",
+  "guidesNote": "Poznaj cele i sterowanie przed rozpoczęciem gry."
 }

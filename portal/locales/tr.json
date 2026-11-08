@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Oyun listesi yüklenemedi. Lütfen yeniden aramayı deneyin.",
   "nativeOnly": "Türkçe destekli",
-  "catalogNote": "Tüm oyunlar burada. Desteklenen oyun dili her kartta belirtilir."
+  "catalogNote": "Tüm oyunlar burada. Desteklenen oyun dili her kartta belirtilir.",
+  "genreTitle": "Ücretsiz Çevrimiçi Oyunlar: {genre}",
+  "gameTitle": "{title} — Ücretsiz Çevrimiçi Oyna",
+  "guidesTitle": "Oyun rehberleri",
+  "guidesNote": "Oynamadan önce oyun hedeflerini ve kontrollerini öğrenin."
 }

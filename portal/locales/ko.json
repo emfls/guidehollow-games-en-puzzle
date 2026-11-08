@@ -54,7 +54,7 @@
   "storageCleared": "저장한 게임과 기록을 지웠습니다",
   "providerPolicy": "Playgama 개인정보 처리방침",
   "catalogTitle": "무료 브라우저 게임을 한곳에서",
-  "catalogDescription": "짧게 즐기는 퍼즐부터 긴 모험까지, 브라우저 게임 {count}개를 만나보세요. 장르별로 둘러보고, 마음에 드는 게임을 저장하거나 바로 시작할 게임을 골라보세요.",
+  "catalogDescription": "설치 없이 즐기는 무료 브라우저 게임 {count}개를 장르별로 찾아보세요. 퍼즐·레이싱·공포 게임의 플레이 가이드를 읽고, 한국어 지원 필터로 게임 내 언어도 확인할 수 있습니다.",
   "genreDescription": "이 모음의 게임 {count}개를 살펴보세요. 추천 게임을 비교하고 전체 목록을 둘러보며 다음에 즐길 게임을 찾아보세요.",
   "gameDescription": "브라우저에서 {title} 게임을 즐겨보세요. 지원 기기와 조작법을 확인하고 관련 게임도 찾아보세요.",
   "chooseLanguage": "언어를 선택하세요",
@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "게임 목록을 불러오지 못했습니다. 다시 검색해 주세요.",
   "nativeOnly": "한국어 지원만",
-  "catalogNote": "화면은 한국어로 표시됩니다. 게임 내 언어는 카드의 지원 언어를 확인하세요."
+  "catalogNote": "화면은 한국어로 표시됩니다. 게임 내 언어는 카드의 지원 언어를 확인하세요.",
+  "genreTitle": "{genre} 게임 무료 플레이",
+  "gameTitle": "{title} 무료 온라인 게임",
+  "guidesTitle": "게임별 플레이 가이드",
+  "guidesNote": "게임의 목표와 조작법을 확인하고 시작할 게임을 골라보세요."
 }

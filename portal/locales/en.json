@@ -54,7 +54,7 @@
   "storageCleared": "Saved games and history cleared",
   "providerPolicy": "Playgama privacy policy",
   "catalogTitle": "Free browser games, all in one place",
-  "catalogDescription": "Explore {count} browser games, from quick puzzles to longer adventures. Browse a genre, save a favorite or choose a game to start playing.",
+  "catalogDescription": "Explore {count} free browser games, from puzzles and racing to horror. Read game guides, browse by genre, and filter games by their supported language.",
   "genreDescription": "Explore {count} games in this collection. Compare recommended picks, browse the full list and find another game to play.",
   "gameDescription": "Play {title} in your browser. Check the available devices, read the controls and discover related games.",
   "chooseLanguage": "Choose your language",
@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "The game list could not be loaded. Please try searching again.",
   "nativeOnly": "English supported",
-  "catalogNote": "Browse every game here. The language on each card is a supported in-game language."
+  "catalogNote": "Browse every game here. The language on each card is a supported in-game language.",
+  "genreTitle": "Free {genre} Games Online",
+  "gameTitle": "{title} — Play Free Online",
+  "guidesTitle": "Game guides",
+  "guidesNote": "Read about game objectives and controls before you play."
 }

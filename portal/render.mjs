@@ -84,13 +84,21 @@ function horrorQuickGuide(entry) {
   ];
   return `<section class="portal-section horror-choice" aria-label="공포 게임 선택 안내"><div class="section-heading"><div><h2>어떤 공포 게임부터 해볼까?</h2><p class="section-note">공포 장르라도 게임마다 목표와 조작 방식이 다릅니다. 원하는 플레이 방식으로 골라보세요.</p></div></div><div class="horror-choice-grid">${options.map(option=>`<div class="horror-choice-item"><h3>${escape(option.heading)}</h3><p>${escape(option.text)}</p><div class="horror-choice-links">${option.ids.map(id=>{const game=byId.get(id);return `<a href="${gamePath('ko',game)}">${escape(titleFor(game,'ko'))} ${icon('arrow')}</a>`}).join('')}</div></div>`).join('')}</div></section>`;
 }
+function guideLinks(entry) {
+  if ((entry.page || 1)!==1) return '';
+  const copy=ui(entry);
+  let selected=(entry.genre?collections.get(entry.locale).get(entry.genre):localeGames.get(entry.locale)).filter(game=>editorial(game,entry.locale));
+  if (!entry.genre) selected=selected.slice(0,6);
+  if (!selected.length) return '';
+  return `<section class="portal-section guide-links"><div class="section-heading"><div><h2>${escape(copy.guidesTitle)}</h2><p class="section-note">${escape(copy.guidesNote)}</p></div></div><ul>${selected.map(game=>`<li><a href="${gamePath(entry.locale,game)}">${escape(titleFor(game,entry.locale))} ${icon('arrow')}</a></li>`).join('')}</ul></section>`;
+}
 function listing(entry) {
   const copy=ui(entry), all=listGames(entry),page=entry.page || 1,selected=all.slice((page-1)*config.pageSize,page*config.pageSize);
-  const heading=entry.genre?copy.genreNames[entry.genre]:copy.catalogTitle;
+  const heading=entry.genre?format(copy.genreTitle,{genre:copy.genreNames[entry.genre]}):copy.catalogTitle;
   const intro=entry.genre?genreIntroFor(entry.locale,entry.genre,all.length):format(copy.catalogDescription,{count:new Intl.NumberFormat(entry.locale).format(all.length)});
   const native=entry.genre?collections.get(entry.locale).get(entry.genre).length:localeGames.get(entry.locale).length;
   const number=n=>new Intl.NumberFormat(entry.locale).format(n);
-  return `<main id="main" class="wrap portal-main portal-catalog"><section class="catalog-intro"><div class="intro-copy"><p class="eyebrow">GUIDEHOLLOW / ${escape(copy.allGames)}</p><h1>${escape(heading)}</h1><p class="catalog-description">${escape(intro)}</p></div><a class="text-link recent-shortcut" href="/${entry.locale}/search/?view=recent">${icon('idle')}${escape(copy.recent)}</a></section><section id="collection" class="portal-section">${nativeFilters(entry.locale,all.length,native)}<div class="collection-meta"><p class="catalog-language-note">${escape(copy.catalogNote)}</p><p class="item-range" data-range aria-live="polite">${number((page-1)*config.pageSize+1)}–${number(Math.min(page*config.pageSize,all.length))} / ${number(all.length)}</p></div><p class="catalog-error" data-catalog-error role="status" hidden></p><div class="game-grid" data-catalog-grid data-count="${selected.length}">${selected.map(game=>card(game,entry.locale,entry.genre)).join('')}</div><div data-catalog-pagination>${pagination(entry,all.length)}</div></section>${horrorQuickGuide(entry)}</main>`;
+  return `<main id="main" class="wrap portal-main portal-catalog"><section class="catalog-intro"><div class="intro-copy"><p class="eyebrow">GUIDEHOLLOW / ${escape(copy.allGames)}</p><h1>${escape(heading)}</h1><p class="catalog-description">${escape(intro)}</p></div><a class="text-link recent-shortcut" href="/${entry.locale}/search/?view=recent">${icon('idle')}${escape(copy.recent)}</a></section><section id="collection" class="portal-section">${nativeFilters(entry.locale,all.length,native)}<div class="collection-meta"><p class="catalog-language-note">${escape(copy.catalogNote)}</p><p class="item-range" data-range aria-live="polite">${number((page-1)*config.pageSize+1)}–${number(Math.min(page*config.pageSize,all.length))} / ${number(all.length)}</p></div><p class="catalog-error" data-catalog-error role="status" hidden></p><div class="game-grid" data-catalog-grid data-count="${selected.length}">${selected.map(game=>card(game,entry.locale,entry.genre)).join('')}</div><div data-catalog-pagination>${pagination(entry,all.length)}</div></section>${horrorQuickGuide(entry)}${guideLinks(entry)}</main>`;
 }
 function gamePage(entry) {
   const game=byId.get(entry.id),copy=ui(entry),guide=editorial(game,entry.locale),title=titleFor(game,entry.locale);
@@ -114,7 +122,7 @@ function search(entry) {
 }
 export function renderPortal(entry) {
   const copy=ui(entry),game=entry.type==='game'?byId.get(entry.id):null,guide=game?editorial(game,entry.locale):null;
-  const title=entry.type==='selector'?`${copy.chooseLanguage} | GuideHollow Games`:game?`${titleFor(game,entry.locale)} — ${copy.play} | GuideHollow`:entry.type==='genre'?`${copy.genreNames[entry.genre]}${entry.page>1?` · ${entry.page}`:''} | GuideHollow Games`:entry.type==='language'?`${copy.catalogTitle}${entry.page>1?` · ${entry.page}`:''} | GuideHollow`:entry.type==='404'?copy.notFound:`${entry.type==='about'?copy.about:entry.type==='privacy'?copy.privacy:copy.search} | GuideHollow Games`;
+  const title=entry.type==='selector'?`${copy.chooseLanguage} | GuideHollow Games`:game?`${format(copy.gameTitle,{title:titleFor(game,entry.locale)})} | GuideHollow`:entry.type==='genre'?`${format(copy.genreTitle,{genre:copy.genreNames[entry.genre]})}${entry.page>1?` · ${entry.page}`:''} | GuideHollow Games`:entry.type==='language'?`${copy.catalogTitle}${entry.page>1?` · ${entry.page}`:''} | GuideHollow`:entry.type==='404'?copy.notFound:`${entry.type==='about'?copy.about:entry.type==='privacy'?copy.privacy:copy.search} | GuideHollow Games`;
   const description=excerpt(game?(guide?.description || summaryFor(game,entry.locale)):entry.type==='genre'?genreIntroFor(entry.locale,entry.genre,listGames(entry).length):entry.type==='language'?format(copy.catalogDescription,{count:games.length}):entry.type==='privacy'?copy.privacyText:copy.aboutText);
   const canonical=urlFor(entry.path),indexable=isIndexable(entry);
   const alternate=indexable?alternatives(entry,true):[];

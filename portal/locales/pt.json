@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Não foi possível carregar a lista de jogos. Tente pesquisar novamente.",
   "nativeOnly": "Com português",
-  "catalogNote": "Todos os jogos estão aqui. Confira o idioma do jogo em cada cartão."
+  "catalogNote": "Todos os jogos estão aqui. Confira o idioma do jogo em cada cartão.",
+  "genreTitle": "Jogos grátis online: {genre}",
+  "gameTitle": "{title} — jogar grátis online",
+  "guidesTitle": "Guias de jogos",
+  "guidesNote": "Conheça os objetivos e os controles antes de jogar."
 }

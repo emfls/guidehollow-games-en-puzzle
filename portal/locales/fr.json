@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "Impossible de charger la liste des jeux. Veuillez relancer la recherche.",
   "nativeOnly": "Avec français",
-  "catalogNote": "Tous les jeux sont affichés. La langue prise en charge figure sur chaque carte."
+  "catalogNote": "Tous les jeux sont affichés. La langue prise en charge figure sur chaque carte.",
+  "genreTitle": "Jeux gratuits en ligne : {genre}",
+  "gameTitle": "{title} — jouer gratuitement en ligne",
+  "guidesTitle": "Guides de jeu",
+  "guidesNote": "Découvrez les objectifs et les commandes des jeux avant de jouer."
 }

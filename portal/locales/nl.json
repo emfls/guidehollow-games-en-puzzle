@@ -86,5 +86,9 @@
   },
   "catalogLoadError": "De spellenlijst kon niet worden geladen. Probeer opnieuw te zoeken.",
   "nativeOnly": "Met Nederlands",
-  "catalogNote": "Hier staan alle spellen. De ondersteunde speltaal staat op elke kaart."
+  "catalogNote": "Hier staan alle spellen. De ondersteunde speltaal staat op elke kaart.",
+  "genreTitle": "Gratis online spellen: {genre}",
+  "gameTitle": "{title} — gratis online spelen",
+  "guidesTitle": "Spelgidsen",
+  "guidesNote": "Lees over de doelen en besturing voordat je gaat spelen."
 }
