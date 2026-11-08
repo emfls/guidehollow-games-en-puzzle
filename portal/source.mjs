@@ -11,7 +11,15 @@ export function sourceSignals(text='') {
   const positive=sourcePlainText(text).replace(/[^.!?\n]*(?:\bdo not\b|\bdon't\b|\bnever\b|\bwithout\b)[^.!?\n]*(?:[.!?]|$)/gi,'');
   const patterns={WASD:/\bW\s*[,/]?\s*A\s*[,/]?\s*S\s*[,/]?\s*D\b/i,arrows:/arrow\s*(?:keys|buttons)|(?:^|[:;\n])\s*[↑↓←→⇦⇨](?:\s|[(/:])/im,space:/\bspace[- ]?bar\b|\b(?:press|hold|hit|tap|use)\s+(?:the\s+)?space\b|\bspace\s*(?:key|button|[-:=–—])|(?:^|[\n.;])\s*space\s+to\b/im,mouse:/\bmouse\b|\bclick(?:ing)?\b|\b[LR]MB\b/i,touch:/\btouch\s+(?:the\s+)?screen\b|\btouchscreen\b|\btouch[- ](?:controls|input|device)\b|\b(?:tap|swipe)(?:ping|ing)?\s+(?:on\s+)?(?:the\s+)?(?:screen|display|buttons?)\b|\b(?:tap|swipe)(?:ping|ing)?\s+to\b/i,screen:/on[- ]screen\s*(?:buttons|controls)/i};
   const keys=[...new Set([...positive.matchAll(/^(?:[-•]\s*)?([A-Z])\s*(?:[-:=–—]|to\b)/gm),...positive.matchAll(/\b(?:key|press)\s*["']?([A-Z])\b/g)].map(match=>match[1]))];
-  for(const match of positive.matchAll(/\b(?:press|hold|hit|use)\s+(?:the\s+)?(?:left\s+|right\s+)?(Shift|Backspace|Enter|Esc(?:ape)?|Ctrl|Alt|Tab)\b|\b(Shift|Backspace|Enter|Esc(?:ape)?|Ctrl|Alt|Tab)\s*(?:key\b|to\b|[-:=–—])/gi)){
+  const namedKeys=[...positive.matchAll(/\b(?:press|hold|hit|use)\s+(?:the\s+)?(?:left\s+|right\s+)?["']?(Shift|Backspace|Enter|Esc(?:ape)?|Ctrl|Alt|Tab)\b/gi),...positive.matchAll(/\b(Shift|Backspace|Esc|Ctrl|Alt)\s*(?:key\b|to\b|for\b|or\b|[\/:=–—-])/gi)];
+  for(const match of positive.matchAll(/\b(Enter|Escape|Tab)\b(?=\s*(?:key\b|to\b|for\b|or\b|[\/:=–—-]))/gi)){
+    const before=positive.slice(0,match.index),after=positive.slice(match.index+match[0].length);
+    const labelStart=/(?:^|[\n;,:.!?])[\p{P}\p{S}\p{M}\s]*$/u.test(before);
+    const alternative=/(?:\b(?:or|key)|[\/+&])\s*["']?$/i.test(before);
+    const chained=/\band\s*["']?$/i.test(before)&&/^[A-Z]/.test(match[1]);
+    if(/^\s*key\b/i.test(after)||labelStart||alternative||chained)namedKeys.push(match);
+  }
+  for(const match of namedKeys){
     const key=match[1]||match[2],canonical={shift:'Shift',backspace:'Backspace',enter:'Enter',esc:'Esc',escape:'Esc',ctrl:'Ctrl',alt:'Alt',tab:'Tab'}[key.toLowerCase()];
     if(!keys.includes(canonical))keys.push(canonical);
   }

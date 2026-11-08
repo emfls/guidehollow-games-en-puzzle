@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "locale": "th",
+  "games": {
+    "chess-online-multiplayer": {
+      "sourceHash": "9c4782790da168c63772d58dae4226d13edcd385bb5e4bb545f9a7d5e6872c2f",
+      "referenceHash": "4b44ff1d0a9ce559c96dc3948d96722f6b07541e8fd0daa0b0f7469c6cde0d90",
+      "title": "หมากรุกออนไลน์หลายผู้เล่น",
+      "description": "Chess Online Multiplayer ให้เล่นหมากรุกกับคอมพิวเตอร์ ผู้เล่นออนไลน์ หรือเพื่อนบนหน้าจอเดียวกัน คอมพิวเตอร์มีความยาก 21 ระดับ และเลือกเวลาตั้งแต่ไม่จำกัดจนถึง Bullet, Blitz, Rapid และ Classic ได้ จุดหมายคือรุกฆาต ไม่ใช่จับตัวขุนออกจากกระดาน\n\nช่องเดินที่แสดงไว้และคำใบ้ช่วยศึกษาตำแหน่ง ก่อนเดินควรดูว่าหมากใดอาจถูกกินและคู่แข่งจะตอบอย่างไร หลังจบเกมสามารถดูประวัติและการวิเคราะห์เพื่อย้อนทบทวนข้อผิดพลาด รวมถึงปรับหน้าตากระดานและตัวหมากได้",
+      "instructions": "เลือกเล่นกับคอมพิวเตอร์ ออนไลน์ หรือเพื่อนบนจอเดียว แล้วตั้งค่าความยากและเวลาเท่าที่โหมดนั้นมี ผลัดกันเดินตามกฎของหมากแต่ละชนิด เป้าหมายคือทำให้ขุนฝ่ายตรงข้ามถูกรุกและไม่มีทางหนีที่ถูกกฎ ตรวจช่องเดินที่อนุญาต ใช้คำใบ้หรือย้อนเดินเมื่อเหมาะสม และทบทวนประวัติหลังจบเกม",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Play Chess Online and Improve Your Skills! Are you ready to challenge your mind and enjoy the timeless game of chess? Ch",
+        "instructionsQuote": "Chess Online Multiplayer follows the classic rules of chess. The goal of the game is to checkmate your opponent’s king, putting it in a posi"
+      },
+      "reviewedTextHash": "44cff56d353ba618c39e758e9c378763cd81cb00bb8f1212d0f936b833acf91b"
+    },
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "title": "หนีออกจากสุสานใต้ดิน",
+      "description": "Escape From The Crypt เป็นปริศนาหนีออกจากห้องในสุสานก่อนถูกจอมเวทปลุกศพตามทัน ศัตรูเคลื่อนที่เร็วกว่าคุณ แต่ไม่หลบสิ่งกีดขวาง จึงใช้ผังห้องล่อให้พวกมันเข้าไปติดทางตันได้ แทนการพยายามวิ่งหนีให้เร็วกว่า\n\nก่อนขยับให้ดูทั้งเส้นทางของตัวเองและทางที่ผู้ไล่ล่าจะตามมา กำแพงอาจช่วยขวางศัตรูแต่ก็ปิดทางออกของคุณได้เช่นกัน หากเดินผิดสามารถย้อนหนึ่งก้าว และใช้คำใบ้เมื่อมองไม่เห็นวิธีผ่านห้อง วางแผนไปทีละห้องจนพ้นสุสาน",
+      "instructions": "บนคอมพิวเตอร์ใช้ปุ่มลูกศรเคลื่อนตัวละคร Backspace ย้อนการเดิน และ H ขอคำใบ้ บนมือถือใช้ปุ่มทิศทางและปุ่มบนหน้าจอ ล่อศัตรูที่เร็วกว่าคุณไปยังสิ่งกีดขวางหรือทางตัน โดยเหลือทางสำหรับเดินไปยังประตูออก ตรวจผลของแต่ละก้าวก่อนเดินต่อ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the "
+      },
+      "reviewedTextHash": "dd0e7854337aab7aee6e4e0bbe4bae59bf6c6c1e8085657fd44c8ae093bd275e"
+    },
+    "nonogram": {
+      "sourceHash": "621a497ba9b82dc8a580a0b64502581e661f4c4960b90e6c61f646fe13610449",
+      "referenceHash": "f11d886dbefdbc35dc9001f47fcf56f4b949927554d10393e3fcfd6cb48208c6",
+      "title": "โนโนแกรม: ภาพจากตัวเลข",
+      "description": "Nonogram เป็นปริศนาสร้างภาพด้วยการเติมช่องตามตัวเลขหน้าคอลัมน์และแถว แต่ละตัวเลขบอกความยาวของกลุ่มช่องทึบที่ติดกัน หากมีหลายตัวเลขต้องมีช่องว่างอย่างน้อยหนึ่งช่องคั่นระหว่างกลุ่ม และเรียงกลุ่มตามลำดับที่ให้มา\n\nตัวอย่าง 3 1 หมายถึงช่องทึบสามช่อง เว้นอย่างน้อยหนึ่งช่อง แล้วช่องทึบอีกหนึ่งช่อง ใช้ข้อมูลจากแถวและคอลัมน์ที่ตัดกันเพื่อยืนยันตำแหน่งแทนการเดา เกมมีภาพหลายชุดและระดับความยากให้เลือก จึงเริ่มจากแบบง่ายแล้วค่อยเพิ่มความท้าทายได้",
+      "instructions": "เติมช่องที่ถูกต้องให้เกิดภาพตามคำใบ้ด้านบนและซ้ายของกระดาน รักษาความยาวและลำดับกลุ่ม พร้อมช่องว่างอย่างน้อยหนึ่งช่องระหว่างกลุ่ม ตรวจให้คำตอบตรงทั้งแถวและคอลัมน์ แหล่งข้อมูลอธิบายกติกาการเติมช่องแต่ไม่ได้ระบุปุ่มลัดแยกต่างหาก จึงใช้ส่วนควบคุมของกระดานในเกม",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Nonogram is a captivating picture cross puzzle with a vast collection of griddlers. Challenge your mind with this easy-t",
+        "instructionsQuote": "The Goal: - Fill in the correct squares to form a picture, using only the number clues - no guessing. Understanding the Clues: - Numbers app"
+      },
+      "reviewedTextHash": "08dedbf5bd359c43f3ebfeb1d70ab897136b3ccab0397515fb55154a920debde"
+    },
+    "hair-salon-3d": {
+      "sourceHash": "8db37e0e4f0021a4bb1d4595b45280163a725b0d9317fb1d65d4109c9393d65f",
+      "referenceHash": "466938fa0127f73fed1995c745903b971292889b9681329807b37e7754e63f3f",
+      "title": "ร้านทำผมสามมิติ",
+      "description": "Hair Salon 3D ให้รับงานตัดและทำสีผมตามคำขอลูกค้า เช่น บ๊อบ โมฮอว์ก อันเดอร์คัต หรือทรงยาวเป็นชั้น เลือกกรรไกร ปัตตาเลี่ยน มีดโกน และแปรงสีให้เหมาะกับงาน แล้วพยายามทำทรงให้ใกล้ภาพตัวอย่างที่สุด\n\nผลงานที่ดีได้ดาวและทิปมากขึ้น เงินในเกมใช้ซื้อเครื่องมือและสีย้อม เปิดทรงที่ซับซ้อน รวมถึงรับลูกค้า VIP แหล่งข้อมูลระบุ 23 ทรงและเครื่องมือห้าชนิด ตรวจภาพสามมิติของทรงที่ต้องการก่อนลงมือ เพื่อแยกส่วนที่ต้องตัดเสมอกันกับรายละเอียดเฉพาะจุด",
+      "instructions": "แตะการ์ดด้านขวาเพื่อดูทรงผมตัวอย่างแบบ 3D เลือกกรรไกรสำหรับตัดละเอียด ปัตตาเลี่ยนสำหรับไถให้เสมอ หรือมีดโกนเก็บรายละเอียด ปาดบนศีรษะเพื่อตัดผม ใช้สองนิ้วปรับมุมกล้องและระยะ หากต้องย้อมให้เลือกแปรงและสี กด Done เมื่อเสร็จเพื่อรับคะแนน แล้วนำเงินไปซื้อเครื่องมือหรือสีใหม่",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Hair Salon 3D — a vibrant 3D hair salon simulator! Clients come to you with all kinds of requests: bob cuts, mohawks, un",
+        "instructionsQuote": "- Check what hairstyle the client wants — tap the card on the right for a 3D preview - Choose your tool: scissors for precise cutting, clipp"
+      },
+      "reviewedTextHash": "8cc6285da3e3957e3a2970763c26478d3250b6b0e19eba36066abce734defc78"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "แข่งรถและผาดโผนสามมิติ",
+      "description": "Car Stunt Racing Game 3D : Car Games ทดสอบการขับบนเส้นทางสูง ทางลาดขนาดใหญ่ และสิ่งกีดขวางที่เคลื่อนที่ เป้าหมายคือถึงเส้นชัยโดยไม่ชนหรือหลุดจากถนน ก่อนกระโดดควรจัดรถให้ตรงและดูว่าต้องลงบริเวณใด\n\nมุมกล้องหลายแบบช่วยอ่านทางแคบและทางลาด จุดตรวจให้เริ่มใหม่ระหว่างทางได้หลังตก ส่วนด่านจับเวลาต้องเข้าเส้นชัยภายในกำหนด จึงต้องรักษาความเร็วสำหรับการกระโดด พร้อมควบคุมรถในโค้งและบริเวณที่มีสิ่งกีดขวางขยับอยู่",
+      "instructions": "บนคอมพิวเตอร์ลูกศรขึ้นเร่ง ลงถอยหลัง ซ้ายและขวาเลี้ยว Space ใช้เบรก บนมือถือมีปุ่มเลี้ยวซ้ายขวา แป้นคันเร่งและเบรก เข้าทางลาดให้ตรง รักษารถให้ลงบนถนน และไปถึงเส้นชัยก่อนหมดเวลา ระวังจังหวะของสิ่งกีดขวางที่เคลื่อนผ่านทาง",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Omitted download marketing and unverified offline-play promises; retained specific driving inputs, checkpoints and the timed stunt-racing objective."
+      },
+      "reviewedTextHash": "0c8adf22330f1b45863e558507a04954966cd0e2a2afc089afced3cca96a6eef"
+    },
+    "arrow-cube-3d": {
+      "sourceHash": "319b9ac06b6029545e5ab839d79a55736ff6dcc0050d758d13b9723f11997cba",
+      "referenceHash": "9fd011e1130d37040554032f227151b511cfe10108848b325f6bbce6b7c10907",
+      "title": "ลูกบาศก์ลูกศรสามมิติ",
+      "description": "Arrow Cube 3D เป็นปริศนาเอาลูกศรออกจากลูกบาศก์หกด้าน ลูกศรจะเคลื่อนออกได้เมื่อไม่มีสิ่งใดขวางเส้นทาง จึงต้องเลือกตามลำดับที่ค่อย ๆ เปิดทางให้องค์ประกอบที่เหลือ ไม่ใช่แตะทุกชิ้นโดยไม่ตรวจทิศทาง\n\nหมุนดูรูปทรงจากหลายด้านเพื่อค้นหาลูกศรที่พร้อมออก การเอาหนึ่งชิ้นออกอาจช่วยปลดทางของชิ้นถัดไป เป้าหมายคือเคลียร์ลูกศรทั้งหมดก่อนจบด่าน ปริศนาสั้นในบรรยากาศสงบนี้เน้นการสังเกต การวางแผน และมองความสัมพันธ์ของทางออกในสามมิติ",
+      "instructions": "แตะลูกศรเพื่อพยายามนำออกจากลูกบาศก์ ตรวจว่าทางตามทิศของมันไม่มีอะไรขวาง หมุนและสำรวจแต่ละด้าน เลือกลูกศรที่ออกได้ แล้วตรวจเส้นทางใหม่ที่เปิดขึ้น ทำจนไม่เหลือลูกศร แหล่งข้อมูลไม่ได้ระบุปุ่มหมุนแยก จึงใช้วิธีควบคุมลูกบาศก์ที่เกมแสดง",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Remove every arrow from the six-sided cube by finding the perfect order. Arrow Cube Escape is a calm 3D logic puzzle tha",
+        "instructionsQuote": "Tap an arrow to remove it from the cube. An arrow can move only when nothing blocks its path. Rotate and inspect the cube, choose the correc"
+      },
+      "reviewedTextHash": "bcf913edb6f6415dea1532aba9c454d4cfbee0c64455a9dfd7dfb563cff898a6"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: สร้างเครื่องบิน",
+      "description": "Obby Craft: Build a Plane ให้ประกอบเครื่องบินจากชิ้นส่วน แต่ละบล็อกส่งผลต่อการบิน เก็บเหรียญที่กระจายบนแผนที่ระหว่างบินแล้วนำไปซื้อส่วนใหม่และการปรับปรุง การเพิ่มกำลังหนังสติ๊กปล่อยเครื่องช่วยส่งเครื่องบินให้สูงและเร็วขึ้น\n\nร้านมีชิ้นส่วนและรูปลักษณ์ ส่วนวงล้อรางวัลอาจให้เหรียญหรือของหายาก แหล่งข้อมูลระบุรูปลักษณ์ฟรีสองแบบและช่องบันทึกโครงการได้สูงสุดสี่ช่อง ทดสอบสิ่งที่สร้างบนเส้นทาง Obby หลบอุปสรรค และใช้รายได้ปรับแบบสำหรับเที่ยวบินถัดไป",
+      "instructions": "เข้าใกล้เขตประกอบข้างเครื่องบิน เลือกชิ้นจากช่องเก็บของด้านล่างแล้วคลิกติดตั้งบริเวณเครื่อง หากชิ้นส่วนหมดให้ซื้อในร้าน ใช้เหรียญเพิ่มกำลังตัวปล่อย จากนั้นปล่อยเครื่อง เก็บเหรียญและหลบสิ่งกีดขวาง แหล่งข้อมูลไม่ระบุปุ่มบังคับการบินเฉพาะ ให้ดูคำแนะนำบนหน้าจอเกม",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "860ffdb616f7b0a3297f416a48c6531e489e4164208390b642b873f0a491ea02"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: ทดสอบมอเตอร์ไซค์",
+      "description": "Canyon Drifter เป็นมอเตอร์ไซค์ไทรอัลสองมิติที่เน้นทางยากและการปรับรถ ทางชันและการกระโดดต้องใช้มากกว่าคันเร่ง: เอนผู้ขี่ไปด้านหน้าหรือหลังเพื่อรักษาสมดุล เป้าหมายคือผ่านเส้นทางและปรับเวลาบนตารางอันดับให้ดีขึ้น\n\nหากติดช่วงที่ผ่านไม่ได้ ให้กลับอู่ปรับมอเตอร์ไซค์ให้เหมาะกับพื้นและภูมิประเทศ แล้วลองสัดส่วนความเร็วกับการเอนแบบใหม่ เอนหลังช่วยยกล้อหน้า ส่วนเอนหน้าทำให้หัวรถต่ำลง จึงควรคิดถึงท่ารถก่อนลงจากการกระโดด",
+      "instructions": "ลูกศรขึ้นหรือ W เร่ง ลงหรือ S เบรกและถอย ซ้ายหรือ A เอนหลัง ขวาหรือ D เอนหน้า Esc หรือ P พัก และ R เริ่มใหม่ บนโทรศัพท์สัมผัสครั้งแรกจะมีสี่ปุ่ม: คันเร่งกับเบรกอยู่ด้านบน ปุ่มเอนหน้าและหลังอยู่ด้านล่าง ปุ่มพักและเริ่มใหม่อยู่มุมขวาบน",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "15ba1f9646f7e0e041d4695b58aca680b8a4bbf013c008f90c034f32453469c2"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "หมากรุกสามมิติในสวนเวทมนตร์",
+      "description": "3D Chess - Arcane Edition นำหมากรุกคลาสสิกมาเล่นบนกระดานสามมิติในสวนแฟนตาซี พร้อมตัวหมากสีทองแดงและทอง มีคู่แข่งคอมพิวเตอร์สามความยาก เป้าหมายคือรุกฆาตขุนฝ่ายตรงข้าม จุดเรืองแสงแสดงช่องที่ตัวหมากที่เลือกเดินได้ตามกฎ\n\nหมุนกล้องหรือขยายเพื่อมองตำแหน่งจากอีกมุมได้ ตั้งค่าความยาก การแสดงช่องเดินและเสียงในเมนู หากต้องการเล่นกับเพื่อน ใช้ Play a Friend จากหน้าเริ่มเพื่อสร้างห้องส่วนตัวแล้วแบ่งปันรหัส การกินหมากทำโดยเดินไปยังช่องที่หมากฝ่ายตรงข้ามอยู่",
+      "instructions": "คลิกหรือแตะตัวหมาก แล้วเลือกช่องที่ไฮไลต์ ลากเพื่อหมุนกล้อง ใช้สองนิ้วหรือวงล้อเมาส์ปรับระยะ Hint รูปหลอดไฟแสดงตาเดินแนะนำ แหล่งข้อมูลระบุได้สูงสุดสามครั้งต่อเกมและเงื่อนไขโฆษณารับรางวัลในโหมดเดี่ยว รูปเฟืองเปิดการตั้งค่าความยาก ช่องเดิน และเสียง",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "6071a3fbd6a8f2622d0b01726a55322e222488d4ebea197551d49c73e0c8902b"
+    },
+    "swat-cats": {
+      "sourceHash": "65d212adf25b4406a341ddca36b3263c799c70501e556ee6910e00a1de001e78",
+      "referenceHash": "95c737f8a6721bd8765d7614423d39e24907226dfd98a4ab5bff81d313954841",
+      "title": "SWAT Cats: หน่วยแมวรบ",
+      "description": "SWAT Cats เป็นเกมยิงออนไลน์ที่ฮีโร่ทุกตัวเป็นแมวรบ เริ่มจากพลทหารแล้วเลือกเจ้าหน้าที่แมวตัวอื่นในการแข่งขันต่อไปได้ แหล่งข้อมูลมีตัวเลือกสี่ตัวและแผนที่หลายแบบสำหรับการต่อสู้จังหวะรวดเร็ว\n\nร่วมเล่นกับเพื่อนในระบบหลายผู้เล่นและใช้แชตสื่อสารได้ อาวุธหลัก ปืนพก มีด ระเบิด และการรักษามีช่องเลือกแยกกัน จึงควรรู้ว่าตอนนี้ถืออะไรอยู่ เป้าหมายของการควบคุมคือเคลื่อนที่ หามุมเล็งและโจมตี โดยมีปุ่มเก็บอาวุธกับแผนที่ช่วยจัดการสถานการณ์",
+      "instructions": "W เดินหน้า S ถอย A ไปซ้าย D ไปขวา Lctrl หรือคลิกซ้ายยิง คลิกขวาเล็ง R บรรจุใหม่ 1 เลือกปืนหลัก 2 ปืนพก 3 มีด 4 ระเบิด 5 รักษา T เปิดแชต C นั่งย่อ Space กระโดด M แผนที่ Tab พัก และ F เก็บอาวุธ แหล่งข้อมูลนี้ระบุปุ่มคอมพิวเตอร์ แม้รองรับมือถือด้วย จึงดูส่วนควบคุมที่แสดงในเกมบนโทรศัพท์",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SWAT Cats is an online shooter set in a world where every hero is a battle cat. Ready for purr-fect battle with wild act",
+        "instructionsQuote": "Controls W = move forward A = move left S = move backward D = move right Lctrl = fire R = recharge Right mouse = aim mode Left mouse = fire "
+      },
+      "reviewedTextHash": "23b5abefd0417a6b0011743b6f9e7765cdf3cf82bbebea19fd24d63f05b25fd3"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: ปริศนาเส้นสายแสนสงบ",
+      "description": "Turnline: Relaxing Puzzle เป็นปริศนาหมุนแผ่นเพื่อเชื่อมเส้นเป็นเครือข่ายเดียว จัดทิศของเส้นให้ตรงกับแผ่นข้างเคียง เมื่อเส้นทางที่จำเป็นทั้งหมดต่อกันแล้วจึงผ่านด่าน ช่วงแรกใช้รูปแบบง่าย ก่อนเพิ่มขนาด กิ่งก้านและความซับซ้อนของเส้นทาง\n\nไม่มีตัวจับเวลา จึงคิดผลของการหมุนแต่ละแผ่นได้อย่างไม่เร่งรีบ เส้นที่ต่อถูกจะสว่างขึ้นเพื่อช่วยเห็นส่วนที่ยังไม่ลงตัว หากติดสามารถใช้คำใบ้ และระบบบันทึกความคืบหน้าให้กลับมาแก้ปริศนาต่อในคราวหน้าได้",
+      "instructions": "บนคอมพิวเตอร์คลิกแผ่นด้วยเมาส์ บนโทรศัพท์หรือแท็บเล็ตแตะเพื่อหมุน ดูว่าเส้นของมันเชื่อมกับแผ่นรอบข้างอย่างไร แล้วหมุนต่อจนเส้นทางที่ต้องการครบทั้งหมด ส่วนที่สว่างคือการเชื่อมต่อถูกต้อง ลองคิดถึงผลต่อทั้งเครือข่าย และใช้คำใบ้หากยังหาทางต่อไม่ได้",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "906de2ebe40ec8b1a028733fb31e0786f318fc88cc897d422510b4e3da73bab8"
+    },
+    "math-crosswords": {
+      "sourceHash": "0c48aa30068b8bf6d608456c6ce74b18c929329458e4bb846b3a58dac5a88804",
+      "referenceHash": "692223e34cd9607ff88e2398202a492d700e5c19fe1dc7e352312e3d9171fcf4",
+      "title": "ปริศนาไขว้คณิตศาสตร์",
+      "description": "Math Crosswords ใช้สมการแทนคำในตารางไขว้ ช่องที่ตัดกันต้องใช้ตัวเลขเดียวกันให้ถูกกับสองสมการพร้อมกัน มีทั้งบวก ลบ คูณและหาร จากโจทย์ง่ายไปจนถึงตารางใหญ่ที่ค่อย ๆ ซับซ้อนขึ้น แต่ละด่านมีคำตอบเดียว\n\nสมการที่ถูกจะเป็นสีเขียว ส่วนที่ผิดเป็นสีแดง ผ่านด่านเมื่อทุกสมการถูกต้องทั้งหมด เริ่มจากช่องตัดกันซึ่งมีคำตอบที่เป็นไปได้น้อย เกมมีโจทย์รายวัน สถิติและอันดับ การแก้เร็วโดยไม่ขอคำใบ้ช่วยให้คะแนนสูงขึ้น จึงควรตรวจความสัมพันธ์ก่อนวางตัวเลข",
+      "instructions": "ลากตัวเลขจากแผงข้างกระดานใส่ช่องว่าง หรือแตะตัวเลขก่อนแล้วแตะช่อง แตะช่องที่มีตัวเลขเพื่อส่งกลับ ตรวจสีเขียวและแดงจนทุกสมการถูกต้อง หลอดไฟวางตัวเลขที่ถูกให้หนึ่งตัว ใช้เมาส์บนคอมพิวเตอร์หรือสัมผัสบนมือถือ และตรวจทั้งสองสมการเมื่อเติมช่องตัดกัน",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "A crossword where numbers take the place of words. Equations cross each other, so a single number has to fit two of them",
+        "instructionsQuote": "Numbers wait in the panel next to the board; the board holds equations with empty cells. Drag a number into an empty cell, or tap the number"
+      },
+      "reviewedTextHash": "f3cf8727324b66426764a7231e3615f959533fd189c49f33a7b6f3c2dccd3ce2"
+    },
+    "loopix": {
+      "sourceHash": "5c69b9f9e5d139ab68459f4d4b232878d5990c3b2f8db73dbf1a8af3d3ba78eb",
+      "referenceHash": "ce497e0c3d86c4c9984d4ba576de74e030b7c8d426a78807a1a897123db5ddbb",
+      "title": "Loopix: วงหางดาวจับสิ่งมีชีวิต",
+      "description": "Loopix ให้บังคับดาวหางวาดวงด้วยรอยแสง เมื่อปิดวงจะจับสิ่งมีชีวิตทั้งหมดข้างใน วงใหญ่ให้คอมโบมากขึ้นและทำให้เติบโตจากประกายเล็กไปเป็นดาวหางขนาดใหญ่ แต่ดาวหางอื่นก็แข่งขันจับเป้าหมายเช่นกัน\n\nห้ามสัมผัสรอยแสงของคู่แข่ง เพราะทำให้ถูกกำจัด คุณกลับล้อมคู่แข่งไว้ในวงของตัวเองเพื่อยึดคะแนนได้ เอาชนะผู้พิทักษ์ของโลกแล้วผ่านหลุมดำไปโลกถัดไป มีเพื่อนร่วมทาง รูปลักษณ์และการเพิ่มพลังถาวรเป็นเป้าหมายเสริม ควรเก็บการเร่งไว้เพื่อหนีหรือปิดวงในจังหวะจำเป็น",
+      "instructions": "บนคอมพิวเตอร์บังคับด้วยเมาส์ ลูกศรหรือ A/D กดคลิกซ้ายหรือ Space ค้างเพื่อเร่ง ซึ่งเสียขนาดเล็กน้อย มือถือลากนิ้วเพื่อเลี้ยว แตะสองครั้งแล้วค้างเพื่อเร่ง วาดรอยให้ปิดล้อมเป้าหมาย หลีกเลี่ยงรอยของดาวหางอื่น และเอาชนะผู้พิทักษ์เพื่อเปิดทางไปโลกใหม่",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loop around cute creatures with your glowing comet trail to capture them all! Loopix is a fast and colorful .io arcade g",
+        "instructionsQuote": "Draw a closed loop around creatures with your comet trail to capture everything inside. Grow bigger, beat the Guardian of each world and jum"
+      },
+      "reviewedTextHash": "2ae74d64af47fd14247d2ff53a44d7fe969ed6109ba77b4aaf1dd7e201d025cf"
+    },
+    "swat-ops-body-camera": {
+      "sourceHash": "9c16e6c7ef89319e1c32da239ccf2f3d2b860f76daa68f0d0bd546488cae710f",
+      "referenceHash": "6890d9d9001a28d3f5523d7122f3b6c8fbed8ad4aaf7842414feed2214570d16",
+      "title": "SWAT OPS: มุมกล้องติดตัว",
+      "description": "SWAT OPS: Body Camera เป็นเกมยิงยุทธวิธีมุมมองกล้องติดตัวเจ้าหน้าที่ ภาพสั่นและความบิดเบี้ยวของเลนส์เป็นส่วนหนึ่งของรูปแบบ เล่นกับบอตหรือผู้เล่นจริงบนสี่แผนที่ เก็บเหรียญเพื่อเปิดกล่อง รูปลักษณ์อาวุธและของตกแต่ง\n\nแหล่งข้อมูลระบุการแข่งขันสามนาที พร้อม Deathmatch และ ZOMBIE MODE คู่มือกำหนด Deathmatch ที่ผู้แรกได้ 15 การกำจัดชนะ และ Team Deathmatch ที่ทีมแรกได้ 30 ชนะ ใช้การเล็งผ่านศูนย์เมื่อยิงไกล โดยแยกคำสั่งเล็งออกจากการยิงให้ชัดเจน",
+      "instructions": "WASD เคลื่อนที่ เมาส์มอง คลิกซ้ายยิง คลิกขวาเล็ง R บรรจุใหม่ Q หรือวงล้อเปลี่ยนอาวุธ Shift วิ่ง Ctrl ย่อ Space กระโดด Tab หรือ Esc เปิด PDA และตารางคะแนน บนมือถือใช้สติกซ้ายเคลื่อน ลากด้านขวามอง และใช้ปุ่มยิง เล็ง บรรจุ กระโดด ย่อและเปลี่ยนอาวุธบนหน้าจอ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "SWAT OPS: Body Camera is a first-person tactical shooter seen through an operator's body cam: lens distortion, camera sh",
+        "instructionsQuote": "Goal: get the most kills before the three-minute timer ends. First to 15 kills wins Deathmatch; the first team to 30 wins Team Deathmatch. D"
+      },
+      "reviewedTextHash": "d2aaa4e87b1505c3b9c75049523986aec2ea3c66650d2a6f0f9d9c09d2d31ee9"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "title": "SoccerLat: ฟุตบอลออนไลน์สามมิติ",
+      "description": "SoccerLat: 3D Football Online ให้เล่นฟุตบอลแบบเวลาจริงตั้งแต่หนึ่งต่อหนึ่งถึงสิบเอ็ดต่อสิบเอ็ด เลือกตำแหน่งแล้วแข่งขันด้วยกติกาฟาวล์ ฟรีคิก จุดโทษ เตะมุมและทุ่ม หากเสมอเมื่อหมดเวลาปกติจะไปสู่การดวลจุดโทษ\n\nเมื่อคนไม่พอสามารถเปิดผู้รักษาประตูบอต การเคลื่อนด้านข้างขณะยิงทำให้บอลโค้ง ส่วนการเงยกล้องช่วยยกบอลสูง มีสนามในร่มและสนามข้างถนน พร้อมปรับตัวผู้เล่นและทีม ระวังสไลด์ช้าเกินไปเพราะกรรมการอาจตัดสินเป็นฟาวล์",
+      "instructions": "WASD เดิน Shift วิ่ง Space กระโดด เมาส์มอง กดซ้ายค้างเลี้ยงบอล ขวาค้างชาร์จยิงหรือส่งแล้วปล่อยเพื่อเตะ คลิกซ้ายกลางอากาศตีลังกายิง C สไลด์สกัด F วางบอลเมื่อเป็นโกล E ขอบอล B เปิดอารมณ์ 1 มุมมองบุคคลแรก Esc พัก เปลี่ยนปุ่มได้ในการตั้งค่า มือถือใช้จอย ปุ่มและลากเพื่อมอง รองรับเกมแพดด้วย",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re"
+      },
+      "reviewedTextHash": "0ddf609b59aed88dfe06be8878ec9758e45240e360a69c9f8955d2885d19af5e"
+    },
+    "slime-loop": {
+      "sourceHash": "d48d31fbebeae5cce47fb61d675aa02c5fecdade1d10adf6eff75ece3e6e845d",
+      "referenceHash": "bb40d565999efa89a66f3f4584648bfc2f7eb90ab85901f27578162b14218755",
+      "title": "Slime Loop: สไลม์วนยิงพิกเซล",
+      "description": "Slime Loop เป็นปริศนาส่งสไลม์สีต่าง ๆ ไปตามวง เพื่อยิงพิกเซลสีเดียวกับตัวมัน เลือกว่าจะปล่อยตัวใดก่อน ตรวจจำนวนกระสุนที่เหลือและรักษาช่องจอดที่มีจำกัด เป้าหมายคือเคลียร์พิกเซลในภาพทั้งหมดจึงผ่านด่าน\n\nตัวเลขบนสไลม์บอกจำนวนครั้งที่ยังยิงได้ ส่งตัวที่จอดไว้กลับเข้าวงเมื่อสีของมันจำเป็น ลำดับปล่อยและพื้นที่ว่างจึงสำคัญพอ ๆ กับการเลือกสี แหล่งข้อมูลระบุ 450 ด่าน พร้อมกลไกใหม่และบูสเตอร์สำหรับสถานการณ์ยาก ไม่มีความจำเป็นต้องใช้ปุ่มคีย์บอร์ด",
+      "instructions": "แตะสไลม์บนหน้าจอสัมผัสหรือคลิกซ้ายบนคอมพิวเตอร์เพื่อปล่อยเข้าวง มันจะยิงพิกเซลสีเดียวกันอัตโนมัติขณะเคลื่อน ดูเลขกระสุน เลือกลำดับและส่งสไลม์ที่จอดกลับมาเมื่อเหมาะ รักษาช่องจอดให้เหลือและล้างทุกพิกเซล ใช้บูสเตอร์เมื่อปริศนายาก โดยไม่ต้องกดปุ่มคีย์บอร์ด",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Slime Loop is a colorful puzzle game where cute slimes travel around a loop and clear matching pixels. Choose which slim",
+        "instructionsQuote": "Tap a slime on a touchscreen, or click it with the left mouse button, to send it onto the loop. The slime shoots pixels of its own color as "
+      },
+      "reviewedTextHash": "d525626314c06280c79228252b88afd7473d863b8cffd3b53247679fd5b0b852"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: ขับชมเมืองยุค 80",
+      "description": "City Pop Drive เป็นการขับอาร์เคดผ่านเมืองสีพาสเทลในสไตล์ทศวรรษ 1980 รถเร่งเองและคุณเลือกเส้นทาง การผ่านรถอื่นใกล้โดยไม่ชนเพิ่มเวลาและเติม Breeze เมื่อเต็มจะเกิด Boost ซึ่งผลักรถออกข้างทางได้\n\nไปถึงจุดตรวจก่อนหมดเวลา แล้วเลือกทางชมวิวหรือทางด่วนเมื่อเจอทางแยก แผนที่ทั้งห้ามีลูกเล่นต่างกันและเพลงเปลี่ยนตามเส้นทาง ไปถึงเป้าหมายเพื่อเก็บปกแผ่นเสียงในคอลเลกชัน 25 แบบ ส่วน Miles นำไปซื้อการปรับปรุง รถและแผนที่ใหม่",
+      "instructions": "แตะเพื่อเริ่มแล้วลากซ้ายขวาเพื่อเลี้ยว บนคอมพิวเตอร์ใช้ลากเมาส์ ลูกศรหรือ A/D ได้ และ P พัก รถจะเร่งอัตโนมัติ ผ่านการจราจรใกล้ ๆ เพื่อเพิ่มเวลาและ Breeze ไปถึงจุดตรวจให้ทัน เลือกฝั่งทุกทางแยกและไปยังเป้าหมายเพื่อเก็บปกที่กำหนด",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "406450b80f3fa73183afd0df3c356401926cf1023caa2492f6f56a51d0cb4c31"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "title": "Loot Hole: ขุดหาสมบัติ",
+      "description": "Loot Hole เป็นเกมขุดมุมมองบุคคลแรกในภาพการ์ตูน เริ่มขุดใต้ลานหน้าบ้าน นำสมบัติกลับขึ้นมาขายที่แผง แล้วซื้อพลั่ว เสียมขุดหิน สว่าน กระเป๋าที่ใหญ่ขึ้น เจ็ตแพ็กและระเบิด เพื่อผ่านชั้นหินที่แข็งขึ้นระหว่างทางลงถึงหนึ่งพันเมตร\n\nท้ายแต่ละชั้นมีจุดซ่อนพร้อมของหายาก เพื่อนบ้านขอสิ่งที่ขุดได้ผ่านบอร์ด และสมุดคอลเลกชันจดสิ่งที่ค้นพบ เล่นคนเดียวหรือขุดร่วมกันสูงสุดสี่คนในลานเดียวกันได้ มีห้องส่วนตัว เข้าร่วมด้วยรหัสและลานเปิด รวมถึงการแข่งขันขุดใน Neighbours",
+      "instructions": "กดคลิกซ้ายหรือสัมผัสค้างเพื่อขุดจุดที่เล็ง เดินใกล้ของเพื่อเก็บ H กลับผิวดินแล้วเดินเข้าแผงเพื่อขาย WASD เดิน เมาส์มอง Space กระโดดหรือใช้เจ็ตแพ็ก B/I เปิดกระเป๋า C สมุดสะสม X ปาระเบิด Q เปลี่ยนชนิด และ P เปิดเล่นร่วมกัน มือถือใช้สติกและปุ่มบนจอ ซื้อเครื่องมือกับกระเป๋าที่โรงเก็บ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa"
+      },
+      "reviewedTextHash": "cad626affa2f04eff1e0b5384f42129ea7c2b04d1e576f70453b1df6da2b872a"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "title": "พลังเพิ่มหนึ่ง: เอาชีวิตรอดจากซอมบี้",
+      "description": "+1 Zombie Survival เป็นเกมยิงมุมมองบุคคลแรกแบบบล็อกที่พลังเพิ่มหนึ่งทุกวินาที เอาชีวิตรอดสิบคืนในแต่ละเมืองจากทั้งหมดห้าเมือง และเลือกเริ่มคืนใหม่เอง อาคารมีห้องให้ตั้งประตู วางกับดักและใช้พลั่วเจาะช่องกำแพง\n\nรถที่จอดอยู่ใช้ชนซอมบี้ทั่วไปได้ แต่ห้ามใช้กับบอส มีอาวุธให้ปลดล็อกสิบเอ็ดชนิดจนถึงปืนหลุมดำ และการเกิดใหม่เพื่อโบนัสคูณถาวร สนามฝึกสอนด้วยการลงมือ เลือกตำแหน่งตั้งรับและทางเคลื่อนให้เหมาะขณะที่พลังยังเพิ่มและทำให้ทุกนัดแรงขึ้น",
+      "instructions": "WASD เดิน เมาส์มอง ซ้ายยิง ขวาเล็ง Space กระโดด Shift วิ่ง R บรรจุใหม่ 1–0 วงล้อหรือแถบเปลี่ยนอาวุธ B เปิดพิมพ์เขียว E ประตูและขึ้นลงรถ F ซ่อม U อัปเกรด G เริ่มคืน Esc พัก ในรถ W/S เป็นเร่งและเบรก A/D เลี้ยว มือถือใช้จอยซ้าย ลากขวามองและปุ่มยิง สร้าง ขับ ซ่อมบนหน้าจอ",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make"
+      },
+      "reviewedTextHash": "b8d12b58041cc6d6328ab68b57ec2079d817d71cd7692f9c54ec8363fefe5a8c"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "title": "Roll Tycoon: ธุรกิจทอยเต๋า",
+      "description": "Roll Tycoon เป็นเกมบริหารสามมิติที่ทอยลูกเต๋าเพื่อรับเงินในเกม ลูกเต๋าที่พร้อมจะตกบนถาดและจ่ายตามหน้าด้านบน ซื้อเต๋าห้าขั้นจาก d4 ถึง d20 และเพิ่มผลตอบแทนด้วยอาร์ติแฟกต์กับรูปปั้นจากกล่อง ค่าสูงสุดของเต๋าให้ JACKPOT และเติม FEVER\n\nเมื่อ FEVER เต็มจะจ่ายสองเท่าแปดวินาที และของบางชิ้นยืดช่วงนี้ได้ มีสัญญาสามสิบข้อ ถ้วยรางวัลยี่สิบสองใบ รวมถึงภารกิจรายวันและรายสัปดาห์ เมื่อหาเงินในเกมหนึ่งล้านในรอบเดียวสามารถ Rebirth เพื่อดาวตัวคูณถาวร เงินและรางวัลเหล่านี้เป็นทรัพยากรภายในเกม",
+      "instructions": "คลิกหรือแตะถาด กด Space หรือ ROLL เพื่อทอยเต๋าที่รอทั้งหมด ดูเป้าหมายต่อไปใน CONTRACT ใช้รายได้ซื้อเต๋า ขั้นใหม่ โชคและอาร์ติแฟกต์ รับรางวัลภารกิจใน MISSIONS ผ่าน CLAIM Sponsor Boost หรือกล่องฟรีอาจต้องดูโฆษณารับรางวัล หากภาพหนักให้ปรับ Graphics และตรวจยอดที่ต้องการก่อน Rebirth",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the"
+      },
+      "reviewedTextHash": "d904f0e39359d51d136370bc7e30279ac420af2496da95ff94f78919f30e3a80"
+    },
+    "weird-pet-shop": {
+      "sourceHash": "b6f9b5ed5e6f34e48923437d329ac4f09fdf81f30f514f8341fdc8c78ed9f341",
+      "referenceHash": "8f77575fc21751031356a159b75e91e5428b9a057f08643a9e4c1a1b25ec73be",
+      "title": "ร้านสัตว์เลี้ยงประหลาด",
+      "description": "Weird Pet Shop ให้เปิดร้านที่สัตว์เลี้ยงในกล่องส่งของอาจมีสิ่งผิดปกติ ตรวจเทียบคู่มือเพื่อหาตาเกิน เงาที่หายไป หูเพิ่ม หรือพฤติกรรมแปลก จากนั้นดูแลตัวที่ปกติก่อนขายให้ผู้ซื้อผ่านบทสนทนา\n\nยอมรับข้อเสนอ ยืนราคาเดิมหรือเรียกเพิ่มได้ แต่โลภเกินไปลูกค้าอาจเดินหนี หากมองข้ามสิ่งผิดปกติ ตอนกลางคืนจะมีบางอย่างเคลื่อนในกรง การอัปเกรดร้าน สีหายากและคอลเลกชันช่วยสร้างเป้าหมายระหว่างกะสั้น ๆ จึงต้องแบ่งความสนใจระหว่างตรวจสัตว์ ดูแลและต่อรอง",
+      "instructions": "กด Start shift เปิดกล่องแล้วเทียบสัตว์กับ Guide ก่อนหมดเวลา เลือก Looks normal เมื่อปกติ หรือ Anomaly! แล้วแตะจุดผิดปกติ ลูบสัตว์ปกติด้วยนิ้วหรือเมาส์เพื่อเพิ่มราคา ตอบแชตผู้ซื้ออย่างพอดี ตอนกลางคืนรีบแตะกรงที่เคลื่อน แล้วใช้เหรียญหลังจบกะซื้ออัปเกรด คอมพิวเตอร์ใช้เมาส์ มือถือใช้สัมผัส",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Welcome to Weird Pet Shop, a cozy shop game where not every pet is what it seems! Open the morning delivery, check each ",
+        "instructionsQuote": "Tap \"Start shift\" and open the delivery box. Compare the pet with the Guide before the timer runs out. If everything matches, tap \"Looks nor"
+      },
+      "reviewedTextHash": "b83575d511683a56bb30079d6536a214085cd4a7c97a4c484588231e2bd647ed"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: ทางเลือกของวีรบุรุษ",
+      "description": "Battlecross เป็นเกมสวมบทบาทต่อสู้ที่เรียนความสามารถจากอาจารย์หลายแบบ ผสมโล่อัศวินกับเวทไฟหรือเรียกองครักษ์ได้ ผ่านพื้นที่ด้วยการกำจัดกลุ่มศัตรูทุกกลุ่มและผู้นำท้ายด่าน แม้แพ้ยังเก็บประสบการณ์กับของที่หาได้ไว้\n\nทุกเลเวลให้แต้มคุณสมบัติสามแต้มสำหรับพลัง ความคล่อง ปัญญา ความทนทาน ทักษะและเสน่ห์ ในเมืองซื้ออุปกรณ์ ขยายเข็มขัดยากับผู้รักษาและเรียนจากผู้ฝึก บางตัวเลือกท้ายพื้นที่ย้อนกลับไม่ได้และเปลี่ยนร้านค้า อาจารย์กับบทสรุป จึงควรคิดก่อนยืนยัน",
+      "instructions": "เดินเข้าใกล้ศัตรูแล้วฮีโร่โจมตีเอง ใช้ความสามารถและยาฟื้นสุขภาพเมื่อจำเป็น เอาชนะทุกกลุ่มกับผู้นำและแบ่งแต้มตามตัวละครที่ต้องการ ช่องใช้งานแปดกับช่องติดตัวสี่รับทักษะจากสิบหกคลาสได้ แหล่งข้อมูลไม่ได้ระบุปุ่มเดินหรือทักษะเฉพาะ ให้ใช้ส่วนควบคุมที่แสดงในเกม",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "0f9dc5c6d6141d2f80ad660d53e5ffe17d6b6e65d987d9172ae69ddc13c1bea0"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "locale": "kk",
+  "games": {
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "title": "CubeGate: текшелі қақпалар",
+      "description": "CubeGate — ғылыми фантастика үлгісіндегі бөлмелерден өтетін логикалық платформер. Жарқыраған текшелерді қысым тақталарына қойып, есіктерге, көпірлерге және көтергіштерге қуат бересіз. Кей бөлмеге бірнеше текше керек, ал кейде құрылғыларды іске қосу реті шешуші болады.\n\nЕдендегі белгілер мен сымдар тетіктердің байланысын көрсетеді. Текшені тасымалдамас бұрын баратын орныңызды жоспарлаңыз. Қақпаға қуат бермей тұрып басқа алаңға секіру қажет болуы мүмкін. Дәл секіру мен текшені дұрыс орналастыруды ұштастырып, шығатын жолды ашыңыз.",
+      "instructions": "W, A, S, D, Q, Z немесе бағыт пернелерімен қозғалыңыз. E не тінтуірдің сол жақ батырмасы текшені алады және қояды. Space не оң жақ батырма секіртеді, Shift жылдам жүгіртеді. Escape мәзірді ашады: деңгейді қайта бастауға және дыбысты өзгертуге болады. Текшелерді белгіленген тақталарға қойып, сымдардың байланысын бақылаңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis"
+      },
+      "reviewedTextHash": "5b5ac0d06503f01c3bf4218a9660b961852b5427d835b5e9fabf7d1b00e70b14"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "3D автотрюктер мен жарыс",
+      "description": "Car Stunt Racing Game 3D : Car Games биіктегі жолдарда, үлкен трамплиндер мен қозғалатын кедергілер арасында көлік жүргізуді ұсынады. Мақсат — соғылмай және жолдан құламай мәреге жету. Секірер алдында көліктің бағытын түзеп, жерге түсетін орнын ескеру қажет.\n\nБірнеше камера көрінісі тар учаскелер мен трамплиндерді бақылауға көмектеседі. Бақылау нүктелері құлағаннан кейін жолдың ортасынан қайта бастауға мүмкіндік береді. Уақытпен өтетін кезеңдерде белгіленген мерзімге үлгеру керек. Бұрылыс пен қозғалмалы бөгет алдында көлікті басқаруды жоғалтпаңыз.",
+      "instructions": "Компьютерде жоғары бағыт пернесі үдетеді, төмен перне артқа жүргізеді, сол және оң пернелер бұрады. Space тежегішті іске қосады. Телефонда бұрылу батырмаларын, газ бен тежегіш педальдарын пайдаланыңыз. Трамплинге түзу жақындап, қонғанда жолда қалуға тырысыңыз және уақыт біткенше мәреге жетіңіз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Omitted unverified offline-play promises and download marketing; preserved the explicit stunt racing objectives, checkpoint behavior and stated controls."
+      },
+      "reviewedTextHash": "f3ae332e79eafc7acdcb35d66463c7a71ae775781fe7d33a6eb408d04e7aac09"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: ұшақ құрастыр",
+      "description": "Obby Craft: Build a Plane ойынында ұшақты жеке бөлшектерден жинайсыз. Әр блок ұшуға әсер етеді. Әуеде картаға шашылған тиындарды жинап, жаңа бөлшектер мен жақсартуларға жұмсайсыз. Ұшақты жіберетін сақпанды күшейту жоғарырақ әрі жылдамырақ ұшуға көмектеседі.\n\nБөлшек дүкені жаңа блоктар мен сыртқы көріністер ұсынады, ал сыйлық дөңгелегі тиын немесе сирек зат бере алады. Дереккөзде екі тегін көрініс және жобаларды сақтайтын төртке дейін ұяшық көрсетілген. Құрастырған ұшағыңызды кедергілер жолағында сынап, жолдағы бөгеттерден жалтарыңыз.",
+      "instructions": "Ұшақтың жанындағы құрастыру аймағына жақындаңыз. Төмендегі қордан бөлшек таңдап, орналастыру үшін ұшақ жанын басыңыз. Бөлшек жетпесе, дүкеннен алыңыз. Тиынмен сақпанды жақсартып, ұшақты жіберіңіз; ұшқанда тиын жинап, кедергілерден айналып өтіңіз. Дереккөз нақты ұшу пернелерін бермейді, ойын көрсеткен басқаруды ұстаныңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "fac2911ca4d3281f0eabb70182ee15fa8b611f715923cc7921d4b5dc515402a6"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: мотоцикл сынағы",
+      "description": "Canyon Drifter — күрделі жолдар мен мотоциклді баптауға негізделген екіөлшемді мотосынақ. Тік өрлер мен секірістерден өту үшін газ беру ғана жеткіліксіз: жүргізушіні алға не артқа еңкейтіп, тепе-теңдікті сақтау керек. Жолды жақсы уақытпен аяқтап, нәтижелер кестесіндегі көрсеткішті жақсартуға ұмтыласыз.\n\nБір бағыттан өте алмасаңыз, гаражға оралып, мотоциклді жер бедеріне лайықтап баптаңыз. Содан кейін жылдамдық пен еңкеюді басқа ретпен үйлестіріп көріңіз. Артқа еңкею алдыңғы дөңгелекті көтереді, ал алға еңкею тұмсықты төмендетеді.",
+      "instructions": "Жоғары перне немесе W газ береді; төмен перне немесе S тежейді және артқа жүргізеді. Сол перне немесе A артқа, оң перне немесе D алға еңкейтеді. Esc не P кідіртеді, R қайта бастайды. Телефонда алғашқы жанасудан соң төрт батырма шығады: жоғарыда газ бен тежегіш, төменде алға және артқа еңкею. Кідірту мен қайта бастау оң жақ жоғарыда.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "fa1093fd0c826bf1a9cca926032c8a3a15e0bfe688b25b71d6ef259645559831"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "3D шахмат: сиқырлы бақ",
+      "description": "3D Chess - Arcane Edition дәстүрлі шахматты ертегіге ұқсас бақтағы үшөлшемді тақтада ұсынады. Мыс пен алтын түсті фигуралар және үш қиындық деңгейіндегі компьютер қарсыласы бар. Негізгі мақсат — қарсыластың патшасына мат қою. Фигура таңдалғанда жарық нүктелер рұқсат етілген жүрістерді көрсетеді.\n\nКамераны айналдырып, тақтаны жақындатып көруге болады. Баптауда қиындықты, жүріс белгілерін және дыбысты өзгертіңіз. Доспен ойнау үшін бастапқы экрандағы Play a Friend арқылы жеке бөлме жасап, кодын бөлісесіз. Қарсылас фигурасын алу үшін оның тұрған шаршысына жүріңіз.",
+      "instructions": "Фигураны таңдау үшін оны басып не түртіп, кейін белгіленген шаршыны таңдаңыз. Камераны сүйреп айналдырыңыз, екі саусақпен не тінтуір дөңгелегімен жақындатыңыз. Шам белгісіндегі Hint ұсынылатын жүрісті көрсетеді; дереккөз бір партияда үшке дейін көмек және жеке режимде сыйақылы жарнама шартын атайды. Тісті дөңгелек белгісі баптауларды ашады.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "637eb1744183cb79b85bce7159508d9b83fb3101a65f7baa5a0c7708d588cd59"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "title": "Sky Rush: әуе екпіні",
+      "description": "Sky Rush — ұшақты басқарып, мүмкіндігінше алыс ұшуға тырысатын шексіз әуе ойыны. Басында аспан тыныш болғанымен, уақыт өткен сайын жылдамдық өсіп, жаңа жаулар мен зымырандар пайда болады. Алтын жұлдыздарды жинап, қауіпсіз бағыт тауып, кедергілерден жалтарыңыз.\n\nҰшақ саусақтың немесе меңзердің соңынан жүреді, сондықтан бос кеңістікті алдын ала таңдаған пайдалы. Жиналған ойын ақшасы дүкендегі күшейтулерге және ұшақтың жаңа көріністеріне жұмсалады. Әр жаңа әрекетте бұрынғы қашықтық нәтижесін жақсартып, көшбасшылар кестесінде жоғарылауға болады.",
+      "instructions": "Тінтуір батырмасын басып ұстап, меңзерді жылжытыңыз немесе экранның кез келген жерін ұстап, саусағыңызды қозғаңыз: ұшақ сол бағытпен жүреді. Алтын жұлдыздарды жинап, жаулар мен зымырандардан аулақ болыңыз. Жылдамдық өскенде қауіпсіз аралықтарды таңдаңыз. Дүкенде жиналған тиындарға күшейтулер мен сыртқы көріністер алыңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen any"
+      },
+      "reviewedTextHash": "fb29f236dd57ad82f5fe5f533e7bd70acef44428c5f47ca4c043e65183cc1d45"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: тыныш сызықтар басқатырғышы",
+      "description": "Turnline: Relaxing Puzzle — сызықтарды тұтас желіге қосатын байыпты басқатырғыш. Тақтайшаларды бұрып, олардың жолдарын көрші бөліктермен жалғайсыз. Барлық қажет бағыттар қосылғанда кезең аяқталады. Алғашқы тапсырмалар қарапайым, кейін желілер үлкейіп, тармақтар мен күрделі байланыстар көбейеді.\n\nТаймер жоқ, сондықтан әр бұрудың салдарын асықпай ойластыруға болады. Дұрыс қосылған жолдар жарықтанып, қай тұстың әлі үйлеспегенін көрсетеді. Қиын жағдайда көмек қолдануға болады. Ойын ілгерілеуді сақтайды, сондықтан көптеген кезеңді бір отырыста бітіру міндетті емес.",
+      "instructions": "Компьютерде тақтайшаны тінтуірмен басыңыз, телефонда не планшетте түртіңіз: ол бұрылады. Сызықтардың көрші тақтайшаларға қалай жалғанатынын тексеріңіз. Бүкіл желіге қажет барлық жол қосылғанша бөлшектерді бұра беріңіз. Жарықтанған бөліктер дұрыс байланысты көрсетеді. Келесі қадамды таба алмасаңыз, көмекті пайдаланыңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "a6694165e1642482d5367d88fec27844eaebdeba7b87e45bb424051d437e4aa4"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "title": "Көк трактор",
+      "description": "Blue Tractor — ауыл тұрғындарына көмектесетін үшөлшемді жүргізу шытырман ойыны. Көк трактормен ауылды аралап, аспаз Peppino-ға ірімшік, басқа тұрғындарға шөп, жұмыртқа мен сәлемдеме жеткізесіз. Жоғалған жануарлар мен жасырын қазыналарды табу да тапсырмаларға кіреді. Әр жұмыс тракторды жақсартуға арналған тиын береді.\n\nГаражда қозғалтқышты күшейтіп, жанармай багын үлкейтуге, лайға арналған дөңгелек пен жаңа бояу алуға болады. Уақыт қыспайтын ашық әлемде кейіпкерлерге бағыттайтын жебені ұстаныңыз. Жанармай мен дөңгелектердің күйіне қарап, терең судан аулақ жүріңіз.",
+      "instructions": "Компьютерде W, A, S, D немесе бағыт пернелерімен жүргізіп, Space арқылы тежеңіз. Телефонда экрандағы джойстикті сүйреңіз. Жебені бойлап тұрғынға жетіп, жеткізу не жинау тапсырмасын орындаңыз. Жанармайды дүкеннен алыңыз; бак босаса, фермерлер қысқа тоқтаудан кейін толтырады. Сынған дөңгелекті жөндетіңіз немесе механикті күтіңіз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villag",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S"
+      },
+      "reviewedTextHash": "7b944b2fb8a425f29ace7008ab4d235bee5e3ed6d6b5057c556cd31d6db5e70c"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: қала жолдары",
+      "description": "City Pop Drive — сексенінші жылдар стиліндегі пастель қалалар арқылы өтетін аркадалық жарыс. Көлік өздігінен үдейді. Басқа машиналардың жанынан тимей жақын өту уақыт қосып, Breeze көрсеткішін толтырады. Көрсеткіш толғанда көліктерді шетке ығыстыратын Boost іске қосылады.\n\nТаймер біткенше әр бақылау нүктесіне жетіп, жол айрығында көрікті немесе жылдам бағытты таңдаңыз. Бес картаның өзіндік ерекшелігі бар, музыка таңдаған жолға бейімделеді. Мәреге жеткенде жинаққа арналған мұқаба беріледі; ойында жиырма бес мұқаба көрсетілген. Miles жақсартуларға, көліктерге және карталарға жұмсалады.",
+      "instructions": "Бастау үшін түртіңіз де, солға не оңға сүйреп бұрылыңыз. Компьютерде тінтуірмен сүйреу, бағыт пернелері және A/D жұмыс істейді; P кідіртеді. Газды бөлек басудың қажеті жоқ, көлік автоматты үдейді. Жақын өтулермен Breeze жинап, бақылау нүктесіне уақытында жетіңіз. Әр айрықта бір бағытты таңдап, мұқаба үшін соңғы мақсатқа барыңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "329803a621240ac15d98665c21d0aa3e41c144755c84ae288076f2aa274984c2"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: қаһарман таңдауы",
+      "description": "Battlecross — түрлі ұстаздан қабілет үйреніп, өз кейіпкеріңізді құратын рөлдік ұрыс ойыны. Рыцарь қалқанын от сиқырымен немесе шақырылған сақшылармен біріктіруге болады. Аймақтағы барлық жау тобын және соңғы басшыны жеңу алға жылжытады. Жеңіліп қалсаңыз да, тәжірибе мен олжа сақталады.\n\nӘр деңгей үш қасиет ұпайын береді. Күш, ептілік, зерде, төзімділік, шеберлік және тартымдылық таңдауы жабдық пен қабілетке әсер етеді. Қалаларда сауда жасап, емшіден сусын белдігін кеңейтіп, ұстаздардан үйреніңіз. Кей аймақ соңындағы қайтарылмайтын шешімдер саудагерлерді, ұстаздарды және оқиғаның аяқталуын өзгертеді.",
+      "instructions": "Жауға жақындасаңыз, кейіпкер автоматты шабуылдайды. Қажет кезде қабілеттер мен денсаулық сусынын қолданыңыз. Барлық топты және аймақ басшысын жеңіп, деңгей ұпайларын таңдаған бағытқа бөліңіз. Сегіз белсенді және төрт енжар ұяшыққа он алты сыныптан қабілет алуға болады. Дереккөз нақты пернелерді атамайды; экран нұсқауларын орындаңыз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "6aa6e6022336ac706382bc9163fd5398d7096f4aeb46e2a90bd671a8befa56e4"
+    },
+    "abandoned-mansion": {
+      "sourceHash": "35e2f8ef28e6d1ca46c649ebb69c55f3c9121afb01bf644fd98c131afbd0e43d",
+      "referenceHash": "f17613a6b07e2a215f9174a4e2475daea9f019917247320e929b262ecf9ea32e",
+      "title": "Қаңыраған зәулім үй",
+      "description": "Abandoned Mansion — көмек шақырған хабардан кейін қаңыраған үйді зерттейтін бірінші жақтағы қорқынышты ойын. Ғимаратқа келгенде жағдайдың кеш өзгергенін түсінесіз. Іште заттармен әрекеттесу, жасырын бөлмелерді табу және басқатырғыштарды шешу зерттеумен қатар жүреді.\n\nБірнеше деңгейде әртүрлі құбыжықтар мен басшылар кездеседі. Бөлмелерден табылған заттардың неге арналғанын қарап, келесі жолды ашуға көмектесетін байланыстарды іздеңіз. Қозғалу, еңкею және секіру бөлек әрекеттер, ал шабуыл мен қайта оқтау үшін өз батырмалары бар. Дыбыс пен музыка үйдің қорқынышты ортасын толықтырады.",
+      "instructions": "W, A, S, D арқылы қозғалыңыз, E арқылы затпен әрекеттесіңіз. R қаруды қайта оқтайды, C еңкейтеді, Tab қорды ашады, Space секіртеді. Тінтуірдің сол жақ батырмасы шабуылдайды немесе атады. Үйді зерттеп, заттарды тексеріңіз және басқатырғыштарды шешіңіз. Құбыжықпен кездескенде қозғалу, шабуыл және қайта оқтауды үйлестіріңіз.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-08",
+        "descriptionQuote": "Abandoned Mansion is a first-person horror game set in an abandoned mansion, where a distress call leads you to investig",
+        "instructionsQuote": "W, A, S, D - Move E - Interact R - Reload C - Crouch Tab - Open inventory Space - Jump Left mouse button - Attack/Shoot"
+      },
+      "reviewedTextHash": "b4dad385426bf1bea9dfcea4301f148f34f4e312f8a78c0851fb455d7da4d956"
+    }
+  }
+}

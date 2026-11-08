@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "locale": "uk",
+  "games": {
+    "escape-from-the-crypt": {
+      "sourceHash": "c3c717b360b5e8bce73cca759544c4fe606f15034bbb21edcf5c67c3bd193d97",
+      "referenceHash": "fdbbaddab4803461ccc325f52face53f5f00f8e2cfca84f48e77ada95a8a86e8",
+      "title": "Втеча з крипти",
+      "description": "Escape From The Crypt — покрокова втеча з крипти, де потрібно проходити кімнати, поки вас не наздогнали некроманти. Вони рухаються швидше за героя, але не обходять перешкоди. Тому важливо не просто віддалятися від переслідувача, а використовувати розташування стін і заводити його в глухий кут.\n\nПеред ходом порівняйте власний шлях до виходу зі шляхом ворога. Перешкода може затримати переслідування, але водночас закрити потрібний прохід вам. Невдалий крок можна скасувати, а підказка допоможе, якщо ви не бачите наступного рішення. Поступово звільняйте собі шлях з кожної кімнати.",
+      "instructions": "На комп’ютері пересувайте героя клавішами зі стрілками. Backspace скасовує хід, H дає підказку. На телефоні використовуйте екранну хрестовину та кнопки. Заводьте швидших некромантів у тупики за перешкодами й добирайтеся до виходу, перевіряючи наслідки кожного кроку.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Escape from the crypt, one room after another, before the necromancers get you! They move faster than you do, but they w",
+        "instructionsQuote": "On PC, use the arrow keys to move your character. Backspace to undo a move, and H to get a hint. On mobile, use the on-screen D-pad and the "
+      },
+      "reviewedTextHash": "95f0c8367fa66e1aafecb90349a6dfd00734ec36b1225be630d81c58bd9deaba"
+    },
+    "cubegate": {
+      "sourceHash": "34405be0f6909ef04b8e1967ac3e2a0ecd2f2c986dc93c62bf15abe4741dbee1",
+      "referenceHash": "1720f85feca33b5bf29502e21830f6af3db049a7d817fd3fae93041e23aea176",
+      "title": "CubeGate: куби й брами",
+      "description": "CubeGate поєднує платформні стрибки з логічними випробуваннями в науково-фантастичних кімнатах. Ставте світні куби на натискні плити, щоб подавати живлення на двері, мости та ліфти. Іноді потрібні кілька кубів, правильна черговість дій або стрибок на платформу до ввімкнення механізму.\n\nКабелі, позначки на підлозі й лінії енергії пояснюють зв’язки між пристроями. Плануйте маршрут, перш ніж переносити куб чи перемикати живлення. Мета — відкрити шлях до виходу завдяки точним стрибкам і продуманому розташуванню кубів. Якщо послідовність не спрацювала, рівень можна почати заново з меню.",
+      "instructions": "Рухайтеся клавішами W, A, S, D, Q, Z або стрілками. E чи ліва кнопка миші бере й кладе куб. Space чи права кнопка миші — стрибок, Shift — спринт. Escape відкриває меню перезапуску та звуку. Ставте куби на позначені плити й стежте за проводами; до далеких платформ розганяйтеся та стрибайте з краю.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Puzzle-platformer inspired by portal-style test chambers. Move through clean sci-fi rooms, pick up glowing cubes and pla",
+        "instructionsQuote": "Goal: place cubes on the marked plates, power the logic gates, and open the doors to the next area. Action order, power distance, and precis"
+      },
+      "reviewedTextHash": "4cb71c38f72164c932a95304ec5bc293c4676f54d1d6dcfc770429e785761d09"
+    },
+    "car-stunt-racing-game-3d--car-games": {
+      "sourceHash": "92d9f28f227f3d134c9f1361e7cccbf2b1c53a7b2a77b2f4d88c058d6378c560",
+      "referenceHash": "0e82769d0fd5d8b35efeccd7cb69407164766ac06d9fefadcb702cb69236aa7d",
+      "title": "3D перегони та автомобільні трюки",
+      "description": "Car Stunt Racing Game 3D : Car Games випробовує керування автомобілем на висотних трасах із великими трамплінами, стрибками та рухомими перешкодами. Потрібно дістатися фінішу без зіткнення й падіння з дороги. Перед трампліном вирівнюйте машину та враховуйте місце приземлення.\n\nРізні ракурси камери допомагають оцінити вузькі ділянки. Контрольні точки дають змогу після падіння відновити спробу посеред траси. У заїздах на час також потрібно вкластися в ліміт. Поєднуйте достатню швидкість для стрибка з обережним керуванням біля поворотів і рухомих перепон.",
+      "instructions": "На комп’ютері стрілка вгору прискорює, вниз їде заднім ходом, ліворуч і праворуч повертають. Space вмикає гальмо. На телефоні користуйтеся кнопками повороту, педаллю газу й гальма. Під’їжджайте до трампліна рівно, втримуйте машину на дорозі після стрибка та фінішуйте до завершення часу.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "car game 🚘 3d ~ Fast, furious, and super-fun car racing games and car stunt master 3d games Try now offline mega ramp C",
+        "instructionsQuote": "Desktop Arrow Keys – Control driving and steering Up Arrow – Accelerate Down Arrow – Reverse Left / Right Arrows – Steer Spacebar – Apply br",
+        "sourceIssueResolution": "Omitted the unverified offline-play and download claims; retained specific driving controls, checkpoint behavior and the timed stunt-racing objective."
+      },
+      "reviewedTextHash": "571cdc937b8580f5676e9a8c8b9dae27d3b0b17199c9eec7dd0ffb9b3ff64fe9"
+    },
+    "obby-craft-build-a-plane": {
+      "sourceHash": "b3779e88a436dc5bf7bf90429972c9372c4dd0b7a4aa50f6f920fbde4c872b88",
+      "referenceHash": "1b049ea9853b88aa85b668900edfc1fe685a3567768688572e1b14424f1761e3",
+      "title": "Obby Craft: збудуй літак",
+      "description": "В Obby Craft: Build a Plane ви збираєте літак з окремих деталей. Кожен блок впливає на політ. Збирайте монети в повітрі та витрачайте їх на нові частини й удосконалення. Посилення рогатки перед злетом дозволяє запускати конструкцію вище й швидше.\n\nМагазин пропонує блоки та зовнішні вигляди, а колесо нагород може дати монети чи рідкісні речі. Джерело вказує два безкоштовні вигляди та до чотирьох комірок для збереження проєктів. Перевіряйте літак на смузі перешкод, ухиляйтеся від перепон і змінюйте конструкцію за зароблені монети.",
+      "instructions": "Підійдіть до зони будівництва біля літака. Виберіть деталь у нижньому інвентарі та клацніть поруч із літаком, щоб установити її. Відсутні частини купуйте в магазині. Удоскональте рогатку, запускайте літак і збирайте монети в польоті. Джерело не задає окремих клавіш польоту, тому орієнтуйтеся на підказки керування всередині гри.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Obby Craft: Build a Plane\" — play for free, where you will become an aircraft designer! The main mechanic is to assembl",
+        "instructionsQuote": "How to play \"Obby Craft: Build a Plane\" 1. Assemble your airplane from parts You need to approach the plane (there is a crafting area next t"
+      },
+      "reviewedTextHash": "08db7a8a31dbfb5bba248d57de4cfac8a9af4454e992be2189e72307fd45b82e"
+    },
+    "canyon-drifter": {
+      "sourceHash": "41f2e0079fb0a9b99b089cfc687aceeaeeeda4d35fbfd0091e88b71db43a4df7",
+      "referenceHash": "ea2c1f57e7e1021e953c163cf3e2b46045a9ae9ae15445ec634e999a5bc8aa3d",
+      "title": "Canyon Drifter: мототріал",
+      "description": "Canyon Drifter — двовимірний мототріал зі складними трасами й налаштуванням мотоцикла. Круті підйоми та стрибки вимагають не лише газу, а й рівноваги: нахиляйте водія вперед чи назад, щоб змінювати положення мотоцикла. Намагайтеся завершити трасу з кращим часом для таблиці результатів.\n\nЯкщо ділянка не піддається, поверніться в гараж і переналаштуйте мотоцикл під ґрунт та рельєф. Потім спробуйте інше поєднання швидкості й нахилу. Нахил назад піднімає переднє колесо, а вперед опускає ніс; зважайте на це перед приземленням.",
+      "instructions": "Стрілка вгору або W — газ, вниз або S — гальмо й задній хід. Ліворуч або A нахиляє назад, праворуч або D — вперед. Esc чи P ставить паузу, R перезапускає. На телефоні після першого дотику з’являються чотири кнопки: газ і гальмо вгорі, нахили внизу. Пауза й перезапуск розташовані праворуч угорі.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "2D moto-trial built around tough tracks and dialing in your bike. Pick a build for the dirt and the terrain, clear steep",
+        "instructionsQuote": "Keyboard: - Throttle — Up arrow or W - Brake / reverse — Down arrow or S - Lean back (lift the front wheel) — Left arrow or A - Lean forward"
+      },
+      "reviewedTextHash": "e33fb7d9b9e082970fa84fa04e00a518a1a5158b6ac96d61a4bd25c98028689a"
+    },
+    "3d-chess--arcane-edition": {
+      "sourceHash": "0dab1a30a983adbba2e4c8994570397b358b475e6e21a54f7dbd58be50b68d4c",
+      "referenceHash": "8f9eb8fb2d7eb314409526a29bf68adfcb122814412bc46b69469e7836f6316d",
+      "title": "3D шахи: чарівний сад",
+      "description": "3D Chess - Arcane Edition переносить класичні шахи на тривимірну дошку в казковому саду з мідними й золотистими фігурами. Є три рівні складності комп’ютерного суперника. Мета — поставити мат ворожому королю. Коли ви вибираєте фігуру, світні крапки показують дозволені ходи.\n\nКамеру можна обертати й наближати для іншого огляду дошки. Налаштування змінюють складність, позначки ходів і звук. Щоб зіграти з другом, створіть приватну кімнату через Play a Friend на початковому екрані та поділіться її кодом. Для взяття фігури перейдіть на її клітинку.",
+      "instructions": "Клацніть або торкніться фігури, потім виберіть підсвічену клітинку. Перетягування обертає камеру; жест двома пальцями чи колесо миші змінює масштаб. Кнопка Hint із лампочкою показує рекомендований хід: джерело вказує до трьох підказок на партію та винагородну рекламу в одиночному режимі. Шестерня відкриває налаштування.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Step into a mystical enchanted garden and play chess like never before. 3D Chess - Arcane Edition brings the classic str",
+        "instructionsQuote": "Tap a piece to select it, then tap a highlighted square to move. The glowing dots show your legal moves. Capture enemy pieces by moving onto"
+      },
+      "reviewedTextHash": "d0097fb6955263fe66b2857f90f9510abe735927c3235f7b6951916d77c7d14b"
+    },
+    "ashfall-industries": {
+      "sourceHash": "e7fb0f0c2799b887e54f39e10f74e44b3e5555fed5915b8f20fe6a05ebf3fc76",
+      "referenceHash": "a51019fb2ba84b6d9e7a862eb69462f787b01b1ed9ceb1b3cf43a035faee92e9",
+      "title": "Ashfall Industries: промисловість пустки",
+      "description": "Ashfall Industries — іронічна управлінська гра в стилі атомпанку про відбудову промисловості в пустці. Почніть з іржавого водяного насоса, збирайте брухт Scrap і відкривайте виробництва: теплиці, станції розбору, радіо, каравани, майстерні дронів та інші операції. Покращення збільшують виплати й прискорюють цикли.\n\nНаймайте Crew Chiefs, щоб автоматизувати виробництво, і купуйте Retrofits для кращої ефективності та винагород. Lucky Finds дають додатковий поштовх розвитку. Коли будете готові до нового початку, Reclamation скидає розвиток заради Reactor Cores та постійних протоколів поліпшення наступної відбудови.",
+      "instructions": "Купіть операцію та натисніть Run для виробництва Scrap. Витрачайте брухт на рівні й нові підприємства. Наймайте Crew Chiefs для автоматичних циклів, купуйте Retrofits і збирайте Lucky Finds. Reclamation використовуйте, коли готові почати відбудову знову заради Reactor Cores. На комп’ютері всі кнопки натискаються лівою кнопкою миші, на сенсорному екрані — дотиком.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Ashfall Industries is a comic atompunk idle management game about turning a battered wasteland into a thriving industria",
+        "instructionsQuote": "How to Play 1. Buy an operation and click its Run button to begin producing Scrap. 2. Spend Scrap to level up operations, unlock more busine"
+      },
+      "reviewedTextHash": "0ca65b3055e4a83e2c19582c0f2a292597b2567b379b865ea20c0b861ce30203"
+    },
+    "city-chase-escape-police": {
+      "sourceHash": "dcc99e6ab5ca8b950e2e9cc67342669f96473b31c08335668beaa2fac26e1c89",
+      "referenceHash": "630d5147f158d65e45acfdc7fd833a71c1b637f8b4c007dddfe659b7f74c3fc7",
+      "title": "Міська погоня: втеча від поліції",
+      "description": "City Chase: Escape Police — автомобільна погоня, у якій потрібно якнайдовше не дати поліції себе зупинити. Збирайте монети для нових машин та бонуси здоров’я. Ram Bar дозволяє таранити поліцейські автомобілі, а зростання Wanted Levels робить виживання складнішим.\n\nЗа замовчуванням машина прискорюється сама, тож основна увага потрібна для поворотів і заднього ходу. Можна перейти на кнопковий режим з окремими педалями. Відкривайте автомобілі з різними рисами, покращуйте найкращий час і користуйтеся скиданням, якщо застрягли: воно не завершує поточний заїзд.",
+      "instructions": "На телефоні утримуйте лівий або правий бік для повороту, обидва — для заднього ходу; відпустіть, щоб вирівняти авто. У кнопковому режимі є стрілки й педалі GO/REVERSE. На ПК ліворуч/A та праворуч/D повертають, вниз/S їде назад. Вгору, W чи Space прискорює лише в кнопковому режимі. Можна тримати ліву кнопку миші з потрібного боку екрана. R звільняє застрягле авто, Esc ставить паузу.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Race through the city and survive the police chase for as long as you can! Dodge cops, collect coins, grab HP boosts, an",
+        "instructionsQuote": "Dodge the police cars and survive as long as you can to achieve the highest score. Collect coins to fill the garage with cars. Mobile Contro"
+      },
+      "reviewedTextHash": "3fc5b03efe53589ffe13fa3b66d17967662d23e889cf868a4c6e015b40b3c5d9"
+    },
+    "sky-rush": {
+      "sourceHash": "502a86360cd0ca2d8d13e7f9a43b8a829f3ffcdeebe99d5dcce6853c71da8a61",
+      "referenceHash": "a4789a3a0284b51457261741812e13b204940903eeb3ce68a798850772a0007d",
+      "title": "Sky Rush: швидкісний політ",
+      "description": "Sky Rush — нескінченний політ, у якому ви ведете літак якнайдалі, збираючи золоті зірки та ухиляючись від небезпек. Спочатку небо спокійне, але з часом швидкість зростає, з’являються нові вороги й ракети. Потрібно вчасно помічати безпечні проміжки та міняти напрямок.\n\nЛітак слідує за пальцем або курсором, тому вибирайте вільний простір попереду. Зароблені ігрові монети витрачаються в магазині на посилення та нові зовнішні вигляди. Кожен новий старт дає змогу перевершити власну дальність польоту та поліпшити місце в таблиці результатів.",
+      "instructions": "Натисніть і утримуйте кнопку миші або торкніться будь-якого місця екрана й ведіть палець: літак слідуватиме за ним. Збирайте золоті зірки, оминайте ворогів і ракети. Коли темп зростає, шукайте безпечний шлях між загрозами. У магазині витрачайте зароблені монети на посилення чи новий вигляд літака.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "\"Sky Rush\" is all about the pure joy of speed and total control! Experience a never-ending flight where every move feels",
+        "instructionsQuote": "Flying in \"Sky Rush\" is pure fun and super easy to start! Here is how to play: — Controls: Click and hold your mouse or touch the screen any"
+      },
+      "reviewedTextHash": "864e6290fa436c22e39ee30e79bf6b9893cc81164e29fb9d36e7df908184621a"
+    },
+    "turnline-relaxing-puzzle": {
+      "sourceHash": "53c83e23262e636254211197162651a7326bf9d22263b60a84bb43cd3642342e",
+      "referenceHash": "bfac852b4b0ad37ac0c197f7d4aaafdc050e40a869a79d4ef0b80cd066bf9220",
+      "title": "Turnline: спокійна головоломка з лініями",
+      "description": "Turnline: Relaxing Puzzle — некваплива головоломка про з’єднання ліній у цілісну мережу. Обертайте плитки, щоб їхні маршрути збігалися із сусідніми частинами. Рівень закінчується, коли всі потрібні шляхи з’єднані. Початкові схеми прості, а наступні стають більшими й отримують більше розгалужень.\n\nТаймера немає, тому можна обдумувати вплив кожного повороту без поспіху. Правильно з’єднані маршрути підсвічуються й допомагають побачити решту задачі. Для складних ситуацій є підказки. Прогрес зберігається, тож не потрібно проходити всі запропоновані рівні за один сеанс.",
+      "instructions": "Клацніть плитку мишкою на комп’ютері або торкніться її на телефоні чи планшеті, щоб обернути. Перевірте, як її лінії з’єднуються із сусідніми плитками. Повертайте частини, доки не утворяться всі потрібні маршрути. Підсвічування показує правильні зв’язки; якщо наступний крок неочевидний, скористайтеся підказкою.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Turnline: Relaxing Puzzle is a calm minimalist puzzle about connecting lines. Tap the tiles to rotate them and find the ",
+        "instructionsQuote": "Tap a tile to rotate it. Your goal is to connect the lines and complete the entire network. Tap a tile to rotate it. Check how its lines con"
+      },
+      "reviewedTextHash": "4f7ca14f8517f08450c4949d43da5650b2a516d355267fa423c1ad70f440d775"
+    },
+    "ash-of-the-depths": {
+      "sourceHash": "4e442df624291831703eb5dda78de341454a1ea1c6ccf1b0596fb6bbd85af0c2",
+      "referenceHash": "626ccd1df21b38be12a4ebaf71b63c45b145a6a1f6b3e7256445ca4b166c6beb",
+      "title": "Попіл глибин",
+      "description": "Ash of the Depths — похмурий науково-фантастичний шутер про спуск у замовклу колонію Sorrow-IV. Світ реагує на фізику: скелі обвалюються, пісок сиплеться, вода тече, магма застигає, а газ може вибухнути від іскри. Мета — знайти вихід кожного рівня й пережити зустрічі з босами.\n\nУ грі вказано сто рівнів, шість розділів історії та сім біомів. Зброя й броня підтримують різні підходи, а плазмовий різак прокладає шлях крізь породу. Золото витрачається в Арсеналі на спорядження й поліпшення. Різак добре ріже скелю, проте майже не шкодить ворогам, тому не замінює бойову зброю.",
+      "instructions": "На ПК A/D рухають, W стрибає, Space вмикає реактивний ранець. Миша прицілює та стріляє, права кнопка кидає гранату, 1–4 змінюють зброю, F вмикає різак, Esc ставить паузу. На телефоні лівий стік відповідає за рух і стрибок, правий — за прицілювання й вогонь; окремі кнопки дають гранату, різак і зміну зброї. Стрілка на краю веде до мети, золото витрачайте в Арсеналі через паузу або після рівня.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "The colony of Sorrow-IV has gone silent. The Ash Legion sends its last executor to the very bottom, where something anci",
+        "instructionsQuote": "Goal: descend as deep as you can, reach the exit of each level and survive the bosses. Phone: left stick — move and jump, right stick — aim "
+      },
+      "reviewedTextHash": "e222437a985e52dc8532a290f09eca22a049ce9a2ec4d7ad3d9c1189be948d51"
+    },
+    "letterhold": {
+      "sourceHash": "da94045148f5de84b62051e229f2b962ba5aa04f28db5ede1d5628b0339cb131",
+      "referenceHash": "c228ccbdbab4ae866b3b17bab17dd85bb0ab54eb73b7a8c96b76e5151ff70a77",
+      "title": "LetterHold: складай слова",
+      "description": "LetterHold — настільна гра зі словами на полі 15×15. Викладайте літери, з’єднуйте нові слова з уже наявними та використовуйте преміальні клітинки для більшої кількості очок. Поки ви перетягуєте плитку, гра показує майбутню вартість слова, тож можна порівняти варіанти до підтвердження.\n\nЄ одиночна гра проти бота на трьох складностях, передавання одного екрана двом–чотирьом гравцям і мережеві кімнати. Набори літер та словники доступні англійською, українською й польською. Порожня плитка замінює літеру, а підказка пропонує хід. Перемагає найбільший рахунок після спорожнення мішечка й стійки одного з гравців.",
+      "instructions": "Перетягуйте літери мишею або пальцем зі стійки на поле. Play підтверджує слово, Undo прибирає останню плитку, Undo-all скасовує весь поточний хід. Pass пропускає хід, Exchange обмінює вибрані літери, Shuffle перемішує стійку, Hint пропонує варіант. Усі утворені слова перевіряються словником обраної мови. Преміальні клітинки множать літеру або слово; використання всіх плиток за хід дає бонус.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "LetterHold is a word-building board game: draw letters, spell them across a 15x15 board, and take the premium squares be",
+        "instructionsQuote": "Goal: score more points than your opponent by building words on the board. The game ends when the bag is empty and one player uses up their "
+      },
+      "reviewedTextHash": "25bd635a17132058d2b1b06d7e9cc650a84665c5222415ecea3677198bfd17bc"
+    },
+    "reversi-classic": {
+      "sourceHash": "d98e4e68e0cdafa94d4938232f92503d5fd416a61c28100b2e28375ac6378ea0",
+      "referenceHash": "dbcd1f18addefca533a22d6fdd0f8e2b204df375041aa3a4ded59606d781e3c0",
+      "title": "Класичне реверсі",
+      "description": "Reversi Classic — тривимірне втілення реверсі, де один хід може перевернути одразу кілька дисків. Затискайте диски суперника між новим і вже наявним власним диском, щоб змінити їхній колір. Наприкінці партії потрібно мати більше своїх дисків на дошці.\n\nМожна грати проти комп’ютера на п’яти рівнях, у рейтингових мережевих матчах, з другом за кодом кімнати чи на одному екрані. Щоденна задача пропонує однакову позицію всім гравцям. Кутові клітинки особливо цінні: зайнятий кут уже не можна перевернути назад. Дозволені ходи позначені крапками.",
+      "instructions": "Клацніть або торкніться клітинки, щоб покласти диск. Хід має затиснути щонайменше один ворожий диск по прямій або діагоналі; усі затиснуті диски змінюють колір. Якщо дозволеного ходу немає, черга пропускається. Гра завершується, коли ніхто не може ходити. У навчальному режимі наведіть курсор чи утримуйте дотик для перегляду переворотів. Esc відкриває меню.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Reversi (Othello) in beautiful 3D — the classic strategy game where one move can turn the whole board. Sandwich your opp",
+        "instructionsQuote": "Goal: have more discs of your color on the board when the game ends. Players take turns placing one disc. A move is only allowed where it sa"
+      },
+      "reviewedTextHash": "2bf8c2adc76f841b4100398d601c4259c77cdaa4e9f7a9f2d85b65b468de7975"
+    },
+    "soccerlat-3d-football-online": {
+      "sourceHash": "914d30279622dea54f32f7cd5724bc05273d10dfd919979b8b67bf3ee4b6d3d8",
+      "referenceHash": "617397deba67e4ab98935bdd8f5291b499f23eb6a06c86b27b1ac088ed97f341",
+      "title": "SoccerLat: мережевий 3D футбол",
+      "description": "SoccerLat: 3D Football Online — футбольні матчі в реальному часі від одного проти одного до одинадцяти проти одинадцяти. Виберіть позицію та грайте з правилами порушень, штрафних, пенальті, кутових і вкидань. Нічия після основного часу переходить у серію пенальті.\n\nЯкщо бракує гравців, можна ввімкнути ботів-воротарів. М’яч реагує на напрямок і рух: переміщення вбік під час удару додає закрутки, а вища камера допомагає підняти м’яч. Є стадіон і вуличний майданчик, налаштування гравця та команди. Запізнілий підкат може стати порушенням.",
+      "instructions": "WASD рухає, Shift спринтує, Space стрибає, миша оглядає. Утримуйте ліву кнопку для дриблінгу, праву — для заряду удару чи пасу; відпустіть праву, щоб ударити. Ліва кнопка в повітрі виконує удар через себе. C — підкат, F — покласти м’яч воротарем, E — попросити пас, B — емоції, 1 — перша особа, Esc — пауза. Клавіші змінюються в налаштуваннях. Телефон має джойстик, кнопки та огляд перетягуванням; підтримується геймпад.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Soccer Online is a fast 3D football game you play in your browser against other people in real time. Pick your position,",
+        "instructionsQuote": "Controls Move - WASD Sprint - Shift Jump - Space Look around - Mouse Dribble - hold Left click Shoot / Pass - hold Right click to charge, re"
+      },
+      "reviewedTextHash": "fd58f5fabaeac8566efcedcb052a894cc9849c295b4f353ab4bd10bf7441a9fa"
+    },
+    "slime-loop": {
+      "sourceHash": "d48d31fbebeae5cce47fb61d675aa02c5fecdade1d10adf6eff75ece3e6e845d",
+      "referenceHash": "bb40d565999efa89a66f3f4584648bfc2f7eb90ab85901f27578162b14218755",
+      "title": "Slime Loop: слизики на кільці",
+      "description": "Slime Loop — головоломка, у якій кольорові слизики рухаються кільцем і прибирають пікселі свого кольору. Ви вибираєте, кого відправити наступним, стежите за запасом пострілів і не даєте обмеженим паркувальним місцям заповнитися. Для завершення рівня потрібно очистити всю піксельну картинку.\n\nЧисло на слизику показує решту пострілів, тому порядок запуску впливає на можливість прибрати потрібні кольори. Припаркованого слизика можна повернути на коло, коли його колір знову потрібен. У джерелі вказано 450 рівнів, нові механіки та допоміжні посилення для складних розкладок.",
+      "instructions": "На сенсорному екрані торкніться слизика, на комп’ютері клацніть лівою кнопкою миші, щоб відправити його на кільце. Він сам стріляє в пікселі свого кольору під час руху. Плануйте порядок, перевіряйте залишок пострілів і вчасно запускайте припаркованих слизиків знову. Зберігайте вільні місця та очистіть усі пікселі. За потреби використовуйте посилення; клавіатура не потрібна.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Slime Loop is a colorful puzzle game where cute slimes travel around a loop and clear matching pixels. Choose which slim",
+        "instructionsQuote": "Tap a slime on a touchscreen, or click it with the left mouse button, to send it onto the loop. The slime shoots pixels of its own color as "
+      },
+      "reviewedTextHash": "ef12a063c3b9b5a02fa90d6f4b8443fbc29b0be5bf4f60d3783151013c9da3be"
+    },
+    "aura-clicker": {
+      "sourceHash": "c70e25e81c1b19b88cc267bd379dd65491eff377d16775164f7bc12da99012a1",
+      "referenceHash": "c408c7c4f4ec749a704338beda7335803bc0e11fdd2c3f3e48f93cae1c95e6ef",
+      "title": "Aura Clicker: накопичуй ауру",
+      "description": "Aura Clicker — клікер про розвиток героя від Noob до GOAT. Натискання дають ауру, яку витрачають на силу кліку, автоматичний дохід, множники та критичні удари. Є шість героїв і 52 вихованці в п’яти регіонах. Кожен отриманий вихованець дає постійний бонус, навіть якщо не супроводжує героя зараз.\n\nРанг залежить від аури, заробленої в поточному проходженні, тому витрати на поліпшення не знижують його. Перше переродження відкривається після 300 мільйонів заробленої за прохід аури. Воно скидає ауру, ранг і поліпшення, але зберігає вихованців, відкритих героїв та престиж для постійних бонусів і нових регіонів.",
+      "instructions": "Виберіть героя й клацайте або торкайтеся біля нього для аури. Купуйте Click Power, Auto Click, Aura Multiplier і Crit Chance; утримання кнопки купівлі бере кілька рівнів. Auto Click працює, поки гра відкрита. У магазині викликайте вихованців, натискайте скрині, забирайте щоденні нагороди. Перед Rebirth перевірте вимогу на кнопці: наступні переродження потребують більше аури.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "How much aura can you farm? Start as a Noob and work your way up to GOAT in Aura Clicker, a colorful idle clicker packed",
+        "instructionsQuote": "1. Choose your starting hero, then click or tap around them to earn aura. 2. Spend aura on Click Power, Auto Click, Aura Multiplier, and Cri"
+      },
+      "reviewedTextHash": "d850a12154fdcfd8ecb928967a29b29206ac464886fe9c39df845a08fbc396d2"
+    },
+    "blue-tractor": {
+      "sourceHash": "3b03d93cc983a56776c355f63d4d9c5e50f6e8b7896ef034aad9f66a4c226449",
+      "referenceHash": "def98d9a53e6915a7715d55716863d65b43d374c0a6ae7679bfca9a6bf843a1e",
+      "title": "Синій трактор",
+      "description": "Blue Tractor — тривимірна поїздка селом із допомогою місцевим жителям. На синьому тракторі доставляйте сир кухарю Peppino, сіно, яйця й посилки іншим персонажам, шукайте загублених тварин та сховані скарби. Завершені справи дають монети для розвитку машини.\n\nУ гаражі можна посилити двигун, збільшити паливний бак, придбати болотяні шини, фарбу й прикраси. У відкритому світі без часової гонитви стежте за стрілкою до потрібного жителя. Пальне та стан коліс впливають на поїздку; користуйтеся магазином для обслуговування й уникайте глибокої води.",
+      "instructions": "На ПК керуйте W, A, S, D або стрілками; Space гальмує. На телефоні перетягуйте екранний джойстик. Їдьте за стрілкою до персонажа й виконуйте доставлення чи збирання. Купуйте пальне в магазині; якщо бак спорожніє, фермери заправлять після короткої зупинки. Поламані колеса ремонтуйте в магазині або чекайте механіка. Кнопка в куті ставить паузу.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "A cheerful 3D driving adventure for kids. Hop into the blue tractor, explore a big sunny countryside and help the villag",
+        "instructionsQuote": "Goal: follow the arrow to each character, complete their delivery and collect-quests, and earn coins to upgrade your tractor. Desktop: W/A/S"
+      },
+      "reviewedTextHash": "b5f63c92b5d20b45a4e439d5728dc995ee00bd172c8e30b73cf0b989748fd3d8"
+    },
+    "city-pop-drive": {
+      "sourceHash": "3354d44f18aee065503294f292be916e117b3eecdf122019d2d5b5a837e1750b",
+      "referenceHash": "62f558ebba55541f2f13c81c2f61c373a3cf0fb0cfa185f506e24c9a526ae49d",
+      "title": "City Pop Drive: міські маршрути",
+      "description": "City Pop Drive — аркадна поїздка пастельними містами в стилі вісімдесятих. Автомобіль прискорюється автоматично. Близькі проходи повз інші машини без зіткнення додають час і наповнюють Breeze. Коли шкала повна, вмикається Boost, здатний відштовхувати транспорт.\n\nПроходьте контрольні точки до завершення таймера та вибирайте мальовничу або швидку дорогу на розвилках. П’ять карт мають власні особливості, а музика змінюється разом із маршрутом. На кінцевій меті видається обкладинка для колекції з 25 штук. Ресурс Miles витрачається на поліпшення, автомобілі та карти.",
+      "instructions": "Торкніться для старту, потім ведіть ліворуч чи праворуч для повороту. На комп’ютері також працюють перетягування миші, стрілки та A/D; P ставить паузу. Окремо газувати не потрібно. Заробляйте Breeze близькими проходами, встигайте до контрольних точок і вибирайте бік на кожному розгалуженні. Досягайте кінцевих цілей заради обкладинок.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "City Pop Drive is a one-thumb arcade drive through pastel 80s city pop scenery. Pass traffic close to fill the Breeze me",
+        "instructionsQuote": "Tap to start, then drag left or right to steer (mouse drag, arrow keys or A and D on desktop; P pauses). The car accelerates by itself. Pass"
+      },
+      "reviewedTextHash": "41e6558078effc9e199167a796ec6a4d4b7899d362d5105988c20e30e2b70572"
+    },
+    "loot-hole": {
+      "sourceHash": "6be3e154f0fe31de75ba4e0ad328f2cbf47fa5346ef2839dcd7096a1a1b431b9",
+      "referenceHash": "f82a15071ab6cdf5bcaa4ffcf3d498c7c9a734df598c2eaa5721cbdb1bb95311",
+      "title": "Loot Hole: копай і знаходь скарби",
+      "description": "Loot Hole — мультяшна гра про копання від першої особи. Рийте у власному дворі, піднімайте знайдені скарби й продавайте їх біля ятки. За виручку купуйте лопати, кирки, бури, більші наплічники, реактивні ранці та вибухівку, щоб проходити твердіші шари на шляху до глибини тисяча метрів.\n\nКожен шар закінчується прихованим орієнтиром із рідкісною знахідкою. Сусіди просять викопані речі на дошці, а книга колекції зберігає перелік відкриттів. Можна копати самому чи разом із максимум чотирма гравцями, створити приватний двір або приєднатися за кодом. Neighbours також пропонує змагання з копання.",
+      "instructions": "Утримуйте ліву кнопку миші або дотик на телефоні, щоб копати в точці прицілу. Підходьте до знахідок, щоб забрати їх. H повертає на поверхню для продажу біля ятки. WASD рухає, миша оглядає, Space стрибає чи використовує ранець. B/I відкривають наплічник, C — колекцію, X кидає вибухівку, Q змінює її вид, P відкриває спільну гру. На мобільному є стік і кнопки.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Loot Hole is a cartoony first-person digging game. Dig down through your front yard, find buried treasure, carry it up a",
+        "instructionsQuote": "Hold the left mouse button (or touch and hold on a phone) to dig where you aim. Walk near a find to put it in your backpack. When the backpa"
+      },
+      "reviewedTextHash": "715f208a8df80a163f9e3c9eb2d4aa7ece3c026f3c918522752342e248bd42f1"
+    },
+    "1-zombie-survival": {
+      "sourceHash": "bc83263d11ac6ab63bc583e1d43f3e180f7bee541833b71e8fa052f70da4609f",
+      "referenceHash": "533d37e261a16804dda210613dca4d511f93739f443317b2ba8836f7f44f1565",
+      "title": "+1 виживання серед зомбі",
+      "description": "+1 Zombie Survival — блоковий шутер від першої особи, у якому сила зростає на одиницю щосекунди. Переживіть десять ночей у кожному з п’яти міст, знищуючи орди. Наступну ніч запускаєте самі. У будівлях можна ставити двері й пастки, а киркою робити отвори в стінах.\n\nПрипарковані автомобілі дозволяють таранити звичайних зомбі, проте не босів. Є одинадцять видів зброї аж до гармати чорної діри та переродження з постійними множниками. Тренувальний майданчик навчає діями. Вибирайте укриття й маршрут так, щоб втримати оборону, поки ваша сила продовжує зростати.",
+      "instructions": "WASD рухає, миша оглядає, ліва кнопка стріляє, права прицілює. Space стрибає, Shift спринтує, R перезаряджає. 1–0, колесо чи панель змінюють зброю. B відкриває креслення, E — двері та посадку/вихід з авто, F ремонтує, U покращує, G починає ніч, Esc ставить паузу. В авто W/S — газ і гальмо, A/D — поворот. На телефоні використовуйте лівий стік, огляд перетягуванням праворуч і кнопки вогню, будівництва та обслуговування.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "+1 Zombie Survival is a blocky first-person zombie shooter where you gain +1 power every second. A training ground teach",
+        "instructionsQuote": "Survive every night: zombies come from all streets, and each night ends when the horde is gone. Your power grows by +1 every second and make"
+      },
+      "reviewedTextHash": "f18312ef01da03ff22726909e96201986f02a1ce83d23c4081b0d5ed13420637"
+    },
+    "roll-tycoon": {
+      "sourceHash": "14c6faccb09f1c92f39a431279b0a8017d6bfd2cd49aef0a3f0d0f2cb980612f",
+      "referenceHash": "1197496411aafa33e726a721d8130497d0941bba518edf2db418e5ee31b1d2e2",
+      "title": "Roll Tycoon: імперія кубиків",
+      "description": "Roll Tycoon — тривимірна управлінська гра з киданням гральних кубиків. Готові кубики падають на тацю й після зупинки дають ігрові гроші за верхню грань. Купуйте кубики п’яти ступенів від d4 до d20, артефакти й статуетки зі скринь для більшої виручки. Максимальна грань дає JACKPOT і наповнює FEVER.\n\nПовна FEVER подвоює виплати на вісім секунд; відповідний артефакт може подовжити цей час. Тридцять контрактів, двадцять два трофеї та щоденні й щотижневі завдання дають додаткові цілі. Мільйон ігрових грошей за прохід відкриває Rebirth зі зірками для постійних множників. Це ресурси всередині гри.",
+      "instructions": "Клацніть або торкніться таці, натисніть Space чи ROLL, щоб кинути всі готові кубики. Стежте за ціллю на CONTRACT. Витрачайте виручку на кубики, ступені, удачу та артефакти. У MISSIONS забирайте нагороди виконаних завдань через CLAIM. Sponsor Boost або безкоштовна скриня може вимагати винагородну рекламу. За важкої графіки змініть Graphics; Rebirth потребує вказаного мільйона ігрової валюти.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "Roll Tycoon is a 3D dice-powered idle tycoon: throw batches of physics dice onto an isometric tray, read their top faces",
+        "instructionsQuote": "Tap or click the board (or press Space / the ROLL button) to throw every waiting die. Dice tumble with real physics, settle, and pay out the"
+      },
+      "reviewedTextHash": "c06b1b313d191d17c0f3c6542ad5527a7f7dcea7edb119a8af694d05b5270408"
+    },
+    "battlecross": {
+      "sourceHash": "627c776c1b5eee86d3058bd3fa8f25f06c04214fe7c24243b845f0756bbabf52",
+      "referenceHash": "86d441db1c1ad7ff97c9ae718d27e034afab345718583825568247e8dcc0fcd3",
+      "title": "Battlecross: вибір героя",
+      "description": "Battlecross — бойова рольова гра, у якій герой вивчає здібності в різних наставників. Поєднуйте лицарський щит із вогняною магією чи викликаними вартовими. Для проходження території переможіть усі групи ворогів і кінцевого лідера. Навіть після поразки досвід та здобич залишаються.\n\nКожен рівень дає три очки характеристик. Сила, спритність, інтелект, витривалість, майстерність і харизма впливають на доступне спорядження й навички. У містах купуйте речі, розширюйте пояс зілля в цілителя та навчайтеся. Деякі рішення наприкінці зон незворотні: вони змінюють торговців, наставників і фінал.",
+      "instructions": "Підійдіть до ворога, щоб герой автоматично атакував. Застосовуйте здібності та зілля здоров’я за потреби. Перемагайте групи й лідера, розподіляйте очки рівня відповідно до задуму героя. Вісім активних і чотири пасивні слоти можна заповнювати здібностями з шістнадцяти класів. Джерело не подає точних клавіш руху й навичок; користуйтеся екранними підказками гри.",
+      "provenance": {
+        "method": "assistant-source-review",
+        "reviewedAt": "2026-11-09",
+        "descriptionQuote": "In a world full or trouble, a hero can learn from any teacher. Combine a knight's shield with a pyromancer's fire, summo",
+        "instructionsQuote": "1. Fight. Walk up to an enemy and your hero attacks on their own. Use your skills and drink a health potion. 2. Clear the zone. Beat every e"
+      },
+      "reviewedTextHash": "13ada04aec97dd7ad15246acf2ce7304037cb53f0c0d43bfd682db4b508a5583"
+    }
+  }
+}

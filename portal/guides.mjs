@@ -72,7 +72,9 @@ export function reviewedGuideDecision(game,locale,record){
   if(description.length<(cjk?220:compact?300:450)||record.description.split(/\n+/).filter(Boolean).length<2)return fail('insufficient-description');
   if(instructions.length<(cjk?100:compact?140:180))return fail('insufficient-instructions');
   if(identity(description)===identity(instructions)||duplicateReviewed.has(locale+'/'+game.id))return fail('duplicate-content');
-  for(const key of sourceSignals(game.instructions).keys)if(!new RegExp(`(?<![A-Za-z0-9])${key==='Esc'?'Esc(?:ape)?':key}(?![A-Za-z0-9])`,'i').test(record.instructions))return fail('missing-source-control-key');
+  const controlText=record.instructions.replace(/\bWASD\b/gi,'W A S D').replace(/\bZQSD\b/gi,'Z Q S D');
+  const keyNames={Esc:'Esc(?:ape)?',Ctrl:locale==='de'?'(?:Ctrl|Strg)':'Ctrl'};
+  for(const key of sourceSignals(game.instructions).keys)if(!new RegExp(`(?<![A-Za-z0-9])${keyNames[key]||key}(?![A-Za-z0-9])`,'i').test(controlText))return fail('missing-source-control-key');
   return {ready:true,kind:'source-reviewed',guide:{title:record.title,description:record.description,instructions:record.instructions,origin:'source-reviewed',sourceHash:record.sourceHash}};
 }
 export function providerGuideDecision(game,locale,review=providerReviews[game.id]){

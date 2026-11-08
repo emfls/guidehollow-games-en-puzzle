@@ -3,7 +3,7 @@ import{readFileSync}from'node:fs';
 import{createHash}from'node:crypto';
 import{games,editorial,hasGamePage,gamePath}from'../portal/catalog.mjs';
 import{reviewedGuideDecision,providerGuideDecision,guideTextHash,guideDecision}from'../portal/guides.mjs';
-import{sourcePlainText}from'../portal/source.mjs';
+import{sourcePlainText,sourceSignals}from'../portal/source.mjs';
 
 const saved=JSON.parse(readFileSync('portal/locales/guides/en-batch01.json')).games['build-and-run-playgama'];
 const game={id:'guide-quality-fixture',title:saved.title,sourceHash:saved.sourceHash,description:saved.provenance.descriptionQuote,instructions:saved.provenance.instructionsQuote};
@@ -17,6 +17,24 @@ const empty={...saved,instructions:'Use the controls.'};empty.reviewedTextHash=g
 assert.equal(reviewedGuideDecision(game,'en',empty).reason,'insufficient-instructions');
 const keyGame={...game,sourceHash:'named-key-fixture',instructions:game.instructions+'\nPress Shift to sprint. Backspace to undo.'};
 assert.equal(reviewedGuideDecision(keyGame,'en',{...saved,sourceHash:keyGame.sourceHash}).reason,'missing-source-control-key','Named keys cannot disappear during localization');
+assert.deepEqual(sourceSignals('Press Shift to sprint. Backspace to undo.').keys.sort(),['Backspace','Shift'],'Sentence boundaries retain named keyboard controls');
+for(const key of ['Shift','Backspace']){
+  const missing={...saved,sourceHash:keyGame.sourceHash,instructions:saved.instructions+' '+(key==='Shift'?'Backspace to undo.':'Shift to sprint.')};missing.reviewedTextHash=guideTextHash(missing);
+  assert.equal(reviewedGuideDecision(keyGame,'en',missing).reason,'missing-source-control-key','Missing '+key+' must fail independently');
+}
+assert.deepEqual(sourceSignals('Open the shop tab to summon pets.').keys,[],'A shop tab is not the physical Tab key');
+assert.deepEqual(sourceSignals('Obby Prison: Craft Escape - escape from prison.').keys,[],'Escape in a game title is not an Esc keyboard mapping');
+assert.deepEqual(sourceSignals('Tab - menu. Press shift to sprint.').keys.sort(),['Shift','Tab'],'Explicit named keyboard controls remain detected');
+assert.deepEqual(sourceSignals('Desktop: Shift for nitro.').keys,['Shift'],'Inline named-key mappings remain detected');
+for(const [text,key]of [['Left Shift - Acceleration','Shift'],['L-Shift = NOS','Shift'],['Inventory - TAB key','Tab'],['P or Esc: pause','Esc'],['Desktop: shift to boost','Shift'],['Space or Enter: Continue','Enter'],['Space / Enter: Continue','Enter']])assert.ok(sourceSignals(text).keys.includes(key),'Actual named key mapping must survive: '+text);
+for(const [text,key]of [['🌸Tab -customization','Tab'],['*TAB:Open upgrade UI','Tab'],['P & Tab = Pause','Tab'],['Click a button, and Escape to close an open menu.','Esc'],['Press 1 to 6 to choose and ENTER to deploy.','Enter']])assert.ok(sourceSignals(text).keys.includes(key),'Decorated or chained named-key mapping must survive: '+text);
+assert.deepEqual(sourceSignals('Run ahead, and escape to freedom.').keys,[],'An ordinary escape verb is not the physical Escape key');
+const movementGame={...game,instructions:game.instructions+'\nW = forward\nA = left\nS = backward\nD = right'};
+const movement={...saved,instructions:saved.instructions+' Use WASD to move.'};movement.reviewedTextHash=guideTextHash(movement);
+assert.ok(reviewedGuideDecision(movementGame,'en',movement).ready,'The standard WASD abbreviation retains its four movement keys');
+const german=JSON.parse(readFileSync('portal/locales/guides/de-batch01.json')).games['build-and-run-playgama'];
+const strg={...german,instructions:german.instructions+' Strg zum Ducken.'};strg.reviewedTextHash=guideTextHash(strg);
+assert.ok(reviewedGuideDecision({...game,sourceHash:german.sourceHash,description:german.provenance.descriptionQuote,instructions:german.provenance.instructionsQuote+'\nCtrl - crouch.'},'de',strg).ready,'German Strg is the localized label of the Ctrl key');
 const placeholder={...saved,description:saved.description+' TODO replace this.'};placeholder.reviewedTextHash=guideTextHash(placeholder);
 assert.equal(reviewedGuideDecision(game,'en',placeholder).reason,'placeholder-content');
 assert.equal(reviewedGuideDecision(game,'ko',saved).reason,'wrong-language');
