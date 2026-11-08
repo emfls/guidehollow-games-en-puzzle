@@ -91,5 +91,38 @@
   "gameTitle": "{title} 무료 온라인 게임",
   "guidesTitle": "게임별 플레이 가이드",
   "guidesNote": "게임의 목표와 조작법을 확인하고 시작할 게임을 골라보세요.",
-  "translationNotice": "일부 게임 제목과 소개는 기계 번역이며, 원문 이름으로도 검색할 수 있습니다."
+  "translationNotice": "일부 게임 제목과 소개는 기계 번역이며, 원문 이름으로도 검색할 수 있습니다.",
+  "carouselPause": "자동 전환 일시정지",
+  "carouselResume": "자동 전환 다시 시작",
+  "carouselPosition": "추천 게임 {total}개 중 {position}번째",
+  "detailContents": "이 페이지 바로가기",
+  "detailControls": "조작 수단과 입력",
+  "detailMechanics": "게임 진행 요소",
+  "detailCompatibility": "지원 기기와 언어",
+  "controlsText": "제공업체 조작 안내에 포함된 입력은 {controls}입니다. 각 입력에 연결된 동작은 게임 안의 안내를 확인하세요.",
+  "mechanicsNote": "제공업체의 플레이 안내에서 확인한 요소입니다. 전체 규칙은 게임 안에서 확인하세요.",
+  "compatibilityText": "{title}의 지원 기기는 {platforms}입니다. 화면 방향은 {orientation}이며, 제공업체가 표시한 게임 내 지원 언어는 {count}개입니다.",
+  "sourceNote": "게임 정보와 입력 표시는 Playgama 카탈로그 자료를 바탕으로 합니다. 제공업체 정보이며, 저희가 직접 작성한 가이드와 구분합니다.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "방향키",
+    "space": "스페이스 키",
+    "mouse": "마우스·클릭",
+    "touch": "터치 입력",
+    "screen": "화면 안 조작 버튼"
+  },
+  "mechanicNames": {
+    "move": "이동",
+    "jump": "점프",
+    "collect": "수집",
+    "match": "짝 맞추기",
+    "merge": "합치기",
+    "build": "건설",
+    "upgrade": "능력 강화",
+    "survive": "생존",
+    "shoot": "사격",
+    "solve": "퍼즐 해결",
+    "avoid": "장애물 회피",
+    "race": "레이싱"
+  }
 }

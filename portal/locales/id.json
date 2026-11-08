@@ -91,5 +91,38 @@
   "gameTitle": "{title} — Main Gratis Online",
   "guidesTitle": "Panduan game",
   "guidesNote": "Pelajari tujuan dan kontrol game sebelum bermain.",
-  "translationNotice": "Sebagian judul dan deskripsi game diterjemahkan secara otomatis. Nama asli tetap dapat dicari."
+  "translationNotice": "Sebagian judul dan deskripsi game diterjemahkan secara otomatis. Nama asli tetap dapat dicari.",
+  "carouselPause": "Jeda pergantian otomatis",
+  "carouselResume": "Lanjutkan pergantian otomatis",
+  "carouselPosition": "Rekomendasi {position} dari {total}",
+  "detailContents": "Di halaman ini",
+  "detailControls": "Kontrol dan masukan",
+  "detailMechanics": "Unsur permainan",
+  "detailCompatibility": "Perangkat dan bahasa",
+  "controlsText": "Petunjuk penyedia menyebutkan masukan ini: {controls}. Lihat panduan di dalam game untuk fungsi masing-masing.",
+  "mechanicsNote": "Unsur ini disebutkan dalam petunjuk permainan penyedia. Periksa aturan lengkap di dalam game.",
+  "compatibilityText": "{title} mendukung {platforms}. Orientasi layar: {orientation}. Penyedia mencantumkan {count} bahasa dalam game.",
+  "sourceNote": "Informasi game dan label masukan berasal dari katalog Playgama. Informasi penyedia dipisahkan dari panduan yang kami tulis.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Tombol panah",
+    "space": "Tombol spasi",
+    "mouse": "Mouse / klik",
+    "touch": "Kontrol sentuh",
+    "screen": "Kontrol di layar"
+  },
+  "mechanicNames": {
+    "move": "Bergerak",
+    "jump": "Melompat",
+    "collect": "Mengumpulkan",
+    "match": "Mencocokkan",
+    "merge": "Menggabungkan",
+    "build": "Membangun",
+    "upgrade": "Peningkatan",
+    "survive": "Bertahan hidup",
+    "shoot": "Menembak",
+    "solve": "Memecahkan teka-teki",
+    "avoid": "Menghindari rintangan",
+    "race": "Balapan"
+  }
 }

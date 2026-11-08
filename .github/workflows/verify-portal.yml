@@ -40,6 +40,8 @@ jobs:
         run: node scripts/test-portal-translations.mjs
       - name: Validate localized game titles and card summaries
         run: node scripts/test-portal-localization.mjs
+      - name: Verify detailed game information and source-confirmed controls
+        run: node scripts/test-portal-details.mjs
       - name: Test actual client DOM interactions without external requests
         run: npm run test:client
       - name: Validate IndexNow plan without submitting URLs

@@ -91,5 +91,38 @@
   "gameTitle": "{title} — Chơi trực tuyến miễn phí",
   "guidesTitle": "Hướng dẫn chơi game",
   "guidesNote": "Tìm hiểu mục tiêu và cách điều khiển trước khi chơi.",
-  "translationNotice": "Một số tên và mô tả trò chơi được dịch tự động. Bạn cũng có thể tìm theo tên gốc."
+  "translationNotice": "Một số tên và mô tả trò chơi được dịch tự động. Bạn cũng có thể tìm theo tên gốc.",
+  "carouselPause": "Tạm dừng chuyển tự động",
+  "carouselResume": "Tiếp tục chuyển tự động",
+  "carouselPosition": "Đề xuất {position} / {total}",
+  "detailContents": "Trong trang này",
+  "detailControls": "Điều khiển và thao tác",
+  "detailMechanics": "Yếu tố lối chơi",
+  "detailCompatibility": "Thiết bị và ngôn ngữ",
+  "controlsText": "Hướng dẫn của nhà cung cấp đề cập các thao tác sau: {controls}. Xem hướng dẫn trong trò chơi để biết chức năng của từng thao tác.",
+  "mechanicsNote": "Các yếu tố này được nhắc đến trong hướng dẫn của nhà cung cấp. Xem luật đầy đủ trong trò chơi.",
+  "compatibilityText": "{title} hỗ trợ {platforms}. Hướng màn hình: {orientation}. Nhà cung cấp liệt kê {count} ngôn ngữ trong trò chơi.",
+  "sourceNote": "Thông tin trò chơi và nhãn thao tác lấy từ danh mục Playgama. Thông tin nhà cung cấp được phân biệt với hướng dẫn do chúng tôi biên soạn.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Phím mũi tên",
+    "space": "Phím cách",
+    "mouse": "Chuột / nhấp",
+    "touch": "Điều khiển cảm ứng",
+    "screen": "Nút điều khiển trên màn hình"
+  },
+  "mechanicNames": {
+    "move": "Di chuyển",
+    "jump": "Nhảy",
+    "collect": "Thu thập",
+    "match": "Ghép cặp",
+    "merge": "Hợp nhất",
+    "build": "Xây dựng",
+    "upgrade": "Nâng cấp",
+    "survive": "Sinh tồn",
+    "shoot": "Bắn",
+    "solve": "Giải đố",
+    "avoid": "Tránh chướng ngại vật",
+    "race": "Đua"
+  }
 }

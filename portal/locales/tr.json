@@ -91,5 +91,38 @@
   "gameTitle": "{title} — Ücretsiz Çevrimiçi Oyna",
   "guidesTitle": "Oyun rehberleri",
   "guidesNote": "Oynamadan önce oyun hedeflerini ve kontrollerini öğrenin.",
-  "translationNotice": "Bazı oyun adları ve açıklamaları makine çevirisidir. Özgün adlarla da arama yapabilirsiniz."
+  "translationNotice": "Bazı oyun adları ve açıklamaları makine çevirisidir. Özgün adlarla da arama yapabilirsiniz.",
+  "carouselPause": "Otomatik geçişi duraklat",
+  "carouselResume": "Otomatik geçişi sürdür",
+  "carouselPosition": "Öneri {position} / {total}",
+  "detailContents": "Bu sayfada",
+  "detailControls": "Kontroller ve girişler",
+  "detailMechanics": "Oynanış öğeleri",
+  "detailCompatibility": "Cihazlar ve diller",
+  "controlsText": "Sağlayıcının talimatlarında şu girişler belirtiliyor: {controls}. Her girişin işlevi için oyun içi kılavuza bakın.",
+  "mechanicsNote": "Bu öğeler sağlayıcının oynanış talimatlarında geçer. Tüm kuralları oyun içinde kontrol edin.",
+  "compatibilityText": "{title}, {platforms} destekler. Ekran yönü: {orientation}. Sağlayıcı oyun içinde {count} dil belirtiyor.",
+  "sourceNote": "Oyun bilgileri ve giriş adları Playgama kataloğundan gelir. Sağlayıcı bilgileri, yazdığımız kılavuzlardan ayrı sunulur.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Yön tuşları",
+    "space": "Boşluk tuşu",
+    "mouse": "Fare / tıklama",
+    "touch": "Dokunmatik kontrol",
+    "screen": "Ekran kontrolleri"
+  },
+  "mechanicNames": {
+    "move": "Hareket",
+    "jump": "Zıplama",
+    "collect": "Toplama",
+    "match": "Eşleştirme",
+    "merge": "Birleştirme",
+    "build": "İnşa",
+    "upgrade": "Geliştirmeler",
+    "survive": "Hayatta kalma",
+    "shoot": "Ateş etme",
+    "solve": "Bulmaca çözme",
+    "avoid": "Engellerden kaçınma",
+    "race": "Yarış"
+  }
 }

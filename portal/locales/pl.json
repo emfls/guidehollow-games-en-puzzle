@@ -91,5 +91,38 @@
   "gameTitle": "{title} — graj za darmo online",
   "guidesTitle": "Poradniki do gier",
   "guidesNote": "Poznaj cele i sterowanie przed rozpoczęciem gry.",
-  "translationNotice": "Niektóre tytuły i opisy są tłumaczone maszynowo. Można też wyszukiwać oryginalne nazwy."
+  "translationNotice": "Niektóre tytuły i opisy są tłumaczone maszynowo. Można też wyszukiwać oryginalne nazwy.",
+  "carouselPause": "Wstrzymaj automatyczne przełączanie",
+  "carouselResume": "Wznów automatyczne przełączanie",
+  "carouselPosition": "Polecana gra {position} z {total}",
+  "detailContents": "Na tej stronie",
+  "detailControls": "Sterowanie i klawisze",
+  "detailMechanics": "Elementy rozgrywki",
+  "detailCompatibility": "Urządzenia i języki",
+  "controlsText": "Instrukcja dostawcy wymienia te sposoby sterowania: {controls}. Funkcje poszczególnych klawiszy sprawdź w grze.",
+  "mechanicsNote": "Te elementy wymieniono w instrukcji dostawcy. Pełne zasady sprawdź w grze.",
+  "compatibilityText": "{title} obsługuje {platforms}. Orientacja ekranu: {orientation}. Dostawca wymienia {count} języków w grze.",
+  "sourceNote": "Dane gry i nazwy sterowania pochodzą z katalogu Playgama. Informacje dostawcy są oddzielone od naszych autorskich poradników.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Klawisze strzałek",
+    "space": "Spacja",
+    "mouse": "Mysz / kliknięcie",
+    "touch": "Sterowanie dotykowe",
+    "screen": "Przyciski ekranowe"
+  },
+  "mechanicNames": {
+    "move": "Ruch",
+    "jump": "Skakanie",
+    "collect": "Zbieranie",
+    "match": "Dopasowywanie",
+    "merge": "Łączenie",
+    "build": "Budowanie",
+    "upgrade": "Ulepszenia",
+    "survive": "Przetrwanie",
+    "shoot": "Strzelanie",
+    "solve": "Rozwiązywanie zagadek",
+    "avoid": "Unikanie przeszkód",
+    "race": "Wyścigi"
+  }
 }

@@ -91,5 +91,38 @@
   "gameTitle": "{title} — jouer gratuitement en ligne",
   "guidesTitle": "Guides de jeu",
   "guidesNote": "Découvrez les objectifs et les commandes des jeux avant de jouer.",
-  "translationNotice": "Certains titres et descriptions sont traduits automatiquement. Les noms originaux restent recherchables."
+  "translationNotice": "Certains titres et descriptions sont traduits automatiquement. Les noms originaux restent recherchables.",
+  "carouselPause": "Suspendre le défilement automatique",
+  "carouselResume": "Reprendre le défilement automatique",
+  "carouselPosition": "Suggestion {position} sur {total}",
+  "detailContents": "Sur cette page",
+  "detailControls": "Commandes et saisie",
+  "detailMechanics": "Éléments de jeu",
+  "detailCompatibility": "Appareils et langues",
+  "controlsText": "Les instructions du fournisseur mentionnent ces commandes : {controls}. Consultez le guide du jeu pour connaître leur fonction.",
+  "mechanicsNote": "Ces éléments figurent dans les instructions du fournisseur. Les règles complètes se trouvent dans le jeu.",
+  "compatibilityText": "{title} prend en charge {platforms}. Orientation : {orientation}. Le fournisseur indique {count} langues dans le jeu.",
+  "sourceNote": "Les informations et libellés de commande proviennent du catalogue Playgama. Les données du fournisseur sont présentées séparément de nos guides rédigés.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Touches fléchées",
+    "space": "Barre d’espace",
+    "mouse": "Souris / clic",
+    "touch": "Commandes tactiles",
+    "screen": "Commandes à l’écran"
+  },
+  "mechanicNames": {
+    "move": "Déplacement",
+    "jump": "Sauts",
+    "collect": "Collecte",
+    "match": "Association",
+    "merge": "Fusion",
+    "build": "Construction",
+    "upgrade": "Améliorations",
+    "survive": "Survie",
+    "shoot": "Tir",
+    "solve": "Résolution d’énigmes",
+    "avoid": "Éviter les obstacles",
+    "race": "Course"
+  }
 }

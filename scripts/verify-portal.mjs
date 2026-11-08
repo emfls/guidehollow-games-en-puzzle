@@ -127,6 +127,7 @@ function schemaNodes(value) {
 async function verify() {
   if (!existsSync(dist)) throw new Error('Build directory does not exist: ' + dist);
   const catalog = await import('../portal/catalog.mjs');
+  const {detailFor}=await import('../portal/details.mjs');
   const { config, groups, games, byId, localeIds, copies, localeGames, collections, editorial, titleFor,
     isIndexable, allRoutes, routeFile, alternatives, preview, provider, listGames, gamePath } = catalog;
   const { buildFingerprint } = await import('../portal/assets.mjs');
@@ -391,18 +392,30 @@ async function verify() {
       expect(affiliate.length === 1 && /\bsponsored\b/.test(affiliate[0].attrs.rel || ''),
         'provider-link', file, 'Expected the exact attributed provider link marked sponsored.');
       const video = schemas.filter(node => node['@type'] === 'VideoGame');
+      const webPage=schemas.find(node=>node['@type']==='WebPage');
       const crumbs = schemas.filter(node => node['@type'] === 'BreadcrumbList');
       expect(video.length === 1 && video[0].url === pageUrl && video[0].name === expectedTitle &&
         eqSet(video[0].inLanguage || [], game.locales), 'game-schema', file, 'VideoGame identity, URL or native languages differ.');
       const items = crumbs[0]?.itemListElement || [];
-      expect(crumbs.length === 1 && items.length === 2 && items[0].position === 1 &&
+      expect(webPage?.inLanguage===entry.locale && webPage.url===pageUrl && webPage.mainEntity?.['@id']===video[0]?.['@id'],'game-webpage-schema',file,'Page language and main game entity must match the visible detail.');
+      expect(crumbs.length === 1 && items.length === 3 && items[0].position === 1 &&
         items[0].item === absolute('/' + entry.locale + '/') && items[1].position === 2 &&
-        items[1].item === pageUrl, 'breadcrumb-schema', file, 'BreadcrumbList must lead from this language home to this game.');
-      if (!guide) expect(noindex && /<div\b[^>]*\blang=["']und["'][^>]*>/.test(html) &&
-        decode(html).includes(copies.get(entry.locale).guidePending), 'untranslated-guide', file, 'Missing-guide pages need noindex, a clear notice, and an und source region.');
+        items[1].item===absolute('/'+entry.locale+'/'+game.genreIds[0]+'/') && items[2].position===3 && items[2].item === pageUrl, 'breadcrumb-schema', file, 'BreadcrumbList must lead from the language home through the primary genre to this game.');
+      for(const id of ['game-overview','game-how-to','game-compatibility'])expect(allTags.some(tag=>tag.attrs.id===id),'game-detail-section',file,'Missing visible game detail section: '+id);
+      expect(descriptions[0]?.attrs.content?.startsWith(expectedTitle.slice(0,40)),'game-description-identity',file,'Meta description must identify this game.');
+      if (!guide) {
+        expect(noindex&&decode(html).includes(copies.get(entry.locale).sourceNote),'source-derived-guide',file,'Source-derived details must retain noindex and source attribution.');
+        if(!detailFor(game,entry.locale).sourceMatched)expect(/<div\b[^>]*\blang=["'](?:en|ru|und)["'][^>]*>/.test(html),'original-source-language',file,'Translated summaries must retain an explicitly tagged original source.');
+      }
       if (isIndexable(entry)) { report.indexableGameCounts.total++; increment(report.indexableGameCounts.byLocale, entry.locale); }
     }
     if (['language', 'genre'].includes(entry.type)) {
+      if(entry.type==='language'&&(entry.page||1)===1){
+        const expected=catalog.recommendedGames(entry.locale,null,6).length||Math.min(6,localeGames.get(entry.locale).length);
+        const slides=named('div').filter(tag=>'data-slide' in tag.attrs);
+        expect(slides.length===expected&&slides.filter(tag=>!('hidden' in tag.attrs)).length===1,'carousel-static-fallback',file,'Recommendations must have one usable server-rendered slide and hidden alternatives.');
+        if(expected>1)expect(named('div').some(tag=>'data-carousel-controls' in tag.attrs&&'inert' in tag.attrs&&tag.attrs['aria-hidden']==='true'&&!('hidden' in tag.attrs)),'carousel-layout-reservation',file,'Inactive initial controls must reserve layout without exposing dead buttons.');
+      }
       const list = listGames(entry);
       const page = entry.page || 1, pages = Math.ceil(list.length / config.pageSize);
       const bin = entry.locale + '/' + (entry.genre || '');

@@ -91,5 +91,38 @@
   "gameTitle": "{title} — 無料オンラインゲーム",
   "guidesTitle": "ゲームの遊び方ガイド",
   "guidesNote": "ゲームの目的と操作方法を確認してから遊びましょう。",
-  "translationNotice": "一部のゲーム名と紹介文は機械翻訳です。原題でも検索できます。"
+  "translationNotice": "一部のゲーム名と紹介文は機械翻訳です。原題でも検索できます。",
+  "carouselPause": "自動切り替えを一時停止",
+  "carouselResume": "自動切り替えを再開",
+  "carouselPosition": "おすすめ {total}件中{position}件目",
+  "detailContents": "ページ内の案内",
+  "detailControls": "操作と入力",
+  "detailMechanics": "ゲームの進行要素",
+  "detailCompatibility": "対応端末と言語",
+  "controlsText": "提供元の操作説明には次の入力が記載されています：{controls}。各入力の動作はゲーム内の説明をご確認ください。",
+  "mechanicsNote": "提供元のプレイ説明に記載された要素です。詳しいルールはゲーム内でご確認ください。",
+  "compatibilityText": "{title}の対応端末：{platforms}。画面の向き：{orientation}。提供元が記載したゲーム内の対応言語は{count}言語です。",
+  "sourceNote": "ゲーム情報と入力の表示はPlaygamaのカタログに基づきます。提供元の情報であり、当サイト独自のガイドとは区別しています。",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "方向キー",
+    "space": "スペースキー",
+    "mouse": "マウス・クリック",
+    "touch": "タッチ操作",
+    "screen": "画面上の操作ボタン"
+  },
+  "mechanicNames": {
+    "move": "移動",
+    "jump": "ジャンプ",
+    "collect": "収集",
+    "match": "マッチング",
+    "merge": "合成",
+    "build": "建設",
+    "upgrade": "能力強化",
+    "survive": "サバイバル",
+    "shoot": "射撃",
+    "solve": "パズルを解く",
+    "avoid": "障害物の回避",
+    "race": "レース"
+  }
 }

@@ -22,6 +22,36 @@
   });
   function watchImages(parent=document){$$('[data-game-image]',parent).forEach(image=>{const fail=()=>image.closest('.game-art')?.classList.add('is-unavailable');image.addEventListener('error',fail,{once:true});if(image.complete&&!image.naturalWidth)fail();});}
   const menus=$$('[data-menu]');
+  const carousel=$('[data-carousel]');
+  if(carousel){
+    const slides=$$('[data-slide]',carousel),controls=$('[data-carousel-controls]',carousel);
+    if(slides.length>1&&controls){
+      const motion=matchMedia('(prefers-reduced-motion: reduce)'),pause=$('[data-carousel-pause]',carousel);
+      let index=0,timer,paused=false,hovered=false,focused=false,visible=true;
+      function schedule(){
+        clearTimeout(timer);
+        if(!paused&&!hovered&&!focused&&visible&&!document.hidden&&!motion.matches)timer=setTimeout(()=>show(index+1),6000);
+      }
+      function show(next){
+        index=(next+slides.length)%slides.length;
+        slides.forEach((slide,n)=>slide.hidden=n!==index);
+        const position=$('[data-carousel-position]',carousel);
+        position.textContent=`${index+1} / ${slides.length}`;
+        position.setAttribute('aria-label',copy.carouselPosition.replace('{position}',index+1).replace('{total}',slides.length));
+        schedule();
+      }
+      $('[data-carousel-prev]',carousel).addEventListener('click',()=>show(index-1));
+      $('[data-carousel-next]',carousel).addEventListener('click',()=>show(index+1));
+      pause.addEventListener('click',()=>{paused=!paused;pause.setAttribute('aria-pressed',String(paused));pause.textContent=paused?'▶':'Ⅱ';pause.setAttribute('aria-label',paused?copy.carouselResume:copy.carouselPause);pause.title=paused?copy.carouselResume:copy.carouselPause;schedule();});
+      carousel.addEventListener('mouseenter',()=>{hovered=true;schedule();});
+      carousel.addEventListener('mouseleave',()=>{hovered=false;schedule();});
+      carousel.addEventListener('focusin',()=>{focused=true;schedule();});
+      carousel.addEventListener('focusout',event=>{focused=carousel.contains(event.relatedTarget);schedule();});
+      document.addEventListener('visibilitychange',schedule);motion.addEventListener('change',schedule);
+      if('IntersectionObserver' in window)new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;schedule();}).observe(carousel);
+      controls.dataset.ready='true';controls.inert=false;controls.removeAttribute('aria-hidden');schedule();
+    }
+  }
   document.addEventListener('pointerdown',event=>menus.forEach(menu=>{if(menu.open&&!menu.contains(event.target))menu.open=false;}));
   $('[data-clear-storage]')?.addEventListener('click',()=>{favorites.clear();recent=[];try{localStorage.removeItem(storageKey('favorites'));localStorage.removeItem(storageKey('recent'));}catch{}updateFavorites();toast(copy.storageCleared);});
   addEventListener('storage',event=>{if(event.key&&!event.key.startsWith('guidehollow:games:'))return;favorites=new Set(read('favorites'));recent=read('recent').slice(0,50);updateFavorites();if(config.type==='search'&&['favorites','recent'].includes(new URLSearchParams(location.search).get('view')))runSearch();});
@@ -72,7 +102,18 @@
       $('meta[property="og:description"]').content=game.summary;
       $$('[data-player-title]').forEach(node=>node.textContent=game.title);
       $('[data-shell-genres]').textContent=game.genres.map(genre=>config.genreNames[genre]).join(' · ');
-      $('[data-shell-summary]').textContent=game.summary;
+      const detail=game.detail;
+      if(!detail||!['description','instructions','compatibility'].every(key=>typeof detail[key]==='string')||!['controls','mechanics'].every(key=>Array.isArray(detail[key])&&detail[key].every(value=>typeof value==='string')))throw new Error('Invalid game detail');
+      $('[data-shell-summary]').textContent=detail.description;
+      $('[data-shell-instructions]').textContent=detail.instructions;
+      $('[data-shell-compatibility]').textContent=detail.compatibility;
+      $('[data-shell-language-facts]').textContent=game.languages.map(language=>language.name).join(' · ');
+      for(const [key,section] of [['controls','control'],['mechanics','mechanic']]){
+        const list=$(`[data-shell-${key}]`);
+        list.replaceChildren(...detail[key].map(value=>{const li=document.createElement('li');li.textContent=value;return li;}));
+        $(`[data-shell-${section}-section]`).hidden=!detail[key].length;
+      }
+      $('[data-shell-guide-note]').hidden=detail.hasGuide||detail.sourceMatched;
       $('[data-shell-platforms]').textContent=game.platformsLabel;
       $('[data-shell-orientation]').textContent=game.orientationLabel;
       const image=$('[data-shell-image]');image.src=game.thumbnail;image.alt=game.title;image.dataset.gameImage='';

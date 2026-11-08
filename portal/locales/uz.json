@@ -91,5 +91,38 @@
   "gameTitle": "{title} — bepul onlayn oʻynash",
   "guidesTitle": "Oʻyin qoʻllanmalari",
   "guidesNote": "Oʻynashdan oldin oʻyin maqsadi va boshqaruvini oʻrganing.",
-  "translationNotice": "Ayrim oʻyin nomlari va tavsiflari avtomatik tarjima qilingan. Asl nomlari bilan ham qidirish mumkin."
+  "translationNotice": "Ayrim oʻyin nomlari va tavsiflari avtomatik tarjima qilingan. Asl nomlari bilan ham qidirish mumkin.",
+  "carouselPause": "Avtomatik almashtirishni to‘xtatish",
+  "carouselResume": "Avtomatik almashtirishni davom ettirish",
+  "carouselPosition": "Tavsiya {position} / {total}",
+  "detailContents": "Bu sahifada",
+  "detailControls": "Boshqaruv va kiritish",
+  "detailMechanics": "O‘yin elementlari",
+  "detailCompatibility": "Qurilmalar va tillar",
+  "controlsText": "Yetkazib beruvchi ko‘rsatmalarida quyidagi kiritish usullari bor: {controls}. Har birining vazifasini o‘yin ichidagi qo‘llanmadan tekshiring.",
+  "mechanicsNote": "Bu elementlar yetkazib beruvchining o‘yin ko‘rsatmalarida keltirilgan. To‘liq qoidalarni o‘yin ichidan ko‘ring.",
+  "compatibilityText": "{title} quyidagi qurilmalarni qo‘llaydi: {platforms}. Ekran yo‘nalishi: {orientation}. Yetkazib beruvchi o‘yinda {count} tilni ko‘rsatgan.",
+  "sourceNote": "O‘yin ma’lumotlari va kiritish nomlari Playgama katalogidan olingan. Yetkazib beruvchi ma’lumotlari o‘zimiz yozgan qo‘llanmalardan alohida beriladi.",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "Yo‘nalish tugmalari",
+    "space": "Bo‘sh joy tugmasi",
+    "mouse": "Sichqoncha / bosish",
+    "touch": "Sensorli boshqaruv",
+    "screen": "Ekrandagi boshqaruv"
+  },
+  "mechanicNames": {
+    "move": "Harakatlanish",
+    "jump": "Sakrash",
+    "collect": "Yig‘ish",
+    "match": "Moslashtirish",
+    "merge": "Birlashtirish",
+    "build": "Qurish",
+    "upgrade": "Yaxshilash",
+    "survive": "Omon qolish",
+    "shoot": "Otish",
+    "solve": "Boshqotirma yechish",
+    "avoid": "To‘siqlardan qochish",
+    "race": "Poyga"
+  }
 }

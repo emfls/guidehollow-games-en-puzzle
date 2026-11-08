@@ -52,16 +52,15 @@ function translateCommonTitle(source, locale) {
 }
 export const titleFor = (game, locale) => {
   const manual = localizedMetadata.titles?.[locale]?.[game.id];
-  if (manual) return manual;
   const written = editorial(game, locale)?.title;
-  if (written && (locale==='en' || written!==game.title)) {
+  let title=manual;
+  if (!title && written && (locale==='en' || written!==game.title)) {
+    title=written;
     if (['ko','ja','zh'].includes(locale) && /[^\x00-\x7f]/.test(written))
-      return written.replace(/\s*\([A-Za-z][^)]{1,80}\)\s*$/, '').trim();
-    return written;
+      title=written.replace(/\s*\([A-Za-z][^)]{1,80}\)\s*$/, '');
   }
-  const translated=catalogTranslation(game,locale)?.title;
-  if(translated)return translated;
-  return translateCommonTitle(game.title, locale);
+  title ||= catalogTranslation(game,locale)?.title || translateCommonTitle(game.title, locale);
+  return title.replace(/\s+/g,' ').trim();
 };
 export const summaryFor = (game, locale) => {
   const manual = localizedMetadata.summaries?.[locale]?.[game.id];

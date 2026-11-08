@@ -91,5 +91,38 @@
   "gameTitle": "{title} — 免费在线玩",
   "guidesTitle": "游戏玩法指南",
   "guidesNote": "开始前先了解游戏目标与操作方法。",
-  "translationNotice": "部分游戏名称和介绍为机器翻译，也可以搜索原名。"
+  "translationNotice": "部分游戏名称和介绍为机器翻译，也可以搜索原名。",
+  "carouselPause": "暂停自动轮播",
+  "carouselResume": "继续自动轮播",
+  "carouselPosition": "推荐游戏：第{position}个，共{total}个",
+  "detailContents": "本页导航",
+  "detailControls": "操作与输入",
+  "detailMechanics": "玩法要素",
+  "detailCompatibility": "支持设备与语言",
+  "controlsText": "提供方的操作说明中提到了以下输入：{controls}。各项输入对应的动作请查看游戏内说明。",
+  "mechanicsNote": "这些要素来自提供方的玩法说明。完整规则请在游戏内查看。",
+  "compatibilityText": "{title}支持{platforms}。屏幕方向：{orientation}。提供方列出的游戏内语言共有{count}种。",
+  "sourceNote": "游戏信息与输入标签来自Playgama目录。这些是提供方资料，与本站原创指南分开呈现。",
+  "controlNames": {
+    "WASD": "WASD",
+    "arrows": "方向键",
+    "space": "空格键",
+    "mouse": "鼠标／点击",
+    "touch": "触控操作",
+    "screen": "屏幕操作按钮"
+  },
+  "mechanicNames": {
+    "move": "移动",
+    "jump": "跳跃",
+    "collect": "收集",
+    "match": "配对",
+    "merge": "合并",
+    "build": "建造",
+    "upgrade": "升级",
+    "survive": "生存",
+    "shoot": "射击",
+    "solve": "解谜",
+    "avoid": "躲避障碍",
+    "race": "竞速"
+  }
 }
