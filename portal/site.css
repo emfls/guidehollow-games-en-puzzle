@@ -2568,3 +2568,50 @@ body.portal {
   font-size: 11px;
   line-height: 1.65;
 }
+
+/* Reviewed game summaries: make gameplay detail readable without truncating at two lines. */
+.portal .card-summary {
+  font-size: 13px;
+  line-height: 1.55;
+  -webkit-line-clamp: 4;
+}
+.portal .card-copy .card-summary {
+  min-height: 4.65em;
+}
+.portal .pick-summary {
+  font-size: 12px;
+  line-height: 1.55;
+  -webkit-line-clamp: 3;
+}
+.portal .spotlight-summary {
+  max-width: 64ch;
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-line-clamp: 4;
+}
+/* Small categories should present each distinct game once, at a useful card width. */
+.portal .game-grid.compact-game-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.portal .game-grid.compact-game-grid[data-count="1"] {
+  grid-template-columns: minmax(0, 420px);
+}
+.portal .game-grid.compact-game-grid[data-count="2"] {
+  grid-template-columns: repeat(2, minmax(0, 420px));
+}
+@media (max-width: 960px) {
+  .portal .game-grid.compact-game-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .portal .card-summary { font-size: 12px; }
+  .portal .card-copy .card-summary { min-height: 4.65em; }
+  .portal .pick-summary { font-size: 12px; }
+  .portal .spotlight-summary { font-size: 13px; }
+  .portal .game-grid.compact-game-grid,
+  .portal .game-grid.compact-game-grid[data-count="1"],
+  .portal .game-grid.compact-game-grid[data-count="2"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

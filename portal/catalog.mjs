@@ -71,6 +71,8 @@ export const summaryFor = (game, locale) => {
   return format(localizedMetadata.templates[locale] || localizedMetadata.templates.en, {genre, devices:devices || copy.desktop});
 };
 
+export const genreIntroFor = (locale, genre, count) =>
+  format(localizedMetadata.genreIntros?.[locale]?.[genre] || copies.get(locale).genreDescription, {count});
 export const launchLanguageNoticeFor = locale => localizedMetadata.launchLanguageNotices?.[locale] || localizedMetadata.launchLanguageNotices.en;
 export function listGames(entry) {
   return entry.genre ? collections.get(entry.locale).get(entry.genre) : localeGames.get(entry.locale);
