@@ -11,6 +11,7 @@ async function translate(lines,locale){
   const url=new URL('https://translate.googleapis.com/translate_a/single');
   for(const [key,value] of Object.entries({client:'gtx',sl:'auto',tl:locale==='zh'?'zh-CN':locale,dt:'t',q:lines.join('\n')}))url.searchParams.set(key,value);
   const response=await fetch(url,{signal:AbortSignal.timeout(30000)});requests++;
+  if(response.status===429)throw new Error(`DEFERRED: Translation HTTP 429 for ${locale}; no retry; committed catalog and translations remain unchanged.`);
   if(!response.ok)throw new Error(`Translation HTTP ${response.status} for ${locale}; no immediate retry.`);
   const data=await response.json();
   if(!Array.isArray(data[0]) || data[0].some(segment=>typeof segment[0]!=='string'))throw new Error(`Invalid translation response: ${locale}`);
