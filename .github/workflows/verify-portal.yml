@@ -32,6 +32,8 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
+      - name: Verify localization failures preserve existing translations
+        run: node scripts/test-localization-fail-closed.mjs
       - name: Check guide qualification and deployment budget gates
         run: node scripts/test-portal-guide-quality.mjs && node scripts/test-portal-budget.mjs
       - name: Build and verify every language and game
