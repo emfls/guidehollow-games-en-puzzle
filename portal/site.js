@@ -59,8 +59,9 @@
 
   // Only the explicit Play action creates a third-party game frame.
   const player=$('[data-player]'),preview=$('[data-preview]'),stage=$('[data-frame-stage]'),toolbar=$('[data-player-toolbar]'),status=$('[data-player-status]'),play=$('[data-play]');
-  let frame=null;
+  let frame=null,loadTimer;
   function closeGame(focus=true){
+    clearTimeout(loadTimer);
     if(document.fullscreenElement===player)document.exitFullscreen?.().catch(()=>{});
     frame?.remove();frame=null;
     if(stage){stage.hidden=true;stage.replaceChildren();}if(preview)preview.hidden=false;if(toolbar)toolbar.hidden=true;
@@ -68,10 +69,12 @@
   }
   play?.addEventListener('click',()=>{
     if(frame||!stage||!config.game?.embedUrl)return;
+    let timedOut=false;
     const iframe=document.createElement('iframe');iframe.title=config.game.title;iframe.allow='autoplay; fullscreen; gamepad';iframe.allowFullscreen=true;iframe.referrerPolicy='strict-origin-when-cross-origin';
-    iframe.addEventListener('load',()=>{if(frame===iframe&&status)status.textContent=copy.loaded;});
-    iframe.addEventListener('error',()=>{if(status)status.textContent=copy.sourcePage;});
+    iframe.addEventListener('load',()=>{if(frame===iframe){clearTimeout(loadTimer);if(status&&!timedOut)status.textContent='';}});
+    iframe.addEventListener('error',()=>{if(frame===iframe){clearTimeout(loadTimer);if(status)status.textContent=copy.sourcePage;}});
     iframe.src=config.game.embedUrl;frame=iframe;stage.replaceChildren(iframe);stage.hidden=false;preview.hidden=true;toolbar.hidden=false;status.textContent=copy.loading;
+    loadTimer=setTimeout(()=>{if(frame===iframe&&status){timedOut=true;status.textContent=copy.sourcePage;}},15000);
     recent=[config.game.id,...recent.filter(id=>id!==config.game.id)].slice(0,50);write('recent',recent);iframe.focus();
   });
   $('[data-close-game]')?.addEventListener('click',()=>closeGame());
