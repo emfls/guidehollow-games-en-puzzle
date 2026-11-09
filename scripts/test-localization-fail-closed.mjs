@@ -33,5 +33,15 @@ try {
     assert.match(child.stderr, /MOCK_REQUESTS=1/, `${name} must not retry`);
     assert.equal(readFileSync(file,'utf8'),before, `${name} must not overwrite saved translations`);
   }
+  for (const game of games.slice(0, 150)) saved.games[game.id].sourceHash = 'outdated-source-hash';
+  const multiBefore = JSON.stringify(saved) + '\n';
+  writeFileSync(file, multiBefore);
+  const multiMock = join(root, 'mock-multiple-batches.mjs');
+  writeFileSync(multiMock, `let n=0;globalThis.fetch=async url=>{n++;if(n>1)return {ok:false,status:429};const lines=new URL(url).searchParams.get('q').split('\\n');return {ok:true,status:200,json:async()=>[[[lines.map((_,i)=>'테스트 번역 '+i).join('\\n')]]]}};process.on('exit',()=>console.error('MOCK_REQUESTS='+n));`);
+  const multi = spawnSync(process.execPath, ['--import', multiMock, script, 'ko'], {cwd:root, encoding:'utf8', timeout:30000});
+  assert.equal(multi.status,1);
+  assert.match(multi.stderr,/MOCK_REQUESTS=2/);
+  assert.match(multi.stderr,/DEFERRED: Translation HTTP 429/);
+  assert.equal(readFileSync(file,'utf8'),multiBefore,'later failure must not write an earlier successful batch');
   console.log('PASS 429, network error and malformed output: one request, fail closed, prior data retained');
 } finally { rmSync(root,{recursive:true,force:true}); }

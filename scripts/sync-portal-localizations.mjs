@@ -6,6 +6,7 @@ import {sourceSummary,needsTranslationRepair} from '../portal/localization.mjs';
 const directory='portal/locales/catalog';
 mkdirSync(directory,{recursive:true});
 let stopped=false,requests=0;
+const stagedWrites=new Map();
 async function translate(lines,locale){
   if(stopped)throw new Error('Translation stopped after an earlier failure.');
   const url=new URL('https://translate.googleapis.com/translate_a/single');
@@ -48,7 +49,7 @@ async function worker(){
         saved.games[game.id]=record;
       }
       saved.updatedAt=new Date().toISOString();
-      writeFileSync(path+'.tmp',JSON.stringify(saved)+'\n');renameSync(path+'.tmp',path);
+      stagedWrites.set(path,JSON.stringify(saved)+'\n');
       done+=batch.length;
       if(done%200<batch.length || !missing.length)console.log(`${locale}: translated ${done}, remaining ${missing.length}, requests ${requests}`);
       await delay(900);
@@ -56,5 +57,8 @@ async function worker(){
     if(!stopped)console.log(`${locale}: complete ${games.length} records`);
   }
 }
-try{await Promise.all(Array.from({length:1},()=>worker().catch(error=>{stopped=true;throw error;})));}
+try{
+  await Promise.all(Array.from({length:1},()=>worker().catch(error=>{stopped=true;throw error;})));
+  for(const [path,content] of stagedWrites){writeFileSync(path+'.tmp',content);renameSync(path+'.tmp',path);}
+}
 catch(error){console.error(error.message);process.exitCode=1;}
