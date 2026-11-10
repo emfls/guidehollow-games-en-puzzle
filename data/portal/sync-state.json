@@ -2,13 +2,11 @@
   "schemaVersion": 1,
   "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
   "lastAcceptedSnapshot": {
-    "fetchedAt": "2026-11-07T15:33:08.103Z",
+    "fetchedAt": "2026-11-10T02:44:15.148Z",
     "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
-    "totalCount": 2846,
-    "contentHash": "2ba4b81eb1e8e6c3515c157a33501c417735f9b7e9e09d757670c44cddedcd4f"
+    "totalCount": 2858,
+    "contentHash": "b21de4127f80b1dedf0a86db9e74184dea3e5d49685455816cdb8658423eb138"
   },
-  "availabilityMeaning": "Listed in the last accepted complete export. No provider active/deleted flag is exposed.",
-  "tombstones": [],
   "sourceProviderIds": [
     "1",
     "10",
@@ -2452,6 +2450,7 @@
     "127301",
     "127303",
     "127306",
+    "127316",
     "127318",
     "127321",
     "127327",
@@ -2487,6 +2486,17 @@
     "127429",
     "127430",
     "127434",
+    "127441",
+    "127442",
+    "127445",
+    "127449",
+    "127450",
+    "127455",
+    "127457",
+    "127465",
+    "127468",
+    "127479",
+    "127480",
     "13",
     "14",
     "15",
@@ -2856,5 +2866,7 @@
     "99744",
     "99747",
     "99749"
-  ]
+  ],
+  "availabilityMeaning": "Listed in the last accepted complete export. No provider active/deleted flag is exposed.",
+  "tombstones": []
 }
