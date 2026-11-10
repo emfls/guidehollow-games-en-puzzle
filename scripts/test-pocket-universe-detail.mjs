@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {byId,isIndexable} from '../portal/catalog.mjs';
+import {detailFor} from '../portal/details.mjs';
+import {renderPortal} from '../portal/render.mjs';
+const game=byId.get('pocket-universe');
+assert.ok(game.locales.includes('ko'),'Korean is a supported game locale');
+const detail=detailFor(game,'ko');
+assert.match(detail.instructions,/조이스틱/,'Korean instructions include the provider-confirmed movement input');
+assert.match(detail.instructions,/수정/,'Korean instructions explain resource collection');
+assert.match(detail.instructions,/도구/,'Korean instructions explain what resources are used for');
+assert.ok(!detailFor({...game,sourceHash:'stale-fixture'},'ko').instructions.includes('조이스틱'),'A changed provider source invalidates the reviewed instructions');
+assert.equal(isIndexable({type:'game',id:game.id,locale:'ko'}),false,'A factual detail must not silently expand indexability');
+const html=renderPortal({type:'game',id:game.id,locale:'ko',path:'/ko/play/pocket-universe/'});
+assert.match(html,/<details class="provider-description">[\s\S]*?<div lang="en">/, 'Reviewed translation retains the original provider text and language');
+const guided=renderPortal({type:'game',id:'click-click-clicker-playgama',locale:'ko',path:'/ko/play/click-click-clicker-playgama/'});
+assert.doesNotMatch(guided,/<details class="provider-description">/, 'Existing editorial guides retain their original presentation');
+console.log('PASS Korean provider-backed controls and source freshness');
