@@ -8,6 +8,7 @@ const detail=detailFor(game,'ko');
 assert.match(detail.instructions,/조이스틱/,'Korean instructions include the provider-confirmed movement input');
 assert.match(detail.instructions,/수정/,'Korean instructions explain resource collection');
 assert.match(detail.instructions,/도구/,'Korean instructions explain what resources are used for');
+assert.match(detail.instructions,/싸우며/,'Provider-confirmed combat is preserved');
 assert.ok(!detailFor({...game,sourceHash:'stale-fixture'},'ko').instructions.includes('조이스틱'),'A changed provider source invalidates the reviewed instructions');
 assert.equal(isIndexable({type:'game',id:game.id,locale:'ko'}),false,'A factual detail must not silently expand indexability');
 const html=renderPortal({type:'game',id:game.id,locale:'ko',path:'/ko/play/pocket-universe/'});
