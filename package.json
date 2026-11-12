@@ -12,7 +12,7 @@
     "build:portal": "node scripts/prepare-portal-assets.mjs && astro build --config astro.portal.config.mjs && node scripts/verify-portal.mjs",
     "preview": "astro preview --config astro.portal.config.mjs --host 0.0.0.0",
     "check": "node scripts/verify-portal.mjs",
-    "test:client": "node scripts/test-portal-client.mjs",
+    "test:client": "node scripts/test-launch-note.mjs && node scripts/test-portal-client.mjs",
     "sync": "node scripts/sync-portal-catalog.mjs",
     "indexnow": "node scripts/notify-portal-indexnow.mjs",
     "build:legacy": "node scripts/prepare-assets.mjs && astro build --config astro.config.mjs && node scripts/verify-build.mjs",
