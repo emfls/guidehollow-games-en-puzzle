@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
   "lastAcceptedSnapshot": {
-    "fetchedAt": "2026-11-10T02:44:15.148Z",
+    "fetchedAt": "2026-11-12T01:53:58.012Z",
     "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
-    "totalCount": 2858,
-    "contentHash": "b21de4127f80b1dedf0a86db9e74184dea3e5d49685455816cdb8658423eb138"
+    "totalCount": 2890,
+    "contentHash": "f0eae8dbe1668c74455ae97991593172f8645891f7fe15cb64a9e3678b6a1a41"
   },
   "sourceProviderIds": [
     "1",
@@ -2323,7 +2323,6 @@
     "126908",
     "126909",
     "126920",
-    "126922",
     "126923",
     "126947",
     "126952",
@@ -2497,6 +2496,39 @@
     "127468",
     "127479",
     "127480",
+    "127487",
+    "127488",
+    "127493",
+    "127502",
+    "127506",
+    "127511",
+    "127512",
+    "127515",
+    "127522",
+    "127527",
+    "127537",
+    "127541",
+    "127546",
+    "127549",
+    "127551",
+    "127552",
+    "127553",
+    "127554",
+    "127557",
+    "127558",
+    "127562",
+    "127564",
+    "127565",
+    "127572",
+    "127573",
+    "127574",
+    "127575",
+    "127576",
+    "127577",
+    "127582",
+    "127583",
+    "127588",
+    "127592",
     "13",
     "14",
     "15",
@@ -2868,5 +2900,18 @@
     "99749"
   ],
   "availabilityMeaning": "Listed in the last accepted complete export. No provider active/deleted flag is exposed.",
-  "tombstones": []
+  "tombstones": [
+    {
+      "providerId": "126922",
+      "id": "kindlemere",
+      "slug": "kindlemere",
+      "status": "unlisted-from-complete-provider-snapshot",
+      "providerDeleted": null,
+      "firstSeenAt": "2026-11-07T15:15:50.084520+00:00",
+      "changedAt": "2026-11-07T15:15:50.084520+00:00",
+      "lastListedSnapshotAt": "2026-11-10T02:44:15.148Z",
+      "unlistedAt": "2026-11-12T01:53:58.012Z",
+      "sourceHash": "8a8b1ce1aeac49162d65942dd8cf507f95da341a59b520076998f4621ad0e92f"
+    }
+  ]
 }
