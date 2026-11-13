@@ -1,3 +1,4 @@
+import './test-pocket-universe-detail.mjs';
 import assert from 'node:assert/strict';
 import {games,localeIds,editorial,summaryFor,isIndexable,copies,titleFor} from '../portal/catalog.mjs';
 import {detailFor,sourcePlainText,sourceSignals,sourceLanguageFor} from '../portal/details.mjs';
