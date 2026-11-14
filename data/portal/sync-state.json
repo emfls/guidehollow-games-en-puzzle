@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
   "lastAcceptedSnapshot": {
-    "fetchedAt": "2026-11-13T01:03:59.402Z",
+    "fetchedAt": "2026-11-14T00:52:49.106Z",
     "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
-    "totalCount": 2906,
-    "contentHash": "e758f734d7332f6af771fe886a0b2c71cd38b179d5b12ae437d580a2035ecac5"
+    "totalCount": 2917,
+    "contentHash": "1de8c81d7cbf2bd6b0722e5c0cb208ca3f7c2de2aef774c3c8d1f1b2e8259d3e"
   },
   "sourceProviderIds": [
     "1",
@@ -2545,6 +2545,17 @@
     "127654",
     "127659",
     "127662",
+    "127666",
+    "127671",
+    "127675",
+    "127677",
+    "127678",
+    "127680",
+    "127684",
+    "127692",
+    "127696",
+    "127698",
+    "127699",
     "13",
     "14",
     "15",
