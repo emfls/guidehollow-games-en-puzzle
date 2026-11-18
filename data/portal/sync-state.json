@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
   "lastAcceptedSnapshot": {
-    "fetchedAt": "2026-11-17T02:55:10.069Z",
+    "fetchedAt": "2026-11-18T02:25:01.527Z",
     "source": "https://widgets.playgama.com/api/v1/partner/export/catalogue/games",
-    "totalCount": 2937,
-    "contentHash": "b2b3bba568b5fb01f054024a1b2ed745a5e0d717b2fc31dc71efb8026edec868"
+    "totalCount": 2952,
+    "contentHash": "bbb0ae4373ef493519ab58af659ebc97ec225915e88ae557c2e08e92ffd2e12b"
   },
   "sourceProviderIds": [
     "1",
@@ -2113,7 +2113,6 @@
     "126230",
     "126231",
     "126233",
-    "126238",
     "126242",
     "126244",
     "126254",
@@ -2576,6 +2575,22 @@
     "127747",
     "127748",
     "127763",
+    "127764",
+    "127768",
+    "127769",
+    "127774",
+    "127776",
+    "127777",
+    "127782",
+    "127784",
+    "127785",
+    "127786",
+    "127789",
+    "127794",
+    "127795",
+    "127798",
+    "127806",
+    "127808",
     "13",
     "14",
     "15",
@@ -2983,6 +2998,18 @@
       "lastListedSnapshotAt": "2026-11-14T23:53:46.721Z",
       "unlistedAt": "2026-11-17T02:55:10.069Z",
       "sourceHash": "724da58675ea39fa84fdba3fc515b42cdcaff20a4e1273618bfbfedbea22f85b"
+    },
+    {
+      "providerId": "126238",
+      "id": "sort-them-cars-sorting-simulator",
+      "slug": "sort-them-cars-sorting-simulator",
+      "status": "unlisted-from-complete-provider-snapshot",
+      "providerDeleted": null,
+      "firstSeenAt": "2026-11-07T15:15:50.084520+00:00",
+      "changedAt": "2026-11-12T01:53:58.012Z",
+      "lastListedSnapshotAt": "2026-11-17T02:55:10.069Z",
+      "unlistedAt": "2026-11-18T02:25:01.527Z",
+      "sourceHash": "f598c0f5da8f44706fd060a20f9fa550c4ff39c49c3f57d2947c08e98b31498c"
     },
     {
       "providerId": "126922",
